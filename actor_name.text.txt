@@ -1,0 +1,898 @@
+actor_name.text was created: 2023/1/13 20:39:36
+Filesize is: 44480 bytes
+
+Enemy
+Group 0
+r01_gd_flo_wi - フワン
+r01_gd_pyc_ba - ティノス
+r01_gd_sol_sw - ペダス・ソード
+r01_gd_sol_swld - ペダクス・ソード
+r01_gd_sol_ri - ペダス・ガン
+r01_gd_sol_rild - ペダクス・ガン
+r01_gd_sol_ax - ペダス・アックス
+r01_gd_sol_axld - ペダクス・アックス
+r01_gd_sol_lu - ペダス・ランチャー
+r01_gd_sol_luld - ペダクス・ランチャー
+r01_gd_gor_ba - ゴロロン
+r01_gd_gor_bald - ゴロロクス
+r01_gd_for_ba - ドッツ
+r01_gd_box_ba - ナグルス
+r01_gd_phe_ba - オルク
+r01_gd_ktn_ba - ブジン
+r01_gd_mag_ba - ヴァラス
+r01_gd_dra_ba - ネクス・エアリオ
+r01_gd_dra_rai - ネクス・ヴェラ
+r01_gd_gia_sw - ダイダル・ソード
+r01_gd_gia_ax - ダイダル・アックス
+r01_gd_sol_rai - ペダス・ヴェラ
+r01_gd_god_1 - ？？？？？
+r01_nat_monki_ba - ウーダン・ロア
+r01_nat_month_ba - ザウーダン・ロア
+r01_nat_wol_sm - ガルフ・ロア
+r01_nat_wol_bi - フォンガルフ・ロア
+r01_nat_bir_ba - アギニス・ロア
+r01_nat_armma_ba - ガラガロンゴ
+r01_nat_bea_ba - クラッグベア
+r01_nat_fan_m - アードバンサー
+r01_nat_fan_f - アードバンシー
+r01_nat_fan_thum - サンダバンサー
+r01_nat_fan_thuf - サンダバンシー
+r01_unk_rap_ba - ラッピー
+r01_alt_hrp_ba - エヴィルアンジェ
+r01_alt_lzd_fl - リザド・フレイ
+r01_alt_lzd_sn - リザド・アイス
+r01_alt_lzd_th - リザド・サンダ
+r01_alt_der_ba - ヘルーク
+r01_alt_hog_ba - バインホッグ
+r01_alt_cli_ba - チアキュリオ
+r01_alt_wlf_ba - ワウロン
+r01_alt_flg_ba - ビグフロッガ
+r01_alt_tis_ba - エルディサイズ
+r01_ani_rbt_w - サニィ
+r01_ani_rbt_b - ムーニィ
+r01_ani_sli_a - オタリカ
+r01_ani_ush_a - モォベル
+r01_ani_ush_b - タウベル
+r01_ani_boa_a - ノッシ
+r01_ani_kit_a - フォクス
+r01_ani_moo_a - ディアン
+r01_ani_bir_s - -
+r01_ani_brs_a - パット
+r01_ani_bir_b - バーディ
+r01_ani_bir_yz - フランゴ
+r01_non_dro_a - ドローム
+r01_unk_rap_9av - セレモ・ラッピー
+r01_unk_rap_ea - フルル・ラッピー
+r01_gd_sol_swbo - ボムス・ソード
+r01_gd_sol_swbold - ボムクス・ソード
+r01_gd_sol_ribo - ボムス・ガン
+r01_gd_sol_ribold - ボムクス・ガン
+r01_gd_ins_ba - デストラグラス
+r01_unk_rap_mo - ツキミ・ラッピー
+r01_unk_rap_ha - サイズ・ラッピー
+r02_gd_flo_th - サンドフワン
+r02_gd_pyc_ba - サンドティノス
+r02_gd_gos_ba - サンドコロン
+r02_gd_sol_sw - デザス・ソード
+r02_gd_sol_ri - デザス・ガン
+r02_gd_sol_lu - デザス・ランチャー
+r02_gd_sol_gs - デザス・スラッシュ
+r02_gd_gor_ba - サンドロロン
+r02_gd_gor_bald - サンドロロクス
+r02_gd_for_ba - サンドッツ
+r02_gd_bra_ba - ブランクル
+r02_gd_mtl_ba - メティウス
+r02_gd_box_ba - サンドナグルス
+r02_gd_phe_ba - サンドオルク
+r02_gd_sip_ba - リゼントス
+r02_gd_cas_mi - フォートス・ランチャー
+r02_gd_cas_el - フォートス・レーザー
+r02_gd_kic_ba - ケルクンド
+r02_gd_sna_ba - レヌス・リテム
+r02_gd_sna_rai - レヌス・ヴェラ
+r02_gd_gia_hm - スナイダル・ハンマー
+r02_gd_gia_rai - スナイダル・ヴェラ
+r02_alt_sin_ba - マミィドッグ
+r02_alt_dwf_ba - サヴァルーク
+r02_alt_dks_ba - ケロゲロ
+r02_alt_hrp_ba - サヴァルアンジェ
+r02_alt_snk_ba - ガラスネッグ
+r02_alt_tkm_ba - ラフィンベアル
+r02_alt_tig_ba - クロウパー
+r02_alt_dvs_ba - バブルクラッブ
+r02_ani_rbt_a - ラムルサニィ
+r02_ani_bis_a - ラムルパット
+r02_ani_bis_b - ラムルパッティ
+r02_ani_bir_b - ラムルバーディ
+r02_ani_sli_a - ラムルオタリカ
+r02_ani_kit_a - ラムルフォクス
+r02_ani_cam_a - キャメリオ
+r02_ani_cam_b - キャメリア
+r02_ani_hip_a - ピポタン
+r02_ani_hip_b - ヒポッコ
+r02_ani_boa_a - ラムルノッシ
+r01_unk_rap_ch - トナ・ラッピー
+r02_gd_god2_ba - ダークファルス
+r03_gd_flo_th - スノウフワン
+r03_gd_pyc_ba - スノウティノス
+r03_gd_tyu_ba - ジャンゲス
+r03_gd_sol_sw - ザムス・ソード
+r03_gd_sol_ri - ザムス・ガン
+r03_gd_sol_lu - ザムス・ランチャー
+r03_gd_sol_gs - ザムス・スラッシュ
+r03_gd_gor_ba - スノウロロン
+r03_gd_gor_bald - スノウロロクス
+r03_gd_for_ba - フリッツ
+r03_gd_bkt_ba - リンシャン
+r03_gd_abn_ba - プロクタス・エアル
+r03_gd_abn_ba2 - プロクタス・リテナ
+r03_gd_hum_cl - アムス・クローネ
+r03_gd_phe_ba - スノルク
+r03_gd_wic_ba - レリーヌ
+r03_gd_pan_ba - パンゴラン
+r03_gd_gia_ice - レイダル・ソード
+r03_gd_tur_ba - クロコダラス
+r03_gd_tur_rai - クロコダラス・ヴェラ
+r03_gd_hum_ba - アムス・クヴァリス
+r03_gd_hum_rai - アムス・ヴェラ
+r02_gd_god2_ex - ダークファルス
+r03_alt_sin_ba - チルディドッグ
+r03_alt_sin_ba2 - フリージドッグ
+r03_alt_dks_ba - ヒエルゲロ
+r03_alt_dks_ba2 - チベタゲロ
+r03_alt_wlf_ba - チルディロン
+r03_alt_wlf_ba2 - フリージロン
+r03_alt_cli_ba - チルディキュリオ
+r03_alt_cli_ba2 - フリージキュリオ
+r03_alt_hog_ba - チルディンホッグ
+r03_alt_hog_ba2 - フリージンホッグ
+r03_alt_snk_ba - チルディスネッグ
+r03_alt_snk_ba2 - フリージスネッグ
+r03_alt_tig_ba - チルディロウパー
+r03_alt_tig_ba2 - フリージロウパー
+r03_alt_tao_ba - マーカライド
+r03_ani_rbt_a - ルミィサニィ
+r03_ani_bis_a - ルミィパット
+r03_ani_bir_a - ルミィバーディ
+r03_ani_sli_a - ルミィオタリカ
+r03_ani_kit_a - ルミィフォクス
+r03_ani_rei_a - ポロロ
+r03_ani_fih_a - コマンタ
+r03_non_rob_a - ホーバック
+r01_unk_emp_ba - エンペ・ラッピー
+r01_unk_emp_babi - グレト・ラッピー
+r01_unk_emp_10av - セレモ・エンペラッピー
+r01_unk_emp_10avbi - セレモ・グレトラッピー
+r02_gd_kpy_ba - イクサブジン
+r02_alt_cli_ba - サヴァキュリオ
+r02_alt_wlf_ba - サヴァウロン
+r02_alt_tis_ba - サヴディサイズ
+r01_unk_rap_wi - ノルディ・ラッピー
+r02_alt_hog_ba - サヴァインホッグ
+r02_nat_gdn_ba - ガーディナン・ロア
+r02_nat_wol_sm - ガルフ・デロア
+r02_nat_wol_bi - フォンガルフ・デロア
+r02_nat_bir_ba - アギニス・デロア
+r02_nat_gma_ba - スパルダンＡ・ロア
+r02_nat_gma_gu - スパルガン・ロア
+r02_nat_gma_bo - スパルザイル・ロア
+r02_nat_armma_ba - アルマロンゴ
+r02_nat_can_gu - シグノガン・ロア
+r02_nat_zmr_rs - ギルナッチ・ロア
+r02_nat_hmc_ba - ディンゲール・ロア
+r02_nat_bea_ba - デューンベア
+r01_nat_fan_tmsp - サンダバンサー
+r02_nat_trf_ba - グランマイザー
+r01_unk_tan_ba - カプタン
+r01_unk_rap_1ng - アニバ・ラッピー
+r03_nat_bea_mon - イエーデ・ロア
+r03_nat_wol_sm - ガルフル・ロア
+r03_nat_wol_bi - ファンガルフル・ロア
+r03_nat_bir_ba - アギニス・ザロア
+r03_nat_armma_ba - ブリザロンゴ
+r03_nat_bea_ice - ケーニヒスイエーデ
+r03_nat_fan_icem - アイスバンサー
+r03_nat_fan_icef - アイスバンシー
+r03_alt_hog_sm - チルディンヘッジ
+r03_alt_hog_sm2 - フリージンヘッジ
+r03_alt_tao_ba2 - マーカライダ
+r01_nat_bea_robi - ロックベア・ジオ
+r03_gd_mrt_ba - リモータス
+r04_gd_zrf_ba - ニルス・スティア
+r04_gd_zrf_rai - ニルス・ヴェラ
+r01_gd_dra_cm - ネクス
+r04_gd_flo_fl - ラーヴァフワン
+r04_gd_pyc_ba - ラーヴァティノス
+r03_nat_mam_sm - マルモス・ロア
+r03_nat_mam_de - ゾ・マルモス
+r03_gd_ksg_ba - ヴァーディアス
+r03_gd_rkt_ba - ビッツ
+r04_gd_mtl_ba - ラーヴァメティウス
+r04_gd_leg_ba - ストラディス
+r04_gd_sip_ba - ブレゼントス
+r04_ani_rbt_a - フラムサニィ
+r04_ani_brs_a - フラムパット
+r04_ani_bir_a - フラムバーディ
+r04_ani_sli_a - フラムオタリカ
+r04_ani_kit_a - フラムフォクス
+r04_ani_rei_a - フラムポロロ
+r04_ani_fih_a - フラムコマンタ
+r04_alt_bat_ba - フレイレイ
+r04_alt_bat_ba2 - サンダレイ
+r04_alt_chk_ba - コワードリ
+r04_alt_crb_ba - バサルピオン
+r04_alt_nod_ba - スラグヘッド
+r04_alt_shp_ba - ロックハウンド
+r04_alt_shp_ba2 - シュタインハウンド
+r04_alt_slm_ba - ボワークロウル
+r04_alt_slm_th - ビガークロウル
+r04_alt_tat_ba - クリスナクル
+r04_alt_vdr_ba - ダークレムナス
+r04_alt_vdr_ba2 - ボルトレムナス
+r04_gd_mog_ba - ドルドリス
+r04_gd_mog_rai - ドルドリス・ヴェラ
+r04_gd_nyb_ba - エンゴウク
+r04_gd_pun_ba - ブースタス
+r04_gd_sol_ax - ガザス・アックス
+r04_gd_sol_ri - ガザス・ガン
+r04_gd_sol_lu - ガザス・ランチャー
+r04_gd_sol_gs - ガザス・スラッシュ
+r04_gd_gor_ba - ラーヴァロロン
+r04_gd_gor_bald - ラーヴァロロクス
+r04_gd_for_ba - ヴァニッツ
+r04_gd_akm_ba - ダークマギルス
+r02_gd_kic_wi - ケルクンド
+r01_gd_ktn_wi - ブジン
+r04_gd_box_ba - ブレズナグルス
+r03_gd_sol_swbo - ボルザムス・ソード
+r03_gd_sol_ribo - ボルザムス・ガン
+r01_unk_emp_mo - ツキミ・エンペラッピー
+r01_unk_emp_mobi - ツキミ・グレトラッピー
+r01_gd_dra_old - ネクス・エアリオ
+r01_unk_emp_atm - ヤオロ・エンペラッピー
+r01_unk_emp_atmbi - ヤオロ・グレトラッピー
+r01_unk_tan_kn - キングカプタン
+r04_alt_nod_ba2 - マッグヘッド
+r04_alt_wlf_ba - ダスクロン
+r04_alt_tis_ba - ダスクディサイズ
+r04_alt_dvs_ba - ダスククラッブ
+r04_alt_tkm_ba - グリンベアル
+r04_nat_armma_ba - ヴォルガロンゴ
+r01_unk_rap_atm - ヤオロ・ラッピー
+r04_nat_rpt_ba - ディッグ・ロア
+r04_nat_frp_sh - ソル・ディガーラ・ロア
+r04_nat_dwl_sm - ノーディラン・ロア
+r04_nat_dwl_ba - フォードラン・ロア
+r04_nat_dbt_ba - バリドラン・ロア
+r04_gd_gia_fl - フレイダル・ソード
+r04_nat_bea_ba - ヴォルグベア
+r04_nat_gdn_ba - ガーディナン・ヴォロア
+r04_nat_wol_sm - ガルフ・ヴォロア
+r04_nat_wol_bi - フォンガルフ・ヴォロア
+r04_nat_bir_ba - アギニス・ヴォロア
+r04_nat_gma_ba - スパルダンＡ・ヴォロア
+r04_nat_gma_gu - スパルガン・ヴォロア
+r04_nat_can_gu - シグノガン・ヴォロア
+r01_unk_emp_ch - セント・エンペラッピー
+r04_non_scr_a - スカウトワスプ
+r04_non_trt_a - ビーハイヴＥ
+r01_unk_emp_chbi - セント・グレトラッピー
+r01_unk_emp_wi - ノルディ・エンペラッピー
+r01_unk_emp_wibi - ノルディ・グレトラッピー
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+EnemyTitle
+Group 0
+EnemyTitleRareEnemyGti - 金色の
+EnemyTitleRareEnemySti - 白銀の
+EnemyTitleStrongEnemy - 絶望の
+EnemyTitleRegionBossEnemy - 老練の
+EnemyTitleHighRankEnemy - 精鋭の
+EnemyTitleSeasonEaster1 - 花舞の
+EnemyTitleSeasonAnnivNGS1 - 煌星の
+EnemyTitleFrozenAncientEnemy - 遠世の
+EnemyTitleSeasonMoon1 - 往古の
+EnemyTitleSeasonWinter1 - 雪花の
+EnemyTitleMobileForceEnemy - 絶望の
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+EnemySpecies
+Group 0
+All - いずれかのエネミー
+Generic - エネミー
+God - ドールズ
+Alter - アルターズ
+Another - 超時空
+Animal - テイムズ
+Natural - フォーマーズ
+Independent - 所属なし
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+PA
+Group 0
+SwordPA01 - スパイラルエッジ
+SwordPA02 - ツイストザッパー
+SwordPA03 - ストリークキャリバー
+WlancePA01 - カッティングレイヤー
+WlancePA02 - ヴェインミクスチャー
+WlancePA03 - タービュランストレイン
+PartisanPA01 - サイズリッパー
+PartisanPA02 - スタッブジャベリン
+PartisanPA03 - フェイタルトルネード
+TdaggerPA01 - ヴァルチャーモーメント
+TdaggerPA02 - ヘルズエスコート
+TdaggerPA03 - ピルエットリッパー
+DsaberPA01 - ジュリーエンダンス
+DsaberPA02 - アンチェインサークル
+DsaberPA03 - クイックガッシュ
+KnucklePA01 - スウィフトラッシュ
+KnucklePA02 - サウザンドブロウ
+KnucklePA03 - トライドライブ
+RiflePA01 - レイジングショット
+RiflePA02 - ホーミングダート
+RiflePA03 - ブレイズショット
+LauncherPA01 - フォールンインパクト
+LauncherPA02 - フィアーイレイザー
+LauncherPA03 - マルチプルローンチ
+MachinegunPA01 - バレットレイヴ
+MachinegunPA02 - エイムレスレイン
+MachinegunPA03 - クロースバレット
+Fire01 - フォイエ
+Fire02 - ギ・フォイエ
+Ice01 - バータ
+Ice02 - ギ・バータ
+Thunder01 - ゾンデ
+Thunder02 - ギ・ゾンデ
+Wind01 - ザン
+Wind02 - ギ・ザン
+Light01 - グランツ
+Light02 - ギ・グランツ
+Dark01 - メギド
+Dark02 - ギ・メギド
+WandPA01 - ラピッドスマッシュ
+WandPA02 - ウェーブヒット
+TalisPA01 - パーフォレイトシュート
+TalisPA02 - スプレッドフェザー
+KatanaPA01 - ハヤテツワブキ
+KatanaPA02 - アヤメレップウ
+KatanaPA03 - フヨウテンライ
+CompoundBowPA01 - フレックスアロウ
+CompoundBowPA02 - フレンジースクイブ
+CompoundBowPA03 - ディメンショナルレイ
+JetBootsPA01 - スピニングガスト
+JetBootsPA02 - ヴァイオレントゲイル
+JetBootsPA03 - フィアースウェイヴ
+DbladePA01 - ストークディストラクション
+DbladePA02 - ハリアーランページ
+DbladePA03 - ローリングフェザント
+SwordPA04 - リレントレスクリーヴ
+WlancePA04 - ヘリッシュフォール
+PartisanPA04 - トライアンフシフト
+TdaggerPA04 - リンバーフィガー
+DsaberPA04 - スカイクライム
+KnucklePA04 - バックハンドストライク
+RiflePA04 - リヴォルトエイム
+LauncherPA04 - ディバインインパクト
+MachinegunPA04 - インフィニットリコシェ
+KatanaPA04 - ヒュウガセンダン
+CompoundBowPA04 - シースレスドロー
+JetBootsPA04 - サージングインパルス
+DbladePA04 - レイヴィングファルコン
+TaktPA01 - フレドランブレス
+TaktPA02 - フレドランライディング
+TaktPA03 - ヴォルファーデモリション
+TaktPA04 - ヴォルファーレイド
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+PAExplanation
+Group 0
+SwordPA01 - “大剣（ソード）”用のフォトンアーツ。<br>回転しながら上昇し、縦方向に斬撃を放つ。<br>チャージすることで、威力が上昇する。
+SwordPA02 - “大剣（ソード）”用のフォトンアーツ。<br>回転しながら、横方向に斬撃を放つ。<br>チャージすることで、スピン回数が増加する。
+SwordPA03 - “大剣（ソード）”用のフォトンアーツ。<br>強力な一閃をくりだす。<br>発動後、さらにPAボタンを押すことで、<br>最大３回攻撃が発生する。<br>また、チャージすることで、<br>それぞれのヒット回数が増加する。
+WlancePA01 - “自在槍（ワイヤードランス）”用のフォトンアーツ。<br>前方に、広範囲の連続攻撃をくりだす。
+WlancePA02 - “自在槍（ワイヤードランス）”用のフォトンアーツ。<br>激しく回転しながら、周囲のエネミーを切り刻んだ後、<br>強力な一撃を放つ。<br>移動しながら攻撃することもできる。
+WlancePA03 - “自在槍（ワイヤードランス）”用のフォトンアーツ。<br>激しく回転しながら、縦方向の斬撃を放つ。
+PartisanPA01 - “長槍（パルチザン）”用のフォトンアーツ。<br>前方を、素早く薙ぎ払う。<br>チャージすることで、攻撃の挙動が変化する。
+PartisanPA02 - “長槍（パルチザン）”用のフォトンアーツ。<br>突き攻撃の後、エネミーに武器を投擲する。<br>PAボタンを長押しすることで、<br>PPが切れるまで突き攻撃をした後、投擲を行う。
+PartisanPA03 - “長槍（パルチザン）”用のフォトンアーツ。<br>武器を回転させて、周囲のエネミーを攻撃する。<br>チャージすることで、攻撃の挙動が変化する。
+TdaggerPA01 - “双小剣（ツインダガー）”用のフォトンアーツ。<br>回転しながらエネミーに接近し、素早い連撃を放つ。
+TdaggerPA02 - “双小剣（ツインダガー）”用のフォトンアーツ。<br>前方に突進した後、衝撃波を放つ。
+TdaggerPA03 - “双小剣（ツインダガー）”用のフォトンアーツ。<br>素早い刺突の後、無数の刃でエネミーを切り刻む。
+DsaberPA01 - “両剣（ダブルセイバー）”用のフォトンアーツ。<br>素早くエネミーに接近し、連撃を放つ。<br>発動時に、カマイタチが発生する。
+DsaberPA02 - “両剣（ダブルセイバー）”用のフォトンアーツ。<br>武器を投げて、周囲のエネミーを攻撃した後、<br>戻ってきた武器で、さらに薙ぎ払いを行う。<br>発動時に、カマイタチが発生する。
+DsaberPA03 - “両剣（ダブルセイバー）”用のフォトンアーツ。<br>素早い横薙ぎの後、後退しながら、竜巻を発生させる。<br>発動時に、カマイタチが発生する。
+KnucklePA01 - “鋼拳（ナックル）”用のフォトンアーツ。<br>左右に拳をくりだした後、強力な一撃を放つ。
+KnucklePA02 - “鋼拳（ナックル）”用のフォトンアーツ。<br>無数の拳をくりだした後、強力なアッパーを放つ。
+KnucklePA03 - “鋼拳（ナックル）”用のフォトンアーツ。<br>拳をくりだしながら、前方に突進した後、<br>強力な連撃を放つ。
+RiflePA01 - “長銃（アサルトライフル）”用のフォトンアーツ。<br>エネミーに命中すると、爆発する弾を放つ。<br>チャージすることで、エネミーを貫通する<br>螺旋弾に変化する。
+RiflePA02 - “長銃（アサルトライフル）”用のフォトンアーツ。<br>チャージすることで、視界に捉えた複数のエネミーを<br>追尾する特殊弾を放つ。
+RiflePA03 - “長銃（アサルトライフル）”用のフォトンアーツ。<br>回避動作の後、速射を行う。<br>PAボタンを長押しすることで、<br>PPが切れるまで攻撃を続ける。
+LauncherPA01 - “大砲（ランチャー）”用のフォトンアーツ。<br>前方に、爆発弾を降らせる。
+LauncherPA02 - “大砲（ランチャー）”用のフォトンアーツ。<br>前方に、強力な光線を放つ。<br>PAボタンを長押しすることで、<br>PPが切れるまで攻撃を続け、<br>一定時間継続すると、追加攻撃が発生する。
+LauncherPA03 - “大砲（ランチャー）”用のフォトンアーツ。<br>爆発弾を連続して発射し、最後に強力な一撃を放つ。<br>移動しながら攻撃することもできる。
+MachinegunPA01 - “双機銃（ツインマシンガン）”用のフォトンアーツ。<br>断続的に連射を行った後、強力な集束弾を放つ。<br>チャージすることで、威力が上昇する。
+MachinegunPA02 - “双機銃（ツインマシンガン）”用のフォトンアーツ。<br>激しく回転しながら、<br>周囲のエネミーに弾丸を浴びせかける。<br>チャージすることで、威力が上昇する。
+MachinegunPA03 - “双機銃（ツインマシンガン）”用のフォトンアーツ。<br>素早くエネミーに接近し、強力な弾丸を叩き込む。<br>チャージすることで、威力が上昇する。
+Fire01 - 炎属性のテクニック。<br>前方に、火球を放つ。<br>チャージすることで、攻撃の挙動が変化する。
+Fire02 - 炎属性のテクニック。<br>自身の周囲に、炎の渦を発生させる。<br>チャージすることで、攻撃の挙動が変化する。
+Ice01 - 氷属性のテクニック。<br>前方に、氷弾を放つ。<br>チャージすることで、威力が上昇する。
+Ice02 - 氷属性のテクニック。<br>前方に、氷の刃を発生させる。<br>チャージすることで、威力が上昇する。
+Thunder01 - 雷属性のテクニック。<br>前方に、雷を落とす。<br>チャージすることで、威力が上昇する。
+Thunder02 - 雷属性のテクニック。<br>空中に、球状のエネルギー体を放ち、<br>範囲内のエネミー単体に断続的に雷撃を行う。<br>チャージすることで、攻撃の挙動が変化する。
+Wind01 - 風属性のテクニック。<br>前方に、風の刃を放つ。<br>チャージすることで、攻撃の挙動が変化する。
+Wind02 - 風属性のテクニック。<br>前方に、竜巻を発生させる。<br>チャージすることで、威力が上昇する。
+Light01 - 光属性のテクニック。<br>前方に、光の剣を落とす。<br>チャージすることで、攻撃の挙動が変化する。
+Light02 - 光属性のテクニック。<br>自身の周囲を、光の剣で薙ぎ払う。<br>チャージすることで、攻撃の挙動が変化する。
+Dark01 - 闇属性のテクニック。<br>前方に、闇属性のフォトン弾を放つ。<br>チャージすることで、攻撃の挙動が変化する。
+Dark02 - 闇属性のテクニック。前方に、<br>闇属性のフォトン爆縮を発生させる。<br>チャージすることで、威力が上昇する。
+WandPA01 - “短杖（ウォンド）”用のフォトンアーツ。<br>素早くエネミーに接近し、強力な一撃を放つ。<br>チャージすることで、威力が上昇する。
+WandPA02 - “短杖（ウォンド）”用のフォトンアーツ。<br>武器を地面に叩きつけ、衝撃波で広範囲を攻撃する。
+TalisPA01 - “導具（タリス）”用のフォトンアーツ。<br>前方に、フォトン弾を放った後、タリスを展開する。<br>タリス展開中は、テクニックの挙動が変化する。
+TalisPA02 - “導具（タリス）”用のフォトンアーツ。<br>フォトンの波動で、周囲のエネミーを<br>複数回薙ぎ払った後、タリスを展開する。<br>攻撃の段数によって、タリスの展開形態が変化する。<br>また、タリス展開中は、テクニックの挙動が変化する。
+KatanaPA01 - “抜剣（カタナ）”用のフォトンアーツ。<br>素早い抜刀の後、前方に斬撃を放つ。<br>連続して発動すると、挙動が変化する。
+KatanaPA02 - “抜剣（カタナ）”用のフォトンアーツ。<br>素早い抜刀の後、周囲のエネミーを薙ぎ払う。<br>連続して発動すると、挙動が変化する。
+KatanaPA03 - “抜剣（カタナ）”用のフォトンアーツ。<br>力を溜めた後、直線状に無数の衝撃波を放つ。<br>連続して発動すると、挙動が変化する。
+CompoundBowPA01 - “強弓（バレットボウ）”用のフォトンアーツ。<br>エネミーを追尾する矢を放つ。<br>２段階までチャージでき、<br>それぞれ攻撃の挙動が変化する。
+CompoundBowPA02 - “強弓（バレットボウ）”用のフォトンアーツ。<br>エネミーに命中すると、周囲に拡散する矢を放つ。<br>チャージすることで、攻撃の挙動が変化する。
+CompoundBowPA03 - “強弓（バレットボウ）”用のフォトンアーツ。<br>異空間にフォトンでできた弓矢を転送し、<br>範囲内のエネミーを上空から断続的に攻撃する。<br>チャージしてから放つと、弓矢を最大５本ストックし、<br>他のPAの命中後に１本ずつ発射して追撃する。
+JetBootsPA01 - “魔装脚（ジェットブーツ）”用のフォトンアーツ。<br>縦方向に回転しながら、エネミーを蹴りつける。<br>PAボタンを長押しすると、追加でPPを消費するかわりに、<br>攻撃の挙動が変化する。
+JetBootsPA02 - “魔装脚（ジェットブーツ）”用のフォトンアーツ。<br>横方向に回転しながら、エネミーを蹴りつける。<br>PAボタンを長押しすると、追加でPPを消費するかわりに、<br>攻撃の挙動が変化する。
+JetBootsPA03 - “魔装脚（ジェットブーツ）”用のフォトンアーツ。<br>縦方向に回転しながら、前方に衝撃波を放つ。<br>PAボタンを長押しすると、追加でPPを消費するかわりに、<br>攻撃の挙動が変化する。
+DbladePA01 - “飛翔剣（デュアルブレード）”用のフォトンアーツ。<br>周囲のエネミーを薙ぎ払った後、<br>フォトンの刃を発生させて追加攻撃を行う。<br>発動中にもう一度PAボタンを押すことで、<br>攻撃の挙動が変化する。
+DbladePA02 - “飛翔剣（デュアルブレード）”用のフォトンアーツ。<br>連続で斬撃を放った後、<br>目標に無数のフォトンの刃を降り注がせる。<br>発動中にもう一度PAボタンを押すことで、<br>攻撃の挙動が変化する。
+DbladePA03 - “飛翔剣（デュアルブレード）”用のフォトンアーツ。<br>縦方向に斬撃を放ちながら突進した後、<br>強力な一撃を放つ。<br>発動中にもう一度PAボタンを押すことで、<br>攻撃の挙動が変化する。
+SwordPA04 - “大剣（ソード）”用のフォトンアーツ。<br>勢いよく斬り下ろし、敵を両断する。<br>チャージすることで攻撃範囲が拡大し、威力が上昇する。
+WlancePA04 - “自在槍（ワイヤードランス）”用のフォトンアーツ。<br>刃をエネミーに突き刺すと、大きく飛び上がり、<br>その勢いを利用した叩きつけ攻撃を行う。<br>チャージすることで攻撃の挙動が変化する。<br>チャージ中、受けるダメージを軽減し、<br>打ち上げや吹き飛ばしを防ぐ状態になり、<br>エネミーの攻撃を２回受けると、<br>自動的にチャージを完了して発動する。
+PartisanPA04 - “長槍（パルチザン）”用のフォトンアーツ。<br>斬り上げ、刺突、薙ぎ払いの３連撃を繰り出す。
+TdaggerPA04 - “双小剣（ツインダガー）”用のフォトンアーツ。<br>刃をエネミーに突き刺し、斬撃を放った後、<br>武器を投げて周囲のエネミーを攻撃する。
+DsaberPA04 - “両剣（ダブルセイバー）”用のフォトンアーツ。<br>飛び上がって回転斬りをした後、<br>フォトンをまとわせた武器を叩きつける。<br>発動時に、カマイタチが発生する。
+KnucklePA04 - “鋼拳（ナックル）”用のフォトンアーツ。<br>素早い動きでエネミーの攻撃を無効化した後、<br>一撃必倒の裏拳を対象に叩き込む。<br>無効化に成功すると、威力が上昇する。
+RiflePA04 - “長銃（アサルトライフル）”用のフォトンアーツ。<br>一定の位置に対して強力な爆撃を放つ。<br>長押ししている間、着弾位置が表示され、<br>PAボタンを離すと攻撃を行う。
+LauncherPA04 - “大砲（ランチャー）”用のフォトンアーツ。<br>前方に爆風を浴びせ、反動によって後退する。<br>チャージすることで、<br>強力なグレネード弾を発射する挙動に変化する。
+MachinegunPA04 - “双機銃（ツインマシンガン）”用のフォトンアーツ。<br>華麗に舞いながら、前方に跳ね返る弾丸を放つ。<br>チャージすることで、威力が上昇する。
+KatanaPA04 - “抜剣（カタナ）”用のフォトンアーツ。<br>高速で目標を斬り抜ける。<br>連続して発動すると、挙動が変化する。
+CompoundBowPA04 - “強弓（バレットボウ）”用のフォトンアーツ。<br>大きく移動しながら、前方に矢を放つ。<br>チャージすることで、<br>フォトンでできた弓矢との連続攻撃に変化する。
+JetBootsPA04 - “魔装脚（ジェットブーツ）”用のフォトンアーツ。<br>素早くエネミーに接近し、強力な蹴撃を見舞う。<br>PAボタンを長押しすると、追加でPPを消費するかわりに、<br>一定回数ダメージを与えるフォトンの刃を、<br>自分の周囲に展開する。
+DbladePA04 - “飛翔剣（デュアルブレード）”用のフォトンアーツ。<br>連撃とともに巨大な衝撃波を放つ。<br>発動中にもう一度PAボタンを押すことで、<br>攻撃の挙動が変化する。
+TaktPA01 - “奏具（タクト）”用のフォトンアーツ。<br>ファミリア“フレドラン”を呼び出し、<br>前方に貫通するブレスを放つ。<br>PAボタンを長押しすると、追加でPPを消費するかわりに、<br>視界に捉えた複数のエネミーにブレスを放つ。
+TaktPA02 - “奏具（タクト）”用のフォトンアーツ。<br>ファミリア“フレドラン”を呼び出し、<br>エネミーに真空波を放つ。<br>PAボタンを長押しすると、追加でPPを消費するかわりに、<br>ボタンを押している間、フレドランに乗って飛行する。<br>その状態からボタンを離すと、フレドランから降り、<br>フレドラン自身はエネミーに向かって突撃する。
+TaktPA03 - “奏具（タクト）”用のフォトンアーツ。<br>ファミリア“ヴォルファー”を呼び出し、<br>衝撃波を起こした後、両腕を叩きつけて周囲を攻撃する。<br>PAボタンを長押しすると、追加でPPを消費するかわりに、<br>チャージ可能な攻撃に変化する。<br>チャージしない場合は、<br>一定時間その場に残る衝撃波を発生させる。<br>チャージした場合は、前方に強力な一撃を放つ。
+TaktPA04 - “奏具（タクト）”用のフォトンアーツ。<br>ファミリア“ヴォルファー”を呼び出し、<br>前方に突撃した後、アッパーを放つ。<br>PAボタンを長押しすると、追加でPPを消費するかわりに、<br>前方に連続攻撃をくりだす。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+PB
+Group 0
+TypeNon - なし
+TypeNoUse - フォトンブラスト
+Type1_1 - ヘリクス・プロイ
+Type1_2 - ヘリクス・イメラ
+Type1_3 - ヘリクス・ニフタ
+Type2_1 - アイアス・プロイ
+Type2_2 - アイアス・イメラ
+Type2_3 - アイアス・ニフタ
+Type3_1 - ケートス・プロイ
+Type3_2 - ケートス・イメラ
+Type3_3 - ケートス・ニフタ
+Type4_1 - ユリウス・プロイ
+Type4_2 - ユリウス・イメラ
+Type4_3 - ユリウス・ニフタ
+Type5_1 - イリオス・プロイ
+Type5_2 - イリオス・イメラ
+Type5_3 - イリオス・ニフタ
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+PBExplanation
+Group 0
+TypeNon - なし
+TypeNoUse - 現在、フォトンブラストを使用出来ません。<br>フォトンブラストを覚えたマグを<br>装備してください。
+Type1_1 - 貫く力、ヘリクスタイプの具現。<br>フォトンをまとい、目標に向かって<br>突進攻撃を行う。
+Type1_2 - 貫く力、ヘリクスタイプの具現。<br>目標へ向けて一足のもと接近し<br>強力な電撃を周囲に発生させる。
+Type1_3 - 貫く力、ヘリクスタイプの具現。<br>目標に向かい、衝角での連撃ののち<br>体躯を活かした踏みつけ攻撃を行う。
+Type2_1 - 譲らぬ力、アイアスタイプの具現。<br>前方広範囲に向けて、炸裂砲弾を<br>次々に発射し、殲滅を行う。
+Type2_2 - 譲らぬ力、アイアスタイプの具現。<br>頭部より発射したフォトンメーザーを<br>目標周囲へ雨霰のように降らせる。
+Type2_3 - 譲らぬ力、アイアスタイプの具現。<br>飛散させた鵬翼はそれぞれが意志を<br>持ち、目標を撃ち抜く弾丸となる。
+Type3_1 - 惑わぬ力、ケートスタイプの具現。<br>周囲の大気中フォトンへ働きかけ<br>ＰＰの自己回復量を増大させる。
+Type3_2 - 惑わぬ力、ケートスタイプの具現。<br>前方に向けて、フォトンを凝縮した<br>レーザーで集束砲撃を行う。
+Type3_3 - 惑わぬ力、ケートスタイプの具現。<br>空間を遊泳し、フォトンを励起させ<br>数多の落雷を発生させる。
+Type4_1 - 揺るがぬ力、ユリウスタイプの具現。<br>目標に対し、ワープして近付き<br>複数の腕による連続攻撃を行う。
+Type4_2 - 揺るがぬ力、ユリウスタイプの具現。<br>目標へ向けて、確実に仕留める<br>刺突尖角を撃ち下ろす。
+Type4_3 - 揺るがぬ力、ユリウスタイプの具現。<br>目標周囲に、限定的な超重力場を<br>発生させ集束、収縮崩壊を行う。
+Type5_1 - 挫けぬ力、イリオスタイプの具現。<br>主の定めた目標に対し、主と連携して<br>追加攻撃を行う。
+Type5_2 - 挫けぬ力、イリオスタイプの具現。<br>主の定めた目標に対し、巨大な剣から<br>両断の波動を撃ち出す。
+Type5_3 - 挫けぬ力、イリオスタイプの具現。<br>主の定めた目標に対し、虚空の彼方<br>より無慈悲な罰を降らせる。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Pet
+Group 0
+PetPALearn - $(1)が$(0)を習得しました。
+PetPALevelUp - $(2)の$(1)のレベルが$(0)に上がりました。
+PetUnequipped - タクトにペットが設定されていません。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Npc
+Group 0
+Npc_7001 - マノン
+Npc_7002 - アイナ
+Npc_7003 - ガロア
+Npc_7004 - クロフォード
+Npc_7005 - ブルーダー
+Npc_7006 - ラン
+Npc_7007 - リューリン
+Npc_7008 - ロッサ
+Npc_7009 - オランジェ
+Npc_7010 - ナーデレフ
+Npc_7011 - タイヴァス
+Npc_7012 - トゥーリ
+Npc_7013 - イルマ
+Npc_7014 - クッカ
+Npc_7015 - メリ
+Npc_7016 - グレン
+Npc_7017 - ハーディ
+Npc_7018 - ジャリル
+Npc_7019 - モフセン
+Npc_7022 - カヌイ
+Npc_7023 - ノロシ
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+FollowRun
+Group 0
+AutorunToast1 - オートランを開始します。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Common
+Group 0
+Toast_Defend - レベルに差があるため、与えるダメージが減少しています。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+ItemUse
+Group 0
+MoonAtmizerToYou - がアイテムを使用し、あなたを復活させました。
+ResurrectToYou - があなたを復活させました。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Vehicle
+Group 0
+<GatlingGun>EquippingEnd - 兵装解除
+<GatlingGun>AttackGun - ラピッドファイア
+<GatlingGun>AttackRailgun - チャージブラスター
+<GatlingGun>AttackJet - ブーストグライダー
+HealTankRecast - レスタサイン
+RecoveryMoonAtomizerRecast - リバーサーサイン
+RideTimeAlert1 - <yellow>残り稼働時間：$(0)秒<c>
+RideTimeAlert2 - <red>残り稼働時間：$(0)秒<c>
+<Throw>EquippingEnd - 解除
+SnowBoard:GetOff - 兵装解除
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+ActionExplanation
+Group 0
+SwordAttack - “大剣（ソード）”用の通常攻撃。<br>大剣を振り、最大３段の攻撃を行う。
+SwordWeaponAction - “大剣（ソード）”用の武器アクション。<br>大剣を構え、前方からの攻撃を防ぐ。<br>武器アクションボタンを長押しすることで継続し、<br>攻撃を受けると、PPを消費してダメージを軽減する。<br>攻撃を受ける直前に行うことで、<br>ジャストガードになり、<br>PPを消費せず、攻撃を無効化する。
+PartisanAttack - “長槍（パルチザン）”用の通常攻撃。<br>長槍を振り、最大３段の攻撃を行う。
+PartisanWeaponAction - “長槍（パルチザン）”用の武器アクション。<br>長槍を構え、周囲からの攻撃を弾く。
+WLanceAttack - “自在槍（ワイヤードランス）”用の通常攻撃。<br>自在槍を振り、最大３段の攻撃を行う。
+WLanceWeaponAction - “自在槍（ワイヤードランス）”用の武器アクション。<br>ワイヤーを伸ばしてエネミーを突き刺す。<br>攻撃が当たると、そのエネミーに接近する。
+KnuckleAttack - “鋼拳（ナックル）”用の通常攻撃。<br>拳をくりだし、最大３段の攻撃を行う。
+KnuckleWeaponAction - “鋼拳（ナックル）”用の武器アクション。<br>素早い動きで、敵の攻撃を回避する。
+TDaggerAttack - “双小剣（ツインダガー）”用の通常攻撃。<br>双小剣を振り、最大３段の攻撃を行う。
+TDaggerWeaponAction - “双小剣（ツインダガー）”用の武器アクション。<br>双小剣を構え、周囲からの攻撃を弾く。
+DSaberAttack - “両剣（ダブルセイバー）”用の通常攻撃。<br>両剣を振り、最大３段の攻撃を行う。
+DSaberWeaponAction - “両剣（ダブルセイバー）”用の武器アクション。<br>両剣を構え、周囲からの攻撃を弾く。
+LauncherAttack - “大砲（ランチャー）”用の通常攻撃。<br>爆発弾を放ち、攻撃を行う。<br>チャージすることで、<br>複数の爆発弾を放ち、広範囲を攻撃する。
+LauncherWeaponAction - “大砲（ランチャー）”用の武器アクション。<br>エネミーに一定時間で爆発する、<br>スティッキーボムを付着する。<br>付着したエネミーに攻撃を当てると、<br>爆発時にPPが回復する。
+RifleAttack - “長銃（アサルトライフル）”用の通常攻撃。<br>銃弾を連射し、攻撃を行う。<br>通常攻撃ボタンを長押しすることで、<br>弾を撃ち続ける。
+RifleWeaponAction - “長銃（アサルトライフル）”用の武器アクション。<br>素早く移動しながら、銃弾を連射する。
+TMachineGunAttack - “双機銃（ツインマシンガン）”用の通常攻撃。<br>銃弾を放ち、最大３段の攻撃を行う。
+TMachineGunWeaponAction - “双機銃（ツインマシンガン）”用の武器アクション。<br>移動しながら、敵の攻撃を回避する。<br>武器アクション中に通常攻撃ボタンを押すことで、<br>さらに射撃を行う。
+TalisAttack - “導具（タリス）”用の通常攻撃。<br>タリスを投擲し、最大３段の攻撃を行う。
+TalisWeaponAction - “導具（タリス）”用の武器アクション。<br>フロートトーチカを設置し、<br>断続的にフォトン弾を飛ばして攻撃する。
+WandAttack - “短杖（ウォンド）”用の通常攻撃。<br>短杖を振り、最大３段の攻撃を行う。
+WandWeaponAction - “短杖（ウォンド）”用の武器アクション。<br>短杖を構え、周囲からの攻撃を弾く。
+RodAttack - “長杖（ロッド）”用の通常攻撃。<br>フォトン弾を飛ばし、最大３段の攻撃を行う。
+RodWeaponAction - “長杖（ロッド）”用の武器アクション。<br>バリアを展開し、周囲からの攻撃を弾く。<br>ガード成功時、PPが回復する。
+KatanaAttack - “抜剣（カタナ）”用の通常攻撃。<br>抜剣を振り、最大３段の攻撃を行う。
+KatanaWeaponAction - “抜剣（カタナ）”用の武器アクション。<br>抜剣を構え、前方からの攻撃を防ぐ。<br>武器アクションボタンを長押しすることで、<br>PPを消費してダメージを軽減する。<br>攻撃を受ける直前に行うことで、<br>ジャストガードになり、<br>PPを消費せず、攻撃を無効化する。
+CompoundBowAttack - “強弓（バレットボウ）”用の通常攻撃。<br>矢を放ち、攻撃を行う。<br>チャージすることで、<br>炸裂する矢を放ち、広範囲を攻撃する。
+CompoundBowWeaponAction - “強弓（バレットボウ）”用の武器アクション。<br>素早い動きで、敵の攻撃を回避する。
+JBootsAttack - “魔装脚（ジェットブーツ）”用の通常攻撃。<br>素早い蹴りにより、最大３段の攻撃を行う。
+JetBootsWeaponAction - “魔装脚（ジェットブーツ）”用の武器アクション。<br>素早い動きで、敵の攻撃を回避する。
+DBladeAttack - “飛翔剣（デュアルブレード）”用の通常攻撃。<br>飛翔剣を振り、最大３段の攻撃を行う。
+DBladeWeaponAction - “飛翔剣（デュアルブレード）”用の武器アクション。<br>フォトンブレードを飛ばし、エネミーを攻撃する。<br>武器アクションボタンを長押しすることで、<br>フォトンブレードを飛ばし続ける。<br>移動中でも移動を中断せずに発動できる。
+TaktAttack - “奏具（タクト）”用の通常攻撃。<br>奏具を振り、フォトンを弾けさせ、<br>最大３段の攻撃を行う。<br>通常攻撃ボタンを長押しすることで、<br>攻撃の挙動が変化する。
+TaktWeaponAction - “奏具（タクト）”用の武器アクション。<br>ファミリア“マルメロ”を呼び出し、<br>周囲からの攻撃を弾く。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Class_NGS
+Group 0
+ClassNGS - クラス
+MainNGS - メインクラス
+SubNGS - サブクラス
+NoneNGS - なし
+JobNGS_00 - ハンター
+JobNGS_01 - レンジャー
+JobNGS_02 - フォース
+JobNGS_03 - ファイター
+JobNGS_04 - ガンナー
+JobNGS_05 - テクター
+JobNGS_06 - ブレイバー
+JobNGS_07 - バウンサー
+JobNGS_08 - チャレンジャー
+JobNGS_09 - ウェイカー
+JobNGS_10 - バトルウォリアー
+JobNGS_11 - ヒーロー
+JobNGS_12 - ファントム
+JobNGS_13 - エトワール
+JobNGS_14 - スレイヤー
+AllNGS - 全クラス
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
