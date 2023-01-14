@@ -1,0 +1,89 @@
+item_series_name.text was created: 2023/1/14 15:14:50
+Filesize is: 3200 bytes
+
+SERIES
+Group 0
+Primm - プリムシリーズ
+Tzvia - ツヴィアシリーズ
+Silver Primm - シルヴァプリムシリーズ
+Trois De - トロワーデシリーズ
+Theseus - テルセウスシリーズ
+Gold Primm - ゴルドプリムシリーズ
+Glissen - グリッセンシリーズ
+Frostel - フロステルシリーズ
+Cattleya - キャトリアシリーズ
+Vialto - ヴィアルトシリーズ
+Foursis - フォーシスシリーズ
+Resurgir - リサージュシリーズ
+Flamel - フランメルシリーズ
+Evolcoat - エヴォルコートシリーズ
+Straga - ストラーガシリーズ
+Tempesta - テンペスターシリーズ
+Quintel - クィンテルシリーズ
+Gothica - ゴルシカシリーズ
+Fivla - フィブラシリーズ
+Greaga - グレティーガシリーズ
+Relik - レリクシリーズ
+Cinquem - サンクエイムシリーズ
+Lumiere - ルメイラーシリーズ
+Obscura - オブスクラルシリーズ
+Kukuhroziat - ククロゼアトシリーズ
+Sechetyl - ゼクストルシリーズ
+Rokz - ロクスシリーズ
+Sixiemes - -
+Roughewn - -
+Evolorbit - エヴォルオーヴァシリーズ
+Renaissa - レネッサシリーズ
+Evoleclipse - エヴォルイクリスシリーズ
+Vladstram - ヴラドストラムシリーズ
+Rugged - ラゲードシリーズ
+Etincelle - エティンセルシリーズ
+Kaizaar - カイゼラムシリーズ
+Codeck - コルディークシリーズ
+Crystia - クリスティアシリーズ
+Obsidia - オブゾディアシリーズ
+Effulgent - セイガヨウシリーズ
+Tenebrous - セイガインシリーズ
+Primm Libra - プリム・リブラシリーズ
+Kouklophis - ククロフィスシリーズ
+Gunblaze - ガンブレイズシリーズ
+Qual De - クアルデシリーズ
+Geant - ジオントシリーズ
+Greas - グライアスシリーズ
+Vijf - ヴェフスシリーズ
+Vida - ヴィダーシリーズ
+Vio - ヴィオーシリーズ
+Schwar - シュヴァルシリーズ
+1064_test - セスタトシリーズ
+Sestato - セスタトシリーズ
+1065_test - ディフローシリーズ
+Defro - ディフローシリーズ
+1066_test - ベルグリンシリーズ
+Behlgren - ベルグリンシリーズ
+1067_test - エルヴィオースシリーズ
+El Vios - エルヴィオースシリーズ
+1068_test - アンシェンシリーズ
+Ancien - アンシェンシリーズ
+Provo - プロヴォシリーズ
+Sest - セスティシリーズ
+Efitus - エフィタスシリーズ
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
