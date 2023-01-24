@@ -1,4 +1,4 @@
-common.text was created: 2023/1/12 13:15:55
+common.text was created: 2023/1/25 7:41:49
 Filesize is: 127824 bytes
 
 Test
@@ -650,7 +650,7 @@ LogButton_ContinuousInput - 連続入力
 DirectChatBegin - ダイレクトチャットを ON にしました。
 DirectChatEnd - ダイレクトチャットを OFF にしました。
 DirectChatEndTmp - 一時的にダイレクトチャットを OFF にします。
-DirectChatBlacklist - 対象者をブラックリストに登録しているためメッセージを送信できません。
+DirectChatBlacklist - 対象者をブロックリストに登録しているためメッセージを送信できません。
 Log_Toast_Whisper_Name_Fail - 相手が周囲にいないため、ウィスパーチャットができませんでした。
 Log_Toast_Unknown_Whisper - ウィスパーチャットの相手を「…」ボタンから選択してください。
 Log_Toast_Disable_Whisper_SymbolArt - ウィスパーチャットでスタンプ、シンボルアート発言はできません。
