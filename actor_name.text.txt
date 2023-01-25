@@ -1,5 +1,5 @@
-actor_name.text was created: 2023/1/13 20:39:36
-Filesize is: 44480 bytes
+actor_name.text was created: 2023/1/25 12:32:57
+Filesize is: 45232 bytes
 
 Enemy
 Group 0
@@ -217,6 +217,9 @@ r04_ani_sli_a - フラムオタリカ
 r04_ani_kit_a - フラムフォクス
 r04_ani_rei_a - フラムポロロ
 r04_ani_fih_a - フラムコマンタ
+r04_gd_god3_ba - ダークファルス・エイジス
+r04_gd_ufo_gr - ダーレット・アタッカー
+r04_gd_ufo_fl - ダーレット・シューター
 r04_alt_bat_ba - フレイレイ
 r04_alt_bat_ba2 - サンダレイ
 r04_alt_chk_ba - コワードリ
@@ -259,6 +262,7 @@ r04_alt_dvs_ba - ダスククラッブ
 r04_alt_tkm_ba - グリンベアル
 r04_nat_armma_ba - ヴォルガロンゴ
 r01_unk_rap_atm - ヤオロ・ラッピー
+r04_gd_nyb_ex - イクサエンゴウク
 r04_nat_rpt_ba - ディッグ・ロア
 r04_nat_frp_sh - ソル・ディガーラ・ロア
 r04_nat_dwl_sm - ノーディラン・ロア
@@ -279,6 +283,12 @@ r04_non_trt_a - ビーハイヴＥ
 r01_unk_emp_chbi - セント・グレトラッピー
 r01_unk_emp_wi - ノルディ・エンペラッピー
 r01_unk_emp_wibi - ノルディ・グレトラッピー
+r04_nat_cry_ba - クォーツ・スコーディン
+r01_unk_emp_ea - フルル・エンペラッピー
+r01_unk_emp_eabi - フルル・グレトラッピー
+r01_alt_wlf_bi - ワウロン・ジオ
+r01_nat_armma_bi - ガロンゴ・ジオ
+r04_non_dro_a - ハイドローム
 
 Group 1
 
@@ -778,6 +788,9 @@ RideTimeAlert1 - <yellow>残り稼働時間：$(0)秒<c>
 RideTimeAlert2 - <red>残り稼働時間：$(0)秒<c>
 <Throw>EquippingEnd - 解除
 SnowBoard:GetOff - 兵装解除
+<GatlingGun>AttackMissile - マルチロックミサイル
+<GatlingGun>JumpingDodge - ウルトラハイジャンプ
+<GatlingGun>ParticleCannon - ハイパーブラスター
 
 Group 1
 
