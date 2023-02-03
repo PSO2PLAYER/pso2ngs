@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2023/1/12 13:15:59
-Filesize is: 495312 bytes
+ui_mainmode.text was created: 2023/2/3 22:21:05
+Filesize is: 696160 bytes
 
 Common
 Group 0
@@ -48,6 +48,32 @@ ErrorMackQuest - パーティーメンバーがクエスト内に揃っていな
 ErrorIgnoreQuest - このクエストは現在、受注できません。詳しくはプレイヤーズサイトをご確認ください。
 BlockType_01 - PSO2ブロック
 BlockType_02 - PSO2:NGSブロック
+Hyphen - -
+All - すべて
+FreeSgScratch - 本日分の無料SGスクラッチを行うことができます。<br>確認を行いますか？
+BlockMoveFailure - ブロック移動に失敗しました。
+BlockadeMsg_Title1 - インフォメーション
+BlockadeMsg_Text1 - 現在、このオブジェクトにはアクセスできません。<br>詳しくはプレイヤーズサイトをご確認ください。
+SimpleTimeText - $(0)：$(1)
+Lupe_TextStart - 拡大鏡モードを開始しました。
+Lupe_TextEnd - 拡大鏡モードを終了しました。
+Lupe_TextTerminate1 - 機能割当が変更されたため、拡大鏡モードを終了しました。
+Lupe_TextTerminate2 - 設定が変更されたため、拡大鏡モードを終了しました。
+Lupe_ControlGuide - 表示範囲移動：<swguidetype CursorMove>　　ズーム：<swguidetype Zoom>　　拡大鏡モード終了：<swguidetype ShiftTrigger>+<swguidetype EscMenu>
+NotReceptQuestPartyGuest - あなたはパーティーリーダーではないためクエストを受注できません。
+NotFoundQuestSearch - 条件に当てはまるクエストが見つかりませんでした。
+CantStartQuestCapacityOverRoom - ルームの人数オーバーのため参加できません。
+NotFoundPartyList - パーティーが見つかりませんでした。
+CantStartQuestCapacityOverParty - パーティーの人数オーバーのため参加できません。
+PasswordNG - パスワードが間違っています。
+BurstIntoNG - クエストにより途中参加が制限されています。
+CautionQuestEnd - クエストが終了しているため参加できません。
+CantStartQuestTimeLimitOver - クエストの受注可能期間が過ぎています。
+CautionQuestReleaseNG - このクエストには参加できません。
+CautionRoomDelete - ルームが存在しないため参加できません。
+CautionBlockMoveNG - ブロックの移動に失敗しました。
+CautionUnknown - 不明なエラーです。
+Loading - NOW LOADING
 
 Group 1
 
@@ -70,6 +96,80 @@ Group 9
 
 MainMenu
 Group 0
+Non_Text - テキスト表示なし
+Menu_Main - メインメニュー
+Menu_Sub - サブメニュー
+Menu_Money - AC・SGメニュー
+MainMenu_Equip_WeaponAvatar - <pict ba_camouflage><pict 4space>武器迷彩
+MainMenu_ACMenu_MyShop - <pict ba_task><pict 4space>マイショップ
+MainMenu_World_WorldMap - <pict ba_worldmap><pict 4space>ワールドマップ
+MainMenu_World_WorldSecret - <pict ba_secret><pict 4space>世界の秘密
+MainMenu_World_MessagePack - <pict ba_mpack><pict 4space>メッセージパック
+MainMenu_Quest_Rebops - <pict ba_task><pict 4space>タスク
+MainMenu_Quest_MissionPass - <pict ba_missionpass><pict 4space>ミッションパス
+Category_Item - アイテム
+Category_Equip - 装備/サブパレット
+Category_SubPallet - サブパレット
+Category_Task - タスク / クエスト
+Category_WorldMap - ワールド
+Category_LogOut - ログアウト
+Category_Communication - コミュニケーション
+Category_Personal - パーソナル
+Category_Chat - チャット
+Category_Info - インフォメーション
+Category_System - システム
+Category_Scratch - スクラッチを引く
+Category_ACShop - <pict ba_acshop><pict 4space>AC・SGショップ<pict 4space><pict Arcscash><pict StarGem>
+Category_SGShop - <pict ba_sgshop><pict 4space>SGショップ<pict 4space><pict StarGem>
+Category_MyShop - マイショップ
+Category_RecycleShop - <pict ba_recycle><pict 4space>アイテムリサイクル
+Category_SG_BlackMarket - <pict ba_treasure><pict 4space>トレジャーショップ<pict 4space><pict StarGem>
+Category_Meseta_BlackMarket - <pict ba_treasure><pict 4space>トレジャーショップ<pict 4space><pict reb_meseta>
+Category_BuyHistory - <pict ba_history><pict 4space>購入履歴/有効期限
+Category_Shop - ショップ
+Popup_ItemPack - <pict ba_task><pict 4space>アイテムパック
+Popup_FriendList - <pict ba_friend><pict 4space>フレンドリスト
+Popup_PartyCommand - <pict ba_partycom><pict 4space>パーティーコマンド
+Popup_TeamCommand - <pict ba_guild><pict 4space>チームコマンド
+Popup_Mail - <pict ba_mail><pict 4space>メール
+Popup_ArksSearch - <pict ba_search><pict 4space>アークスサーチ
+Popup_CommuHistory - <pict ba_commu><pict 4space>コミュニケーション履歴
+Popup_NearCharacter - <pict ba_surround><pict 4space>周囲のキャラクター
+Popup_CharacterData - <pict ba_charainfo><pict 4space>キャラクター情報
+Popup_Honor - <pict ba_title><pict 4space>称号
+Popup_ArksCard - <pict ba_card><pict 4space>アークスカード
+Popup_Honor_ArksCard - 称号/アークスカード
+Popup_PlayLog - <pict ba_performance><pict 4space>プレイ実績
+Popup_GroupChat - <pict ba_gchat><pict 4space>グループチャット設定
+Popup_ShortcutWord - <pict ba_shortcut><pict 4space>ショートカットワード設定
+Popup_AutoWord - <pict ba_autoword><pict 4space>オートワード設定
+Popup_Motion - <pict ba_motion><pict 4space>勝利演出設定
+Popup_SymbolArt - <pict ba_symbol><pict 4space>シンボルアート
+Popup_Information - <pict ba_info><pict 4space>インフォメーション
+Popup_Help - <pict ba_help><pict 4space>ヘルプ
+Popup_Option - <pict ba_option><pict 4space>オプション
+Popup_StreamerMode - <pict ba_stream><pict 4space>ストリーマーモード
+Popup_CampaignItem - <pict ba_get><pict 4space>キャンペーンアイテム受け取り
+Popup_AutoSale - <pict ba_autosell><pict 4space>ドロップアイテムの自動売却設定<pict 4space><pict Arcscash><pict StarGem>
+Popup_ItemCode - <pict ba_code><pict 4space>アイテムコード
+Popup_ControlSetting - <pict ba_conf><pict 4space>操作設定
+Popup_MagMenu - <pict ba_mag><pict 4space>マグ
+Popup_Stamp - <pict ba_stamp><pict 4space>スタンプ
+Popup_BuyScratch - <pict ba_scratch><pict 4space>スクラッチを引く<pict 4space><pict Arcscash><pict StarGem>
+Popup_ScratchStorage - <pict ba_scwa><pict 4space>スクラッチ倉庫
+Popup_QuestInfo - <pict ba_questinfo><pict 4space>クエスト情報
+Popup_Equip_Weapon - <pict ba_weapon><pict 4space>武器装備
+Popup_Equip_Guard - <pict ba_unit><pict 4space>防具装備
+Popup_Equip_Subpalette - <pict ba_subp><pict 4space>サブパレット
+Popup_Equip_Fashion - <pict ba_cos><pict 4space>ファッション編集
+Popup_QuestMenue - クエストメニュー
+Operation_MenuCommon - メニュー配下のメニューガイドのコモン設定です。
+MenuEquipmentOpen - 選択中のアイテムを装備する
+MainMenu_Equip_WeaponPosition - <pict ba_positioning><pict 4space>武器納刀位置調整
+MainMenu_Loguin_Bonus - <pict icon_login_bonus><pict 4space>ログインボーナス
+Menu_Matching_Blockade - マッチング中は使用できません。
+Menu_Ad_Guide - 操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>　　ページ切り替え：<%TabBack><%TabForward>
+Menu_Ad_Title - お知らせ
 MainMenu_CharacterInfo - キャラクター情報
 MainMenu_Palette - パレットカスタマイズ
 MainMenu_Inventory - アイテムパック
@@ -103,7 +203,7 @@ MainMenu_Equip_Guard - 防具装備
 MainMenu_Equip_Accessories - アクセサリー変更
 MainMenu_Equip_FashionGroup - ファッション/カタログ
 MainMenu_Equip_Fashion - ファッション編集
-MainMenu_Equip_FashionCat - コーデカタログ
+MainMenu_Equip_FashionCat - <pict ba_corde><pict 4space>コーデカタログ
 MainMenu_Equip_PolluteEdit - ダークブラスト
 MainMenu_Equip_Subpalette - サブパレット
 MainMenu_Community_Friend - フレンドリスト
@@ -142,11 +242,11 @@ MainMenu_System_Information - インフォメーション
 MainMenu_System_Notify - お知らせ
 MainMenu_System_LoginStamp - ログインスタンプ
 MainMenu_System_StarGem - AC・SG内訳確認
-MainMenu_ACMenu_ACShop - ACショップ<pict Arcscash>
+MainMenu_ACMenu_ACShop - ACショップ<pict 4space><pict Arcscash>
 MainMenu_SALE_IconText - $(0)<pict sale_shop_icon>
-MainMenu_ACMenu_Gacha - スクラッチを引く<pict Arcscash>
+MainMenu_ACMenu_Gacha - スクラッチを引く<pict 4space><pict Arcscash>
 MainMenu_ACMenu_Recycle - リサイクルショップ
-MainMenu_ACMenu_MagicStone - スタージェム購入<pict Arcscash>
+MainMenu_ACMenu_MagicStone - スタージェム購入<pict 4space><pict Arcscash>
 MainMenu_ACMenu_HistoryRental - 購入履歴/有効期限
 MainMenu_ACMenu_History - 購入履歴
 MainMenu_ACMenu_Rental - レンタル有効期限
@@ -165,8 +265,11 @@ MainMenu_MainCommand - メインコマンド
 MainMenu_Notify - 新着項目
 MainMenu_Shortcut - ショートカット
 MainMenu_Notify_KeyHelp - <%NextWidget>で新着エリアへ
+MainMenu_Notify_KeyHelp_reb - <%NextWidget>で新着通知を確認
+MainMenu_Notify_KeyHelp_reb2 - メニューを開いて<%NextWidget>で新着通知を確認
 MainMenu_Notify_KeyHelp_vita - <pict Sign_TRIANGLE>で新着エリアへ
 MainMenu_Notify_KeyHelp_Disable - 現在は新着エリアは操作できません
+MainMenu_Notify_KeyHelp_Disable_reb - 現在は新着通知は操作できません
 MainMenu_Community_NewArrival - $(0) （$(1)）
 MainMenu_Recycle_NoEnter - クエスト内では使用することができません。
 MainMenu_Recycle_NoEnterTitle - リサイクルショップ
@@ -176,7 +279,7 @@ GreenPivot - 縦軸（横軸）の調整
 BluaPivot - 奥行きの調整
 Error_NotSetting - 選択したアクセサリーは<br>位置調整をすることができません。
 StarGemMessage - 購入分 / $(0) <pict StarGem><br>無料分 / $(1) <pict StarGem><br><br>※無料分から先に消費されます。
-MainMenu_ACMenu_SGShop - SGショップ<pict StarGem>
+MainMenu_ACMenu_SGShop - SGショップ<pict 4space><pict StarGem>
 MainMenu_ArksContract - アークスミッション
 NotHoldingEvent - 現在は開催されていません。
 StatusLabel_EveryMpShort1 - ミッションパス：$(0)
@@ -187,13 +290,45 @@ Toast_October_1 - 称号をセットするまで確かにそこにあったは�
 Toast_October_2 - 君は、すでにメインメニューからログアウトボタンが消滅していることに気付いていると思う。
 Toast_October_3 - 不具合ではない。繰り返す。これは不具合ではなく、セットした《称号》本来の仕様である。
 Toast_October_4 - 君は今後、セットした称号を外すまで、ゲームから自発的にログアウトすることはできない。
-MainMenu_System_Stamp - スタンプ
+MainMenu_Shop_Window_Title - ショップ情報
+MainMenu_Room_Password - <pict ba_roomkey><pict 4space>ルームキーワード/撮影専用ルーム設定
+WeaponCamo_Label_RemoveAll - 全て外す
+MainMenu_PartyMember_Recruitment - <pict ba_partysearch><pict 4space>メンバー募集中のパーティー検索
+PartyMember_Recruitment_Label1 - 募集者のキャラクター名
+PartyMember_Recruitment_Label2 - クラス
+PartyMember_Recruitment_Label3 - メンバー募集中のパーティー検索
+PartyMember_Recruitment_Label4 - すべて表示
+PartyMember_Recruitment_Label5 - 対象エリアに移動できないため、パーティーに参加できません。
+PartyMember_Recruitment_Label_1 - パーティーメンバー募集情報
+PartyMember_Recruitment_Label_2 - 目的
+PartyMember_Recruitment_Label_3 - 募集コメント
+PartyMember_Recruitment_Label_4 - パーティーメンバー
+PartyMember_Recruitment_Label_5 - 戦闘力制限
+PartyMember_Recruitment_Label_6 - レベル制限
+PartyMember_Recruitment_Label_7 - $(0)以上
+PartyMember_Recruitment_Label_8 - 対象エリア
+PartyMember_Recruitment_Label_9 - 【Rank.$(0)】
+PartyMember_Recruitment_Label_10 - 検索中
+PartyMember_Recruitment_Label_11 - パーティー自動選択
+PartyMember_Recruitment_Label_12 - 自動選択のパーティーに参加する
+PartyMember_Recruitment_Label_13 - 目的に応じて、参加可能なパーティーを自動的に選択し、<br>そのパーティーに参加します。<br>よろしいですか？<br><br><yellow>※募集者が別のルームにいる場合は<br>　対象のルームに移動します。<c><br><yellow>※現在参加中のパーティーからは自動的に脱退します。<c>
+PartyMember_Recruitment_Label_14 - 参加可能なパーティーが見つかりませんでした。
 MainMenu_System_ACTitle - AC内訳
 MainMenu_System_SGTitle - SG内訳
 MainMenu_System_NAC - AC（PC, Switch用）
 MainMenu_System_PSAC - AC（PlayStation®用）
 MainMenu_System_SAC - AC（共用）
 ArksCacheMessage - / $(0) <pict Arcscash>
+Category_Item_Guide - 操作するウィンドウは、“操作ウィンドウ切り替え”で切り替えられます。
+SubMenu_SortInitialize_Title1 - 初期化確認
+SubMenu_SortInitialize_Text1 - “$(0)”メニューの並び順を初期化しますか？
+SubMenu_Error_Text1 - メニューの並び順を保存できませんでした。
+SubMenu_Error_Text2 - “$(0)”メニューの並び順を読み込めませんでした。<br>標準の並び順で表示されます。
+MainMenu_Ranking_Info - <pict ba_ranking><pict 4space>アークスレコード
+SubMenu_Ranking_Info - アークスレコード
+MainMenu_Ranking_Info_Weekly - アトランダムイベントレコード
+MainMenu_Ranking_Info_TeamTask - チームタスクレコード
+Loading_Banner_Guide - くわしく見る：<%NextTabDetails>
 
 Group 1
 
@@ -393,10 +528,12 @@ Group 9
 
 TargetInfo
 Group 0
-TargetInfo_WeakPoint - 弱点:
+TargetInfo_WeakPoint - 弱点
 TargetInfo_Level - Lv.$(0)
+TargetInfo_Name - $(0) $(1)
+TargetInfo_WeekAndResist - $(0)
 TargetInfo_Ability - ×$(0)
-TargetInfo_Resist - 耐性:
+TargetInfo_Resist - 耐性
 TargetInfo_ShieldWeakPoint - シールド弱点:
 
 Group 1
@@ -578,6 +715,8 @@ Chat_Lobby_Only_Action - キャンプシップやフィールドでは使用で�
 Chat_Use_Public_Chair_Info - <%Jump>でジャンプ、<%PhotonArts>で降りる。
 Chat_Monomane_Error - 「$(0)」は覚えていないため、モノマネできません。
 Chat_Premiere_Limit - 「プレミアムセット期間中」のみ有効なチャットコマンドです。
+Chat_Unavailable_Finger_LobbyAction - このコスチューム・パーツは、ロビーアクションの手のポーズには対応していません。
+Chat_Unavailable_Combine_Finger - このロビーアクションは、手のポーズに対応していません。
 
 Group 1
 
@@ -766,6 +905,7 @@ FriendList_Tree_SendInvite - 未返答の送信登録要求($(0))
 FriendList_Tree_Online - オンライン($(0))
 FriendList_Tree_Offline - オフライン($(0))
 FriendList_Tree_BlackList - ブロックリスト($(0))
+FriendList_BlackList - ブロックリスト
 Account_Menu_Mail - メールを送る
 Account_Menu_FriendRemove - フレンドの解除
 Friend_Invite_Search_Title - -
@@ -1105,7 +1245,6 @@ Area80 - ルイーザ孤島
 Area81 - マザーシップ・シバ
 Area82 - マザーシップ・シバ
 Area83 - ※※※
-Area84 - パイオニア２
 
 Group 1
 
@@ -1282,10 +1421,9 @@ Type70 - ディバイドクエスト
 Type71 - 撮影スタジオ：ショップエリア
 Type72 - 撮影スタジオ：フランカ’s カフェ
 Type73 - 撮影スタジオ：レアフィールド
-Type74 - 撮影スタジオ：オラクル編
-Type75 - 撮影スタジオ：地球編
-Type76 - 撮影スタジオ：フォトナー編
-Type77 - 撮影スタジオ：クロマキー撮影用
+Type74 - 撮影スタジオ：ＥＰ１～ＥＰ３
+Type75 - 撮影スタジオ：ＥＰ４
+Type76 - 撮影スタジオ：ＥＰ５～ＥＰ６
 
 Group 1
 
@@ -1372,6 +1510,17 @@ PPConversionRate - PP変換率
 AtpRateMax - 攻撃威力上限
 CriticalConversionRateMax - クリティカル率上限
 CriticalAtpRateMax - クリティカル攻撃威力上限
+AttackPower - 攻撃力
+DefencePower - 防御力
+Label_WeaponRise - 武器上昇
+Labal_Resist_Condition - 状態異常耐性
+Labal_Others_Condition - 特殊環境耐性
+ValueZeroPercent - +0%
+Param_ComparePlus_Percent - <light_orange2>＋$(0)％<c>
+Param_CompareMinus_Percent - <vivid_cyan2>－$(0)％<c>
+FightingPower - 戦闘力
+lvuptext1 - $(1)が<br>Lv.$(0)になりました。
+lvuptext2 - $(0)が$(1)上がり<br>$(2)になりました。
 
 Group 1
 
@@ -1400,7 +1549,7 @@ PartyInfoText03 - $(0)からパーティーに招待されました。
 PartyInfoText04 - パーティーに参加しました。
 PartyInfoText05 - パーティーから脱退しました。
 PartyInfoText06 - パーティーが解散しました。
-PartyInfoText07 - $(0)が Lv.$(1)になりました。
+PartyInfoText07 - $(0)が <br>Lv.$(1)になりました。
 PartyInfoText08 - $(0)が<yellow>$(1) ★$(2) <c>を入手しました。
 PartyInfoText09 - $(0)が称号「$(1)」を入手しました。
 PartyInfoText10 - $(0)にパーティーリーダーが移りました。
@@ -1460,6 +1609,16 @@ PartyInfoText_ExpLimit - エネミーとのレベル差により、入手経験�
 PartyInfoText_NotInputPassword - 「他パーティーとのマルチプレイも制限」が<br>選択されていないため、このまま受注すると<br><yellow>誰でも自由に参加可能<c>になります。<br><br>特定メンバーだけでプレイしたい場合は、<br>「参加パスワード」を入力してメンバーに伝え、<br>かつ「他パーティーとのマルチプレイも制限」を<br>選択することをおすすめします。<br><br>このまま、誰でも自由に参加可能な状態で<br>トリガークエストを受注しますか？
 PartyInfoText_NotInputPasswordTitle - トリガークエスト受注時の確認
 PartyInfoText_ProhibitQuestCancel - クエスト破棄はできません。
+TrigerActiveDiscardNotice - バトルトリガーの使用者がクエストを破棄したことにより、フィールドに戻ります。
+TrigerActiveRetiredNotice - バトルトリガーの使用者がクエストをリタイアしたことにより、フィールドに戻ります。
+PartyInfoReb_001 - パーティーメンバーの構成が変更されたため、リーダーもしくはサブリーダーの権限が移管されました。
+PartyInfoReb_002 - メンバーが移動したため、あなたはサブリーダーではなくなりました。
+PartyInfoReb_003 - $(0)をパーティーから除外しました。
+PartyInfoReb_004 - $(0)にサブリーダー権限が移りました。
+PartyInfoReb_005 - $(0)にリーダー権限が移りました。
+PartyInfoReb_006 - マッチング中は使用できません。
+PartyInfoReb_007 - リーダー、サブリーダー以外のメンバーは使用できません。
+PartyInfoReb_008 - $(0)が撮影専用ルームの設定を変更しました。
 
 Group 1
 
@@ -1486,6 +1645,7 @@ CharaMenu_Party00 - パーティー
 CharaMenu_Party01 - パーティーに招待する
 CharaMenu_Party02 - パーティーリーダー交代
 CharaMenu_Party03 - パーティーから外す
+CharaMenu_Party04 - パーティーに参加する<pict 4space><pict pt_applicant>
 CharaMenu_Bl01 - ブロックリストに登録
 CharaMenu_Bl02 - ブロックリスト登録解除
 CharaMenu_Guild00 - チーム
@@ -1507,6 +1667,7 @@ CharaMenu_Friend02 - フレンド登録解除
 CharaMenu_Friend03 - ログインコールを受け取る
 CharaMenu_Friend04 - ログインコールを受け取らない
 CharaMenu_Friend05 - このブロックに移動
+CharaMenu_Meet - この場所に移動
 CharaMenu_Friend06 - アークスカードを見る
 CharaMenu_Friend07 - 表示優先度設定
 CharaMenu_Friend08 - グループ設定
@@ -1561,6 +1722,11 @@ Group 9
 
 PartyMenu
 Group 0
+LeaderMenuLabel06 - パーティーメンバー集合
+PartyMenuText06 - $(0)から、集合の要請がありました。<br>$(1)秒以内に<yellow>“はい”<c>を選ぶと、自動的に以下の場所に移動します。要請を承諾しますか？<br>転送予定エリア：$(2)
+PartyConfigLabel25 - <pict icon_voice_chat><pict 4space>ボイスチャット推奨
+PartyConfigLabel26 - パーティー参加条件
+PartyConfigLabel27 - 現在のパーティー設定
 PartyMenuTitle - パーティー
 PartyParamTitle - パーティー情報
 PartyMenuLabel01 - パーティーに参加
@@ -1570,7 +1736,7 @@ PartyMenuLabel04 - リーダーコマンド
 PartyMenuLabel05 - パーティーメンバー
 PartyMenuLabel06 - 共通コマンド
 PartyMenuText01 - 招待されたパーティーに参加しますか？
-PartyMenuText03 - このパーティーから脱退します。<br>クエスト中の場合、クエストを破棄します。<br><br>パーティーから脱退しますか？
+PartyMenuText03 - パーティーから脱退しますか？<br><br>クエスト進行中にパーティーから脱退すると、<br><yellow>“自分だけ”<c>が、<br>フィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。
 PartyMenuText03ex - このパーティーから脱退します。<br>クエスト中の場合、クエストを破棄します。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br><red>クエストを開始するために消費した<br>メセタやアイテムは返却されませんので、<br>ご注意ください。<c><br><br>パーティーから脱退しますか？
 PartyMenuText03TriggerQuest - トリガークエストでは、あなたがパーティーから<br>脱退すると、マルチパーティーも含め<br><yellow>クエスト参加者全員がクエスト破棄となり、<c><br>フィールドにいるメンバーはアークス・ロビーに<br>送還されます。<br>※トリガークエストの再受注可能時間<br>　または回数が残っている場合に限ります。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br><red>クエストを開始するために消費した<br>メセタやアイテムは返却されませんので、<br>トラブルの原因になる可能性があります。<br>ご注意ください。<c><br><br>パーティーから脱退しますか？
 PartyMenuError01 - リーダーの権限を失っています。
@@ -1585,9 +1751,10 @@ LeaderMenuLabel05 - パーティーの解散
 LeaderMenuText02 - $(0)に<br>リーダー権限を移動します。<br><br>リーダーを交代しますか？
 LeaderMenuText03 - $(0)を<br>パーティーから外します。<br>クエストを受注している場合、<br>このプレイヤーのクエストは破棄されます。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br>パーティーから外しますか？
 LeaderMenuText03ex - $(0)を<br>パーティーから外します。<br>クエストを受注している場合、<br>このプレイヤーのクエストは破棄されます。<br><br><red>クエストを開始するために消費した<br>メセタやアイテムは返却されませんので、<br>トラブルの原因になる可能性があります。<br>ご注意ください。<c><br><br>パーティーから外しますか？
-LeaderMenuText04 - クエストを破棄すると、<br>パーティーメンバー全員がクエスト破棄となり、<br>フィールドにいるメンバーはアークス・ロビーに<br>送還されます。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br>クエストを破棄しますか？
+LeaderMenuText04 - クエストを破棄しますか？<br><br>クエストを破棄すると、<br><yellow>“同じパーティーのメンバー”<c>も<br>同時にフィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。
+LeaderMenuText04_Myself - クエストを破棄しますか？<br><br>クエストを破棄すると、<br><yellow>“自分だけ”<c>が<br>フィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。
 LeaderMenuText04ex - クエストを破棄すると、<br>パーティーメンバー全員がクエスト破棄となり、<br>フィールドにいるメンバーはアークス・ロビーに<br>送還されます。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br><red>クエストを開始するために消費した<br>メセタやアイテムは返却されませんので、<br>トラブルの原因になる可能性があります。<br>ご注意ください。<c><br><br>クエストを破棄しますか？
-LeaderMenuText05 - パーティーを解散すると、<br>クエストを受注している場合破棄となり、<br>フィールドにいるメンバーはアークス・ロビーに<br>送還されます。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br>パーティーを解散しますか？
+LeaderMenuText05 - パーティーを解散しますか？<br><br>クエスト進行中にパーティーを解散すると、<br><yellow>“同じパーティーのメンバー”<c>も<br>同時にフィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。
 LeaderMenuText05ex - パーティーを解散すると、<br>クエストを受注している場合破棄となり、<br>フィールドにいるメンバーはアークス・ロビーに<br>送還されます。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br><red>クエストを開始するために消費した<br>メセタやアイテムは返却されませんので、<br>トラブルの原因になる可能性があります。<br>ご注意ください。<c><br><br>パーティーを解散しますか？
 LeaderMenuText05TriggerQuest - トリガークエストでは、パーティーを解散すると<br>マルチパーティーも含め、<br><yellow>クエスト参加者全員がクエスト破棄となり、<c><br>フィールドにいるメンバーはアークス・ロビーに<br>送還されます。<br>※トリガークエストの再受注可能時間<br>　または回数が残っている場合に限ります。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br><red>クエストを開始するために消費した<br>メセタやアイテムは返却されませんので、<br>トラブルの原因になる可能性があります。<br>ご注意ください。<c><br><br>パーティーを解散しますか？
 LeaderMenuText06 - パーティー設定が変更されています。<br>このまま別の項目に移動すると変更内容が<br>失われますが、よろしいですか？
@@ -1638,6 +1805,11 @@ PartyConfigError02 - パーティーコメントに<br>使用できない文字�
 PartyConfigPass01 - パーティーへ参加のみ制限
 PartyConfigPass02 - 他パーティーとのマルチプレイも制限
 PartyConfigPass03 - マルチプレイの制限
+PartyConfigCheckTitle - 有効範囲
+PartyConfigCheck01 - トレイニア
+PartyConfigCheck02 - 探索・戦闘セクション
+PartyConfigCheckWindow - 次に別セクションを移動したタイミングから<br>設定が有効になります。
+PartyConfigCheckLineWindow - パスワードが設定されているため、<br>このセクションのマルチパーティーを制限しました。
 PartyCoinNone - 使用できるアイテムがありません
 PartyCoinUnuse - 使用しない
 PartyCoinBlank - -
@@ -1647,7 +1819,7 @@ PartyCoinTitle2 - 新規ルーム作成
 PartyCoinMessage - エネミートリガーを使用します。<br>使用したエネミートリガーは、<br>消費されてもどりません。<br>よろしいですか？<br><br>※「はい」を選択すると、新規ルームが<br>作成されて、クエストを受注します。
 MultiPartyAskTitle - 複数ブロックマッチング確認
 MultiPartyAskMessage - 同名のブロック限定でマッチングを行います。<br><br>そのため「複数ブロックを検索して受注する」を<br>選択しても<yellow>クエストの参加人数が<br>少人数となる可能性があります。<c><br><br>※同名ブロック限定ではないマッチングをする場合は<br>ブロック移動のブロック説明文で<br>「※複数ブロックマッチングは同名ブロック限定」と<br>記載のないブロックに移動して受注してください。<br><br>このブロックでクエストを受注しますか？
-PartyConfigLabel22 - <pict party_request>参加歓迎
+PartyConfigLabel22 - <pict party_request><pict 4space>参加歓迎
 PartyConfigLabel23 - <pict Sign_SQUARE>参加歓迎
 PartyConfigHint01 - 参加歓迎にチェックを入れると部屋に4人いる状態<br>で参加者が現れた時、パートナーキャラクターを自<br>動的に帰還させます。
 PartyConfigLeaderChangeNotTitle - リーダーの交代不可
@@ -1658,6 +1830,23 @@ PartyMenuText03_HighLevelQuest - <red>受注中のクエストは<br>「破棄�
 PartyConfigDescriptionText - ※メインメニューの「パーティーコマンド」で、パーティー名やコメントなど<br>詳細な設定をすることができます。
 PartyConfigTypeChange01 - 詳細形式に切り替えました
 PartyConfigTypeChange02 - 通常形式に切り替えました
+TrigerPartyActiveDiscardMenuText - クエストを破棄しますか？<br><br><yellow>“バトルトリガーの使用者”<c>が<br>クエストを破棄すると、<br><yellow>“同じパーティーのメンバー”<c>も<br>同時にフィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。
+TrigerPartyJoinDiscardMenuText - クエストを破棄しますか？<br><br>クエストを破棄すると、<br><yellow>“自分だけ”<c>が<br>フィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。<br><br><yellow>※一度バトルディアを出ると、<br>　進行中のクエストに再度参加することはできません。<c>
+TrigerPartyActiveMenuText01 - パーティーから脱退しますか？<br><br><yellow>“バトルトリガーの使用者”<c>が<br>パーティーから脱退すると、<br><yellow>“同じパーティーのメンバー”<c>も<br>同時にフィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。
+TrigerPartyActiveMenuText02 - パーティーを解散しますか？<br><br><yellow>“バトルトリガーの使用者”<c>が<br>パーティーを解散すると、<br><yellow>“同じパーティーのメンバー”<c>も<br>同時にフィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。
+TrigerPartyJoinMenuText01 - パーティーから脱退しますか？<br><br>クエスト進行中にパーティーから脱退すると、<br><yellow>“自分だけ”<c>が<br>フィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。<br><br><yellow>※一度バトルディアを出ると、<br>　進行中のクエストに再度参加することはできません。<c>
+PartyPasswordError01 - パスワードは半角英数字のみ入力できます。
+TrigerBluePartyJoinDiscardMenuText - クエストを破棄しますか？<br><br>クエストを破棄すると、<br><yellow>“自分だけ”<c>が<br>フィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。<br><br><yellow>※一度クエストを出ると、<br>　進行中のクエストに再度参加することはできません。<c>
+TrigerBluePartyJoinMenuText - パーティーから脱退しますか？<br><br>クエスト進行中にパーティーから脱退すると、<br><yellow>“自分だけ”<c>が<br>フィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。<br><br><yellow>※一度クエストを出ると、<br>　進行中のクエストに再度参加することはできません。<c>
+Shootingroom_Info - 撮影専用ルーム
+Shootingroom_Command_Guide - “コミュニケーション”の“パーティーコマンド”、または<br>専用のチャットコマンドを使って、天候や時間を変更できます。
+LeaderMenuLabel07 - 撮影専用ルーム内の設定
+Shootingroom_Command_Label_Preference - フィールドの設定
+Shootingroom_Command_Label_Weather - 天候
+Shootingroom_Command_Label_TimePreference - 時間設定
+Shootingroom_Command_Label_TimeCount - $(0):$(1)
+Shootingroom_Command_Label_TimeGuide - 1時間単位で変更：<%Decide>を押しながら←/→
+LeaderMenuLabel08 - パーティーメンバー募集
 
 Group 1
 
@@ -1681,6 +1870,7 @@ Group 9
 PlayerStatus
 Group 0
 Title - 簡易ステータス
+StatusLabePower - 戦闘力
 StatusLabeJob - $(0) 
 StatusLabelLevel - Lv.
 StatusLabelExp - 経験値
@@ -1688,9 +1878,25 @@ MainStatusLabelExp - 経験値
 StatusLabelNextExp - 次のレベルまで
 MainStatusLabelNextExp - 次のレベルまで
 SubStatusLabelNextExp - 次のレベルまで（サブクラス）
-StatusLabelMeseta - メセタ
+StatusLabelMeseta - <pict reb_meseta><pict 4space>メセタ
+StatusLabelSeasonPoint - 9周年シーズナルポイント
+StatusLabelSeasonPoint_1 - 9周年シーズナルポイント
+StatusLabelSeasonPoint_3 - お月見シーズナルポイント
+StatusLabelSeasonPoint_4 - ハロウィンシーズナルポイント
+StatusLabelSeasonPoint_7 - ウィンターシーズナルポイント
+StatusLabelSeasonPoint_8 - スプリング'22シーズナルポイント
+StatusLabelSeasonPoint_9 - 『NGS』1周年記念シーズナルポイント
+StatusLabelSeasonPoint_10 - 『PSO2』10周年記念シーズナルポイント
+StatusLabelSeasonPoint_11 - お月見'22シーズナルポイント
+StatusLabelSeasonPoint_12 - オータム'22シーズナルポイント
+StatusLabelSeasonPoint_13 - クリスマス'22シーズナルポイント
+StatusLabelSeasonPoint_14 - ニューイヤー'23シーズナルポイント
+StatusLabelSeasonPoint_15 - ウィンター'23シーズナルポイント
+StatusLabelSeasonPoint_16 - スプリング'23シーズナルポイント
+StatusLabelSeasonPointValue - $(1) /$(0)
+StatusLabelN-Meseta - <pict reb_meseta>メセタ
 StatusLabelFun - FUN
-StatusLabelAc - AC
+StatusLabelAc - アークスキャッシュ(AC)
 StatusLabelTicket - プレミアム有効期間
 StatusLabeMainClass - メインクラス
 StatusLabelSubClass - サブクラス
@@ -1709,6 +1915,25 @@ ChallengePoint - チャレンジマイル
 StatusLabelSg - スタージェム（SG）
 LevelMax - （$(0)）
 LevelMaxHide - （－）
+RemainingDaysUp - あと$(0)日以上
+RemainingDays - あと$(0)日
+RemainingHour - あと約$(0)時間
+RemainingHourLess - あと$(0)時間未満
+StatusLabePowerAndMaxPower - 戦闘力
+StatusLabePowerAndMaxPowerNumber - $(0)
+GoToTask - <%Function>でタスク一覧を開く
+RemainingDayHourMin - あと$(0)日$(1)時間$(2)分
+StatusLabelSeasonPointPossession - 所持ポイント
+StatusLabelSeasonPointWeeklyLimit - ウィークリー獲得ポイント
+StatusLabelSeasonalPoint - シーズナルポイント
+StatusLabelMP - ミッションパス　$(0)
+StatusLabelMP_title - ミッションパス
+StatusLabelMP_season - $(0)
+StatusLabelMP2 - ミッションパス　未開催
+StatusLabelMP_ClosedSeason - 未開催
+StatusLabelTier - ティア<pict 4space>$(0)　
+StatusLabelTier_title - ティア
+StatusLabelTier_number - $(0)<pict 4space><pict mp_star_icon>
 
 Group 1
 
@@ -1731,6 +1956,14 @@ Group 9
 
 StatusEffect
 Group 0
+PlBadCond:Burn - バーン
+PlBadCond:Freeze - フリーズ
+PlBadCond:Shock - ショック
+PlBadCond:Mirage - ミラージュ
+PlBadCond:Panic - パニック
+PlBadCond:Poison - ポイズン
+PlBadCond:Stun - スタン
+PlBadCond:Injury - インジュリー
 Title - 発生中の効果
 header1 - 効果名
 header2 - 効果時間
@@ -1761,7 +1994,7 @@ SubTitle_PremiumBoost - プレミアム効果
 SubTitle_PokaBoost - 次回バトルボーナス
 SubTitle_ParameterSync - 自動能力調整
 SubTitle_BasnetBuff - メインマッチブースト効果
-SubTitle_HalfdollRemain - ハーフドール使用
+SubTitle_HalfdollRemain - N-ハーフドール使用
 SubTitle_ComeBackPlayerBonus - 復帰プレイヤーボーナス
 SubTitle_Darkerblast - ダークブラスト効果
 SubTitle_CloudBlockBuff - クラウドパーティーブースト
@@ -1879,17 +2112,17 @@ FriendInviteBoost - 獲得経験値＋$(0)％
 LaboBoost1 - レイド報酬：強化大成功確率＋$(0)％
 LaboBoost2 - レイド報酬：ユニット強化成功率＋$(0)％
 ItemEffect_Suspend - （一時停止中）
-PartyBuff - トライブースト＋$(0)％
+PartyBuff - 経験値／N-メセタ／レアドロップ倍率＋$(0)％
 PremiumBoost - トライブースト＋$(0)％
 PremiumBoostDay - $(0)日
 PokaPointBoost - 獲得バトルコインボーナス＋$(0)％
 ParameterSync - Lv.$(0)相当
 BasnetBuff - トライブースト+$(0)%
 HalfdollRemain - 使用可能（残り$(0)回）
-HalfDollNotRemain - 使用済み（キャンプシップに戻ると回復）
+HalfDollNotRemain - 使用済み（シティに戻ると回復）
 ComeBackPlayerPresent - おすすめクエストプレゼント＋$(0)
 CloudBlockBuff - 獲得経験値＋$(0)％
-TSB_TriBoost - トライブースト＋$(0)％
+TSB_TriBoost - 経験値／N-メセタ／レアドロップ倍率＋$(0)％
 TSB_ExpUp - 獲得経験値＋$(0)％
 TSB_MesetaUp - 獲得メセタ＋$(0)％
 TSB_RareDropUp - レアドロップ倍率＋$(0)％
@@ -1898,6 +2131,56 @@ TSB_ItemLotteriesUp - 特定アイテムドロップ最大量アップ
 TSB_AddDropItem - 特定アイテムドロップ追加
 TravelBoost_TravelContinuous - ２エリア目ブースト
 Armada_DropLotteriesUp - アイテムドロップ数アップ
+SubTitle_WorldTrial - Ｓグレイスブースト【全体】
+SubTitle_WorldTrial2 - Ｓグレイスブースト【個人】
+WorldTrial_RareDropUp - レアドロップ倍率＋$(0)％
+TechterShiftaDebandBuff - シフタ・デバンド
+SubTitle_Drone - ドロームブースト
+Drone_Buff - 威力上昇／ダメージ軽減
+RMag_RegionMagBoost - リージョンマグブースト
+RMag_BoostEffect1 - 威力上昇
+RMag_BoostEffect2 - 獲得経験値+$(0)%
+RMag_BoostEffect3 - レアドロップ倍率+$(0)%
+PremiumFoodBoostEffect1 - レアドロップ倍率＋$(0)％
+PremiumFoodBoostEffect2 - 獲得メセタ＋$(0)％
+PremiumFoodBoostEffect3 - 獲得経験値+$(0)%
+Premium_Effect - <pict Arcscash>プレミアム効果
+PremiumFoodBoost - フードブースト<pict Arcscash>プレミアム効果
+FoodBoost - フードブースト効果
+SubTitle_BattleTrigger - バトルトリガー使用者効果
+BattleTrigger_BoostEffect1 - 獲得経験値+$(0)%
+BattleTrigger_BoostEffect2 - レアドロップ倍率+$(0)%
+CommonBoost_RareDropUp - レアドロップ倍率＋$(0)％
+CommonBoost_SeasonalPointRate - シーズナルポイント獲得倍率＋$(0)％
+SubTitle_CampaignBoost - キャンペーンブースト
+CampaignBoost_WeoponElements - $(0)属性武器威力＋$(0)%
+CampaignBoost_WeoponGroup - $(0)武器威力＋$(0)%
+CampaignBoost_PPRegene - PP自然回復量＋$(0)%
+CampaignBoost_HPRegene - HP回復量＋$(0)%
+SubTitle_AreaEffect - フィールド特性
+IceArea_RecoveryDown - HP回復量減少
+SubTitle_AdditionalBoost - アドオンスキルブースト
+TriBoost_Addition_Title - ブースト効果の合計値
+TriBoost_Addition_Subtitle - 獲得経験値／獲得N-メセタ／レアドロップ倍率
+TriBoost_Addition1 - <pict exp_icon><pict 4space>＋$(1)%／<pict meseta_icon2><pict 4space>＋$(2)%／<pict rare_drop_icon><pict 4space>＋$(0)%
+r04_non_dro_b:Boosted - 威力上昇／PP自然回復量増加
+SubTitle_Df3Boost_Npc1 - クエスト支援効果
+Df3Boost_Npc1 - 威力上昇／移動速度上昇
+SubTitle_Df3Boost_Npc2 - クエスト支援効果
+Df3Boost_Npc2 - 攻撃命中時に追加攻撃発生
+SubTitle_Df3Boost_Npc3 - クエスト支援効果
+Df3Boost_Npc3 - PP自然回復量増加
+LastDungeon_NormalAttackAtpUp - 通常攻撃威力上昇（Lv.$(0)）
+LastDungeon_TechniquePaAtpUp - PA・テクニック威力上昇（Lv.$(0)）
+LastDungeon_GlideAttackAtpUp - ダイブアタック威力上昇（Lv.$(0)）
+LastDungeon_StepCounterAtpUp - ステップカウンター威力上昇（Lv.$(0)）
+SubTitle_LastDungeonBuff - フィールド特性
+SubTitle_SideMissionClearBonus - サイドミッション達成ブースト
+Pyramid_MaxPpAdd - 最大PP＋20
+Pyramid_PbGuageIncrease - フォトンブラストゲージ増加量＋100％
+Pyramid_InflictDamageIncrease - 攻撃威力＋５%
+Pyramid_DamageCut - ダメージ耐性＋10%
+Pyramid_AttackPpHealRateUp - 攻撃時PP回復量＋15%
 
 Group 1
 
@@ -1957,12 +2240,14 @@ PATitle - フォトンアーツ詳細
 TechnicTitle - テクニック詳細
 OverloadTitle - 複合テクニック詳細
 SkillTitle - スキル詳細
+NormalAttackTitle - 通常攻撃詳細
+WeaponActionTitle - 武器アクション詳細
 NoSelectPAMessage - フォトンアーツが選択されていません
 NoSelectTechnicMessage - テクニックが選択されていません
 NoSelectOverloadMessage - 複合テクニックが選択されていません
 Power - 威力
 Dex - 技量補正
-NeedPp - 消費ＰＰ
+NeedPp - 消費PP
 PowerValue - $(0)
 DexValue - $(0)％
 EffectValue - $(0)％
@@ -2087,13 +2372,13 @@ CostumeHint - コスチュームを装備できるスロットです。
 Parts1Hint - ボディパーツを装備できるスロットです。
 Parts2Hint - アームパーツを装備できるスロットです。
 Parts3Hint - レッグパーツを装備できるスロットです。
-Addon1Hint - リアユニットを装備できるスロットです。
-Addon2Hint - アームユニットを装備できるスロットです。
-Addon3Hint - レッグユニットを装備できるスロットです
+Addon1Hint - 防具、またはリアユニットを装備できるスロットです
+Addon2Hint - 防具、またはアームユニットを装備できるスロットです
+Addon3Hint - 防具、またはレッグユニットを装備できるスロットです
 Ring1Hint - Lリングを装備できるスロットです。
 Ring2Hint - Rリングを装備できるスロットです。
 FashionHint - コスチュームを装備できるスロットです。
-CostumeHint1 - 新コスチューム
+CostumeHint1 - N-コスチューム
 CostumeHint2 - コスチューム/パーツ/武器迷彩
 CostumeError - 共通シップやチャレンジブロックでは<br>コスチュームやアウターウェアを外せません。<br>通常のブロックに戻って装備を変更してください。
 CostumeErrorTitle - 防具パレット
@@ -2299,21 +2584,15 @@ NoTitle - なし
 Name - キャラクター名
 Guild - チーム名
 NoGuild - 未所属
-HunterExplanation - 近距離での戦闘に真価を発揮するクラス。<br>高いHPと防御力が特徴で<br>単独での戦闘能力に優れる。
-RangerExplanation - 射撃武器による攻撃を主とし<br>中間距離での戦闘を得意とするクラス。<br>精密な射撃での攻撃が可能。
-ForceExplanation - フォトンを用いたテクニックの使用に長けた<br>遠距離戦闘向きのクラス。高い法撃力で<br>用いるテクニックは、強力かつ多彩。
-FighterExplanation - 軽量近接武器による近接戦闘を<br>得意とするクラス。<br>特定の条件を満たすことで真価を発揮する。
-GunnerExplanation - 射撃武器を用いた近接戦闘に特化したクラス。<br>連射性能に優れた武器と高い機動力で<br>相手を翻弄する。
-TecherExplanation - フォトンを用いたテクニックの使用に長けた<br>支援戦闘向きのクラス。<br>強化や回復を得意とする。
-BraverExplanation - バランスの取れた遠近対応のクラス。<br>技術を向上させ戦い方を極めることで<br>体感的な能力は何倍にも引き上がる。
-BouncerExplanation - 近距離戦闘だけでなく、テクニック使用も<br>可能なクラス。支援能力も高く<br>多人数での戦いで真価を発揮する。
-ChallengerExplanation - アークスのＶＲ訓練に用いられる特殊クラス。<br>多彩な状況の対応訓練を行うため<br>全ての武器を使えるよう設定されている。
-SummonerExplanation - ペットを召喚し、戦闘を行うクラス。<br>様々なペットを育て、巧みに使役し<br>局面に応じた多彩な力を発揮する。
-PokaExplanation - バトルアリーナで用いられる特殊クラス。<br>アークス同士の対戦に特化しており<br>様々な条件下での訓練に対応している。
-WpnmanExplanation - 対多数の敵と戦う事を想定した後継クラス。<br>打撃・射撃・法撃と３種の武器を扱い<br>オールレンジで戦う事が可能となっている。
-VillainExplanation - 連続攻撃から援護までこなせる後継クラス。<br>多彩な技を駆使し、敵の攻撃を切り抜けながら<br>悠然と立ち回る戦闘スタイルを得意とする。
-MasterExplanation - 近接攻撃と守りに重点を置いた後継クラス。<br>攻防一体の堅実な戦闘を実現し<br>隙を見せずに敵を制圧することが可能。
-SlayerExplanation - 銃剣による高速戦闘を行う後継クラス。<br>武器属性に応じて変化する３種の戦闘スタイルは<br>それぞれ特化した性能を持つ。
+HunterExplanation - <yellow>近距離戦闘向きのクラス<c><br>エネミーとの接近戦で真価を発揮する。<br>高いHPと防御力を誇り、単独での戦闘が可能。
+RangerExplanation - <yellow>中距離戦闘向きのクラス<c><br>射撃武器により、エネミーと一定の距離を置いて戦う。<br>特殊弾で、他のプレイヤーを支援することもできる。
+ForceExplanation - <yellow>遠距離戦闘向きのクラス<c><br>遠距離から、“テクニック”でエネミーを攻撃する。<br>多彩なテクニックで、エネミーの弱点属性を巧みに狙う。
+FighterExplanation - <yellow>超近距離戦闘向きのクラス<c><br>エネミーと肉薄する距離での戦闘を得意とする。<br>防御力を犠牲にした強力な猛攻撃で、エネミーを粉砕する。
+GunnerExplanation - <yellow>近距離戦闘向きのクラス<c><br>射撃武器による近接戦闘を得意とする。<br>すさまじい弾幕と優れた機動力で、エネミーを翻弄する。
+TecherExplanation - <yellow>近距離および遠距離戦闘向きのクラス<c><br>“テクニック”に長け、他のプレイヤーを支援する。<br>一時的な能力強化や回復などで、戦闘を有利に進める。
+BraverExplanation - <yellow>近距離および遠距離戦闘向きのクラス<c><br>遠近の武器を使いわけて、臨機応変に戦うことができる。<br>ひとつひとつの攻撃はシンプルながら奥が深い。
+BouncerExplanation - <yellow>近距離および中距離戦闘向きのクラス<c><br>機動力が高く、空中戦を得意とする。<br>物理ダウンや属性ダウンを誘発して、戦闘を有利に進める。
+SummonerExplanation - <yellow>近距離および遠距離戦闘向きのクラス<c><br>“ファミリア”を使役し、ともにエネミーと戦う。<br>状況に応じてファミリアを使いわけることで、<br>真価を発揮する。
 NoPaMessage - フォトンアーツがありません
 NoTechnicMessage - テクニックがありません
 NoOverloadMessage - 複合テクニックがありません
@@ -2336,11 +2615,7 @@ OnMousePaKatana - カタナ系フォトンアーツ
 OnMousePaCompoundBow - バレットボウ系フォトンアーツ
 OnMousePaJboots - ジェットブーツ系フォトンアーツ
 OnMousePaDblade - デュアルブレード系フォトンアーツ
-OnMousePaWpnman - 後継クラス系フォトンアーツ
-OnMousePaWpnmanEP6 - ヒーロー系フォトンアーツ
-OnMousePaVillainEP6 - ファントム系フォトンアーツ
-OnMousePaMasterEP6 - エトワール系フォトンアーツ
-OnMousePaSlayerEP6 - ラスター系フォトンアーツ
+OnMousePaTakt - タクト系フォトンアーツ
 OnMouseTechnicAttributeAll - すべてのテクニック
 OnMouseTechnicAttributeFire - 炎属性テクニック
 OnMouseTechnicAttributeIce - 氷属性テクニック
@@ -2404,6 +2679,32 @@ SetEffectInfoTitle1 - パラメーター
 SetEffectInfoTitle2 - SET1
 SetEffectInfoTitle3 - SET2
 TreasureMessage - 別のウィンドウが開きます。
+RebootText001 - キャラクターの情報やステータスが確認できます。また、「発生中の効果」で有効なブーストが確認できます。
+RebootText002 - プレイヤーIDネーム
+RebootText003 - プレイヤーID
+RebootText004 - 種族
+RebootText005 - 所属チーム
+RebootText006 - 最大戦闘力
+RebootText007 - メインクラス
+RebootText008 - -
+RebootText009 - クラスリスト
+RebootText010 - キャラクターの各クラスレベルを確認できます。
+RebootText011 - 習得済みフォトンアーツの詳細を確認できます。
+RebootText012 - フォトンアーツリスト
+RebootText013 - 習得済みテクニックの詳細を確認できます。
+RebootText014 - テクニックリスト
+RebootText015 - 習得済みクラススキルの詳細を確認できます。
+RebootText016 - クラススキルリスト
+RebootText017 - キャラクターメニュー
+RebootText018 - 基本情報
+RebootText019 - “PSN”のオンラインID
+RebootText020 - Xbox Liveゲーマータグ
+RebootText021 - サブクラス
+AdditionalSkillInfo - アドオンスキル情報
+AdditionalSkillList - アドオンスキルリスト
+AdditionalSkillLevel - Lv.$(0)
+AdditionalSkillMain - <c 76d1ff>メイン効果<c>
+AdditionalSkillSub - <c 76d1ff>サブ効果<c>
 
 Group 1
 
@@ -2426,40 +2727,91 @@ Group 9
 
 PlayerDeadMenu
 Group 0
+Title_DeadMenu - 戦闘不能メニュー
+Label_Return - キャンプシップへ戻る
+Label_Revival - この場で復活する
+Title_Return - キャンプシップへ戻る
+Message_Return - キャンプシップへ戻ります。<br>よろしいですか？
+Message_Return_NoReward - キャンプシップへ戻ります。<br>よろしいですか？<br><br><red>※一度キャンプシップに戻ると、<br>　報酬を受け取ることができなくなります。<c>
+Title_Revival - この場で復活する
+Message_Revival - この場で復活します。<br>よろしいですか？
+Message_Revival_NoReward - この場で復活します。<br>よろしいですか？<br><br><red>※一度復活すると、<br>　報酬を受け取ることができなくなります。<c>
+Message_ReturnFailure - 現在、キャンプシップへ戻ることはできません。 
+Message_RevivalFailure - 現在、復活することはできません。
+Label_Failure - クエストリタイア
+Message_Failure - クエストをリタイアします。<br>よろしいですか？
+Label_FailurePartyExit - クエストリタイア（パーティー脱退）
+Message_FailurePartyExit - クエストをリタイアして<br>パーティーを脱退します。<br>よろしいですか？
+Label_Chat - チャットをする
+Label_UseHalf - ハーフドールを使用して復活
+Title_HalfDollUse - ハーフドールの使用
+Message_HalfDollUse - ハーフドールを使用して復活します。<br>よろしいですか？<br><br><yellow>※ハーフドールは、残り$(1)回使用することができます。<br>　使用回数は、キャンプシップに戻ることで回復します。<c><br>（所持数：$(0)）
+Message_HalfDollNotRemain - ハーフドール使用回数が$(1)回のため、復活できません。<br><br><yellow>※キャンプシップに戻ることで、$(2)回まで回復します。<c><br>（所持数：$(0)）
+Message_HalfDollNotHave - ハーフドールを持っていないため、復活できません。<br><br><yellow>※ハーフドールは、所持していることで<br>　$(0)回まで使用することができます。<br>　使用回数は、キャンプシップに戻ることで回復します。<c>
+Message_CanNowUseHalfDoll - ハーフドールの使用回数が回復しました。
+Message_Revive_count - 10秒後に自動で復活します。
+Message_Revive_count_5 - 5秒後に自動で復活します。
+Message_Revive_count_Time - $(0)秒後に自動で復活します。
+Title_RetryConform - リトライメニュー
+Label_Retry - リトライする
+Title_RetrySelect - リトライ選択
+Message_Retry - クエストをリトライしますか？<br><br><red>※リトライ後は、クエスト開始前の状態に戻ります。<c>
+FastTravelTerminal_Revival - リューカーデバイス前に戻る
+FastTravelTerminal_Revival_NoReward - リューカーデバイス前に戻ります<br>よろしいですか？
+FastTravelTerminal_Revival_NoReward_name - $(0)の<br>リューカーデバイス前に戻ります<br>よろしいですか？
+Central_Revival - セントラルシティに戻る
+Central_Revival_NoReward - セントラルシティに戻ります<br>よろしいですか？
+Emergency_Revival - この場で復活　
+Emergency_Revival_Count - $(0)秒後
+Prologue_Revival_message - このクエスト中は戦闘不能時に自動的に復活します。
 DeadMenuTitle - 戦闘不能メニュー
 Return - キャンプシップへ戻る
-Buy - スケープドールを購入して復活<pict Arcscash>
-Use - スケープドールを使用して復活
+Buy - N-スケープドールを購入して復活<pict 4space><pict Arcscash>
+Use - N-スケープドールを使用して復活
 Help - -
 ApllyHelp - -
 CancelHelp - -
 ReturnTitle - キャンプシップへ戻る
 ReturnMessage - キャンプシップへ戻ります。<br>よろしいですか？
 ReturnMessage2 - キャンプシップへ戻ります。<br>よろしいですか？<br><br><red>※一度キャンプシップに戻ると、<br>　報酬を受け取ることができなくなります。<c>
-ScapeDollBuyTitle - スケープドールの購入
-ScapeDollBuyMessage - <pict Arcscash><c ff4f3f>AC消費コンテンツ<c><br>スケープドールを購入して復活します。<br>よろしいですか？
-ScapeDollUseTitle - スケープドールの使用
-ScapeDollUseMessage - <pict Arcscash><c 5fdf00>購入済アイテムの使用<c><br>購入済のスケープドールを<br>使用して復活します。<br>よろしいですか？<br><br>（所持数：$(0)）
+ScapeDollBuyTitle - N-スケープドールの購入
+ScapeDollBuyMessage - <pict Arcscash><pict 4space><c ff4f3f>AC消費コンテンツ<c><br>N-スケープドールを購入して復活します。<br>よろしいですか？
+ScapeDollUseTitle - N-スケープドールの使用
+ScapeDollUseMessage - <pict Arcscash><pict 4space><c 5fdf00>購入済アイテムの使用<c><br>購入済のN-スケープドールを<br>使用して復活します。<br>よろしいですか？<br><br>（所持数：$(0)）
 ReturnFailure - 現在、キャンプシップへ戻ることはできません。 
 Failure - クエストリタイア
 FailureMessage - クエストをリタイアします。<br>よろしいですか？
 FailurePartyExit - クエストリタイア（パーティー脱退）
 FailurePartyExitMessage - クエストをリタイアして<br>パーティーを脱退します。<br>よろしいですか？
-Chat - チャットする
-UseHalf - ハーフドールを使用して復活
-HalfDollUseTitle - ハーフドールの使用
-HalfDollUseMessage - ハーフドールを使用して復活します。<br>よろしいですか？<br><br><yellow>※ハーフドールは、残り$(1)回使用することができます。<br>　使用回数は、キャンプシップに戻ることで回復します。<c><br>（所持数：$(0)）
-HalfDollNotRemainMessage - ハーフドール使用回数が$(1)回のため、復活できません。<br><br><yellow>※キャンプシップに戻ることで、$(2)回まで回復します。<c><br>（所持数：$(0)）
-HalfDollNotHaveMessage - ハーフドールを持っていないため、復活できません。<br><br><yellow>※ハーフドールは、所持していることで<br>　$(0)回まで使用することができます。<br>　使用回数は、キャンプシップに戻ることで回復します。<c>
-CanNowUseHalfDoll - ハーフドールの使用回数が回復しました。
+Chat - チャットをする
+UseHalf - N-ハーフドールを使用して復活
+HalfDollUseTitle - N-ハーフドールの使用
+HalfDollUseMessage - N-ハーフドールを使用して復活します。<br>よろしいですか？<br><br><yellow>※N-ハーフドールは、あと$(1)回使用できます。<br>　使用回数は、クエストのクリアやリタイア、<br>　シティに帰還したときなどに回復します。<c><br>（N-ハーフドール所持数：$(0)）
+HalfDollNotRemainMessage - N-ハーフドールの使用可能回数が$(1)回のため、復活できません。<br><br><yellow>※N-ハーフドールは、あと$(1)回使用できます。<br>　使用回数は、クエストのクリアやリタイア、<br>　シティに帰還したときなどに回復します。<c><br>（N-ハーフドール所持数：$(0)）
+HalfDollNotHaveMessage - N-ハーフドールを所持していないため、復活できません。<br><br><yellow>※N-ハーフドールは、あと$(1)回使用できます。<br>　使用回数は、クエストのクリアやリタイア、<br>　シティに帰還したときなどに回復します。<c><br>（N-ハーフドール所持数：$(0)）
+CanNowUseHalfDoll - N-ハーフドールの使用回数が回復しました。
 Revive_count - 10秒後に自動で復活します。
 Revive_count_vita - 10秒後に自動で復活します。
 Revive_count_5 - 5秒後に自動で復活します。
 Revive_count_Time - $(0)秒後に自動で復活します。
-RetryConform - リトライメニュー
+RetryConform - クエストメニュー
 Retry - リトライする
 RetrySelect - リトライ選択
-RetryMessage - クエストをリトライしますか？<br><red>（※リトライ後は、受注した状態で<br>　キャンプシップへ移動します。）<c>
+RetryMessage - クエストをリトライしますか？<br><red>※リトライ後は、クエスト開始前の状態に戻ります。<c>
+RetryErrorMessage - メンバーがクエスト倉庫の画面を開いているため、<br>リトライが出来ません。
+BuckToField - フィールドに戻る
+BuckToField_GetOutParty - パーティーを抜けて、フィールドへ戻る
+BuckToField_GetOutMyself - ひとりでフィールドに戻る
+BuckToField_CheckMessage - フィールドに戻りますか？<br><br><yellow>“同じパーティーのメンバー”<c>も<br>同時にフィールドに戻ります。
+BuckToField_CheckMessage_GetOutMyself - フィールドに戻りますか？<br><br>パーティーに参加した状態のまま、<br><yellow>“自分だけ”<c>がフィールドに戻ります。
+RetryMessage2 - クエストをリトライしますか？<br><red>※リトライ後は、クエスト開始前の状態に戻ります。<c>
+TrigerActiveRetired - クエストをリタイアしますか？<br><br><yellow>“バトルトリガーの使用者”<c>が<br>クエストをリタイアすると、<br><yellow>“同じパーティーのメンバー”<c>も<br>同時にフィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。
+TrigerJoinRetired - クエストをリタイアしますか？<br><br>クエストをリタイアすると、<br><yellow>“自分だけ”<c>が<br>フィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。<br><br><yellow>※一度バトルディアを出ると、<br>　進行中のクエストに再度参加することはできません。<c>
+TrigerJoinRetiredBlue - クエストをリタイアしますか？<br><br>クエストをリタイアすると、<br><yellow>“自分だけ”<c>が<br>フィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。<br><br><yellow>※一度クエストを出ると、<br>　進行中のクエストに再度参加することはできません。<c>
+TrinitesQuestRetireLeaderMessage - クエストをリタイアしますか？<br><br>クエストをリタイアすると、<br><yellow>“同じパーティーのメンバー”<c>も<br>同時にフィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。
+TrinitesQuestRetireMemberMessage - クエストをリタイアしますか？<br><br>クエストをリタイアすると、<br><yellow>“自分だけ”<c>が<br>フィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。
+ContinueMessage1 - 全滅から一定時間経過でクエスト終了
+ContinueMessage2 - 復活可能時間：残り$(0)秒
 
 Group 1
 
@@ -2522,6 +2874,11 @@ RenameExplain - 選択しているスキルツリーの名前を入力して<br>
 RenameError - この名前は使用することができません。
 LevelUp_LackClassLv - クラスレベルが必要レベルに達していないため、<br>習得することができません。<br><br>必要クラスレベル情報<br>$(0) $(1) Lv.$(2)
 LevelUp_LackClassLv_v - クラスレベルが必要レベルに達していないため、<br>習得することができません。<br><br>必要クラスレベル情報<br>$(0) $(1) Lv.$(2)
+RebootText001 - スキルポイント
+RebootText002 - 選択したクラススキルを習得します。<br>よろしいですか？
+RebootText003 - スキルポイントが不足しているため、<br>クラススキルを習得できません。
+RebootText004 - 変更を破棄します。<br>よろしいですか？
+ShowClassTutorial - ヘルプを表示
 
 Group 1
 
@@ -2544,6 +2901,119 @@ Group 9
 
 SkillName
 Group 0
+HealTank - レスタサイン
+RecoveryMoonAtomizer - リバーサーサイン
+HunterWarCry - ウォークライ
+HunterIronWill - アイアンウィル
+HunterMassiveHunter - マッシブハンター
+HunterParryingPa - ハンターアーツ<br>アヴェンジ
+HunterSwordGuardCounterPlus - ソードガード<br>カウンタープラス
+HunterSwordNormalAttackPlus - ソードアタック<br>エクストラ
+HunterSwordAttackExtra - ソードアタック<br>エクストラ
+HunterWeakHitAdvance - ウィークヒット<br>アドバンスHu
+HunterParryingCritical - パリングクリティカル
+HunterCounterBoost - カウンター<br>ブースト
+HunterJustGuardDownBoost - ジャストガード<br>リアクションブースト
+HunterSwordGuardCounter - ソードガード<br>カウンター
+HunterFlashGuard - フラッシュガード
+HunterAllGuard - オールガード
+HunterParryingPPHeal - ハンターアーツ<br>アヴェンジPPゲイン
+HunterParryingPaJustGuard - ハンターアーツ<br>ジャストパリング
+HunterSlowFallCharge - スローランディング<br>チャージHu
+HunterTecArtsSkipAttack - アナザーアーツ<br>スキップアタックHu
+HunterSameArtsSkipAttack - セイムアーツ<br>スキップアタックHu
+HunterPartisanVolgraptor - ヴォルグラプター
+HunterPartisanAssaultCharge - アサルトチャージ
+HunterPartisanParryingAssaultCharge - アサルトチャージ<br>アヴェンジ
+HunterPartisanVolgraptorPPHeal - ヴォルグラプター<br>PPゲイン
+HunterWLanceAttackExtra - ワイヤードアタック<br>エクストラ
+HunterWLanceWAPlus - ワイヤードアンカー<br>アドバンス
+HunterWLanceWAGuardPointPlus - ワイヤードアンカー<br>ジャストパリング
+RangerGaugeShotGun - スプレッドショット
+RangerGaugeShotGunAway - スプレッドショット<br>クイックエスケープ
+RangerWeakBullet - ウィークバレット
+RangerWeakBulletParse - ウィークバレット<br>リインフォース
+RangerWeaponActionAvoid - スライドショット<br>アドバンス
+RangerGrenadeTrap - ライフルグレネーダー
+RangerRangeBonus - 適正距離<br>リアクションボーナス
+RangerDownChain - リアクションチェーン
+RangerWeakHitAdvance - ウィークヒット<br>アドバンスRa
+RangerWeakBlastBonus - ウィークヒット<br>ブラストボーナス
+RangerFallSlowAttack - スローランディング<br>アタックRa
+RangerFallSlowCharge - スローランディング<br>チャージRa
+RangerClusterBombRecastReduce - スティッキーボム<br>クイックリロード
+RangerLauncherChargeConvergence - ランチャーチャージ<br>グルーピング
+RangerConditionBadGuard - バッドコンディション<br>レジスト
+RangerConditionBadEase - バッドコンディション<br>リデュース
+ForcePhotonFlare - フォトンフレア
+ForcePpConvert - PPコンバート
+ForcePpConvertReCharge - PPコンバート<br>インクリース
+ForceChargePpRevival - テクニックチャージ<br>PPウェルアップ
+ForceChargeEscape - ロッドテクニック<br>キープ
+ForceHeal - レスタフィールドFo
+ForceOverFlow - オーバーフロー
+ForcePhotonFlareTecShortCharge - フォトンフレア<br>ショートチャージ
+ForcePhotonFlareAfterBurst - フォトンフレア<br>アフターバースト
+ForcePhotonFlareBoost - フォトンフレア<br>ブースト
+ForceRodCounterTechnic - ロッドリアクト<br>アドバンス
+ForcePhotonFlarePpRefrain - フォトンフレア<br>アフターPPゲイン
+ForceNightmare - キリングPPゲイン
+ForceReflectCounterShot - エレメンタルバレット
+ForceRodCounterTecBonus - ロッドカウンター<br>アドバンス
+ForceRodAbsorption - ステイPPゲイン
+ForceTalisConcentrate - タリスブルーム<br>スティムレイト
+ForceTalisQuickMarkShot - フロートトーチカ<br>マルチロック
+ForceTalisSetRevok - タリスブルーム<br>リヴォーク
+ForcePpRestorate - PPリカバリーアップ
+ForceSlowFallCharge - スローランディング<br>チャージFo
+ForceBartaBlot - バータブロット
+ForceZondeClad - ゾンデクラッド
+FighterLimitBreak - リミットブレイク
+FighterLimitBreakPhotonCharge - リミットブレイク<br>PPゲイン
+FighterLimitBreakInsurance - リミットブレイク<br>エンデュランス
+KnuckleDodgeHeatRevenge - ナックルアタック<br>スイッチ
+FighterKnuckleSwayCounterPlus - ナックルスウェー<br>カウンタープラス
+FighterKnuckleNormalAttackPlus - ナックルアタック<br>エクストラ
+FighterKnuckleAttackExtra - ナックルアタック<br>エクストラ
+FighterPhotonFlood - フォトンフラッド
+FighterUnFlatBonus - アンフラット<br>ボーナス
+FighterTecArtsJABonus - テックアーツボーナス
+FighterPPSlayer - PPスレイヤー
+FighterKnuckleSwayCounter - ナックルスウェー<br>カウンター
+FighterLimitBreakPPRestraint - リミットブレイク<br>PPリカバリー
+FighterKnucklePARush - ナックルアーツコンボ<br>PPセイブ
+FighterTDSpinDerive - ダガースピンアクセル
+FighterKamaitachiLv2PPHeal - セイバーグレイズ<br>PPゲイン
+FighterChaseAdvance - ディフィート<br>アドバンテージ
+FighterChaseAdvancePPRecovery - ディフィート<br>PPリカバリー
+FighterTecArtsSkipAttack - アナザーアーツ<br>スキップアタックFi
+FighterSameArtsSkipAttack - セイムアーツ<br>スキップアタックFi
+FighterSkipArts - ファイター<br>スキップアーツ
+FighterTDAnotherDerive - アクセルドライブ
+FighterTDSpinCounter - ダガースピン<br>カウンター
+FighterTDAttackExtra - ダガーアタック<br>エクストラ
+FighterDSDodgeWindCounter - セイバーパリィ<br>カウンター
+FighterDSDodgeWindWACounter - セイバーパリィ<br>アナザーカウンター
+FighterDSDeadlyArcher - デッドリーアーチャー
+FighterDSEnhanceAttack - スパイラルドライブ
+GunnerChainTrigger - チェイントリガー
+GunnerChainFinish - チェインフィニッシュ
+GunnerChainFinishTimeBonus - チェイントリガー<br>クイックリロード
+GunnerSRollArts - スタイリッシュロール<br>アーツ
+GunnerCounterPABurst - スタイリッシュロール<br>ストライクバック
+GunnerChainBoost - チェインブースト
+GunnerNeutralDeadApproach - スタイリッシュ<br>オンスロート
+GunnerPerfectKeeper - パーフェクト<br>キーパー
+GunnerChainFinishBonus - チェインフィニッシュ<br>ボーナス
+GunnerNeoTime - ネオタイム
+GunnerNeoTimeBlastBonus - ネオタイム<br>ブラストボーナス
+GunnerNeoTimePPRefresh - ネオタイム<br>PPリフレッシュ
+GunnerAirAttackBonus - エアアタック<br>ボーナス
+GunnerReactionWeak - リアクションウィーク
+GunnerFallSlowAttack - スローランディング<br>アタックGu
+GunnerFallSlowCharge - スローランディング<br>チャージGu
+GunnerGaugeShotGun - スプレッドショット
+GunnerGaugeShotGunAway - スプレッドショット<br>クイックエスケープ
 WeaponAction - 武器アクション
 NormalAttack - 通常攻撃
 Step - ステップ
@@ -2708,7 +3178,68 @@ GunnerAtpFirearmUp2 - 射撃アップ２
 GunnerAtpFirearmUp3 - 射撃アップ３
 GunnerZeroRangeBonus1 - ゼロレンジ<br>アドバンス１
 GunnerZeroRangeBonus2 - ゼロレンジ<br>アドバンス２
-GunnerAttackPPRestraint - アタック<br>ＰＰリストレイト
+GunnerAttackPPRestraint - アタック<br>PPリカバリー
+GunnerOverWhelm - オーバーウェルム
+TechterShiftaDeband - シフタ・デバンド
+TechterPartyAssist - シフタ・デバンド<br>パーティーシェア
+TechterWandElementChange - ウォンドエレメント<br>チェンジ
+TechterWandElementDiscard - ウォンドエレメント<br>リヴォーク
+TechterHeal - レスタフィールドTe
+TechterWandGuardCounter - ウォンドパリィ<br>カウンター
+TechterAssistField - シフタ・デバンド<br>フィールド
+TechterWandLovers - ウォンドラバーズ
+TechterWandCounterReflection - ウォンドガード<br>リフレクション
+TechterShiftaStrike - シフタエフェクト<br>アンプリファイ
+TechterShiftaAdvance - シフタエフェクト<br>アドバンテージ
+TechterDebandCut - デバンドレジスト<br>バッドコンディション
+TechterDebandPpReStraight - デバンド<br>PPリカバリーアップ
+TechterExtendAssist - シフタ・デバンド<br>エクステンド
+TechterElementWeakBonus - ウィークエレメント<br>アンプリファイ
+TechterAwakeYell - アウェイクエール
+TechterReverseBonus - リバースバウンティ
+TechterWandGuardCounterEdge - ウォンドパリィ<br>カウンターアドバンス
+TechterFallSlowCharge - スローランディング<br>チャージTe
+TechterBartaBlot - バータブロット
+TechterZondeClad - ゾンデクラッド
+ForceTalisTecBurst - トリッキーキャパシタ
+TechterTalisTecBurst - トリッキーキャパシタ
+TechterTalisQuickMarkShot - フロートトーチカ<br>マルチロック
+TechterTalisSetRevok - タリスブルーム<br>リヴォーク
+BraverGuardRelief - マイティーガード
+BraverRestaHealUp - レスタエフェクト<br>アンプリファイ
+BraverJustReversalCover - ブレイクフォール<br>HPゲイン
+BraverCombat - ブレイブコンバット
+BraverBraveCombatShortTime - ブレイブコンバット<br>ショートサイクル
+BraverCombatCountAfterBonus - ブレイブコンバット<br>フィニッシュプライズ
+Katana:LockonChase - ブレイブコンバット<br>クロースレンジ
+BraverCompoundbowPaArmor - ブレイブコンバット<br>アローメイツ
+BraverKatanaGuardCounter - カタナガード<br>カウンター
+Katana:CounterEdge - カタナガード<br>カウンターアドバンス
+Katana:ComboCountSkill - カタナPAコンボ<br>リテンション
+Katana:Ambition - フェアレス<br>アティチュード
+BraverCounterArrow - バレットボウイルード<br>カウンター
+BraverCompoundbowHoming - トレーサーアロウ
+BraverCompoundbowSlideDodge - バレットボウイルード<br>エクスパンド
+BouncerDownRateUp - ディフィート<br>アンプリファイ
+BouncerNakedKiller - パーシャルデストロイ<br>アドバンテージ
+BouncerDefeatPpGain - ディフィート<br>PPゲイン
+BouncerFrailPointUp - ディクライン<br>アンプリファイ
+BouncerPhysicFrail - フィジカル<br>ディクライン
+BouncerElementFrail - エレメンタル<br>ディクライン
+BouncerPhotonBladeFever - ファナティックブレード
+BouncerPhotonBladeFeverUp - ファナティックブレード<br>オーグメント
+BouncerPhotonBladePpGain - フォトンブレード<br>PPリカバリー
+BouncerElementBurst - シュツルムジーカー
+BouncerJetBootsElementChange - ジェットブーツ<br>エレメントセット
+BouncerJetBootsAttackExtra - ジェットアタック<br>エクストラ
+BouncerJetBootsJetAttack - ジェットインテンシティ
+BouncerJetBootsEnhancePA - ジェットアーツ<br>オルタネーション
+BouncerJetBootsWeaponActionCounter - ブーツトリック<br>バウンスカウンター
+BouncerJetBootsBlink - スラストドライブ
+BouncerBartaBlot - バータブロット
+BouncerZondeClad - ゾンデクラッド
+BouncerPhotonBladeGuard - ブレードアーツパリィ
+BouncerElementBurstPPSave - シュツルムジーカー<br>PPセイブ
 TwinmachinegunGear - ツイン<br>マシンガンギア
 ShowTime - ショウタイム
 GunnerHPUp1 - ＨＰアップ
@@ -3220,6 +3751,131 @@ ring_HighJump - ジャンピング<br>ドッジ
 ring_CriticalField - クリティカル<br>フィールド
 ring_Sprint - スプリント
 GaugePA - ゲージ式PA
+EasyControl - かんたん操作
+GlideAttack - ダイブアタック
+GunnerChainBoostDodgeAdvance - チェインブースト<br>アドバンス
+GunnerEscapePPGain - ドッジPPゲイン
+GunnerTMGAccel - ライジングドライブ
+GunnerCounterPABurstEscape - ストライクバック<br>アドバンス
+ForceZanWindBall - ザンゲイル
+ForceGrantzCharge - グランツグリッター
+ForceMegidoCharge - メギドスフィア
+ForceTechDownAdvance - テクニック<br>ドミネーション
+TechterZanWindBall - ザンゲイル
+TechterGrantzCharge - グランツグリッター
+TechterMegidoCharge - メギドスフィア
+TechterOverDrive - オーバーエンファシス
+TechterWandFanatic - ウォンドラバーズ<br>リインフォース
+BraverFinishPrizeBossPlus - フィニッシュプライズ<br>サプライズ
+BraverJustGuardPpGain - カタナジャストガード<br>PPゲイン
+BraverCompoundBowPARush - ボウアーツコンボ<br>PPセイブ
+BraverBraveGear - ブレイブスピリット
+RangerWeakBulletLauncher - ランチャー<br>ウィークバレット
+RangerGaugeShotGunPlus - スプレッドショット<br>ワイドレンジ
+RangerClusterBombEscape - スティッキーボム<br>アドバンス
+HunterSwordParryingAuto - ソードアーツチャージ<br>アヴェンジ
+HunterPartisanGuardParryingAssaultCharge - パルチザンパリィ<br>アナザーアサルト
+HunterWLanceParryingWA - ワイヤードアンカー<br>アヴェンジ
+HunterParryingPaJustGuardEscape - ハンターアーツ<br>パリングアドバンス
+ForceStayReflectCounterShot - エレメンタルバレット<br>エクステンド
+ForceTalisTecBurstHeatUp - トリッキーキャパシタ<br>クイックリチャージ
+BouncerZanWindBall - ザンゲイル
+BouncerGrantzCharge - グランツグリッター
+BouncerMegidoCharge - メギドスフィア
+ForceMixTech - ユナイトテクニックFo
+TechterMixTech - ユナイトテクニックTe
+MixTechFD - フォメルギオン
+MixTechIL - バーランツィオン
+MixTechWT - ザンディオン
+GunnerChainTriggerCountKeep - チェイントリガー<br>カウントリテイン
+GunnerSRollCounterBullet - スタイリッシュロール<br>カウンターバレット
+GunnerAnotherArtsPPSave - Ｔマシンガンアナザー<br>アーツPPセイブ
+BraverBraveCombatSpirit - ブレイブコンバット<br>クロススピリット
+BraverKatanaPaComboExAttack - カタナPAコンボ<br>フィニッシュ
+BraverKatanaCounterExAttack - カタナガード<br>カウンタープラス
+BraverAnotherArtsPPSave - ボウアナザー<br>アーツPPセイブ
+BraverCompoundBowFallSlow - スローランディング<br>バレットボウ
+BouncerPhotonBladeParry - フォトンブレード<br>プロテクション
+BouncerPhotonBladeGuardCounterShot - ブレードアーツパリィ<br>カウンターエッジ
+BouncerJetBootsBlinkSkipAttack - スラストドライブ<br>スキップアタック
+BouncerElementBurstRecastSave - シュツルムジーカー<br>ショートリキャスト
+HunterPartisanAttackExtra - パルチザンアタック<br>エクストラ
+HunterMassiveHunterShortTime - マッシブハンター<br>ショートサイクル
+HunterSwordOverCharge - ソードアーツ<br>オーバーチャージ
+HunterWLanceWAStrikeBack - ワイヤードアンカー<br>ストライクバック
+RangerWeakBulletWideRange - ワイドレンジ<br>ウィークバレット
+RangerGaugeShotGunAutoCharge - スプレッドショット<br>オートチャージ
+RangerGrenadeQuickReload - ライフルグレネーダー<br>クイックリロード
+RangerLauncherAttackShortCharge - ランチャーアタック<br>ショートチャージ
+FighterLimitBreakShortCycle - リミットブレイク<br>ショートサイクル
+FighterTDHitCountPpGain - ダガーカウントアップ<br>PPゲイン
+FighterDSAttackExtra - セイバーアタック<br>エクストラ
+FighterKnucklePARushBonus - ナックルアーツ<br>コンボボーナス
+ForcePhotonFlareShortCycle - フォトンフレア<br>ショートサイクル
+ForceRodTechnicPpWellup - ロッドテクニック<br>PPウェルアップ
+ForceTalisBloomAfterPpGain - タリスブルーム<br>アフターPPゲイン
+ForceTalisTecBurstWeakChargeUp - トリッキーキャパシタ<br>ゲージアンプリファイ
+TechterWandAttackExtra - ウォンド<br>アタックエクストラ
+TechterWandArtsSkipAttack - ウォンドアーツ<br>スキップアタック
+TechterTalisBloomAfterPpGain - タリスブルーム<br>アフターPPゲイン
+TechterTalisTecBurstWeakChargeUp - トリッキーキャパシタ<br>ゲージアンプリファイ
+ForceFoieBrand - フォイエブランド
+TechterFoieBrand - フォイエブランド
+BouncerFoieBrand - フォイエブランド
+SummonerTwoPlatoons - ファミリアユニゾン
+SummonerSuperParry - ホットマルメロパリィ
+SummonerStockZeroPPSave - コールアゲイン<br>PPセイブ
+SummonerForest - トレブルクリフ<br>マーキング
+SummonerForestFinish - トレブルクリフ<br>イグニッション
+SummonerPetAutoAttack - ファミリアアシスト
+SummonerPetGear - タクトギア
+SummonerInOutBlink - リニアドライブ
+SummonerInOutBlinkPlus - リニアドライブ<br>ワンモア
+SummonerWeaponActionStrike - マルメロストライク
+SummonerWeaponActionCounter - タクトパリィ<br>カウンター
+SummonerOldFriends - オールドフレンズ<br>レスキュー
+SummonerRecoveryHarvestExtend - レスタエフェクト<br>コンティニュエンス
+SummonerSuperParryInsurance - ホットマルメロパリィ<br>ショートリキャスト
+SummonerWeaponActionStrikeHoming - マルメロストライク<br>トレーシング
+SummonerWeaponActionPPGain - タクトパリィ<br>PPゲイン
+SummonerAutoAttackContdGaugeUp - ファミリアアシスト<br>アンプリファイ
+SummonerLuckySign - ラッキーサイン
+SummonerHealthManagement - ウェルフェア<br>マネジメント
+RangerStealthAttack - オブスキュアフォーム
+RangerWeakBulletBonus - ウィークバレット<br>セルフベネフィット
+RangerRifleGrenadeEscape - ライフルグレネーダー<br>アドバンス
+RangerLauncherFanatic - ランチャーアタック<br>リインフォース
+GunnerChainTriggerFinishEscape - チェインフィニッシュ<br>アドバンス
+GunnerChainTriggerFinishPPSave - チェインフィニッシュ<br>PPセイブ
+GunnerChainTriggerOverLimit - チェイントリガー<br>インクリース
+GunnerInfinityFire - ヘイルオブバレッツ
+BouncerDBladeFullConnect - ピニオンブレード
+BouncerFrailJellen - ディクライン<br>ジェルンエフェクト
+BouncerElementBurstSpeedBoost - シュツルムジーカー<br>ラピッドブースト
+BouncerOptionChange - スペシャルアビリティ<br>オプティマイズBo
+BraverOptionChange - スペシャルアビリティ<br>オプティマイズBr
+BraverRestaPPGain - レスタサイン<br>PPゲイン
+BraverKatanaAmbitionStrikeBack - Ｆアティチュード<br>PPセイブ
+BraverCompoundbowSlideDodgeCounter - バレットボウイルード<br>EXカウンター
+FighterLimitBreakFinishPPSave - リミットブレイク<br>アフターPPセイブ
+FighterTDAltAccel - ツインダガー<br>クイックアタック
+FighterDSWindExtra - セイバーウィンド<br>エクストラ
+FighterKnuckleAttackExtend - ナックルアタック<br>オルタネーション
+HunterMassiveHunterAfterShield - マッシブハンター<br>エクストラシールド
+HunterSwordAvengeAttackSwitch - ソードアタック<br>オルタネーション
+HunterPartisanQuickAssault - パルチザン<br>クイックアサルト
+HunterWLanceAvengeBonus - ワイヤードアヴェンジ<br>レンジコレクション
+SummonerTwoPlatoonsExtend - ファミリアユニゾン<br>マーキングクリフ
+SummonerPetGearExtra - タクトギア<br>エクストラ
+SummonerWeaponActionChargeGuard - マルメロペイシェンス
+TechterShiftaDebandBoost - ロングレンジ<br>シフタ・デバンド
+TechterMixTechGaugeBonus - Ｕテクニックゲージ<br>アンプリファイTe
+TechterWandDiscardPurge - ウォンドエレメント<br>パスート
+TechterTalisShotMarking - タリスサイン<br>マーキング
+ForceMixTechExecutePP - ユナイトテクニック<br>PPウェルアップ
+ForceMixTechGaugeBonus - Ｕテクニックゲージ<br>アンプリファイFo
+ForceRodChargeTechQuickMove - ロッドチャージ<br>クイックムーブ
+ForceTalisShotMarking - タリスサイン<br>マーキング
 
 Group 1
 
@@ -3242,6 +3898,82 @@ Group 9
 
 SkillExplanation
 Group 0
+HealTank - 自分のHPを最大値の50％回復する。
+RecoveryMoonAtomizer - 周囲の戦闘不能状態のプレイヤーを復活させる。
+HunterSwordNormalAttackPlus - ソードによる通常攻撃段数が、<br>最大５段階に増加する。
+HunterSwordAttackExtra - 通常攻撃段数が、最大５段階に増加する。<br><yellow>※ソード専用<c>
+HunterWeakHitAdvance - 仮テキスト
+HunterParryingCritical - 仮テキスト
+HunterCounterBoost - 仮テキスト
+HunterJustGuardDownBoost - 仮テキスト
+HunterSwordGuardCounter - 武器アクションによる<br>ジャストガード成功時に、<br>自動的にカウンターが発生する。<br><yellow>※ソード専用<c>
+HunterFlashGuard - 受けるダメージを軽減する。
+HunterAllGuard - 武器アクションによる<br>ガードが全方向に対応する。<br><yellow>※ハンター武器専用<c>
+HunterParryingPPHeal - ハンターアーツアヴェンジ発動時に、<br>PPが回復する。
+HunterParryingPaJustGuard - PA発動時に、<br>エネミーからの攻撃を無効化する。<br><yellow>※ハンター武器専用<c>
+HunterSlowFallCharge - PAチャージ中、落下速度が緩やかになる。<br><yellow>※ハンター武器専用<c>
+HunterTecArtsSkipAttack - 同一武器で、異なるPAを連続で使用した後の<br>通常攻撃が４段目に変化する。<br>最大段数が３段階以下の場合は、<br>最終段に変化する。<br><yellow>※ハンター武器専用<c>
+HunterSameArtsSkipAttack - 同一武器で、同じPAを連続で使用した後の<br>通常攻撃が３段目に変化する。<br><yellow>※ハンター武器専用<c>
+HunterPartisanVolgraptor - 武器アクションボタンを長押しすることで、<br>ダメージを蓄積するフォトンの槍を放つ。<br>フォトンの槍は、一定時間が経過するか、<br>一定ダメージを与えると爆発する。<br><yellow>※パルチザン専用<c>
+HunterPartisanAssaultCharge - PA発動後に、特定のタイミングで、<br>武器アクションボタンを押すことで、<br>チャージ可能な突き攻撃を行う。<br><yellow>※パルチザン専用<c>
+HunterPartisanVolgraptorPPHeal - ヴォルグラプターで放ったフォトンの槍に、<br>一定ダメージを与えて爆発させると、<br>PPが回復する。
+HunterWLanceAttackExtra - 通常攻撃段数が、最大４段階に増加する。<br><yellow>※ワイヤードランス専用<c>
+HunterWLanceWAGuardPointPlus - 武器アクション発動時に、<br>エネミーからの攻撃を無効化する。<br><yellow>※ワイヤードランス専用<c>
+RangerGaugeShotGunAway - スプレッドショット発動時に、<br>無敵時間が発生する。<br>また、方向入力時の退避距離が延びる。
+RangerRangeBonus - 仮テキスト
+RangerDownChain - 仮テキスト
+RangerWeakHitAdvance - 仮テキスト
+RangerWeakBlastBonus - 仮テキスト
+RangerFallSlowAttack - 通常攻撃中、落下速度が緩やかになる。<br><yellow>※レンジャー武器専用<c>
+RangerFallSlowCharge - PAチャージ中、落下速度が緩やかになる。<br><yellow>※レンジャー武器専用<c>
+RangerClusterBombRecastReduce - 武器アクション発動後に、<br>再使用が可能になるまでの時間を短縮する。<br><yellow>※ランチャー専用<c>
+RangerLauncherChargeConvergence - チャージ状態で通常攻撃を行うときに、<br>前に方向入力することで、<br>集弾性が向上する。<br><yellow>※ランチャー専用<c>
+RangerConditionBadGuard - 状態異常になりにくくなる。
+RangerConditionBadEase - 状態異常の効果時間を短縮する。
+ForceOverFlow - 仮テキスト
+ForcePhotonFlareTecShortCharge - フォトンフレアの発動中に、<br>テクニックの威力が低下するかわりに、<br>チャージ時間を短縮する。<br><yellow>※メインクラス／フォース武器専用<c>
+ForcePhotonFlareAfterBurst - 仮テキスト
+ForcePhotonFlareBoost - 仮テキスト
+ForcePhotonFlarePpRefrain - フォトンフレア終了時に、<br>フォトンフレア中のPP消費量に応じて<br>PPが回復する。<br><yellow>※メインクラス専用<c>
+ForceNightmare - 自身の周囲でエネミーを<br>ダウンさせた、または撃破したときに、<br>PPが回復する。
+ForceRodCounterTecBonus - ロッド装備中、<br>ステップでの回避、<br>または武器アクションでのガード成功時、<br>テクニックを使用すると<br>無敵時間が発生する。
+ForceRodAbsorption - テクニック発動後に、<br>攻撃や回避を行わずにいると、<br>PPが回復する。<br><yellow>※ロッド専用<c>
+ForceTalisConcentrate - PA発動後のタリス展開時に、<br>展開時間が減少するかわりに、<br>テクニックの威力が上昇し、<br>消費PPが減少する。
+ForceTalisQuickMarkShot - 武器アクション発動時に、<br>方向入力を行わないことで、<br>一定時間、断続的に、<br>複数のエネミーを攻撃する。<br><yellow>※タリス専用<c>
+ForceTalisSetRevok - 武器アクションボタンを長押しすることで、<br>PAによるタリスの展開状態を解除する。<br><yellow>※タリス専用<c>
+ForcePpRestorate - PPの自然回復量が増加する。
+ForceSlowFallCharge - テクニックチャージ中、<br>落下速度が緩やかになる。<br><yellow>※フォース武器専用<c>
+ForceBartaBlot - チャージしていない氷属性テクニックを、<br>エネミーに当てることで、その回数に応じて、<br>最大２段階まで強化される氷の紋章を刻む。<br>そこに、チャージした<br>同属性のテクニックを当てると、<br>紋章が起爆して、<br>強化段階に応じた追加ダメージを与える。
+ForceZondeClad - チャージしていない雷属性テクニックを、<br>一定回数エネミーに当てることで、自身が<br>帯電状態になる。さらに、チャージした<br>同属性のテクニックを使用すると、帯電が<br>解除され、そのテクニックを強化する。
+FighterPhotonFlood - 仮テキスト
+FighterUnFlatBonus - 仮テキスト
+FighterTecArtsJABonus - 仮テキスト
+FighterPPSlayer - 仮テキスト
+FighterKnuckleSwayCounter - 武器アクションによる回避成功時に、<br>自動的にカウンターが発生する。<br><yellow>※ナックル専用<c>
+FighterLimitBreakPPRestraint - リミットブレイク中、<br>PPの自然回復量と<br>攻撃時のPP回復量が増加する。<br><yellow>※メインクラス／ファイター武器専用<c>
+FighterKnucklePARush - PAを連続して発動したときに、<br>その回数に応じてPP消費量が減少する。<br><yellow>※メインクラス／ナックル専用<c>
+FighterTDSpinDerive - 武器アクション発動後に、<br>特定タイミングで<br>通常攻撃ボタンを押すことでも、<br>アクセルドライブが使用可能になる。<br><yellow>※メインクラス／ツインダガー専用<c>
+FighterKamaitachiLv2PPHeal - ２段階目のカマイタチがヒットしたときに、<br>PPが回復するようになる。<br><yellow>※メインクラス／ダブルセイバー専用<c>
+FighterChaseAdvance - ダウン中のエネミーに、<br>与えるダメージが増加する。
+FighterChaseAdvancePPRecovery - ダウン中のエネミーを、<br>攻撃したときのPP回復量が増加する。
+FighterTecArtsSkipAttack - 同一武器で、異なるPAを連続で使用した後の<br>通常攻撃が４段目に変化する。<br>最大段数が３段階以下の場合は、<br>最終段に変化する。<br><yellow>※ファイター武器専用<c>
+FighterSameArtsSkipAttack - 同一武器で、同じPAを連続で使用した後の<br>通常攻撃が３段目に変化する。<br><yellow>※ファイター武器専用<c>
+FighterSkipArts - 方向入力を行わずにPAを使用すると、<br>そのPAの後半部分から発動する。<br><yellow>※ファイター武器専用<c>
+FighterTDAnotherDerive - PA発動後に、特定のタイミングで、<br>通常攻撃ボタンを押すことで、<br>エネミーに突撃を行う。<br><yellow>※ツインダガー専用<c>
+FighterTDAttackExtra - 通常攻撃段数が、最大４段階に増加する。<br><yellow>※ツインダガー専用<c>
+FighterDSDeadlyArcher - ２段階目のカマイタチをまとった状態で、<br>武器アクションボタンを長押しすることで、<br>すべてのカマイタチをエネルギーに換えて、<br>エネミーに武器を投擲する。<br><yellow>※ダブルセイバー専用<c>
+FighterDSEnhanceAttack - ２段階目のカマイタチをまとった状態で、<br>通常攻撃ボタンを長押しすることで、<br>すべてのカマイタチをエネルギーに換えて、<br>つむじ風を発生させる。<br><yellow>※ダブルセイバー専用<c>
+GunnerChainFinish - チェインフィニッシュ発生後に、<br>チェイントリガー中のチェイン数に応じて、<br>再発動が可能になるまでの<br>時間が短縮される。<br><yellow>このスキルはメインクラスのみ適用される。
+GunnerPerfectKeeper - 仮テキスト
+GunnerChainFinishBonus - 仮テキスト
+GunnerNeoTime - 仮テキスト
+GunnerNeoTimeBlastBonus - 仮テキスト
+GunnerNeoTimePPRefresh - 仮テキスト
+GunnerAirAttackBonus - 仮テキスト
+GunnerReactionWeak - 仮テキスト
+GunnerFallSlowAttack - 通常攻撃中、落下速度が緩やかになる。<br><yellow>※ガンナー武器専用<c>
+GunnerFallSlowCharge - PAチャージ中、落下速度が緩やかになる。<br><yellow>※ガンナー武器専用<c>
+GunnerGaugeShotGunAway - スプレッドショット発動時に、<br>無敵時間が発生する。<br>また、方向入力時の退避距離が延びる。
 WeaponAction - 武器アクション説明テキスト(仮)
 NormalAttack - 通常攻撃説明テキスト(仮)
 Step - 軽快な動作で踏み込み短距離を素早く移動する
@@ -3382,7 +4114,7 @@ PowerBullet - 特殊弾を装填した際に、一定時間射撃力が上昇す
 WeakSnipeAddPB - 射撃で弱点部位を攻撃したときのＰＢゲージ増加率にボーナスを得る
 SniperPride - 遠距離で攻撃をヒットさせるとダメージが上昇する。<yellow>このスキルはメインクラスのみ適用される
 GravityBom - 周囲のエネミーを吸い寄せる特殊な爆弾を投擲する
-BulletKeep - 特殊弾を装填した時、他の武器種に切り替えても弾が消えなくなる。<yellow>このスキルはメインクラスのみ適用される
+BulletKeep - 特殊弾を装填した時、アサルトライフル、ランチャーに切り替えても弾が消えなくなる。<yellow>このスキルはメインクラスのみ適用される
 MovingSnipe - 移動した状態で射撃したときのダメージが上昇する
 DiverollShoot - ダイブロール中の攻撃アクションが可能となる
 BulletKeepGs - 特殊弾を装填した時、ガンスラッシュに切り替えても弾が消えなくなる。<yellow>このスキルはメインクラスのみ適用される
@@ -3405,7 +4137,56 @@ GunnerAtpFirearmUp2 - 射撃力が上昇する。射撃アップ１より効果�
 GunnerAtpFirearmUp3 - 射撃力が上昇する。射撃アップ１より効果が高い
 GunnerZeroRangeBonus1 - 近距離で射撃攻撃をヒットするとダメージが上昇する
 GunnerZeroRangeBonus2 - 近距離で射撃攻撃をヒットするとダメージが上昇する
-GunnerAttackPPRestraint - 通常攻撃をヒットさせたときのＰＰ回復量が増加する
+GunnerOverWhelm - ボス以外のエネミーを攻撃したときの<br>PP回復量が増加する。
+TechterAssistField - 仮テキスト
+TechterWandLovers - <yellow>【アクティブスキル】<c><br>一定時間、通常攻撃に、<br>エネミーの攻撃をはじく効果を追加し、<br>打ち上げや吹き飛ばしを防ぐ。<br><yellow>※ウォンド専用<c>
+TechterShiftaStrike - シフタ・デバンドに、<br>エネミーに与えるダウン値が<br>増加する効果を追加する。<br><yellow>※メインクラス専用<c>
+TechterShiftaAdvance - シフタ・デバンドに、<br>ダウン中のエネミーに与えるダメージが<br>増加する効果を追加する。<br><yellow>※メインクラス専用<c>
+TechterDebandCut - シフタ・デバンドに、<br>状態異常になりにくくする効果を追加する。<br><yellow>※メインクラス専用<c>
+TechterDebandPpReStraight - シフタ・デバンドに、<br>PPの自然回復量が増加する効果を追加する。<br><yellow>※メインクラス専用<c>
+TechterExtendAssist - シフタ・デバンドの効果時間を延長する。<br><yellow>※メインクラス専用<c>
+TechterReverseBonus - 復活させた味方に<br>シフタ・デバンドの効果を付与する。<br><yellow>※メインクラス専用<c>
+TechterWandGuardCounterEdge - ウォンドパリィカウンター発動時に、<br>衝撃波が発生する。
+TechterFallSlowCharge - PAとテクニックチャージ中、<br>落下速度が緩やかになる。<br><yellow>※テクター武器専用<c>
+TechterBartaBlot - チャージしていない氷属性テクニックを、<br>エネミーに当てることで、その回数に応じて、<br>最大２段階まで強化される氷の紋章を刻む。<br>そこに、チャージした<br>同属性のテクニックを当てると、<br>紋章が起爆して、<br>強化段階に応じた追加ダメージを与える。
+TechterZondeClad - チャージしていない雷属性テクニックを、<br>一定回数エネミーに当てることで、自身が<br>帯電状態になる。さらに、チャージした<br>同属性のテクニックを使用すると、帯電が<br>解除され、そのテクニックを強化する。
+TechterTalisQuickMarkShot - 武器アクション発動時に、<br>方向入力を行わないことで、<br>一定時間、断続的に、<br>複数のエネミーを攻撃する。<br><yellow>※タリス専用<c>
+TechterTalisSetRevok - 武器アクションボタンを長押しすることで、<br>PAによるタリスの展開状態を解除する。<br><yellow>※タリス専用<c>
+BraverGuardRelief - 武器アクションによるガード時に、<br>受けるダメージとPP消費量を軽減する。
+BraverRestaHealUp - レスタサイン使用時の<br>自分のHP回復量が増加する。
+BraverJustReversalCover - エネミーの攻撃による<br>打ち上げや吹き飛ばしを、<br>受け身でしのいだときにHPが回復する。
+BraverCombat - <yellow>【アクティブスキル】<c><br>一定時間、PP消費量が減少し、攻撃時の<br>PP回復量が増加する。スキル発動中に<br>再度使用することで強力な一撃を放つ。<br><yellow>※ブレイバー武器専用<c>
+BraverBraveCombatShortTime - ブレイブコンバットの<br>効果時間が減少するかわりに、<br>再使用が可能になるまでの時間を短縮する。
+BraverCombatCountAfterBonus - ブレイブコンバット終了時に、<br>スキル発動中の攻撃ヒット数に応じて<br>HPとPPが回復する。<br><yellow>※メインクラス／ブレイバー武器専用<c>
+Katana:LockonChase - ブレイブコンバット中、<br>ロックオン状態での通常攻撃に、<br>一定範囲内にいるエネミーに<br>接近する挙動を追加する。<br><yellow>※カタナ専用<c>
+BraverCompoundbowPaArmor - ブレイブコンバット中、<br>PAによる攻撃発動時の特定タイミングに、<br>エネミーの攻撃による打ち上げや<br>吹き飛ばしを防ぐ効果を追加する。<br><yellow>※バレットボウ専用<c>
+BraverKatanaGuardCounter - 武器アクションによる<br>ジャストガード成功時に、<br>自動的にカウンターが発生する。<br><yellow>※カタナ専用<c>
+Katana:CounterEdge - カタナガードカウンター発動時に、<br>衝撃波を追加する。
+Katana:ComboCountSkill - 異なるPAを使用しても<br>カタナPAのコンボ段数が<br>維持されるようになる。<br><yellow>※カタナ専用<c>
+Katana:Ambition - 通常攻撃後やPA発動後の特定タイミングに、<br>エネミーの攻撃を無効化し、<br>自動的にカウンターが発生する。<br><yellow>※カタナ専用<c>
+BraverCounterArrow - 武器アクションによる回避成功時に、<br>通常攻撃を行うことで、<br>カウンターが発生する。<br><yellow>※バレットボウ専用<c>
+BraverCompoundbowHoming - 通常攻撃で放つ矢が、<br>エネミーを追尾するようになる。<br><yellow>※バレットボウ専用<c>
+BraverCompoundbowSlideDodge - PA発動後に、特定タイミングで<br>方向入力を行いながら武器アクションを<br>発動すると、スライドしながら<br>攻撃する挙動に変化する。<br><yellow>※バレットボウ専用<c>
+BouncerDownRateUp - エネミーに与えるダウン値が増加する。
+BouncerNakedKiller - エネミー単体に対する<br>部位破壊回数に応じて、<br>与えるダメージが増加し、<br>受けるダメージを軽減する。
+BouncerDefeatPpGain - 自分の周囲でエネミーが<br>ダウンしたときに、PPが回復する。<br><yellow>※メインクラス専用<c>
+BouncerFrailPointUp - フィジカルディクラインと<br>エレメンタルディクラインの<br>ダウン値増加の段階が上がりやすくなる。<br><yellow>※メインクラス専用<c>
+BouncerPhysicFrail - PAを当てたエネミーを<br>物理ダウンしやすい状態にする。<br>さらにPAを当てることで、<br>最大３段階まで効果が上昇する。<br><yellow>※メインクラス／デュアルブレード専用<c>
+BouncerElementFrail - PAを当てたエネミーを<br>属性ダウンしやすい状態にする。<br>さらにPAを当てることで、<br>最大３段階まで効果が上昇する。<br><yellow>※メインクラス／ジェットブーツ専用<c>
+BouncerPhotonBladeFever - <yellow>【アクティブスキル】<c><br>一定時間、フォトンブレードの<br>威力が低下するかわりに、<br>発射頻度が増加する。<br><yellow>※デュアルブレード専用<c>
+BouncerPhotonBladeFeverUp - ファナティックブレード中に、<br>フォトンブレードの発射本数が増加する。<br><yellow>※デュアルブレード専用<c>
+BouncerPhotonBladePpGain - フォトンブレードが刺さった状態の<br>エネミーに、通常攻撃を当てたときの<br>PP回復量が増加する。<br><yellow>※デュアルブレード専用<c>
+BouncerElementBurst - <yellow>【アクティブスキル】<c><br>攻撃や、武器アクションの回避により、<br>蓄積したゲージを消費することで、<br>強力な一撃を放つ。<br><yellow>※ジェットブーツ専用<c>
+BouncerJetBootsElementChange - エネミーにPAを当てたときに、<br>最後に使用したテクニックの<br>属性に応じた追加攻撃が<br>発生するようになる。<br><yellow>※ジェットブーツ専用<c>
+BouncerJetBootsAttackExtra - 通常攻撃段数が、最大４段階に増加する。<br><yellow>※ジェットブーツ専用<c>
+BouncerJetBootsJetAttack - 一定距離内にエネミーがいるときに、<br>通常攻撃ボタンを長押しすることで、<br>徐々に攻撃速度が上昇する<br>連続攻撃が発生する。<br><yellow>※ジェットブーツ専用<c>
+BouncerJetBootsEnhancePA - PAボタンを長押しすることで、<br>攻撃の挙動が変化するようになる。<br><yellow>※ジェットブーツ専用<c>
+BouncerJetBootsWeaponActionCounter - 武器アクションによる回避成功時に、<br>自動的にカウンターが発生する。<br>さらに通常攻撃を行うことで、<br>追加でカウンターが発生する。<br><yellow>※ジェットブーツ専用<c>
+BouncerJetBootsBlink - テクニック発動後に、特定のタイミングで、<br>通常攻撃ボタンを押すことで、<br>エネミーに突撃を行う。<br><yellow>※ジェットブーツ専用<c>
+BouncerBartaBlot - チャージしていない氷属性テクニックを、<br>エネミーに当てることで、その回数に応じて、<br>最大２段階まで強化される氷の紋章を刻む。<br>そこに、チャージした<br>同属性のテクニックを当てると、<br>紋章が起爆して、<br>強化段階に応じた追加ダメージを与える。
+BouncerZondeClad - チャージしていない雷属性テクニックを、<br>一定回数エネミーに当てることで、自身が<br>帯電状態になる。さらに、チャージした<br>同属性のテクニックを使用すると、帯電が<br>解除され、そのテクニックを強化する。
+BouncerPhotonBladeGuard - PA発動中に、<br>武器アクションボタンを押すことで、<br>エネミーからの攻撃を１度だけ無効化する。<br><yellow>※メインクラス／デュアルブレード専用<c>
+BouncerElementBurstPPSave - シュツルムジーカー発動後に、<br>一定時間、PP消費量が減少する。<br><yellow>※メインクラス／ジェットブーツ専用<c>
 TwinmachinegunGear - 攻撃を当てるとギアが溜まり、攻撃の威力が上昇する
 ShowTime - ツインマシンガン専用スキル　一定時間エネミーの自分に対するヘイト効果を上昇する代わりに、ギアの上昇率を大きく上げる
 GunnerHPUp1 - ＨＰ最大値が上昇する
@@ -3582,8 +4363,8 @@ SnatchStepJACombo - スナッチステップ中に、ジャストアタックタ
 QuickMate - メイト系アイテムが素早く使用出来る
 BowChargeBonus - バレットボウ装備時、チャージPAのチャージ時間とPP消費量を軽減する。<yellow>このスキルはメインクラスのみ適用される
 KatanaCounterBonus - カウンターとカウンターエッジでPPが回復し、威力ボーナスを得る。<yellow>このスキルはメインクラスのみ適用される
-KatanaGearBoost - カタナギアの上昇量が上がり、PPの回復性能が上昇する。<yellow>このスキルはメインクラスのみ適用される
-BraverCombination - カタナかバレットボウ装備時、クリティカル率が上昇。カタナギア解放中にバレットボウに切り替えるとギア解放状態を維持する。<yellow>メインクラスのみ適用
+KatanaGearBoost - カタナギアの上昇量が上がり、ギア発動中はＰＰの回復性能が上昇する。<yellow>このスキルはメインクラスのみ適用される
+BraverCombination - カタナギア解放中にバレットボウに切り替えるとクリティカル率が上昇し、カタナギア解放状態を維持する。<yellow>このスキルはメインクラスのみ適用される
 BraverHighLevelBonus - プレイヤーが与えるダメージにボーナスを得る
 BraverNextJump - ２段ジャンプが可能になる
 BraverFirstArtsJAAddition - 最初に放つ攻撃が、ジャストアタックになる。発動後にリキャストが発生する。タクトやペットの攻撃とテクニックは無効
@@ -3611,7 +4392,7 @@ ShiftaAirAttackBurst - シフタ効果中、空中での攻撃にダメージボ
 DebundPPRestraint - デバンド効果中、通常攻撃によるＰＰ回復量が上昇する
 HealShare - HPを回復した際、回復した値の一定割合分、周囲のキャラクターを回復する
 HealBonus - HPを回復する際に回復量にボーナスを得る
-RapidBurst - 効果時間中、ジェットブーツのＰＡのチャージ速度が大きく上昇。テクニックのチャージ速度もわずかに上昇
+RapidBurst - 効果時間中、ジェットブーツの攻撃速度とPAのチャージ速度が大きく上昇。テクニックのチャージ速度もわずかに上昇
 RapidBurstJABonus - ジェットブーツ専用スキル　ラピッドブースト中のジャストアタックに威力ボーナス
 ElementalBurst - ギアに保存された属性を武器アクションで破棄した時、属性爆発を発生させ、一定確率で状態異常が発動する。ジェットブーツギア習得時のみ有効
 PhotonBladeFever - 効果時間中、フォトンブレードの発射数が倍になる
@@ -3685,11 +4466,11 @@ SummonerAirReversal - 空中で受け身がとれるようになる
 SummonerDushJump - 回避アクション中にジャンプを行うことでダッシュ状態へ移行する
 SummonerStepJACombo - ステップ時にＪＡタイミングが発生するようになる
 SummonerJustReversalJACombo - ジャストリバーサル後にジャストアタックタイミングが発生
-Intensive - 時間経過で徐々に威力が増加する。短時間でＨＰの一定割合のダメージを受けると威力が減少する。ヒーロータイム中は秒間威力上昇量が増加する
+Intensive - 時間経過で徐々に威力が増加する。短時間でＨＰの一定割合のダメージを受けるとリセットされる。ヒーロータイム中は秒間威力上昇量が増加する
 WpnmanWeaponBonus1 - ソード、Ｔマシンガン、タリスを装備した時、威力が上昇する
 WpnmanWeaponBonus2 - ソード、Ｔマシンガン、タリスを装備した時、威力が上昇する
 WeakAttackCritical - 弱点部位への攻撃と弱点属性のテクニックのクリティカル率が上昇する
-WpnmanCounter - ステップ回避成功後にステップアタックを発動すると、強力になり、ヒーローブーストの威力上昇量が増加する。
+WpnmanCounter - ステップ回避成功後にステップアタックを発動すると、強力になる
 WpnmanTime - ギアが最大の状態でのみ使用可能。使用中はダメージを与えた回数に応じて全攻撃力が上昇。このスキル習得時ヒーローギアも習得
 WpnmanTimeFinish - ヒーロータイム中に再度スキルアイコンを押すとヒーロータイムフィニッシュを発動できる
 WpnmanTimeCounterBonus - ヒーロータイム中に回避成功した時にギアが回復する
@@ -3898,7 +4679,7 @@ SlayerHighTecArts - コンボ中に異なるＰＡやテクニックを３回連
 SlayerFourthAttack - ガンスラッシュ装備時、ステップアタックを除く通常攻撃を連続で３回発動すると次の通常攻撃が強力な攻撃に変化する。<yellow>メインクラスのみ適用
 SlayerQuickTrigger - ガンスラッシュ装備時、特定タイミングで行う武器アクションの性能が変化する。タイミングはスタイルによって異なる。<yellow>メインクラスのみ適用
 CaptureShot - スタン状態にする誘導弾を発射
-PPOneTimeUp - 効果中、ＰＰ消費量1＆最大ＨＰ減少
+PPOneTimeUp - 効果中、ＰＰ消費量が1に
 FirstAid - ＨＰが全回復し、状態異常を回復する
 Barrier - ＨＰ全回復＆被ダメ減＆耐状態異常
 Sprint - 効果中、移動速度が上昇
@@ -3910,6 +4691,181 @@ ring_HighJump - 高速で上昇し、敵の攻撃を回避する。
 ring_CriticalField - 自分の周囲にクリティカル率が上昇するフィールドを発生させる
 ring_Sprint - 効果中、移動速度が上昇
 GaugePA - ゲージ式PA
+GlideAttack - 空中から急降下を行い、<br>攻撃が命中したエネミーを吹き飛ばす。<br>素早い動作で、エネミーからの攻撃を回避することもできる。
+Photonblast - 空間上のフォトンを、強力なエネルギーへと変換し、<br>必殺の一撃として解き放つ。<br>発動後は、リチャージが完了するまで、<br>再発動させることができない。
+EasyControl - エネミーとの距離と装備している武器に応じて、<br>様々なアクションを自動的に行う。
+GunnerChainBoostDodgeAdvance - チェインブースト中、<br>武器アクションの無敵時間を延長する。<br>また、武器アクションによる回避成功時に、<br>チェインブーストの効果時間を延長する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
+GunnerEscapePPGain - ステップまたは<br>ツインマシンガンの武器アクションによる<br>回避成功時に、PPが回復する。<br><yellow>※メインクラス専用<c>
+GunnerTMGAccel - 武器アクション発動後に、<br>特定のタイミングで<br>通常攻撃ボタンを押すことで、<br>上昇しながら攻撃を行う。<br><yellow>※メインクラス／ツインマシンガン専用<c>
+GunnerCounterPABurstEscape - 武器アクションによる回避成功後に、<br>最初に使用するPAに無敵時間が発生する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
+ForceZanWindBall - チャージしていない風属性テクニックを、<br>エネミーに当てることで、<br>風環を付着する。そこに、チャージした<br>同属性のテクニックを当てると、<br>風環が展開して、追加の攻撃が発生する。<br>風環による攻撃は、<br>当てたテクニックによって変化する。
+ForceGrantzCharge - 光属性テクニックを、<br>複数回エネミーに当てることで、<br>一定時間、自身の周囲に光円環を展開する。<br>展開中、同属性のテクニックを使用すると、<br>テクニックに応じた追加の攻撃が発生する。<br>光円環の展開中に再度展開する場合、<br>効果は重複せず、代わりに展開中の<br>光円環の効果時間をリセットする。
+ForceMegidoCharge - チャージしていない闇属性テクニックを、<br>エネミーに当てることで、自身の周囲に<br>暗黒珠を最大３つまでストックする。<br>さらに、チャージした同属性のテクニックを<br>使用すると、暗黒珠を全て消費し、<br>消費した数に応じて、<br>そのテクニックを強化する。
+ForceTechDownAdvance - ダウン中のエネミーに、<br>テクニックで与えるダメージが増加する。<br><yellow>※メインクラス専用<c>
+TechterZanWindBall - チャージしていない風属性テクニックを、<br>エネミーに当てることで、<br>風環を付着する。そこに、チャージした<br>同属性のテクニックを当てると、<br>風環が展開して、追加の攻撃が発生する。<br>風環による攻撃は、<br>当てたテクニックによって変化する。
+TechterGrantzCharge - 光属性テクニックを、<br>複数回エネミーに当てることで、<br>一定時間、自身の周囲に光円環を展開する。<br>展開中、同属性のテクニックを使用すると、<br>テクニックに応じた追加の攻撃が発生する。<br>光円環の展開中に再度展開する場合、<br>効果は重複せず、代わりに展開中の<br>光円環の効果時間をリセットする。
+TechterMegidoCharge - チャージしていない闇属性テクニックを、<br>エネミーに当てることで、自身の周囲に<br>暗黒珠を最大３つまでストックする。<br>さらに、チャージした同属性のテクニックを<br>使用すると、暗黒珠を全て消費し、<br>消費した数に応じて、<br>そのテクニックを強化する。
+TechterOverDrive - <yellow>【アクティブスキル】<c><br>発動時に、自分と同一パーティーの<br>キャラクターのHPとPPを回復し、<br>一定時間最大PPが増加する。<br><yellow>※メインクラス専用<c>
+TechterWandFanatic - ウォンドラバーズ中、<br>通常攻撃の速度と威力が上昇する。<br><yellow>※メインクラス／ウォンド専用<c>
+BraverFinishPrizeBossPlus - ブレイブコンバット中、<br>ボスエネミーを攻撃した時の、<br>ブレイブコンバットフィニッシュプライズの<br>ヒット数カウントが倍になる。<br><yellow>※メインクラス／ブレイバー武器専用<c>
+BraverJustGuardPpGain - ジャストガード成功時に、<br>PPが回復する。<br><yellow>※メインクラス／カタナ専用<c>
+BraverCompoundBowPARush - PAを連続して発動したときの<br>PP消費量が減少する。<br><yellow>※メインクラス／バレットボウ専用<c>
+BraverBraveGear - 武器アクションによる<br>ジャストガードまたは回避成功時に、<br>一定時間、通常攻撃とカウンター攻撃の<br>威力と、攻撃時のPP回復量が増加する。<br><yellow>※メインクラス／ブレイバー武器専用<c>
+RangerWeakBulletLauncher - ランチャー装備時でも、<br>ウィークバレットが発動可能になる。<br><yellow>※メインクラス／ランチャー専用<c>
+RangerGaugeShotGunPlus - スプレッドショットが、<br>前方への範囲攻撃に変化する。<br><yellow>※メインクラス／アサルトライフル専用<c>
+RangerClusterBombEscape - 武器アクション発動時に、<br>無敵時間が発生する。<br><yellow>※ランチャー専用<c>
+HunterSwordParryingAuto - PAを一定時間以上チャージした状態で<br>エネミーの攻撃を受けると、<br>ハンターアーツアヴェンジが<br>適用された状態で自動的にPAが発動する。<br><yellow>※メインクラス／ソード専用<c>
+HunterParryingPaJustGuardEscape - ハンターアーツジャストパリング成功時に、<br>さらに無敵時間が発生する。<br><yellow>※メインクラス／ハンター武器専用<c>
+ForceStayReflectCounterShot - テクニック発動後に、<br>攻撃や回避を行わずにいると、<br>エレメンタルバレットをストックする。<br><yellow>※メインクラス／ロッド専用<c>
+BouncerZanWindBall - チャージしていない風属性テクニックを、<br>エネミーに当てることで、<br>風環を付着する。そこに、チャージした<br>同属性のテクニックを当てると、<br>風環が展開して、追加の攻撃が発生する。<br>風環による攻撃は、<br>当てたテクニックによって変化する。
+BouncerGrantzCharge - 光属性テクニックを、<br>複数回エネミーに当てることで、<br>一定時間、自身の周囲に光円環を展開する。<br>展開中、同属性のテクニックを使用すると、<br>テクニックに応じた追加の攻撃が発生する。<br>光円環の展開中に再度展開する場合、<br>効果は重複せず、代わりに展開中の<br>光円環の効果時間をリセットする。
+BouncerMegidoCharge - チャージしていない闇属性テクニックを、<br>エネミーに当てることで、自身の周囲に<br>暗黒珠を最大３つまでストックする。<br>さらに、チャージした同属性のテクニックを<br>使用すると、暗黒珠を全て消費し、<br>消費した数に応じて、<br>そのテクニックを強化する。
+GunnerCounterPABurst - 武器アクションによる回避成功後に、<br>最初に使用するPAの<br>PP消費量が増加するかわりに、<br>威力が上昇する。<br><yellow>※ツインマシンガン専用<c>
+HunterWarCry - <yellow>【アクティブスキル】<c><br>一定時間、周囲のエネミーの注意を<br>引きつける。さらに、攻撃を当てた<br>エネミーから狙われやすくなる。<br><yellow>※メインクラス専用<c>
+HunterIronWill - 残りHP以上のダメージを受けたときに<br>HPが１残る。<br>発動時に無敵時間が発生する。<br><yellow>※メインクラス専用<c>
+HunterMassiveHunter - <yellow>【アクティブスキル】<c><br>一定時間、受けるダメージを軽減し、<br>エネミーの攻撃による<br>打ち上げや吹き飛ばしを防ぐ。
+HunterParryingPa - PA発動から、<br>一定時間以内にエネミーの攻撃を受けると、<br>そのPAの威力が上昇する。<br><yellow>※ハンター武器専用<c>
+HunterSwordGuardCounterPlus - ソードガードカウンター発動時に、<br>通常攻撃を行うことで、<br>さらに追加でカウンターが発生する。
+RangerWeakBullet - <yellow>【アクティブスキル】<c><br>命中した部位に与えるダメージが<br>増加する弾丸を発射する。<br><yellow>※メインクラス／アサルトライフル専用<c>
+RangerWeakBulletParse - ウィークバレットが命中した部位に、<br>攻撃を一定回数当てることで、<br>与えるダメージが増加し、<br>スキルの効果時間が延長される。<br><yellow>※メインクラス専用<c>
+RangerWeaponActionAvoid - 武器アクション発動時に、<br>無敵時間が発生する。<br><yellow>※アサルトライフル専用<c>
+RangerGrenadeTrap - 武器アクションボタンを長押しすることで、<br>グレネードによる攻撃を行う。<br>同時に方向入力を行うと投擲し、<br>行わないとその場に設置する。<br><yellow>※アサルトライフル専用<c>
+ForcePpConvert - <yellow>【アクティブスキル】<c><br>発動時に、最大HPを基準とした<br>一定割合のHPを消費するかわりに、<br>一定時間、PPの自然回復量が増加する。
+ForcePpConvertReCharge - PPコンバートのストック数が増加する。
+ForceChargePpRevival - テクニックチャージ中にも、<br>PPが自然回復するようになる。<br><yellow>※フォース武器専用<c>
+ForceHeal - レスタサイン使用時に、<br>周囲のキャラクターも回復する。<br><yellow>※メインクラス専用<c>
+FighterLimitBreakPhotonCharge - リミットブレイク終了時に、<br>PPが回復する。<br><yellow>※メインクラス専用<c>
+FighterLimitBreakInsurance - リミットブレイク中に、<br>残りHP以上のダメージを受けたとき、<br>リミットブレイクが終了し、HPが１残る。<br>さらに、発動時に無敵時間が発生する。<br><yellow>※メインクラス専用<c>
+KnuckleDodgeHeatRevenge - 武器アクションによる回避成功後に、<br>最初に発動する通常攻撃が、<br>５段目に変化する。<br><yellow>※ナックル専用<c>
+FighterKnuckleSwayCounterPlus - ナックルスウェーカウンター発動時に、<br>武器アクションを行うことで、<br>さらに追加でカウンターが発生する。
+FighterKnuckleNormalAttackPlus - 通常攻撃段数が、最大５段階に増加する。<br><yellow>※ナックル専用<c>
+GunnerChainFinishTimeBonus - チェインフィニッシュ発動後に、<br>チェイン数に応じて、チェイントリガーの<br>再使用が可能になるまでの時間を短縮する。<br><yellow>※メインクラス専用<c>
+GunnerSRollArts - 武器アクション発動中に、<br>PAボタンを押すことで、PPを消費して、<br>通常よりも威力の高い攻撃を行う。<br><yellow>※ツインマシンガン専用<c>
+GunnerChainBoost - チェインフィニッシュ発動後に、<br>一定時間、武器アクション中の<br>攻撃の挙動が変化し、チェイン数に応じて、<br>武器の攻撃速度が上昇する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
+GunnerNeutralDeadApproach - 方向入力を行わずに<br>武器アクションを発動すると、<br>前方に突進する挙動に変化する。<br><yellow>※ツインマシンガン専用<c>
+GunnerAttackPPRestraint - 攻撃時のPP回復量が増加する。
+TechterShiftaDeband - <yellow>【アクティブスキル】<c><br>一定時間、自分と周囲のキャラクターの、<br>エネミーに与えるダメージが増加し、<br>受けるダメージを軽減する。<br><yellow>※メインクラス専用<c>
+TechterPartyAssist - シフタ・デバンド発動時に、<br>距離の離れた同一パーティーの<br>キャラクターにも効果を付与する。<br><yellow>※メインクラス専用<c>
+TechterWandElementChange - チャージテクニックを使用すると、<br>法撃爆発が同じ属性に変化する。<br><yellow>※ウォンド専用<c>
+TechterWandElementDiscard - 武器アクションボタンを長押しすることで、<br>ウォンドエレメントチェンジによって<br>変化した法撃爆発の属性を元に戻す。<br><yellow>※ウォンド専用<c>
+TechterHeal - レスタサイン使用時の回復量が増加し、<br>周囲のキャラクターも回復する。<br><yellow>※メインクラス専用<c>
+FighterKnuckleAttackExtra - 通常攻撃段数が、最大５段階に増加する。<br><yellow>※ナックル専用<c>
+ForceMixTech - 複合属性テクニックが使用可能になる。<br>複合属性テクニックは、攻撃により、<br>複合属性テクニックゲージを蓄積し、<br>蓄積したゲージを消費して発動する。<br>最大２回までストックできる。<br><yellow>※メインクラス／フォース、テクター武器専用<c>
+TechterMixTech - 複合属性テクニックが使用可能になる。<br>複合属性テクニックは、攻撃により、<br>複合属性テクニックゲージを蓄積し、<br>蓄積したゲージを消費して発動する。<br>最大２回までストックできる。<br><yellow>※メインクラス／フォース、テクター武器専用<c>
+MixTechFD - 炎と闇の複合属性テクニック。<br>複合属性テクニックゲージを消費して発動する。<br>炎と闇の巨大な剣を生成し、<br>前方を薙ぎ払う。
+MixTechIL - 氷と光の複合属性テクニック。<br>複合属性テクニックゲージを消費して発動する。<br>氷と光の槍を生成して投擲し、<br>前方に氷の渦を発生させる。
+MixTechWT - 雷と風の複合属性テクニック。<br>複合属性テクニックゲージを消費して発動する。<br>雷と風をまとった突進と乱舞の後、<br>竜巻を生み出して後退する。
+GunnerChainTriggerCountKeep - チェイントリガーを<br>チェインフィニッシュせずに終了した場合、<br>そのときのチェイン数に応じて<br>次に使用するチェイントリガー<br>開始時のチェイン数が増加する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
+GunnerSRollCounterBullet - 武器アクションによる回避成功時に、<br>同時にカウンターが発生する。<br><yellow>※ツインマシンガン専用<c>
+GunnerAnotherArtsPPSave - 異なるPAを連続して発動したときの<br>PP消費量が減少する。<br><yellow>※ツインマシンガン専用<c>
+BraverBraveCombatSpirit - ブレイブコンバット発動時に、<br>ブレイブスピリットも発動する。<br><yellow>※メインクラス／ブレイバー武器専用<c>
+BraverKatanaPaComboExAttack - カタナPAの３段目を使用した後の<br>通常攻撃が強力な攻撃に変化する。<br><yellow>※カタナ専用<c>
+BraverKatanaCounterExAttack - カタナガードカウンター発動時に、<br>通常攻撃を行うことで、<br>さらに追加でカウンターが発生する。<br><yellow>※カタナ専用<c>
+BraverAnotherArtsPPSave - 異なるPAを連続して発動したときの<br>PP消費量が減少する。<br><yellow>※バレットボウ専用<c>
+BraverCompoundBowFallSlow - 通常攻撃とPAのチャージ中、<br>落下速度が緩やかになる。<br><yellow>※バレットボウ専用<c>
+BouncerPhotonBladeParry - 武器アクション発動時に、<br>エネミーからの攻撃を無効化する。<br><yellow>※デュアルブレード専用<c>
+BouncerPhotonBladeGuardCounterShot - ブレードアーツパリィによる<br>攻撃の無効化成功時に、<br>同時にカウンターが発生する。<br><yellow>※メインクラス／デュアルブレード専用<c>
+BouncerJetBootsBlinkSkipAttack - スラストドライブを使用した後の<br>通常攻撃が４段目に変化する。<br><yellow>※ジェットブーツ専用<c>
+BouncerElementBurstRecastSave - 武器アクションによる回避成功時に、<br>シュツルムジーカーの<br>再使用が可能になるまでの時間を短縮する。<br><yellow>※メインクラス／ジェットブーツ専用<c>
+HunterPartisanAttackExtra - 通常攻撃段数が、最大４段階に増加する。<br><yellow>※パルチザン専用<c>
+HunterMassiveHunterShortTime - マッシブハンターの<br>効果時間が減少するかわりに、<br>再使用が可能になるまでの時間を短縮する。
+HunterSwordOverCharge - PAを一定時間以上チャージして<br>発動すると、<br>そのPAの威力が上昇する。<br><yellow>※ソード専用<c>
+HunterWLanceWAStrikeBack - ワイヤードアンカージャストパリングを<br>習得した状態で、<br>武器アクションによる<br>攻撃の無効化成功後に、<br>最初に使用するPAが、<br>ハンターアーツアヴェンジが<br>適用された状態で発動する。<br><yellow>※メインクラス／ワイヤードランス専用<c>
+RangerWeakBulletWideRange - <yellow>【アクティブスキル】<c><br>命中した部位に与えるダメージが<br>増加する弾丸を広範囲に発射する。<br>通常のウィークバレットと、使用回数と<br>再使用が可能になるまでの時間を共有する。<br><yellow>※メインクラス／アサルトライフル専用<c>
+RangerGaugeShotGunAutoCharge - スプレッドショットのゲージが<br>自動的に増加する。
+RangerGrenadeQuickReload - 武器アクションによる回避成功時に、<br>ライフルグレネーダーの<br>再使用が可能になるまでの時間を短縮する。<br><yellow>※アサルトライフル専用<c>
+RangerLauncherAttackShortCharge - チャージ状態で通常攻撃を行うときに、<br>威力が低下するかわりに、<br>チャージ時間を短縮する。<br><yellow>※ランチャー専用<c>
+FighterLimitBreakShortCycle - リミットブレイクの<br>効果時間が減少し、<br>受けるダメージが増加するかわりに、<br>再使用が可能になるまでの時間を短縮する。<br><yellow>※メインクラス専用<c>
+FighterTDHitCountPpGain - PAとフォトンブラストが、<br>一定回数ヒットするたびにPPが回復する。<br><yellow>※ツインダガー専用<c>
+FighterDSAttackExtra - 通常攻撃段数が、最大４段階に増加する。<br><yellow>※ダブルセイバー専用<c>
+FighterKnucklePARushBonus - PAの前半部分を発動したとき、<br>ナックルアーツコンボPPセイブの<br>PP消費減少率がさらに上昇する。<br><yellow>※メインクラス／ナックル専用<c>
+ForcePhotonFlareShortCycle - フォトンフレアの<br>効果時間が減少するかわりに、<br>再使用が可能になるまでの時間を短縮する。<br><yellow>※メインクラス専用<c>
+ForceRodTechnicPpWellup - テクニック発動中に、<br>PPの自然回復速度が低下するかわりに、<br>PPが自然回復するようになる。<br><yellow>※メインクラス／ロッド専用<c>
+ForceTalisBloomAfterPpGain - PAによるタリスの展開終了時に、<br>展開中のテクニック使用回数に応じて<br>PPが回復する。<br><yellow>※メインクラス／タリス専用<c>
+ForceTalisTecBurstWeakChargeUp - PAによるタリスの展開中に、<br>エネミーを弱点属性のテクニックで<br>攻撃したときの、<br>トリッキーキャパシタの<br>ゲージ蓄積量が増加する。<br><yellow>※メインクラス／タリス専用<c>
+TechterWandAttackExtra - 通常攻撃段数が、最大４段階に増加する。<br><yellow>※ウォンド専用<c>
+TechterWandArtsSkipAttack - PAを連続で使用した後の<br>通常攻撃が３段目に変化する。<br><yellow>※ウォンド専用<c>
+TechterTalisBloomAfterPpGain - PAによるタリスの展開終了時に、<br>展開中のテクニック使用回数に応じて<br>PPが回復する。<br><yellow>※メインクラス／タリス専用<c>
+TechterTalisTecBurstWeakChargeUp - PAによるタリスの展開中に、<br>エネミーを弱点属性のテクニックで<br>攻撃したときの、<br>トリッキーキャパシタの<br>ゲージ蓄積量が増加する。<br><yellow>※メインクラス／タリス専用<c>
+ForceFoieBrand - 炎属性テクニックを、<br>複数回エネミーに当てることで、<br>炎の刻印を刻む。<br>そこに、同属性のテクニックを当てると、<br>刻印が起爆して、追加の攻撃が発生し、<br>さらにPPが回復する。
+TechterFoieBrand - 炎属性テクニックを、<br>複数回エネミーに当てることで、<br>炎の刻印を刻む。<br>そこに、同属性のテクニックを当てると、<br>刻印が起爆して、追加の攻撃が発生し、<br>さらにPPが回復する。
+BouncerFoieBrand - 炎属性テクニックを、<br>複数回エネミーに当てることで、<br>炎の刻印を刻む。<br>そこに、同属性のテクニックを当てると、<br>刻印が起爆して、追加の攻撃が発生し、<br>さらにPPが回復する。
+SummonerTwoPlatoons - <yellow>【アクティブスキル】<c><br>“フレドラン”と“ヴォルファー”の<br>タクトギアゲージを<br>それぞれ消費することで、<br>２体のファミリアによる<br>連携攻撃を行う。<br><yellow>※タクト専用<c>
+SummonerSuperParry - <yellow>【アクティブスキル】<c><br>自身の攻撃を中断することなく、<br>エネミーからの攻撃を無効化する。<br><yellow>※メインクラス／タクト専用<c>
+SummonerStockZeroPPSave - ファミリアのギアゲージのストックが<br>なくなったときに、一定時間、<br>そのファミリアを呼び出すPAの<br>PP消費量が減少する。<br><yellow>※タクト専用<c>
+SummonerForest - 攻撃を複数回エネミーに当てることで、<br>エネミーをマーキング状態にする。<br>マーキング状態のエネミーは、<br>PAで与えるダメージとダウン値が増加する。<br><yellow>※タクト専用<c>
+SummonerForestFinish - マーキング状態のエネミーに、<br>長押し状態の通常攻撃を当てることで、<br>マーカーが起爆する。<br><yellow>※タクト専用<c>
+SummonerPetAutoAttack - トレブルクリフイグニッションを<br>発動した時、<br>断続的に攻撃を行う紋章を発生させる。<br>最後にPAで呼び出した<br>ファミリアによって、<br>攻撃の挙動が変化する。<br><yellow>※タクト専用<c>
+SummonerPetGear - PAをエネミーに当てることで、<br>対応するファミリアの<br>ギアゲージを蓄積する。<br><yellow>※タクト専用<c>
+SummonerInOutBlink - PA発動後に、特定のタイミングで<br>通常攻撃ボタンを押すことで、<br>前方に高速移動しながら攻撃を行う。<br>後ろに方向入力した場合は、後退する。<br><yellow>※タクト専用<c>
+SummonerInOutBlinkPlus - リニアドライブ発動後、<br>特定のタイミングで<br>通常攻撃ボタンを押すことで、<br>追加で前後に移動し、攻撃を行う。<br><yellow>※タクト専用<c>
+SummonerWeaponActionStrike - 武器アクションにより、<br>一定回数攻撃の無効化に成功することで、<br>最大２段階まで“マルメロ”が巨大化する。<br>その状態で、武器アクションボタンを<br>長押しすると、マルメロを投げ、<br>エネミーに命中すると爆発する。<br><yellow>※メインクラス／タクト専用<c>
+SummonerWeaponActionCounter - 武器アクションによる<br>攻撃の無効化成功時に、<br>通常攻撃を行うことで、<br>カウンターが発生する。<br><yellow>※タクト専用<c>
+SummonerOldFriends - 最大HPから一定割合の<br>ダメージを受けたときに、<br>一定確率でHPが回復する。
+SummonerRecoveryHarvestExtend - レスタサインの使用時に、<br>回復量が減少するかわりに、<br>一定時間、継続してHPが回復する。
+SummonerSuperParryInsurance - ホットマルメロパリィの発動時に、<br>エネミーからの攻撃を受けなかった場合、<br>再使用が可能になるまでの時間を短縮する。<br><yellow>※メインクラス／タクト専用<c>
+SummonerWeaponActionStrikeHoming - マルメロストライクが、<br>エネミーを追尾するようになる。<br><yellow>※メインクラス／タクト専用<c>
+SummonerWeaponActionPPGain - 武器アクションによる<br>攻撃の無効化成功時に、<br>PPが回復する。<br><yellow>※タクト専用<c>
+SummonerAutoAttackContdGaugeUp - ファミリアアシストの発動中に、<br>さらに同スキルを発動するたびに、<br>一定時間、<br>そのギアゲージの蓄積量が増加する。<br><yellow>※タクト専用<c>
+SummonerLuckySign - レスタサインや<br>リバーサーサインの使用時に、<br>一定確率で消費しない。
+SummonerHealthManagement - HPが一定割合以下のときに、<br>受けるダメージを軽減し、<br>レスタサイン使用時の回復量が増加する。
+HunterWLanceParryingWA - ハンターアーツアヴェンジが<br>発動したPAに続けて<br>武器アクションを使用すると、<br>その威力が上昇する。<br><yellow>※メインクラス／ワイヤードランス専用<c>
+HunterWLanceWAPlus - 武器アクション発動時に、<br>前後に方向入力を行うことで、<br>攻撃とともにその方向に移動する。<br>左右に方向入力を行うことで、<br>武器アクションボタンを押している間、<br>持続する範囲攻撃を行う。<br><yellow>※ワイヤードランス専用<c>
+HunterPartisanParryingAssaultCharge - ハンターアーツアヴェンジが<br>発動したPAでアサルトチャージを行うと、<br>その威力が上昇する。<br><yellow>※パルチザン専用<c>
+FighterLimitBreak - <yellow>【アクティブスキル】<c><br>一定時間、<br>受けるダメージが増加するかわりに、<br>与えるダメージも増加する。<br><yellow>※メインクラス／ファイター武器専用<c>
+ForcePhotonFlare - <yellow>【アクティブスキル】<c><br>一定時間、最大PPと、<br>与えるダメージが増加する。<br><yellow>※メインクラス／フォース武器専用<c>
+ForceChargeEscape - テクニックチャージ中に、<br>武器アクションやステップを行うと、<br>次にテクニックを使用するまで、<br>チャージを維持した状態になる。<br>その状態で、同じテクニックを使用すると、<br>PPを消費せず、チャージ時間も短縮される。<br><yellow>※ロッド専用<c>
+GunnerChainTrigger - チャージしたPAをエネミーに当てることで<br>発動し、一定時間、攻撃を当てるたびに<br>チェイン数が増加する状態になる。<br>その状態で、再度チャージしたPAを<br>当てると、チェイン数に応じて<br>一定時間与えるダメージが増加する<br>チェインフィニッシュが発動する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
+ForceTalisTecBurstHeatUp - トリッキーキャパシタ発動後に、<br>一定時間、トリッキーキャパシタの<br>ゲージ蓄積量が増加する。<br><yellow>※メインクラス／タリス専用<c>
+TechterElementWeakBonus - エネミーを弱点属性で攻撃したとき、<br>フォトンブラストゲージの蓄積量が増加する。
+TechterAwakeYell - ボスエネミーが近くにいるとき、<br>フォトンブラストゲージの蓄積量が増加する。
+HunterPartisanGuardParryingAssaultCharge - 武器アクションによる<br>攻撃の無効化成功後に、<br>最初に発動するアサルトチャージの<br>威力が上昇する。<br><yellow>※メインクラス／パルチザン専用<c>
+FighterTDSpinCounter - 武器アクションによる<br>攻撃の無効化成功時に、<br>通常攻撃を行うことで、<br>カウンターが発生する。<br><yellow>※ツインダガー専用<c>
+FighterDSDodgeWindCounter - 武器アクションによる<br>攻撃の無効化成功時に、<br>通常攻撃を行うことで、<br>カウンターが発生する。<br><yellow>※ダブルセイバー専用<c>
+FighterDSDodgeWindWACounter - 武器アクションによる<br>攻撃の無効化成功時に、<br>さらに武器アクションを行うことで、<br>特殊なカウンターが発生する。<br><yellow>※ダブルセイバー専用<c>
+ForceRodCounterTechnic - 武器アクションによる攻撃の無効化、<br>またはステップでの回避成功時に、<br>テクニックを使用すると、<br>無敵時間が発生する。<br><yellow>※ロッド専用<c>
+ForceReflectCounterShot - 武器アクションによる<br>攻撃の無効化成功後に、<br>最初に発動するテクニックに<br>同じ属性の法撃弾による攻撃を追加する。<br><yellow>※ロッド専用<c>
+TechterWandCounterReflection - 武器アクションなどによる<br>攻撃の無効化成功時に、<br>法撃爆発が発生する。<br><yellow>※ウォンド専用<c>
+TechterWandGuardCounter - 武器アクションによる<br>攻撃の無効化成功時に、<br>通常攻撃を行うことで、<br>カウンターが発生する。<br><yellow>※ウォンド専用<c>
+RangerStealthAttack - エネミーに攻撃を当てても、<br>狙われにくくなる。
+RangerWeakBulletBonus - ウィークバレットを当てたエネミーの、<br>ウィークバレットで弱体化していない部位に<br>与えるダメージが増加する。<br>この効果は、自身の攻撃にのみ適用される。
+RangerRifleGrenadeEscape - ライフルグレネーダー発動時に、<br>無敵時間が発生する。<br><yellow>※アサルトライフル専用<c>
+RangerLauncherFanatic - <yellow>【アクティブスキル】<c><br>一定時間、<br>チャージしていない通常攻撃の<br>威力と速度が上昇する。<br><yellow>※メインクラス／ランチャー専用<c>
+GunnerChainTriggerFinishEscape - チェインフィニッシュ発動時に、<br>無敵時間が発生する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
+GunnerChainTriggerFinishPPSave - チェインフィニッシュ発動後に、<br>一定時間、PP消費量が減少する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
+GunnerChainTriggerOverLimit - チェイントリガーの最大チェイン数が、<br>150に増加する。<br>ただし、101チェイン以降は、<br>1チェインあたりの威力上昇量が減少する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
+GunnerInfinityFire - <yellow>【アクティブスキル】<c><br>攻撃により蓄積した<br>ゲージを消費することで、<br>高速で連続射撃を行う。<br>この攻撃に、チェインフィニッシュと<br>チェインブーストの効果は、<br>適用されない。<br><yellow>※ツインマシンガン専用<c>
+BouncerDBladeFullConnect - <yellow>【アクティブスキル】<c><br>攻撃により蓄積した<br>ゲージを消費することで、<br>前方に強力な斬撃を放つ。<br><yellow>※デュアルブレード専用<c>
+BouncerFrailJellen - フィジカルディクラインと<br>エレメンタルディクラインに、<br>エネミーの攻撃を<br>弱体化する効果を追加する。<br>エネミーに、フィジカル、エレメンタル、<br>両方のディクラインを付与すると、<br>さらに弱体化する。<br><yellow>※メインクラス／バウンサー武器専用<c>
+BouncerElementBurstSpeedBoost - シュツルムジーカー発動後に、<br>一定時間、PAの攻撃速度が上昇する。<br><yellow>※メインクラス／ジェットブーツ専用<c>
+BouncerOptionChange - 装備中の武器と防具の特殊能力のうち、<br>打撃武器威力と法撃武器威力の上昇値を<br>それぞれ合算し、高いほうの値が、<br>打撃、法撃双方の武器威力に<br>適用されるようになる。<br><yellow>※メインクラス／バウンサー武器専用<c>
+BraverOptionChange - 装備中の武器と防具の特殊能力のうち、<br>打撃武器威力と射撃武器威力の上昇値を<br>それぞれ合算し、高いほうの値が、<br>打撃、射撃双方の武器威力に<br>適用されるようになる。<br><yellow>※メインクラス／ブレイバー武器専用<c>
+BraverRestaPPGain - レスタサイン使用時に、<br>PPが回復する。
+BraverKatanaAmbitionStrikeBack - フェアレスアティチュード発動後に、<br>最初に使用するPAの<br>PP消費量が減少する。<br><yellow>※カタナ専用<c>
+BraverCompoundbowSlideDodgeCounter - バレットボウイルードエクスパンドによる<br>回避成功時に、<br>通常攻撃を行うことで、<br>カウンターが発生する。<br><yellow>※バレットボウ専用<c>
+FighterLimitBreakFinishPPSave - リミットブレイクの効果終了時に、<br>一定時間、PP消費量が減少する。<br>リミットブレイクエンデュランスにより<br>終了した場合は発動しない。<br><yellow>※メインクラス／ファイター武器専用<c>
+FighterTDAltAccel - 通常攻撃の４段目やアクセルドライブ、<br>フォトンブラスト発動後の<br>特定タイミングで、<br>通常攻撃ボタンを押すことで、<br>高速移動をしながら攻撃を行う。<br><yellow>※ツインダガー専用<c>
+FighterDSWindExtra - カマイタチが、最大３段階に増加する。<br>３段階目のカマイタチをまとった状態で<br>デッドリーアーチャーを使用すると、<br>すべてのカマイタチが消費される。<br>また、スパイラルドライブを使用すると、<br>カマイタチが２段階目の状態になる。<br><yellow>※ダブルセイバー専用<c>
+FighterKnuckleAttackExtend - 方向入力を行わずに<br>通常攻撃の５段目を使用すると、<br>素早く叩きつけを行う攻撃に変化する。<br><yellow>※ナックル専用<c>
+HunterMassiveHunterAfterShield - マッシブハンターの効果終了時に、<br>シールドを付与する。<br>シールドはPA発動中のみ展開され、<br>受けるダメージを軽減し、<br>打ち上げや吹き飛ばしを防ぐ。<br>展開中に一定回数攻撃を受けると、<br>シールドは消滅する。
+HunterSwordAvengeAttackSwitch - ハンターアーツアヴェンジ発動後に、<br>最初に発動する通常攻撃が、<br>強力な攻撃に変化する。<br><yellow>※ソード専用<c>
+HunterPartisanQuickAssault - ステップアタックやステップカウンター、<br>アサルトチャージ、フォトンブラスト<br>発動後の特定タイミングで、<br>武器アクションボタンを押すことで、<br>エネミーに高速で接近した後に攻撃を行う。<br><yellow>※パルチザン専用<c>
+HunterWLanceAvengeBonus - ハンターアーツアヴェンジが<br>発動したPAの<br>距離による威力上昇が、常に最大になる。<br><yellow>※ワイヤードランス専用<c>
+SummonerTwoPlatoonsExtend - ファミリアユニゾンを当てたエネミーを、<br>トレブルクリフマーキングの<br>マーキング状態にする。<br><yellow>※タクト専用<c>
+SummonerPetGearExtra - タクトギアのストック数が<br>３に増加する。<br><yellow>※タクト専用<c>
+SummonerWeaponActionChargeGuard - 武器アクションボタンを長押ししている間、<br>受けるダメージを軽減し、<br>打ち上げや吹き飛ばしを防ぐ。<br>また、攻撃を受けた時に、<br>マルメロのゲージが蓄積するようになる。<br><yellow>※メインクラス／タクト専用<c>
+TechterShiftaDebandBoost - <yellow>【アクティブスキル】<c><br>シフタ・デバンドを前方で発動させる。<br>再使用が可能になるまでの時間は、<br>通常のシフタ・デバンドと共有される。<br><yellow>※メインクラス専用<c>
+TechterMixTechGaugeBonus - 弱点属性のテクニックや、<br>法撃爆発でエネミーを攻撃したときに、<br>複合属性テクニックの<br>ゲージ蓄積量が増加する。<br><yellow>※フォース、テクター武器専用<c>
+TechterWandDiscardPurge - 一定回数、法撃爆発をエネミーに当てた後、<br>ウォンドエレメントリヴォークを<br>発動することで、<br>追加で攻撃が発生するようになる。<br>このスキルが発動できない状態のときは、<br>ウォンドエレメントリヴォークも<br>使用できなくなる。<br><yellow>※ウォンド専用<c>
+TechterTalisShotMarking - 通常攻撃や武器アクションを<br>複数回エネミーに当てることで、<br>エネミーをマーキング状態にする。<br>マーキング状態のエネミーは、<br>タリス展開中のテクニックで、<br>与えるダメージが増加する。<br><yellow>※タリス専用<c>
+ForceMixTechExecutePP - 複合属性テクニック発動中に、<br>PPが自然回復するようになる。<br><yellow>※メインクラス／フォース、テクター武器専用<c>
+ForceMixTechGaugeBonus - 弱点属性のテクニックや、<br>法撃爆発でエネミーを攻撃したときに、<br>複合属性テクニックの<br>ゲージ蓄積量が増加する。<br><yellow>※フォース、テクター武器専用<c>
+ForceRodChargeTechQuickMove - テクニックチャージ中の<br>移動速度が上昇する。<br><yellow>※ロッド専用<c>
+ForceTalisShotMarking - 通常攻撃や武器アクションを<br>複数回エネミーに当てることで、<br>エネミーをマーキング状態にする。<br>マーキング状態のエネミーは、<br>タリス展開中のテクニックで、<br>与えるダメージが増加する。<br><yellow>※タリス専用<c>
+ForceTalisTecBurst - <yellow>【アクティブスキル】<c><br>攻撃により蓄積した<br>ゲージを消費することで、<br>特殊な遠距離攻撃を行う。<br><yellow>※タリス専用<c>
+TechterTalisTecBurst - <yellow>【アクティブスキル】<c><br>攻撃により蓄積した<br>ゲージを消費することで、<br>特殊な遠距離攻撃を行う。<br><yellow>※タリス専用<c>
+RangerGaugeShotGun - <yellow>【アクティブスキル】<c><br>攻撃により蓄積した<br>ゲージを消費することで、<br>特殊な近距離散弾を発射する。<br><yellow>※アサルトライフル専用<c>
+GunnerGaugeShotGun - <yellow>【アクティブスキル】<c><br>攻撃により蓄積した<br>ゲージを消費することで、<br>特殊な近距離散弾を発射する。<br><yellow>※アサルトライフル専用<c>
 
 Group 1
 
@@ -3945,7 +4901,35 @@ HpMaxRate - ＨＰ最大値
 BaseHpRate - ＨＰ最大値
 Num - 装填数
 PpHeal - ＰＰ回復量
-PpUse - ＰＰ消費量
+PpUse - PP消費量
+HealRateMain - 回復威力上昇率(メイン)
+HealRateSub - 回復威力上昇率(サブ)
+HpRecoveryRateMain - HP回復率(メイン)
+HpRecoveryRateSub - HP回復率(サブ)
+HpConversionRate - 1ヒット毎のHP回復率
+HpHealLimit - HP回復率上限
+PpConversionRate - 1ヒット毎のPP回復率
+PpHealLimit - PP回復率上限
+HomingAngularVelocity - 追尾性能
+HomingEndTime - 追尾時間
+PhysicRateMain - 物理ダウン値増加(メイン)
+PhysicRateSub - 物理ダウン値増加(サブ)
+ElementRateMain - 属性ダウン値増加(メイン)
+ElementRateSub - 属性ダウン値増加(サブ)
+PhysicDownRateLv1 - 物理ダウン値増加(1段階)
+PhysicDownRateLv2 - 物理ダウン値増加(2段階)
+PhysicDownRateLv3 - 物理ダウン値増加(3段階)
+ElementDownRateLv1 - 属性ダウン値増加(1段階)
+ElementDownRateLv2 - 属性ダウン値増加(2段階)
+ElementDownRateLv3 - 属性ダウン値増加(3段階)
+FrailRate - ディクライン上昇量
+AtpRateMain - 回数毎の与ダメージ増加
+AtpRateSub - 回数毎の与ダメージ増加(サブ)
+DmgReductionRateMain - 回数毎の被ダメージ軽減
+DmgReductionRateSub - 回数毎の被ダメージ軽減(サブ)
+RegionNumLimit - 有効な部位破壊回数の上限
+ShotInterval - 発射間隔
+PhotonBladeNum - 発射本数
 PpMax - ＰＰ最大値
 Rate - ＨＰ回復率
 Time - 効果時間
@@ -3958,11 +4942,55 @@ BlowJABonusRate - 打撃威力
 ShootJABonusRate - 射撃威力
 AddRecoverPP - PP増加率
 TechJABonusRate - 威力
-DamageRate - 威力
+DamageRate - 被ダメージ率
+BasePoint - 基準値
+PlusHealRate - 追加回復量
+SkillPpRate - 基準PP
+AttackDownRate - 物理ダウン時威力
+ElementDownRate - 属性ダウン値増加
+DonwAtpRate - ダウン時威力
+StatusEffectValue - 状態異常蓄積値
+PPRecoverSpeed - PP自然回復速度
+MaxDuration - 最大効果時間
 TakeRate - 発動率
 ChageTimeRate - チャージ時間
 StepTime - 効果延長
-DownRate - 減少率
+DownRate - ダウン値増加
+HateTime - 効果時間
+HateEffectValue - 効果量
+HealRate - 回復量
+DownRateAll - ダメージ軽減率
+AtpDownRate - 威力低下率
+PpUseUpRate - PP消費増加率
+PpUseDownRate - PP消費低下率
+CriticalRate - 会心距離時ゲージ蓄積量
+AtpAndDownRate - 威力・ダウン値上昇率
+Range - 効果範囲
+AtpRateLow - HP75％以上時威力
+DownRateLow - HP75％以上時ダウン値
+AtpRateHigh - HP100％時威力
+DownRateHigh - HP100％時ダウン値
+AtpRateProper - 会心距離クリティカル威力
+AtpRateMiss - 非適正距離クリティカル威力
+CriticalInstantProper - 会心距離クリティカル率
+CriticalInstantMiss - 非適正距離クリティカル率
+AttackSpeedRateLv1 - 50チェイン以下時攻撃速度
+AttackSpeedRateLv2 - 80チェイン以下時攻撃速度
+AttackSpeedRateLv3 - 81チェイン以上時攻撃速度
+AttackSpeedRateMax - 攻撃速度上昇上限
+AddPpMax - 増加PP
+MulMaxHpRate - HP消費率
+PpRate - 基準PP
+RecoveryEffectRateOther - 回復威力上昇率
+RecoveryEffectRateSelf - 回復威力上昇率
+AtpRateDown - 威力低下率
+DownRateDown - ダウン値低下率
+DfpRate - 被ダメージ低下率
+MaxTime - 最大効果時間
+CriticalInstantNeoTimeM - 75～99%時クリティカル率
+PpHealRateNeoTimeM - 75～99%時PP自動回復量
+CriticalInstantNeoTimeH - 100%時クリティカル率
+PpHealRateNeoTimeH - 100%時PP自動回復量
 FrontDamage - 正面威力
 BackDamage - 背面威力
 HpHeal - ＨＰ回復量
@@ -4070,6 +5098,45 @@ TamingHpRate - HP最大値
 TamingPpRate - PP最大値
 Border - 発動ＨＰ
 EffectTime - 効果時間
+PBRateMain - PBゲージ上昇量(メイン)
+PBRateSub - PBゲージ上昇量(サブ)
+DecreaseTime - 減少時間
+ReduceRecast - リキャスト短縮
+DamageReductionMainRate - ダメージ軽減率(メイン)
+DamageReductionSubRate - ダメージ軽減率(サブ)
+PPHealPoint - PP回復量
+AddPP - PP回復量
+AttackDownSubRate - 物理ダウン時威力(サブ)
+ElementDownSubRate - 属性ダウン時威力(サブ)
+AttackDownPPRate - 物理ダウン時PP回復率
+ElementDownPPRate - 属性ダウン時PP回復率
+AttackDownPPSubRate - 物理ダウン時PP回復率(サブ)
+ElementDownPPSubRate - 属性ダウン時PP回復率(サブ)
+GuardRateMain - 状態異常蓄積率(メイン)
+GuardRateSub - 状態異常蓄積率(サブ)
+GuardRate - 状態異常蓄積率
+EaseRateMain - 状態異常時間(メイン)
+EaseRateSub - 状態異常時間(サブ)
+ForceTalisConcentrateRate - 持続時間
+ActionPpRate - PP消費低下率
+PpActionRateAccumulation - 消費PP変換率
+PpHealMaxVolume - PP回復量
+PpHealValue - PP回復量
+PpRecoveryDeathState - エネミー撃破時PP回復量
+MainRecoveryRate - PP自然回復量(メイン)
+SubRecoveryRate - PP自然回復量(サブ)
+Stock - 最大ストック数
+PpHealVal - PP回復量
+PpRecoveryRateMain - PP自然回復量(メイン)
+PpRecoveryRateSub - PP自然回復量(サブ)
+PBGaugeAddValueMain - PBゲージ上昇量(メイン)
+PBGaugeAddValueSub - PBゲージ上昇量(サブ)
+NumberRequired - 必要回数
+PhysicalDownRate - 物理ダウン値増加
+ElementDownAtpRate - 属性ダウン時威力
+AttackDownRateMain - 物理ダウン時威力(メイン)
+AttackDownPPRateMain - 物理ダウン時PP回復率(メイン)
+ElementDownPPRateMain - 属性ダウン時PP回復率(メイン)
 RegenerateRate - 回復量
 TimeRate - 効果時間
 AtpRateNear - 近距離威力
@@ -4104,7 +5171,44 @@ JBTSC_Rate - チャージ時間
 SDR_Rate - 無敵時間
 LNWU_Rate - 有効割合
 PpActionRateWideSupport - 消費ＰＰ
-Count - 回数
+Count - 最大ストック数
+PhotonBlastGaugeAddValue - フォトンブラストゲージ上昇率
+PreCount - 初期ストック数
+AddRate - ウィークバレット強化後威力
+AddTime - ウィークバレット延長時間
+PbBonus - フォトンブラストゲージ上昇率
+PPRecover - PP回復量
+GrenadeAtpRate - グレネード威力
+TrapAtpRate - トラップ威力
+ForcePhotonFlareTecShortChargeRate - チャージ時間短縮率
+StatusEffectValueMain - 状態異常蓄積値(メイン)
+StatusEffectValueSub - 状態異常蓄積値(サブ)
+StatusEffectDurationMain - 状態異常時間(メイン)
+StatusEffectDurationSub - 状態異常時間(サブ)
+DecreaseHP - 消費HP
+PPRecoverRateMain - PP回復速度(メイン)
+PPRecoverRateSub - PP回復速度(サブ)
+ChargeDuration - チャージ時間
+PPRecoverRate - PP回復率
+MaxPPRecover - 最大PP回復量
+KillingPPRecover - 撃破時PP回復量
+DownPPRecover - ダウン時PP回復量
+EffectRange - 効果範囲
+PPRecoverValue - PP回復量
+DurationDecreaseRate - 持続時間減少率
+PPRecoverValueMain - PP回復量(メイン)
+PPRecoverValueSub - PP回復量(サブ)
+PhysicalDownAtpRateMain - 物理ダウン時威力(メイン)
+PhysicalDownAtpRateSub - 物理ダウン時威力(サブ)
+ElementDownAtpRateMain - 属性ダウン時威力(メイン)
+ElementDownAtpRateSub - 属性ダウン時威力(サブ)
+PhysicalDownPPRecoverRateMain - 物理ダウン時PP回復(メイン)
+PhysicalDownPPRecoverRateSub - 物理ダウン時PP回復(サブ)
+ElementDownPPRecoverRateMain - 属性ダウン時PP回復(メイン)
+ElementDownPPRecoverRateSub - 属性ダウン時PP回復(サブ)
+DamageRateMain - 被ダメージ率(メイン)
+DamageRateSub - 被ダメージ率(サブ)
+DamageStoreRate - ダメージ蓄積率
 Criticalpercentage - クリティカル率
 ScaleZ - 攻撃範囲
 AtomizerSpeedRate - 使用速度
@@ -4183,6 +5287,55 @@ HpConvertRate - ＨＰ回復率変換
 PpConvertRate - ＰＰ回復率変換
 PpAutoHealRate - ＰＰ自動回復量
 DamageResist - 被ダメージ軽減
+IncreaceRate - ゲージ蓄積率
+PpAtkRate - PP攻撃回復量
+PpNaturalRate - PP自然回復量
+PPDownRate - 減少率
+PPDownMaxRate - 減少率上限
+BartaNumberRequiredLevel1 - 必要回数(１段階目)
+BartaNumberRequiredLevel2 - 必要回数(２段階目)
+AtpRateForDisplay - 威力
+AtpRateFinishKatana - カタナフィニッシュ威力
+AtpRateFinishBow - バレットボウフィニッシュ威力
+AtpRateFinishFomelgion - フォメルギオン威力
+AtpRateFinishBarantsion - バーランツィオン威力
+AtpRateFinishZandion - ザンディオン威力
+PetGearStockMax - 最大ストック数
+PetGearBaseRate - ギアゲージ上昇率
+PetGearMaxRate - ギアゲージ上昇率上限
+SkillRateMain - 発動確率(メイン)
+SkillRateSub - 発動確率(サブ)
+SkillRate - 発動確率
+DamageThreshold - 発動ダメージ量
+HPThreshold - 発動HP
+HoTRateMain - HP継続回復率(メイン)
+HoTRateSub - HP継続回復率(サブ)
+TaktWAStrikeAtp0 - 威力(蓄積なし)
+TaktWAStrikeAtp1 - 威力(１段階目)
+TaktWAStrikeAtp2 - 威力(２段階目)
+TaktWAStrikeNumRequired1 - 必要回数(１段階目)
+TaktWAStrikeNumRequired2 - 必要回数(２段階目)
+HpIncrease - 増加HP
+AddHpHealRate - HP回復率
+VelocityRate - 移動速度
+AddPpHealRate - PP回復率
+JumpRate - ジャンプ力
+AttackPbHeal - PBゲージ上昇量
+NaturalPbHeal - PBゲージ上昇量
+CriticalRateIncrease - クリティカル率上昇量
+PpIncrease - 増加PP
+AnimSpeedLv1 - 101チェイン以上時攻撃速度
+AnimSpeedLv2 - 121チェイン以上時攻撃速度
+AnimSpeedLv3 - 141チェイン以上時攻撃速度
+ShieldCountMain - シールド耐久回数(メイン)
+ShieldCountSub - シールド耐久回数(サブ)
+JellenRateFrail1 - 威力(1段階)
+JellenRateFrail2 - 威力(2段階)
+ChainCountMax - 最大チェイン数
+ChainFinishAtpRate - チェインフィニッシュ初期威力
+AtpRatePerChain - 1チェインあたりの威力上昇量
+ChargeGuardRecast - ゲージ蓄積リキャスト
+RestaHealRate - レスタサイン回復威力
 
 Group 1
 
@@ -4234,6 +5387,17 @@ Group 9
 
 Macro
 Group 0
+AutoWordTypeTrialStart - トライアル参加時
+AutoWordTypeTrialSuccess - トライアル成功時
+AutoWordTypeTrialFailure - トライアル失敗時
+AutoWordTypeFastTravelStart - テレポート開始
+AutoWordTypeFastTravelEnd - テレポート終了
+AutoWordTypePhotonDash - フォトンダッシュ
+AutoWordTypePhotonDashAttack - ダッシュアタック
+AutoWordTypePhotonGlide - フォトングライド
+AutoWordTypeGlideAttack - ダイブアタック
+AutoWordTypeWeaponAction - 武器アクション
+AutoWordTypeGetGathering - ギャザリング獲得
 MenuButtonShortcut - ショートカットワード
 MenuButtonAuto - オートワード
 MenuButtonBack - 戻る
@@ -4261,7 +5425,8 @@ AutoWordTypeIncidentSuccess - Eトライアル成功
 AutoWordTypeIncidentFailure - Eトライアル失敗
 AutoWordTypePseStart - PSE発生
 AutoWordTypePseLevelup - PSEレベルアップ
-AutoWordTypePseBurst - PSEバースト
+AutoWordTypePseBurst - PSEバースト発生時
+AutoWordTypePseClimax - PSEクライマックス発生時
 AutoWordTypeMissionReceive - クエストを受注した
 AutoWordTypeMissionJoin - クエストに途中参加
 AutoWordTypeLevelupSelf - 自分がレベルアップ
@@ -4491,9 +5656,10 @@ Group 9
 
 ClassCounter
 Group 0
+OperationGuide - <%Decide>選択　<%Cancel>戻る
 Title - クラスカウンター
-MainClass - メインクラス
-SubClass - サブクラス
+MainClass - <c 76d1ff>メインクラス<c>
+SubClass - <c 76d1ff>サブクラス<c>
 Class - クラス
 MainClassSelect - メインクラス選択
 SubClassSelect - サブクラス選択
@@ -4507,7 +5673,7 @@ ClassLevel - Lv.(MAX)
 SkillTreeConfirmTitle - スキル確認
 MainClassChangeMessage - $(0) Lv.$(1)にメインクラスを変更します。<br>よろしいですか？
 MainClassChangeSuccess - メインクラスを変更しました。
-SubClassChangeMessage - $(0) Lv.$(1)をサブクラスに選択します。<br>サブクラスに選択すると、そのクラスの……<br> <br>　・ステータスの能力値が少し加算されます。<br>　・スキルが使用可能になります。<br>　・ＰＡ／テクニックが使用可能になります。<br><br>よろしいですか？
+SubClassChangeMessage - $(0) Lv.$(1)をサブクラスに選択します。<br>サブクラスに選択すると、そのクラスの……<br> <br>　・スキルが使用可能になります。<br>　・ＰＡ／テクニックが使用可能になります。<br><br>よろしいですか？
 SubClassChangeMessageVillain - $(0) Lv.$(1)をサブクラスに選択します。<br>サブクラスに選択すると、そのクラスの……<br> <br>　・ステータスの能力値が少し加算されます。<br>　・スキルが使用可能になります。<br>　・テクニックが使用可能になります。<br>　<yellow>※$(0)のPAは使用できません。<c><br><br>よろしいですか？
 SubClassChangeMessageMaster - $(0) Lv.$(1)をサブクラスに選択します。<br>サブクラスに選択すると、そのクラスの……<br> <br>　・ステータスの能力値が少し加算されます。<br>　・スキルが使用可能になります。<br>　<yellow>※$(0)のPAは使用できません。<c><br><br>よろしいですか？
 SubClassChangeMessageSlayer - $(0) Lv.$(1)をサブクラスに選択します。<br>サブクラスに選択すると、そのクラスの……<br> <br>　・ステータスの能力値が少し加算されます。<br>　・スキルが使用可能になります。<br>　<yellow>※$(0)のPAは使用できません。<c><br><br>よろしいですか？
@@ -4524,9 +5690,9 @@ MainClassChangeWpnmanFailMessage - $(0)を選択するには<br>以下の条件�
 MainClassChangeVillainFailMessage - $(0)を選択するには<br>以下の条件を達成する必要があります。<br><br>・コフィーのクライアントオーダー<br>「$(0)クラス解放試験」のクリア<br><yellow>　※いずれかのクラスレベルを７５にすると発生します。<br>　※一度クライアントオーダーをクリアした場合、<br>　　以降のキャラクターは<br>　　レベル７５にする必要はありません。<c>
 MainClassChangeEtoileFailMessage - $(0)を選択するには<br>以下の条件を達成する必要があります。<br><br>・コフィーのクライアントオーダー<br>「$(0)クラス解放試験」のクリア<br><yellow>　※いずれかのクラスレベルを７５にすると発生します。<br>　※一度クライアントオーダーをクリアした場合、<br>　　以降のキャラクターは<br>　　レベル７５にする必要はありません。<c>
 MainClassChangeSlayerFailMessage - $(0)を選択するには<br>以下の条件を達成する必要があります。<br><br>・コフィーのクライアントオーダー<br>「$(0)クラス解放試験」のクリア<br><yellow>　※いずれかのクラスレベルを７５にすると発生します。<br>　※一度クライアントオーダーをクリアした場合、<br>　　以降のキャラクターは<br>　　レベル７５にする必要はありません。<c>
-SkillTreeAdd - スキルツリー追加<pict Arcscash>
-SkillTreeReset - スキルツリー振り替え<pict Arcscash>
-SkillTreeResetSG - スキルツリー振り替え<pict StarGem>
+SkillTreeAdd - スキルツリー追加<pict 4space><pict Arcscash>
+SkillTreeReset - スキルツリー振り替え<pict 4space><pict Arcscash>
+SkillTreeResetSG - スキルツリー振り替え<pict 4space><pict StarGem>
 SkillTreeResetAll - 全スキルツリー初期化
 SkillTreeGet - クラススキル習得
 SkillTreeReturn - クラスカウンターを出る
@@ -4545,25 +5711,25 @@ SkillTreeResetAsk - このスキルツリーを振り替えます。<br>よろ�
 SkillTreeResetSuccess - スキルツリーを振り替えました。
 SkillTreeResetFailed - スキルツリーの振り替えに失敗しました。
 SkillTreeResetFailedCurrent - セット中のスキルツリーは振り替えができません。
-SkillTreeResetAllAsk - 「全スキルツリー初期化パス」を消費して<br>所持している全てのスキルツリーを<br>初期化し、SPを振り直しできるようにします。<br><br>よろしいですか？
+SkillTreeResetAllAsk - “N-全スキルツリー初期化”を消費して<br>所持している全てのスキルツリーを<br>初期化し、SPを振り直しできるようにします。<br><br>よろしいですか？
 SkillTreeResetAllSuccess - すべてのスキルツリーを初期化しました。<br>再度、SPの割り振りを忘れず行ってください。
 SkillTreeResetAllFailed - すべてのスキルツリーの初期化に失敗しました。<br>時間をおいて再度実行してください。
-SkillTreeResetAllFailedNG - 「全スキルツリー初期化パス」を<br>所持していないため、<br>初期化することはできません。
+SkillTreeResetAllFailedNG - “N-全スキルツリー初期化”を<br>所持していないため、<br>初期化することはできません。
 ClassSelectExplain - <c f0df60>「クラス選択」で現在のクラスを変更できます。　「スキルツリー選択」は複数のスキルツリー所有時にセットするものを選択できます。<c>
 ClassSelectExplain_v - <c f0df61>「クラス選択」でクラスを変更、　「スキルツリー選択」でスキルツリー複数所有時に選択を行います。<c>
-SkillTreeAddPath - <pict Arcscash><c ff4f3f>AC消費コンテンツ<c><br>$(0)用のスキルツリーを追加します。<br><yellow>「スキルツリー追加パス」<c>の購入確認画面に<br>進みますか？<br><br>（所持数：$(1)）
-SkillTreeAddTicket - <pict Arcscash><c 5fdf00>購入済アイテムの使用<c><br><yellow>「スキルツリー追加パス」<c>を使用し、<br>$(0)用のスキルツリーを追加しますか？<br><br>（所持数：$(1)）
-SkillTreeResetPath - <pict Arcscash><c ff4f3f>AC消費コンテンツ<c><br><yellow>「追加ツリー振り替えパス」<c>の<br>購入確認画面に進みますか？<br><br>振り替え前　　/ $(1) 用スキルツリー<br>振り替え後　　/ $(0) 用スキルツリー<br><br>（所持数：$(2)）
-SkillTreeResetPathSG - <pict StarGem><c 1dedd7>SG消費コンテンツ<c><br><yellow>「追加ツリー振り替えパス」<c>の<br>購入確認画面に進みますか？<br><br>振り替え前　　 / $(1) 用スキルツリー<br>振り替え後　　 / $(0) 用スキルツリー<br><br>（所持数：$(2)）
-SkillTreeResetTicket - <pict Arcscash><c 5fdf00>購入済アイテムの使用<c><br><yellow>「追加ツリー振り替えパス」<c>を使用し、<br>スキルツリーを振り替えますか？<br><br>振り替え前　　/ $(1) 用スキルツリー<br>振り替え後　　/ $(0) 用スキルツリー<br><br>（所持数：$(2)）
-SkillTreeResetTicketSG - <pict StarGem><c 5fdf00>購入済アイテムの使用<c><br><yellow>「追加ツリー振り替えパス」<c>を使用し、<br>スキルツリーを振り替えますか？<br><br>振り替え前　　/ $(1) 用スキルツリー<br>振り替え後　　/ $(0) 用スキルツリー<br><br>（所持数：$(2)）
+SkillTreeAddPath - <pict Arcscash><pict 4space><c ff4f3f>AC消費コンテンツ<c><br>$(0)用のスキルツリーを追加します。<br><yellow>“N-スキルツリー追加”<c>の購入確認画面に<br>進みますか？<br><br>（所持数：$(1)）
+SkillTreeAddTicket - <pict Arcscash><pict 4space><c 5fdf00>購入済アイテムの使用<c><br><yellow>“N-スキルツリー追加”<c>を使用し、<br>$(0)用のスキルツリーを追加しますか？<br><br>（所持数：$(1)）
+SkillTreeResetPath - <pict Arcscash><c ff4f3f>AC消費コンテンツ<c><br><yellow>“N-追加スキルツリー振り替え”<c>の<br>購入確認画面に進みますか？<br><br>振り替え前　　/ $(1) 用スキルツリー<br>振り替え後　　/ $(0) 用スキルツリー<br><br>（所持数：$(2)）
+SkillTreeResetPathSG - <pict StarGem><c 1dedd7>SG消費コンテンツ<c><br><yellow>“N-追加スキルツリー振り替え”<c>の<br>購入確認画面に進みますか？<br><br>振り替え前　　 / $(1) 用スキルツリー<br>振り替え後　　 / $(0) 用スキルツリー<br><br>（所持数：$(2)）
+SkillTreeResetTicket - <pict Arcscash><pict 4space><c 5fdf00>購入済アイテムの使用<c><br><yellow>“N-追加スキルツリー振り替え”<c>を使用し、<br>スキルツリーを振り替えますか？<br><br>振り替え前　　/ $(1) 用スキルツリー<br>振り替え後　　/ $(0) 用スキルツリー<br><br>（所持数：$(2)）
+SkillTreeResetTicketSG - <pict StarGem><pict 4space><c 5fdf00>購入済アイテムの使用<c><br><yellow>“N-追加スキルツリー振り替え”<c>を使用し、<br>スキルツリーを振り替えますか？<br><br>振り替え前　　/ $(1) 用スキルツリー<br>振り替え後　　/ $(0) 用スキルツリー<br><br>（所持数：$(2)）
 SkillTreeExplain - <c f0df60>スキルポイント(SP)を消費して、クラススキルを習得できます。SPはレベルアップ時に獲得できます。<%NextTabDetails><c f0df60>で詳細を確認できます。<c>
 SkillTreeExplain_v - <c f0df60>スキルポイント(SP)を消費して、クラススキルを習得できます。SPはレベルアップ時に獲得できます。<c>
-SkillTreeAddExplain - <c f0df60>「スキルツリー追加パス」を使用またはACで購入して、スキルツリーを追加することができます。<c>
-SkillTreeResetExplain - <c f0df60>「追加ツリー振り替えパス」を使用またはACで購入して、スキルツリーを初期化できます。最初に、振り替えるツリーを選択してください。<c>
-SkillTreeResetExplainSG - <c f0df60>「追加ツリー振り替えパス」を使用またはＳＧで購入して、スキルツリーを初期化できます。最初に、振り替えるツリーを選択してください。<c>
-SkillTreeResetExplain_v - <c f0df61>「追加ツリー振り替えパス」を使用、またはACで購入して、スキルツリーを初期化できます。
-SkillTreeResetExplainSG_v - <c f0df61>「追加ツリー振り替えパス」を使用、またはＳＧで購入して、スキルツリーを初期化できます。<c>
+SkillTreeAddExplain - <c f0df60>“N-スキルツリー追加”を使用またはACで購入して、スキルツリーを追加することができます。<c>
+SkillTreeResetExplain - <c f0df60>“N-追加スキルツリー振り替え”を使用またはACで購入して、スキルツリーを初期化できます。最初に、振り替えるツリーを選択してください。<c>
+SkillTreeResetExplainSG - <c f0df60>“N-追加スキルツリー振り替え”を使用またはＳＧで購入して、スキルツリーを初期化できます。最初に、振り替えるツリーを選択してください。<c>
+SkillTreeResetExplain_v - <c f0df61>“N-追加スキルツリー振り替え”を使用、またはACで購入して、スキルツリーを初期化できます。
+SkillTreeResetExplainSG_v - <c f0df61>“N-追加スキルツリー振り替え”を使用、またはＳＧで購入して、スキルツリーを初期化できます。<c>
 SkillTreeReset2Explain - <c f0df60>選択したツリーを、<yellow>別のクラス用に振り替えることも可能です。<c f0df60>どのクラス用に振り替えるか選択してください。<c>
 SkillTreeReset2Explain_v - <c f0df60>選択したツリーを、<yellow>別のクラス用に振り替えることも可能です。<c f0df61>クラスを選択してください。<c>
 ClassCounterExplain - <c f0df60>クラスを変更したり、スキルツリーでクラススキルを習得したりできます。<c>
@@ -4584,7 +5750,72 @@ AutoSkillTreeList - オススメ設定された以下のスキルを上書きし
 AutoSkillTreeListVita - オススメ設定された以下のスキルを上書きします。<br>よろしいですか？<br><red>※任意で振り直したい場合は<br>全スキルツリー初期化パスが必要になります。<c>
 AutoSkillTreeSuccess - オススメスキルを上書きしました。
 AutoSkillTreeFailed - オススメスキルの上書きに失敗しました。
+SkillPoint_Zero - SP<pict 4space>0
 SkillTreeName - $(0)($(1))
+AdditionalSkill - アドオンスキル
+AdditonalSkillMenuTitle - アドオンスキル
+AdditionalSkillCreate - アドオンスキル生成
+AdditionalSkillChange - アドオンスキルセット
+AdditionalSkillCreateTitle - アドオンスキル生成
+AdditionalSkillRecipeName - スキル生成$(0)
+AdditionalSkillRecipeTitle - $(0)　$(1)の生成結果予測
+AdditionalSkillMain - メイン効果
+AdditionalSkillSub - サブ効果
+AdditionalSkillRecipeMain - Lv.$(0)以上
+AdditionalSkillRecipeSub - Lv.$(0)以上
+AdditionalSkillRecipeLv - Lv.$(0)
+AdditionalSkillRecipeText - 生成レベル：$(0)以上
+AdditionalSkillSupportItemText - アドオンスキルの生成を開始します。<br>よろしいですか？
+AdditionalSkillCreateWindowTitle - アドオンスキル生成
+AdditionalSkillResultWindowTitle - 登録するアドオンスキル
+AdditionalSkillCreateWindowText - アドオンスキルの生成が完了しました。
+AdditionalSkillResultMain - メイン効果
+AdditionalSkillResultSub - サブ効果
+AdditionalSkillLv - Lv.$(0)
+AdditionalSkillToastBoost - アドオンスキルブーストが発生しました。
+AdditionalSkillToastRecipe - 新しいアドオンスキルの生成方法が解放されました。
+AdditionalSkillSaveWindowTitle - アドオンスキル登録
+AdditionalSkillSlotName - $(0)($(1))
+AdditionalSkillNoSave - 登録しない
+AdditionalSkillSetWindowTitle -  $(0)
+AdditionalSkillSetWindowNoSkill - アドオンスキルが登録されていません。
+AdditionalSkillDetailWindowTitle - アドオンスキル詳細
+AdditionalSkillSaveConfirmWindowTitle - アドオンスキル登録
+AdditionalSkillSaveConfirmWindowText1 - 生成したアドオンスキルを<br>登録します。<br>よろしいですか？
+AdditionalSkillSaveConfirmWindowText2 - <yellow>既にアドオンスキルが<br>登録されています。<c><br><br>生成したアドオンスキルを上書きします。<br>よろしいですか？
+AdditionalSkillSaveConfirmWindowText3 - 登録しない場合、<br>生成したアドオンスキルは失われます。<br>よろしいですか？
+AdditionalSkillSaveConfirmResultText - アドオンスキルを登録しました。
+AdditionalSkillChangeTitle - アドオンスキルのセット
+AdditionalSkillPopupConfirm - アドオンスキルの確認
+AdditionalSkillPopupSelect - アドオンスキルの選択
+AdditionalSkillPopupNameChange - スキルセットの名前変更
+AdditionalSkillSlotNameChangeTitle - スキルセットの名前変更
+AdditionalSkillMysetTitle - マイセット：アドオンスキル
+AdditionalSkillMysetName - アドオンスキルセット
+AdditionalSkillMysetItem - 新規保存
+AdditionalSkillMysetPopupItem1 - マイセット選択
+AdditionalSkillMysetPopupItem2 - 現在の設定で上書き
+AdditionalSkillMysetPopupItem3 - 名前を変えずに上書き
+AdditionalSkillMysetPopupItem4 - マイセットの名前変更
+AdditionalSkillMysetPopupItem5 - マイセット削除
+AdditionalSkillMysetDetailTitle - マイセット内容
+AdditionalSkillMysetDetaiItemName - マイセット詳細
+AdditionalSkillMysetPopupWindowText1 - “マイセット$(0) $(1)”を<br>セットします。<br>よろしいですか？
+AdditionalSkillMysetPopupWindowText2 - “マイセット$(0) $(1)”に<br>現在のアドオンスキルの設定を上書きします。<br>よろしいですか？
+AdditionalSkillMysetPopupWindowText3 - “マイセット$(0) $(1)”に<br>現在のアドオンスキルの設定を上書きします。<br><yellow>※マイセットの名前は変更されません。<c><br>よろしいですか？
+AdditionalSkillMysetPopupWindowText4 - “マイセット$(0) $(1)”に<br>現在のアドオンスキルの設定を登録します。<br>よろしいですか？
+AdditionalSkillMysetPopupWindowTitle - マイセット保存
+AdditionalSkillMysetPopupWindowText5 - "マイセット$(0) $(1)"を削除します。<br>よろしいですか？
+AdditionalSkillExplain - アドオンスキルの生成、セットなどが行えます。
+AdditionalSkillMysetInputTitle - マイセットの名前変更
+AdditionalSkillMysetInputText - “マイセット$(0) $(1)”の<br>名前を変更します。<br>変更後の名前を入力してください。
+AdditionalSkillSlotInputTitle - スキルセットの名前変更
+AdditionalSkillSlotInputText - “ $(0)”の<br>名前を変更します。<br>変更後の名前を入力してください。
+AdditionalSkillMysetNodataText - マイセットが保存されていません。
+AdditionalSkillLimitText - クエスト受注中は、<br>この機能は使用できません。
+AdditionalSkillClassIcon - <pict $(0)><pict 4space>$(1)
+AdditionalSkillExceptionDataWindowTitle - アドオンスキル登録
+AdditionalSkillExceptionDataWindowText - 未登録のアドオンスキルがあります。<br>アドオンスキルの登録を行ってください。
 
 Group 1
 
@@ -4738,6 +5969,7 @@ EditFormTitle - アークスカード編集
 EditBirthday - 誕生日
 EditHobby - 趣味
 EditComment - コメント
+EditComment_NGS - コメントの設定
 EditVector - シンボルアート
 EditWishList - ウィッシュリスト
 EditPresentList - プレゼントリスト
@@ -4745,6 +5977,7 @@ EditOpenSetting - 公開設定
 EditVectorSet - シンボルアートを登録する
 EditVectorClear - 登録を解除する
 OpenAll - 全員に公開する
+OpenAll_NGS - すべてのプレイヤーに公開する
 OpenFriend - フレンドにのみ公開する
 OpenGuild - チームメンバーにのみ公開する
 OpenFriendGuild - フレンドとチームメンバーに公開する
@@ -4754,6 +5987,10 @@ ErrorMessageNotFound - 相手のアークスカードは存在しません。
 ErrorMessagePrivate - 相手のアークスカードは<br>非公開に設定されています。
 ErrorMessageDBError - データベースに問題が発生したため、<br>処理できませんでした。<br><br>[No.1036］
 ErrorMessageUnknown - 問題が発生したため、<br>処理できませんでした。<br><br>[No.1037］
+ErrorMessageNgWordTitle - 称号の組み合わせで、不適切な文字列が<br>検出されたため、登録できません。
+ErrorMessageNgWordComment - コメント設定で、不適切な文字列が<br>検出されたため、一部の文字列を変換しました。
+ErrorMessageNgWordTitle_Comment - 称号の組み合わせで、不適切な文字列が<br>検出されたため、登録できません。<br><br>コメント設定で、不適切な文字列が<br>検出されたため、一部の文字列を変換しました。
+CloseText - 閉じる
 WishListRegisterFormTitle - ウィッシュリストに登録
 PresentListRegisterFormTitle - プレゼントリストに登録
 ListRegisterSlot - 変更するスロットを選択してください。
@@ -4764,6 +6001,96 @@ KeyHelpXbox - <pict Alpha_LEFT><pict Alpha_RIGHT>でページ切替/<%Cancel>で
 KeyHelpPS - <pict Sign_LEFT><pict Sign_RIGHT>でページ切替/<%Cancel>で戻る
 KeyHelpNumber - <pict Number_LEFT><pict Number_RIGHT>でページ切替/<%Cancel>で戻る
 ReadXboxGamersTag - Xbox Liveゲーマータグ
+Reb_mess01 - 基本データ
+Reb_mess02 - 最近使用したキャラクター
+Reb_mess03 - ファッション
+Reb_mess04 - 獲得した称号
+Reb_mess05 - 発見した記憶のかけら
+Reb_mess06 - アイテム図鑑
+Reb_mess07 - エネミー図鑑
+Reb_mess08 - よく使うクラス
+Reb_mess09 - よく使うPA
+Reb_mess10 - よく使うテクニック
+Reb_mess11 - 討伐記録
+Reb_mess12 - 討伐数
+Reb_mess13 - プレイデータ
+Reb_mess14 - 個人ベスト
+Reb_mess15 - 称号1
+Reb_mess16 - 称号2
+Reb_mess17 - 称号3
+Reb_mess18 - 背景の設定
+Reb_mess19 - ポーズの設定
+Reb_mess20 - 表情の設定
+Reb_mess21 - シンボルアート/スタンプの設定
+Reb_mess22 - 表示中のキャラクターを更新しない
+Reb_mess23 - 表示中のキャラクターを更新する
+Reb_mess24 - 決定：<%Decide>　キャンセル：<%Cancel>　編集：<%Function>
+Reb_mess25 - アークスカード
+Reb_mess26 - 戻る
+Reb_mess27 - 編集
+Reb_mess28 - 決定
+Reb_mess29 - キャンセル
+Reb_mess30 - よろしくお願いします。
+Reb_mess31 - 決定：<%Decide>　キャンセル：<%Cancel>
+Reb_mess32 - スタンプを登録する
+Reb_mess33 - 登録を解除する
+Title_None - <space>
+Title_Tab_All - すべて
+EditCardSymbol - シンボルアート/スタンプを登録
+Discard_Changes_Message - 変更を破棄します。<br>よろしいですか？
+BgSelectTitle - 背景選択
+BgSelect_Help - "累計称号ポイント"に応じて、<br>新しい背景が利用可能になります。
+BgSelect_Sub_Title1 - 現在の累計称号ポイント
+BgSelect_Sub_Title2 - 目標ポイント
+BgSelect_Sub_Title3 - 背景
+BgSelect_Pt - $(0) pt
+BgSelect_Name - 背景$(0)
+PoseSelectTitle - ポーズ選択
+ExpressionSelectTitle - 表情選択
+CameraAngle - カメラアングルの設定
+CameraAngle_Edit - カメラアングルを変更する
+PreviewTitle - プレビュー
+LobbyAction_EmotionType_Display - $(0)($(1))
+LobbyAction_Default - 立ちポーズ
+Bg_Default - 標準Ａ
+Bg_SmokeGold - スモークレッド
+Bg_NeonBlue - ネオンブルー
+Bg_FancyRappy - ファンシーラッピー
+Bg_Basic - 標準Ｂ
+Bg_GrasslandCity - ハルファナ平原（昼）Ａ
+Bg_TidalCove - バルフロウ大瀑布（昼）Ａ
+Bg_SunsetWater - ハルフィリア湖（夕方）Ａ
+Bg_UrbanDusk - ハルファナ平原（夕方）Ａ
+Bg_Waterfall - バルフロウ大瀑布（昼）Ｂ
+Bg_NightCape - バルフロウ大瀑布（夜）Ａ
+Bg_ExpandingWorld - ハルファ（昼）Ａ
+Bg_BasicBlue - クリアブルー
+Bg_BasicRed - クリアレッド
+Bg_NeonRed - ネオンレッド
+Bg_NeonGreen - ネオングリーン
+Bg_SmokeBlue - スモークブルー
+Bg_Retem1 - キーンラッド岬（昼）Ａ
+Bg_Retem2 - 西リテム（昼）Ａ
+Bg_Retem3 - マクアド下層Ａ
+Bg_Retem4 - リテム・エルノザ（夜）Ａ
+Bg_Retem5 - トリニテス（昼）Ａ
+Bg_Retem6 - オアシス（夜）Ａ
+Bg_Retem7 - リテムシティ（夜）Ａ
+Bg_Retem8 - リテムシティ（夜）Ｂ
+Bg_Kvaris1 - クヴァリスキャンプ（昼）Ａ
+Bg_Kvaris2 - ダナン雪原（昼）Ａ
+Bg_Kvaris3 - ミストラ樹林（昼）Ａ
+Bg_Kvaris4 - ベルガナ遺跡（昼）Ａ
+Bg_Kvaris5 - ロストセントラルＡ
+Bg_Kvaris6 - レイヨルド峡江（昼）Ａ
+Bg_Kvaris7 - ラトヴァ山（夜）Ａ
+Open_Title - 背景の使用条件
+Open_00 - 最初から使用可能
+Open_01 - 累計称号ポイント：$(0)pt
+PreviewZoom - （<c cfcfcf>回転<swguidetype CameraTurn>/拡大<%PaletteReverse><%PaletteForce><c> <%Exception> <yellow>平行移動<swguidetype CameraTurn><c>）
+PreviewZoom_mouse - （<c cfcfcf>回転<swguidetype CameraTurn>/拡大<%PaletteReverse><%PaletteForce><c> <pict mouse_right> <yellow>平行移動<swguidetype CameraTurn><c>）
+PreviewMove - （<yellow>回転<swguidetype CameraTurn>/拡大<%PaletteReverse><%PaletteForce><c> <%Exception> <c cfcfcf>平行移動<swguidetype CameraTurn><c>）
+PreviewMove_mouse - （<yellow>回転<swguidetype CameraTurn>/拡大<%PaletteReverse><%PaletteForce><c> <pict mouse_right> <c cfcfcf>平行移動<swguidetype CameraTurn><c>）
 
 Group 1
 
@@ -4891,7 +6218,7 @@ VisiphonMenu_Ranking - ランキング
 VisiphonMenu_PlayLog - プレイ実績
 VisiphonMenu_LoginStamp - ログインスタンプ
 VisiphonMenu_ProfileEdit - 自分のアークスカード編集
-VisiphonMenu_Campaign - キャンペーンアイテム受取
+VisiphonMenu_Campaign - キャンペーンアイテム受け取り
 VisiphonMenu_CharaSave - ポートレート用データ保存
 VisiphonMenu_CharaSaveSelect - キャラクター選択
 VisiphonMenu_CharaSaveUseChara - 現在のキャラクター
@@ -4944,11 +6271,11 @@ CharaSearch_ID - キャラクター名
 CharaSearchResultTitle - キャラクターサーチ検索結果
 CharaSearchResult_Failure - 該当キャラクターが<br>見つかりませんでした。
 SearchFailureMessage - 検索文字が入力されていません。
-CampaignMenuTitle - キャンペーン受取メニュー
+CampaignMenuTitle - キャンペーン受け取りメニュー
 CampaignMenuTab1 - キャンペーン名
 CampaignMenuTab2 - 受け取り期間
 CampaignMenuNoItem - キャンペーンがありません。
-CampaignConfirmTitle - 受取確認
+CampaignConfirmTitle - 受け取り確認
 CampaignConfirmMessage - 以下のキャンペーンアイテムを受け取ります。<br>よろしいですか？<br><br>※アイテムを受け取れるのは、<br>　アカウントにつき１回のみです。<br>　受け取るシップに間違いないかをご確認ください。
 CampaignConfirmCharaMessage - 以下のキャンペーンアイテムを受け取ります。<br>よろしいですか？<br><br>※アイテムを受け取れるのは、<br>　キャラクターにつき１回のみです。
 CampaignError1 - 予期せぬエラーが発生したため<br>受取をキャンセルします。
@@ -5000,7 +6327,8 @@ RecruitFriend - フレンド人数
 RecruitBlackList - ブロックリスト登録者数
 RecruitLevel - Lv.$(0)
 RecruitNumber - $(0)人
-RecruitMemberList - のチームメンバー一覧
+RecruitMemberList - チームメンバー一覧
+RecruitAdministratorList - チーム管理者一覧
 RecruitMemberMaster - チームマスター
 RecruitMemberManager - マネージャー
 RecruitMemberCommon - コモンメンバー
@@ -5012,7 +6340,7 @@ RecruitMailMiss - 送信できませんでした。
 VisiphonMenu_Recruit - メンバー募集中チーム表示
 VisiphonMenu_RecruitHint - <c f0df60>チームメンバーを募集しているチームを表示します。表示する設定を選んでください。<c>
 CampaignInfoTitle - キャンペーン内容
-CampaignInfoTitle2 - 受取有効期限
+CampaignInfoTitle2 - 受け取り有効期限
 CampaignInfoTitle3 - 対象条件
 CampaignDateNone - 無期限
 CampaignMessage - <pict New>受け取っていないキャンペーンが$(0)件あります。
@@ -5043,8 +6371,8 @@ CraftLearnRecipe - 習得クラフトレシピ
 CraftFavorList - クラフトライセンス
 CraftOrderCheck - デイリークラフト
 CampaignTopTitle - キャンペーンアイテム
-CampaignTopMenu1 - アイテム受取：アカウント
-CampaignTopMenu2 - アイテム受取：キャラクター
+CampaignTopMenu1 - アイテム受け取り：アカウント
+CampaignTopMenu2 - アイテム受け取り：キャラクター
 VisiphonMenu_Gat - ギャザリング
 VisiphonMenu_GatHint - <c f0df60>ギャザリングの説明です。<c>
 SiriusMenu - イドラポイント交換
@@ -5056,8 +6384,9 @@ SiriusMenu_Name2_Hint - <c f0df60>イドラポイント交換を閉じます。<
 SiriusMenu_Point - 所持イドラポイント
 SiriusMenu_Point_Vita - 所持イドラポイント
 SiriusMenu_HeadSelect - <c f0df60>交換する景品を選択してください(交換数には週制限があり、毎週<utcdow>水曜日4:00</utcdow>にリセットされます)。<c>
-VisiphonBuyItem - 購入/特典受取：アカウント
+VisiphonBuyItem - 購入/特典受け取り：アカウント
 VisiphonBuyItemMessage - 以下のアイテムを受け取ります。<br>よろしいですか？<br><br>※アイテムを受け取れるのは、<br>　アカウントにつき１回のみです。<br>　受け取るシップに間違いないかをご確認ください。
+RecruitTeamManager_None - チームが解散しているため表示できません。
 
 Group 1
 
@@ -5583,8 +6912,6 @@ DBMultiBossStartSt - 声のする先に向かいます。
 DBMultiBossRemoveSt - 引き返す
 DBMultiBossMessageStExc - 引き返しますか？
 DBMultiBossGotoStExc - しばらくお待ちください。
-MEDMultiBossMessageExc - 突入準備を開始しました。<br>一定時間後に周囲にいるメンバーで作戦を開始します。<br><br>突入準備を中止しますか？
-MEDMultiBossGotoExc - 突入準備開始。一定時間内に揚陸艇に向かってください。
 
 Group 1
 
@@ -5641,7 +6968,7 @@ Group 0
 Area - $(0)のチームルーム
 GuildRoom_Error_UserFull - 選択したチームルームは、<br>混雑のため入室できませんでした。
 GuildRoom_Error_NotFound, - 選択したチームルームが<br>見つかりませんでした。<br><br>[No.1052］
-GuildRoom_Error_BlackList, - 選択したチームルームの持ち主がブロックリストに入っているため、<br>入室できませんでした。
+GuildRoom_Error_BlackList, - 選択したチームルームの持ち主が<br>ブロックリストに入っているため、<br>入室できませんでした。
 GuildRoom_Error_Denied, - 選択したチームルームには<br>入室できませんでした。<br><br>[No.1053］
 GuildRoom_Error_Unknown, - 選択したチームルームへの入室時に<br>問題が発生したため、<br>入室できませんでした。<br><br>[No.1054］
 GuildRoom_Error_Exception - 選択したチームルームへの入室時に<br>問題が発生したため、<br>入室できませんでした。<br><br>[No.1055］
@@ -5875,7 +7202,7 @@ ItemCode
 Group 0
 Title - アイテムコード入力
 Decide - 送信
-Message - アイテムコードを入力してください。<br><br>倉庫メニューの「受け取り専用倉庫」の<br>「運営倉庫」で受け取ることができます。<br><br><yellow>※アイテムコードの入力を続けて<br>　10回間違えた場合、次回メンテナンスまで<br>　利用が制限されますので、ご注意ください。<c>
+Message - アイテムコードを入力してください。<br><br>“メインメニュー”の“アイテム”を選択し<br>ウィンドウ上部の“アイテムパック”を、<br>“運営倉庫”に切り替えることで、<br>受け取ることができます。<br><br><yellow>※アイテムコードの入力を続けて<br>　10回間違えた場合、次回メンテナンスまで<br>　利用が制限されますので、ご注意ください。<c>
 Message_v - アイテムコードを入力してください。<br><br>倉庫メニューの「運営倉庫」で<br>受け取ることができます。<br><br><yellow>※アイテムコードの入力を続けて<br>　10回間違えた場合、次回メンテナンスまで<br>　利用が制限されますので、ご注意ください。<c>
 ItemGetMessage - $(0)を入手しました。
 ItemGetMessage_Num - $(0)×$(1) を入手しました。
@@ -5916,6 +7243,7 @@ Group 0
 SendTitle - グッジョブ送信
 Decide - 送信
 Message - グッジョブを送信します。<br><br>グッジョブにはコメントをつけることができます。<br>コメントをつけると、獲得できるＦＵＮがさらにアップ！<br>（送られたコメントは、「コミュニケーション履歴」から閲覧できます）<br><br>※グッジョブでＦＵＮを獲得できるのは、１日１０回までです。<br>※同じプレイヤーへのグッジョブでＦＵＮを獲得できるのは１日１回です。
+Message_reb - グッジョブを送信します。<br><br>グッジョブにはコメントをつけることができます。<br>（送られたコメントは、「コミュニケーション履歴」から閲覧できます）
 ReceiveTitle - グッジョブ送信完了
 ReceiveMessage - グッジョブを送信しました！
 Point - 基本ポイント
@@ -6216,8 +7544,6 @@ Treasure_227 - カザミノタチのPC
 Treasure_228 - オプトレイオンのPC
 Treasure_229 - エルダーペインのPC
 Treasure_230 - サイカ・ヒョウリのPC
-Treasure_231 - キリトのPC
-Treasure_232 - アスナのPC
 Treasure_233 - マザー（クリスマス）のPC
 Treasure_234 - シバ（クリスマス）のPC
 Treasure_235 - エルミル（クリスマス）のPC
@@ -6226,7 +7552,6 @@ Treasure_237 - キリークのPC
 Treasure_238 - リコのPC
 Treasure_239 - アフタルのPC
 Treasure_240 - ホルシードのPC
-Treasure_241 - アークス勲章登録証
 
 Group 1
 
@@ -6508,8 +7833,6 @@ Treasure_227 - カザミノタチのパートナーカード。<br>キャンプ�
 Treasure_228 - オプトレイオンのパートナーカード。<br>キャンプシップの端末で呼び出せる。
 Treasure_229 - エルダーペインのパートナーカード。<br>キャンプシップの端末で呼び出せる。
 Treasure_230 - サイカ・ヒョウリのパートナーカード。<br>キャンプシップの端末で呼び出せる。
-Treasure_231 - キリトのパートナーカード。<br>キャンプシップの端末で呼び出せる。
-Treasure_232 - アスナのパートナーカード。<br>キャンプシップの端末で呼び出せる。
 Treasure_233 - マザー（クリスマス）のパートナーカード。<br>キャンプシップの端末で呼び出せる。
 Treasure_234 - シバ（クリスマス）のパートナーカード。<br>キャンプシップの端末で呼び出せる。
 Treasure_235 - エルミル（クリスマス）のパートナーカード。<br>キャンプシップの端末で呼び出せる。
@@ -6518,7 +7841,6 @@ Treasure_237 - キリークのパートナーカード。<br>キャンプシッ�
 Treasure_238 - リコのパートナーカード。<br>キャンプシップの端末で呼び出せる。
 Treasure_239 - アフタルのパートナーカード。<br>キャンプシップの端末で呼び出せる。
 Treasure_240 - ホルシードのパートナーカード。<br>キャンプシップの端末で呼び出せる。
-Treasure_241 - 「アークス勲章」の登録申請が<br>受理された証。<br>『PSO2：NGS』サービス開始<br>時点のキャラクターデータで作成する。
 
 Group 1
 
@@ -6570,29 +7892,29 @@ GoodJobWithoutComment - コメントなしグッジョブ
 Party - パーティーを組んだプレイヤー
 MultiParty - マルチパーティーのプレイヤー
 Employ - 自分をフレンドパートナー利用
-Name - キャラクター名/プレイヤーＩＤネーム
+Name - キャラクター名/プレイヤーIDネーム
 Time - 時間/ブロック
 TimePlace - 時間/送信場所
 Empty - 履歴がありません
 TabItemPlaceAll - 0．指定なし
-TabItemPlaceMenu - 1．PSO2 メニュー
-TabItemPlaceShop - 2．PSO2 マイショップ
+TabItemPlaceMenu - 1．『PSO2』メニュー
+TabItemPlaceShop - 2．『PSO2』マイショップ
 TabItemPlaceMyRoom - 3．マイルーム
 TabItemPlaceTeamRoom - 4．チームルーム
 TabItemPlaceQuestResult - 5．リザルト
 TabItemPlaceCraft - 6．クラフト
 TabItemFashionCat - 7．コーデカタログ
-TabItemPlaceRebMenu - 8．NGS メニュー
-TabItemPlaceRebMyShop - 9．NGS マイショップ
-PlaceMenu - PSO2 キャラクターメニュー
-PlaceShop - PSO2 マイショップ
+TabItemPlaceRebMenu - 8．『PSO2：NGS』メニュー
+TabItemPlaceRebMyShop - 9．『PSO2：NGS』マイショップ
+PlaceMenu - 『PSO2』メニュー
+PlaceShop - 『PSO2』マイショップ
 PlaceRoom - マイルーム
 PlaceTeamRoom - チームルーム
 PlaceQuestResult - リザルト
 PlaceCraft - クラフト
 PlaceFashionCat - コーデカタログ
-PlaceRebMenu - PSO2:NGS キャラクターメニュー
-PlaceRebMyShop - PSO2:NGS マイショップ
+PlaceRebMenu - 『PSO2：NGS』メニュー
+PlaceRebMyShop - 『PSO2：NGS』マイショップ
 Nice - <pict like_icon>いいね！
 Cute - <pict cute_icon>かわいいね！
 Cool - <pict cool_icon>かっこいいね！
@@ -6626,20 +7948,20 @@ Esthetic_Title - エステカウンター
 Esthetic_Enter - エステに入店する
 Esthetic_Partner - サポートパートナーエステ
 Esthetic_Exit - エステカウンターを出る
-Esthetic_Help - <c f0df60>エステでは、外見やボイスなどを変更できます。一部機能のご利用には「エステ利用パス」が必要です。<c>
-EnterConfirmMessage - エステ内ではチャットができません。<br>受信した内容はログウィンドウに残ります。<br><br>また、パーティー関連やクエスト関連の<br>通知も行われませんので、ご了承ください。<br><br><yellow>アイテムパックに必要な空き容量がない場合<br>キャラ倉庫内のコスチュームには変更できません。<c><br><br>エステに入店しますか？<br><br><red>※エステ内の表記はSGになっていますが<br>ACで購入したエステパスもご利用いただけます。<c>
-EnterConfirmMessage2 - エステ内ではチャットができません。<br>受信した内容はログウィンドウに残ります。<br><br>また、パーティー関連やクエスト関連の<br>通知も行われませんので、ご了承ください。<br><br><yellow>アイテムパックに必要な空き容量がない場合<br>キャラ倉庫内のコスチュームには変更できません。<c><br><br>エステに入店しますか？<br><br>エステ利用パス　　　　再編集可能期間：$(0)
-EnterConfirmMessage3 - エステ内ではチャットができません。<br>受信した内容はログウィンドウに残ります。<br><br>また、パーティー関連やクエスト関連の<br>通知も行われませんので、ご了承ください。<br><br><yellow>アイテムパックに必要な空き容量がない場合<br>キャラ倉庫内のコスチュームには変更できません。<c><br><br>エステに入店しますか？<br><br>カラーチェンジパス　　再編集中アイテム：$(0)個<br>　　　　　　　　　　　　　　　　　　最短残り時間　　　 ：$(1)<br>　　　　　　　　　　　　　　　　　　　 $(2)
-EnterConfirmMessage4 - エステ内ではチャットができません。<br>受信した内容はログウィンドウに残ります。<br><br>また、パーティー関連やクエスト関連の<br>通知も行われませんので、ご了承ください。<br><br><yellow>アイテムパックに必要な空き容量がない場合<br>キャラ倉庫内のコスチュームには変更できません。<c><br><br>エステに入店しますか？<br><br>エステ利用パス　　　　再編集可能期間：$(0)<br>カラーチェンジパス　　再編集中アイテム：$(1)個<br>　　　　　　　　　　　　　　　　　　最短残り時間　　　 ：$(2)<br>　　　　　　　　　　　　　　　　　　　 $(3)
-EnterConfirmMessage5 - エステ内ではチャットができません。<br>受信した内容はログウィンドウに残ります。<br><br>また、パーティー関連やクエスト関連の<br>通知も行われませんので、ご了承ください。<br><br><yellow>アイテムパックに必要な空き容量がない場合<br>キャラ倉庫内のコスチュームには変更できません。<c><br><br>エステに入店しますか？<br><br>キャラクター作成　　　再編集可能期間：$(0)
-EnterConfirmMessage6 - エステ内ではチャットができません。<br>受信した内容はログウィンドウに残ります。<br><br>また、パーティー関連やクエスト関連の<br>通知も行われませんので、ご了承ください。<br><br><yellow>アイテムパックに必要な空き容量がない場合<br>キャラ倉庫内のコスチュームには変更できません。<c><br><br>エステに入店しますか？<br><br>キャラクター作成　　　再編集可能期間：$(0)<br>カラーチェンジパス　　再編集中アイテム：$(1)個<br>　　　　　　　　　　　　　　　　　　最短残り時間　　　 ：$(2)<br>　　　　　　　　　　　　　　　　　　　 $(3)
+Esthetic_Help - エステでは、外見やボイスなどを変更できます。一部機能のご利用には「エステ利用パス」が必要です。
+EnterConfirmMessage - エステ内ではチャットができません。<br>※受信した内容はログウィンドウに残ります。<br><br>また、パーティーやクエスト関連の通知が行われず、<br>クエストのマッチング対象からも外れます。<br><br><yellow>アイテムパックに必要な空き容量がない場合<br>キャラ倉庫内のコスチュームには変更できません。<c><br><br>エステに入店しますか？<br><br><red>※エステ内の表記はSGになっていますが<br>ACで購入したエステパスもご利用いただけます。<c>
+EnterConfirmMessage2 - エステに入店しますか？<br><br>エステ内ではチャットを行うことはできません。<br><yellow>※受信した内容はログウィンドウに残ります。<c><br>また、パーティーやクエスト関連の通知も行われず、<br>クエストのマッチング対象外となります。<br>アイテムパックに必要な空き容量がない場合、<br><yellow>キャラ倉庫内のコスチューム<c>には変更できません。<br><br>＜エステ利用パス使用状況＞<br>編集可能残り時間：$(0)
+EnterConfirmMessage3 - エステに入店しますか？<br><br>エステ内ではチャットを行うことはできません。<br><yellow>※受信した内容はログウィンドウに残ります。<c><br>また、パーティーやクエスト関連の通知も行われず、<br>クエストのマッチング対象外となります。<br>アイテムパックに必要な空き容量がない場合、<br><yellow>キャラ倉庫内のコスチューム<c>には変更できません。<br><br>＜カラーチェンジ系パス使用状況＞<br>再編集中アイテム：<yellow>$(0)個<c><br><yellow>$(2)<c><br>編集可能残り時間：<yellow>$(1)<c>
+EnterConfirmMessage4 - エステに入店しますか？<br><br>エステ内ではチャットを行うことはできません。<br><yellow>※受信した内容はログウィンドウに残ります。<c><br>また、パーティーやクエスト関連の通知も行われず、<br>クエストのマッチング対象外となります。<br>アイテムパックに必要な空き容量がない場合、<br><yellow>キャラ倉庫内のコスチューム<c>には変更できません。<br><br>＜エステ利用パス使用状況＞<br>編集可能残り時間：$(0)<br>＜カラーチェンジ系パス使用状況＞<br>再編集中アイテム：<yellow>$(1)個<c><br><yellow>$(3)<c><br>編集可能残り時間：<yellow>$(2)<c>
+EnterConfirmMessage5 - エステに入店しますか？<br><br>エステ内ではチャットを行うことはできません。<br><yellow>※受信した内容はログウィンドウに残ります。<c><br>また、パーティーやクエスト関連の通知も行われず、<br>クエストのマッチング対象外となります。<br>アイテムパックに必要な空き容量がない場合、<br><yellow>キャラ倉庫内のコスチューム<c>には変更できません。<br><br>＜キャラクター作成状況＞<br>編集可能残り時間：$(0)
+EnterConfirmMessage6 - エステに入店しますか？<br><br>エステ内ではチャットを行うことはできません。<br><yellow>※受信した内容はログウィンドウに残ります。<c><br>また、パーティーやクエスト関連の通知も行われず、<br>クエストのマッチング対象外となります。<br>アイテムパックに必要な空き容量がない場合、<br><yellow>キャラ倉庫内のコスチューム<c>には変更できません。<br><br>＜キャラクター作成状況＞<br>編集可能残り時間：$(0)<br>＜カラーチェンジ系パス使用状況＞<br>再編集中アイテム：<yellow>$(1)個<c><br><yellow>$(3)<c><br>編集可能残り時間：<yellow>$(2)<c>
 Esthetic_More - 残り$(0)分
 Esthetic_Less - 残り 1分未満
 Esthetic_None - 時間切れ
 Charamake_SP_Nothing - サポートパートナーを取得していないため、<br>サポートパートナーエステを利用できません。
 Charamake_SP_Message - サポートパートナーのキャラクターメイクを<br>行っている間はチャットの送信ができません。<br>受信した内容はログウィンドウに残ります。<br><br>サポートパートナーの<br>キャラクターメイクを行いますか？
 Esthetic_SP_Title - サポートパートナーエステ
-Esthetic_SP_Help - <c f0df60>エステでは、外見やボイスなどを変更できます。一部機能のご利用には「エステ利用パス」が必要です。<c>
+Esthetic_SP_Help - エステでは、外見やボイスなどを変更できます。一部機能のご利用には「エステ利用パス」が必要です。
 Esthetic_SP_FormTitle - エステメニュー
 Esthetic_Menu_Enter - エステに入店する
 Esthetic_Menu_PartnerStatus - パートナー情報を見る
@@ -6649,11 +7971,11 @@ Esthetic_Pop_PartnerPrimeField - サポートパートナークリエイトを�
 Esthetic_CharaMake - キャラクターメイクする
 Esthetic_Back - 戻る
 EnterConfirm_SP_Message - サポートパートナーをエステに行かせている間は<br>チャットの送信ができません。<br>受信した内容はログウィンドウに残ります。<br><br><yellow>アイテムパックに必要な空き容量がない場合<br>キャラ倉庫内のコスチュームには変更できません。<c><br><br>サポートパートナーをエステに行かせますか？<br><br><red>※エステ内の表記はSGになっていますが<br>ACで購入したエステパスもご利用いただけます。<c>
-EnterConfirm_SP_Message2 - サポートパートナーをエステに行かせている間は<br>チャットの送信ができません。<br>受信した内容はログウィンドウに残ります。<br><br><yellow>アイテムパックに必要な空き容量がない場合<br>キャラ倉庫内のコスチュームには変更できません。<c><br><br>サポートパートナーをエステに行かせますか？<br><br>エステ利用パス　　　　再編集可能期間：$(0)
-EnterConfirm_SP_Message3 - サポートパートナーをエステに行かせている間は<br>チャットの送信ができません。<br>受信した内容はログウィンドウに残ります。<br><br><yellow>アイテムパックに必要な空き容量がない場合<br>キャラ倉庫内のコスチュームには変更できません。<c><br><br>サポートパートナーをエステに行かせますか？<br><br>カラーチェンジパス　　再編集中アイテム：$(0)個<br>　　　　　　　　　　　　　　　　　　最短残り時間 　　　：$(1)<br>　　　　　　　　　　　　　　　　　　　 $(2)
-EnterConfirm_SP_Message4 - サポートパートナーをエステに行かせている間は<br>チャットの送信ができません。<br>受信した内容はログウィンドウに残ります。<br><br><yellow>アイテムパックに必要な空き容量がない場合<br>キャラ倉庫内のコスチュームには変更できません。<c><br><br>サポートパートナーをエステに行かせますか？<br><br>エステ利用パス　　　　再編集可能期間：$(0)<br>カラーチェンジパス　　再編集中アイテム：$(1)個<br>　　　　　　　　　　　　　　　　　　最短残り時間　　　：$(2)<br>　　　　　　　　　　　　　　　　　　　 $(3)
-EnterConfirm_SP_Message5 - サポートパートナーをエステに行かせている間は<br>チャットの送信ができません。<br>受信した内容はログウィンドウに残ります。<br><br><yellow>アイテムパックに必要な空き容量がない場合<br>キャラ倉庫内のコスチュームには変更できません。<c><br><br>サポートパートナーをエステに行かせますか？<br><br>キャラクター作成　　　再編集可能期間：$(0)
-EnterConfirm_SP_Message6 - サポートパートナーをエステに行かせている間は<br>チャットの送信ができません。<br>受信した内容はログウィンドウに残ります。<br><br><yellow>アイテムパックに必要な空き容量がない場合<br>キャラ倉庫内のコスチュームには変更できません。<c><br><br>サポートパートナーをエステに行かせますか？<br><br>キャラクター作成　　　再編集可能期間：$(0)<br>カラーチェンジパス　　再編集中アイテム：$(1)個<br>　　　　　　　　　　　　　　　　　　最短残り時間　　　：$(2)<br>　　　　　　　　　　　　　　　　　　　 $(3)
+EnterConfirm_SP_Message2 - サポートパートナーをエステに行かせますか？<br><br>サポートパートナーをエステに行かせている間は<br>チャットの送信ができません。<br><yellow>※受信した内容はログウィンドウに残ります。<c><br>アイテムパックに必要な空き容量がない場合<br><yellow>キャラ倉庫内のコスチューム<c>には変更できません。<br><br>＜エステ利用パス使用状況＞<br>編集可能残り時間：$(0)
+EnterConfirm_SP_Message3 - サポートパートナーをエステに行かせますか？<br><br>サポートパートナーをエステに行かせている間は<br>チャットの送信ができません。<br><yellow>※受信した内容はログウィンドウに残ります。<c><br>アイテムパックに必要な空き容量がない場合<br><yellow>キャラ倉庫内のコスチューム<c>には変更できません。<br><br>＜カラーチェンジ系パス使用状況＞<br>再編集中アイテム：<yellow>$(0)個<c><br><yellow>$(2)<c><br>編集可能残り時間：<yellow>$(1)<c>
+EnterConfirm_SP_Message4 - サポートパートナーをエステに行かせますか？<br><br>サポートパートナーをエステに行かせている間は<br>チャットの送信ができません。<br><yellow>※受信した内容はログウィンドウに残ります。<c><br>アイテムパックに必要な空き容量がない場合<br><yellow>キャラ倉庫内のコスチューム<c>には変更できません。<br><br>＜エステ利用パス使用状況＞<br>編集可能残り時間：$(1)<br>＜カラーチェンジ系パス使用状況＞<br>再編集中アイテム：<yellow>$(0)個<c><br><yellow>$(2)<c><br>編集可能残り時間：<yellow>$(1)<c>
+EnterConfirm_SP_Message5 - サポートパートナーをエステに行かせますか？<br><br>サポートパートナーをエステに行かせている間は<br>チャットの送信ができません。<br><yellow>※受信した内容はログウィンドウに残ります。<c><br>アイテムパックに必要な空き容量がない場合<br><yellow>キャラ倉庫内のコスチューム<c>には変更できません。<br><br>＜キャラクター作成状況＞<br>編集可能残り時間：$(0)
+EnterConfirm_SP_Message6 - サポートパートナーをエステに行かせますか？<br><br>サポートパートナーをエステに行かせている間は<br>チャットの送信ができません。<br><yellow>※受信した内容はログウィンドウに残ります。<c><br>アイテムパックに必要な空き容量がない場合<br><yellow>キャラ倉庫内のコスチューム<c>には変更できません。<br><br>＜キャラクター作成状況＞<br>編集可能残り時間：$(1)<br>＜カラーチェンジ系パス使用状況＞<br>再編集中アイテム：<yellow>$(0)個<c><br><yellow>$(2)<c><br>編集可能残り時間：<yellow>$(1)<c>
 Standard_Result_OK - 処理が成功しました。
 Standard_Result_NoFlag - サポートパートナー取得条件が未達成の為、<br>失敗しました。
 Standard_Result_SystemError - システムエラーにより処理が失敗しました。
@@ -6693,11 +8015,11 @@ Remake_ErrorDB - データベースエラーにより、<br>サポートパー�
 Remake_Error - サポートパートナーを素体に<br>戻すことができません。
 Cast_color - カラー選択
 Item_EnterConfirmMessage - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。
-Item_EnterConfirmMessage2 - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。<br><br>エステ利用パス　　　　再編集可能期間：$(0)
-Item_EnterConfirmMessage3 - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。<br><br>カラーチェンジパス　　再編集中アイテム：$(0)個<br>　　　　　　　　　　　　　　　　　　最短残り時間　　　 ：$(1)<br>　　　　　　　　　　　　　　　　　　　 $(2)
-Item_EnterConfirmMessage4 - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。<br><br>エステ利用パス　　　　再編集可能期間：$(0)<br>カラーチェンジパス　　再編集中アイテム：$(1)個<br>　　　　　　　　　　　　　　　　　　最短残り時間　　　 ：$(2)<br>　　　　　　　　　　　　　　　　　　　 $(3)
-Item_EnterConfirmMessage5 - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。<br><br>キャラクター作成　　　再編集可能期間：$(0)
-Item_EnterConfirmMessage6 - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。<br><br>キャラクター作成　　　再編集可能期間：$(0)<br>カラーチェンジパス　　再編集中アイテム：$(1)個<br>　　　　　　　　　　　　　　　　　　最短残り時間　　　 ：$(2)<br>　　　　　　　　　　　　　　　　　　　 $(3)
+Item_EnterConfirmMessage2 - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。<br><br>＜エステ利用パス使用状況＞<br>編集可能残り時間：$(0)
+Item_EnterConfirmMessage3 - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。<br><br>＜カラーチェンジ系パス使用状況＞<br>再編集中アイテム：<yellow>$(0)個<c><br><yellow>$(2)<c><br>編集可能残り時間：<yellow>$(1)<c>
+Item_EnterConfirmMessage4 - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。<br><br>＜エステ利用パス使用状況＞<br>編集可能残り時間：$(1)<br>＜カラーチェンジ系パス使用状況＞<br>再編集中アイテム：<yellow>$(0)個<c><br><yellow>$(2)<c><br>編集可能残り時間：<yellow>$(1)<c>
+Item_EnterConfirmMessage5 - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。<br><br>＜キャラクター作成状況＞<br>編集可能残り時間：$(0)
+Item_EnterConfirmMessage6 - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。<br><br>＜キャラクター作成状況＞<br>編集可能残り時間：$(1)<br>＜カラーチェンジ系パス使用状況＞<br>再編集中アイテム：<yellow>$(0)個<c><br><yellow>$(2)<c><br>編集可能残り時間：<yellow>$(1)<c>
 Esthetic_CampaignTimeHead - キャンペーン期間
 Esthetic_CampaignTime - $(0)まで
 Esthetic_CampaignTitle - キャンペーン情報
@@ -6959,7 +8281,7 @@ Group 9
 BoostItem
 Group 0
 BoostItemMessage - 「$(0)」の効果が切れました。
-BoostLiveEvent - 今から一定時間、ライブブーストが発生！
+BoostLiveEvent - 今から一定時間、ステージライブ効果が発生します。
 BoostItemDrop - 今から一定時間、クエスト達成ブーストが発生！
 
 Group 1
@@ -7014,6 +8336,12 @@ Group 9
 
 BlockhelpMessage
 Group 0
+Block_help_ClassicBlock - 『PSO2』のブロックに移動します。
+Block_help_Beginner - ビギナーの方が楽しむためのブロックです。<br>手助けしてくれるベテランプレイヤーも大歓迎！<br>※マッチングはビギナーブロック限定で行なわれます。
+Block_help_Normal - $(0)リージョンで冒険をしたい方どうしが<br>集まるためのブロックです。<br>
+Block_help_Stream - $(0)リージョンで撮影・配信を行う場合に利用を推奨。<br>プレイ中のキャラクターがメディアで公開される場合があります。<br>※マッチングは撮影推奨ブロック限定で行なわれます。
+Block_help_PF_CloudPC - 【“クラウド”＆“PC”共用】
+Block_help_PF_CloudOnly - 【“クラウド”専用】
 Block_help_myroom - 各種ルームグッズによって自分だけの<br>飾り付けができる、あなたの部屋です。
 Block_help_teamroom - 所属するチームのチームメンバーだけが<br>入ることができるルームです。<br>チームがチームルームを入手しないと<br>移動できません。
 Block_help_publicship - 別シップの方と一緒にプレイできるシップです。
@@ -7270,9 +8598,9 @@ Block_help_Message_245 - 自由な目的でご利用可能なブロックです�
 Block_help_Message_246 - フィールドを問わず、ウルトラハード難度の<br>クエストをプレイしたい方どうしが<br>集まるためのブロックです。
 Block_help_Message_247 - フィールドを問わず、ウルトラハード難度の<br>クエストをプレイしたい方どうしが<br>集まるためのブロックです。<br>【“PS Vita”＆“PC”/“PS4”共用】
 Block_help_Message_248 - フィールドを問わず、ウルトラハード難度の<br>クエストをプレイしたい方どうしが<br>集まるためのブロックです。<br>【“クラウド”＆“PC”共用】
-Block_help_Message_250 - 自由な目的でご利用可能なブロックです。<br>【"PS4"専用】
-Block_help_Message_251 - ゲーム紹介や生放送で使用されます。<br>ご自身のキャラクターが映っても<br>問題ない方向けのブロックです。<br>【"PS4"専用】
-Block_help_Message_252 - チャレンジクエストをプレイしたい方が集まる<br>ためのブロックです。チャレンジクエストは<br>チャレンジブロックでのみ受注可能です。<br>【"PS4"専用】
+Block_help_Message_250 - ヘルプメッセージ250
+Block_help_Message_251 - ヘルプメッセージ251
+Block_help_Message_252 - ヘルプメッセージ252
 Block_help_RebootBlock - 『PSO2：NGS』のブロックに移動します。
 
 Group 1
@@ -7468,6 +8796,19 @@ Group 9
 
 LoginStamp
 Group 0
+Window_Titletelop_Loginbonus - ログインボーナス
+Window_Title_LoginbonusInfo - ログインボーナス情報
+Label_DeliveryPeriod - 配信期間
+Label_Progress - 進展
+Content_DeliveryPeriod - $(1)～$(0)まで
+Content_Progress - $(1)/$(0)
+Mes_Loginbonus - ログインボーナスの説明を記載します。
+ItemDetail_Title - アイテム詳細
+LoginBonusTabName_Normal - 通常$(0)
+LoginBonusTabName_Limited - 期間限定$(0)
+LoginBonusTabName_Beginner - 初心者$(0)
+LoginBonusTabName_Comeback - 復帰者$(0)
+LoginBonusTabName_Inherit - 引き継ぎ$(0)
 StampCard - スタンプカードを見る
 Reward - 報酬を確認する
 LoginStampTitle - ログインスタンプ確認
@@ -7479,19 +8820,19 @@ StampNumberTitle - スタンプ個数
 RewardItemTitle - 報酬アイテム
 slash - /
 RewardList_Number - $(0)個
-LoginStampToast_Normal - ログインスタンプを獲得！
+LoginStampToast_Normal - ログインボーナスを獲得！
 LoginStampToast_Bonus - キャンペーンボーナス！
 LoginStampToast_Premium - プレミアムボーナス！
 RewardGetMessage - ログインスタンプの報酬<br><yellow>「$(0)×$(1)」<c><br>を獲得しました。
-RewardGetMessage_1 - ログインスタンプの報酬<br><yellow>「$(0)」<c><br>を獲得しました。
-RewardGetMessage_2 - ログインスタンプの報酬<br><yellow>「$(0)」<c><br><yellow>「$(1)」<c><br>を獲得しました。
-RewardGetMessage_3 - ログインスタンプの報酬<br><yellow>「$(0)」<c><br><yellow>「$(1)」<c><br><yellow>「$(2)」<c><br>を獲得しました。
-RewardGetMessage_4 - ログインスタンプの報酬<br><yellow>「$(0)」<c><br><yellow>「$(1)」<c><br><yellow>「$(2)」<c><br><yellow>「$(3)」<c><br>を獲得しました。
-RewardGetMessage_5 - ログインスタンプの報酬<br><yellow>「$(0)」<c><br><yellow>「$(1)」<c><br><yellow>「$(2)」<c><br><yellow>「$(3)」<c><br><yellow>「$(4)」<c><br>を獲得しました。
-RewardGetMessage_6 - ログインスタンプの報酬<br><yellow>「$(0)」<c><br><yellow>「$(1)」<c><br><yellow>「$(2)」<c><br><yellow>「$(3)」<c><br><yellow>「$(4)」<c><br><yellow>「$(5)」<c><br>を獲得しました。
-RewardGetMessage_7 - ログインスタンプの報酬<br><yellow>「$(0)」<c><br><yellow>「$(1)」<c><br><yellow>「$(2)」<c><br><yellow>「$(3)」<c><br><yellow>「$(4)」<c><br><yellow>「$(5)」<c><br><yellow>「$(6)」<c><br>を獲得しました。
+RewardGetMessage_1 - ログインボーナスの報酬<br><yellow>「$(0)」<c><br>を獲得しました。
+RewardGetMessage_2 - ログインボーナスの報酬<br><yellow>「$(0)」<c><br><yellow>「$(1)」<c><br>を獲得しました。
+RewardGetMessage_3 - ログインボーナスの報酬<br><yellow>「$(0)」<c><br><yellow>「$(1)」<c><br><yellow>「$(2)」<c><br>を獲得しました。
+RewardGetMessage_4 - ログインボーナスの報酬<br><yellow>「$(0)」<c><br><yellow>「$(1)」<c><br><yellow>「$(2)」<c><br><yellow>「$(3)」<c><br>を獲得しました。
+RewardGetMessage_5 - ログインボーナスの報酬<br><yellow>「$(0)」<c><br><yellow>「$(1)」<c><br><yellow>「$(2)」<c><br><yellow>「$(3)」<c><br><yellow>「$(4)」<c><br>を獲得しました。
+RewardGetMessage_6 - ログインボーナスの報酬<br><yellow>「$(0)」<c><br><yellow>「$(1)」<c><br><yellow>「$(2)」<c><br><yellow>「$(3)」<c><br><yellow>「$(4)」<c><br><yellow>「$(5)」<c><br>を獲得しました。
+RewardGetMessage_7 - ログインボーナスの報酬<br><yellow>「$(0)」<c><br><yellow>「$(1)」<c><br><yellow>「$(2)」<c><br><yellow>「$(3)」<c><br><yellow>「$(4)」<c><br><yellow>「$(5)」<c><br><yellow>「$(6)」<c><br>を獲得しました。
 RewardGetMessage_Warehouse - ログインスタンプの報酬<br><yellow>「$(0)×$(1)」<c><br>を$(2)に送りました。
-NextGetRewardMessage - 次回のログインスタンプ報酬は<br><yellow>「$(0)×$(1)」<c><br>を獲得できます。
+NextGetRewardMessage - 次回のログインボーナス報酬は<br><yellow>「$(0)×$(1)」<c><br>を獲得できます。
 RewardItemName - $(0)×$(1)
 
 Group 1
@@ -7651,6 +8992,7 @@ MySetError05 - スキルツリーの適用に失敗しました。
 MySetError06 - スキルツリーの適用に失敗しました。
 MySetError07 - クエスト受注中のため実行できませんでした。
 MySetError08 - 問題が発生したため実行できませんでした。
+MySetError09 - マイセット変更はシティなど一部の場所でのみ可能です。
 
 Group 1
 
@@ -7706,37 +9048,71 @@ Titlehead1 - 目的
 Titlehead2 - 募集コメント
 Titlehead3 - クエスト名
 Titlehead4 - 難易度
-Titlehead5 - 設置者のクラス情報
-PartyMakerMessage3 - <yellow>$(0)<c>さんの<br>パーティーに参加します。<br><yellow>（パーティー人数：$(1)/4）<c><br><br>よろしいですか？
+Titlehead5 - 募集者のクラス情報
+Titlehead6 - 戦闘力制限
+Titlehead7 - レベル制限
+Titlehead8 - 以上
+Titlehead9 - あり
+PartyMakerMessage3 - <yellow>$(0)<c>さんの<br>パーティーに参加します。<br><yellow>（パーティー人数：$(1)/4）<c><br><br>募集者が別のルームにいる場合は<br>対象のルームに移動します。<br><br>よろしいですか？
 WindowTitle2 - パーティー参加確認
 TitleText2 - 募集コメント
+TitleText3 - 戦闘力制限
+TitleText4 - レベル制限
+TitleText5 - $(0)以上
+TitleText6 - 対象エリア
+TitleText7 - 【Rank.$(0)】
 PurposeText0 - 指定なし
-PurposeText1 - 経験値稼ぎ
-PurposeText2 - ボス討伐
-PurposeText3 - レアアイテム狙い
-PurposeText4 - クライアントオーダー達成
+PurposeText1 - エネミー討伐（経験値獲得）
+PurposeText2 - クエスト攻略
+PurposeText3 - レアアイテムドロップ
+PurposeText4 - フィールド探索
+PurposeText_Reb1 - 経験値稼ぎ
+PurposeText_Reb2 - タスク攻略
+PurposeText_Reb3 - ドレッドエネミー討伐
+PurposeText_Reb4 - ギガンティクス討伐
+PurposeText_Reb5 - トレイニア攻略
+PurposeText_Reb6 - 緊急クエスト攻略
+PurposeText_Reb7 - バトルディア：イエロー攻略
+PurposeText_Reb8 - バトルディア：パープル攻略
+PurposeText_Reb9 - トリニテス攻略
+PurposeText_Reb10 - レアアイテム狙い
+PurposeText_Reb11 - ギャザリング素材収集
+PurposeText_Reb12 - その他
+PurposeText_Reb13 - レアエネミー討伐
+PurposeText_Reb14 - トレイニアアドバンス攻略
+PurposeText_Reb15 - トリガークエスト攻略
+PurposeText_Reb16 - 期間限定クエスト攻略
+PurposeText_Reb17 - フィールドレース競走
+PurposeText_Reb18 - アークスレコードハイスコア狙い
+PurposeText_Reb19 - シーズナルポイント獲得
+PurposeText_Reb_All - 募集目的で絞り込む
 PartyMakerError1 - 募集コメントに<br>使用できない文字が含まれています。
 PartyMakerError2 - パーティーメイカーが設置可能上限数まで<br>置かれているため、これ以上<br>パーティーメイカーを設置することは出来ません。
-WindowTitle3 - パーティーメイカー撤去確認
-PartyMakerMessage4 - パーティーメイカーを撤去します。<br><br>よろしいですか？
+WindowTitle3 - 募集を終了する
+WindowTitle4 - 募集を開始する
+PartyMakerMessage4 - パーティーメンバーの募集を終了します。<br><br>よろしいですか？
 PartyMakerMessage5 - <yellow>$(0)<c>さんの<br>パーティーに参加します。<br><yellow>（パーティー人数：通信中…）<c><br><br>よろしいですか？
 PartyMakerMessage6 - 目的を選択してください。
 PartyMakerMessage7 - Lv.$(0)
-PartyMakerPut - パーティーメイカーを設置しました。
-PartyMakerDel - パーティーメイカーを撤去しました。
+PartyMakerMessage8 - <yellow>※“パーティー設定”の内容は適用されません。<c>
+PartyMakerPut - パーティーメンバーの募集を開始しました。
+PartyMakerDel - パーティーメンバーの募集を終了しました。
 PartyMakerPutData - $(0)さんのパーティーメイカーが設置されています。
 PartyMakerPutDataSet - $(0)さんのパーティーメイカーが設置されました。
 PartyMakerBeforePut - 既にパーティーメイカーを設置しているため設置できませんでした。
 PartyMakerPutMax - クエスト内設置数上限のため設置できませんでした。
 PartyMakerNotInvitation - パーティーに招待ができないため設置できませんでした。
 PartyMakerNotQuest - クエストフィールドではないため設置できませんでした。
-PartyMakeMemberrMax - パーティーメンバーが上限人数に達しているためため設置できませんでした。
+PartyMakeMemberrMax - パーティーの人数が上限に達しているため、募集を開始できません。
 PartyMakerQuestEnd - クエスト終了後のため設置できませんでした。
 PartyMakerNotMulti - マルチパーティーエリアではないため設置できませんでした。
-PartyMakerNotLeader - パーティーリーダーではないため設置できませんでした。
-PartyMakerNotRemoval - パーティーメイカーを撤去できませんでした。
+PartyMakerNotLeader - リーダーまたはサブリーダーではないため、募集を開始できません。
+PartyMakerNotRemoval - パーティーメンバーの募集を終了できませんでした。
 PartyMakerBeforeQuestEnd - クエスト終了後のためパーティーに参加できません。
-PartyMakerBeforeJoin - 既に設置者のパーティーに参加しています。
+PartyMakerBadConditions - 募集条件に合わないためパーティーに参加できません。
+PartyMakerClosed - 募集を終了しているためパーティーに参加できません。
+PartyMakerEmergencystop - この機能は現在使用できません。
+PartyMakerBeforeJoin - すでに、選択したパーティーに参加しています。
 PartyMakerBubbleText - {red}$(0){def}さんが<br>目的{red}【$(1)】{def}で<br>パーティーメンバーを募集中！！
 PartyMakerBubbleName - $(0)さんのパーティー
 MultiPartyStoryError - 現在、ストーリークエスト受注中のため、パーティーメイカーを使用できません。
@@ -8043,7 +9419,8 @@ PresentBoxMessage - スタージェムを入手していない服を<br>プレ�
 GachaTitle - メッセージ
 GachaMessage - スタージェムを入手していない服を<br>フォトガチャンに入れようとしています。<br>よろしいですか？
 RecycleTitle - 確認
-RecycleMessage - <c f0df60>$(0)<c>×$(1)<br>と、選択したアイテムを交換します。<br><yellow>※以下のアイテム以外は消費されません。<c><br><red>※選択したアイテムにスタージェムを<br>入手していない服が含まれています。<c><br>よろしいですか？
+RecycleMessage - $(0)×$(1)と<br>以下のアイテムを交換します。<br><red>※選択したアイテムにスタージェムを<br>入手していない服が含まれています。<c><br>よろしいですか？
+RecycleMessage2 - $(0) ($(1)個)×$(2)と<br>以下のアイテムを交換します。<br><red>※選択したアイテムにスタージェムを<br>入手していない服が含まれています。<c><br>よろしいですか？
 RecycleMessageVita - <c f0df60>$(0)<c>×$(1)<br>と、選択したアイテムを交換します。<br><yellow>※以下のアイテム以外は消費されません。<c><br><red>※選択したアイテムにスタージェムを<br>入手していない服が含まれています。<c><br>よろしいですか？
 RewardPopupMenu - スタージェムを入手する
 RewardTitle - スタージェム入手確認
@@ -8517,6 +9894,23 @@ SeasonEventOpenPanel2 - 新しいパネルが開放されました！
 SeasonEventPointRewardGet - 獲得済
 SeasonEventMenuTitle - Web連動メニュー
 SeasonEventTutorial - チュートリアルを確認
+SeasonEvent_Reb_Npcmenu - イベントのタスクを受注
+SeasonEvent_Reb_Npcmenu2 - シーズナルポイントでアイテムを交換
+SeasonEvent_Reb_Npcmenu3 - メニューを閉じる
+SeasonEvent_Reb_Window_Title - 開催中イベント
+SeasonEvent_Reb_Window_label - シーズナルポイント
+SeasonEvent_Reb_Exchange_Title - アイテム交換
+SeasonEvent_Reb_Exchange_TitleTelop - シーズナルポイント交換ショップ
+SeasonEvent_Reb_Exchange_2lineguide - 獲得したシーズナルポイントでアイテムと交換できます。
+SeasonEvent_Reb_ItemExchange_TitleTelop - シーズナルアイテム交換ショップ
+SeasonEvent_Reb_ItemExchange_2lineguide - 特定の所持品を渡すと、商品を入手できます。要求数より多く渡すと、複数個入手できる商品もあります。
+Title_BuyData - 購入情報
+SeasonEvent_Reb_Exchange_1 - 所持ポイント
+SeasonEvent_Reb_Exchange_2 - 必要ポイント
+Label_AfterClosing - 決済後
+SeasonEvent_Reb_BuyMessage3 - アイテムを$(1)<pict 4space>$(0)<pict event_point>と交換します。<br>よろしいですか？
+SeasonEvent_BuyErrorMessage1 - ポイントが不足しています。
+SeasonEvent_OutofStock - 在庫なし
 
 Group 1
 
@@ -8575,15 +9969,1483 @@ Group 8
 Group 9
 
 
+Alpha2
+Group 0
+DiscoveryCocoon - $(0)を発見しました。
+DiscoveryCocoon01 - コクーン01：滑空　アクション型　難度★
+DiscoveryCocoon02 - コクーン02：飛行　アクション型　難度★★
+DiscoveryCocoon03 - コクーン03：猿山　バトル型　難度★★
+DiscoveryCocoon04 - コクーン04：跳躍　アクション型　難度★★★
+DiscoveryCocoon05 - コクーン05：対決　バトル型　難度★★
+DiscoveryCocoon06 - コクーン06：迷宮　アクション型　難度★★
+DiscoveryCocoon07 - コクーン07：激突　バトル型　難度★★★
+DiscoveryTower01 - タワー01：巨塔　複合型　難度★★★
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+AreaName
+Group 0
+AreaName0000001 - トレイニア内部
+AreaName0000002 - ？？？？
+AreaName0000003 - バトルディア内部
+AreaName0000004 - トリニテス内部
+AreaName0000005 - トレイニアアドバンス内部
+AreaName1110001 - エアリオタウン
+AreaName1110002 - セントラルシティ
+AreaName1110003 - マグナス山
+AreaName1110004 - ヴァンフォード研究所跡
+AreaName1110005 - レゾルの森
+AreaName1110006 - ハルフィリア湖
+AreaName1110007 - ハルファナ平原
+AreaName1110008 - ハルファナ平原：西
+AreaName1110009 - ハルファナ平原：東
+AreaName1110010 - ピコット山
+AreaName1110011 - バルフロウ大瀑布
+AreaName1110012 - マヒナパリ山
+AreaName1110013 - ハルファナ湿原
+AreaName1110014 - アルト・ラニ高原
+AreaName1110015 - ラーカウ海岸
+AreaName1110016 - クライカウ丘陵
+AreaName1110017 - クライアノ断崖
+AreaName1110018 - エアリオタウン跡
+AreaName1110019 - カナイ島
+AreaName1120001 - リテムシティ
+AreaName1120002 - サガーン山道
+AreaName1120003 - モラーバ峡谷
+AreaName1120004 - キーンラッド岬
+AreaName1120005 - オアシス
+AreaName1120006 - トリニテス
+AreaName1120007 - ガルネール海岸
+AreaName1120008 - リテム・エルノザ
+AreaName1120009 - マクアド下層
+AreaName1120010 - ルーフ・マクアド
+AreaName1120011 - ステッキン低地
+AreaName1120012 - ダルスマブル砂漠
+AreaName1120013 - アルディマンド砂漠
+AreaName1120014 - ティアーム海岸
+AreaName1120015 - サガーン山道：西
+AreaName1120016 - サガーン山道：東
+AreaName1120017 - ガルネール海岸：西
+AreaName1120018 - ガルネール海岸：東
+AreaName1130001 - クヴァリスキャンプ
+AreaName1130002 - 北クヴァリス
+AreaName1130003 - 西クヴァリス
+AreaName1130004 - 中央クヴァリス
+AreaName1130005 - 南クヴァリス
+AreaName1130006 - ベルガナ遺跡：北
+AreaName1130007 - ロストセントラル
+AreaName1130008 - レイヨルド峡江
+AreaName1130009 - イハナ山：西
+AreaName1130010 - イハナ山：東
+AreaName1130011 - ダナン雪原
+AreaName1130012 - クイール山道
+AreaName1130013 - ラトヴァ山
+AreaName1130014 - ミストラ樹林
+AreaName1130015 - ベルガナ遺跡：南
+AreaName1130016 - イハナ山
+AreaName111060 - 1章：資源採掘リグ防衛
+AreaName112030 - 2章：ダークファルス襲来
+AreaName112070 - 2章：セントラルキャノン発射
+AreaName112080 - 2章：次の戦いに向けて
+AreaName011020 - 1章：アークス教導官ブルーダー
+AreaName011060 - 1章：及第点
+AreaName011080 - 1章：ナグルスの討伐任務
+AreaName011190 - 1章：勝利の報告
+AreaName011220 - 1章：アイナの決意
+AreaName011260 - 1章：ヴァンフォード研究所跡へ
+AreaName011350 - 1章：非常呼集
+AreaName011450 - 1章：帰還
+AreaName012020 - 2章：新たな任務
+AreaName012110 - 2章：ナーデレフ
+AreaName012140 - 2章：砂漠の墓標
+AreaName012170 - 2章：協力体制
+AreaName012220 - 2章：弔いの歌
+AreaName012300 - 2章：勝利の宴
+AreaName013020 - 3章：クヴァリスでの任務
+AreaName013230 - 3章：解決の糸口
+AreaName013130 - 3章：雪中の墓標
+AreaName113020 - 3章：イルマのお使い
+AreaName113030 - 3章：トゥーリのお使い
+AreaName113050 - 3章：クッカのお使い
+AreaName113060 - 3章：タイヴァスのお使い
+AreaName113070 - 3章：メリからのお礼
+AreaName501010 - 1章：アイナの日誌
+AreaName501020 - 1章：エアリオタウンの思い出
+AreaName501030 - 1章：始まりの場所
+AreaName501040 - 1章：セントラルシティの暮らし
+AreaName501050 - 1章：勇気ある決断
+AreaName502010 - 1章：マノンの居場所
+AreaName502020 - 1章：あの日の出来事
+AreaName502030 - 1章：マノンとガロア
+AreaName502040 - 1章：失われた英知
+AreaName502050 - 1章：戦域統制型ドールズ
+AreaName503010 - 1章：ブルーダーとガロア
+AreaName503020 - 1章：ブルーダーの原点
+AreaName503030 - 1章：初任務の評価
+AreaName503040 - 1章：因縁との決着
+AreaName503050 - 1章：チームの結束
+AreaName504010 - 1章：セントラルリーダーの仕事
+AreaName504020 - 1章：リテムの文化
+AreaName504030 - 1章：セントラルキャノン
+AreaName505010 - 1章：クロフォードは休まない
+AreaName651010 - 期間限定：ツキミダンゴの行方
+AreaName1140001 - スティアキャンプ
+AreaName1140002 - グラニア海岸
+AreaName1140003 - ドライゼンプラント：第１
+AreaName1140004 - アルテラベース
+AreaName1140005 - フェルーサ岩稜：第１
+AreaName1140006 - デクストベース：第１
+AreaName1140007 - フェルーサ岩稜：第２
+AreaName501060 - 2章：リテムの人々
+AreaName501070 - 2章：ナーデレフの歌
+AreaName501080 - 3章：アイナの防寒服
+AreaName501090 - 3章：アイナとメリ
+AreaName502060 - 2章：歌の力の考察
+AreaName502070 - 3章：ライサスの遺志
+AreaName502080 - 3章：ベルガナ遺跡
+AreaName504040 - 3章：クロフォードとイルマ
+AreaName503060 - 2章：ブルーダーとハーディ
+AreaName506010 - 2章：会話のきっかけ
+AreaName506020 - 2章：踊りの稽古
+AreaName506030 - 2章：先人への謝意
+AreaName509010 - 3章：クヴァリス先遣隊との交流
+AreaName509020 - 3章：兄妹の近況
+AreaName509030 - 3章：間違えずに
+AreaName508010 - 3章：イルマの反省
+AreaName508020 - 3章：イルマとクロフォード
+AreaName507010 - 2章：訪れた転機
+AreaName507020 - 2章：ハーディとブルーダー
+AreaName507030 - 2章：マクアド下層の調査
+AreaName505020 - 2章：クヴァリスについて
+AreaName505030 - 3章：スティアについて
+AreaName1130017 - ラトヴァ山：南
+AreaName1130018 - ラトヴァ山：北
+AreaName1130019 - ミストラ樹林：南
+AreaName1130020 - ミストラ樹林：北
+AreaName1140008 - ドライゼンプラント：第２
+AreaName1140009 - デクストベース：第２
+AreaName1110020 - マグナス山：西
+AreaName1110021 - マグナス山：東
+AreaName014010 - 4章：視線の先に
+AreaName014030 - 4章：マノンの不安
+AreaName014040 - 4章：スティアでの任務
+AreaName014070 - 4章：スティアリージョン制圧作戦
+AreaName014380 - 4章：クロフォードの計画
+AreaName1140010 - スティア外縁部
+AreaName1140011 - ドライゼンプラント
+AreaName1140012 - メディオラ外郭第２区
+AreaName1140013 - デクストベース
+AreaName1140014 - メディオラ外郭第１区
+AreaName1140015 - ハルファ・メディオラ
+AreaName1140016 - ノイゼンプラント
+AreaName1140017 - フェルーサ岩稜
+AreaName1140018 - ブルガニス島
+AreaName1140019 - ストロボル島
+AreaName1140020 - ガブル山道
+AreaName020020 - 4章：決戦
+AreaName501100 - 4章：自分らしい戦いかたを
+AreaName501110 - 4章：新たなメニュー
+AreaName502090 - 4章：想いの先に
+AreaName502100 - 4章：前を向いて
+AreaName503070 - 4章：かつての三人
+AreaName506040 - 4章：プラントの考察
+AreaName509040 - 4章：クヴァリスの近況
+AreaName508030 - 4章：消えた存在
+AreaName510010 - 4章：グレンのことば
+AreaName510020 - 4章：隊長の務め
+AreaName510030 - 4章：変わらぬ意志
+AreaName511010 - 4章：グレンの人望
+AreaName511020 - 4章：プラントの謎
+AreaName511030 - 4章：ダークファルスの調査報告
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+BlockMenu
+Group 0
+ReleaseGuild - ストーリーを進めることで使用可能になります。
+ReleaseMessege - $(0)の"$(1)"が解放されました。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+BlockName
+Group 0
+Block_name_main - ブロック：$(0)
+Block_Name_Platform_2 - [クラウド共用]
+Block_Name_Platform_3 - [クラウド専用]
+Block_Name_Platform_4 - ["PS4"専用]
+Block_Name_Playstyle_0 - ビギナー推奨
+Block_Name_Playstyle_2 - 撮影推奨
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+ChatMenu
+Group 0
+Shortcut_Word_Title - ショートカットワード
+Shortcut_Word_Guide - 発言を登録しておくとクイックメニューなどですぐに発言できます
+Group_Chat_Title - グループチャット
+Group_Chat_Guide - チャットグループの作成や招待されたグループへの参加ができます
+Auto_Word_Title - オートワード
+Auto_Word_Guide - 自動的に発言するチャットを条件別に登録できます
+Wait_Motion_Title - 待機モーション設定
+Wait_Motion_Guide - 無入力時の待機モーションを変更できます
+Stamp_Title - スタンプ
+Stamp_Guide - 発言するスタンプを所持しているものの中から選べます
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Citymap
+Group 0
+NPCList_Noone - キャラクターがいません
+FloorName1 - セントラルシティ
+FloorName2 - 指令室
+FloorName3 - リテムシティ
+FloorName4 - クヴァリスキャンプ
+FloorName5 - スティアキャンプ
+NPC_PositionName1 - $(1) $(0)
+NPC_PositionName2 - $(1)<br>$(0)
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+CommunicationMenu
+Group 0
+Party_Command_Title - パーティーコマンド
+Party_Command_Guide - パーティーの設定やメンバー確認ができます
+Friends_List_Title - フレンドリスト
+Friends_List_Guide - フレンドになったプレイヤーのログイン状態を知れ、連絡しやすくなります
+Team_Command_Title - チームコマンド
+Team_Command_Guide - チームの設定やメンバーのログイン状態を確認できます。
+mail_Title - メール
+mail_Guide - 運営やシステム、フレンドからのメールを確認できます。
+Arks_Search_Title - アークスサーチ
+Arks_Search_Guide - キャラクターやプレイヤー、チームの名前検索をおこなえます
+Communication_History_Title - コミュニケーション履歴
+Communication_History_Guide - 受け取ったグッジョブやパーティーを組んだプレイヤーを確認できます
+Surrounding_Players_Title - 周囲のキャラクター
+Surrounding_Players_Guide - 近くにいるキャラクターを選択して、パーティー招待などを送れます
+SearchTab_Chara - キャラクター
+SearchTab_Guild - チーム
+SearchTab_Player - プレイヤー
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+ContentsName
+Group 0
+Contents_Emergency_Trial - TRIAL
+Contents_Emergency_Trial_Start - TRIAL START!!
+Contents_Emergency_Trial_Clear - TRIAL CLEAR!!
+Contents_Urgent Quests - URGENT QUEST
+Contents_Urgent Quests_Start - URGENT QUEST START!!
+Contents_Urgent Quests_Clear - URGENT QUEST CLEAR!!
+Contents_Cocoon - COCOON QUEST
+Contents_Cocoon_Start - COCOON QUEST START!!
+Contents_Cocoon_Clear - COCOON QUEST CLEAR!!
+Contents_Tower - TOWER QUEST
+Contents_Tower_Start - TOWER QUEST START!!
+Contents_Tower_Clear - TOWER QUEST CLEAR!!
+Contents_BattleTrigger - BATTLEDIA QUEST
+Contents_BattleTrigger_Start - QUEST START!!
+Contents_BattleTrigger_Clear - QUEST CLEAR!!
+Contents_World_Trial - WORLD TRIAL
+Contents_World_Trial_Start - WORLD TRIAL START!!
+Contents_World_Trial_Clear - WORLD TRIAL CLEAR!!
+Contents_Season_Quest - SEASON QUEST
+Contents_Season_Quest_Start - SEASON QUEST START!!
+Contents_Season_Quest_Clear - SEASON QUEST CLEAR!!
+Contents_Emergency_Trial_Difficult_Start - CHAOS TRIAL START!!
+Contents_Emergency_Trial_Difficult_Clear - CHAOS TRIAL CLEAR!!
+Contents_Trinites_Start - TRINITES QUEST $(0)F START!!
+Contents_Trinites_Clear - TRINITES QUEST CLEAR!!
+Contents_Trinites_Floor_Clear - TRINITES QUEST $(0)F CLEAR!!
+Contents_FieldRace_Start - FIELD RACE START!!
+Contents_FieldRace_Clear - FIELD RACE CLEAR!!
+Contents_Babel_Start - QUEST START!!
+Contents_Babel_Clear - QUEST CLEAR!!
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+EquipMenu
+Group 0
+EquipTitle - 装備メニュー
+Title_WeaponPallet - 武器パレット
+Title_UnitPallet - 防具パレット
+Menu_Weapon - 武器
+Menu_Unit - 防具
+Menu_Fashion - ファッション
+Menu_Other - その他
+Menu_Close - 閉じる
+Menu_WeaponAvatar - 武器迷彩
+WeaponAvatar_NoEquip - 装備無し
+Weapon_Label1 - Weapon
+Weapon_Label2 - Front
+Weapon_Label3 - Back
+Unit_Label1 - Slot1
+Unit_Label2 - Slot2
+Unit_Label3 - Slot3
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+FieldName
+Group 0
+11100 - セントラルシティ
+11101 - 中央エアリオ
+11102 - 西エアリオ
+11103 - ハルフィリア湖
+11104 - ヴァンフォード研究所跡
+11105 - マグナス山
+11106 - 南エアリオ
+11109 - 北エアリオ
+11111 - レゾルの森
+11199 - 進入禁止エリア（ここに入れたらバグです）
+11200 - リテムシティ
+11201 - 西リテム
+11202 - 北リテム
+11203 - 中央リテム
+11204 - 南リテム
+11205 - リテム・エルノザ
+11206 - マクアド下層
+11207 - ルーフ・マクアド
+11208 - リージョン2-11208ダミーテキスト
+11209 - リージョン2-11209ダミーテキスト
+11210 - リージョン2-11210ダミーテキスト
+11211 - リージョン2-11211ダミーテキスト
+11212 - リージョン2-11212ダミーテキスト
+11213 - リージョン2-11213ダミーテキスト
+11300 - クヴァリスキャンプ
+11301 - 北クヴァリス
+11302 - 西クヴァリス
+11303 - 中央クヴァリス
+11304 - 南クヴァリス
+11305 - ベルガナ遺跡
+11306 - ロストセントラル
+11307 - レイヨルド峡江
+11308 - リージョン3-11308ダミーテキスト
+11309 - リージョン3-11309ダミーテキスト
+11310 - リージョン3-11310ダミーテキスト
+11311 - リージョン3-11311ダミーテキスト
+11312 - リージョン3-11312ダミーテキスト
+11313 - リージョン3-11313ダミーテキスト
+11400 - スティアキャンプ
+11401 - スティア外縁部
+11402 - ドライゼンプラント
+11403 - メディオラ外郭第２区
+11404 - デクストベース
+11405 - メディオラ外郭第１区
+11406 - ハルファ・メディオラ
+11407 - ノイゼンプラント
+11408 - リージョン4-11408ダミーテキスト
+11409 - リージョン4-11409ダミーテキスト
+11410 - リージョン4-11410ダミーテキスト
+11411 - リージョン4-11411ダミーテキスト
+11412 - リージョン4-11412ダミーテキスト
+11413 - リージョン4-11413ダミーテキスト
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+help
+Group 0
+HelpMenuTitle - ヘルプメニュー
+HelpMenuHelp - ヘルプ、役立つ情報を確認することができます。
+HelpMenu_GamesGuide - ヘルプ
+HelpMenu_UsefulInformation - 役立つ情報
+HelpMenu_Close - 閉じる
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+HelpMenu
+Group 0
+HelpMenuTitle - ヘルプメニュー
+HelpMenu_GamesGuide - ゲームガイド
+HelpMenu_UsefulInformation - 役立つ情報
+HelpMenu_Close - 閉じる
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+LocalQuestOrder
+Group 0
+LocalQuestCounter_Access1 - 長押しでクエスト受注メニューを起動
+LocalQuestCounter_Access2 - 確認する
+LocalQuestCounter_WindowTitle1 - このセクションで受注できるクエスト
+LocalQuestCounter_WindowTitle2 - あと $(0):$(1) で受注可能
+LocalQuestCounter_WindowTitle3 - <red>受注条件を満たしていません<c>
+LocalQuestCounter_WindowTitle4 - 現在受注中のクエスト
+LocalQuestCounter_QuestName -  $(0)
+LocalQuestCounter_QuestOrder -  推奨戦闘力：$(0) ～
+LocalQuestCounter_QuestReturn - 長押しで帰還
+LocalQuestCounter_QuestReturn_menber - 長押しで帰還
+LocalQuestCounter_QuestReturn_BattleTrigger - 長押しで帰還
+LocalQuestCounter_QuestReturn_BattleTrigger_member - 長押しで帰還
+LocalQuestCounter_CountDown - クエスト開始まで $(0):$(1).$(2)
+LocalQuestCounter_Quest_Accept_NG - <red>クリア回数超過のため、受注できません。<c>
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+MagMenu
+Group 0
+Title - マグ
+Explanation1 - マグの表示のON/OFF。また、表示形態を設定することが出来ます。
+Menu_MagTitle - マグ
+Menu_Mag - マグの設定
+Menu_Field - 世界の秘密
+Mag_ListTitle - マグ
+Mag_SubTitle1 - マグの表示設定
+Mag_InfoTitle - マグ情報
+Mag_SubTitle2 - 選択中のフォルム
+Mag_SubTitle3 - 変更可能なフォルム
+Mag_SubTitle4 - マグのフォルム設定
+Mag_SubTitle5 - BGM設定
+Mag_ShowType0 - 表示する
+Mag_ShowType1 - 表示しない
+Mag_ModelSort1 - 標準ソート
+Mag_ModelSort2 - お気に入り
+Mag_ModelSort3 - 名前順
+Mag_NoEquip - 装備中の形態がありません
+Mag_MenuPopup1 - フォルムを適用
+Mag_MenuPopup2 - お気に入り登録
+Mag_MenuPopup3 - お気に入りを解除
+Mag_ListMenu1 - マグのフォルム変更
+Mag_ListMenu2 - 新フォルムの登録
+Mag_DeviceSelectTitle - 候補リスト
+Mag_DeviceMessage1 - “$(0)”を使用して、<br>新しいフォルムを登録します。<br>よろしいですか？
+Mag_DeviceMessage2 - 登録した新しいフォルムを<br>すぐに適用しますか？
+UseDeviceMsg - $(0)を使用しました。
+Mag_ListMenu3 - マグカラー設定
+Mag_DefaultColorCheck - フォルムのデフォルトカラーを使用
+Mag_Color1 - カラー１
+Mag_Color2 - カラー２
+Mag_Color2_Unsupported - カラー２　<yellow>※非対応<c>
+Mag_ColorInfo_UnsupportedForm - カラー変更に対応していないフォルムです。
+Mag_ColorInfo1 - コスチュームと同調
+Mag_ColorInfo2 - デフォルトカラーを適用
+Mag_Color_EsthePalette - エステのカラーから選択
+Mag_Color_ColorPalette - カラーパレットから選択
+Mag_Color_Unselected - 未選択
+Mag_ColorChangeError - カラーが変更されていないため、<br>N-マグカラー変更デバイスは消費されません。
+Mag_ColorChangeTitle - マグカラー変更
+Mag_ColorChangeMessage - “N-マグカラー変更デバイス”を使用して、<br>マグの色を変更します。<br>よろしいですか？<br><br><yellow>※変更したカラー設定は、<br>　すべてのマグフォルムに適用されます。<c>
+Mag_ColorSyncMessage - “N-マグカラー同調デバイス”を使用して、<br>マグの色をコスチュームに同調させます。<br>よろしいですか？<br><br><yellow>※変更したカラー設定は、<br>　すべてのマグフォルムに適用されます。<c>
+Mag_ColorSyncError - このフォルムは<br>すでにコスチュームの色と同期済みです。
+Mag_ColorDeviceError - このフォルムはカラー変更非対応のため<br>デバイスを使用できません。
+Mag_ListLabel - <%NextTabDetails><yellow>お気に入り登録/編集<c>
+MagCategoryTab_99 - 0.お気に入り
+MagCategoryTab_0 - 1.すべて表示
+Mag_Favorite_Add - お気に入り登録
+Mag_Favorite_Delete - お気に入り解除
+Mag_Favorite_Up - 1つ上に移動
+Mag_Favorite_Down - 1つ下に移動
+Mag_Favorite_Top - リストの一番上に移動
+Mag_Favorite_Bottom - リストの一番下に移動
+Mag_Favorite_Add_Msg - フォルム“$(0)”をお気に入りに登録しました。（$(1)/$(2)）
+Mag_Favorite_Add_ErrorMsg - 登録限界数に達しているため、登録できませんでした（$(0)/$(1)）
+Mag_Favorite_Delete_Msg - フォルム“$(0)”をお気に入りから外しました。（$(1)/$(2)）
+Mag_Search_Support - ソナーサポート設定
+Mag_Search_Button - アクティブソナーの目標設定
+Mag_Search_Title - アクティブソナーの目標設定
+Mag_Search_Ore - 鉱石
+Mag_Search_Meet - テイムズ
+Mag_Search_Vegetable - 野菜
+Mag_Search_Fruit - 果物
+Mag_Search_Seafood - 魚介
+Mag_Search_Greencontainer - アイテムコンテナ[緑]
+Mag_Search_Goldcontainer - アイテムコンテナ[金]
+Mag_Search_Redcontainer - アイテムコンテナ[赤]
+Mag_Search_Others - 高額アイテム
+Mag_Search_Pot - ダズルポッド
+Mag_Search_Ibox - インビジブルボックス
+Mag_Search_Stella - ステラーグレイス
+Mag_Search_Msymbol - ミスチーフシンボル
+Mag_Jukebox_Menu_001 - マグジュークボックス
+Mag_Jukebox_Menu_002 - BGM設定
+Mag_Jukebox_Menu_003 - BGM設定
+Mag_Jukebox_Menu_004 - 登録
+Mag_Jukebox_Menu_005 - 再生
+Mag_Jukebox_Menu_006 - プレイリスト作成
+Mag_Jukebox_Register_001 - 候補リスト
+Mag_Jukebox_Register_002 - <%Function><pict 4space>でプレビュー<c>
+Mag_Jukebox_Register_003 - <%Function><pict 4space>で曲調変更できます。
+Mag_Jukebox_Register_004 - <%Function><pict 4space><gray>で曲調変更できません。<c>
+Mag_Jukebox_Register_005 - ミュージックディスクの使用
+Mag_Jukebox_Register_006 - “$(0)”<br>を使用して、ミュージックを<br>登録します。<br>よろしいですか？
+Mag_Jukebox_Register_007 - “$(0)”を、<br>登録しました。
+Mag_Jukebox_Register_008 - “$(0)”を、<br>登録に<red>失敗<c>しました。
+Mag_Jukebox_Register_009 - 登録確認
+Mag_Jukebox_Register_010 - “$(0)”を<br>再生しますか？
+Mag_Jukebox_Register_011 - とじる
+Mag_Jukebox_Register_012 - はい
+Mag_Jukebox_Register_013 - いいえ
+Mag_Jukebox_Register_014 - “$(0)”を再生するには<br><yellow>『PSO2』の追加ダウンロード<c>が必要です。<br><br><yellow>追加ダウンロード<c>をせずに、登録をしますか？<br><br>※ダウンロード方法は、公式ホームページより<br>　“機能”の項目をご確認ください。<br>　https://pso2.jp/players/manual/gamestart/start/launcher/
+Mag_Jukebox_Register_014_PS4 - “$(0)”を再生するには<br><yellow>『PSO2』の追加ダウンロード<c>が必要です。<br><br><yellow>追加ダウンロード<c>をせずに、登録をしますか？<br><br>※ダウンロード方法は、公式ホームページより<br>　ご確認ください。<br>　https://pso2.jp/players/manual/setup/ps4/
+Mag_Jukebox_Register_015 - 選択したミュージックディスクは、『NGS』ブロックでのみ再生ができます
+Mag_Jukebox_Register_016 - <gray>プレビューできません。<br>※追加ダウンロードが必要です。<c>
+Mag_Jukebox_Register_017 - <gray>プレビューできません。<br>※優先度の高いBGMを再生中です。<c>
+Mag_Jukebox_Play_001 - 候補リスト
+Mag_Jukebox_Play_002 - 1.すべて表示
+Mag_Jukebox_Play_003 - 2.『NGS』シリーズ
+Mag_Jukebox_Play_004 - 3.『PSO』シリーズ
+Mag_Jukebox_Play_005 - 4.『ファンタシースター』シリーズ
+Mag_Jukebox_Play_006 - 5.セガコラボ
+Mag_Jukebox_Play_007 - 6.コラボ
+Mag_Jukebox_Play_008 - 7.プレイリスト
+Mag_Jukebox_Play_010 - 再生を止める
+Mag_Jukebox_Play_011 - 曲調変更
+Mag_Jukebox_Play_012 - 再生
+Mag_Jukebox_Play_013 - 開始位置
+Mag_Jukebox_Play_014 - 終了位置
+Mag_Jukebox_Play_015 - 15秒進む
+Mag_Jukebox_Play_016 - 15秒戻る
+Mag_Jukebox_Play_018 - “$(0)”を再生するには<br><yellow>『PSO2』の追加ダウンロード<c>が必要です。<br><br>※ダウンロード方法は、公式ホームページより<br>　“機能”の項目をご確認ください。<br>　https://pso2.jp/players/manual/gamestart/start/launcher/
+Mag_Jukebox_Play_018_PS4 - “$(0)”を再生するには<br><yellow>『PSO2』の追加ダウンロード<c>が必要です。<br><br>※ダウンロード方法は、公式ホームページより<br>　ご確認ください。<br>　https://pso2.jp/players/manual/setup/ps4/
+Mag_Jukebox_Play_019 - 選択したミュージックディスクは、『NGS』ブロックでのみ再生ができます
+Mag_Jukebox_Play_020 - イベントシーンや緊急クエストの発生中などでは、<br>ゲーム内のBGMが優先して再生されます。<br><br>これらのBGMの再生中は、<br>マグジュークボックスで設定したBGMを<br>再生することができません。
+Mag_Jukebox_Play_022 - $(0)
+Mag_Jukebox_Play_023 - $(0),$(1)
+Mag_Jukebox_Play_024 - <yellow>$(0)<c>
+Mag_Jukebox_Play_025 - <yellow>$(0),$(1)<c>
+Mag_Jukebox_Play_026 - 未設定
+Mag_Jukebox_Play_027 - <yellow>未設定<c>
+Mag_Jukebox_Play_028 - 再生優先度の高いBGMが再生中のため、指定したBGMの再生を開始できませんでした。
+Mag_Jukebox_Play_029 - <%Function><pict 4space>でプレビューする。<c><br><yellow>※再生位置を調整できます。<c><br><gray>※曲調は変更できません。<c>
+Mag_Jukebox_Play_030 - <%Function><pict 4space>でプレビューする。<c><br><yellow>※曲調を変更できます。<c><br><gray>※再生位置は調整できません。<c>
+Mag_Jukebox_Play_031 - 再生中
+Mag_Jukebox_Play_032 - ※優先度の高いBGMがあるため再生停止中
+Mag_Jukebox_Play_033 - --:-- / --:--
+Mag_Jukebox_Play_034 - $(2):$(3) / $(0):$(1)
+Mag_Jukebox_Play_035 - 編集をキャンセルして戻ります。<br>よろしいですか？
+Mag_Jukebox_Playlist_001 - 候補リスト
+Mag_Jukebox_Playlist_002 - $(0)<pict 4space>プレイリスト
+Mag_Jukebox_Playlist_003 - $(0)<pict 4space>プレイリスト<pict 4space><pict Arcscash>
+Mag_Jukebox_Playlist_004 - $(1),$(0)
+Mag_Jukebox_Playlist_005 - プレイリストの編集を、キャンセルしますか？
+Mag_Jukebox_Playlist_006 - リピート再生回数
+Mag_Jukebox_Playlist_007 - プレイリストに追加
+Mag_Jukebox_Playlist_008 - 項目を編集
+Mag_Jukebox_Playlist_009 - 並び替え
+Mag_Jukebox_Playlist_010 - 項目から削除
+Mag_Jukebox_Playlist_011 - プレイリスト作成できませんでした。<br><br>[No.2105]
+Mag_Jukebox_Same_Preview - 現在再生中のミュージックディスクです。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+MessageMag
+Group 0
+text001 - -
+text002 - -
+text003 - -
+text004 - -
+text005 - -
+text006 - -
+text007 - -
+text008 - -
+text009 - -
+text010 - -
+text011 - -
+text012 - -
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+NearCharacter
+Group 0
+Title_NearCharacter - 周囲のキャラクター
+Sort_AllPlayer - すべてのプレイヤーを表示
+Sort_FriendOnly - フレンドのみ表示
+Sort_TeamOnly - チームメンバーのみ表示
+Sort_FriendAndTeam - フレンドとチームメンバーを表示
+Sort_RecruitParty - パーティ募集中のみ表示
+Title_PartyMakerTarget - 募集情報
+Title_PartyInformation - パーティー情報
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+NoticeMessage
+Group 0
+Notice_BattleTrigger01 - 付近の台座が他のアークスにより起動された！
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+RegionMag
+Group 0
+RMag_General - リージョンマグ
+RMag_ShipBoost - Ｒマグブースト[全体]
+RMag_PersonalBoost - Ｒマグブースト[個人]
+RMag_RegionMagBoost - リージョンマグブースト
+RMag_Mampuku - まんぷくボーナス
+RMag_Event - シーズナルボーナス
+RMag_Harapeko - はらぺこボーナス
+RMag_Wishlist - ウィッシュリスト
+RMag_Msg1 - リージョンマグに投入するアイテムを選んでください。対象のアイテムは失われます。
+RMag_Msg2 - 以下のアイテムを、リージョンマグに投入します。<br>よろしいですか？
+RMag_Msg3 - 以下のアイテムを、リージョンマグに投入します。<br>よろしいですか？<br><br><yellow>※“Ｒマグブースト[全体]”が<br>　発動中のため、リージョンマグの<br>　エネルギーは増加しません。<c>
+RMag_Msg4 - 以下のアイテムを、リージョンマグに投入します。<br>よろしいですか？<br><br><yellow>※“Ｒマグブースト[個人]”が<br>　発動中のため、リージョンマグの<br>　エネルギーは増加しません。<c>
+RMag_Msg5 - アイテムを投入できません。<br><br><yellow>※“Ｒマグブースト[全体]”および<br>　“Ｒマグブースト[個人]”が発動中のため。<c>
+RMag_Msg6 - リージョンマグのエネルギーが増加しました。
+RMag_Msg7 - リージョンマグにアイテムを投入しました。<br><yellow>※マグがまんぷくになったことにより、<br>　“Ｒマグブースト[全体]”発動します。<c>
+RMag_Msg8 - リージョンマグにアイテムを投入しました。<br><yellow>※マグがまんぷくになったことにより、<br>　“Ｒマグブースト[個人]”が発動します。<c>
+RMag_PersonalLevel - 現在Lv.
+RMag_PersonalMaxLevel - （MAX:Lv.$(0)）
+RMag_Max - <bright_orange>MAX<c>
+RMag_Lv_Energy - Lv.$(0) $(1)
+RMag_Msg9 - 倉庫を使用することはできません。
+RMag_Msg10 - リージョンマグではこの倉庫を使用することはできません。
+RMag_Msg11 - リージョンマグにアイテムを投入しました。<br><yellow>※マグがまんぷくになったことにより、<br>　“Ｒマグブースト[全体]”と<br>　“Ｒマグブースト[個人]”が発動します。<c>
+RMag_Msg12 - 以下の素材をリージョンマグに付与します。<br>よろしいですか？<br>※連動ブースト発動中のため、<br>　連動ブーストへのポイントは付与されません。
+RMag_Msg13 - 以下の素材をリージョンマグに付与します。<br>よろしいですか？<br>※個人ブーストのポイントは現在は付与されません。
+RMag_Msg14 - リージョンマグに投入するアイテムを選んでください。対象のアイテムは失われます。
+RMag_Msg15 - “連動ブースト“および“個人ブースト“の<br>ポイントが上限値の為、上昇しない状態です。
+RMag_Msg16 - 以下のアイテムを、リージョンマグに投入します。<br>よろしいですか？<br><br><yellow>※“Ｒマグブースト[全体]”と<br>　“Ｒマグブースト[個人]”が<br>　発動中のため、リージョンマグの<br>　エネルギーは増加しません。<c>
+RMag_SelectItem - 素材アイテムを選択中
+RMag_ItemAndPoint - 素材アイテムと付与ポイント
+RMag_UntilUpdate - 更新まで
+RMag_UntilEnd - 【終了まで】
+RMag_UntilPoint - 【ポイント付与可能まで】
+RMag_Update - 【延長に必要なPt】
+RMag_AssignPointSum - 合計の付与ポイント
+RMag_AssignItem - 付与アイテム
+RMag_AssignPoint - 付与ポイント
+RMag_ItemName - アイテム名
+RMag_Bonus - BONUS
+RMag_AssignPointRate - ポイント付与率+$(0)%
+RMag_Minerals - 鉱石
+RMag_Vegetables - 野菜
+RMag_Fruits - 果物
+RMag_Shellfish - 魚介
+RMag_Meat - 肉
+RMag_ControlGuide - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>
+RMag_Percent - +$(0)%
+RMag_Magnification - +$(0)
+RMag_GiveNum - x$(0)
+RMag_ItemAndNum - $(0)x$(1)
+RMag_AttackBuff - 攻撃威力+$(0)%
+RMag_QuestDropRareUp - レアドロップ倍率+$(0)%
+RMag_ExpUp - 獲得経験値+$(0)%
+RMag_SeasonEnemyPopUp - シーズンエネミー出現率＋$(0)％
+RMag_ResistColdDamage - 低温ダメージ耐性+$(0)%
+RMag_Time - $(0):$(1):$(2)
+RMag_Hyphen - -
+RMag_SocialGauge - $(0)%
+RMag_BoostEffect1 - 威力上昇
+RMag_BoostEffect2 - 獲得経験値+$(0)%
+RMag_BoostEffect3 - レアドロップ倍率+$(0)%
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+RegionName
+Group 0
+RegionName111 - エアリオ
+RegionName112 - リテム
+RegionName113 - クヴァリス
+RegionName114 - スティア
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
 Stamp
 Group 0
-StampWindow_Title - スタンプ
+StampWindow_Title - スタンププレビュー
 StampWindow_Help01 - <%Function>で再生確認
 StampWindow_Help02 - <%NextTabDetails> シンボルアート
-StampWindow_ControlHelp_GamesPad - 決定：<%Decide>　戻る：<%Cancel>　再生確認：<%Function>
-StampWindow_ControlHelp_KeyBoard - 決定：<%Decide>　戻る：<%Cancel>　再生確認：[Tab]キー>
+StampWindow_ControlHelp_GamesPad - 決定：<%Decide>　　戻る：<%Cancel>　　再生確認：<%Function>　　操作項目の移動：<%NextWidget>
+StampWindow_ControlHelp_KeyBoard - 決定：<%Decide>　　戻る：<%Cancel>　　再生確認：[Tab]キー>　　操作項目の移動：<%NextWidget>
 StampWindow_Shop - 使用できないスタンプです。<br><br>スタンプによっては、<br>ショップで購入できる場合があります。<br><br>ショップを開きますか？
-StampWindow_Classic_PrizeList - スタンププレビュー
+StampWindow_TabAll - 1.すべて表示
+StampWindow_TabHistory - 2.使用履歴
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+WeatherName
+Group 0
+Weather_Fine - 晴れ
+Weather_Cloudy - 曇り
+Weather_Rain - 雨
+Weather_Storm - 雷雨
+Weather_Rainbow - 虹
+Weather_Heat - 熱波
+Weather_Dust - 砂嵐
+Weather_Sandstorm - 砂塵嵐
+Weather_Meteorshower - 流星雨
+Weather_CloudSea - 薄曇り
+Weather_Snow - 雪
+Weather_Snowstorm - 吹雪
+Weather_Aurora - オーロラ
+Weather_Ash - 降灰
+Weather_Hot_blast - 熱暑
+Weather_Magma - 炎獄
+Weather_Phoenix - 火焔鳥
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Worldmap
+Group 0
+Personal_Guide_Set - $(1)を設置しました。（このリージョンには、あと$(0)個設置できます）
+Personal_Guide_Set_2 - $(0)を設置しました。（このリージョンには、これ以上設置できません）
+Personal_Guide_Release - $(1)を撤去しました。（このリージョンには、あと$(0)個設置できます）
+Personal_Guide_Release_2 - $(0)のパーソナルガイドを解除しました
+Personal_Guide_Error - このリージョンには、これ以上$(0)を設置できません。
+Personal_Guide_Set_Failed - $(0)が設置できませんでした。
+Personal_Guide_Release_Failed - $(0)が撤去できませんでした。
+Personal_Guide_Info_Edited - パーソナルガイドの情報を更新しました。
+Personal_Guide_Info_Edited_Error - パーソナルガイドの情報が更新できませんでした。
+Personal_Guide_Pin_Set - パーソナルガイドを設置しました。（このリージョンには、あと$(0)個設置可能です）
+Personal_Guide_Pin_Set2 - パーソナルガイドを設置しました。（このリージョンには、これ以上設置できません）
+Personal_Guide_Pin_Error - このリージョンには、これ以上パーソナルガイドを設置できません。
+Personal_Guide_Pin_Release - パーソナルガイドを撤去しました。（このリージョンには、あと$(0)個設置可能です）
+Personal_Guide_Pin_Set_Failed - パーソナルガイドが設置できませんでした。
+Personal_Guide_Pin_Release_Failed - パーソナルガイドが撤去できませんでした。
+Personal_Guide_Pin_Name - ピン
+Personal_Guide_Icon_Name - アイコン
+Personal_Guide_Window_Main_Memo - メモを入力する（最大$(0)文字）
+Personal_Guide_Window_Main_Button1 - $(0)を設置する
+Personal_Guide_Window_Main_Button2 - $(0)を撤去する
+Personal_Guide_Window_Main_Title - パーソナルガイド設置
+Personal_Guide_Window_ControlGuide - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　タブ切り替え：<%TabBack><%TabForward>
+World_End_Message - 選択した場所には、進むことができません。
+World_Lock_Message - セクション進入不可
+Section_Unlock_Requirement_Maintask - メインタスクを進めると解放されます。
+Fast_Travel_Window - テレポート、倉庫の整理、クイックフードの作成などが行えます。
+Fast_Travel_Guide - <%Decide><pict 4space>長押しでテレポート
+Fast_Travel_NG - <gray>クエスト受注中はテレポート不可<c>
+Fast_Travel_Window_2 - $(0)にテレポートします。よろしいですか？
+Fast_Travel_Toast_Mes - $(0)にテレポートします。
+Location_Notification_Mes - $(0)が位置通知機能を使用しました
+Window_Titletelop - ワールドマップ
+Window_TwolineGuide - ワールドに点在する各ロケーションの確認や、テレポートが可能です
+Window_ControlGuide - セクション情報：<%NextWidget>　　パーソナルガイド設置：<%Function>　　ズーム：<%Exception>　　地名表示切り替え：<%TabForward>　　プレイナビゲーター表示切り替え：<%TabBack>
+Locationname_cocoon - コクーン
+Locationname_tower - タワー
+Locationname_fasttravel - リューカーデバイス
+Locationname_regionmag - リージョンマグ
+Locationname_urgentquest - 緊急クエスト
+Locationname_questcounter - クエストカウンター
+Window_FasttravelTerminal_Title - リューカーデバイス
+LoadAreaTips_Atack - 推奨戦闘力:$(0)
+LoadAreaTips_Cancel - 移動をキャンセルしました
+LoadAreaTips_highrank1 - 【Rank.$(0)】
+LoadAreaTips_highrank2 - 必要戦闘力：$(0)以上
+Window_FasttravelTerminal_GuideText - この場所に移動しますか？
+Window_FasttravelTerminal_1 - テレポート
+Window_FasttravelTerminal_2 - 倉庫を開く
+Window_FasttravelTerminal_3 - クイックフード作成
+Window_FasttravelTerminal_3_1 - アイテムを選択して作る
+Window_FasttravelTerminal_3_2 - マイレシピから作る
+Window_FasttravelTerminal_4 - クラス設定
+Window_FasttravelTerminal_5 - 戻る
+Window_FasttravelTerminal_6 - パーティーメンバー集合
+Window_FasttravelTerminal_7 - ブロック移動
+Window_FasttravelTerminal_8 - ルーム移動
+Window_FasttravelTerminal_6_1 - パーティーメンバーをこのリューカーデバイスに集合させる<br>ことができます。<br><light_red>※エステやイベント中のメンバーには通知のみ送ります。<br>※セクションに進入できないメンバーは対象外です。<c>
+Window_FasttravelTerminal_6_2 - セクション進入不可
+Window_FasttravelTerminal_6_3 - パーティーメンバー集合要請
+Window_FasttravelTerminal_6_4 - チャットする
+Window_FasttravelTerminal_6_5 - <c 00ff00>集合OK<c>
+Window_FasttravelTerminal_6_6 - <light_red>集合NG<c>
+Window_FasttravelTerminal_6_7 - メンバーに集合を要請します。<br>よろしいですか？
+Window_FasttravelTerminal_6_8 - "$(0)から、パーティーメンバーの集合要請がありました。<br>メインメニューを開ける状態にして、“新着通知”の<yellow>“新着パーティーメンバー集合”<c>を確認してください。"
+Window_FasttravelTerminal_6_9 - -
+Window_FasttravelTerminal_6_10 - 集合まであと$(0)秒
+Window_FasttravelTerminal_6_11 - $(0)から、パーティーメンバーの集合要請がありました。<br>“新着通知”の<yellow>“新着パーティーメンバー集合”<c>を確認してください。
+Window_FasttravelTerminal_6_GuideText - パーティーメンバーに対して、集合要請を行えます。
+Window_FasttravelTerminal_6_12 - リューカーデバイス未アクセス
+Window_FasttravelTerminal_6_13 - この機能はパーティーリーダーのみが使用できます。
+Window_FasttravelTerminal_8_1 - ルーム選択
+Window_FasttravelTerminal_8_2 - ルーム詳細
+Window_FasttravelTerminal_8_3 - <%Function>でルームリストを更新
+Window_FasttravelTerminal_8_4 - セクションと【Rank】が同じルームを絞りこむ
+Window_FasttravelTerminal_8_5 - フレンドのいるルームを絞りこむ
+Window_FasttravelTerminal_8_6 - チームメンバーのルームを絞りこむ
+Window_FasttravelTerminal_8_7 - ON
+Window_FasttravelTerminal_8_8 - OFF
+Window_FasttravelTerminal_8_9 - $(0)：$(1)
+Window_FasttravelTerminal_8_10 - 3時間以上
+Window_FasttravelTerminal_8_13 - セクション
+Window_FasttravelTerminal_8_14 - 推奨戦闘力
+Window_FasttravelTerminal_8_15 - メンバー
+Window_FasttravelTerminal_8_16 - 標準ソート
+Window_FasttravelTerminal_8_17 - 空き人数順
+Window_FasttravelTerminal_8_18 - ルーム作成時間順
+Window_FasttravelTerminal_8_19 - フレンドがいる
+Window_FasttravelTerminal_8_20 - チームメンバーがいる
+Window_FasttravelTerminal_8_21 - パスワードなし
+Window_FasttravelTerminal_8_22 - $(0)～
+Window_FasttravelTerminal_8_23 - このルームに合流します。よろしいですか？
+Window_FasttravelTerminal_8_24 - このルームに合流すると<yellow>$(0)<c>に<br>移動します。よろしいですか？
+Window_FasttravelTerminal_8_25 - ルームがありません。
+Window_FasttravelTerminal_8_26 - ルームが見つかりませんでした。
+Window_FasttravelTerminal_8_27 - 定員オーバーの為、ルームに入ることができません。
+Window_FasttravelTerminal_8_28 - パスワードが一致しないため、ルームに入ることができません。
+Window_FasttravelTerminal_8_29 - 不明なエラー
+Window_FasttravelTerminal_8_30 - ルーム
+Window_FasttravelTerminal_8_31 - パーティー
+Window_FasttravelTerminal_8_32 - パーティーメンバー
+Window_FasttravelTerminal_8_33 - Lv.
+Window_FasttravelTerminal_8_34 - 更新可能になるまであと$(0)秒
+Window_FasttravelTerminal_8_GuideText - 他のルームへ移動できます。他ブロックのルームは<pict block_move>が表示されます。
+Window_FasttravelTerminal_8_35 - 必要戦闘力:$(0)
+Window_FasttravelTerminal_8_36 - 必要戦闘力
+Window_FasttravelTerminal_8_37 - 【 Rank.$(0) 】
+Window_FasttravelTerminal_8_38 - キャンペーンブースト
+Window_FasttravelTerminal_8_39 - ルーム移動を行うと、<br>ルームキーワードの設定が解除されます。<br><br>よろしいですか？
+Window_FasttravelTerminal_8_40 - ルームリスト更新中…
+Window_FasttravelTerminal_8_41 - 対象ブロックに入れないパーティーメンバーがいます。
+Window_FasttravelTerminal_9_1 - ルームキーワード/撮影専用ルーム設定
+Window_FasttravelTerminal_9_2 - ルームキーワード/撮影専用ルーム設定
+Window_FasttravelTerminal_9_3 - ルームキーワードを設定することで、<br>キーワードを共有したプレイヤーのみが<br>入ることのできるルームを作成します。<br>入力したキーワードのルームが<br>すでに存在する場合は、対象のルームに合流します。<br><yellow>※撮影専用ルームでは、<br>　エネミーや一部オブジェクトが出現しません。<c>
+Window_FasttravelTerminal_9_4 - 設定する
+Window_FasttravelTerminal_9_5 - 戻る
+Window_FasttravelTerminal_9_6 - リセット
+Window_FasttravelTerminal_9_7 - ルームキーワードを表示する
+Window_FasttravelTerminal_9_8 - キーワード設定ルーム合流
+Window_FasttravelTerminal_9_9 - ルームキーワードが設定されたルームに合流します。<br>よろしいですか？
+Window_FasttravelTerminal_9_10 - 選択したルームが満員のため、新規ルームを作成しました。このセクションのマルチパーティーは制限されます。
+Window_FasttravelTerminal_9_11 - キーワード設定ルーム作成
+Window_FasttravelTerminal_9_12 - キーワードを設定したルームを新規作成します。<br>よろしいですか？
+Window_FasttravelTerminal_9_13 - ルームキーワードの設定を完了しました。<br>セクション移動をすることでルームにルームキーワードが適用されます。
+Window_FasttravelTerminal_9_14 - キーワードが設定されたルームに入りました。このセクションのマルチパーティーは制限されます。
+Window_FasttravelTerminal_9_15 - キーワードが設定されたルームを作成しました。このセクションのマルチパーティーは制限されます。
+Window_FasttravelTerminal_9_16 - キーワードは半角英数字のみ入力できます。
+Window_FasttravelTerminal_9_17 - ルームのキーワード設定や、設定済みのルームへの合流ができます。シティでは設定の保存のみができます。
+Window_FasttravelTerminal_9_18 - ルームキーワードの設定を解除しました。
+Window_FasttravelTerminal_9_19 - クエスト攻略中は使用できません
+Window_FasttravelTerminal_9_20 - ルームキーワード有効時の設定
+Window_FasttravelTerminal_9_21 - ルームの参加人数上限
+Window_FasttravelTerminal_9_22 - 撮影専用ルームにする
+Window_FasttravelTerminal_9_23 - ルームキーワード設定時の<br>ルーム参加人数を制限します。<br>この設定はルーム作成後に変更できません。
+Window_FasttravelTerminal_9_24 - ルームキーワード設定時のルームを<br>撮影専用ルームにします。<br>パーティーリーダーまたはサブリーダーは<br>作成した撮影専用ルームの<br>一部の設定を後から変更できます。
+Window_FasttravelTerminal_9_25 - この機能はパーティーリーダーのみが使用できます。
+Window_FasttravelTerminal_9_26 - キーワードが設定された<yellow>“撮影専用ルーム”<c>に入りました。このセクションのマルチパーティーは制限されます。
+Window_FasttravelTerminal_9_27 - キーワードが設定された<yellow>“撮影専用ルーム”<c>を作成しました。このセクションのマルチパーティーは制限されます。
+Window_FasttravelTerminal_9_28 - アシストNPCを無効にする
+Window_FasttravelTerminal_9_29 - アシストNPCは、戦闘セクションで<br>ルームの参加人数に空きがある場合に<br>NPCが自動的に戦いに参加する機能です。<br><br><yellow>※この設定はルーム作成後に変更できません。<c>
+FasttravelTerminal_LineWindow - この場所へのテレポートが可能になりました。
+FasttravelTerminal_Error1 - 付近にエネミーが居るため、実行できません
+Crossing_Title - 踏破率：
+Crossing_TitleHidden - 踏破率：
+Crossing_Point - $(1)/$(0)
+Crossing_Name1 - リューカーデバイス
+Crossing_Name2 - コクーン
+Crossing_Name3 - タワー
+Crossing_Name4 - バトルディア
+Crossing_Name5 - リージョンマグ
+Crossing_Name6 - ギャザリング
+Crossing_Name7 - コレクタブル
+Crossing_Name8 - 世界の秘密
+Crossing_Name9 - メッセージパック
+Crossing_Name10 - アイテムコンテナ[赤]
+Crossing_Name11 - ？？？
+Crossing_Name12 - （未使用）
+Crossing_Name13 - トリニテス
+Crossing_Name14 - トレイニアアドバンス
+Quest_Result0 - -
+Quest_Result1 - ★
+Quest_Result2 - ★★
+Quest_Result3 - ★★★
+Quest_Result4 - ★★★★
+Quest_Result5 - ★★★★★
+Quest_ResultS - S
+Quest_ResultA - A
+Quest_ResultB - B
+Quest_ResultC - C
+Window_BattleTrigger_Title - イエローポータル：エアリオ
+Window_BattleTrigger_Guide1 - “Bトリガー/エアルイエロー”<yellow>（×5）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c>
+Window_BattleTrigger_Guide_CodeKey_w1_r1_3_unavailable - “Bトリガー/エアルイエロー”<yellow>（×5）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c><br><gray>受注条件を満たしていません。<c>
+Window_BattleTrigger_Title2 - パープルポータル：エアリオ
+Window_BattleTrigger_Guide2 - “Bトリガー/エアルパープル”<yellow>（×5）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c>
+Window_BattleTrigger_Guide_CodeKey_w1_r1_1_unavailable - “Bトリガー/エアルパープル”<yellow>（×5）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c><br><gray>受注条件を満たしていません。<c>
+Gathering_Title - ギャザリング情報
+Window_Quest - <c 76d1ff>クエスト目標<c>：$(0)<br><%Decide><pict 4space>でクエスト情報を開く
+Window_Quest_Accept_NG - <c 76d1ff>クエスト目標<c>：$(0)<br><%Decide><pict 4space>でクエスト情報を開く<br><gray>作戦準備中のため受注できません。<c>
+Window_Quest_Accept_NG2 - <c 76d1ff>クエスト目標<c>：$(0)<br><%Decide>でクエスト情報を開く<br><gray>受注条件を満たしていません。<c>
+Window_Quest_Accept_NG3 - <c 76d1ff>クエスト目標<c>：$(0)<br><gray>クリア回数超過のため、受注できません。<c>
+Window_QuestTarget - <c 76d1ff>クエスト目標<c>：$(0)
+Window_QuestInformation - <%Decide><pict 4space>でクエスト情報を開く
+Window_QuestTargetNG - <gray>受注条件を満たしていません。<c>
+Window_ControlGuide2 - カーソル高速移動：<%ChangeCtrlWindowForward>+<pict stick_l>　　セクション情報：<%NextWidget>　　パーソナルガイド設置：<%Function>　　ズーム：<%Exception>　　地名表示切り替え：<%TabForward>　　プレイナビゲーター表示切り替え：<%TabBack>
+Window_KeepOut_Title - 進入不可
+Quest_NG - <c 76d1ff>クエスト目標<c>：$(0)<br><gray>現在クエスト受注中のため選択不可<c>
+BlockSectionMsg - 現在、このセクションには<br>アクセスできません。<br>詳しくは公式サイトを<br>ご確認ください。
+Fast_Travel_CautionMsg - <light_red>※別セクションに移動すると<br>マッチングが解除されます。<c>
+Fast_Travel_DangerSectionMsg - <yellow>※フィールド上で継続ダメージが発生<br>※“特殊環境耐性”を上げることで<br>　ダメージを軽減<c>
+Fast_Travel_Level_Rank - 【Rank.$(0)】
+Fast_Travel_Level_BattlePower - 必要戦闘力:$(0)
+Fast_Travel_Level_EnemyLevel - エネミーLv.$(0)
+Fast_Travel_ControlGuide - セクションランク変更：<pict mouse_wheel>　　パーソナルガイド設置：<%Function>　　キャンセル：<%Cancel>　　セクション情報：<%NextWidget>　　ズーム：<%Exception>　　地名表示切り替え：<%TabForward>
+Fast_Travel_ControlGuide2 - セクションランク変更：<pict Alpha_rightleft>　　カーソル移動：<pict stick_l>（<pict 4space><%ChangeCtrlWindowForward><pict 4space>同時押しで高速移動）　　パーソナルガイド設置：<%Function>　　キャンセル：<%Cancel>　　セクション情報：<%NextWidget>　　ズーム：<%Exception>　　地名表示切り替え：<%TabForward>
+Fast_Travel_BoostInfo_Title - <c 76d1ff>キャンペーンブースト<c>：
+SectionInfo_BoostInfo_Title - キャンペーンブースト：
+SectionInfo_BoostInfo_Occurrence - ブースト効果詳細
+RegionName1 - エアリオリージョン
+RegionName2 - リテムリージョン
+Window_BattleTrigger_Title_CodeKey_w1_r1_3 - イエローポータル：エアリオ
+Window_BattleTrigger_Guide_CodeKey_w1_r1_3 - “Bトリガー/エアルイエロー”<yellow>（×5）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c>
+Window_BattleTrigger_Title_CodeKey_w1_r1_1 - パープルポータル：エアリオ
+Window_BattleTrigger_Guide_CodeKey_w1_r1_1 - “Bトリガー/エアルパープル”<yellow>（×5）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c>
+Window_BattleTrigger_Title_CodeKey_w1_r2_1 - パープルポータル：リテム
+Window_BattleTrigger_Guide_CodeKey_w1_r2_1 - “Bトリガー/リテナパープル”<yellow>（×5）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c>
+Window_BattleTrigger_Guide_CodeKey_w1_r2_1_unavailable - “Bトリガー/リテナパープル”<yellow>（×5）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c><br><gray>受注条件を満たしていません。<c>
+Window_BattleTrigger_Title_CodeKey_w1_r2_3 - イエローポータル：リテム
+Window_BattleTrigger_Guide_CodeKey_w1_r2_3 - “Bトリガー/リテナイエロー”<yellow>（×5）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c>
+Window_BattleTrigger_Guide_CodeKey_w1_r2_3_unavailable - “Bトリガー/リテナイエロー”<yellow>（×5）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c><br><gray>受注条件を満たしていません。<c>
+Window_BattleTrigger_Title_CodeKey_Blue_1 - ブルーポータル：バリアブル
+Window_BattleTrigger_Guide_CodeKey_Blue - “Bトリガー/スプリング2022”<yellow>（×1）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c>
+Window_BattleTrigger_Guide_CodeKey_Blue_unavailable - “Bトリガー/スプリング2022”<yellow>（×1）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c><br><gray>受注条件を満たしていません。<c>
+Window_BattleTrigger_Guide_CodeKey_all - “$(0)”<yellow>（×$(1)）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c>
+Window_BattleTrigger_Guide_CodeKey_all_unavailable - “$(0)”<yellow>（×$(1)）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c><br><gray>受注条件を満たしていません。<c>
+Window_BattleTrigger_Guide_CodeKey_emergency_to_start - “$(0)”を起動する。
+AreaName_with_EnemyIcon - $(0)<pict 4space><pict enemy_s_icon>
+AreaName_with_GathIcon - $(0)<pict 4space><pict gath_s_icon>
+AreaName_with_CautionIcon - $(0)<pict 4space><pict caution_s_icon>
+Window_BattleTrigger_Title_CodeKey_s2022_1 - ブルーポータル：バリアブル
+Window_BattleTrigger_Guide_CodeKey_all_Boost - “$(0)”<yellow>（×$(1)）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<br>※バトルトリガー必要数変動中<c>
+Quest_RankName - $(0)【Rank.$(1)】
+Window_BattleTrigger_Title_CodeKey_1yeara_1 - ブルーポータル：バリアブル
+Window_BattleTrigger_Title_CodeKey_w1_r3_3 - イエローポータル：クヴァリス
+Window_BattleTrigger_Guide_CodeKey_w1_r3_3 - “Bトリガー/クヴァルイエロー”<yellow>（×5）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c>
+Window_BattleTrigger_Title_CodeKey_w1_r3_1 - パープルポータル：クヴァリス
+Window_BattleTrigger_Guide_CodeKey_w1_r3_1 - “Bトリガー/クヴァルパープル”<yellow>（×5）<c>で起動。<br><yellow>※アイテムパックか素材倉庫に入れた状態でアクセス<c>
+Window_QuestCounter - <%Decide><pict 4space>でクエストカウンターを開く
+Window_QuestCounter_NG - <gray>クエスト受注中のためアクセスできません。<c>
+Window_QuestCounter_Region_NG - <gray>別リージョンのクエストカウンターにはアクセスできません。<c>
+NPC_Icon_Help - $(0)<br>$(1)
+PlayNav_BattlePower - 目標戦闘力
+PlayNav_Index - 目標達成の目安
+PlayNav_Options_Label - 表示オプション
+PlayNav_Options_Item1 - ゲーム起動時にこのウィンドウを表示する
+PlayNav_Guide_Label1 - 操作ウィンドウ切り替え：<%MultiSelect>
+PlayNav_MsgTitle1 - プレイナビゲーター
+PlayNav_ErrorMsg1 - プレイナビゲーターを表示できません。<br>目標戦闘力に到達しています。
+PlayNav_ErrorMsg2 - プレイナビゲーターは、<br>メインタスクを進めると表示されます。
+Window_BattleTrigger_Title_CodeKey_w1_r4_3 - イエローポータル：スティア
+Window_BattleTrigger_Title_CodeKey_w1_r4_1 - パープルポータル：スティア
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+WorldTrial
+Group 0
+WorldTrial_Clear1 - ステラーパック発見
+WorldTrial_Result1_1 - $(0)/$(1)（レアドロップ率+$(2)％ → +$(3)％）
+WorldTrial_Result1_2 - Phase.$(0)/次のPhaseまで$(1)
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+MessagePac
+Group 0
+WindowTitle - メッセージパック
+DetailWindowTitle - メッセージ詳細
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Achievements
+Group 0
+Achievements_Acquire_Info - 称号タスク“$(0)”を達成しました。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+PreviewOption
+Group 0
+PreviewOption_Switch_TypeA - <%Exception2><pict 4space>詳細設定
+PreviewOption_Switch_TypeB - <%Exception2><pict 4space>詳細設定
+PreviewOption_Connect - $(0)   $(1)
+PreviewOption_WindowTitle - プレビュー詳細設定
+PreviewOption_Emotes - ロビーアクション
+PreviewOption_SwitchEmotes - 別タイプのロビーアクションを再生
+PreviewOption_Ornaments - 装飾
+PreviewOption_SwitchBasewearPartsText1 - ベース／セットウェアの装飾1を非表示
+PreviewOption_SwitchBasewearPartsText2 - ベース／セットウェアの装飾2を非表示
+PreviewOption_SwitchOuterHide - アウターウェアの装飾を非表示
+PreviewOption_SwitchFaceHide - 顔バリエーションの装飾を非表示
+PreviewOption_SwitchHeadHide - 頭部の装飾を非表示
+PreviewOption_SwitchBodyPartsHideText - ボディパーツの装飾を非表示
+PreviewOption_SwitchArmHideText - アームパーツの装飾を非表示
+PreviewOption_SwitchLegHideText - レッグパーツの装飾を非表示
+PreviewOption_SwitchInnerHideText - インナーウェアを非表示
+PreviewOption_VariationEmotesTitle - ロビーアクションのボタン派生
+PreviewOption_VariationEmotes - ボタン派生のアクションを再生
+PreviewOption_VariationEmotesNormal1 - ボタン派生：パターン1
+PreviewOption_VariationEmotesNormal2 - ボタン派生：パターン2
+PreviewOption_VariationEmotesMove1 - ボタン派生：前移動
+PreviewOption_VariationEmotesMove2 - ボタン派生：後移動
+PreviewOption_VariationEmotesMove3 - ボタン派生：右移動
+PreviewOption_VariationEmotesMove4 - ボタン派生：左移動
+PreviewOption_VariationEmotesRandom - ボタン派生：ランダム
+PreviewOption_SupplementaryText - 実際の表示と一部異なる場合があります。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+AutoSaleOption
+Group 0
+Index_AutoSale - 自動売却設定
+Index_Weapon - 武器
+Index_Armor - 防具
+Index_OtherItems - その他アイテム
+Index_ValuableItems - 換金用アイテム
+Index_AutoSaleRarity - 自動売却するレアリティ
+Index_PresetSkills - プリセット能力あり
+Index_ColorVariant - カラーバリアント
+Setting_Valid - 使用する
+Setting_Invalid - 使用しない
+Setting_Involve - 自動売却する
+Setting_NotInvolve - 自動売却しない
+Setting_Rarity1 - ★1
+Setting_Rarity2 - ★2
+Setting_Rarity3 - ★3
+Setting_Rarity4 - ★4
+Setting_Rarity5 - ★5
+Setting_Rarity6 - ★6
+Setting_Rarity7 - ★7
+Setting_Rarity8 - ★8
+Setting_Rarity9 - ★9
+Setting_Rarity10 - ★10
+Button_Change - 変更する
+Button_Cancel - キャンセル
+Button_Discard - 変更せず終了
+Explanation_AutoSale - ドロップしたアイテムを<br>自動で売却するかを設定します。<br><br>※設定はキャラクターごとに保存されます。<br><br>【自動売却の対象外となるアイテム】<br>・コンテナからドロップしたアイテム<br>・クエスト一時倉庫に送られたアイテム<br>・クエストクリア時の報酬アイテム<br>・トライアルの報酬アイテム
+Index_ExcludedItems - 自動売却の対象に含めるアイテム
+Toast_Update - 自動売却設定を更新しました。
+Explanation_Cancel - 自動売却設定に、変更された項目があります。<br>変更を反映せずに終了しますが、よろしいですか？
+DirectBuy_Premium - アイテム購入確認
+Explanation_PurchaseConfirmation - <pict Arcscash><scarlet>AC消費コンテンツ<c><br>選択した機能の利用期限が切れています。<br><br><yellow>“プレミアムセット”<c>を有効にすることで、<br>“ドロップアイテムの自動売却設定”を利用できます。<br>“プレミアムセット”の購入画面に進みますか？<br><br><yellow>※個別の利用権も販売しています。<br>　詳しくはメインメニューの“SGショップ”を<br>　ご確認ください。<c>
+DirectUse_Premium - アイテム使用確認
+Explanation_ItemUse - <pict Arcscash><c 5fdf00>購入済みアイテムの使用<c><br>選択した機能の利用期限が切れています。<br><br>アイテムパック内にお持ちの<br><yellow>“プレミアムセット”<c>を使用して<br>“ドロップアイテムの自動売却設定”を<br>利用可能にしますか？<br><br><yellow>※複数種類所持している場合、<br>　追加期限が長いものを優先して使用します。<c><br><yellow>※使用するアイテムを確認したい場合は<br>　アイテムパックから選んでください。<c>
+Title_AutoSale - ドロップアイテムの自動売却設定
+Standard_Result_Error - 処理が失敗しました。
 
 Group 1
 
@@ -8610,6 +11472,140 @@ Vitalgauge_PsnMode_PsnUser - <pict psn_icon> $(0)
 Vitalgauge_Toast_PsnOn - バイタル表示を“PSN”のオンラインIDに変更しました。
 Vitalgauge_Toast_PsnOff - バイタル表示をキャラクター名に変更しました。
 Vitalgauge_PsnMode_NotPsn - <pict other_ps> $(0)
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+AdditionalSkillExplanation
+Group 0
+AdditionalSkillHu_MaxHp - 最大HPが増加する。
+AdditionalSkillFi_MaxHp - 最大HPが増加する。
+AdditionalSkillRa_MaxHp - 最大HPが増加する。
+AdditionalSkillGu_MaxHp - 最大HPが増加する。
+AdditionalSkillFo_MaxHp - 最大HPが増加する。
+AdditionalSkillTe_MaxHp - 最大HPが増加する。
+AdditionalSkillBr_MaxHp - 最大HPが増加する。
+AdditionalSkillBo_MaxHp - 最大HPが増加する。
+AdditionalSkillWa_MaxHp - 最大HPが増加する。
+AdditionalSkillWa_MaxPp - 最大PPが増加する。
+AdditionalSkillHu_FireResistance - バーン状態になりにくくなる。
+AdditionalSkillBr_FireResistance - バーン状態になりにくくなる。
+AdditionalSkillFi_IceResistance - フリーズ状態になりにくくなる。
+AdditionalSkillBo_IceResistance - フリーズ状態になりにくくなる。
+AdditionalSkillRa_ThunderResistance - ショック状態になりにくくなる。
+AdditionalSkillWa_ThunderResistance - ショック状態になりにくくなる。
+AdditionalSkillGu_WindResistance - ミラージュ状態になりにくくなる。
+AdditionalSkillFo_LightResistance - パニック状態になりにくくなる。
+AdditionalSkillTe_DarkResistance - ポイズン状態になりにくくなる。
+AdditionalSkillHu_TrialHpHeal - トライアル参加時にHPが回復する。
+AdditionalSkillRa_TrialHpHeal - トライアル参加時にHPが回復する。
+AdditionalSkillFo_TrialHpHeal - トライアル参加時にHPが回復する。
+AdditionalSkillBr_TrialHpHeal - トライアル参加時にHPが回復する。
+AdditionalSkillWa_TrialHpHeal - トライアル参加時にHPが回復する。
+AdditionalSkillFi_TrialPpHeal - トライアル参加時にPPが回復する。
+AdditionalSkillGu_TrialPpHeal - トライアル参加時にPPが回復する。
+AdditionalSkillTe_TrialPpHeal - トライアル参加時にPPが回復する。
+AdditionalSkillBo_TrialPpHeal - トライアル参加時にPPが回復する。
+AdditionalSkillHu_AttackBoost - 打撃武器の威力が上昇する。
+AdditionalSkillRa_AttackBoost - 射撃武器の威力が上昇する。
+AdditionalSkillFo_AttackBoost - 法撃武器の威力が上昇する。
+AdditionalSkillFi_CriticalBoost - クリティカル時の威力が上昇する。
+AdditionalSkillRa_PhotonblastBoost - フォトンブラストの威力が上昇する。
+AdditionalSkillBr_AddCritical - クリティカル発生率が上昇する。
+AdditionalSkillTe_DamageReduction - 受けるダメージを軽減する。
+AdditionalSkillGu_AttackPbHeal - 攻撃時のフォトンブラストゲージの<br>蓄積量が増加する。
+AdditionalSkillTe_NaturalPbHeal - フォトンブラストゲージの<br>自動蓄積量が増加する。
+AdditionalSkillGu_AttackPpHeal - 攻撃時のPP回復量が増加する。
+AdditionalSkillFo_NaturalPpHeal - PPの自然回復量が増加する。
+AdditionalSkillBr_RestaHealUp - レスタサイン使用時に、<br>自分のHP回復量が増加する。
+AdditionalSkillBo_SpecialPpHeal - フォトンダッシュ中や<br>フォトングライド中に、<br>PPが自然回復するようになる。
+AdditionalSkillHu_SpeedChargePA - PAチャージ中の移動速度が上昇する。
+AdditionalSkillFi_JumpBoost - 通常のジャンプ力が増加する。
+AdditionalSkillBo_OneMoreJump - 空中でのジャンプ時に、<br>エネミーを踏みつけることで、攻撃が発生し、<br>再度ジャンプができるようになる。
+AdditionalSkillWa_WaitHpHeal - 納刀時に、<br>一定時間静止した状態を維持すると、<br>HPが継続して回復する。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+AdditionalSkillName
+Group 0
+AdditionalSkillHu_MaxHp - HPアップ(Hu)
+AdditionalSkillFi_MaxHp - HPアップ(Fi)
+AdditionalSkillRa_MaxHp - HPアップ(Ra)
+AdditionalSkillGu_MaxHp - HPアップ(Gu)
+AdditionalSkillFo_MaxHp - HPアップ(Fo)
+AdditionalSkillTe_MaxHp - HPアップ(Te)
+AdditionalSkillBr_MaxHp - HPアップ(Br)
+AdditionalSkillBo_MaxHp - HPアップ(Bo)
+AdditionalSkillWa_MaxHp - HPアップ(Wa)
+AdditionalSkillWa_MaxPp - PPアップ(Wa)
+AdditionalSkillHu_FireResistance - バーン耐性アップ(Hu)
+AdditionalSkillBr_FireResistance - バーン耐性アップ(Br)
+AdditionalSkillFi_IceResistance - フリーズ耐性アップ(Fi)
+AdditionalSkillBo_IceResistance - フリーズ耐性アップ(Bo)
+AdditionalSkillRa_ThunderResistance - ショック耐性アップ(Ra)
+AdditionalSkillWa_ThunderResistance - ショック耐性アップ(Wa)
+AdditionalSkillGu_WindResistance - ミラージュ耐性アップ(Gu)
+AdditionalSkillFo_LightResistance - パニック耐性アップ(Fo)
+AdditionalSkillTe_DarkResistance - ポイズン耐性アップ(Te)
+AdditionalSkillHu_TrialHpHeal - トライアル参加時HP回復(Hu)
+AdditionalSkillRa_TrialHpHeal - トライアル参加時HP回復(Ra)
+AdditionalSkillFo_TrialHpHeal - トライアル参加時HP回復(Fo)
+AdditionalSkillBr_TrialHpHeal - トライアル参加時HP回復(Br)
+AdditionalSkillWa_TrialHpHeal - トライアル参加時HP回復(Wa)
+AdditionalSkillFi_TrialPpHeal - トライアル参加時PP回復(Fi)
+AdditionalSkillGu_TrialPpHeal - トライアル参加時PP回復(Gu)
+AdditionalSkillTe_TrialPpHeal - トライアル参加時PP回復(Te)
+AdditionalSkillBo_TrialPpHeal - トライアル参加時PP回復(Bo)
+AdditionalSkillHu_AttackBoost - 打撃武器威力アップ
+AdditionalSkillRa_AttackBoost - 射撃武器威力アップ
+AdditionalSkillFo_AttackBoost - 法撃武器威力アップ
+AdditionalSkillFi_CriticalBoost - クリティカル威力アップ
+AdditionalSkillRa_PhotonblastBoost - フォトンブラスト威力アップ
+AdditionalSkillBr_AddCritical - クリティカル率アップ
+AdditionalSkillTe_DamageReduction - ダメージ耐性アップ
+AdditionalSkillGu_AttackPbHeal - 攻撃時PBゲージ蓄積量アップ
+AdditionalSkillTe_NaturalPbHeal - PBゲージ自動蓄積量アップ
+AdditionalSkillGu_AttackPpHeal - 攻撃時PP回復量アップ
+AdditionalSkillFo_NaturalPpHeal - PP自然回復量アップ
+AdditionalSkillBr_RestaHealUp - レスタサイン回復量アップ
+AdditionalSkillBo_SpecialPpHeal - ダッシュ＆グライド中PP回復
+AdditionalSkillHu_SpeedChargePA - PAチャージ移動速度アップ
+AdditionalSkillFi_JumpBoost - ジャンプ力アップ
+AdditionalSkillBo_OneMoreJump - ワンモアジャンプ
+AdditionalSkillWa_WaitHpHeal - 静止状態HP回復
 
 Group 1
 
