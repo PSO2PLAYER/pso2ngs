@@ -1,0 +1,839 @@
+quest_common_reboot.text was created: 2023/3/7 22:18:24
+Filesize is: 30496 bytes
+
+CocoonFail
+Group 0
+Cocoon_Fail_None - なし
+Cocoon_Fail_Time - 制限時間：$(0)
+Cocoon_Fail_Fall - 落下回数：$(0)
+Cocoon_Fail_Dead - 戦闘不能回数：$(0)
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+CocoonMainMission
+Group 0
+Cocoon_Main_Goal - フィニッシュポイントに到達する
+Cocoon_Main_Target - $(0)を倒す
+Cocoon_Main_TargetVolume - $(0)を$(1)体倒す
+Cocoon_Main_EnemyValue - エネミーを$(0)体倒す
+Cocoon_Main_AllTarget - 全てのエネミーを倒す
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+CocoonSubMission
+Group 0
+Cocoon_Sub_Target - %(EnemyName)$(0)を倒してクリア
+Cocoon_Sub_TargetVolume - %(EnemyName)を$(0)%(num)体倒してクリア
+Cocoon_Sub_Time - %(Time) 未満でクリア
+Cocoon_Sub_Fall - 落下回数$(0)%(num)回未満でクリア
+Cocoon_Sub_Dead - 戦闘不能回数$(0)%(num)回未満でクリア
+Cocoon_Sub_Complete - サイドミッションを$(0)すべて達成してクリア
+Cocoon_Sub_Volume - エネミーを$(0)%(num)体倒してクリア
+Cocoon_Sub_Damage - %(Damage)以上のダメージを$(0)%(num)回以上与えてクリア
+Cocoon_Sub_Hit - ダメージ回数$(0)%(num)回未満でクリア
+Cocoon_Sub_Coin - ポイントキューブを$(0)%(num)個取得してクリア
+Cocoon_Sub_Down - エネミーを%(num)回$(0)ダウンさせてクリア
+Cocoon_Sub_Action - %(action)の$(0)使用%(num)回未満でクリア
+Cocoon_Sub_TargetVolumeLimit - エネミー討伐数$(0)%(num)体未満でクリア
+Cocoon_Sub_CocoonPoint - コクーンポイント$(0)%(num)ポイント以上でクリア
+Cocoon_Sub_DroneLevel - ドロームの追従レベルが$(0)Lv.3の状態を維持してクリア
+Cocoon_Sub_DiveAttack - ダイブアタックでエネミーに<br>%(num)以上ダメージを与えてクリア
+Cocoon_Sub_CoreHit - エネミーの弱点部位に%(num)回<br>攻撃を命中させてクリア
+Cocoon_Sub_FallDownEnemy - エネミーを%(num)体<br>落下させてクリア
+Cocoon_Sub_Dodged - エネミーの攻撃を%(num)回<br>ガードもしくは回避してクリア
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+CocoonActionName
+Group 0
+Action_Name_Jump - ジャンプ
+Action_Name_Step - ステップ
+Action_Name_HealTank - レスタサイン
+Action_Name_PhotonBlast - フォトンブラスト
+Action_Name_Glide - グライド
+Action_Name_Dash - フォトンダッシュ
+Action_Name_Tech - テクニック
+Action_Name_PA - PA
+Action_Name_TechPA - テクニック/PA
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+CocoonUITitle
+Group 0
+Cocoon_UITitle_Main_Mission - メインミッション
+Cocoon_UITitle_Sub_Mission - サイドミッション
+Cocoon_UITitle_Failure - 失敗条件
+UITitle_Trial - トライアル
+UITitle_World_Trial - ワールドトライアル
+UITitle_FieldRace - フィールドレース
+Trinites_UITitle_Score - スコア
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+QuestCommon
+Group 0
+CountDownTime - クエスト開始まで残り$(0)秒
+TimeTextMS - $(0):$(1)
+TimeTextHMS - $(0):$(1):$(2)
+NumberTextCPM - $(0)/$(1)
+QuestTitle - クエスト目標
+Trinites_Update_SideMission - サイドミッション更新
+ScorePt - $(0)Pt
+LastDungeon_Buff_Atk001 - 通常攻撃の威力上昇効果が発生しました。
+LastDungeon_Buff_Atk002 - PA・テクニックの威力上昇効果が発生しました。
+LastDungeon_Buff_Atk003 - ダイブアタックの威力上昇効果が発生しました。
+LastDungeon_Buff_Atk004 - ステップカウンターの威力上昇効果が発生しました。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Reward
+Group 0
+Cocoon_Reward_SkillPoint - スキルポイント
+Cocoon_Reward_SkillPointNum - $(0)ポイント
+Cocoon_Reward_Clear - $(0)クリア
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Result
+Group 0
+QuestClear - $(0)クリア
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+TrialFailure
+Group 0
+f0 - クエストリタイアを選択
+f1 - タイムオーバー！
+f2 - （仮）防衛失敗
+f3 - 戦闘不能回数上限！
+f4 - 落下回数上限！
+f5 - トライアル”$(0)”失敗
+f6 - サイドミッションの失敗数オーバー！
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+TrialCommon
+Group 0
+BeginMsgTemplate - <yellow>クエスト目標　$(0)<c>
+SuccessMsg_1 - <yellow>クエストクリア！<c>
+SuccessMsg_2 - <yellow>出現したテレパイプで帰還せよ<c>
+FailureMsg - <yellow>クエスト失敗！<c>
+RemainPoint - 残り$(0)ポイント
+IncidentQuestPoint - $(0)ポイントを得た
+QuestOpenMsg - 以下のクエストが解放されました。
+QuestOpenOther - 他
+TimeLimitRemainingSec - 制限時間まであと$(0)秒！
+TimeLimitRemainingMin - 制限時間まであと$(0)分！
+QuotationMarks - 「$(0)」
+AchieveQuestPointMin - クエストポイント目標達成！　更にためるとリザルトランクＵＰのチャンス！
+AchieveQuestPointMax - 最大クエストポイント達成！
+UpdateMsgTemplate - <yellow>クエスト目標更新！　$(0)<c>
+ResetHalfDoll - N-ハーフドールが再度使用可能になりました
+TrigerActiveRetiredNotice - バトルトリガーの使用者がクエストを<br>リタイアしたことにより、フィールドに戻ります。
+TrigerJoinDiscardNotice - バトルトリガーの使用者がクエストを<br>破棄したことにより、フィールドに戻ります。
+FailureLimitRemaining - サイドミッションを<br>あと$(0)つ失敗するとクエスト失敗
+FailureLimitRemaining_Dead - あと$(0)回戦闘不能でクエスト失敗
+NextQuestLevel - $(0)のRank$(1)が解放されました。
+AllDeathClearRemainingSec - 全滅から一定時間経過でクエスト終了
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+QuestFailureCondition
+Group 0
+None - なし
+TimeOver - $(0)以上経過する
+TrialFailure - 指定トライアルの失敗
+DeadCount - $(0)回戦闘不能になる
+FallCount - $(0)回落下する
+DeadMenu - クエストリタイアを選択
+FailureSideMission - サイドミッションを$(0)回失敗
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+QuestSuccessCondition
+Group 0
+None - なし
+Story - 対象エネミーの撃破
+Trainia - メインミッションの達成
+Urgency - 対象エネミーの撃破
+Prize - 対象エネミーの撃破
+Colosseo - 対象エネミーの撃破<br>制限時間の経過
+Trinites - 最深部を目指す
+GoalGetter - エネミーを倒し目標を破壊する
+FinalAttacker - 対象エネミーの撃破
+Babel - 対象エネミーの撃破
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+questblockade
+Group 0
+BlockadeMsg_1 - 現在このクエストを受注できません。詳しくは公式サイトをご確認ください
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Common_highrank
+Group 0
+highrank_text01 - ハイランクセクション
+highrank_text02 - 【Rank.1】エネミーLv.5～
+highrank_text03 - 【Rank.2】エネミーLv.15～
+highrank_text04 - 【Rank.2】必要戦闘力：1184以上
+highrank_text05 - 【Rank.1】
+highrank_text06 - 【Rank.2】
+highrank_text07 - 必要戦闘力
+highrank_text08 - 【Rank.2】必要戦闘力：1184以上
+highrank_text09 - 【Rank.1】
+highrank_text10 - 【Rank.2】
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+RebootDefense
+Group 0
+DefensePurpose - クエスト目標
+DefensePurposeDetails - 資源採掘リグを防衛せよ！
+DefenseHP - 防衛対象耐久値
+DefenseMaterial - 取得ポイント
+DefenseMaterialPt - Pt
+WaveRemainTime - 残り時間
+WaveEndRemainTimeDetails - Wave.$(0)終了まで
+WaveStartRemainTimeDetails - Wave.$(0)開始まで
+DefenseNavigation - アドバイス
+MaterialEffectUseable - <yellow>$(0)<c>が使用可能になりました。
+MaterialEffectBaseRecovery - 耐久値回復
+MaterialEffectBaseBarrier - バリアシールド
+MaterialEffectSpeciallyArmedGatling - モバイルキャノン
+MaterialEffectSpeciallyArmedSnowBoard - フローティングボード
+MaterialEffectSpeciallyArmedMultiLockMissle - モバイルキャノンM2
+DiscriptionAccidentWall - 【SUDDEN INCIDENT!!】<br>阻塞壁<yellow>バリゲール<c>が出現！　進路の妨害に注意せよ！
+DiscriptionAccidentErosionCoreRush - 【SUDDEN INCIDENT!!】<br>拠点襲撃機<yellow>バックハック<c>が出現！　資源採掘リグから排除せよ！
+DiscriptionAccidentErosionGunRush - 【SUDDEN INCIDENT!!】<br>中距離重砲<yellow>メルドラーム<c>が出現！　攻撃開始前に撃破せよ！
+DiscriptionAccidentBoostEnemy - 【SUDDEN INCIDENT!!】<br>エンハンスドエネミーの一群を確認！　強力な攻撃に注意せよ！
+NoticeDestroyAllBase - 全資源採掘リグの被害甚大！<br>敵勢力が攻勢を停止……順次撤退する模様……！
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+BattleTriggerCommon
+Group 0
+BattleTrigger_ConsumeItem - $(0)を消費しました。
+BattleTrigger_Activate_Success - $(0)が、トリガーポータルを起動しました。
+BattleTrigger_Activate_Error_PartyMember - トリガーポータルは、パーティーリーダーのみが起動できます。
+BattleTrigger_Deactivate - バトルトリガーの使用者がこのセクションから移動したため、トリガーポータルが停止しました。
+BattleTrigger_Deactivate_LostItem - トリガーポータルの起動に必要なバトルトリガーの個数が不足したため、機能が停止しました。
+BattleTrigger_Deactivate_QuestDrop - トリガーポータルの起動に必要なバトルトリガーの個数が不足したため、機能が停止しました。
+BattleTrigger_Deactivate_Worldmap - 異なるトリガーポータルが起動したため、起動中だったポータルが停止しました。
+BattleTrigger_Activate_Marge - トリガーポータルの稼働状況が、参加したパーティー側の状態に更新されました。
+Questcounter_Deactivate_QuestDrop - 必要なバトルトリガーの個数が不足したため、クエストを破棄しました。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+BlockMove
+Group 0
+BlockMoveFailed - ブロック移動に失敗しました。
+RegionMoveConfirm - $(0)リージョンのブロックに移動します。<br><br>クエストのマッチングはキャンセルされ、<br>受注中のクエストは破棄されます。<br>よろしいですか？
+RegionCityMoveConfirm - $(0)シティに移動します。<br>よろしいですか？
+RegionMoving - $(0)リージョンに移動中です。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+ChallengeBuff
+Group 0
+UpdateToastMessage - 新しいチャレンジ設定が解放されました。
+CbEnemyHp01 - エネミー最大HP＋25％
+DescCbEnemyHp01 - エネミー最大HPが増加する。
+CbEnemyHp02 - エネミー最大HP＋50％
+DescCbEnemyHp02 - エネミー最大HPが増加する。
+CbEnemyHp03 - エネミー最大HP＋75％
+DescCbEnemyHp03 - エネミー最大HPが増加する。
+CbEnemyHp04 - エネミー最大HP＋100％
+DescCbEnemyHp04 - エネミー最大HPが増加する。
+CbEnemyHp05 - エネミー最大HP＋125％
+DescCbEnemyHp05 - エネミー最大HPが増加する。
+CbEnemyHp06 - エネミー最大HP＋150％
+DescCbEnemyHp06 - エネミー最大HPが増加する。
+CbEnemyHp07 - エネミー最大HP＋200％
+DescCbEnemyHp07 - エネミー最大HPが増加する。
+CbEnemyHp08 - エネミー最大HP＋250％
+DescCbEnemyHp08 - エネミー最大HPが増加する。
+CbEnemyHp09 - エネミー最大HP＋300％
+DescCbEnemyHp09 - エネミー最大HPが増加する。
+CbEnemyHp10 - エネミー最大HP＋400％
+DescCbEnemyHp10 - エネミー最大HPが増加する。
+CbEnemyAtkUp01 - エネミー攻撃力＋25％
+DescCbEnemyAtkUp01 - エネミーの攻撃力が増加する。
+CbEnemyAtkUp02 - エネミー攻撃力＋50％
+DescCbEnemyAtkUp02 - エネミーの攻撃力が増加する。
+CbEnemyAtkUp03 - エネミー攻撃力＋75％
+DescCbEnemyAtkUp03 - エネミーの攻撃力が増加する。
+CbEnemyAtkUp04 - エネミー攻撃力＋100％
+DescCbEnemyAtkUp04 - エネミーの攻撃力が増加する。
+CbEnemyAtkUp05 - エネミー攻撃力＋125％
+DescCbEnemyAtkUp05 - エネミーの攻撃力が増加する。
+CbEnemyAtkUp06 - エネミー攻撃力＋150％
+DescCbEnemyAtkUp06 - エネミーの攻撃力が増加する。
+CbEnemyAtkUp07 - エネミー攻撃力＋175％
+DescCbEnemyAtkUp07 - エネミーの攻撃力が増加する。
+CbEnemyAtkUp08 - エネミー攻撃力＋200％
+DescCbEnemyAtkUp08 - エネミーの攻撃力が増加する。
+CbEnemyAtkUp09 - エネミー攻撃力＋250％
+DescCbEnemyAtkUp09 - エネミーの攻撃力が増加する。
+CbEnemyAtkUp10 - エネミー攻撃力＋300％
+DescCbEnemyAtkUp10 - エネミーの攻撃力が増加する。
+FormidableEnemy - ランダムチャレンジC：ギガンティクス化
+DescFormidableEnemy - 一部のフロアでエネミーが<br>一定確率でギガンティクス化する。
+HighRankEnemy_cocoon25 - エネミーメガロティクス化25%
+DescHighRankEnemy_cocoon25 - 出現するエネミーの25%が<br>メガロティクス化する。
+HighRankEnemy_cocoon50 - エネミーメガロティクス化50%
+DescHighRankEnemy_cocoon50 - 出現するエネミーの50%が<br>メガロティクス化する。
+HighRankEnemy_cocoon75 - エネミーメガロティクス化75%
+DescHighRankEnemy_cocoon75 - 出現するエネミーの75%が<br>メガロティクス化する。
+BoostController_cocoon - エネミーエンハンスドエネミー化
+DescBoostController_cocoon - 一部のエネミーが<br>エンハンスドエネミー化する。
+HighRankEnemy_cocoonBoss - 全ボスエネミーメガロティクス化
+DescHighRankEnemy_cocoonBoss - すべてのボスエネミーが<br>メガロティクス化する。
+BoostController_cocoonBoss - 全ボスエネミーエンハンサー付与
+DescBoostController_cocoonBoss - すべてのボスエネミーが<br>エンハンスドエネミー化する。
+RandomSetA - ランダムチャレンジA
+DescRandomSetA - 一部のフロアで<br>ランダムチャレンジが発生する。
+RandomSetB - ランダムチャレンジB
+DescRandomSetB - 一部のフロアで<br>ランダムチャレンジが発生する。
+RandomSetC - ランダムチャレンジC
+DescRandomSetC - 一部のフロアで<br>ランダムチャレンジが発生する。
+CbPlayerHarvest1 - レスタサイン消費数増加：Lv.1
+DescCbPlayerHarvest1 - レスタサインの消費数が2倍になる。
+CbPlayerHarvest2 - レスタサイン消費数増加：Lv.2
+DescCbPlayerHarvest2 - レスタサインの消費数が3倍になる。
+CbPlayerHarvest3 - レスタサイン消費数増加：Lv.3
+DescCbPlayerHarvest3 - レスタサインの消費数が4倍になる。
+CbPlayerHarvest4 - レスタサイン消費数増加：Lv.4
+DescCbPlayerHarvest4 - レスタサインの消費数が5倍になる。
+CbPlayerHarvest5 - レスタサイン消費数増加：Lv.5
+DescCbPlayerHarvest5 - レスタサインの消費数が6倍になる。
+CbPlayerRecoveryGauge1 - 各サイン最大所持数減少：Lv.1
+DescCbPlayerRecoveryGauge1 - レスタサインとリバーサーサインの<br>最大所持数が1個減少する。
+CbPlayerRecoveryGauge2 - 各サイン最大所持数減少：Lv.2
+DescCbPlayerRecoveryGauge2 - レスタサインとリバーサーサインの<br>最大所持数が2個減少する。
+CbPlayerRecoveryGauge3 - 各サイン最大所持数減少：Lv.3
+DescCbPlayerRecoveryGauge3 - レスタサインとリバーサーサインの<br>最大所持数が3個減少する。
+CbPlayerRecoveryGauge4 - 各サイン最大所持数減少：Lv.4
+DescCbPlayerRecoveryGauge4 - レスタサインとリバーサーサインの<br>最大所持数が4個減少する。
+CbPlayerPbGuageReduction2 - ランダムチャレンジB：PBゲージ増加量－90%
+DescCbPlayerPbGuageReduction2 - 一部のフロアでフォトンブラストの<br>ゲージ増加量が90%減少する。
+CbPlayerPpDecrease2 - ランダムチャレンジB：PP消費量＋30%
+DescCbPlayerPpDecrease2 - 一部のフロアで<br>PP消費量が30%増加する。
+CbPlayerContinuousDamage2 - ランダムチャレンジC：HP10秒毎－20
+DescCbPlayerContinuousDamage2 - 一部のフロアで<br>HPが10秒毎20減少する。
+Category2_QuestEnemyLevelUp_001 - エネミーレベルアップ：Lv.1
+DescCategory2_QuestEnemyLevelUp_001 - 出現するエネミーのレベルが＋1される。
+Category2_QuestEnemyLevelUp_002 - エネミーレベルアップ：Lv.2
+DescCategory2_QuestEnemyLevelUp_002 - 出現するエネミーのレベルが＋2される。
+Category2_QuestEnemyLevelUp_003 - エネミーレベルアップ：Lv.3
+DescCategory2_QuestEnemyLevelUp_003 - 出現するエネミーのレベルが＋3される。
+Category2_QuestEnemyLevelUp_004 - エネミーレベルアップ：Lv.4
+DescCategory2_QuestEnemyLevelUp_004 - 出現するエネミーのレベルが＋4される。
+BuffFirstLineMsg_1 - チャレンジ設定<br>$(0)
+BuffFirstLineMsg_2 - チャレンジ設定<br>$(0)<br>$(1)
+BuffFirstLineMsg_3 - チャレンジ設定<br>$(0)<br>$(1)<br>$(2)
+BuffFirstLineMsg_4 - チャレンジ設定<br>$(0)<br>$(1)<br>$(2)<br>$(3)
+BuffFirstLineMsg_5 - チャレンジ設定<br>$(0)<br>$(1)<br>$(2)<br>$(3)<br>$(4)
+BuffFirstLineMsg_6 - チャレンジ設定<br>$(0)<br>$(1)<br>$(2)<br>$(3)<br>$(4)<br>$(5)
+BuffFirstLineMsg_7 - チャレンジ設定$(0)<br>$(1)<br>$(2)<br>$(3)<br>$(4)<br>$(5)<br>$(6)
+BuffFirstLineMsg_8 - チャレンジ設定<br>$(0)<br>$(1)<br>$(2)<br>$(3)<br>$(4)<br>$(5)<br>$(6)<br>$(7)
+BuffFirstLineMsg_9 - チャレンジ設定<br>$(0)<br>$(1)<br>$(2)<br>$(3)<br>$(4)<br>$(5)<br>$(6)<br>$(7)<br>$(8)
+BuffFirstLineMsg_10 - チャレンジ設定<br>$(0)<br>$(1)<br>$(2)<br>$(3)<br>$(4)<br>$(5)<br>$(6)<br>$(7)<br>$(8)<br>$(9)
+BuffAccidentLineMsg_1 - ランダムチャレンジ発生<br>$(0)
+BuffAccidentLineMsg_2 - ランダムチャレンジ発生<br>$(0)<br>$(1)
+BuffAccidentLineMsg_3 - ランダムチャレンジ発生<br>$(0)<br>$(1)<br>$(2)
+BuffAccidentLineMsg_4 - ランダムチャレンジ発生<br>$(0)<br>$(1)<br>$(2)<br>$(3)
+BuffAccidentLineMsg_5 - ランダムチャレンジ発生<br>$(0)<br>$(1)<br>$(2)<br>$(3)<br>$(4)
+BuffAccidentLineMsg_6 - ランダムチャレンジ発生<br>$(0)<br>$(1)<br>$(2)<br>$(3)<br>$(4)<br>$(5)
+BuffAccidentLineMsg_7 - ランダムチャレンジ発生<br>$(0)<br>$(1)<br>$(2)<br>$(3)<br>$(4)<br>$(5)<br>$(6)
+BuffAccidentLineMsg_8 - ランダムチャレンジ発生<br>$(0)<br>$(1)<br>$(2)<br>$(3)<br>$(4)<br>$(5)<br>$(6)<br>$(7)
+BuffAccidentLineMsg_9 - ランダムチャレンジ発生<br>$(0)<br>$(1)<br>$(2)<br>$(3)<br>$(4)<br>$(5)<br>$(6)<br>$(7)<br>$(8)
+BuffAccidentLineMsg_10 - ランダムチャレンジ発生<br>$(0)<br>$(1)<br>$(2)<br>$(3)<br>$(4)<br>$(5)<br>$(6)<br>$(7)<br>$(8)<br>$(9)
+HPDownLV2 - ランダムチャレンジA：HP－50%
+DescHPDownLV2 - 一部のフロアで<br>HPが50%減少する。
+PPDownLV2 - ランダムチャレンジA：PP－50
+DescPPDownLV2 - 一部のフロアで<br>PPが50減少する。
+Pyramid_EnemyContensTrigger - イコライジングエネミー弱体化
+DescPyramid_EnemyContensTrigger - イコライジングエネミーのHPが50%減少し<br>撃破時の周囲へのダメージが100%増加する。
+Pyramid_ClearCountInflictDamage - クリア回数で攻撃威力上昇
+DescPyramid_ClearCountInflictDamage - トリニテスのクリア回数に応じて<br>攻撃威力が上昇する。
+Pyramid_SClearCountCriticalRate - Sランククリア回数でクリティカル率上昇
+DescPyramid_SClearCountCriticalRate - トリニテスのSランククリア回数に応じて<br>クリティカル発生率が上昇する。
+Pyramid_InflictDamageIncrease_SideMissionClear - 攻撃威力＋５%
+Pyramid_InflictDamageIncrease - 攻撃威力＋25%
+DescPyramid_InflictDamageIncrease - 攻撃威力が25%上昇する。
+Pyramid_DamageCut_SideMissionClear - ダメージ耐性＋10％
+Pyramid_DamageCut - ダメージ耐性＋30％
+DescPyramid_DamageCut - ダメージ耐性が＋30％上昇する。
+Pyramid_AddCritical - クリティカル率＋30%
+DescPyramid_AddCritical - クリティカル発生率が30%上昇する。
+Pyramid_AddCriticalDamege - クリティカル威力＋50%
+DescPyramid_AddCriticalDamege - クリティカル時の威力が50%上昇する。
+Pyramid_AttackPpHealRateUp_SideMissionClear - 攻撃時PP回復量＋15%
+Pyramid_AttackPpHealRateUp - 攻撃時PP回復量＋100%
+DescPyramid_AttackPpHealRateUp - 攻撃時のPP回復量が100%増加する。
+Pyramid_PaTechniquePpDwon - PP消費量－30%
+DescPyramid_PaTechniquePpDwon - PP消費量が30%減少する。
+Pyramid_WeekPointDamegeUp - 弱点部位攻撃威力＋50%
+DescPyramid_WeekPointDamegeUp - 弱点攻撃時の攻撃威力が50%上昇する。
+Pyramid_EnemyKillCountHpAdd - エネミー撃破数で最大HP増加
+DescPyramid_EnemyKillCountHpAdd - トリニテスで倒したエネミーの数に応じて<br>最大HPが増加する。
+Pyramid_MaxHpAdd - HP増加＋50％
+DescPyramid_MaxHpAdd - HPが50％増加する。
+Pyramid_MaxPpAdd - PP増加＋20
+DescPyramid_MaxPpAdd - PPが20増加する。
+Pyramid_RecoveryGaugeIncrease - 各サイン最大所持数2倍
+DescPyramid_RecoveryGaugeIncrease - レスタサイン、リバーサーサインの<br>最大所持数が2倍になる。
+Pyramid_PbGuageIncrease - フォトンブラストゲージ自然蓄積量＋100％
+DescPyramid_PbGuageIncrease - フォトンブラストゲージの<br>自然蓄積量が100%増加する。
+Category1_QuestEnemyLevelOffset-5 - エネミーレベルダウン：Lv.5
+DescCategory1_QuestEnemyLevelOffset-5 - 出現するエネミーの<br>レベルがー５される。
+Category1_QuestEnemyLevelOffset-10 - エネミーレベルダウン：Lv.10
+DescCategory1_QuestEnemyLevelOffset-10 - 出現するエネミーの<br>レベルがー10される。
+Pyramid_EqualizingKillCountAddPp - イコライジングエネミー撃破数で最大PP増加
+DescPyramid_EqualizingKillCountAddPp - トリニテスで倒したイコライジングエネミー<br>の数に応じて最大PPが増加する。
+Pyramid_PbGuageBossKillIncrease - ボスエネミー撃破数でPB自然蓄積量増加
+DescPyramid_PbGuageBossKillIncrease - トリニテスで倒したボスエネミーの数に<br>応じてPBゲージの自然蓄積量が増加する。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+TrinitesCommon
+Group 0
+Trinites_PointSymbol - ($(0)Pt)
+Trinites_FloorInfo - 現在のフロア:
+Trinites_FloorSymbol - $(0)
+Trinites_FailureCondition - サイドミッションの失敗
+Trinites_Mission_Buff - サイドミッション達成ブースト
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+QuestRetryError
+Group 0
+RemainingPoolDrop - メンバーがクエスト倉庫の画面を開いているため、リトライが出来ません。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+GoalGetterCommon
+Group 0
+GoalGetter_UITitle_TargetNum - ターゲット数
+GoalGetter_UITitle_BoalNum - 出現中のキャノンボール数
+GoalGetter_UITitle_Time - 制限時間
+GoalGetter_UITitle_Score - スコア
+GoalGetter_UITitle_Target_Details - $(0)/$(1)
+GoalGetter_UITitle_Ball_Details - $(0)
+GoalGetter_UITitle_Time_Details - Wave.$(0)終了まで
+GoalGetter_UITitle_Wave_Details - Wave.$(0)
+GoalGetter_UITitle_TimeUp - クエスト終了<br>制限時間超過<br>残りターゲット数：$(0)
+GoalGetter_UITitle_Target_Remaining - 残りターゲット数：$(0)
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+FinalAttackerCommon
+Group 0
+Journal_MissionTitle - クエスト目標
+Jounal_MissionExplanation - エネミーを倒してスコアGET!
+Jounal_ScoreTitle - クエストポイント
+Jounal_TopPlayerTitle - ベストプレイヤー
+Jounal_Point - Pt
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+BabelCommon
+Group 0
+Babel_FailureDueToDeath - 戦闘不能$(0)回で失敗
+Babel_FailureDueToTimeLimit - 制限時間の経過
+Babel_UITitle - 到達ランク予想
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
