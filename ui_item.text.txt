@@ -1,5 +1,5 @@
-ui_item.text was created: 2023/2/8 11:47:29
-Filesize is: 798944 bytes
+ui_item.text was created: 2023/4/5 7:41:55
+Filesize is: 810320 bytes
 
 TicketMain
 Group 0
@@ -97,7 +97,7 @@ ITEM20 - ITEM20
 ITEM21 - ITEM21
 ITEM22 - ITEM22
 ITEM23 - ITEM23
-ITEM24 - ITEM24
+ITEM24 - 拡張倉庫7
 ITEM25 - 拡張倉庫6
 ITEM26 - 素材倉庫<pict StarGem>
 ITEM27 - 拡張倉庫4
@@ -728,7 +728,9 @@ MenuSendWarehouseAddition03 - 拡張倉庫３に預ける<pict Arcscash>　（$(
 MenuSendWarehouseAddition04 - 拡張倉庫４に預ける<pict Arcscash>　（$(1)/$(0)）
 MenuSendWarehouseAddition05 - 拡張倉庫５に預ける<pict Arcscash>　（$(1)/$(0)）
 MenuSendWarehouseAddition06 - 拡張倉庫６に預ける<pict Arcscash>　（$(1)/$(0)）
+MenuSendWarehouseAddition07 - 拡張倉庫７に預ける<pict Arcscash>　（$(1)/$(0)）
 MenuSendWarehouseAdditionOTP - OTP倉庫に預ける　（$(1)/$(0)）
+MenuSendWarehouseAdditionGlobal - ミッションパス倉庫に預ける　（$(1)/$(0)）
 MenuTakeWarehouse - 取り出す　（$(1)/$(0)）
 MenuMoveWarehouse - 預ける
 MenuMoveWarehouseNone - 有効な倉庫がありません
@@ -740,7 +742,9 @@ MenuMoveWarehouseAddition03 - <pict wh_extend3_icon>拡張倉庫３に預ける<
 MenuMoveWarehouseAddition04 - <pict wh_extend4_icon>拡張倉庫４に預ける<pict Arcscash>　（$(1)/$(0)）
 MenuMoveWarehouseAddition05 - <pict wh_extend5_icon>拡張倉庫５に預ける<pict Arcscash>　（$(1)/$(0)）
 MenuMoveWarehouseAddition06 - <pict wh_extend6_icon>拡張倉庫６に預ける<pict Arcscash>　（$(1)/$(0)）
+MenuMoveWarehouseAddition07 - <pict wh_extend7_icon>拡張倉庫７に預ける<pict Arcscash>　（$(1)/$(0)）
 MenuMoveWarehouseAdditionOTP - <pict wh_otp_icon>OTP倉庫に預ける　（$(1)/$(0)）
+MenuMoveWarehouseAdditionGlobal - <pict wh_global_icon>ミッションパス倉庫に預ける　（$(1)/$(0)）
 MenuSendGuildWarehouse - <pict wh_icon_team>チーム倉庫に預ける
 MenuTakeGuildWarehouse - 取り出す　（$(1)/$(0)）
 MenuMoveGuildWarehouse - <pict wh_icon_team>チーム倉庫に預ける
@@ -856,6 +860,7 @@ ConsumeErrorMessage8 - 有効期限が180日以上になる機能があるため
 ConsumeErrorMessage9 - 有効期限が90日以上になる機能があるため<br>現在このアイテムは使用できません。<br><br>メインメニューの「購入履歴/有効期限」から<br>「レンタル有効期限」を選択して<br>延長される各機能の有効期限をご確認ください。
 ConsumeErrorMessage10 - 有効期限が180日以上になる機能があるため<br>これ以上購入することはできません。<br><br>メインメニューの「購入履歴/有効期限」から<br>「レンタル有効期限」を選択して<br>延長される各機能の有効期限をご確認ください。
 ConsumeErrorMessage11 - 有効期限が90日以上になる機能があるため<br>これ以上購入することはできません。<br><br>メインメニューの「購入履歴/有効期限」から<br>「レンタル有効期限」を選択して<br>延長される各機能の有効期限をご確認ください。
+ConsumeErrorMessage13 - レンタル有効期限の上限日数を超えるため<br>このアイテムは使用できません。
 ResultItemFull - アイテムの受け取り先不足のため、報酬を入手できませんでした。
 ResultMesetaFull - メセタの所持可能数を超えるため、報酬を入手できませんでした。
 ItemSetWareHouse - アイテムの所持可能数を超えるため、倉庫に送りました。
@@ -1072,6 +1077,8 @@ Label_CostumeGauge - 愛着度
 Label_SG_Received - スタージェム入手済み
 Label_EffectTime - 効果時間
 Label_ExpirationDate - 有効期限
+Label_FreeGiftExchangeDate - 景品交換期限
+DateLimitOver - <scarlet>$(0)<c>
 Label_UndecidedExpirationDate - 取得後に決定されます
 Label_ConsumptionPP - 消費PP
 Label_Power - 威力
@@ -1558,6 +1565,7 @@ WarehouseSystemPostStoreMessage - <pict New>運営倉庫に受け取っていな
 WarehouseAddition04 - 拡張倉庫４
 WarehouseAddition05 - 拡張倉庫５
 WarehouseAddition06 - 拡張倉庫６
+WarehouseAddition07 - 拡張倉庫７
 OneTimePassward - OTP倉庫
 MoveAll - 素材倉庫に一括移動
 Meseta - メセタ操作
@@ -1580,12 +1588,13 @@ WarehouseEs - PSO2es倉庫
 WarehouseDish - 素材倉庫
 WarehouseTeam - チーム倉庫
 WarehouseMeseta - メセタ倉庫
+WarehouseGlobal - ミッションパス倉庫
 UnknownStoreNumber - －
 WarehouseMenu_HeaderTitle - 倉庫メニュー
 WarehouseMenu_HeaderTitleHint - 各倉庫に、アイテムやメセタを預けたり、取り出したりできます。
 WarehouseMenu_MenuTitle - 倉庫メニュー
 WarehouseMenu_Menu01 - 倉庫を開く
-WarehouseMenu_Menu02 - 素材倉庫に一括移動する
+WarehouseMenu_Menu02 - 素材倉庫に一括移動する<pict 4space><pict StarGem>
 WarehouseMenu_Menu03 - N-メセタを預ける・引き出す
 WarehouseMenu_MesetaInfoTitle - <pict reb_meseta>メセタ
 WarehouseMenu_MesetaInfo01 - 所持金
@@ -1618,6 +1627,7 @@ WarehouseQuest_Receiving_Guidance_Window_title - クエスト一時倉庫の残�
 WarehouseQuest_Receiving_Guidance_Window_mes - クエスト一時倉庫のアイテムは<br>次のクエスト開始時に<yellow>自動的に売却<c>されます。<br>クエスト倉庫を開いて整理しますか？
 WarehouseQuest_Receiving_Warning_Message - <yellow>クエスト一時倉庫<c>にアイテムが残っている<br>パーティーメンバーがいるため、クエストを開始できません。
 WarehouseQuest_Receiving_Confirm_MoveAll - クエスト一時倉庫から素材倉庫に一括移動します。<br>よろしいですか？
+Explanation_AllItems - 以下の倉庫を除いた、すべての所持アイテムを表示します。<br><br>“一時倉庫”<br>“ドロップ一時倉庫”<br>“クエスト一時倉庫”<br>“運営倉庫”<br>“拡張倉庫”<br><br><yellow>※“お気に入り倉庫”に設定されている<br>　“拡張倉庫”は表示されます。<c>
 
 Group 1
 
@@ -3376,6 +3386,13 @@ Recent_transaction_status - 直近の取引状況
 Closed_owner_info_1 - オーナーが特定の称号を<br>獲得することで公開されます。
 Closed_owner_info_2 - 称号“マイショップバイヤー”を<br>獲得することで閲覧できます。
 Closed_symbolart_option_Info - シンボルアートは非表示設定になっています。<br><br><yellow>※“オプション”の“サウンド・チャット”にある<br>　“シンボルアートの表示:マイショップ”から<br>　表示設定の変更が可能です。<c>
+AddBlockList_SymbolArt - このシンボルアートをブロックする
+AddBlockList_Player - このオーナーをブロックリストに登録する
+Alert_Player - このオーナーを報告する
+Alert_Continue - ブロックリストに登録しました。<br>続けて、このオーナーを報告しますか？
+Mes_Blocked - シンボルアートがブロックされています。ブロックの解除は、“シンボルアートリスト”の“ヒストリ”から行えます。
+Mes_NotSubject - シンボルアートがありません。
+Mes_HiddenSetting - シンボルアートが非表示設定のため、この機能は利用できません。
 
 Group 1
 
@@ -3849,16 +3866,19 @@ item_PpEfficiency_2 - 気功の型 Lv.2
 item_PpEfficiency_3 - 気功の型 Lv.3
 item_PpEfficiency_4 - 気功の型 Lv.4
 item_PpEfficiency_5 - 気功の型 Lv.5
+item_PpEfficiency_6 - 気功の型 Lv.6
 item_DamageBarrier_1 - 牙城の型 Lv.1
 item_DamageBarrier_2 - 牙城の型 Lv.2
 item_DamageBarrier_3 - 牙城の型 Lv.3
 item_DamageBarrier_4 - 牙城の型 Lv.4
 item_DamageBarrier_5 - 牙城の型 Lv.5
+item_DamageBarrier_6 - 牙城の型 Lv.6
 item_EscapeCritical_1 - 瞬撃の型 Lv.1
 item_EscapeCritical_2 - 瞬撃の型 Lv.2
 item_EscapeCritical_3 - 瞬撃の型 Lv.3
 item_EscapeCritical_4 - 瞬撃の型 Lv.4
 item_EscapeCritical_5 - 瞬撃の型 Lv.5
+item_EscapeCritical_6 - 瞬撃の型 Lv.6
 item_PbGaugeUp_1 - 理発の型 Lv.1
 item_PbGaugeUp_2 - 理発の型 Lv.2
 item_PbGaugeUp_3 - 理発の型 Lv.3
@@ -3869,16 +3889,19 @@ item_DefCritical_2 - 守勢の陣 Lv.2
 item_DefCritical_3 - 守勢の陣 Lv.3
 item_DefCritical_4 - 守勢の陣 Lv.4
 item_DefCritical_5 - 守勢の陣 Lv.5
+item_DefCritical_6 - 守勢の陣 Lv.6
 item_AtkCritical_1 - 攻勢の陣 Lv.1
 item_AtkCritical_2 - 攻勢の陣 Lv.2
 item_AtkCritical_3 - 攻勢の陣 Lv.3
 item_AtkCritical_4 - 攻勢の陣 Lv.4
 item_AtkCritical_5 - 攻勢の陣 Lv.5
+item_AtkCritical_6 - 攻勢の陣 Lv.6
 item_WholeBody_1 - 渾身の型 Lv.1
 item_WholeBody_2 - 渾身の型 Lv.2
 item_WholeBody_3 - 渾身の型 Lv.3
 item_WholeBody_4 - 渾身の型 Lv.4
 item_WholeBody_5 - 渾身の型 Lv.5
+item_WholeBody_6 - 渾身の型 Lv.6
 item_StackHeal_1 - 利運の型 Lv.1
 item_StackHeal_2 - 利運の型 Lv.2
 item_StackHeal_3 - 利運の型 Lv.3
@@ -3904,71 +3927,85 @@ item_ItemReturn_2 - 節制の型 Lv.2
 item_ItemReturn_3 - 節制の型 Lv.3
 item_ItemReturn_4 - 節制の型 Lv.4
 item_ItemReturn_5 - 節制の型 Lv.5
+item_ItemReturn_6 - 節制の型 Lv.6
 item_ReactionDown2_1 - 不屈の型 Lv.1
 item_ReactionDown2_2 - 不屈の型 Lv.2
 item_ReactionDown2_3 - 不屈の型 Lv.3
 item_ReactionDown2_4 - 不屈の型 Lv.4
 item_ReactionDown2_5 - 不屈の型 Lv.5
+item_ReactionDown2_6 - 不屈の型 Lv.6
 item_PbGaugeUp2_1 - 理放の型 Lv.1
 item_PbGaugeUp2_2 - 理放の型 Lv.2
 item_PbGaugeUp2_3 - 理放の型 Lv.3
 item_PbGaugeUp2_4 - 理放の型 Lv.4
 item_PbGaugeUp2_5 - 理放の型 Lv.5
+item_PbGaugeUp2_6 - 理放の型 Lv.6
 item_ElementPpBonus_1 - 勇猛の型 Lv.1
 item_ElementPpBonus_2 - 勇猛の型 Lv.2
 item_ElementPpBonus_3 - 勇猛の型 Lv.3
 item_ElementPpBonus_4 - 勇猛の型 Lv.4
 item_ElementPpBonus_5 - 勇猛の型 Lv.5
+item_ElementPpBonus_6 - 勇猛の型 Lv.6
 item_AllBonus_1 - 猛滅の型 Lv.1
 item_AllBonus_2 - 猛滅の型 Lv.2
 item_AllBonus_3 - 猛滅の型 Lv.3
 item_AllBonus_4 - 猛滅の型 Lv.4
 item_AllBonus_5 - 猛滅の型 Lv.5
+item_AllBonus_6 - 猛滅の型 Lv.6
 item_AllBonus2_1 - 鍛業の式 Lv.1
 item_AllBonus2_2 - 鍛業の式 Lv.2
 item_AllBonus2_3 - 鍛業の式 Lv.3
 item_AllBonus2_4 - 鍛業の式 Lv.4
 item_AllBonus2_5 - 鍛業の式 Lv.5
+item_AllBonus2_6 - 鍛業の式 Lv.6
 item_Proximity_1 - 勇健の型 Lv.1
 item_Proximity_2 - 勇健の型 Lv.2
 item_Proximity_3 - 勇健の型 Lv.3
 item_Proximity_4 - 勇健の型 Lv.4
 item_Proximity_5 - 勇健の型 Lv.5
+item_Proximity_6 - 勇健の型 Lv.6
 item_DoubleCritical_1 - 会心の型 Lv.1
 item_DoubleCritical_2 - 会心の型 Lv.2
 item_DoubleCritical_3 - 会心の型 Lv.3
 item_DoubleCritical_4 - 会心の型 Lv.4
 item_DoubleCritical_5 - 会心の型 Lv.5
+item_DoubleCritical_6 - 会心の型 Lv.6
 item_PpComfortable_1 - 採気の型 Lv.1
 item_PpComfortable_2 - 採気の型 Lv.2
 item_PpComfortable_3 - 採気の型 Lv.3
 item_PpComfortable_4 - 採気の型 Lv.4
 item_PpComfortable_5 - 採気の型 Lv.5
+item_PpComfortable_6 - 採気の型 Lv.6
 item_BombField_1 - 爆領の型 Lv.1
 item_BombField_2 - 爆領の型 Lv.2
 item_BombField_3 - 爆領の型 Lv.3
 item_BombField_4 - 爆領の型 Lv.4
 item_BombField_5 - 爆領の型 Lv.5
+item_BombField_6 - 爆領の型 Lv.6
 item_BossWeak_1 - 闘志の型 Lv.1
 item_BossWeak_2 - 闘志の型 Lv.2
 item_BossWeak_3 - 闘志の型 Lv.3
 item_BossWeak_4 - 闘志の型 Lv.4
 item_BossWeak_5 - 闘志の型 Lv.5
+item_BossWeak_6 - 闘志の型 Lv.6
 item_ReturnBarrier_1 - 堅城の型 Lv.1
 item_ReturnBarrier_2 - 堅城の型 Lv.2
 item_ReturnBarrier_3 - 堅城の型 Lv.3
 item_ReturnBarrier_4 - 堅城の型 Lv.4
 item_ReturnBarrier_5 - 堅城の型 Lv.5
+item_ReturnBarrier_6 - 堅城の型 Lv.6
 item_PpReturn_1 - 気巡の型 Lv.1
 item_PpReturn_2 - 気巡の型 Lv.2
 item_PpReturn_3 - 気巡の型 Lv.3
 item_PpReturn_4 - 気巡の型 Lv.4
 item_PpReturn_5 - 気巡の型 Lv.5
+item_PpReturn_6 - 気巡の型 Lv.6
 item_ChanceUp_1 - 穿石の型 Lv.1
 item_ChanceUp_2 - 穿石の型 Lv.2
 item_ChanceUp_3 - 穿石の型 Lv.3
 item_ChanceUp_4 - 穿石の型 Lv.4
 item_ChanceUp_5 - 穿石の型 Lv.5
+item_ChanceUp_6 - 穿石の型 Lv.6
 item_ElementPpBonus2_1 - 勇戦の型 Lv.1
 item_ElementPpBonus2_2 - 勇戦の型 Lv.2
 item_ElementPpBonus2_3 - 勇戦の型 Lv.3
@@ -3979,111 +4016,133 @@ item_Highlander_2 - 妙手の型 Lv.2
 item_Highlander_3 - 妙手の型 Lv.3
 item_Highlander_4 - 妙手の型 Lv.4
 item_Highlander_5 - 妙手の型 Lv.5
+item_Highlander_6 - 妙手の型 Lv.6
 item_QuestBuster_1 - 迷塞の型 Lv.1
 item_QuestBuster_2 - 迷塞の型 Lv.2
 item_QuestBuster_3 - 迷塞の型 Lv.3
 item_QuestBuster_4 - 迷塞の型 Lv.4
 item_QuestBuster_5 - 迷塞の型 Lv.5
+item_QuestBuster_6 - 迷塞の型 Lv.6
 item_EnemyBuster_1 - 偶機討滅の型 Lv.1
 item_EnemyBuster_2 - 偶機討滅の型 Lv.2
 item_EnemyBuster_3 - 偶機討滅の型 Lv.3
 item_EnemyBuster_4 - 偶機討滅の型 Lv.4
 item_EnemyBuster_5 - 偶機討滅の型 Lv.5
+item_EnemyBuster_6 - 偶機討滅の型 Lv.6
 item_EscapePpConvert_1 - 寸避の型 Lv.1
 item_EscapePpConvert_2 - 寸避の型 Lv.2
 item_EscapePpConvert_3 - 寸避の型 Lv.3
 item_EscapePpConvert_4 - 寸避の型 Lv.4
 item_EscapePpConvert_5 - 寸避の型 Lv.5
+item_EscapePpConvert_6 - 寸避の型 Lv.6
 item_EscapePpConvert2_1 - 瞬避の型 Lv.1
 item_EscapePpConvert2_2 - 瞬避の型 Lv.2
 item_EscapePpConvert2_3 - 瞬避の型 Lv.3
 item_EscapePpConvert2_4 - 瞬避の型 Lv.4
 item_EscapePpConvert2_5 - 瞬避の型 Lv.5
+item_EscapePpConvert2_6 - 瞬避の型 Lv.6
 item_AttackKeep_1 - 継撃の型 Lv.1
 item_AttackKeep_2 - 継撃の型 Lv.2
 item_AttackKeep_3 - 継撃の型 Lv.3
 item_AttackKeep_4 - 継撃の型 Lv.4
 item_AttackKeep_5 - 継撃の型 Lv.5
+item_AttackKeep_6 - 継撃の型 Lv.6
 item_PpSlayer_1 - 渇気の型 Lv.1
 item_PpSlayer_2 - 渇気の型 Lv.2
 item_PpSlayer_3 - 渇気の型 Lv.3
 item_PpSlayer_4 - 渇気の型 Lv.4
 item_PpSlayer_5 - 渇気の型 Lv.5
+item_PpSlayer_6 - 渇気の型 Lv.6
 item_DamagePpConvert_1 - 転気の型 Lv.1
 item_DamagePpConvert_2 - 転気の型 Lv.2
 item_DamagePpConvert_3 - 転気の型 Lv.3
 item_DamagePpConvert_4 - 転気の型 Lv.4
 item_DamagePpConvert_5 - 転気の型 Lv.5
+item_DamagePpConvert_6 - 転気の型 Lv.6
 item_OverWhelm_1 - 蹂躙の型 Lv.1
 item_OverWhelm_2 - 蹂躙の型 Lv.2
 item_OverWhelm_3 - 蹂躙の型 Lv.3
 item_OverWhelm_4 - 蹂躙の型 Lv.4
 item_OverWhelm_5 - 蹂躙の型 Lv.5
+item_OverWhelm_6 - 蹂躙の型 Lv.6
 item_ChaseAttack_1 - 追撃の型 Lv.1
 item_ChaseAttack_2 - 追撃の型 Lv.2
 item_ChaseAttack_3 - 追撃の型 Lv.3
 item_ChaseAttack_4 - 追撃の型 Lv.4
 item_ChaseAttack_5 - 追撃の型 Lv.5
+item_ChaseAttack_6 - 追撃の型 Lv.6
 item_KillingBarrier_1 - 積城の型 Lv.1
 item_KillingBarrier_2 - 積城の型 Lv.2
 item_KillingBarrier_3 - 積城の型 Lv.3
 item_KillingBarrier_4 - 積城の型 Lv.4
 item_KillingBarrier_5 - 積城の型 Lv.5
+item_KillingBarrier_6 - 積城の型 Lv.6
 item_OverTime_1 - 環気の型 Lv.1
 item_OverTime_2 - 環気の型 Lv.2
 item_OverTime_3 - 環気の型 Lv.3
 item_OverTime_4 - 環気の型 Lv.4
 item_OverTime_5 - 環気の型 Lv.5
-item_EscapeCritical2_1 - 瞬撃の型 Lv.1
-item_EscapeCritical2_2 - 瞬撃の型 Lv.2
-item_EscapeCritical2_3 - 瞬撃の型 Lv.3
-item_EscapeCritical2_4 - 瞬撃の型 Lv.4
-item_EscapeCritical2_5 - 瞬撃の型 Lv.5
+item_OverTime_6 - 環気の型 Lv.6
+item_EscapeCritical2_1 - 迅撃の型 Lv.1
+item_EscapeCritical2_2 - 迅撃の型 Lv.2
+item_EscapeCritical2_3 - 迅撃の型 Lv.3
+item_EscapeCritical2_4 - 迅撃の型 Lv.4
+item_EscapeCritical2_5 - 迅撃の型 Lv.5
+item_EscapeCritical2_6 - 迅撃の型 Lv.6
 item_BarrierSa_1 - 堅強の型 Lv.1
 item_BarrierSa_2 - 堅強の型 Lv.2
 item_BarrierSa_3 - 堅強の型 Lv.3
 item_BarrierSa_4 - 堅強の型 Lv.4
 item_BarrierSa_5 - 堅強の型 Lv.5
+item_BarrierSa_6 - 堅強の型 Lv.6
 item_KillingPpGain_1 - 収気の型 Lv.1
 item_KillingPpGain_2 - 収気の型 Lv.2
 item_KillingPpGain_3 - 収気の型 Lv.3
 item_KillingPpGain_4 - 収気の型 Lv.4
 item_KillingPpGain_5 - 収気の型 Lv.5
+item_KillingPpGain_6 - 収気の型 Lv.6
 item_CriticalBuff_1 - 閃烈の型 Lv.1
 item_CriticalBuff_2 - 閃烈の型 Lv.2
 item_CriticalBuff_3 - 閃烈の型 Lv.3
 item_CriticalBuff_4 - 閃烈の型 Lv.4
 item_CriticalBuff_5 - 閃烈の型 Lv.5
+item_CriticalBuff_6 - 閃烈の型 Lv.6
 item_CoChallenge_1 - 即撃の型 Lv.1
 item_CoChallenge_2 - 即撃の型 Lv.2
 item_CoChallenge_3 - 即撃の型 Lv.3
 item_CoChallenge_4 - 即撃の型 Lv.4
 item_CoChallenge_5 - 即撃の型 Lv.5
+item_CoChallenge_6 - 即撃の型 Lv.6
 item_NoDamageBuff_1 - 無創の型 Lv.1
 item_NoDamageBuff_2 - 無創の型 Lv.2
 item_NoDamageBuff_3 - 無創の型 Lv.3
 item_NoDamageBuff_4 - 無創の型 Lv.4
 item_NoDamageBuff_5 - 無創の型 Lv.5
+item_NoDamageBuff_6 - 無創の型 Lv.6
 item_Regenerate_1 - 緩癒の型 Lv.1
 item_Regenerate_2 - 緩癒の型 Lv.2
 item_Regenerate_3 - 緩癒の型 Lv.3
 item_Regenerate_4 - 緩癒の型 Lv.4
 item_Regenerate_5 - 緩癒の型 Lv.5
+item_Regenerate_6 - 緩癒の型 Lv.6
 item_PbBonus_1 - 理流の型 Lv.1
 item_PbBonus_2 - 理流の型 Lv.2
 item_PbBonus_3 - 理流の型 Lv.3
 item_PbBonus_4 - 理流の型 Lv.4
 item_PbBonus_5 - 理流の型 Lv.5
+item_PbBonus_6 - 理流の型 Lv.6
 item_PbBonus2_1 - 理巡の型 Lv.1
 item_PbBonus2_2 - 理巡の型 Lv.2
 item_PbBonus2_3 - 理巡の型 Lv.3
 item_PbBonus2_4 - 理巡の型 Lv.4
 item_PbBonus2_5 - 理巡の型 Lv.5
+item_PbBonus2_6 - 理巡の型 Lv.6
 item_CountUp_1 - 累堅の型 Lv.1
 item_CountUp_2 - 累堅の型 Lv.2
 item_CountUp_3 - 累堅の型 Lv.3
 item_CountUp_4 - 累堅の型 Lv.4
 item_CountUp_5 - 累堅の型 Lv.5
+item_CountUp_6 - 累堅の型 Lv.6
 item_GuardStanceUp_1 - 守勢練陣 Lv.1
 item_GuardStanceUp_2 - 守勢練陣 Lv.2
 item_GuardStanceUp_3 - 守勢練陣 Lv.3
@@ -7667,16 +7726,19 @@ item_PpEfficiency_2 - 威力＋20%／<br>攻撃時PP回復量＋10%<br>PP自然�
 item_PpEfficiency_3 - 威力＋23%／<br>攻撃時PP回復量＋10%<br>PP自然回復速度＋10%
 item_PpEfficiency_4 - 威力＋24%／<br>攻撃時PP回復量＋15%<br>PP自然回復速度＋15%
 item_PpEfficiency_5 - 威力＋25%／<br>攻撃時PP回復量＋20%<br>PP自然回復速度＋20%
+item_PpEfficiency_6 - 威力＋45%／<br>攻撃時PP回復量＋20%<br>PP自然回復速度＋20%
 item_DamageBarrier_1 - 威力＋18%／<br>HP最大時に<br>ダメージ耐性＋40%の<br>バリアが発生
 item_DamageBarrier_2 - 威力＋20%／<br>HP最大時に<br>ダメージ耐性＋40%の<br>バリアが発生
 item_DamageBarrier_3 - 威力＋23%／<br>HP最大時に<br>ダメージ耐性＋40%の<br>バリアが発生
 item_DamageBarrier_4 - 威力＋24%／<br>HP最大時に<br>ダメージ耐性＋50%の<br>バリアが発生
 item_DamageBarrier_5 - 威力＋25%／<br>HP80%以上時に<br>ダメージ耐性＋50%の<br>バリアが発生
+item_DamageBarrier_6 - 威力＋45%／<br>HP80%以上時に<br>ダメージ耐性＋50%の<br>バリアが発生
 item_EscapeCritical_1 - 威力＋16%／<br>ステップによる<br>回避成功時30秒間<br>クリティカル発生率＋15%
 item_EscapeCritical_2 - 威力＋18%／<br>ステップによる<br>回避成功時30秒間<br>クリティカル発生率＋15%
 item_EscapeCritical_3 - 威力＋21%／<br>ステップによる<br>回避成功時30秒間<br>クリティカル発生率＋15%
 item_EscapeCritical_4 - 威力＋21%／<br>ステップによる<br>回避成功時30秒間<br>クリティカル発生率＋18%
 item_EscapeCritical_5 - 威力＋22%／<br>ステップによる<br>回避成功時60秒間<br>クリティカル発生率＋25%
+item_EscapeCritical_6 - 威力＋30%／<br>ステップによる<br>回避成功時60秒間<br>クリティカル発生率＋25%
 item_PbGaugeUp_1 - 威力＋18%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋15%
 item_PbGaugeUp_2 - 威力＋20%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋15%
 item_PbGaugeUp_3 - 威力＋23%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋15%
@@ -7687,16 +7749,19 @@ item_DefCritical_2 - 威力＋19%／<br>防御力に応じて<br>クリティカ
 item_DefCritical_3 - 威力＋22%／<br>防御力に応じて<br>クリティカル発生率上昇<br>防御力1000で最大＋15%
 item_DefCritical_4 - 威力＋22%／<br>防御力に応じて<br>クリティカル発生率上昇<br>防御力1000で最大＋18%
 item_DefCritical_5 - 威力＋23%／<br>防御力に応じて<br>クリティカル発生率上昇<br>防御力1200で最大＋27%
+item_DefCritical_6 - 威力＋25%／<br>防御力に応じて<br>クリティカル発生率上昇<br>防御力1200で最大＋27%
 item_AtkCritical_1 - 威力＋17%／<br>攻撃力に応じて<br>クリティカル発生率上昇<br>攻撃力2000で最大＋15%
 item_AtkCritical_2 - 威力＋19%／<br>攻撃力に応じて<br>クリティカル発生率上昇<br>攻撃力2000で最大＋15%
 item_AtkCritical_3 - 威力＋22%／<br>攻撃力に応じて<br>クリティカル発生率上昇<br>攻撃力2000で最大＋15%
 item_AtkCritical_4 - 威力＋22%／<br>攻撃力に応じて<br>クリティカル発生率上昇<br>攻撃力2000で最大＋18%
 item_AtkCritical_5 - 威力＋23%／<br>攻撃力に応じて<br>クリティカル発生率上昇<br>攻撃力2400で最大＋27%
+item_AtkCritical_6 - 威力＋25%／<br>攻撃力に応じて<br>クリティカル発生率上昇<br>攻撃力2400で最大＋27%
 item_WholeBody_1 - 威力＋15%／<br>HP残量が多いほど威力上昇<br>最大＋5.0%
 item_WholeBody_2 - 威力＋17%／<br>HP残量が多いほど威力上昇<br>最大＋5.0%
 item_WholeBody_3 - 威力＋20%／<br>HP残量が多いほど威力上昇<br>最大＋5.0%
 item_WholeBody_4 - 威力＋21%／<br>HP残量が多いほど威力上昇<br>最大＋5.0%
 item_WholeBody_5 - 威力＋22%／<br>HP残量が多いほど威力上昇<br>最大＋8.0%
+item_WholeBody_6 - 威力＋35%／<br>HP残量が多いほど威力上昇<br>最大＋8.0%
 item_StackHeal_1 - 威力＋17%／<br>ステップによる回避成功を<br>3回まで蓄積し<br>被ダメージ時にその回数分<br>HPを最大300回復
 item_StackHeal_2 - 威力＋19%／<br>ステップによる回避成功を<br>3回まで蓄積し<br>被ダメージ時にその回数分<br>HPを最大300回復
 item_StackHeal_3 - 威力＋22%／<br>ステップによる回避成功を<br>3回まで蓄積し<br>被ダメージ時にその回数分<br>HPを最大300回復
@@ -7722,71 +7787,85 @@ item_ItemReturn_2 - 威力＋20%／<br>レスタサイン使用時に<br>20%の�
 item_ItemReturn_3 - 威力＋23%／<br>レスタサイン使用時に<br>20%の確率で消費しない<br>装備から10秒後に効果発動
 item_ItemReturn_4 - 威力＋24%／<br>レスタサイン使用時に<br>20％の確率で消費しない<br>装備から10秒後に効果発動
 item_ItemReturn_5 - 威力＋25%／<br>レスタサイン使用時に<br>30％の確率で消費しない<br>装備から10秒後に効果発動
+item_ItemReturn_6 - 威力＋42%／<br>レスタサイン使用時に<br>30％の確率で消費しない<br>装備から10秒後に効果発動
 item_ReactionDown2_1 - 威力＋18%<br>全ダウン耐性＋10%
 item_ReactionDown2_2 - 威力＋20%<br>全ダウン耐性＋10%
 item_ReactionDown2_3 - 威力＋23%<br>全ダウン耐性＋10%
 item_ReactionDown2_4 - 威力＋24%<br>全ダウン耐性＋20%
 item_ReactionDown2_5 - 威力＋25%<br>全ダウン耐性＋40%
+item_ReactionDown2_6 - 威力＋42%<br>全ダウン耐性＋40%
 item_PbGaugeUp2_1 - 威力＋20%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
 item_PbGaugeUp2_2 - 威力＋22%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
 item_PbGaugeUp2_3 - 威力＋25%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
 item_PbGaugeUp2_4 - 威力＋26%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
 item_PbGaugeUp2_5 - 威力＋27%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋40%
+item_PbGaugeUp2_6 - 威力＋45%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋40%
 item_ElementPpBonus_1 - 威力+8%／<br>エネミーを攻撃してから<br>10秒後に再度攻撃をすると<br>武器属性に対応した<br>属性ダウンの追加攻撃が発生<br>リキャスト時間20秒
 item_ElementPpBonus_2 - 威力+10%／<br>エネミーを攻撃してから<br>10秒後に再度攻撃をすると<br>武器属性に対応した<br>属性ダウンの追加攻撃が発生<br>リキャスト時間20秒
 item_ElementPpBonus_3 - 威力+13%／<br>エネミーを攻撃してから<br>10秒後に再度攻撃をすると<br>武器属性に対応した<br>属性ダウンの追加攻撃が発生<br>リキャスト時間20秒
 item_ElementPpBonus_4 - 威力+14%／<br>エネミーを攻撃してから<br>10秒後に再度攻撃をすると<br>武器属性に対応した<br>属性ダウンの追加攻撃が発生<br>リキャスト時間20秒
 item_ElementPpBonus_5 - 威力+15%／<br>エネミーを攻撃してから<br>10秒後に再度攻撃をすると<br>武器属性に対応した<br>属性ダウンの追加攻撃が発生<br>リキャスト時間15秒
+item_ElementPpBonus_6 - 威力+20%／<br>エネミーを攻撃してから<br>10秒後に再度攻撃をすると<br>武器属性に対応した<br>属性ダウンの追加攻撃が発生<br>リキャスト時間15秒
 item_AllBonus_1 - 威力＋21%／<br>ダメージ耐性－10%
 item_AllBonus_2 - 威力＋23%／<br>ダメージ耐性－10%
 item_AllBonus_3 - 威力＋26%／<br>ダメージ耐性－10%
 item_AllBonus_4 - 威力＋27%／<br>ダメージ耐性－8%
 item_AllBonus_5 - 威力＋31%／<br>ダメージ耐性－5%
+item_AllBonus_6 - 威力＋46%／<br>ダメージ耐性－5%
 item_AllBonus2_1 - 威力+12%／<br>クリティカル発生率＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
 item_AllBonus2_2 - 威力+14%／<br>クリティカル発生率＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
 item_AllBonus2_3 - 威力+16%／<br>クリティカル発生率＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
 item_AllBonus2_4 - 威力+17%／<br>クリティカル発生率＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
-item_AllBonus2_5 - 威力+18%／<br>クリティカル発生率＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
+item_AllBonus2_5 - 威力+19%／<br>クリティカル発生率＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
+item_AllBonus2_6 - 威力+32%／<br>クリティカル発生率＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
 item_Proximity_1 - 威力+21%／<br>ダメージ耐性+10%／<br>レスタサインの<br>HP回復量+20%<br>装備から10秒後に効果発動
 item_Proximity_2 - 威力+23%／<br>ダメージ耐性+10%／<br>レスタサインの<br>HP回復量+20%<br>装備から10秒後に効果発動
 item_Proximity_3 - 威力+26%／<br>ダメージ耐性+10%／<br>レスタサインの<br>HP回復量+20%<br>装備から10秒後に効果発動
 item_Proximity_4 - 威力+27%／<br>ダメージ耐性+10%／<br>レスタサインの<br>HP回復量+20%<br>装備から10秒後に効果発動
 item_Proximity_5 - 威力+28%／<br>ダメージ耐性+20%／<br>レスタサインの<br>HP回復量+25%<br>装備から10秒後に効果発動
+item_Proximity_6 - 威力+46%／<br>ダメージ耐性+20%／<br>レスタサインの<br>HP回復量+25%<br>装備から10秒後に効果発動
 item_DoubleCritical_1 - 威力+12%／<br>クリティカル発生率+15%／<br>HP80%以上時<br>クリティカル発生率+10%
 item_DoubleCritical_2 - 威力+14%／<br>クリティカル発生率+15%／<br>HP80%以上時<br>クリティカル発生率+10%
 item_DoubleCritical_3 - 威力+17%／<br>クリティカル発生率+15%／<br>HP80%以上時<br>クリティカル発生率+10%
 item_DoubleCritical_4 - 威力+18%／<br>クリティカル発生率+15%／<br>HP80%以上時<br>クリティカル発生率+10%
 item_DoubleCritical_5 - 威力+19%／<br>クリティカル発生率+15%／<br>HP50%以上時<br>クリティカル発生率+15%
+item_DoubleCritical_6 - 威力+26%／<br>クリティカル発生率+15%／<br>HP50%以上時<br>クリティカル発生率+15%
 item_PpComfortable_1 - 威力+21%／<br>PP消費量軽減+10%／<br>攻撃時PP回復量+20%
 item_PpComfortable_2 - 威力+23%／<br>PP消費量軽減+10%／<br>攻撃時PP回復量+20%
 item_PpComfortable_3 - 威力+26%／<br>PP消費量軽減+10%／<br>攻撃時PP回復量+20%
 item_PpComfortable_4 - 威力+27%／<br>PP消費量軽減+10%／<br>攻撃時PP回復量+20%
 item_PpComfortable_5 - 威力+28%／<br>PP消費量軽減+15%／<br>攻撃時PP回復量+30%
+item_PpComfortable_6 - 威力+45%／<br>PP消費量軽減+15%／<br>攻撃時PP回復量+30%
 item_BombField_1 - 威力+15%／<br>エネミーに攻撃命中時<br>範囲ダメージが発生<br>リキャスト時間10秒
 item_BombField_2 - 威力+17%／<br>エネミーに攻撃命中時<br>範囲ダメージが発生<br>リキャスト時間10秒
 item_BombField_3 - 威力+20%／<br>エネミーに攻撃命中時<br>範囲ダメージが発生<br>リキャスト時間10秒
 item_BombField_4 - 威力+21%／<br>エネミーに攻撃命中時<br>範囲ダメージが発生<br>リキャスト時間10秒
 item_BombField_5 - 威力+22%／<br>エネミーに攻撃命中時<br>範囲ダメージが発生<br>リキャスト時間10秒
+item_BombField_6 - 威力+35%／<br>エネミーに攻撃命中時<br>範囲ダメージが発生<br>リキャスト時間10秒
 item_BossWeak_1 - 威力+14%／<br>ボスエネミーへの<br>威力+4%
 item_BossWeak_2 - 威力+16%／<br>ボスエネミーへの<br>威力+4%
 item_BossWeak_3 - 威力+19%／<br>ボスエネミーへの<br>威力+4%
 item_BossWeak_4 - 威力+20%／<br>ボスエネミーへの<br>威力+4%
 item_BossWeak_5 - 威力+21%／<br>ボスエネミーへの<br>威力+10%
+item_BossWeak_6 - 威力+38%／<br>ボスエネミーへの<br>威力+10%
 item_ReturnBarrier_1 - 威力+17%／<br>ダメージ耐性+50%の<br>バリアが発生<br>被ダメージでバリア消失<br>リキャスト時間30秒
 item_ReturnBarrier_2 - 威力+19%／<br>ダメージ耐性+50%の<br>バリアが発生<br>被ダメージでバリア消失<br>リキャスト時間30秒
 item_ReturnBarrier_3 - 威力+22%／<br>ダメージ耐性+50%の<br>バリアが発生<br>被ダメージでバリア消失<br>リキャスト時間30秒
 item_ReturnBarrier_4 - 威力+23%／<br>ダメージ耐性+50%の<br>バリアが発生<br>被ダメージでバリア消失<br>リキャスト時間30秒
 item_ReturnBarrier_5 - 威力+24%／<br>ダメージ耐性+50%の<br>バリアが発生<br>被ダメージでバリア消失<br>リキャスト時間15秒
+item_ReturnBarrier_6 - 威力+47%／<br>ダメージ耐性+50%の<br>バリアが発生<br>被ダメージでバリア消失<br>リキャスト時間15秒
 item_PpReturn_1 - 威力+17%／<br>PP50%以下の状態で<br>エネミーに攻撃命中時<br>PP+10<br>リキャスト時間15秒
 item_PpReturn_2 - 威力+19%／<br>PP50%以下の状態で<br>エネミーに攻撃命中時<br>PP+10<br>リキャスト時間15秒
 item_PpReturn_3 - 威力+22%／<br>PP50%以下の状態で<br>エネミーに攻撃命中時<br>PP+10<br>リキャスト時間15秒
 item_PpReturn_4 - 威力+23%／<br>PP50%以下の状態で<br>エネミーに攻撃命中時<br>PP+10<br>リキャスト時間15秒
 item_PpReturn_5 - 威力+24%／<br>PP50%以下の状態で<br>エネミーに攻撃命中時<br>PP+15<br>リキャスト時間10秒
+item_PpReturn_6 - 威力+47%／<br>PP50%以下の状態で<br>エネミーに攻撃命中時<br>PP+15<br>リキャスト時間10秒
 item_ChanceUp_1 - 威力+15%／<br>非クリティカル時<br>クリティカル発生率<br>最大+22%まで上昇<br>クリティカル発生時<br>上昇値がリセット
 item_ChanceUp_2 - 威力+17%／<br>非クリティカル時<br>クリティカル発生率<br>最大+22%まで上昇<br>クリティカル発生時<br>上昇値がリセット
 item_ChanceUp_3 - 威力+20%／<br>非クリティカル時<br>クリティカル発生率<br>最大+22%まで上昇<br>クリティカル発生時<br>上昇値がリセット
 item_ChanceUp_4 - 威力+21%／<br>非クリティカル時<br>クリティカル発生率<br>最大+22%まで上昇<br>クリティカル発生時<br>上昇値がリセット
 item_ChanceUp_5 - 威力+22%／<br>非クリティカル時<br>クリティカル発生率<br>最大+30%まで上昇<br>クリティカル発生時<br>上昇値がリセット
+item_ChanceUp_6 - 威力+37%／<br>非クリティカル時<br>クリティカル発生率<br>最大+30%まで上昇<br>クリティカル発生時<br>上昇値がリセット
 item_ElementPpBonus2_1 - 威力+8%／<br>エネミーを攻撃してから<br>10秒後に再度攻撃をすると<br>武器属性に対応した<br>属性ダウンの追加攻撃が発生<br>リキャスト時間20秒
 item_ElementPpBonus2_2 - 威力+10%／<br>エネミーを攻撃してから<br>10秒後に再度攻撃をすると<br>武器属性に対応した<br>属性ダウンの追加攻撃が発生<br>リキャスト時間20秒
 item_ElementPpBonus2_3 - 威力+13%／<br>エネミーを攻撃してから<br>10秒後に再度攻撃をすると<br>武器属性に対応した<br>属性ダウンの追加攻撃が発生<br>リキャスト時間20秒
@@ -7797,111 +7876,133 @@ item_Highlander_2 - 威力＋20%／武器と防具の<br>特殊能力種類数×
 item_Highlander_3 - 威力＋22%／武器と防具の<br>特殊能力種類数×1%<br>レスタサインのHP回復量と<br>PP消費量軽減最大＋15%
 item_Highlander_4 - 威力＋26%／武器と防具の<br>特殊能力種類数×1%<br>レスタサインのHP回復量と<br>PP消費量軽減最大＋20%
 item_Highlander_5 - 威力＋27%／武器と防具の<br>特殊能力種類数×2%<br>レスタサインのHP回復量と<br>PP消費量軽減最大＋20%
+item_Highlander_6 - 威力＋44%／武器と防具の<br>特殊能力種類数×2%<br>レスタサインのHP回復量と<br>PP消費量軽減最大＋20%
 item_QuestBuster_1 - 威力＋15%／ダメージ<br>耐性＋5%／クエスト：<br>ジオメトリックラビリンス<br>で威力＋5%<br>ダメージ耐性＋50%が追加
 item_QuestBuster_2 - 威力＋18%／ダメージ<br>耐性＋5%／クエスト：<br>ジオメトリックラビリンス<br>で威力＋5%<br>ダメージ耐性＋50%が追加
 item_QuestBuster_3 - 威力＋21%／ダメージ<br>耐性＋5%／クエスト：<br>ジオメトリックラビリンス<br>で威力＋5%<br>ダメージ耐性＋50%が追加
 item_QuestBuster_4 - 威力＋22%／ダメージ<br>耐性＋5%／クエスト：<br>ジオメトリックラビリンス<br>で威力＋5%<br>ダメージ耐性＋50%が追加
 item_QuestBuster_5 - 威力＋23%／ダメージ<br>耐性＋10%／クエスト：<br>ジオメトリックラビリンス<br>で威力＋10%<br>ダメージ耐性＋50%が追加
+item_QuestBuster_6 - 威力＋40%／ダメージ<br>耐性＋10%／クエスト：<br>ジオメトリックラビリンス<br>で威力＋10%<br>ダメージ耐性＋50%が追加
 item_EnemyBuster_1 - 威力＋13%／<br>ダメージ耐性＋5%／<br>ドールズへの<br>威力＋6%<br>ダメージ耐性＋5%
 item_EnemyBuster_2 - 威力＋15%／<br>ダメージ耐性＋5%／<br>ドールズへの<br>威力＋6%<br>ダメージ耐性＋5%
 item_EnemyBuster_3 - 威力＋18%／<br>ダメージ耐性＋5%／<br>ドールズへの<br>威力＋6%<br>ダメージ耐性＋5%
 item_EnemyBuster_4 - 威力＋19%／<br>ダメージ耐性＋5%／<br>ドールズへの<br>威力＋6%<br>ダメージ耐性＋5%
-item_EnemyBuster_5 - 威力＋20%／<br>ダメージ耐性＋5%／<br>ドールズへの<br>威力＋6%<br>ダメージ耐性＋5%
+item_EnemyBuster_5 - 威力＋21%／<br>ダメージ耐性＋5%／<br>ドールズへの<br>威力＋6%<br>ダメージ耐性＋5%
+item_EnemyBuster_6 - 威力＋31%／<br>ダメージ耐性＋5%／<br>ドールズへの<br>威力＋6%<br>ダメージ耐性＋5%
 item_EscapePpConvert_1 - 威力＋16%／<br>ステップによる<br>回避成功時20秒間<br>PP自然回復速度＋100%<br>リキャスト時間10秒
 item_EscapePpConvert_2 - 威力＋18%／<br>ステップによる<br>回避成功時20秒間<br>PP自然回復速度＋100%<br>リキャスト時間10秒
 item_EscapePpConvert_3 - 威力＋21%／<br>ステップによる<br>回避成功時20秒間<br>PP自然回復速度＋100%<br>リキャスト時間10秒
 item_EscapePpConvert_4 - 威力＋22%／<br>ステップによる<br>回避成功時20秒間<br>PP自然回復速度＋100%<br>リキャスト時間10秒
 item_EscapePpConvert_5 - 威力＋23%／<br>ステップによる<br>回避成功時40秒間<br>PP自然回復速度＋150%<br>リキャスト時間10秒
+item_EscapePpConvert_6 - 威力＋48%／<br>ステップによる<br>回避成功時40秒間<br>PP自然回復速度＋150%<br>リキャスト時間10秒
 item_EscapePpConvert2_1 - 威力＋18%／<br>ステップによる<br>回避成功時20秒間<br>PP自然回復速度＋100%<br>リキャスト時間10秒
 item_EscapePpConvert2_2 - 威力＋20%／<br>ステップによる<br>回避成功時20秒間<br>PP自然回復速度＋100%<br>リキャスト時間10秒
 item_EscapePpConvert2_3 - 威力＋23%／<br>ステップによる<br>回避成功時20秒間<br>PP自然回復速度＋100%<br>リキャスト時間10秒
 item_EscapePpConvert2_4 - 威力＋24%／<br>ステップによる<br>回避成功時20秒間<br>PP自然回復速度＋100%<br>リキャスト時間10秒
 item_EscapePpConvert2_5 - 威力＋25%／<br>ステップによる<br>回避成功時40秒間<br>PP自然回復速度＋150%<br>リキャスト時間10秒
+item_EscapePpConvert2_6 - 威力＋48%／<br>ステップによる<br>回避成功時40秒間<br>PP自然回復速度＋150%<br>リキャスト時間10秒
 item_AttackKeep_1 - 威力＋18%／<br>攻撃命中時5秒間<br>攻撃時PP回復量＋20%<br>効果時間中の命中で延長<br>リキャスト時間10秒
 item_AttackKeep_2 - 威力＋20%／<br>攻撃命中時5秒間<br>攻撃時PP回復量＋20%<br>効果時間中の命中で延長<br>リキャスト時間10秒
 item_AttackKeep_3 - 威力＋22%／<br>攻撃命中時5秒間<br>攻撃時PP回復量＋20%<br>効果時間中の命中で延長<br>リキャスト時間10秒
 item_AttackKeep_4 - 威力＋23%／<br>攻撃命中時5秒間<br>攻撃時PP回復量＋20%<br>効果時間中の命中で延長<br>リキャスト時間10秒
 item_AttackKeep_5 - 威力＋24%／<br>攻撃命中時10秒間<br>攻撃時PP回復量＋30%<br>効果時間中の命中で延長<br>リキャスト時間10秒
+item_AttackKeep_6 - 威力＋48%／<br>攻撃命中時10秒間<br>攻撃時PP回復量＋30%<br>効果時間中の命中で延長<br>リキャスト時間10秒
 item_PpSlayer_1 - 威力＋12%／<br>PP50%以下時<br>クリティカル発生率＋30%
 item_PpSlayer_2 - 威力＋14%／<br>PP50%以下時<br>クリティカル発生率＋30%
 item_PpSlayer_3 - 威力＋17%／<br>PP50%以下時<br>クリティカル発生率＋30%
 item_PpSlayer_4 - 威力＋18%／<br>PP50%以下時<br>クリティカル発生率＋30%
 item_PpSlayer_5 - 威力＋19%／<br>PP70%以下時<br>クリティカル発生率＋30%
+item_PpSlayer_6 - 威力＋29%／<br>PP70%以下時<br>クリティカル発生率＋30%
 item_DamagePpConvert_1 - 威力＋18%／<br>被ダメージ時に<br>PPを20%回復<br>リキャスト時間10秒
 item_DamagePpConvert_2 - 威力＋20%／<br>被ダメージ時に<br>PPを20%回復<br>リキャスト時間10秒
 item_DamagePpConvert_3 - 威力＋23%／<br>被ダメージ時に<br>PPを20%回復<br>リキャスト時間10秒
 item_DamagePpConvert_4 - 威力＋24%／<br>被ダメージ時に<br>PPを20%回復<br>リキャスト時間10秒
 item_DamagePpConvert_5 - 威力＋25%／<br>被ダメージ時に<br>PPを30%回復<br>リキャスト時間10秒
+item_DamagePpConvert_6 - 威力＋48%／<br>被ダメージ時に<br>PPを30%回復<br>リキャスト時間10秒
 item_OverWhelm_1 - 威力+15%／<br>ボス以外のエネミーへの<br>威力+6%
 item_OverWhelm_2 - 威力+17%／<br>ボス以外のエネミーへの<br>威力+6%
 item_OverWhelm_3 - 威力+20%／<br>ボス以外のエネミーへの<br>威力+6%
 item_OverWhelm_4 - 威力+22%／<br>ボス以外のエネミーへの<br>威力+6%
 item_OverWhelm_5 - 威力+23%／<br>ボス以外のエネミーへの<br>威力+8%
+item_OverWhelm_6 - 威力+42%／<br>ボス以外のエネミーへの<br>威力+8%
 item_ChaseAttack_1 - 威力+12%／<br>エネミーに攻撃命中時<br>1～3回まで追撃が発生<br>リキャスト時間5秒
 item_ChaseAttack_2 - 威力+14%／<br>エネミーに攻撃命中時<br>1～3回まで追撃が発生<br>リキャスト時間5秒
 item_ChaseAttack_3 - 威力+17%／<br>エネミーに攻撃命中時<br>1～3回まで追撃が発生<br>リキャスト時間5秒
 item_ChaseAttack_4 - 威力+19%／<br>エネミーに攻撃命中時<br>1～3回まで追撃が発生<br>リキャスト時間5秒
-item_ChaseAttack_5 - 威力+19%／<br>エネミーに攻撃命中時<br>1～3回まで追撃が発生<br>リキャスト時間5秒
+item_ChaseAttack_5 - 威力+20%／<br>エネミーに攻撃命中時<br>1～3回まで追撃が発生<br>リキャスト時間5秒
+item_ChaseAttack_6 - 威力+27%／<br>エネミーに攻撃命中時<br>1～3回まで追撃が発生<br>リキャスト時間5秒
 item_KillingBarrier_1 - 威力+18%／<br>ダメージ耐性＋40%の<br>バリアが最大3回まで発生<br>リキャスト時間1回30秒<br>エネミー撃破時、2秒軽減
 item_KillingBarrier_2 - 威力+20%／<br>ダメージ耐性＋40%の<br>バリアが最大3回まで発生<br>リキャスト時間1回30秒<br>エネミー撃破時、2秒軽減
 item_KillingBarrier_3 - 威力+23%／<br>ダメージ耐性＋40%の<br>バリアが最大3回まで発生<br>リキャスト時間1回30秒<br>エネミー撃破時、2秒軽減
 item_KillingBarrier_4 - 威力+25%／<br>ダメージ耐性＋40%の<br>バリアが最大3回まで発生<br>リキャスト時間1回30秒<br>エネミー撃破時、2秒軽減
-item_KillingBarrier_5 - 威力+25%／<br>ダメージ耐性＋40%の<br>バリアが最大3回まで発生<br>リキャスト時間1回30秒<br>エネミー撃破時、2秒軽減
+item_KillingBarrier_5 - 威力+27%／<br>ダメージ耐性＋40%の<br>バリアが最大3回まで発生<br>リキャスト時間1回30秒<br>エネミー撃破時、2秒軽減
+item_KillingBarrier_6 - 威力+39%／<br>ダメージ耐性＋40%の<br>バリアが最大3回まで発生<br>リキャスト時間1回30秒<br>エネミー撃破時、2秒軽減
 item_OverTime_1 - 威力+18%／<br>PPを300消費時<br>20秒間<br>PP消費量軽減＋30%<br>リキャスト時間10秒
 item_OverTime_2 - 威力+20%／<br>PPを300消費時<br>20秒間<br>PP消費量軽減＋30%<br>リキャスト時間10秒
 item_OverTime_3 - 威力+23%／<br>PPを300消費時<br>20秒間<br>PP消費量軽減＋30%<br>リキャスト時間10秒
 item_OverTime_4 - 威力+25%／<br>PPを300消費時<br>20秒間<br>PP消費量軽減＋30%<br>リキャスト時間10秒
-item_OverTime_5 - 威力+25%／<br>PPを300消費時<br>20秒間<br>PP消費量軽減＋30%<br>リキャスト時間10秒
+item_OverTime_5 - 威力+27%／<br>PPを300消費時<br>20秒間<br>PP消費量軽減＋30%<br>リキャスト時間10秒
+item_OverTime_6 - 威力+39%／<br>PPを300消費時<br>20秒間<br>PP消費量軽減＋30%<br>リキャスト時間10秒
 item_EscapeCritical2_1 - 威力＋16%／<br>ステップによる<br>回避成功時30秒間<br>クリティカル発生率＋15%
 item_EscapeCritical2_2 - 威力＋18%／<br>ステップによる<br>回避成功時30秒間<br>クリティカル発生率＋15%
 item_EscapeCritical2_3 - 威力＋21%／<br>ステップによる<br>回避成功時30秒間<br>クリティカル発生率＋15%
 item_EscapeCritical2_4 - 威力＋21%／<br>ステップによる<br>回避成功時30秒間<br>クリティカル発生率＋18%
 item_EscapeCritical2_5 - 威力＋22%／<br>ステップによる<br>回避成功時60秒間<br>クリティカル発生率＋25%
+item_EscapeCritical2_6 - 威力＋26%／<br>ステップによる<br>回避成功時60秒間<br>クリティカル発生率＋25%
 item_BarrierSa_1 - 威力＋19%／HP最大時に<br>エネミーの攻撃による<br>打ち上げや吹き飛ばしを防ぎ<br>ダメージ耐性＋60%のバリア<br>が発生
 item_BarrierSa_2 - 威力＋21%／HP最大時に<br>エネミーの攻撃による<br>打ち上げや吹き飛ばしを防ぎ<br>ダメージ耐性＋60%のバリア<br>が発生
 item_BarrierSa_3 - 威力＋24%／HP最大時に<br>エネミーの攻撃による<br>打ち上げや吹き飛ばしを防ぎ<br>ダメージ耐性＋60%のバリア<br>が発生
 item_BarrierSa_4 - 威力＋25%／HP最大時に<br>エネミーの攻撃による<br>打ち上げや吹き飛ばしを防ぎ<br>ダメージ耐性＋60%のバリア<br>が発生
 item_BarrierSa_5 - 威力＋26%／HP90%以上時に<br>エネミーの攻撃による<br>打ち上げや吹き飛ばしを防ぎ<br>ダメージ耐性＋60%のバリア<br>が発生
+item_BarrierSa_6 - 威力＋48%／HP90%以上時に<br>エネミーの攻撃による<br>打ち上げや吹き飛ばしを防ぎ<br>ダメージ耐性＋60%のバリア<br>が発生
 item_KillingPpGain_1 - 威力＋19%／<br>自身の周囲で<br>エネミーを撃破時<br>PP＋6
 item_KillingPpGain_2 - 威力＋21%／<br>自身の周囲で<br>エネミーを撃破時<br>PP＋6
 item_KillingPpGain_3 - 威力＋24%／<br>自身の周囲で<br>エネミーを撃破時<br>PP＋6
 item_KillingPpGain_4 - 威力＋25%／<br>自身の周囲で<br>エネミーを撃破時<br>PP＋6
-item_KillingPpGain_5 - 威力＋26%／<br>自身の周囲で<br>エネミーを撃破時<br>PP＋6
+item_KillingPpGain_5 - 威力＋27%／<br>自身の周囲で<br>エネミーを撃破時<br>PP＋6
+item_KillingPpGain_6 - 威力＋42%／<br>自身の周囲で<br>エネミーを撃破時<br>PP＋6
 item_CriticalBuff_1 - 威力＋12%／<br>クリティカル発生率＋10%／<br>クリティカル時20秒間<br>ダメージ耐性＋20%<br>PP自然回復速度＋30%<br>リキャスト10秒
 item_CriticalBuff_2 - 威力＋14%／<br>クリティカル発生率＋10%／<br>クリティカル時20秒間<br>ダメージ耐性＋20%<br>PP自然回復速度＋30%<br>リキャスト10秒
 item_CriticalBuff_3 - 威力＋17%／<br>クリティカル発生率＋10%／<br>クリティカル時20秒間<br>ダメージ耐性＋20%<br>PP自然回復速度＋30%<br>リキャスト10秒
 item_CriticalBuff_4 - 威力＋18%／<br>クリティカル発生率＋10%／<br>クリティカル時20秒間<br>ダメージ耐性＋20%<br>PP自然回復速度＋30%<br>リキャスト10秒
-item_CriticalBuff_5 - 威力＋19%／<br>クリティカル発生率＋10%／<br>クリティカル時20秒間<br>ダメージ耐性＋20%<br>PP自然回復速度＋30%<br>リキャスト10秒
+item_CriticalBuff_5 - 威力＋20%／<br>クリティカル発生率＋10%／<br>クリティカル時20秒間<br>ダメージ耐性＋20%<br>PP自然回復速度＋30%<br>リキャスト10秒
+item_CriticalBuff_6 - 威力＋32%／<br>クリティカル発生率＋10%／<br>クリティカル時20秒間<br>ダメージ耐性＋20%<br>PP自然回復速度＋30%<br>リキャスト10秒
 item_CoChallenge_1 - 威力＋10%／<br>ステップと武器アクション<br>による回避や<br>攻撃の無効化成功時30秒間<br>クリティカル発生率＋15%
 item_CoChallenge_2 - 威力＋12%／<br>ステップと武器アクション<br>による回避や<br>攻撃の無効化成功時30秒間<br>クリティカル発生率＋15%
 item_CoChallenge_3 - 威力＋14%／<br>ステップと武器アクション<br>による回避や<br>攻撃の無効化成功時30秒間<br>クリティカル発生率＋15%
 item_CoChallenge_4 - 威力＋15%／<br>ステップと武器アクション<br>による回避や<br>攻撃の無効化成功時30秒間<br>クリティカル発生率＋15%
 item_CoChallenge_5 - 威力＋16%／<br>ステップと武器アクション<br>による回避や<br>攻撃の無効化成功時30秒間<br>クリティカル発生率＋15%
+item_CoChallenge_6 - 威力＋20%／<br>ステップと武器アクション<br>による回避や<br>攻撃の無効化成功時30秒間<br>クリティカル発生率＋15%
 item_NoDamageBuff_1 - 威力＋18%／<br>PP消費量軽減＋20%<br>クリティカル発生率＋10%<br>被ダメージで効果消失<br>リキャスト15秒<br>装備から15秒後に効果発動
 item_NoDamageBuff_2 - 威力＋20%／<br>PP消費量軽減＋20%<br>クリティカル発生率＋10%<br>被ダメージで効果消失<br>リキャスト15秒<br>装備から15秒後に効果発動
 item_NoDamageBuff_3 - 威力＋22%／<br>PP消費量軽減＋20%<br>クリティカル発生率＋10%<br>被ダメージで効果消失<br>リキャスト15秒<br>装備から15秒後に効果発動
 item_NoDamageBuff_4 - 威力＋23%／<br>PP消費量軽減＋20%<br>クリティカル発生率＋10%<br>被ダメージで効果消失<br>リキャスト15秒<br>装備から15秒後に効果発動
-item_NoDamageBuff_5 - 威力＋24%／<br>PP消費量軽減＋20%<br>クリティカル発生率＋10%<br>被ダメージで効果消失<br>リキャスト15秒<br>装備から15秒後に効果発動
+item_NoDamageBuff_5 - 威力＋25%／<br>PP消費量軽減＋20%<br>クリティカル発生率＋10%<br>被ダメージで効果消失<br>リキャスト15秒<br>装備から15秒後に効果発動
+item_NoDamageBuff_6 - 威力＋31%／<br>PP消費量軽減＋20%<br>クリティカル発生率＋10%<br>被ダメージで効果消失<br>リキャスト10秒<br>装備から10秒後に効果発動
 item_Regenerate_1 - 威力＋18%／<br>10秒ごとにHPを4%回復<br>装備から10秒後に効果発動
 item_Regenerate_2 - 威力＋20%／<br>10秒ごとにHPを4%回復<br>装備から10秒後に効果発動
 item_Regenerate_3 - 威力＋23%／<br>10秒ごとにHPを4%回復<br>装備から10秒後に効果発動
 item_Regenerate_4 - 威力＋24%／<br>10秒ごとにHPを4%回復<br>装備から10秒後に効果発動
 item_Regenerate_5 - 威力＋25%／<br>10秒ごとにHPを4%回復<br>装備から10秒後に効果発動
+item_Regenerate_6 - 威力＋30%／<br>10秒ごとにHPを4%回復<br>装備から10秒後に効果発動
 item_PbBonus_1 - 威力＋26%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋25%／<br>フォトンブラスト発動後<br>90秒間PP消費量軽減＋15%
 item_PbBonus_2 - 威力＋28%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋25%／<br>フォトンブラスト発動後<br>90秒間PP消費量軽減＋15%
 item_PbBonus_3 - 威力＋31%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋25%／<br>フォトンブラスト発動後<br>90秒間PP消費量軽減＋15%
 item_PbBonus_4 - 威力＋32%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋25%／<br>フォトンブラスト発動後<br>90秒間PP消費量軽減＋15%
-item_PbBonus_5 - 威力＋33%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋25%／<br>フォトンブラスト発動後<br>90秒間PP消費量軽減＋15%
+item_PbBonus_5 - 威力＋34%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋25%／<br>フォトンブラスト発動後<br>90秒間PP消費量軽減＋15%
+item_PbBonus_6 - 威力＋38%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋25%／<br>フォトンブラスト発動後<br>90秒間PP消費量軽減＋15%
 item_PbBonus2_1 - 威力＋26%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋25%／<br>フォトンブラスト発動後<br>90秒間PP消費量軽減＋15%
 item_PbBonus2_2 - 威力＋28%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋25%／<br>フォトンブラスト発動後<br>90秒間PP消費量軽減＋15%
 item_PbBonus2_3 - 威力＋31%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋25%／<br>フォトンブラスト発動後<br>90秒間PP消費量軽減＋15%
 item_PbBonus2_4 - 威力＋32%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋25%／<br>フォトンブラスト発動後<br>90秒間PP消費量軽減＋15%
 item_PbBonus2_5 - 威力＋33%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋25%／<br>フォトンブラスト発動後<br>90秒間PP消費量軽減＋15%
+item_PbBonus2_6 - 威力＋35%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋25%／<br>フォトンブラスト発動後<br>90秒間PP消費量軽減＋15%
 item_CountUp_1 - 威力＋23%／<br>クリティカル時<br>ダメージ耐性＋0.5%<br>最大＋25%まで上昇
 item_CountUp_2 - 威力＋25%／<br>クリティカル時<br>ダメージ耐性＋0.5%<br>最大＋25%まで上昇
 item_CountUp_3 - 威力＋28%／<br>クリティカル時<br>ダメージ耐性＋0.5%<br>最大＋25%まで上昇
 item_CountUp_4 - 威力＋29%／<br>クリティカル時<br>ダメージ耐性＋0.5%<br>最大＋25%まで上昇
-item_CountUp_5 - 威力＋30%／<br>クリティカル時<br>ダメージ耐性＋0.5%<br>最大＋25%まで上昇
+item_CountUp_5 - 威力＋31%／<br>クリティカル時<br>ダメージ耐性＋0.5%<br>最大＋25%まで上昇
+item_CountUp_6 - 威力＋37%／<br>クリティカル時<br>ダメージ耐性＋0.5%<br>最大＋25%まで上昇
 item_GuardStanceUp_1 - ガードスタンス時の<br>効果が1%上昇する。
 item_GuardStanceUp_2 - ガードスタンス時の<br>効果が2%上昇する。
 item_GuardStanceUp_3 - ガードスタンス時の<br>効果が3%上昇する。
@@ -13501,6 +13602,8 @@ Group 9
 
 Warehouse_NameList
 Group 0
+PossessedItem - すべての所持アイテム
+PossessedItem_withPict - <pict wh_allitem> すべての所持アイテム
 Itempack - アイテムパック
 Itempack_withPict - <pict wh_item_icon> アイテムパック
 WarehouseAll - すべての倉庫
@@ -13592,6 +13695,17 @@ WarehouseClassicItemPac - 『PSO2』アイテムパック
 WarehouseClassicItemPac_withpct - <pict wh_item_icon> 『PSO2』アイテムパック
 Inventory_Select - $(0) から選ぶ
 Inventory_Sale - $(0) から出品
+WarehouseGlobal - ミッションパス倉庫
+WarehouseGlobal_withPict - <pict wh_global_icon>ミッションパス倉庫
+WarehouseGlobal_withPict_Not - <pict Arksroicon> ミッションパス倉庫<yellow>（未購入）<c>
+WarehouseGlobal_withPict_Expired - <pict Arksroicon> ミッションパス倉庫<red>（期限切れ ）<c>
+WarehouseAddition07 - 拡張倉庫７
+WarehouseAddition07_withPict - <pict wh_extend7_icon> 拡張倉庫７
+WarehouseAddition07_withPict_AC - <pict Arcscash> 拡張倉庫７<yellow>（未購入）<c>
+WarehouseAddition07_withPict_SG - <pict StarGem> 拡張倉庫７<yellow>（未購入）<c>
+WarehouseAddition07_withPict_AC_Expired - <pict Arcscash> 拡張倉庫７<red>（期限切れ ）<c>
+WarehouseAddition07_withPict_SG_Expired - <pict StarGem> 拡張倉庫７<red>（期限切れ ）<c>
+WarehouseAddition07_withPict_week - <pict wh_extend6_icon> 拡張倉庫７<bright_orange>残り１週間<c>
 
 Group 1
 
