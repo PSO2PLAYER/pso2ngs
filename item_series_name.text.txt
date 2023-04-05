@@ -1,5 +1,5 @@
-item_series_name.text was created: 2023/1/25 8:07:14
-Filesize is: 3376 bytes
+item_series_name.text was created: 2023/4/5 15:02:49
+Filesize is: 3440 bytes
 
 SERIES
 Group 0
@@ -70,6 +70,7 @@ Ancien - アンシェンシリーズ
 Provo - プロヴォシリーズ
 Sest - セスティシリーズ
 Efitus - エフィタスシリーズ
+Gun Blade - ￥ガンスラッシュシリーズ
 
 Group 1
 
