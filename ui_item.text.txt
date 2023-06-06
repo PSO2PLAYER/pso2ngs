@@ -1,5 +1,5 @@
-ui_item.text was created: 2023/4/5 7:41:55
-Filesize is: 810320 bytes
+ui_item.text was created: 2023/6/7 6:34:46
+Filesize is: 817552 bytes
 
 TicketMain
 Group 0
@@ -85,10 +85,10 @@ ITEM08 - プレミアムスタンプ
 ITEM09 - ITEM09
 ITEM10 - ドロップアイテムの自動売却設定
 ITEM11 - ITEM11
-ITEM12 - ITEM12
-ITEM13 - ITEM13
-ITEM14 - ITEM14
-ITEM15 - ITEM15
+ITEM12 - レンタルＣスペース01
+ITEM13 - レンタルＣスペース02
+ITEM14 - レンタルＣスペース03
+ITEM15 - レンタルＣスペース04
 ITEM16 - ITEM16
 ITEM17 - ITEM17
 ITEM18 - ITEM18
@@ -619,6 +619,7 @@ MessageMesetaFull - メセタの所持上限を超えました<br><br>[No.xxxx]
 Premium_Window_Title - -
 Premium_Window_Message1 - -
 Premium_Window_Message2 - -
+StorySkip_Ticket - <pict Arcscash><scarlet>AC消費コンテンツ<c><br><yellow>メインストーリーを“最新の章”<c>の初めまで<br>進めるチケットアイテムです。<br><br><br><yellow>“$(0)”<c>の<br>購入画面に進みますか？<br><br><scarlet>※このアイテムは、“セントラルシティ”などの<br>　アークス拠点でのみ使用できます。<c><br><br><yellow>※購入後にアイテムを使用することで、<br>　メインストーリーを閲覧済みの状態にします。<c><br><yellow>※使用後に、これまでの進行度に合わせて、<br>　経験値が付与されます。<c><br><yellow>※このアイテムの内容は、今後のアップデートにより、<br>　変更される場合があります。<c>
 
 Group 1
 
@@ -970,6 +971,7 @@ RingSkill_2 - $(1)<br>【効果】<br>$(2)<br><br>$(0)
 ItemAutoPickUpRarityOn - <yellow>$(0)★$(1)<c>を入手しました。
 ItemAutoPickUpRarityOff - <yellow>$(0)<c>を入手しました。
 ConsumeTicketErrorAllRegisted - すべてのキャラクターに<br>チケットが登録されているため<br>使用することができません。
+TicketItemUseErrorServerBug - 『$(0)』は使用できないアイテムです。
 UseTicketMessage1 - 『$(0)』を使用します。<br>よろしいですか？<br><br><yellow>※このチケットの使用後に、同じキャラクター<br>　または別のキャラクターで<br>　同じチケットを、もう1枚使用すると<br>　すべてのキャラクターで選択可能になります。<c>
 UseTicketMessage2 - 『$(0)』を使用します。<br>よろしいですか？<br><br><yellow>※このチケットを使用すると<br>　すべてのキャラクターで選択可能になります。<c>
 UseTicketForSPMessage2 - 種族制限、または性別制限のため、<br>このアイテムはプレイヤーキャラクターに<br>適用することはできません。<br><br>サポートパートナー用に<br>『$(0)』を登録します。<br>よろしいですか？<br><br><yellow>※このチケットを使用すると<br>　すべてのキャラクターで選択可能になります。<c>
@@ -992,6 +994,12 @@ CostumeRemoveError - アイテムパックの空き容量不足のため、<br>�
 MoveWarehouseErrorMessage10 - 『PSO2』アイテムパックの空き容量不足、<br>または個々のアイテムの最大所持数を<br>超えるため、移動できません。
 Missionpass_ReceiveMessage1 - 受け取っていないミッションパスの報酬があります。メインメニューの“タスク / クエスト”から“ミッションパス”を開き、報酬を受け取ってください。
 BoostCaveatMessage1 - ブーストアイテムを使用します。<br>よろしいですか？<br><br><yellow>※同じ効果のブーストアイテムを使用中のため、<br>　“発生中の効果”に表示されたアイテム名は変更されず<br>　効果時間のみが延長されます。<c>
+Use_StorySkip_Message - <yellow>“$(0)”<c>を使用しますか？<br><br><yellow>メインストーリーが“最新の章”<c>の初めまで<br>進んだ状態になります。<br><br><scarlet>※使用後に、自動的にログアウトします。<c><br><br><yellow>※使用後に、これまでの進行度に合わせて、<br>　経験値が付与されます。<c><br><yellow>※このアイテムの内容は、今後のアップデートにより、<br>　変更される場合があります。<c>
+Use_Ticket_Logout - アイテムを使用しました。<br>システム反映のため、ログアウトします。
+Error_Use_Ticket_OutsideCity - このアイテムは、“セントラルシティ”などの<br>アークス拠点でのみ使用できます。
+Error_Use_Ticket_NotSolo - マッチング中、もしくはパーティーを組んでいる、<br>あるいはパーティー関連の機能を利用中のため、<br>使用できません。
+Error_Use_Ticket_Passed - 既に、メインストーリーが“最新の章”まで<br>進んでいるため、使用できません。
+NoObjectMessage - アイテムがありません
 
 Group 1
 
@@ -1628,6 +1636,7 @@ WarehouseQuest_Receiving_Guidance_Window_mes - クエスト一時倉庫のアイ
 WarehouseQuest_Receiving_Warning_Message - <yellow>クエスト一時倉庫<c>にアイテムが残っている<br>パーティーメンバーがいるため、クエストを開始できません。
 WarehouseQuest_Receiving_Confirm_MoveAll - クエスト一時倉庫から素材倉庫に一括移動します。<br>よろしいですか？
 Explanation_AllItems - 以下の倉庫を除いた、すべての所持アイテムを表示します。<br><br>“一時倉庫”<br>“ドロップ一時倉庫”<br>“クエスト一時倉庫”<br>“運営倉庫”<br>“拡張倉庫”<br><br><yellow>※“お気に入り倉庫”に設定されている<br>　“拡張倉庫”は表示されます。<c>
+Message_OPTeamStorage_InStock - “運営倉庫”に受け取っていないアイテムがあります。
 
 Group 1
 
@@ -1848,17 +1857,17 @@ SellOffWarehouse - 倉庫からアイテムを売る
 Repurchase - 買い戻す
 Exit - ショップを出る
 Explanation1 - <c f0df60>アイテムの購入や売却ができます。<c>
-Explanation2 - <c f0df60>購入したいアイテムを上下で選び、左右で個数を変更します。すべて選択したら、<%Decide><c f0df60>でまとめて購入できます。<c>
+Explanation2 - <c f0df60>購入したいアイテムの選択や、個数の変更ができます。すべて選択したら、まとめて購入できます。<c>
 Explanation2_v - <c f0df60>購入したいアイテムを<c><%Decide><c f0df60>で選びます。「購入」ボタンで精算が行われます。<c>
-Explanation3 - <c f0df60>購入したいアイテムを上下で選び、左右で個数を変更します。すべて選択したら、<%Decide><c f0df60>でまとめて購入できます。<c>
+Explanation3 - <c f0df60>購入したいアイテムの選択や、個数の変更ができます。すべて選択したら、まとめて購入できます。<c>
 Explanation3_v - <c f0df60>購入したいアイテムを<c><%Decide><c f0df60>で選びます。「購入」ボタンで精算が行われます。<c>
-Explanation4 - <c f0df60>購入したいアイテムを上下で選び、左右で個数を変更します。すべて選択したら、<%Decide><c f0df60>で各アイテムを在庫数の上限まで購入できます。<c>
+Explanation4 - <c f0df60>購入したいアイテムの選択や、個数の変更ができます。すべて選択したら、各アイテムを在庫数の上限まで購入できます。<c>
 Explanation4_v - <c f0df60>購入したいアイテムを<c><%Decide><c f0df60>で選びます。「購入」ボタンで精算が行われます。<c>
-Explanation5 - <c f0df60>売却したいアイテムを上下で選び、左右で個数を変更します。すべて選択したら、<%Decide><c f0df60>でまとめて売却できます。<c>
+Explanation5 - <c f0df60>売却したいアイテムの選択や、個数の変更ができます。すべて選択したら、まとめて売却できます。<c>
 Explanation5_v - <c f0df60>売却したいアイテムを<c><%Decide><c f0df60>で選びます。「売却」ボタンで精算が行われます。<c>
-Explanation6 - <c f0df60>倉庫を選択後、売却したいアイテムを上下で選び、左右で個数を変更します。すべて選択したら、<%Decide><c f0df60>でまとめて売却できます。<c>
+Explanation6 - <c f0df60>倉庫を選択後、売却したいアイテムの選択や、個数の変更ができます。すべて選択したら、まとめて売却できます。<c>
 Explanation6_v - <c f0df60>倉庫を選択後、売却したいアイテムを<c><%Decide><c f0df60>で選びます。「売却」ボタンで精算が行われます。<c>
-Explanation7 - <c f0df60>買い戻すアイテムを上下で選び、左右で個数を変更します。すべて選択したら、<%Decide><c f0df60>でまとめて買い戻しできます。<c>
+Explanation7 - <c f0df60>買い戻すアイテムの選択や、個数の変更ができます。すべて選択したら、まとめて買い戻しできます。<c>
 Explanation7_v - <c f0df60>買い戻すアイテムを<c><%Decide><c f0df60>で選びます。「買い戻す」ボタンで精算が行われます。<c>
 Explanation8 - <c f0df60>特別なアイテムの購入ができます。<c>
 Back - 戻る
@@ -2946,7 +2955,7 @@ Explanation2 - 他のプレイヤーが出品中のアイテムを検索しま�
 Explanation2_v - <c f0df60>他のプレイヤーが出品中のアイテムを検索します。<c>
 Explanation3 - 商品を選択すると、そのアイテムが出品されているショップに移動します。自身が出品しているアイテムは表示されません。
 Explanation3_v - <c f0df60>商品を選択すると、そのアイテムが出品されているショップに移動します。<c>
-Explanation4 - 購入したいアイテムを上下で選び、左右で個数を変更します。すべて選択したら、<%Decide>でまとめて購入できます。
+Explanation4 - 購入したいアイテムの選択や、個数の変更ができます。すべて選択したら、まとめて購入できます。
 Explanation4_v - <c f0df60>購入したいアイテムを<%Decide><c f0df60>で選びます。「購入」ボタンで精算が行われます。<c>
 Explanation5 - <c f0df60>プレイヤーIDネーム、キャラクター名、広告文からキーワード検索ができます。検索先を選択後、キーワードを入力してください。<c>
 Label_Item_Num - 選択中アイテムの所持数
@@ -3321,6 +3330,20 @@ Target Crystal - 対象のアウトゥム結晶
 Kouklophis Series - ククロフィスシリーズ
 Primlibra Series - プリムリブラシリーズ
 Neos Astraean Series - ネオス・アストリオンシリーズ
+CategoryObject - ビルドパーツ
+SubCategoryMaterials - 建材
+SubCategoryTerrain - 建築物/道具/器具
+SubCategoryNature - 自然物
+SubCategoryShap - 立体図形
+SubCategoryPlay - ギミックパーツ
+SubCategoryFurniture - 家具
+SubCategoryCSCollaboration - コラボ
+CategoryPlaceObject - ポータブルホログラム
+SubCategoryObject - オブジェクト
+SubCategoryStickers - ペイント
+SubCategoryEffect - エフェクト
+SubCategoryOther - その他
+SubCategoryConsumeArksCardBackground - アークスカード背景
 
 Group 1
 
@@ -3958,6 +3981,12 @@ item_AllBonus2_3 - 鍛業の式 Lv.3
 item_AllBonus2_4 - 鍛業の式 Lv.4
 item_AllBonus2_5 - 鍛業の式 Lv.5
 item_AllBonus2_6 - 鍛業の式 Lv.6
+item_AllBonus3_1 - 季廻の型 Lv.1
+item_AllBonus3_2 - 季廻の型 Lv.2
+item_AllBonus3_3 - 季廻の型 Lv.3
+item_AllBonus3_4 - 季廻の型 Lv.4
+item_AllBonus3_5 - 季廻の型 Lv.5
+item_AllBonus3_6 - 季廻の型 Lv.6
 item_Proximity_1 - 勇健の型 Lv.1
 item_Proximity_2 - 勇健の型 Lv.2
 item_Proximity_3 - 勇健の型 Lv.3
@@ -4143,6 +4172,24 @@ item_CountUp_3 - 累堅の型 Lv.3
 item_CountUp_4 - 累堅の型 Lv.4
 item_CountUp_5 - 累堅の型 Lv.5
 item_CountUp_6 - 累堅の型 Lv.6
+item_CriticalPpGain_1 - 閃気の型 Lv.1
+item_CriticalPpGain_2 - 閃気の型 Lv.2
+item_CriticalPpGain_3 - 閃気の型 Lv.3
+item_CriticalPpGain_4 - 閃気の型 Lv.4
+item_CriticalPpGain_5 - 閃気の型 Lv.5
+item_CriticalPpGain_6 - 閃気の型 Lv.6
+item_StepUpBonus_1 - 妙舞の型 Lv.1
+item_StepUpBonus_2 - 妙舞の型 Lv.2
+item_StepUpBonus_3 - 妙舞の型 Lv.3
+item_StepUpBonus_4 - 妙舞の型 Lv.4
+item_StepUpBonus_5 - 妙舞の型 Lv.5
+item_StepUpBonus_6 - 妙舞の型 Lv.6
+item_DamageTakeOver_1 - 受気の型 Lv.1
+item_DamageTakeOver_2 - 受気の型 Lv.2
+item_DamageTakeOver_3 - 受気の型 Lv.3
+item_DamageTakeOver_4 - 受気の型 Lv.4
+item_DamageTakeOver_5 - 受気の型 Lv.5
+item_DamageTakeOver_6 - 受気の型 Lv.6
 item_GuardStanceUp_1 - 守勢練陣 Lv.1
 item_GuardStanceUp_2 - 守勢練陣 Lv.2
 item_GuardStanceUp_3 - 守勢練陣 Lv.3
@@ -7818,6 +7865,12 @@ item_AllBonus2_3 - 威力+16%／<br>クリティカル発生率＋10%／<br>PP�
 item_AllBonus2_4 - 威力+17%／<br>クリティカル発生率＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
 item_AllBonus2_5 - 威力+19%／<br>クリティカル発生率＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
 item_AllBonus2_6 - 威力+32%／<br>クリティカル発生率＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋20%
+item_AllBonus3_1 - 威力＋9%／<br>クリティカル発生率＋10%／<br>ダメージ耐性＋10%
+item_AllBonus3_2 - 威力＋11%／<br>クリティカル発生率＋10%／<br>ダメージ耐性＋10%
+item_AllBonus3_3 - 威力＋14%／<br>クリティカル発生率＋10%／<br>ダメージ耐性＋10%
+item_AllBonus3_4 - 威力＋16%／<br>クリティカル発生率＋10%／<br>ダメージ耐性＋10%
+item_AllBonus3_5 - 威力＋18%／<br>クリティカル発生率＋10%／<br>ダメージ耐性＋10%
+item_AllBonus3_6 - 威力＋26%／<br>クリティカル発生率＋10%／<br>ダメージ耐性＋10%
 item_Proximity_1 - 威力+21%／<br>ダメージ耐性+10%／<br>レスタサインの<br>HP回復量+20%<br>装備から10秒後に効果発動
 item_Proximity_2 - 威力+23%／<br>ダメージ耐性+10%／<br>レスタサインの<br>HP回復量+20%<br>装備から10秒後に効果発動
 item_Proximity_3 - 威力+26%／<br>ダメージ耐性+10%／<br>レスタサインの<br>HP回復量+20%<br>装備から10秒後に効果発動
@@ -8003,6 +8056,24 @@ item_CountUp_3 - 威力＋28%／<br>クリティカル時<br>ダメージ耐性�
 item_CountUp_4 - 威力＋29%／<br>クリティカル時<br>ダメージ耐性＋0.5%<br>最大＋25%まで上昇
 item_CountUp_5 - 威力＋31%／<br>クリティカル時<br>ダメージ耐性＋0.5%<br>最大＋25%まで上昇
 item_CountUp_6 - 威力＋37%／<br>クリティカル時<br>ダメージ耐性＋0.5%<br>最大＋25%まで上昇
+item_CriticalPpGain_1 - 威力＋21%／<br>クリティカル時<br>PP＋15<br>リキャスト10秒<br>装備から10秒後に効果発動
+item_CriticalPpGain_2 - 威力＋23%／<br>クリティカル時<br>PP＋15<br>リキャスト10秒<br>装備から10秒後に効果発動
+item_CriticalPpGain_3 - 威力＋26%／<br>クリティカル時<br>PP＋15<br>リキャスト10秒<br>装備から10秒後に効果発動
+item_CriticalPpGain_4 - 威力＋28%／<br>クリティカル時<br>PP＋15<br>リキャスト10秒<br>装備から10秒後に効果発動
+item_CriticalPpGain_5 - 威力＋29%／<br>クリティカル時<br>PP＋15<br>リキャスト10秒<br>装備から10秒後に効果発動
+item_CriticalPpGain_6 - 威力＋36%／<br>クリティカル時<br>PP＋15<br>リキャスト10秒<br>装備から10秒後に効果発動
+item_StepUpBonus_1 - 威力＋16%／<br>5秒ごとに威力＋1%<br>最大＋5%まで上昇<br>被ダメージ時<br>上昇した威力が1%低下
+item_StepUpBonus_2 - 威力＋18%／<br>5秒ごとに威力＋1%<br>最大＋5%まで上昇<br>被ダメージ時<br>上昇した威力が1%低下
+item_StepUpBonus_3 - 威力＋21%／<br>5秒ごとに威力＋1%<br>最大＋5%まで上昇<br>被ダメージ時<br>上昇した威力が1%低下
+item_StepUpBonus_4 - 威力＋23%／<br>5秒ごとに威力＋1%<br>最大＋5%まで上昇<br>被ダメージ時<br>上昇した威力が1%低下
+item_StepUpBonus_5 - 威力＋24%／<br>5秒ごとに威力＋1%<br>最大＋5%まで上昇<br>被ダメージ時<br>上昇した威力が1%低下
+item_StepUpBonus_6 - 威力＋32%／<br>5秒ごとに威力＋1%<br>最大＋5%まで上昇<br>被ダメージ時<br>上昇した威力が1%低下
+item_DamageTakeOver_1 - 威力＋21%／<br>攻撃時PP回復量＋15%<br>PP自然回復速度＋20%<br>ダメージ耐性＋30%<br>被ダメージ時PP－30<br>装備から10秒後に効果発動
+item_DamageTakeOver_2 - 威力＋23%／<br>攻撃時PP回復量＋15%<br>PP自然回復速度＋20%<br>ダメージ耐性＋30%<br>被ダメージ時PP－30<br>装備から10秒後に効果発動
+item_DamageTakeOver_3 - 威力＋26%／<br>攻撃時PP回復量＋15%<br>PP自然回復速度＋20%<br>ダメージ耐性＋30%<br>被ダメージ時PP－30<br>装備から10秒後に効果発動
+item_DamageTakeOver_4 - 威力＋28%／<br>攻撃時PP回復量＋15%<br>PP自然回復速度＋20%<br>ダメージ耐性＋30%<br>被ダメージ時PP－30<br>装備から10秒後に効果発動
+item_DamageTakeOver_5 - 威力＋29%／<br>攻撃時PP回復量＋15%<br>PP自然回復速度＋20%<br>ダメージ耐性＋30%<br>被ダメージ時PP－30<br>装備から10秒後に効果発動
+item_DamageTakeOver_6 - 威力＋36%／<br>攻撃時PP回復量＋15%<br>PP自然回復速度＋20%<br>ダメージ耐性＋30%<br>被ダメージ時PP－30<br>装備から10秒後に効果発動
 item_GuardStanceUp_1 - ガードスタンス時の<br>効果が1%上昇する。
 item_GuardStanceUp_2 - ガードスタンス時の<br>効果が2%上昇する。
 item_GuardStanceUp_3 - ガードスタンス時の<br>効果が3%上昇する。
