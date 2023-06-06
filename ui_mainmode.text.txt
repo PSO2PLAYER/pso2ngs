@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2023/4/5 7:41:55
-Filesize is: 706080 bytes
+ui_mainmode.text was created: 2023/6/7 6:34:46
+Filesize is: 737600 bytes
 
 Common
 Group 0
@@ -135,6 +135,7 @@ Popup_Mail - <pict ba_mail><pict 4space>メール
 Popup_ArksSearch - <pict ba_search><pict 4space>アークスサーチ
 Popup_CommuHistory - <pict ba_commu><pict 4space>コミュニケーション履歴
 Popup_NearCharacter - <pict ba_surround><pict 4space>周囲のキャラクター
+Popup_MySpace - <pict ba_myspace><pict 4space>クリエイティブスペース
 Popup_CharacterData - <pict ba_charainfo><pict 4space>キャラクター情報
 Popup_Honor - <pict ba_title><pict 4space>称号
 Popup_ArksCard - <pict ba_card><pict 4space>アークスカード
@@ -145,10 +146,14 @@ Popup_ShortcutWord - <pict ba_shortcut><pict 4space>ショートカットワー�
 Popup_AutoWord - <pict ba_autoword><pict 4space>オートワード設定
 Popup_Motion - <pict ba_motion><pict 4space>勝利演出設定
 Popup_SymbolArt - <pict ba_symbol><pict 4space>シンボルアート
+Popup_PlaceObject - <pict ba_objarrange><pict 4space>ポータブルホログラム設置
+Popup_ListObject - <pict ba_objarrange><pict 4space>周囲のポータブルホログラム
+Popup_PerformEmotes - <pict ba_la><pict 4space>ロビーアクション実行
 Popup_Information - <pict ba_info><pict 4space>インフォメーション
 Popup_Help - <pict ba_help><pict 4space>ヘルプ
 Popup_Option - <pict ba_option><pict 4space>オプション
 Popup_StreamerMode - <pict ba_stream><pict 4space>ストリーマーモード
+Popup_CollaboMode - <pict ba_snapshot><pict 4space>イベント応募関連の表示設定
 Popup_CampaignItem - <pict ba_get><pict 4space>キャンペーンアイテム受け取り
 Popup_AutoSale - <pict ba_autosell><pict 4space>ドロップアイテムの自動売却設定<pict 4space><pict Arcscash><pict StarGem>
 Popup_ItemCode - <pict ba_code><pict 4space>アイテムコード
@@ -209,6 +214,7 @@ MainMenu_Equip_Subpalette - サブパレット
 MainMenu_Community_Friend - フレンドリスト
 MainMenu_Community_Team - チームコマンド
 MainMenu_Community_Party - パーティーコマンド
+MainMenu_Community_MySpace - クリエイティブスペース
 MainMenu_Community_Mail - メール
 MainMenu_Community_Chara - 周囲のキャラクター
 MainMenu_MyData_CharaInfo - キャラクター情報
@@ -968,7 +974,7 @@ BlackList_Error_Default - 問題が発生したため、<br>処理を実行で�
 BlackList_Result_Add - $(0)をブロックリストに登録しました。
 BlackList_Result_Remove - $(0)をブロックリストから解除しました。
 BlackList_Add_Title - ブロックリストへの登録
-BlackList_Add_Exp - ブロックリストに登録すると、<br>パーティー招待ほか各種招待・メール・チャットなど<br>相手からの各種コミュニケーションが遮断されます。<br><br>※「ブロックリスト登録解除」でいつでも解除可能です。<br><br>本当にブロックリストに登録しますか？
+BlackList_Add_Exp - ブロックリストに登録します。よろしいですか？<br><br>ブロックリストに登録すると、<br>パーティー招待ほか各種招待、メール、チャットなど、<br>相手からの各種コミュニケーションが遮断されます。<br>また、相手がフィールド上に設置したホログラムも、<br>表示されなくなります。<br><br><yellow>※“ブロックリスト登録解除”でいつでも解除可能です。<c>
 BlackList_Result_Unknown - 問題が発生したため、<br>処理を実行できませんでした。<br><br>[No.1025］
 BlackList_Error_TooMany - ブロックリストの登録可能件数を超えています。
 FriendList_Error_MailErr - 問題が発生したため、<br>処理を実行できませんでした。<br><br>[No.1026］
@@ -1492,6 +1498,7 @@ SkillPointUp - スキルポイント +$(0)SP
 ChangeValuePlus - <c ff9c70>（＋$(0)）<c>
 ChangeValueMinus - <c 32cdff>（－$(0)）<c>
 ResistValue - $(0)％
+ResistValue_Max - <bright_orange>$(0)％<c>
 TitledChangeValuePlus - $(1)　<c ff9c70>（＋$(0)）<c>
 TitledChangeValueMinus - $(1)　<c 32cdff>（－$(0)）<c>
 AtpStrikeRate - 打撃威力
@@ -1849,7 +1856,7 @@ Shootingroom_Command_Label_Preference - フィールドの設定
 Shootingroom_Command_Label_Weather - 天候
 Shootingroom_Command_Label_TimePreference - 時間設定
 Shootingroom_Command_Label_TimeCount - $(0):$(1)
-Shootingroom_Command_Label_TimeGuide - 1時間単位で変更：<%Decide>を押しながら←/→
+Shootingroom_Command_Label_TimeGuide - 1時間単位で変更：<%Decide>を押しながら<swguidetype T_ItemWarehouse>
 LeaderMenuLabel08 - パーティーメンバー募集
 
 Group 1
@@ -1898,6 +1905,7 @@ StatusLabelSeasonPoint_14 - ニューイヤー'23シーズナルポイント
 StatusLabelSeasonPoint_15 - ウィンター'23シーズナルポイント
 StatusLabelSeasonPoint_16 - スプリング'23シーズナルポイント
 StatusLabelSeasonPoint_18 - 『NGS』2周年記念シーズナルポイント
+StatusLabelSeasonPoint_20 - 『PSO2』11周年記念シーズナルポイント
 StatusLabelSeasonPointValue - $(1) /$(0)
 StatusLabelN-Meseta - <pict reb_meseta>メセタ
 StatusLabelFun - FUN
@@ -2757,6 +2765,9 @@ Message_HalfDollNotHave - ハーフドールを持っていないため、復活
 Message_CanNowUseHalfDoll - ハーフドールの使用回数が回復しました。
 Message_Revive_count - 10秒後に自動で復活します。
 Message_Revive_count_5 - 5秒後に自動で復活します。
+Message_Revive_count_10 - 10秒後に自動で復活します。
+Message_Revive_count_15 - 15秒後に自動で復活します。
+Message_Revive_count_30 - 30秒後に自動で復活します。
 Message_Revive_count_Time - $(0)秒後に自動で復活します。
 Title_RetryConform - リトライメニュー
 Label_Retry - リトライする
@@ -2842,7 +2853,7 @@ SkillTree
 Group 0
 LevelUp_Ask - $(0)SPを消費してレベルアップを行います。<br>よろしいですか？<br><br>（所持スキルポイント：$(1)SP）
 LevelUp_AskNoCost - <yellow>SPを消費せず<c>レベルアップを行います。<br>よろしいですか？
-LevelUp_Success - レベルアップしました。
+LevelUp_Success - スキルポイントの割り振りが完了しました。
 LevelUp_Lack - スキルポイントが不足しているため、習得できません。<br><br>各スキルレベルでのステータスを<br><%NextTabDetails>で確認できます。<br><br>（必要スキルポイント: $(0)SP）
 LevelUp_Lack_v - スキルポイントが不足しているため、習得できません。<br><br>各スキルレベルでのステータスを<br><pict Sign_SELECT>で確認できます。<br><br>（必要スキルポイント: $(0)SP）
 LevelUp_LackLv - 習得レベルに達していません。
@@ -2881,8 +2892,8 @@ RenameError - この名前は使用することができません。
 LevelUp_LackClassLv - クラスレベルが必要レベルに達していないため、<br>習得することができません。<br><br>必要クラスレベル情報<br>$(0) $(1) Lv.$(2)
 LevelUp_LackClassLv_v - クラスレベルが必要レベルに達していないため、<br>習得することができません。<br><br>必要クラスレベル情報<br>$(0) $(1) Lv.$(2)
 RebootText001 - スキルポイント
-RebootText002 - 選択したクラススキルを習得します。<br>よろしいですか？
-RebootText003 - スキルポイントが不足しているため、<br>クラススキルを習得できません。
+RebootText002 - スキルポイントの割り振りを行います。<br>よろしいですか？
+RebootText003 - スキルポイントが不足しています。
 RebootText004 - 変更を破棄します。<br>よろしいですか？
 ShowClassTutorial - ヘルプを表示
 
@@ -3901,6 +3912,25 @@ ForceRodChargeTechQuickMove - ロッドチャージ<br>クイックムーブ
 ForceTalisShotMarking - タリスサイン<br>マーキング
 SlayerWeaponActionStayCounterCritical - スラッシュカウンター<br>クリティカルアップ
 SlayerBlink - チャージスラッシュ
+HunterSwordStepCounterExtend - ソードSC<br>オルタネーション
+HunterPartisanVolgraptorShortRecast - ヴォルグラプター<br>ショートリキャスト
+HunterWLanceSpecialAttack - クロッシングフェザー
+FighterTDAttackExtend - ダガーアタック<br>インパクト
+FighterKnuckleStepCounterExtend - ナックルSC<br>オルタネーション
+FighterDSWindAmplify - セイバーウィンド<br>アンプリファイ
+GunnerChainTriggerFinishAmplify - ヘイルオブバレッツ<br>アンプリファイ
+RangerRifleAttackExtend - ライフルアタック<br>インパクト
+RangerLauncherClusterBombExtend - スティッキーボム<br>ワイドレンジ
+ForceRodAttackExtend - ロッドアタック<br>インパクト
+ForceTalisTecBurstBloomFlourish - トリッキーキャパシタ<br>ブルームフラリッシュ
+TechterWandTechSkipAttack - ウォンドテクニック<br>スキップビート
+TechterTalisTecBurstBloomFlourish - トリッキーキャパシタ<br>ブルームフラリッシュ
+BraverKatanaSkipArts - カタナSC<br>スキップアーツ
+BraverBowReinForce - バレットボウアタック<br>インパクト
+BouncerDBladeStepCounterExtend - ブレードSC<br>オルタネーション
+BouncerTecArtsSkipAttack - ブーツアーツ<br>スキップビート
+SummonerTwoPlatoonsMarmeloPlus - ファミリアユニゾン<br>マルメロプラス
+SlayerGearOverTimeAfterAmplify - ガンスラッシュギア<br>クイックリチャージ
 
 Group 1
 
@@ -4719,7 +4749,7 @@ GlideAttack - 空中から急降下を行い、<br>攻撃が命中したエネ�
 Photonblast - 空間上のフォトンを、強力なエネルギーへと変換し、<br>必殺の一撃として解き放つ。<br>発動後は、リチャージが完了するまで、<br>再発動させることができない。
 EasyControl - エネミーとの距離と装備している武器に応じて、<br>様々なアクションを自動的に行う。
 GunnerChainBoostDodgeAdvance - チェインブースト中、<br>武器アクションの無敵時間を延長する。<br>また、武器アクションによる回避成功時に、<br>チェインブーストの効果時間を延長する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
-GunnerEscapePPGain - ステップまたは<br>ツインマシンガンの武器アクションによる<br>回避成功時に、PPが回復する。<br><yellow>※メインクラス専用<c>
+GunnerEscapePPGain - ステップまたは<br>ツインマシンガンの武器アクションによる<br>回避成功時に、PPが回復する。
 GunnerTMGAccel - 武器アクション発動後に、<br>特定のタイミングで<br>通常攻撃ボタンを押すことで、<br>上昇しながら攻撃を行う。<br><yellow>※メインクラス／ツインマシンガン専用<c>
 GunnerCounterPABurstEscape - 武器アクションによる回避成功後に、<br>最初に使用するPAに無敵時間が発生する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
 ForceZanWindBall - チャージしていない風属性テクニックを、<br>エネミーに当てることで、<br>風環を付着する。そこに、チャージした<br>同属性のテクニックを当てると、<br>風環が展開して、追加の攻撃が発生する。<br>風環による攻撃は、<br>当てたテクニックによって変化する。
@@ -4910,6 +4940,25 @@ GunnerGaugeShotGun - <yellow>【アクティブスキル】<c><br>攻撃によ�
 SlayerBlink - チャージ状態の通常攻撃後に、<br>特定のタイミングで、<br>武器アクションボタンを押すことで、<br>エネミーに突撃を行う。<br><yellow>※ガンスラッシュ専用<c>
 SummonerPetGearExtra - “フレドラン”と“ヴォルファー”の<br>タクトギアのストック数が<br>３に増加する。<br><yellow>※タクト専用<c>
 SummonerWeaponActionChargeGuard - 武器アクションボタンを長押ししている間、<br>受けるダメージを軽減し、<br>打ち上げや吹き飛ばしを防ぐ。<br>また、攻撃を受けた時に、<br>“マルメロ”のゲージが<br>蓄積するようになる。<br><yellow>※メインクラス／タクト専用<c>
+HunterSwordStepCounterExtend - ステップカウンターが、<br>素早くエネミーに突撃を行う<br>攻撃に変化する。<br><yellow>※ソード専用<c>
+HunterPartisanVolgraptorShortRecast - 武器アクションによる<br>攻撃の無効化成功時に、<br>ヴォルグラプターの<br>再使用が可能になるまでの時間を短縮する。<br>ただし、再使用が可能になるまでのあいだに<br>時間を短縮できる回数には上限がある。<br><yellow>※メインクラス／パルチザン専用<c>
+HunterWLanceSpecialAttack - <yellow>【アクティブスキル】<c><br>攻撃により蓄積した<br>ゲージを消費することで、<br>前方に強力な斬撃を放つ。<br><yellow>※ワイヤードランス専用<c>
+FighterTDAttackExtend - PAを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージを最大にすると、一定回数、<br>通常攻撃に追加で衝撃波が<br>発生するようになる。<br><yellow>※ツインダガー専用<c>
+FighterKnuckleStepCounterExtend - ステップカウンターが、<br>素早くエネミーに突撃を行う<br>攻撃に変化する。<br><yellow>※ナックル専用<c>
+FighterDSWindAmplify - デッドリーアーチャー<br>またはスパイラルドライブ発動後に、<br>一定時間、カマイタチの段階が<br>上がりやすくなる。<br><yellow>※メインクラス／ダブルセイバー専用<c>
+GunnerChainTriggerFinishAmplify - チェインフィニッシュ発動後に、<br>一定時間、ヘイルオブバレッツの<br>ゲージ蓄積量が増加する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
+RangerRifleAttackExtend - PAを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージを最大にすると、一定回数、<br>通常攻撃が強力な攻撃に変化する。<br><yellow>※アサルトライフル専用<c>
+RangerLauncherClusterBombExtend - 武器アクションによる爆発の<br>攻撃範囲が拡大し、威力が上昇する。<br><yellow>※メインクラス／ランチャー専用<c>
+ForceRodAttackExtend - テクニックを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージを最大にすると、一定回数、<br>通常攻撃が強力な攻撃に変化する。<br>変化した攻撃は、最後に使用した<br>テクニックと同じ属性になる。<br><yellow>※ロッド専用<c>
+ForceTalisTecBurstBloomFlourish - PAによるタリスの展開中に、<br>展開状態に応じて<br>トリッキーキャパシタの攻撃が変化する。<br><yellow>※タリス専用<c>
+TechterWandTechSkipAttack - チャージテクニックを発動した後の<br>通常攻撃が３段目扱いの<br>強力な攻撃に変化する。<br><yellow>※ウォンド専用<c>
+TechterTalisTecBurstBloomFlourish - PAによるタリスの展開中に、<br>展開状態に応じて<br>トリッキーキャパシタの攻撃が変化する。<br><yellow>※タリス専用<c>
+BraverKatanaSkipArts - ステップカウンター発動後に、<br>使用するPAが３段目に変化し、<br>威力が上昇する。<br><yellow>※メインクラス／カタナ専用<c>
+BraverBowReinForce - PAを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージを最大にすると、<br>次の通常攻撃が強力な攻撃に変化する。<br>その後、最初に使用する<br>チャージしたディメンショナルレイを除く<br>PAの威力が上昇する。<br><yellow>※バレットボウ専用<c>
+BouncerDBladeStepCounterExtend - ステップカウンターが<br>素早くエネミーに突撃を行う<br>攻撃に変化する。<br><yellow>※デュアルブレード専用<c>
+BouncerTecArtsSkipAttack - 異なるPAを連続で使用した後の<br>通常攻撃が３段目扱いの<br>強力な攻撃に変化する。<br><yellow>※ジェットブーツ専用<c>
+SummonerTwoPlatoonsMarmeloPlus - ファミリアユニゾン発動時に、<br>“マルメロ”のゲージが<br>１段階以上の場合、ストックを１消費して<br>追加でマルメロが攻撃を行う。<br><yellow>※メインクラス／タクト専用<c>
+SlayerGearOverTimeAfterAmplify - ガンスラッシュギアオーバードライブの<br>効果終了時に、一定時間、<br>ガンスラッシュギアの<br>ゲージ蓄積量が増加する。<br><yellow>※メインクラス／ガンスラッシュ専用<c>
 
 Group 1
 
@@ -5390,6 +5439,12 @@ GearPpRecoverySub - 1段階毎のPP回復率(サブ)
 CriticalRateMain - クリティカル率上昇量(メイン)
 CriticalRateSub - クリティカル率上昇量(サブ)
 AtpRateFinish - フィニッシュ威力
+GearBoostRate - ギアゲージ上昇率
+TotalLimit - 上限
+KamaitachiRateDeadly - 蓄積率(デッドリー)
+TimeDeadly - 効果時間(デッドリー)
+KamaitachiRateEnhance - 蓄積率(スパイラル)
+TimeEnhance - 効果時間(スパイラル)
 
 Group 1
 
@@ -5870,6 +5925,30 @@ AdditionalSkillLimitText - クエスト受注中は、<br>この機能は使用�
 AdditionalSkillClassIcon - <pict $(0)><pict 4space>$(1)
 AdditionalSkillExceptionDataWindowTitle - アドオンスキル登録
 AdditionalSkillExceptionDataWindowText - 未登録のアドオンスキルがあります。<br>アドオンスキルの登録を行ってください。
+Title_SkipFunction - ゲームプレイスキップ<pict 4space><pict Arcscash>
+Title_SkipFunction_TwoLineGuide - キャラクターを成長させるさまざまな<pict 4space><pict Arcscash>アイテムが購入できます。
+SkipFunction - ゲームプレイスキップ<pict 4space><pict Arcscash>
+SubTitle_SkipFunction - ゲームプレイスキップ
+LevelSkip_EP1 - クラスレベル70化&適正装備セット<pict 4space><pict Arcscash>
+SkillPointSkip_EP1 - 『NGS』Ver.1全トレイニア踏破<pict 4space><pict Arcscash>
+SubTitle_LevelSkip_ClassSelect - クラス選択
+SubTitle_LevelSkip_Description - 機能詳細
+SubTitle_LevelSkip_ItemList - 入手アイテム
+Headline_Level - Lv.
+SubTitle_LevelSkip_EP1_Description_Text - 対象クラスのレベルが<yellow>Lv.$(0)<c>になり、<br>レベルに適した<yellow>装備アイテム<c>が入手できます。<br><br><yellow>※既にLv.$(0)以上の場合は変動しません。<c><br><br><yellow>※1キャラクターにつき、<br>　各クラス1回まで使用できます。<br>※使用後は、メインクラスが<br>　選択したクラスに変更されます。<br>※装備アイテムは、“運営倉庫”に送られます。<c>
+ItemName - $(0)
+ItemName_Stack - $(0) x $(1)
+ItemName_Grinded - $(0)＋$(1)
+Error_LevelSkip_Purchased - 購入済みのため、選択できません。
+Error_Exception - 情報が取得できませんでした。<br>しばらくしてから、再度アクセスしてください。<br>その後も同様に発生する場合は<br>公式サイトのサポート窓口へお問い合わせください。
+LevelSkip_EP1_Path - <pict Arcscash><scarlet>AC消費コンテンツ<c><br>対象クラスのレベルが<yellow>Lv.$(0)<c>になり、<br>レベルに適した<yellow>装備アイテム<c>が入手できます。<br><br><yellow>※既にLv.$(0)以上の場合は変動しません。<c><br><br><yellow>“$(1)”<c>の<br>購入画面に進みますか？<br><br><yellow>※1キャラクターにつき、<br>　各クラス1回まで使用できます。<br>※使用後は、メインクラスが<br>　選択したクラスに変更されます。<br>※装備アイテムは、“運営倉庫”に送られます。<c>
+Warning_LevelSkip_EP1_Path - $(0)はLv.$(1)以上のため、<br>これ以上レベルアップできません。<c><br>（現在のレベル：Lv.$(2)）<br><br><yellow>“$(3)”<c>の<br>購入画面に進んでもよろしいですか？
+Purchased_LevelSkip_EP1_Path - 選択したクラスがレベルアップしました。<br><br>$(0)　Lv.$(1)　⇒　Lv.$(2)<br><br>アイテムが、“運営倉庫”に送られました。<br><br><yellow>※“メインメニュー”の“アイテム”を選択し、<br>　ウインドウ上部の“アイテムパック”の表示を、<br>　“運営倉庫”に切り替えて確認してください。<c>
+Purchased_LevelSkip_EP1_Path_ItemOnly - 対象クラスに適したアイテムを、<br>“運営倉庫”に送りました。<br><br><yellow>※“メインメニュー”の“アイテム”を選択し、<br>　ウインドウ上部の“アイテムパック”の表示を、<br>　“運営倉庫”に切り替えて確認してください。<c>
+Error_SkillPointSkip_Purchased - 購入済みか、対象のスキルポイントを獲得済みのため選択できません。
+SkillPointSkip_EP1_Path - <pict Arcscash><scarlet>AC消費コンテンツ<c><br><yellow>“『NGS』Ver.1”<c>のあいだに配信された<br><yellow>“トレイニア（コクーン及びタワー）”<c>を<br>すべて攻略済みにして、<br><yellow>$(1)Pt<c>のスキルポイントを獲得します。<br><br><yellow>“$(0)”<c>の<br>購入画面に進みますか？<br><br><scarlet>※購入後に、自動的にログアウトします。<c><br><br><yellow>※攻略済みのトレイニアがある場合も、<br>　購入価格は変わりません。<br>※1アカウントにつき、1回まで使用できます。<br>※この機能の内容は、今後のアップデートにより、<br>　変更される場合があります。<c>
+Purchased_SkillPointSkip - 購入が完了しました。<br>内容反映のため、ログアウトします。
+Error_SkipFunction_NotSolo - マッチング中、もしくはパーティーを組んでいる、<br>あるいはパーティー関連の機能を利用中のため、<br>使用できません。
 
 Group 1
 
@@ -6152,6 +6231,10 @@ Bg_Stia7 - ストロボル島（夕方）Ａ
 Open_Title - 背景の使用条件
 Open_00 - 最初から使用可能
 Open_01 - 累計称号ポイント：$(0)pt
+Open_02 - チケットを使用する
+Bg_Tab_All - すべて表示
+Bg_Tab_TitlePoint - 称号ポイント
+Bg_Tab_Ticket - チケット
 PreviewZoom - （<c cfcfcf>回転<swguidetype CameraTurn>/拡大<%PaletteReverse><%PaletteForce><c> <%Exception> <yellow>平行移動<swguidetype CameraTurn><c>）
 PreviewZoom_mouse - （<c cfcfcf>回転<swguidetype CameraTurn>/拡大<%PaletteReverse><%PaletteForce><c> <pict mouse_right> <yellow>平行移動<swguidetype CameraTurn><c>）
 PreviewMove - （<yellow>回転<swguidetype CameraTurn>/拡大<%PaletteReverse><%PaletteForce><c> <%Exception> <c cfcfcf>平行移動<swguidetype CameraTurn><c>）
@@ -9169,6 +9252,8 @@ PurposeText_Reb16 - 期間限定クエスト攻略
 PurposeText_Reb17 - フィールドレース競走
 PurposeText_Reb18 - アークスレコードハイスコア狙い
 PurposeText_Reb19 - シーズナルポイント獲得
+PurposeText_Reb20 - リーコンギガンツ討伐
+PurposeText_Reb21 - スクリーンショット撮影
 PurposeText_Reb_All - 募集目的で絞り込む
 PartyMakerError1 - 募集コメントに<br>使用できない文字が含まれています。
 PartyMakerError2 - パーティーメイカーが設置可能上限数まで<br>置かれているため、これ以上<br>パーティーメイカーを設置することは出来ません。
@@ -10267,6 +10352,21 @@ AreaName020200 - 5章：すべてを終わらせるために
 AreaName020210 - 5章：リサージェントアークス
 AreaName020220 - 5章：ルシエルへの道
 AreaName020340 - 5章：戦いの報告
+AreaName1110022 - ハルファナ平原：北
+AreaName1110023 - バルフロウ大瀑布：西
+AreaName1130021 - ミストラ樹林：東
+AreaName1130022 - ダナン雪原：西
+AreaName1110024 - バルフロウ大瀑布：東
+AreaName1130023 - ダナン雪原：東
+AreaName021020 - 6章：つくられたセカイ
+AreaName021030 - 6章：マノンたちの処遇
+AreaName021040 - 6章：クロフォードからの頼みごと
+AreaName021100 - 6章：新たなる敵
+AreaName021110 - 6章：心をひとつに
+AreaName501120 - 6章：ルシエラン
+AreaName503080 - 6章：ブルーダーの自戒
+AreaName508040 - 6章：実験惑星ハルファ
+AreaName508050 - 6章：ハルファの真実
 
 Group 1
 
@@ -10839,6 +10939,7 @@ Mag_Jukebox_Playlist_011 - プレイリスト作成できませんでした。<b
 Mag_Jukebox_Same_Preview - 現在再生中のミュージックディスクです。
 Mag_Fieldbgm - $(0)
 Mag_Jukebox_None_Preview - このミュージックディスクを再生するには、『PSO2』の追加ダウンロードが必要です。
+Mag_Search_High - マイニン
 
 Group 1
 
@@ -11182,6 +11283,7 @@ Window_FasttravelTerminal_5 - 戻る
 Window_FasttravelTerminal_6 - パーティーメンバー集合
 Window_FasttravelTerminal_7 - ブロック移動
 Window_FasttravelTerminal_8 - ルーム移動
+Window_FasttravelTerminal_10 - クリエイティブスペース
 Window_FasttravelTerminal_6_1 - パーティーメンバーをこのリューカーデバイスに集合させる<br>ことができます。<br><light_red>※エステやイベント中のメンバーには通知のみ送ります。<br>※セクションに進入できないメンバーは対象外です。<c>
 Window_FasttravelTerminal_6_2 - セクション進入不可
 Window_FasttravelTerminal_6_3 - パーティーメンバー集合要請
@@ -11220,7 +11322,8 @@ Window_FasttravelTerminal_8_23 - このルームに合流します。よろし�
 Window_FasttravelTerminal_8_24 - このルームに合流すると<yellow>$(0)<c>に<br>移動します。よろしいですか？
 Window_FasttravelTerminal_8_25 - ルームがありません。
 Window_FasttravelTerminal_8_26 - ルームが見つかりませんでした。
-Window_FasttravelTerminal_8_27 - 定員オーバーの為、ルームに入ることができません。
+Window_FasttravelTerminal_8_27 - ルームの上限人数を超えるため、<br>移動することができませんでした。
+Window_FasttravelTerminal_8_27_2 - ブロックが混雑しているため、<br>選択したルームへの移動ができませんでした。
 Window_FasttravelTerminal_8_28 - パスワードが一致しないため、ルームに入ることができません。
 Window_FasttravelTerminal_8_29 - ルームの移動に失敗しました。<br>時間をおいて再度お試しください。
 Window_FasttravelTerminal_8_30 - ルーム
@@ -11366,6 +11469,8 @@ PlayNav_ErrorMsg2 - プレイナビゲーターは、<br>メインタスクを�
 Window_BattleTrigger_Title_CodeKey_w1_r4_3 - イエローポータル：スティア
 Window_BattleTrigger_Title_CodeKey_w1_r4_1 - パープルポータル：スティア
 Worldmap_Quest_Blockade - クエスト進行中は使用できません。
+FeatureItem_MsgTitle - 注目のドロップアイテム
+FeatureItem_Guide_Label1 - 操作ウィンドウ切り替え：<%MultiSelect>
 
 Group 1
 
@@ -11713,6 +11818,274 @@ AdditionalSkillSl_PhotonblastRecastQuick - PB再使用時間短縮
 AdditionalSkillSl_TrialPpHeal - トライアル参加時PP回復(Sl)
 AdditionalSkillSl_WindResistance - ミラージュ耐性アップ(Sl)
 AdditionalSkillSl_MaxHp - HPアップ(Sl)
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+PlaceAnObject
+Group 0
+PlaceAnObject_Name - ポータブルホログラム
+PlacedObject - 5.設置したポータブルホログラム
+Object - 2.オブジェクト
+Sticker - 3.ペイント
+Effect - 4.エフェクト
+Etcetera - 5.その他
+ObjectList_Thumbnail_Title - サムネイル
+TitlePlaceObject - ポータブルホログラム設置
+Cost - コスト
+Slash - /
+RemoveAll - すべて撤去
+RemoveOneFront - 新しい順に撤去
+CategoryAll - 1.すべて表示
+EmptyListText - ポータブルホログラムがありません
+TitleListObject - 周囲のポータブルホログラム
+ObjectName - ポータブルホログラム名
+PlaPlayerPlaced - 設置したキャラクター名
+Close - 閉じる
+RemoveObject - ポータブルホログラムを撤去
+BlockCreator - ブロックリストに登録する
+ReportCreator - このプレイヤーを報告する
+ContinueToReport - ブロックリストに登録しました。<br>続けて、このプレイヤーを報告しますか？
+Guide_GoToListObject - <%Exception2><pict 4space>“周囲のポータブルホログラム”を開く
+Guide_OtherType - <%MultiSelect><pict 4space>+<pict 4space><%Decide><pict 4space>近くのモノにペイントを塗る
+Guide_OtherType_None - <%MultiSelect><pict 4space>+<pict 4space><%Decide><pict 4space><gray>近くのモノにペイントを塗る<c>
+Guide_GoToPlaceObject - <%Exception2><pict 4space>“ポータブルホログラム設置”を開く
+HiddenNextLogin - 次回ログインまで、他プレイヤーのポータブルホログラムを非表示にする
+HiddenNextLogin_Supplement - 常に非表示にする場合は、オプションの“グラフィック”にある<br>“他プレイヤーのポータブルホログラム表示”から設定してください。
+Guide_ChangeCtrWindow - <%ChangeCtrlWindowForward><pict 4space>操作ウィンドウ切り替え
+Mes_AllRemoved - すべてのポータブルホログラムを撤去しました。
+Mes_Limit - コストの上限に達したため、これ以上設置できません。
+Mes_AutoRemoved - 設置した“$(0)”から一定距離離れたため、撤去しました。
+Mes_OneRemoved - $(0)を撤去しました。
+Mes_Lost - 撤去するポータブルホログラムがありません。
+Mes_BeginnerBlock - このブロックには設置できません
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+MySpace
+Group 0
+MySpaceName - クリエイティブスペース
+MySpaceToastText_GeneratePoint_Get - $(0)GPを獲得しました。
+MySpaceShopText_BuyMessage - アイテムを$(1)$(0)GPで購入します。<br>よろしいですか？
+MySpaceShopText_NotPoint - ジェネシスポイントが不足しています。
+TimeoutTitle - メッセージ
+Timeout - サーバーとの通信がタイムアウトしました。<br>時間をおいて再度お試しください。
+DefaultColorButton - デフォルトカラーに戻す
+MySpaceCategoryText_TimeStamp - 履歴
+MySpaceCategoryText_Materials - 建材
+MySpaceCategoryText_Terrain - 建築物/道具/器具
+MySpaceCategoryText_Nature - 自然物
+MySpaceCategoryText_Shap - 立体図形
+MySpaceCategoryText_Play - ギミックパーツ
+MySpaceCategoryText_Furniture - 家具
+MySpaceCategoryText_Collaboration - コラボ
+MySpaceCategoryText_BluePrint - 設計図
+MySpaceInfoFormTitle - Ｃスペース情報
+MySpace_RoomNumber - Ｃスペース番号
+MySpace_NumberFormat - $(0) $(1) $(2)
+MySpace_SpaceName - Ｃスペース名
+MySpace_AccessSetting - 入室設定
+MySpace_PlayerIDName - プレイヤーIDネーム
+MySpace_Category - カテゴリー
+MySpace_Tag - 検索用タグ
+MySpace_Explanation - コメント
+MySpace_CategoryLocation - シーナリー
+MySpace_CategoryAmusement - アミューズメント
+MySpace_CategoryCommunication - コミュニケーション
+MySpace_TotalDownload - 設計図の累計ダウンロード回数
+MySpace_DownloadCount - $(0) 回
+MySpaceShopCheckBoxTitle - 未登録アイテムのみ表示
+MySpaceBaseChangeGP - ジェネシスポイント(GP)
+MySpaceItemDetailsTitle - アイテム詳細
+MySpaceItemDetailsTitle2 - ビルドパーツ詳細
+MySpaceItemDetailsInstallationLimit - 最大設置可能数
+MySpaceItemDetailsRotateLimit - 回転
+MySpaceItemDetailsRotateLimitNone - 制限なし
+MySpaceItemDetailsRotateLimitX - X軸のみ
+MySpaceItemDetailsRotateLimitY - Y軸のみ
+MySpaceItemDetailsRotateLimitZ - Z軸のみ
+MySpaceItemDetailsRotateLimitXY - XY軸のみ
+MySpaceItemDetailsRotateLimitXZ - XZ軸のみ
+MySpaceItemDetailsRotateLimitYZ - YZ軸のみ
+MySpaceItemDetailsScaleLimit - スケール
+MySpaceItemDetailsScaleLimitNone - 制限なし
+MySpaceItemDetailsScaleLimitAllAxis - 全体の拡縮のみ
+MySpaceItemDetailsScaleLimitLimited - できない
+MySpaceItemDetailsColorChange - カラー変更
+MySpaceItemDetailsColorChangePossible - できる
+MySpaceItemDetailsColorChangeImpossible - できない
+MySpaceItemDetailsBlueprint - 設計図への登録
+MySpaceItemDetailsBlueprintImpossible - できない
+MySpaceItemDetailsCommonExplanation - クリエイティブスペース用の<br>ビルドパーツ。Ｃスペースメニューの<br>“ビルドパーツの登録”で使用可能に。
+MySpaceItemDetailsStatus - 登録状況：$(0)
+MySpaceItemDetailsStatusUnused - <yellow>未登録<c>
+MySpaceItemDetailsStatusUsed - <yellow>登録済み<c>
+MySpaceItemDetailsNoRegister - 　登録するとアカウント内のすべてのキャラクターで<br>　利用可能になります。
+MySpaceItemDetailsRegister - 　アカウント内のすべてのキャラクターで利用可能です。
+MySpaceItemDetailsGimmick - ギミック付きのビルドパーツです。
+MySpaceBlueprintInfoFormTitle - 設計図情報
+MySpaceBlueprintInfoHeadLine_Blueprint - 設計図名
+MySpaceBlueprintInfoHeadLine_Search - 検索用タグ
+MySpaceBlueprintInfoHeadLine_Comment - コメント
+MySpaceBlueprintInfoHeadLine_Object - 使用ビルドパーツ数
+MySpaceBlueprintInfoHeadLine_Author - クリエイター情報
+MySpaceBlueprintInfoHeadLine_Player - プレイヤーIDネーム
+MySpaceBlueprintInfoHeadLine_Release - 公開日時
+MySpaceBlueprintInfoItemText_Num - $(0)個
+MySpaceBlueprintInfoItemText_NumOver - <red>$(0)個<c>
+MySpaceBlueprintInfoItemText_Unpublished - 非公開
+MySpaceBlueprintInfoItemText_Date - <utcymdt>$(0)</utcymdt>
+MySpaceBlueprintThumbnailTableFormTitle - 使用ビルドパーツ一覧
+MySpaceBlueprintThumbnailTableText_Gray - 未登録のビルドパーツのため配置できません。
+MySpaceBlueprintThumbnailTableText_Yellow - 設置制限を超えるため、すべてのこのビルドパーツを配置できません。
+MySpaceBlueprintThumbnailTableText_Empty - ビルドパーツがありません
+MySpaceBlueprintThumbnailTableText_Limit - 設計図のビルドパーツ数上限（$(0)個）を超えています
+MySpaceGpShopTitle - ジェネシスポイント交換ショップ
+MySpaceGpShopTitle_Guide - 獲得したジェネシスポイントでアイテムと交換できます。
+MainMenu_MySpace_CSpaceNenu - クリエイティブスペース
+MainMenu_MySpace_IndexHome - マイスペース
+MainMenu_MySpace_IndexTrend - トレンド
+MainMenu_MySpace_IndexLifestyle - コミュニティ
+MainMenu_MySpace_IndexSearch - 検索
+MainMenu_MySpace_IndexSystem - その他
+MainMenu_MySpace_IndexBluePrintBuzTrend - 人気の設計図
+MainMenu_MySpace_IndexBluePrintBuzTag - 人気のタグ付き設計図
+MainMenu_MySpace_PickCSpace - 注目のクリエイティブスペース
+MainMenu_MySpace_PickBlueprint - 注目の設計図
+MainMenu_MySpace_OfficialSpace - オフィシャルクリエイティブスペース
+MainMenu_MySpace_MyCSpace - 自分のクリエイティブスペース
+MainMenu_MySpace_FriendCSpace - フレンドのクリエイティブスペース
+MainMenu_MySpace_HistoryCSpace - 訪問したクリエイティブスペース
+MainMenu_MySpace_SearchCSpace - クリエイティブスペースの検索
+MainMenu_MySpace_SearchBlueprint - 設計図の検索
+MainMenu_MySpace_ReportCSpace - このスペースを報告する
+MainMenu_MySpace_PositionReset - このスペースの初期位置に戻る
+MainMenu_MySpace_OutCSpace - アークス拠点に戻る
+MainMenu_MySpace_PickBlueprintTrend - すべて表示
+MainMenu_MySpace_WindowNamePickCSpace - 注目のＣスペース
+MainMenu_MySpace_WindowNameOfficialSpace - オフィシャルＣスペース
+MainMenu_MySpace_WindowNameMyCSpace - 自分のＣスペース
+MainMenu_MySpace_WindowNameFriendCSpace - フレンドのＣスペース
+MainMenu_MySpace_WindowNameHistoryCSpace - 訪問したＣスペース
+MainMenu_MySpace_WindowNameSearchCSpace - Ｃスペースの検索
+MainMenu_MySpace_WindowNameFriendList - フレンドリスト
+MainMenu_MySpace_WindowNameBluePrintTrend - 注目の設計図
+MainMenu_MySpace_Search - 検索
+MainMenu_MySpace_Move - メッセージ
+MainMenu_MySpace_SearchResult - 検索結果
+MainMenu_MySpace_Unspecified - 指定なし
+MainMenu_MySpace_TabPickup - ピックアップ
+MainMenu_MySpace_TabLocation - シーナリー
+MainMenu_MySpace_TabAmusement - アミューズメント
+MainMenu_MySpace_TabCommunication - コミュニケーション
+MainMenu_MySpace_TabOperation - オフィシャル
+MainMenu_MySpace_TabHistory - すべて表示
+MainMenu_MySpace_TabFavorite - お気に入り
+MainMenu_MySpace_TabNew - 公開日時
+MainMenu_MySpace_TabVisitorsNumber - 累計訪問者数
+MainMenu_MySpace_TabPartsNumber - ビルドパーツ使用数
+MainMenu_MySpace_TabDLNumber - 累計ダウンロード回数
+MainMenu_MySpace_StatusOpen - <cyan>全体に公開<c>
+MainMenu_MySpace_StatusClose - 非公開
+MainMenu_MySpace_StatusFriend - <cyan>フレンドのみに公開<c>
+MainMenu_MySpace_StatusTeam - <cyan>チームメンバーのみに公開<c>
+MainMenu_MySpace_StatusFriendTeam - <cyan>フレンドとチームメンバーのみに公開<c>
+MainMenu_MySpace_StatusExpired - <scarlet>期限切れ<c>
+MainMenu_MySpace_StatusNotBuy - <yellow>未購入<c>
+MainMenu_MySpace_Rank - 仮
+MainMenu_MySpace_IndexCSpaceCategory - Ｃスペース名/カテゴリー
+MainMenu_MySpace_PlayerIDName - プレイヤーIDネーム
+MainMenu_MySpace_BlueprintCSpace - Ｃスペース名/設計図名
+MainMenu_MySpace_PlayerIDNameOpen - プレイヤーIDネーム/公開状態
+MainMenu_MySpace_CSpaceSearch - クリエイティブスペースサーチ
+MainMenu_MySpace_ConditionSearch - 検索条件
+MainMenu_MySpace_BlueprintSearch - 設計図名
+MainMenu_MySpace_TagSearch - 検索用タグ
+MainMenu_MySpace_DefaultName - クリエイティブスペース
+MainMenu_MySpace_DefaultNamePremium - プレミアムＣスペース
+MainMenu_MySpace_DefaultNameRental01 - レンタルＣスペース01
+MainMenu_MySpace_DefaultNameRental02 - レンタルスペース２
+MainMenu_MySpace_DefaultNameRental03 - レンタルスペース３
+MainMenu_MySpace_DefaultNameRental04 - レンタルスペース４
+MainMenu_MySpace_HiddenSpace - 非表示のＣスペース
+MainMenu_MySpace_ExpirationDate - レンタル有効期限
+MainMenu_MySpace_IndexCategory - カテゴリー
+MainMenu_MySpace_IndexSearchTag - タグ
+MainMenu_MySpace_IndexTheme - テーマ
+MainMenu_MySpace_IndexBuildParts - 所持建材
+MainMenu_MySpace_IndexAllHave - 全て所持済み
+MainMenu_MySpace_IndexReportCSNameNumber - Ｃスペース名/Ｃスペース番号
+MainMenu_MySpace_ChoiceMoveCSpace - このＣスペースに移動する
+MainMenu_MySpace_ChoiceFavoriteON - お気に入りに登録する
+MainMenu_MySpace_ChoiceFavoriteOFF - お気に入り登録を解除する
+MainMenu_MySpace_BlockMoveCSpace - クリエイティブスペースに移動します。<br>よろしいですか？
+MainMenu_MySpace_BlockMoveCSpaceError - 仮テキスト<br>クリエイティブスペースに移動できませんでした。
+MainMenu_MySpace_Blocklist - 仮テキスト<br><br>移動先のスペースの所有者が<br>ブロックリストに登録されています。
+MainMenu_MySpace_BlockMoveBlueprint - 設計図が登録されている<br>クリエイティブスペースに移動します。<br>よろしいですか？
+MainMenu_MySpace_BlockMoveBlueprintShortage - 設計図が設置されている<br>クリエイティブスペースに移動します。<br>よろしいですか？<br><br><yellow>※設計図の再現に<br>　必要なビルドパーツが不足しています。<c>
+MainMenu_MySpace_CrossPlaySpaceMoveFail - 移動先のクリエイティブスペースの設定により、<br>移動できません。
+MainMenu_MySpace_CrossPlaySpaceEnable - 選択したクリエイティブスペースは、<br>クロスプレイ設定が無効になっています。<br><br>移動するには、設定を有効にする必要があります。<br>有効にしてもよろしいですか？
+MainMenu_MySpace_CrossPlaySpaceReset - 選択したクリエイティブスペースは、<br>クロスプレイ設定が有効になっています。<br>移動するには、クリエイティブスペースを<yellow>“初期化”<c>して、<br>設定を無効にする必要があります。<br>無効にしてもよろしいですか？
+MainMenu_MySpace_CrossPlaySpaceEnableSuccess - ※仮テキスト<br><br>スペースをクロスプレイ有効に再設定しました。
+MainMenu_MySpace_CrossPlaySpaceResetSuccess - ※仮テキスト<br><br>スペースを初期化し、クロスプレイ無効に再設定しました。
+MainMenu_MySpace_SearchCSpaceNumber - Ｃスペース番号で検索
+MainMenu_MySpace_SearchCSpacePlayerID - プレイヤーIDネームで検索
+MainMenu_MySpace_SearchCSpaceName - Ｃスペース名で検索
+MainMenu_MySpace_EmptySearchCSpace - 条件に合致するＣスペースが見つかりませんでした
+MainMenu_MySpace_EmptySearchBlueprint - 条件に合致する設計図が見つかりませんでした
+MainMenu_MySpace_ToastFavoriteON - お気に入りに登録しました。
+MainMenu_MySpace_ToastFavoriteOFF - お気に入り登録を解除しました。
+MainMenu_MySpace_ToastFavoriteON_Fail - このクリエイティブスペースは、お気に入りに登録できません。
+MainMenu_MySpace_ToastFavoriteOFF_Fail - お気に入り登録の解除ができませんでした。
+MainMenu_MySpace_PositionResetText - このクリエイティブスペースの初期位置に移動します。<br>よろしいですか？
+MainMenu_MySpace_OutCSpaceText - クリエイティブスペースから退出し、<br>アークス拠点に戻ります。<br>よろしいですか？
+MainMenu_MySpace_ErrMSG - メッセージ
+MainMenu_MySpace_MoveFailToast - このクリエイティブスペースには移動できません。
+MainMenu_MySpace_BuyCheck - 以下のアイテムを$(2)$(0)で購入します。<br>よろしいですか？<br><br>（所持AC：$(1)）
+MainMenu_MySpace_DirectBuy_Premium - アイテム購入確認
+MainMenu_MySpace_Explanation_PurchaseConfirmation_Premium - <pict Arcscash><scarlet>AC消費コンテンツ<c><br>選択した機能の利用期限が切れています。<br><br><yellow>“プレミアムセット”<c>を有効にすることで、<br>機能を利用できます。<br>“プレミアムセット”の購入画面に進みますか？
+MainMenu_MySpace_DirectUse_Premium - アイテム使用確認
+MainMenu_MySpace_Explanation_ItemUsePremium - <pict Arcscash><c 5fdf00>購入済みアイテムの使用<c><br>“プレミアムＣスペース”の利用に必要な<br>“プレミアムセット”の利用権をお持ちでないか、<br>利用期限が切れています。<br><br>アイテムパック内にお持ちの<br><yellow>“プレミアムセット”<c>を使用して<br>プレミアムＣスペースを利用可能にしますか？<br><br><yellow>※複数種類所持している場合、<br>　追加期限が長いものを優先して使用します。<c><br><br><yellow>※使用するアイテムを確認したい場合は<br>　アイテムパックから選んでください。<c>
+MainMenu_MySpace_DirectBuy_Rental - アイテム購入確認
+MainMenu_MySpace_Explanation_PurchaseConfirmation_Rental - <pict Arcscash><scarlet>AC消費コンテンツ<c><br>“レンタルＣスペース”の利用権を<br>お持ちでないか、利用期限が切れています。<br><br>対応するチケットを購入し、<br>すぐにレンタルＣスペースを利用することができます。<br><br>チケットの購入確認画面に進みますか？
+MainMenu_MySpace_DirectUse_Rental - アイテム使用確認
+MainMenu_MySpace_Explanation_ItemUseRental - <pict Arcscash><c 5fdf00>購入済みアイテムの使用<c><br>“レンタルＣスペース”の利用権を<br>お持ちでないか、利用期限が切れています。<br><br>アイテムパック内にお持ちのチケットを使用して、<br>レンタルＣスペースを利用しますか？<br><br><yellow>※使用するアイテムを確認したい場合は<br>　アイテムパックから選んでください。<c>
+MainMenu_MySpace_WorldMapNotUse - この場所では、ワールドマップを利用できません。<br>アークス拠点に戻りますか？
+ZoneErrorMessage - クリエイティブスぺース内では利用できません。
+MySpaceBgmText_NotPlay - 再生できないBGMが設定されています。<br>BGMを再生する場合は、<br>『PSO2』のデータをダウンロードしてください。
 
 Group 1
 
