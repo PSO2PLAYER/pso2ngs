@@ -1,5 +1,5 @@
-actor_name.text was created: 2023/4/5 7:39:25
-Filesize is: 47616 bytes
+actor_name.text was created: 2023/6/7 7:18:41
+Filesize is: 48064 bytes
 
 Enemy
 Group 0
@@ -285,7 +285,7 @@ r04_non_trt_a - ビーハイヴＥ
 r01_unk_emp_chbi - セント・グレトラッピー
 r01_unk_emp_wi - ノルディ・エンペラッピー
 r01_unk_emp_wibi - ノルディ・グレトラッピー
-r05_stl_mtl_ba1 - へびめた強化型
+r05_stl_mtl_ba1 - ディンド
 r04_nat_cry_ba - クォーツ・スコーディン
 r01_unk_emp_ea - フルル・エンペラッピー
 r01_unk_emp_eabi - フルル・グレトラッピー
@@ -295,11 +295,19 @@ r05_stl_solsw_ba - バロウグ・ソード
 r01_alt_wlf_bi - ワウロン・ジオ
 r01_nat_armma_bi - ガロンゴ・ジオ
 r04_non_dro_a - ハイドローム
+r05_stl_pnr_ba - ハルヴァルディ
+r05_stl_bbd_ba - アーンズゥ
 r03_gd_hum_1ng - アムス
 r03_gd_hum_cm - アムス
+r05_stl_box_ba1 - ラヴィード
 r05_gd_zft_ba - ヴェノギア
 r05_gd_zft_str - ゼフェット・ヴェノギア
+r05_gd_zft_rai - ヴェノギア・ヴェラ
 r04_gd_god3_str - ダークファルス・エイジス
+r05_stl_ktn_ba1 - ラセツ
+r05_stl_gia_ba1 - ヘルジーグ
+r05_stl_pyc_ba - ヴォルガ
+r00_unknownenemy - ？？？？？
 
 Group 1
 
@@ -334,6 +342,7 @@ EnemyTitleSeasonMoon1 - 往古の
 EnemyTitleSeasonWinter1 - 雪花の
 EnemyTitleMobileForceEnemy - 絶望の
 EnemyTitleNightmareBoss - 不撓の
+EnemyTitleSeasonAnnivPSO21 - 星霜の
 
 Group 1
 
@@ -364,6 +373,7 @@ Another - 超時空
 Animal - テイムズ
 Natural - フォーマーズ
 Independent - 所属なし
+Starless - スターレス
 
 Group 1
 
