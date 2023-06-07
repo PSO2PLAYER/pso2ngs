@@ -1,5 +1,5 @@
-common.text was created: 2023/4/5 8:22:53
-Filesize is: 157392 bytes
+common.text was created: 2023/6/7 8:13:55
+Filesize is: 164464 bytes
 
 Block
 Group 0
@@ -65,6 +65,7 @@ MeetForm_Error_Terminal - 移動しようとしているアークス拠点の<br
 MeetForm_Error_SamePlace - 相手が同じ場所にいるため、<br>移動できませんでした。
 MeetForm_Error_ClassicBlock - 相手が『PSO2』ブロックにいるため、<br>移動できませんでした。
 MeetForm_Error_Logout - 相手がログアウトしているため、<br>移動できませんでした。
+MeetForm_Error_CreativeSpace - この機能では、<br>クリエイティブスペースには移動できません。
 Current_Block_Label - 現在のブロック
 Current_Block_BlockName - $(0)
 Current_Section_Label - 現在の場所
@@ -337,6 +338,60 @@ Code659_Message - 通信エラーが発生したため、チームルームに<b
 Code660_Title - チームルーム選択
 Code660_Code - チームルームに移動できませんでした。
 Code660_Message - チームの管理権限を持っていないため、<br>チームルームに移動することができません。
+Code670_Title - メッセージ
+Code670_Code - 選択したクリエイティブスペースに移動できませんでした。
+Code670_Message - エラーが発生したため、<br>選択したクリエイティブスペースに移動できませんでした。
+Code671_Title - メッセージ
+Code671_Code - 選択したクリエイティブスペースに移動できませんでした。
+Code671_Message - 選択したクリエイティブスペースが見つかりませんでした。
+Code672_Title - メッセージ
+Code672_Code - 選択したクリエイティブスペースに移動できませんでした。
+Code672_Message - 対象のブロックが定員オーバーのため、<br>移動できませんでした。
+Code673_Title - メッセージ
+Code673_Code - 選択したクリエイティブスペースに移動できませんでした。
+Code673_Message - 選択したクリエイティブスペースは、<br>定員オーバーのため、移動できませんでした。
+Code674_Title - メッセージ
+Code674_Code - 選択したクリエイティブスペースに移動できませんでした。
+Code674_Message - 現在、選択したクリエイティブスペースには<br>移動できません。
+Code675_Title - メッセージ
+Code675_Code - 選択したクリエイティブスペースに移動できませんでした。
+Code675_Message - 現在、選択したクリエイティブスペースには<br>移動できません。
+Code676_Title - メッセージ
+Code676_Code - 選択したクリエイティブスペースに移動できませんでした。
+Code676_Message - エラーが発生したため、<br>選択したクリエイティブスペースに移動できませんでした。
+Code677_Title - メッセージ
+Code677_Code - 選択したクリエイティブスペースに移動できませんでした。
+Code677_Message - レンタルの有効期限切れのため、<br>移動できませんでした。
+Code678_Title - メッセージ
+Code678_Code - 選択したクリエイティブスペースに移動できませんでした。
+Code678_Message - レンタルの有効期限切れのため、<br>移動できませんでした。
+Code679_Title - メッセージ
+Code679_Code - 選択したクリエイティブスペースに移動できませんでした。
+Code679_Message - 現在、選択した機能に問題が発生しており<br>調査のため使用を制限しています。<br>詳しくはプレイヤーズサイトをご確認ください。
+Code680_Title - メッセージ
+Code680_Code - 選択したクリエイティブスペースに移動できませんでした。
+Code680_Message - 移動先のクリエイティブスペースの設定により、<br>移動できません。
+Code681_Title - メッセージ
+Code681_Code - 選択したクリエイティブスペースに移動できませんでした。
+Code681_Message - 移動先のクリエイティブスペースの制限により、<br>移動できません。
+Code682_Title - メッセージ
+Code682_Code - 選択したクリエイティブスペースに移動できませんでした。
+Code682_Message - 選択したクリエイティブスペースに移動済みです。
+Code683_Title - メッセージ
+Code683_Code - 選択したクリエイティブスペースが初期化できませんでした。
+Code683_Message - クリエイティブスペースが初期化できませんでした。
+Code684_Title - メッセージ
+Code684_Code - 選択したクリエイティブスペースの設定が変更できませんでした。
+Code684_Message - クリエイティブスペースのクロスプレイ設定を<br>有効化できませんでした。
+Code685_Title - メッセージ
+Code685_Code - 選択したクリエイティブスペースを初期化しました。
+Code685_Message - 選択したクリエイティブスペースを初期化し、<br>クロスプレイ設定を無効化しました。
+Code686_Title - メッセージ
+Code686_Code - 選択したクリエイティブスペースの設定を変更しました。
+Code686_Message - クリエイティブスペースのクロスプレイ設定を<br>有効化しました。
+Code687_Title - メッセージ
+Code687_Code - 選択したクリエイティブスペースが初期化できませんでした。
+Code687_Message - クリエイティブスペースが初期化できませんでした。
 Code700_Title - ブロック移動
 Code700_Code - 選択したブロックに移動できませんでした。
 Code700_Message - プレミアムセット有効期間中にのみ<br>移動が可能なブロックです。<br>利用券をお持ちでないか、<br>利用期限が切れているため、<br>移動することができません。
@@ -373,7 +428,7 @@ Code815_Message - お問い合わせ先は<br>ファンタシースターオン�
 Code911_Title - 動作環境確認
 Code911_Code - 想定しないエラーが発生しました。
 Code911_Message - ファンタシースターオンライン2の動作環境と、<br>お客様のプレイ環境を再度ご確認いただき、<br>不明な点がありましたら、<br>ご使用のPCのメーカーや販売元にお問い合わせください。
-SignOut_PS4 - “PlayStation Network”からサインアウトしました。<br>タイトルへ戻ります。
+SignOut_PS4 - “PlayStation™Network”からサインアウトしました。<br>タイトルへ戻ります。
 TokuteiURL - <&URL pso2_players_support_rule_tokutei>
 TokuteiURL_v - <&URL pso2_players_support_rule_tokutei_vita>
 TokuteiURL_c - <&URL pso2_players_support_rule_tokutei_cloud>
@@ -1377,6 +1432,16 @@ LobbyAction_sandplay - 砂遊び
 LobbyAction_commander - 指示を出す
 LobbyAction_2229slayer - スレイヤーポーズ
 LobbyAction_2228prpose - ＰＲポーズ８
+LobbyAction_plushdoll - ラッピーぬいぐるみ
+LobbyAction_pikohan - ピコットハンマー
+LobbyAction_shellbed - 貝殻ベッド
+LobbyAction_2235prpose - ＰＲポーズ９
+LobbyAction_pose22re - ポーズ２２＋
+LobbyAction_knucklere - ナックルポーズ＋
+LobbyAction_aiaigasa - 相合傘
+LobbyAction_handkissing - 手の甲にキス
+LobbyAction_1885hitsugire - ヒツギポーズ２＋
+LobbyAction_2265tachikoma - タチコマ
 LobbyAction_fgoo - グー
 LobbyAction_foyayubi - 親指
 LobbyAction_fhitosashi - 人差し指
@@ -1426,6 +1491,7 @@ LobbyAction_2215bosatsu - ゆるくにぎる２
 LobbyAction_girlpiece - ピース２
 LobbyAction_ufinger - Uの字2
 LobbyAction_fingercross - クロスフィンガー
+LobbyAction_2241piece - ゆるピース
 LobbyAction_Pchair_viri - フォトンチェア深緑
 LobbyAction_Pchair_green - フォトンチェア緑
 LobbyAction_Pchair_sky - フォトンチェア水
@@ -1976,7 +2042,7 @@ NewCheckMail - 未定
 NewCheckFriendList - $(0)から<br>フレンド登録を申し込まれました。<br>返答ウィンドウを開きますか？<br><br>※「いいえ」を選び、あとでメインメニューの<br>　「フレンドリスト」から返答することもできます。
 NewCheckParty - $(0)から<br>パーティーに招待されました。<br>返答ウィンドウを開きますか？<br><br>※「いいえ」を選び、あとでメインメニューの<br>　「パーティーコマンド」から返答することもできます。
 NewCheckTrade - $(0)から<br>トレードを申し込まれました。<br>返答ウィンドウを開きますか？
-NewCheckTeam - $(0)から<br>チームへのスカウトを申し込まれました。<br>返答ウィンドウを開きますか？<br><br>※「いいえ」を選び、あとでメインメニューの<br>　「チームコマンド」から返答することもできます。
+NewCheckTeam - チーム“$(1)”の<br>“$(0)”から<br>同チームにスカウトされました。<br>返答ウィンドウを開きますか？<br><br><yellow>※“いいえ”を選び、あとでメインメニューの<br>　“チームコマンド”から返答することもできます。<c>
 PremiumEnd - プレミアム有効期間の終了が迫っています。
 NewQuest - クエスト受注確認
 NewExpQuest - クエストに招待されました。
@@ -2049,11 +2115,14 @@ download_progress - インストール中：$(0)％
 PlayGo_AreaMove_Message - 移動先のエリアのインストールが完了していません。<br>インストールが完了してから、<br>アクセスし直してください。<br><br>インストール中：$(0)％
 PlayGo_Confirm_Message - 移動先のエリアのデータがありません。<br>追加データをダウンロードしますか？<br><br><yellow>空き容量が不足している場合、<br>ダウンロードできません。<br>データのダウンロードには、<br>長時間かかる場合があります。
 PlayGo_Confirm_Message_FirstTime - 『ファンタシースターオンライン２　ニュージェネシス』<br>がサービス開始される以前に配信されていた<br>『ファンタシースターオンライン２』をプレイする場合は<br>追加データのダウンロードが必要です。<br><br>『ファンタシースターオンライン２』を<br>すぐにプレイしない場合は「いいえ」を選んでください。<br><br>※「いいえ」を選んだ場合でも<br>　あとからダウンロード可能です。<br><br><yellow>ダウンロードには、長時間かかる場合があります。<c><br><br>追加データをダウンロードしますか？
+PlayGo_Confirm_Message_FirstTime_Epic - 『ファンタシースターオンライン２　ニュージェネシス』<br>がサービス開始される以前に配信されていた<br>『ファンタシースターオンライン２』をプレイする場合は<br>追加データのダウンロードが必要です。 <br><br>『ファンタシースターオンライン２』を<br>すぐにプレイしない場合は「いいえ」を選んでください。<br><br>※「いいえ」を選んだ場合でも<br>　あとからダウンロード可能です。<br><br><yellow>ダウンロードには、長時間かかる場合があります。<br>追加データをダウンロードする場合は、<br>ゲームを一度終了する必要があります。<c><br><br>追加データをダウンロードしますか？
 PlayGo_DL_ Notice_Message - エリアデータのダウンロード中に<br>エラーが発生しました。<br><br>ゲームを再起動して追加データの<br>ダウンロードをやり直してください。
 PlayGo_IS_ Notice_Message - エリアデータのインストール中に<br>エラーが発生しました。<br><br>追加データのダウンロードを<br>やり直してください。
 PlayGo_CharaSelect_Title - メッセージ
 PlayGo_CharaSelect_Message - <yellow>現在データをインストール中です。<c><br><br>インストールが完了するまで<br>キャラクター選択や、特定エリアへの移動など<br>一部機能がご利用できません。<br><br>インストールが完了した後、<br>改めて選択してください。
 PlayGo_IS_Uncompleted_Message - 移動先のエリアのインストールが完了していません。<br>インストールが完了してから、<br>アクセスし直してください。
+PlayGo_DLC_Confirm_Message - 移動先のエリアのデータがインストールされていないか、<br>ダウンロードが完了していないため移動できません。<br><br>追加データをダウンロードしますか？<br>“はい”を選択すると、追加データのストアページを開きます。<br><br><yellow>※空き容量が不足している場合はダウンロードできません。<br>　データのダウンロードには、時間がかかる場合があります。<c>
+PlayGo_DLC_Confirm_Message_Epic - 移動先のエリアのデータがインストールされていないか、<br>ダウンロードが完了していないため移動できません。<br><br>追加データをダウンロードしますか？<br>“はい”を選択すると、追加データのストアページを開きます。<br><br><yellow>※空き容量が不足している場合はダウンロードできません。<br>　データのダウンロードには、時間がかかる場合があります。<br>※追加データをダウンロードする場合は、<br>　ゲームを一度終了する必要があります。<c>
 
 Group 1
 
@@ -2623,8 +2692,8 @@ EndLookAtCamera - カメラ目線を終了しました
 NoName - なし
 Percent - ％
 PercentNum - $(0)％
-ScratchNote_Title - 排出率について
-ScratchNote - アイテムごとに個別に表示している提供割合は<br>表示上小数点第5位以下を切り捨てているため、<br>全て合算しても100%にならない場合があります。<br><br>表示はアイテム投入全数時における<br>提供割合となります。<br>そのため提供割合1%のアイテムが100回中1回、<br>必ず排出される仕組みではありません。
+ScratchNote_Title - 景品に関する注意事項
+ScratchNote - アイテムごとに個別に表示している提供割合は<br>表示上小数点第5位以下を切り捨てているため、<br>全て合算しても100%にならない場合があります。<br>表示はアイテム投入全数時における<br>提供割合となります。<br>そのため提供割合1%のアイテムが100回中1回、<br>必ず排出される仕組みではありません。<br>スクラッチ景品は今後ほかのスクラッチや<br>コンテンツでも提供する可能性があります。<br>※トゥーン表示に非対応のアイテムがあります。<br>機能の詳細はFAQをご確認ください。
 
 Group 1
 
@@ -2714,6 +2783,7 @@ Substitute_Idle_38 - ラッピー
 Substitute_Idle_39 - アイスを食べる
 Substitute_Idle_40 - 胸を張る
 Substitute_Idle_41 - 決めポーズ2
+Substitute_Idle_43 - キュート
 Substitute_Idle_44 - 仁王立ち3
 Substitute_Idle_46 - かがむ
 Substitute_Idle_47 - 印を結ぶ
@@ -2747,6 +2817,7 @@ Substitute_Idle_77 - 遠野秋葉
 Substitute_Idle_78 - 箒に乗る
 Substitute_Idle_79 - 蝶と戯れる
 Substitute_Idle_80 - 浮遊読書
+Substitute_Idle_81 - 闇魂
 Substitute_Idle_82 - プロペラエンジン
 Substitute_Idle_83 - 情報確認/B
 Substitute_Idle_84 - 構図決め
@@ -2756,9 +2827,16 @@ Substitute_Idle_88 - マルメロ
 Substitute_Idle_89 - ふわふわティータイム
 Substitute_Idle_90 - ちょっと一息
 Substitute_Idle_91 - ラッピーぬいぐるみ/B
+Substitute_Idle_101 - たおやか
 Substitute_Idle_102 - スマホ操作
 Substitute_Idle_103 - 光翼
 Substitute_Idle_104 - 髪を整える2
+Substitute_Idle_106 - タチコマ2
+Substitute_Idle_109 - 退屈
+Substitute_Idle_110 - 傘をさす/B
+Substitute_Idle_111 - 星に乗る
+Substitute_Idle_112 - 伸びをする
+Substitute_Idle_128 - タチコマ
 Substitute_Jump_0 - 標準
 Substitute_Jump_1 - シンプル
 Substitute_Jump_2 - シンプル2
@@ -2796,10 +2874,12 @@ Substitute_Landing_15 - つむじ風
 Substitute_Landing_16 - 腕組み浮遊
 Substitute_Landing_17 - 火炎
 Substitute_Landing_18 - フローズン/B
+Substitute_Landing_19 - 闇魂
 Substitute_Landing_20 - 魔法陣
 Substitute_Landing_21 - 失敗
 Substitute_Landing_22 - あわわ
 Substitute_Landing_23 - 花びら
+Substitute_Landing_24 - つむじ風/B
 Substitute_Move_0 - 標準
 Substitute_Move_1 - シンプル
 Substitute_Move_2 - シンプル2
@@ -2824,6 +2904,9 @@ Substitute_Move_20 - キビキビ
 Substitute_Move_22 - 光翼
 Substitute_Move_23 - ドローンに乗る
 Substitute_Move_24 - エレガント
+Substitute_Move_25 - ￥タチコマ
+Substitute_Move_26 - レッグホイール
+Substitute_Move_27 - ￥星に乗る
 Substitute_Sprint_0 - 標準
 Substitute_Sprint_1 - シンプル
 Substitute_Sprint_2 - シンプル2
@@ -2871,6 +2954,7 @@ Substitute_Sprint_60 - アルクェイド
 Substitute_Sprint_62 - 標準2
 Substitute_Sprint_63 - 雪そり/B
 Substitute_Sprint_64 - 獣/B
+Substitute_Sprint_65 - 闇魂
 Substitute_Sprint_66 - プロペラエンジン
 Substitute_Sprint_67 - ホイール
 Substitute_Sprint_68 - 翼を広げる/B
@@ -2913,6 +2997,15 @@ Substitute_Sprint_105 - 宙を泳ぐEX
 Substitute_Sprint_106 - 光翼EX
 Substitute_Sprint_107 - ドローンに乗るEX
 Substitute_Sprint_108 - スライドダッシュEX
+Substitute_Sprint_109 - 闇魂EX
+Substitute_Sprint_111 - タチコマ
+Substitute_Sprint_112 - レッグホイール
+Substitute_Sprint_113 - ゆらゆら
+Substitute_Sprint_115 - レッグホイールEX
+Substitute_Sprint_116 - ゆらゆらEX
+Substitute_Sprint_117 - 星に乗る
+Substitute_Sprint_118 - 星に乗るEX
+Substitute_Sprint_119 - エアースライド/B
 Substitute_Glide_0 - 標準
 Substitute_Glide_1 - ミニグライダー
 Substitute_Glide_2 - ジェットパック
@@ -2961,6 +3054,7 @@ Substitute_Glide_59 - スカイグラインド
 Substitute_Glide_60 - カジキライダーEX
 Substitute_Glide_61 - パワフル/C
 Substitute_Glide_62 - 内股/B
+Substitute_Glide_63 - 闇魂
 Substitute_Glide_64 - プロペラエンジン
 Substitute_Glide_65 - 翼を広げる/B
 Substitute_Glide_66 - 腕組み浮遊EX
@@ -2997,6 +3091,14 @@ Substitute_Glide_98 - 宙を泳ぐEX
 Substitute_Glide_99 - 光翼EX
 Substitute_Glide_100 - ドローンに乗るEX
 Substitute_Glide_101 - スライドダッシュEX
+Substitute_Glide_102 - 闇魂EX
+Substitute_Glide_104 - レッグホイール
+Substitute_Glide_105 - ゆらゆら
+Substitute_Glide_107 - レッグホイールEX
+Substitute_Glide_108 - ゆらゆらEX
+Substitute_Glide_109 - 傘をさす/B
+Substitute_Glide_110 - 星に乗る
+Substitute_Glide_111 - 星に乗るEX
 Substitute_Swim_0 - 標準
 Substitute_Swim_2 - クロール
 Substitute_Swim_3 - 潜水
@@ -3006,6 +3108,7 @@ Substitute_Swim_6 - 腕組み浮遊
 Substitute_Swim_7 - カジキライダー
 Substitute_Swim_8 - 氷上歩行
 Substitute_Swim_9 - シャークレイド
+Substitute_Swim_10 - バナナボート
 
 Group 1
 
