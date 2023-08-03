@@ -1,4 +1,4 @@
-item_series_name.text was created: 2023/6/7 14:19:44
+item_series_name.text was created: 2023/8/3 11:30:43
 Filesize is: 3440 bytes
 
 SERIES
