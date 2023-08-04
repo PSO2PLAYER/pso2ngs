@@ -1,5 +1,5 @@
-actor_name.text was created: 2023/6/7 7:18:41
-Filesize is: 48064 bytes
+actor_name.text was created: 2023/8/4 13:37:30
+Filesize is: 48448 bytes
 
 Enemy
 Group 0
@@ -271,6 +271,7 @@ r04_nat_dwl_sm - ノーディラン・ロア
 r04_nat_dwl_ba - フォードラン・ロア
 r04_nat_dbt_ba - バリドラン・ロア
 r04_gd_gia_fl - フレイダル・ソード
+r05_stl_sls_ba - ダークファルス・ソウラス
 r04_nat_bea_ba - ヴォルグベア
 r04_nat_gdn_ba - ガーディナン・ヴォロア
 r04_nat_wol_sm - ガルフ・ヴォロア
@@ -304,8 +305,12 @@ r05_gd_zft_ba - ヴェノギア
 r05_gd_zft_str - ゼフェット・ヴェノギア
 r05_gd_zft_rai - ヴェノギア・ヴェラ
 r04_gd_god3_str - ダークファルス・エイジス
+r05_rem_spi_ba - ルイノ・ラグネ
+r05_rem_dhu_ba - ルイノ・ヒューナル
 r05_stl_ktn_ba1 - ラセツ
 r05_stl_gia_ba1 - ヘルジーグ
+r05_stl_ins_ba1 - エリミネイダ
+r05_non_myt_a - ボルガリス
 r05_stl_pyc_ba - ヴォルガ
 r00_unknownenemy - ？？？？？
 
@@ -343,6 +348,8 @@ EnemyTitleSeasonWinter1 - 雪花の
 EnemyTitleMobileForceEnemy - 絶望の
 EnemyTitleNightmareBoss - 不撓の
 EnemyTitleSeasonAnnivPSO21 - 星霜の
+EnemyTitleGrowUpFloorBoss - 奇侵の
+EnemyTitleGrowUpBuffEnemy - 変侵の
 
 Group 1
 
@@ -374,6 +381,7 @@ Animal - テイムズ
 Natural - フォーマーズ
 Independent - 所属なし
 Starless - スターレス
+Remnants - ルーイナス
 
 Group 1
 
