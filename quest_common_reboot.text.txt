@@ -1,5 +1,5 @@
-quest_common_reboot.text was created: 2023/3/7 22:18:24
-Filesize is: 30496 bytes
+quest_common_reboot.text was created: 2023/8/7 22:13:28
+Filesize is: 59264 bytes
 
 CocoonFail
 Group 0
@@ -74,7 +74,7 @@ Cocoon_Sub_DroneLevel - ドロームの追従レベルが$(0)Lv.3の状態を維
 Cocoon_Sub_DiveAttack - ダイブアタックでエネミーに<br>%(num)以上ダメージを与えてクリア
 Cocoon_Sub_CoreHit - エネミーの弱点部位に%(num)回<br>攻撃を命中させてクリア
 Cocoon_Sub_FallDownEnemy - エネミーを%(num)体<br>落下させてクリア
-Cocoon_Sub_Dodged - エネミーの攻撃を%(num)回<br>ガードもしくは回避してクリア
+Cocoon_Sub_Dodged - エネミーの攻撃を%(num)回<br>ジャストガードか回避してクリア
 
 Group 1
 
@@ -135,6 +135,8 @@ UITitle_Trial - トライアル
 UITitle_World_Trial - ワールドトライアル
 UITitle_FieldRace - フィールドレース
 Trinites_UITitle_Score - スコア
+UITitle_EndCondition - クエスト終了条件
+UITitle_ChipClearCondition - 能力強化条件
 
 Group 1
 
@@ -168,6 +170,12 @@ LastDungeon_Buff_Atk001 - 通常攻撃の威力上昇効果が発生しました
 LastDungeon_Buff_Atk002 - PA・テクニックの威力上昇効果が発生しました。
 LastDungeon_Buff_Atk003 - ダイブアタックの威力上昇効果が発生しました。
 LastDungeon_Buff_Atk004 - ステップカウンターの威力上昇効果が発生しました。
+BuffLineText_Base - 特定の条件を満たしたため、$(0)以下の効果が発生しました。<br>$(1)
+BuffLineText_Target_1 - 参加者全員に
+BuffLineText_Target_2 - あなたに
+BuffLineText_ConditionBase - $(0) Lv.$(1)
+ScriptSequencer_Wait - 他のプレイヤーを待っています。
+BeginnerBlockWrongRegion - ビギナーブロックでは別リージョンのクエストは開始できません。
 
 Group 1
 
@@ -245,6 +253,8 @@ f3 - 戦闘不能回数上限！
 f4 - 落下回数上限！
 f5 - トライアル”$(0)”失敗
 f6 - サイドミッションの失敗数オーバー！
+f7 - クエスト終了<br>全LPを消失！
+f8 - タイムオーバー！
 
 Group 1
 
@@ -277,6 +287,7 @@ QuestOpenMsg - 以下のクエストが解放されました。
 QuestOpenOther - 他
 TimeLimitRemainingSec - 制限時間まであと$(0)秒！
 TimeLimitRemainingMin - 制限時間まであと$(0)分！
+LifePointRemaining - 残りLP$(0)！
 QuotationMarks - 「$(0)」
 AchieveQuestPointMin - クエストポイント目標達成！　更にためるとリザルトランクＵＰのチャンス！
 AchieveQuestPointMax - 最大クエストポイント達成！
@@ -287,7 +298,16 @@ TrigerJoinDiscardNotice - バトルトリガーの使用者がクエストを<br
 FailureLimitRemaining - サイドミッションを<br>あと$(0)つ失敗するとクエスト失敗
 FailureLimitRemaining_Dead - あと$(0)回戦闘不能でクエスト失敗
 NextQuestLevel - $(0)のRank$(1)が解放されました。
+AreaLimitRemineTimeSec - 制限時間まであと$(0)秒！
+AreaLimitRemineTimeMin - 制限時間まであと$(0)分！
+AreaLimitRemineTimeMinSec - 制限時間まであと$(0)分$(1)秒！
+AreaLimitTimeMoveNext - 制限時間経過<br>最深部に移動
+AllClearMoveNext - 最深部に移動
 AllDeathClearRemainingSec - 全滅から一定時間経過でクエスト終了
+LostAllLives - 全LPを消失！
+FinishTheQuest - <yellow>クエスト終了！<c>
+ReachedCertainNumberOfDeaths - 戦闘不能回数上限！
+TimeUp - タイムオーバー！
 
 Group 1
 
@@ -349,6 +369,7 @@ Trinites - 最深部を目指す
 GoalGetter - エネミーを倒し目標を破壊する
 FinalAttacker - 対象エネミーの撃破
 Babel - 対象エネミーの撃破
+GrowUp - 最深部のエネミーを撃破せよ！
 
 Group 1
 
@@ -643,7 +664,7 @@ DescHPDownLV2 - 一部のフロアで<br>HPが50%減少する。
 PPDownLV2 - ランダムチャレンジA：PP－50
 DescPPDownLV2 - 一部のフロアで<br>PPが50減少する。
 Pyramid_EnemyContensTrigger - イコライジングエネミー弱体化
-DescPyramid_EnemyContensTrigger - イコライジングエネミーのHPが50%減少し<br>撃破時の周囲へのダメージが100%増加する。
+DescPyramid_EnemyContensTrigger - イコライジングエネミーの<br>HPが50%減少し、撃破時の<br>周囲へのダメージが100%増加する。
 Pyramid_ClearCountInflictDamage - クリア回数で攻撃威力上昇
 DescPyramid_ClearCountInflictDamage - トリニテスのクリア回数に応じて<br>攻撃威力が上昇する。
 Pyramid_SClearCountCriticalRate - Sランククリア回数でクリティカル率上昇
@@ -817,6 +838,373 @@ Group 0
 Babel_FailureDueToDeath - 戦闘不能$(0)回で失敗
 Babel_FailureDueToTimeLimit - 制限時間の経過
 Babel_UITitle - 到達ランク予想
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+GrowUpCommon
+Group 0
+GetBuffLevel - セクター$(0)の条件達成により、<yellow>$(1)<c>を獲得しました。(累積数：<yellow>$(2)<c>)
+GetBuff - セクター$(0)の条件達成により、<yellow>$(1) $(2)<c>を獲得しました。
+StackBuff - セクター$(0)の条件達成により、<yellow>$(1) $(2)<c>を獲得しました。
+GetBuffChangePoint - 獲得した効果の累積数が最大、クエストポイントに<yellow>変換<c>
+Floor - (フロア：$(0))
+LifePoint - 全LPの消失
+TimeOver - 制限時間の経過
+GetBingoBuff - クリアラインボーナス！「<yellow>$(0) $(1)<c>」を付与しました。（現在$(2)ライン達成）
+ChipInfoHeader - 能力強化条件：$(0)
+ChipInfoBattle - 出現したエネミーを倒す
+ChipInfoItemContainer - シェアードコンテナを全て壊す
+ChipInfoSearch - ポールスイッチを３つ押す
+ChipInfoNone - なし
+ChipInfoCleared - 獲得済み
+GetFMTBuff - トライアル成功により、<yellow>$(0) $(1)<c>を獲得しました。
+StackFMTBuff - トライアル成功により、<yellow>$(0) $(1)<c>を獲得しました。
+GetStackBuff - 獲得済みのバフ「<yellow>$(0) $(1)<c>」を付与しました。
+GetBuffContainer - フォトンブーストクレートから、<yellow>$(0) $(1)<c>を獲得しました。
+StackBuffContainer - フォトンブーストクレートから、<yellow>$(0) $(1)<c>を獲得しました。
+AppearBuffContainer - 付近に<yellow>フォトンブーストクレート<c>が出現しました。
+GetBuffList - プレイヤー能力強化
+GetBuffLv - Lv.$(0)
+GetChipClearBuff - チップクリアボーナス！「<yellow>$(0) $(1)<c>」を付与しました。（現在$(2)クリア達成）
+TitleBenefit - クエスト効果
+Benefit_None - なし
+Benefit_HighRankEnemyUp - メガロティクス出現確率$(0)%
+Benefit_FormidableEnemyUp - ギガンティクス出現確率$(0)%
+Benefit_BoostController - エンハンスドエネミー出現確率$(0)%
+Benefit_RareEnemyGUp - レアエネミー（金）出現確率$(0)%
+Benefit_RareEnemySUp - レアエネミー（銀）出現確率$(0)%
+Benefit_LifeUp - LP＋$(0)
+Benefit_PointMagnif - ポイント倍率$(0)倍
+AreaWait_QuestDetailsGuide - この情報は、クエスト進行中に<yellow>メインメニューを開いた際に表示される<br>"簡易クエスト情報"<c>でも確認できます。
+AreaWait_QuestDetailsTitle - エネミー情報
+Growup_EnemyBuff_1 - /atime5 二つ名“$(0)”が付くエネミーの能力が強化<br><yellow>$(1)<c>
+Growup_EnemyBuff_2 - /atime5 二つ名“$(0)”が付くエネミーの能力が強化<br><yellow>$(1)<br>$(2)<c>
+Growup_EnemyBuff_3 - /atime5 二つ名“$(0)”が付くエネミーの能力が強化<br><yellow>$(1)<br>$(2)<br>$(3)<c>
+Growup_EnemyBuff_4 - /atime5 二つ名“$(0)”が付くエネミーの能力が強化<br><yellow>$(1)<br>$(2)<br>$(3)<br>$(4)<c>
+Growup_EnemyBuff_5 - /atime5 二つ名“$(0)”が付くエネミーの能力が強化<br><yellow>$(1)<br>$(2)<br>$(3)<br>$(4)<br>$(5)<c>
+ChipClear_LineMessage - このセクターの能力強化条件を達成
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+GrowUpBuff
+Group 0
+GrowUpQuest_HpUp - 最大HP増加
+GrowUpQuest_HpUp1 - 最大HP増加　Lv１
+GrowUpQuest_HpUp2 - 最大HP増加　Lv２
+GrowUpQuest_HpUp3 - 最大HP増加　Lv３
+GrowUpQuest_HpUp4 - 最大HP増加　Lv４
+GrowUpQuest_Critical - クリティカル率上昇
+GrowUpQuest_Critical1 - クリティカル率上昇　Lv１
+GrowUpQuest_Critical2 - クリティカル率上昇　Lv２
+GrowUpQuest_Critical3 - クリティカル率上昇　Lv３
+GrowUpQuest_Critical4 - クリティカル率上昇　Lv４
+GrowUpQuest_CriticalDmg - クリティカル威力上昇
+GrowUpQuest_CriticalDmg1 - クリティカル威力上昇　Lv１
+GrowUpQuest_CriticalDmg2 - クリティカル威力上昇　Lv２
+GrowUpQuest_CriticalDmg3 - クリティカル威力上昇　Lv３
+GrowUpQuest_CriticalDmg4 - クリティカル威力上昇　Lv４
+GrowUpQuest_MoveSpeed - 移動速度上昇
+GrowUpQuest_MoveSpeed1 - 移動速度上昇　Lv１
+GrowUpQuest_MoveSpeed2 - 移動速度上昇　Lv２
+GrowUpQuest_MoveSpeed3 - 移動速度上昇　Lv３
+GrowUpQuest_MoveSpeed4 - 移動速度上昇　Lv４
+GrowUpQuest_DamageBuff - 威力上昇
+GrowUpQuest_DamageBuff1 - 威力上昇　Lv１
+GrowUpQuest_DamageBuff2 - 威力上昇　Lv２
+GrowUpQuest_DamageBuff3 - 威力上昇　Lv３
+GrowUpQuest_DamageBuff4 - 威力上昇　Lv４
+GrowUpQuest_MaxPpBuff - 最大PP増加
+GrowUpQuest_MaxPpBuff1 - 最大PP増加　Lv１
+GrowUpQuest_MaxPpBuff2 - 最大PP増加　Lv２
+GrowUpQuest_MaxPpBuff3 - 最大PP増加　Lv３
+GrowUpQuest_MaxPpBuff4 - 最大PP増加　Lv４
+GrowUpQuest_NormalAtkDamageBuff - 通常攻撃威力上昇
+GrowUpQuest_NormalAtkDamageBuff1 - 通常攻撃威力上昇　Lv１
+GrowUpQuest_NormalAtkDamageBuff2 - 通常攻撃威力上昇　Lv２
+GrowUpQuest_NormalAtkDamageBuff3 - 通常攻撃威力上昇　Lv３
+GrowUpQuest_NormalAtkDamageBuff4 - 通常攻撃威力上昇　Lv４
+GrowUpQuest_NormalAtkDrainBuff - 通常攻撃命中時にHP回復
+GrowUpQuest_NormalAtkDrainBuff1 - 通常攻撃命中時にHP回復　Lv１
+GrowUpQuest_NormalAtkDrainBuff2 - 通常攻撃命中時にHP回復　Lv２
+GrowUpQuest_NormalAtkDrainBuff3 - 通常攻撃命中時にHP回復　Lv３
+GrowUpQuest_NormalAtkDrainBuff4 - 通常攻撃命中時にHP回復　Lv４
+GrowUpQuest_PaTechniqueBuff - PA/テクニック威力上昇
+GrowUpQuest_PaTechniqueBuff1 - PA/テクニック威力上昇　Lv１
+GrowUpQuest_PaTechniqueBuff2 - PA/テクニック威力上昇　Lv２
+GrowUpQuest_PaTechniqueBuff3 - PA/テクニック威力上昇　Lv３
+GrowUpQuest_PaTechniqueBuff4 - PA/テクニック威力上昇　Lv４
+GrowUpQuest_PbDamageBuff - フォトンブラスト威力上昇
+GrowUpQuest_PbDamageBuff1 - フォトンブラスト威力上昇　Lv１
+GrowUpQuest_PbDamageBuff2 - フォトンブラスト威力上昇　Lv２
+GrowUpQuest_PbDamageBuff3 - フォトンブラスト威力上昇　Lv３
+GrowUpQuest_PbDamageBuff4 - フォトンブラスト威力上昇　Lv４
+GrowUpQuest_PpHealRateBuff - PP回復量増加
+GrowUpQuest_PpHealRateBuff1 - PP回復量増加　Lv１
+GrowUpQuest_PpHealRateBuff2 - PP回復量増加　Lv２
+GrowUpQuest_PpHealRateBuff3 - PP回復量増加　Lv３
+GrowUpQuest_PpHealRateBuff4 - PP回復量増加　Lv４
+GrowUpQuest_StateResistanceBuff - 状態異常耐性上昇
+GrowUpQuest_StateResistanceBuff1 - 状態異常耐性上昇　Lv１
+GrowUpQuest_StateResistanceBuff2 - 状態異常耐性上昇　Lv２
+GrowUpQuest_StateResistanceBuff3 - 状態異常耐性上昇　Lv３
+GrowUpQuest_StateResistanceBuff4 - 状態異常耐性上昇　Lv４
+GrowUpQuest_DamageCutBuff - ダメージ耐性上昇
+GrowUpQuest_DamageCutBuff1 - ダメージ耐性上昇　Lv１
+GrowUpQuest_DamageCutBuff2 - ダメージ耐性上昇　Lv２
+GrowUpQuest_DamageCutBuff3 - ダメージ耐性上昇　Lv３
+GrowUpQuest_DamageCutBuff4 - ダメージ耐性上昇　Lv４
+GrowUpQuest_AutoRecoveryBuff - HP自動回復
+GrowUpQuest_AutoRecoveryBuff1 - HP自動回復　Lv１
+GrowUpQuest_AutoRecoveryBuff2 - HP自動回復　Lv２
+GrowUpQuest_AutoRecoveryBuff3 - HP自動回復　Lv３
+GrowUpQuest_AutoRecoveryBuff4 - HP自動回復　Lv４
+GrowUpQuest_DownValueBuff - エネミーに与えるダウン値上昇
+GrowUpQuest_DownValueBuff1 - エネミーに与えるダウン値上昇　Lv１
+GrowUpQuest_DownValueBuff2 - エネミーに与えるダウン値上昇　Lv２
+GrowUpQuest_DownValueBuff3 - エネミーに与えるダウン値上昇　Lv３
+GrowUpQuest_DownValueBuff4 - エネミーに与えるダウン値上昇　Lv４
+GrowUpQuest_PbGaugeBuff - フォトンブラストゲージ蓄積量増加
+GrowUpQuest_PbGaugeBuff1 - フォトンブラストゲージ蓄積量増加　Lv１
+GrowUpQuest_PbGaugeBuff2 - フォトンブラストゲージ蓄積量増加　Lv２
+GrowUpQuest_PbGaugeBuff3 - フォトンブラストゲージ蓄積量増加　Lv３
+GrowUpQuest_PbGaugeBuff4 - フォトンブラストゲージ蓄積量増加　Lv４
+GrowUpQuest_CounterAtkBuff - ステップカウンター威力上昇
+GrowUpQuest_CounterAtkBuff1 - ステップカウンター威力上昇　Lv１
+GrowUpQuest_CounterAtkBuff2 - ステップカウンター威力上昇　Lv２
+GrowUpQuest_CounterAtkBuff3 - ステップカウンター威力上昇　Lv３
+GrowUpQuest_CounterAtkBuff4 - ステップカウンター威力上昇　Lv４
+GrowUpQuest_HealRateBuff - HP回復量増加
+GrowUpQuest_HealRateBuff1 - HP回復量増加　Lv１
+GrowUpQuest_HealRateBuff2 - HP回復量増加　Lv２
+GrowUpQuest_HealRateBuff3 - HP回復量増加　Lv３
+GrowUpQuest_HealRateBuff4 - HP回復量増加　Lv４
+GrowUpQuest_NodeDamageBuff - 破壊可能部位への攻撃威力上昇
+GrowUpQuest_NodeDamageBuff1 - 破壊可能部位への攻撃威力上昇　Lv１
+GrowUpQuest_NodeDamageBuff2 - 破壊可能部位への攻撃威力上昇　Lv２
+GrowUpQuest_NodeDamageBuff3 - 破壊可能部位への攻撃威力上昇　Lv３
+GrowUpQuest_NodeDamageBuff4 - 破壊可能部位への攻撃威力上昇　Lv４
+GrowUpQuest_WeakPointDamageBuff - 弱点部位への攻撃威力上昇
+GrowUpQuest_WeakPointDamageBuff1 - 弱点部位への攻撃威力上昇　Lv１
+GrowUpQuest_WeakPointDamageBuff2 - 弱点部位への攻撃威力上昇　Lv２
+GrowUpQuest_WeakPointDamageBuff3 - 弱点部位への攻撃威力上昇　Lv３
+GrowUpQuest_WeakPointDamageBuff4 - 弱点部位への攻撃威力上昇　Lv４
+GrowUpQuest_ActiveSkillCooltimeBuff - アクティブスキル再使用可能時間短縮
+GrowUpQuest_ActiveSkillCooltimeBuff1 - アクティブスキル再使用可能時間短縮　Lv１
+GrowUpQuest_ActiveSkillCooltimeBuff2 - アクティブスキル再使用可能時間短縮　Lv２
+GrowUpQuest_ActiveSkillCooltimeBuff3 - アクティブスキル再使用可能時間短縮　Lv３
+GrowUpQuest_ActiveSkillCooltimeBuff4 - アクティブスキル再使用可能時間短縮　Lv4
+GrowUpQuest_IronWillBuff - 戦闘不能回避（一定時間で効果再発生）
+GrowUpQuest_IronWillBuff1 - 戦闘不能回避（一定時間で効果再発生）　Lv１
+GrowUpQuest_IronWillBuff2 - 戦闘不能回避（一定時間で効果再発生）　Lv２
+GrowUpQuest_IronWillBuff3 - 戦闘不能回避（一定時間で効果再発生）　Lv３
+GrowUpQuest_IronWillBuff4 - 戦闘不能回避（一定時間で効果再発生）　Lv４
+GrowUpQuest_DodgeRecoveryBuff - ステップ回避成功時にHP回復
+GrowUpQuest_DodgeRecoveryBuff1 - ステップ回避成功時にHP回復　Lv１
+GrowUpQuest_DodgeRecoveryBuff2 - ステップ回避成功時にHP回復　Lv２
+GrowUpQuest_DodgeRecoveryBuff3 - ステップ回避成功時にHP回復　Lv３
+GrowUpQuest_DodgeRecoveryBuff4 - ステップ回避成功時にHP回復　Lv４
+GrowUpQuest_RecoveryGaugeIncrease - レスタサイン最大所持数増加
+GrowUpQuest_RecoveryGaugeIncrease1 - レスタサイン最大所持数増加　Lv１
+GrowUpQuest_RecoveryGaugeIncrease2 - レスタサイン最大所持数増加　Lv２
+GrowUpQuest_RecoveryGaugeIncrease3 - レスタサイン最大所持数増加　Lv３
+GrowUpQuest_RecoveryGaugeIncrease4 - レスタサイン最大所持数増加　Lv４
+GrowUpQuest_AutoRecoveryAddBuff - 一定間隔でレスタサイン自動補充
+GrowUpQuest_AutoRecoveryAddBuff1 - 一定間隔でレスタサイン自動補充　Lv１
+GrowUpQuest_AutoRecoveryAddBuff2 - 一定間隔でレスタサイン自動補充　Lv２
+GrowUpQuest_AutoRecoveryAddBuff3 - 一定間隔でレスタサイン自動補充　Lv３
+GrowUpQuest_AutoRecoveryAddBuff4 - 一定間隔でレスタサイン自動補充　Lv４
+GrowUpQuest_HpBonusBuff - HP75%以上で威力/ダメージ耐性上昇
+GrowUpQuest_HpBonusBuff1 - HP75%以上で威力/ダメージ耐性上昇　Lv１
+GrowUpQuest_HpBonusBuff2 - HP75%以上で威力/ダメージ耐性上昇　Lv２
+GrowUpQuest_HpBonusBuff3 - HP75%以上で威力/ダメージ耐性上昇　Lv３
+GrowUpQuest_HpBonusBuff4 - HP75%以上で威力/ダメージ耐性上昇　Lv４
+GrowUpQuest_HitCountPpHealBuff - 攻撃命中30回ごとにPP回復
+GrowUpQuest_HitCountPpHealBuff1 - 攻撃命中30回ごとにPP回復　Lv１
+GrowUpQuest_HitCountPpHealBuff2 - 攻撃命中30回ごとにPP回復　Lv２
+GrowUpQuest_HitCountPpHealBuff3 - 攻撃命中30回ごとにPP回復　Lv３
+GrowUpQuest_HitCountPpHealBuff4 - 攻撃命中30回ごとにPP回復　Lv４
+GrowUpQuest_BadEase - 状態異常の効果時間短縮
+GrowUpQuest_BadEase1 - 状態異常の効果時間短縮　Lv１
+GrowUpQuest_BadEase2 - 状態異常の効果時間短縮　Lv２
+GrowUpQuest_BadEase3 - 状態異常の効果時間短縮　Lv３
+GrowUpQuest_BadEase4 - 状態異常の効果時間短縮　Lv４
+GrowUpQuest_S_PhotonArtsBuff - <yellow>PA/テクニック命中時に追加ダメージ<c>
+GrowUpQuest_S_PhotonArtsBuff1 - PA/テクニック命中時に追加ダメージ
+GrowUpQuest_S_GlideAttackBuff - S：ダイブアタック強化
+GrowUpQuest_S_GlideAttackBuff1 - S：ダイブアタック強化
+GrowUpQuest_S_DamageShieldBuff - <yellow>リフレクトシールド発生<c>
+GrowUpQuest_S_DamageShieldBuff1 - リフレクトシールド発生
+GrowUpQuest_S_QuickAttackBuff - <yellow>攻撃速度上昇<c>
+GrowUpQuest_S_QuickAttackBuff1 - 攻撃速度上昇
+GrowUpQuest_S_NormalAttackBuff - <yellow>通常攻撃時に追加攻撃発生<c>
+GrowUpQuest_S_NormalAttackBuff1 - 通常攻撃時に追加攻撃発生
+GrowUpQuest_S_RangeDamageBuff - S：一定間隔で周囲攻撃発生
+GrowUpQuest_S_RangeDamageBuff1 - S：一定間隔で周囲攻撃発生
+GrowUpQuest_S_OverRecoveryBuff - <yellow>レスタサイン使用後に10秒間能力上昇<c>
+GrowUpQuest_S_OverRecoveryBuff1 - レスタサイン使用後に10秒間能力上昇
+GrowUpQuest_S_AdditionalCriticalAttackBuff - <yellow>クリティカル発生時に追加ダメージ<c>
+GrowUpQuest_S_AdditionalCriticalAttackBuff1 - クリティカル発生時に追加ダメージ
+GrowUpQuest_S_DodgeBombBuff - <yellow>ステップ回避成功時に追加攻撃発生<c>
+GrowUpQuest_S_DodgeBombBuff1 - ステップ回避成功時に追加攻撃発生
+EnemyGrowUpQuest_AttackUp50 - <yellow>威力＋50%<c>
+EnemyGrowUpQuest_AttackUp100 - <yellow>威力＋100%<c>
+EnemyGrowUpQuest_AttackUp150 - <yellow>威力＋150%<c>
+EnemyGrowUpQuest_AttackUp200 - <yellow>威力＋200%<c>
+EnemyGrowUpQuest_AttackUp250 - <yellow>威力＋250%<c>
+EnemyGrowUpQuest_AttackUp300 - <yellow>威力＋300%<c>
+EnemyGrowUpQuest_AttackUp350 - <yellow>威力＋350%<c>
+EnemyGrowUpQuest_AttackUp400 - <yellow>威力＋400%<c>
+EnemyGrowUpQuest_AttackUp500 - <yellow>威力＋500%<c>
+EnemyGrowUpQuest_AttackUp600 - <yellow>威力＋600%<c>
+EnemyGrowUpQuest_AttackUp700 - <yellow>威力＋700%<c>
+EnemyGrowUpQuest_AttackUp800 - <yellow>威力＋800%<c>
+EnemyGrowUpQuest_AttackUp900 - <yellow>威力＋900%<c>
+EnemyGrowUpQuest_ElementUp50 - <yellow>状態異常蓄積値＋50%<c>
+EnemyGrowUpQuest_ElementUp100 - <yellow>状態異常蓄積値＋100%<c>
+EnemyGrowUpQuest_ElementUp150 - <yellow>状態異常蓄積値＋150%<c>
+EnemyGrowUpQuest_ElementUp200 - <yellow>状態異常蓄積値＋200%<c>
+EnemyGrowUpQuest_ElementUp250 - <yellow>状態異常蓄積値＋250%<c>
+EnemyGrowUpQuest_ElementUp300 - <yellow>状態異常蓄積値＋300%<c>
+EnemyGrowUpQuest_ElementUp350 - <yellow>状態異常蓄積値＋350%<c>
+EnemyGrowUpQuest_ElementUp400 - <yellow>状態異常蓄積値＋400%<c>
+EnemyGrowUpQuest_DamageResist5 - <yellow>ダメージ耐性＋5%<c>
+EnemyGrowUpQuest_DamageResist10 - <yellow>ダメージ耐性＋10%<c>
+EnemyGrowUpQuest_DamageResist15 - <yellow>ダメージ耐性＋15%<c>
+EnemyGrowUpQuest_DamageResist20 - <yellow>ダメージ耐性＋20%<c>
+EnemyGrowUpQuest_DamageResist25 - <yellow>ダメージ耐性＋25%<c>
+EnemyGrowUpQuest_DamageResist30 - <yellow>ダメージ耐性＋30%<c>
+EnemyGrowUpQuest_DamageResist35 - <yellow>ダメージ耐性＋35%<c>
+EnemyGrowUpQuest_DamageResist40 - <yellow>ダメージ耐性＋40%<c>
+EnemyGrowUpQuest_DamageResist45 - <yellow>ダメージ耐性＋45%<c>
+EnemyGrowUpQuest_DamageResist50 - <yellow>ダメージ耐性＋50%<c>
+EnemyGrowUpQuest_SendClient_NormalAtkAtpDownBuff1_10 - <yellow>通常攻撃ダメージ耐性＋10%<c>
+EnemyGrowUpQuest_SendClient_NormalAtkAtpDownBuff1_20 - <yellow>通常攻撃ダメージ耐性＋20%<c>
+EnemyGrowUpQuest_SendClient_NormalAtkAtpDownBuff1_30 - <yellow>通常攻撃ダメージ耐性＋30%<c>
+EnemyGrowUpQuest_SendClient_NormalAtkAtpDownBuff1_40 - <yellow>通常攻撃ダメージ耐性＋40%<c>
+EnemyGrowUpQuest_SendClient_NormalAtkAtpDownBuff1_50 - <yellow>通常攻撃ダメージ耐性＋50%<c>
+EnemyGrowUpQuest_SendClient_NormalAtkAtpDownBuff1_60 - <yellow>通常攻撃ダメージ耐性＋60%<c>
+EnemyGrowUpQuest_SendClient_NormalAtkAtpDownBuff1_70 - <yellow>通常攻撃ダメージ耐性＋70%<c>
+EnemyGrowUpQuest_SendClient_NormalAtkAtpDownBuff1_80 - <yellow>通常攻撃ダメージ耐性＋80%<c>
+EnemyGrowUpQuest_SendClient_PaTechniqueAtpDownBuff1_10 - <yellow>PA/テクニックダメージ耐性＋10%<c>
+EnemyGrowUpQuest_SendClient_PaTechniqueAtpDownBuff1_20 - <yellow>PA/テクニックダメージ耐性＋20%<c>
+EnemyGrowUpQuest_SendClient_PaTechniqueAtpDownBuff1_30 - <yellow>PA/テクニックダメージ耐性＋30%<c>
+EnemyGrowUpQuest_SendClient_PaTechniqueAtpDownBuff1_40 - <yellow>PA/テクニックダメージ耐性＋40%<c>
+EnemyGrowUpQuest_SendClient_PaTechniqueAtpDownBuff1_50 - <yellow>PA/テクニックダメージ耐性＋50%<c>
+EnemyGrowUpQuest_SendClient_PaTechniqueAtpDownBuff1_60 - <yellow>PA/テクニックダメージ耐性＋60%<c>
+EnemyGrowUpQuest_SendClient_PaTechniqueAtpDownBuff1_70 - <yellow>PA/テクニックダメージ耐性＋70%<c>
+EnemyGrowUpQuest_SendClient_PaTechniqueAtpDownBuff1_80 - <yellow>PA/テクニックダメージ耐性＋80%<c>
+EnemyGrowUpQuest_HPUp50 - <yellow>最大HP＋50%<c>
+EnemyGrowUpQuest_HPUp100 - <yellow>最大HP＋100%<c>
+EnemyGrowUpQuest_HPUp150 - <yellow>最大HP＋150%<c>
+EnemyGrowUpQuest_HPUp200 - <yellow>最大HP＋200%<c>
+EnemyGrowUpQuest_HPUp250 - <yellow>最大HP＋250%<c>
+EnemyGrowUpQuest_HPUp300 - <yellow>最大HP＋300%<c>
+EnemyGrowUpQuest_HPUp350 - <yellow>最大HP＋350%<c>
+EnemyGrowUpQuest_HPUp400 - <yellow>最大HP＋400%<c>
+EnemyGrowUpQuest_AngerToDamage - HP減少時に<yellow>プレイヤーHPに継続ダメージ<c>
+EnemyGrowUpQuest_AngerToPPDamage - HP減少時に<yellow>プレイヤーPPに継続ダメージ<c>
+EnemyGrowUpQuest_AngerToHpDown50 - HP減少時に<yellow>プレイヤー最大HP－50%<c>
+EnemyGrowUpQuest_AngerToHpDown75 - HP減少時に<yellow>プレイヤー最大HP－75%<c>
+EnemyGrowUpQuestAdditionalSkillOnHit_DamageDebuff5 - 攻撃命中時に<yellow>プレイヤー威力/耐性低下<c>
+EnemyGrowUpQuest_Elementboost_F20 - 攻撃に<yellow>炎属性追加<c>/バーン蓄積量：小
+EnemyGrowUpQuest_Elementboost_F40 - 攻撃に<yellow>炎属性追加<c>/バーン蓄積量：中
+EnemyGrowUpQuest_Elementboost_F60 - 攻撃に<yellow>炎属性追加<c>/バーン蓄積量：大
+EnemyGrowUpQuest_Elementboost_I20 - 攻撃に<yellow>氷属性追加<c>/フリーズ蓄積量：小
+EnemyGrowUpQuest_Elementboost_I40 - 攻撃に<yellow>氷属性追加<c>/フリーズ蓄積量：中
+EnemyGrowUpQuest_Elementboost_I60 - 攻撃に<yellow>氷属性追加<c>/フリーズ蓄積量：大
+EnemyGrowUpQuest_Elementboost_T20 - 攻撃に<yellow>雷属性追加<c>/ショック蓄積量：小
+EnemyGrowUpQuest_Elementboost_T40 - 攻撃に<yellow>雷属性追加<c>/ショック蓄積量：中
+EnemyGrowUpQuest_Elementboost_T60 - 攻撃に<yellow>雷属性追加<c>/ショック蓄積量：大
+EnemyGrowUpQuest_Elementboost_W20 - 攻撃に<yellow>風属性追加<c>/ミラージュ蓄積量：小
+EnemyGrowUpQuest_Elementboost_W40 - 攻撃に<yellow>風属性追加<c>/ミラージュ蓄積量：中
+EnemyGrowUpQuest_Elementboost_W60 - 攻撃に<yellow>風属性追加<c>/ミラージュ蓄積量：大
+EnemyGrowUpQuest_Elementboost_D20 - 攻撃に<yellow>闇属性追加<c>/ポイズン蓄積量：小
+EnemyGrowUpQuest_Elementboost_D40 - 攻撃に<yellow>闇属性追加<c>/ポイズン蓄積量：中
+EnemyGrowUpQuest_Elementboost_D60 - 攻撃に<yellow>闇属性追加<c>/ポイズン蓄積量：大
+EnemyGrowUpQuest_Elementboost_L20 - 攻撃に<yellow>光属性追加<c>/パニック蓄積量：小
+EnemyGrowUpQuest_Elementboost_L40 - 攻撃に<yellow>光属性追加<c>/パニック蓄積量：中
+EnemyGrowUpQuest_Elementboost_L60 - 攻撃に<yellow>光属性追加<c>/パニック蓄積量：大
+EnemyGrowUpQuest_ActionPowerUp - 一部攻撃の性能変化
+EnemyGrowUpQuest_AngerToSummon - 憤怒：追加エネミー出現
+Common:DownBombBoost - <yellow>バムロードエネミー化<c>
+Common:TimerBuffBoost - <yellow>グローサードエネミー化<c>
+EnemyGrowUpQuest_HpToSummon - 支援：徐々に追加エネミー出現
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_10 - <yellow>弱点部位以外のダメージ耐性＋10%<c>
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_15 - <yellow>弱点部位以外のダメージ耐性＋15%<c>
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_20 - <yellow>弱点部位以外のダメージ耐性＋20%<c>
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_30 - <yellow>弱点部位以外のダメージ耐性＋30%<c>
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_40 - <yellow>弱点部位以外のダメージ耐性＋40%<c>
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_50 - <yellow>弱点部位以外のダメージ耐性＋50%<c>
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_60 - <yellow>弱点部位以外のダメージ耐性＋60%<c>
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_70 - <yellow>弱点部位以外のダメージ耐性＋70%<c>
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_80 - <yellow>弱点部位以外のダメージ耐性＋80%<c>
+EnemyGrowUpQuest_SendClient_NonCriticalAtpDownBuff1_10 - <yellow>クリティカル以外のダメージ耐性＋10%<c>
+EnemyGrowUpQuest_SendClient_NonCriticalAtpDownBuff1_20 - <yellow>クリティカル以外のダメージ耐性＋20%<c>
+EnemyGrowUpQuest_SendClient_NonCriticalAtpDownBuff1_30 - <yellow>クリティカル以外のダメージ耐性＋30%<c>
+EnemyGrowUpQuest_SendClient_NonCriticalAtpDownBuff1_40 - <yellow>クリティカル以外のダメージ耐性＋40%<c>
+EnemyGrowUpQuest_SendClient_NonCriticalAtpDownBuff1_50 - <yellow>クリティカル以外のダメージ耐性＋50%<c>
+EnemyGrowUpQuest_SendClient_NonCriticalAtpDownBuff1_60 - <yellow>クリティカル以外のダメージ耐性＋60%<c>
+EnemyGrowUpQuest_SendClient_NonCriticalAtpDownBuff1_70 - <yellow>クリティカル以外のダメージ耐性＋70%<c>
+EnemyGrowUpQuest_SendClient_NonCriticalAtpDownBuff1_80 - <yellow>クリティカル以外のダメージ耐性＋80%<c>
+EnemyGrowUpQuest_IntervalShot15 - 一定間隔ごとに<yellow>自動的に追加攻撃発生<c>
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+QuestCommonBuff
+Group 0
+SonicQuest_MaxHpAdd - 最大HP上昇
+SonicQuest_AddCriticalAndDamage - クリティカル強化
 
 Group 1
 
