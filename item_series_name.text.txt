@@ -1,5 +1,5 @@
-item_series_name.text was created: 2023/8/3 11:30:43
-Filesize is: 3440 bytes
+item_series_name.text was created: 2023/10/2 19:48:29
+Filesize is: 7056 bytes
 
 SERIES
 Group 0
@@ -50,6 +50,14 @@ Gunblaze - ガンブレイズシリーズ
 Neos Astraean - ネオス・アストリオンシリーズ
 Neos Justitean - ネオス・ユースティロンシリーズ
 Trunkul - トランクールシリーズ
+Tisah - テスアシリーズ
+Revita - リヴィーターシリーズ
+Hextra - エクステルシリーズ
+Revolcoat - レヴォルコートシリーズ
+Monarkais - モノレクスシリーズ
+Verschmelz - ファーシュメルシリーズ
+Flugelgard - フリューガルドシリーズ
+Alcinq - アルクエイムシリーズ
 Qual De - クアルデシリーズ
 Geant - ジオントシリーズ
 Greas - グライアスシリーズ
@@ -73,21 +81,81 @@ Efitus - エフィタスシリーズ
 Gun Blade - ￥ガンスラッシュシリーズ
 
 Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
+Primm - Primm Series
+Tzvia - Tzvia Series
+Silver Primm - Silver Primm Series
+Trois De - Trois De Series
+Theseus - Theseus Series
+Gold Primm - Gold Primm Series
+Glissen - Glissen Series
+Frostel - Frostel Series
+Cattleya - Cattleya Series
+Vialto - Vialto Series
+Foursis - Foursis Series
+Resurgir - Resurgir Series
+Flamel - Flamel Series
+Evolcoat - Evolcoat Series
+Straga - Straga Series
+Tempesta - Tempesta Series
+Quintel - Quintel Series
+Gothica - Gothica Series
+Fivla - Fivla Series
+Greaga - Greaga Series
+Relik - Relik Series
+Cinquem - Cinquem Series
+Lumiere - Lumiere Series
+Obscura - Obscura Series
+Kukuhroziat - Kukuhroziat Series
+Sechetyl - Sechetyl Series
+Rokz - Rokz Series
+Sixiemes - -
+Roughewn - -
+Evolorbit - Evolorbit Series
+Renaissa - Renaissa Series
+Evoleclipse - Evoleclipse Series
+Vladstram - Vladstram Series
+Rugged - Rugged Series
+Etincelle - Etincelle Series
+Kaizaar - Kaizaar Series
+Codeck - Codeck Series
+Crystia - Crystia Series
+Obsidia - Obsidia Series
+Effulgent - Effulgent Series
+Tenebrous - Tenebrous Series
+Primm Libra - Primm Libra Series
+Kouklophis - Kouklophis Series
+Gunblaze - Gunblaze Series
+Neos Astraean - Neos Astraean Series
+Neos Justitean - Neos Justitean Series
+Trunkul - Trunkul Series
+Tisah - TisahSeries
+Revita - RevitaSeries
+Hextra - HextraSeries
+Revolcoat - RevolcoatSeries
+Monarkais - MonarkaisSeries
+Verschmelz - VerschmelzSeries
+Flugelgard - FlugelgardSeries
+Alcinq - AlcinqSeries
+Qual De - Qual De Series
+Geant - Geant Series
+Greas - Greas Series
+Vijf - Vijf Series
+Vida - Vida Series
+Vio - Vio Series
+Schwar - Schwar Series
+1064_test - Sestato Series
+Sestato - Sestato Series
+1065_test - Defro Series
+Defro - Defro Series
+1066_test - Behlgren Series
+Behlgren - Behlgren Series
+1067_test - El Vios Series
+El Vios - El Vios Series
+1068_test - Ancien Series
+Ancien - Ancien Series
+Provo - Provo Series
+Sest - Sest Series
+Efitus - Efitus Series
+Gun Blade - \Gun Blade Series
 
 
