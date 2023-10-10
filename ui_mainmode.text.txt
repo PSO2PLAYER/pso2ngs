@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2023/8/7 22:13:28
-Filesize is: 743168 bytes
+ui_mainmode.text was created: 2023/10/11 7:31:40
+Filesize is: 749376 bytes
 
 Common
 Group 0
@@ -70,8 +70,11 @@ BurstIntoNG - クエストにより途中参加が制限されています。
 CautionQuestEnd - クエストが終了しているため参加できません。
 CantStartQuestTimeLimitOver - クエストの受注可能期間が過ぎています。
 CautionQuestReleaseNG - このクエストには参加できません。
+CautionQuestReleaseNG2 - このクエストは現在、受注できません。<br>詳しくはプレイヤーズサイトをご確認ください。
 CautionRoomDelete - ルームが存在しないため参加できません。
 CautionBlockMoveNG - ブロックの移動に失敗しました。
+MatchingRejectJikkyouForRejectUser - ただいま一部のルームへの参加について制限を実施させていただいております。
+MatchingRejectJikkyouForJikkyou - 指定のルームに合流できないため、新規ルームを作成しました。
 CautionUnknown - 不明なエラーです。
 Loading - NOW LOADING
 
@@ -1910,6 +1913,7 @@ StatusLabelSeasonPoint_16 - スプリング'23シーズナルポイント
 StatusLabelSeasonPoint_18 - 『NGS』2周年記念シーズナルポイント
 StatusLabelSeasonPoint_20 - 『PSO2』11周年記念シーズナルポイント
 StatusLabelSeasonPoint_21 - オータム'23シーズナルポイント
+StatusLabelSeasonPoint_22 - ハロウィン'23シーズナルポイント
 StatusLabelSeasonPointValue - $(1) /$(0)
 StatusLabelN-Meseta - <pict reb_meseta>メセタ
 StatusLabelFun - FUN
@@ -3944,6 +3948,11 @@ BouncerDBladeStepCounterExtend - ブレードSC<br>オルタネーション
 BouncerTecArtsSkipAttack - ブーツアーツ<br>スキップビート
 SummonerTwoPlatoonsMarmeloPlus - ファミリアユニゾン<br>マルメロプラス
 SlayerGearOverTimeAfterAmplify - ガンスラッシュギア<br>クイックリチャージ
+BraverNoTargetBossAtpUp - ロングレンジ<br>アドバンテージBr
+RangerNoTargetBossAtpUp - ロングレンジ<br>アドバンテージRa
+GunnerNoTargetBossAtpUp - ロングレンジ<br>アドバンテージGu
+ForceNoTargetBossAtpUp - ロングレンジ<br>アドバンテージFo
+TechterNoTargetBossAtpUp - ロングレンジ<br>アドバンテージTe
 
 Group 1
 
@@ -4972,6 +4981,11 @@ BouncerDBladeStepCounterExtend - ステップカウンターが<br>素早くエ�
 BouncerTecArtsSkipAttack - 異なるPAを連続で使用した後の<br>通常攻撃が３段目扱いの<br>強力な攻撃に変化する。<br><yellow>※ジェットブーツ専用<c>
 SummonerTwoPlatoonsMarmeloPlus - ファミリアユニゾン発動時に、<br>“マルメロ”のゲージが<br>１段階以上の場合、ストックを１消費して<br>追加でマルメロが攻撃を行う。<br><yellow>※メインクラス／タクト専用<c>
 SlayerGearOverTimeAfterAmplify - ガンスラッシュギアオーバードライブの<br>効果終了時に、一定時間、<br>ガンスラッシュギアの<br>ゲージ蓄積量が増加する。<br><yellow>※メインクラス／ガンスラッシュ専用<c>
+BraverNoTargetBossAtpUp - 自身を狙っていないボスエネミーに、<br>PAで与えるダメージが増加する。<br><yellow>※メインクラス／バレットボウ専用<c>
+RangerNoTargetBossAtpUp - 自身を狙っていないボスエネミーに、<br>PAで与えるダメージが増加する。<br><yellow>※メインクラス／レンジャー武器専用<c>
+GunnerNoTargetBossAtpUp - 自身を狙っていないボスエネミーに、<br>PAで与えるダメージが増加する。<br><yellow>※メインクラス／ガンナー武器専用<c>
+ForceNoTargetBossAtpUp - 自身を狙っていないボスエネミーに、<br>PAとテクニックで与えるダメージが<br>増加する。<br><yellow>※メインクラス／フォース武器専用<c>
+TechterNoTargetBossAtpUp - 自身を狙っていないボスエネミーに、<br>PAとテクニックで与えるダメージが<br>増加する。<br><yellow>※メインクラス／タリス専用<c>
 
 Group 1
 
@@ -5631,6 +5645,8 @@ GroupChatDenySettingsTitle - グループチャット設定
 GroupChatDenyCheckBox - グループの招待を拒否する
 GroupChatDenyArticle - チェックすると、グループに誘われなくなります。
 GroupChatNotUseArea - このエリアでは、グループチャットをご利用いただけません。 
+AutoWordDetailTitle - 詳細情報
+AutoWordDetail - オートワードは、<br>初期状態では<yellow>“パーティー”<c>に向けて発信されます。<br><br>発信先のチャンネルを指定する<br>コマンドを入力することで、<br>パーティー以外にも発信することができます。<br><br>この<yellow>チャンネル指定コマンド<c>の詳細は、<br>オンラインマニュアルの<br><yellow>“チャット”<c>のページをご確認ください。
 
 Group 1
 
@@ -5942,7 +5958,7 @@ Title_SkipFunction - ゲームプレイスキップ<pict 4space><pict Arcscash>
 Title_SkipFunction_TwoLineGuide - キャラクターを成長させるさまざまな<pict 4space><pict Arcscash>アイテムが購入できます。
 SkipFunction - ゲームプレイスキップ<pict 4space><pict Arcscash>
 SubTitle_SkipFunction - ゲームプレイスキップ
-LevelSkip_EP1 - クラスレベル70化&適正装備セット<pict 4space><pict Arcscash>
+LevelSkip_EP1 - クラスレベル75化&適正装備セット<pict 4space><pict Arcscash>
 SkillPointSkip_EP1 - 『NGS』Ver.1全トレイニア踏破<pict 4space><pict Arcscash>
 SubTitle_LevelSkip_ClassSelect - クラス選択
 SubTitle_LevelSkip_Description - 機能詳細
@@ -6245,6 +6261,10 @@ Bg_Chara1 - アイナ
 Bg_Chara2 - マノン
 Bg_Chara3 - クロフォード
 Bg_Chara4 - ブルーダー
+Bg_Chara5 - ラン
+Bg_Chara6 - リューリン
+Bg_Chara7 - ロッサ
+Bg_Chara8 - オランジェ
 Open_Title - 背景の使用条件
 Open_00 - 最初から使用可能
 Open_01 - 累計称号ポイント：$(0)pt
@@ -8184,7 +8204,7 @@ Remake_ErrorNoPartner - 指定したサポートパートナーが見つから�
 Remake_ErrorNoSpace - サポートパートナーの装備品が、<br>プレイヤーの所持品枠を超えるため、<br>サポートパートナーを素体に<br>戻すことができません。
 Remake_ErrorDB - データベースエラーにより、<br>サポートパートナーを素体に<br>戻すことができません。
 Remake_Error - サポートパートナーを素体に<br>戻すことができません。
-Cast_color - カラー選択
+Cast_color - パーツカラー設定
 Item_EnterConfirmMessage - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。
 Item_EnterConfirmMessage2 - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。<br><br>＜エステ利用パス使用状況＞<br>編集可能残り時間：$(0)
 Item_EnterConfirmMessage3 - マイルームを退出して、エステに入店しますか？<br>※エステ内ではチャットができません。<br>　また、各種ゲーム内通知も行われません。<br><br>＜カラーチェンジ系パス使用状況＞<br>再編集中アイテム：<yellow>$(0)個<c><br><yellow>$(2)<c><br>編集可能残り時間：<yellow>$(1)<c>
@@ -10391,10 +10411,20 @@ AreaName022020 - 6章：マノンの自責
 AreaName504050 - 6章：リサージェントアークスの勃興Ⅰ
 AreaName504060 - 6章：リサージェントアークスの勃興Ⅱ
 AreaName501130 - 6章：ゼフェットの足跡
-AreaName508080 - 6章：ルシエル内部の現状
+AreaName508060 - 6章：ルシエル内部の現状
 AreaName506050 - 6章：ハルファのエネルギープラント
 AreaName503090 - 6章：“星渡り”のふたり
 AreaName020010 - 6章：星滅の予兆
+AreaName022030 - 6章：マノンの活動
+AreaName023020 - 6章：新人教官アイナ
+AreaName023030 - 6章：ブルーダーの期待
+AreaName023040 - 6章：心機一転
+AreaName023050 - 6章：それぞれの役割
+AreaName022040 - 6章：マノンの力
+AreaName022050 - 6章：オーバーブースト
+AreaName022060 - 6章：マノンの噂
+AreaName022070 - 6章：償いのため
+AreaName120010 - 6章：星滅の予兆
 
 Group 1
 
@@ -11891,6 +11921,7 @@ Slash - /
 RemoveAll - すべて撤去
 RemoveOneFront - 新しい順に撤去
 CategoryAll - 1.すべて表示
+Favorite - 0.お気に入り
 TitleHeightChange - 高さの変更
 EmptyListText - ポータブルホログラムがありません
 TitleListObject - 周囲のポータブルホログラム
@@ -11905,6 +11936,7 @@ Guide_GoToListObject - <%Exception2><pict 4space>“周囲のポータブルホ�
 Guide_OtherType - <%MultiSelect><pict 4space>+<pict 4space><%Decide><pict 4space>近くのモノにペイントを塗る
 Guide_OtherType_None - <%MultiSelect><pict 4space>+<pict 4space><%Decide><pict 4space><gray>近くのモノにペイントを塗る<c>
 Guide_HeightChange - <%Function><pict 4space>高さを変更して設置する
+Guide_Favorite - <%NextTabDetails><pict 4space>お気に入り登録/編集
 Guide_GoToPlaceObject - <%Exception2><pict 4space>“ポータブルホログラム設置”を開く
 HiddenNextLogin - 次回ログインまで、他プレイヤーのポータブルホログラムを非表示にする
 HiddenNextLogin_Supplement - 常に非表示にする場合は、オプションの“グラフィック”にある<br>“他プレイヤーのポータブルホログラム表示”から設定してください。
@@ -11915,6 +11947,15 @@ Mes_AutoRemoved - 設置した“$(0)”から一定距離離れたため、撤�
 Mes_OneRemoved - $(0)を撤去しました。
 Mes_Lost - 撤去するポータブルホログラムがありません。
 Mes_BeginnerBlock - このブロックには設置できません
+PortableHologram_Favorite_Add - お気に入り登録
+PortableHologram_Favorite_Delete - お気に入り解除
+PortableHologram_Favorite_Up - 1つ上に移動
+PortableHologram_Favorite_Down - 1つ下に移動
+PortableHologram_Favorite_Top - リストの一番上に移動
+PortableHologram_Favorite_Bottom - リストの一番下に移動
+PortableHologram_Favorite_Add_Msg - ポータブルホログラム「$(2)」をお気に入り登録しました。（$(1)/$(0)）
+PortableHologram_Favorite_Delete_Msg - ポータブルホログラム「$(2)」をお気に入り解除しました。（$(1)/$(0)）
+PortableHologram_Favorite_Add_ErrorMsg - 登録数上限を超えるため、これ以上は登録できません。
 
 Group 1
 
@@ -11940,6 +11981,7 @@ Group 0
 MySpaceName - クリエイティブスペース
 MySpaceName_TeamSpace - チームスペース
 MySpaceToastText_GeneratePoint_Get - $(0)GPを獲得しました。
+MySpaceToastText_GeneratePoint_Get_LimitNotice - $(0)GPを獲得しました。(デイリー上限：$(1)/$(2)<pict 4space><pict myspace_point>)
 MySpaceShopText_BuyMessage - アイテムを$(1)$(0)GPで購入します。<br>よろしいですか？
 MySpaceShopText_NotPoint - ジェネシスポイントが不足しています。
 TimeoutTitle - メッセージ
@@ -11958,6 +12000,7 @@ MySpaceInfoFormTitle - Ｃスペース情報
 TeamSpaceInfoFormTitle - Ｔスペース情報
 MySpace_RoomNumber - Ｃスペース番号
 TeamSpace_RoomNumber - Ｔスペース番号
+TeamSpace_NTeamPointPossesion - 所持N-チームポイント
 MySpace_NumberFormat - $(0) $(1) $(2)
 MySpace_SpaceName - Ｃスペース名
 TeamSpace_SpaceName - Ｔスペース名
@@ -12036,6 +12079,7 @@ MainMenu_MySpace_IndexBluePrintBuzTrend - 人気の設計図
 MainMenu_MySpace_IndexBluePrintBuzTag - 人気のタグ付き設計図
 MainMenu_MySpace_PickCSpace - 注目のクリエイティブスペース
 MainMenu_MySpace_PickBlueprint - 注目の設計図
+MainMenu_MySpace_ActiveTeamSpace - 最近更新されたチームスペース
 MainMenu_MySpace_OfficialSpace - オフィシャルクリエイティブスペース
 MainMenu_MySpace_MyCSpace - 自分のクリエイティブスペース
 MainMenu_MySpace_FriendCSpace - フレンドのクリエイティブスペース
@@ -12051,6 +12095,7 @@ MainMenu_MySpace_WindowNamePickCSpace - 注目のＣスペース
 MainMenu_MySpace_WindowNameOfficialSpace - オフィシャルＣスペース
 MainMenu_MySpace_WindowNameMyCSpace - 自分のＣスペース
 MainMenu_MySpace_WindowNameFriendCSpace - フレンドのＣスペース
+MainMenu_MySpace_WindowNameActiveTeamSpace - 最近更新されたＴスペース
 MainMenu_MySpace_WindowNameTeamSpace - 自分のＴスペース
 MainMenu_MySpace_WindowNameHistoryCSpace - 訪問したＣスペース
 MainMenu_MySpace_WindowNameSearchCSpace - Ｃ/Ｔスペースの検索
@@ -12094,7 +12139,7 @@ MainMenu_MySpace_TagSearch - 検索用タグ
 MainMenu_MySpace_DefaultName - クリエイティブスペース
 MainMenu_MySpace_DefaultNamePremium - プレミアムＣスペース
 MainMenu_MySpace_DefaultNameRental01 - レンタルＣスペース01
-MainMenu_MySpace_DefaultNameRental02 - レンタルスペース２
+MainMenu_MySpace_DefaultNameRental02 - レンタルＣスペース02
 MainMenu_MySpace_DefaultNameRental03 - レンタルスペース３
 MainMenu_MySpace_DefaultNameRental04 - レンタルスペース４
 MainMenu_MySpace_HiddenSpace - 非表示のＣスペース
@@ -12120,6 +12165,14 @@ MainMenu_MySpace_CrossPlaySpaceReset - 選択したクリエイティブスペ�
 MainMenu_MySpace_CrossPlaySpaceEnableSuccess - ※仮テキスト<br><br>スペースをクロスプレイ有効に再設定しました。
 MainMenu_MySpace_CrossPlaySpaceResetSuccess - ※仮テキスト<br><br>スペースを初期化し、クロスプレイ無効に再設定しました。
 MainMenu_MySpace_NoticeTeamUnderstaffed - チームスペースを利用するには４人以上のメンバーが必要です。
+MainMenu_MySpace_TeamSpaceBuyTitle - チームスペース購入
+MainMenu_MySpace_TeamSpaceBuyCheck - 追加の“チームスペース"は、<br>N-チームポイントで購入できます。<br>購入画面に進みますか？<br><br><yellow>※利用するには、４人以上のメンバーが必要です。<c>
+MainMenu_MySpace_TeamSpaceBuyPrice - 追加の“チームスペース"を$(1)<pict 4space><pict reb_team>TPで購入します。<br>よろしいですか？<br><br>（所持N-チームポイント：$(0)<pict 4space><pict reb_team>TP）
+MainMenu_MySpace_TeamSpaceBuy - 追加のチームスペースを購入しました。
+MainMenu_MySpace_TeamSpaceBuyNotPoint - N-チームポイントが不足しています。
+MainMenu_MySpace_TeamSpaceBuyNotRole - 権限がないため、購入できません。
+MainMenu_MySpace_TeamSpaceBuyPurchased - このチームスペースは購入済みです。
+MainMenu_MySpace_TeamSpaceBuyError - チームスペースの購入に失敗しました。
 MainMenu_MySpace_SearchCSpaceNumber - Ｃスペース番号で検索
 MainMenu_MySpace_SearchCSpacePlayerID - プレイヤーIDネームで検索
 MainMenu_MySpace_SearchCSpaceName - Ｃスペース名で検索
@@ -12184,6 +12237,57 @@ VitalDesign_Favorite_Add - お気に入りに登録しました。（$(0)/$(1)�
 VitalDesign_Favorite_Add_Error - 登録限界数に達しているため、登録できませんでした（$(0)/$(1)）
 VitalDesign_Favorite_Delete - お気に入りから外しました。（$(0)/$(1)）
 NoVitalDesignMessage - 変更可能なデザインがありません
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+GuildMag
+Group 0
+GuildMagBoostTitle - チームマグブースト
+MagMenu_buff_HP - HPアップ
+MagMenu_buff_PP - PPアップ
+MagMenu_buff_STR - 威力アップ
+MagMenu_buff_EXP - 獲得経験値アップ
+MagMenu_buff_Drop - レアドロップ倍率アップ
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Guide_Action
+Group 0
+Action_AttractingSaucer - 投擲方向の調整：<%NormalAttack>を押しながら<swguidetype T_Moveguide_l><br>肩越し視点で調整：<%ChangeView>を押して<swguidetype T_Moveguide_r>　　<br>滞空状態を維持：空中で<%NormalAttack>を長押し
 
 Group 1
 
