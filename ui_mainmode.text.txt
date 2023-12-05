@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2023/10/11 7:31:40
-Filesize is: 749376 bytes
+ui_mainmode.text was created: 2023/12/6 7:15:49
+Filesize is: 757456 bytes
 
 Common
 Group 0
@@ -344,6 +344,9 @@ MainMenu_TeamMember_Recruitment - <pict ba_teamsearch><pict 4space>メンバー�
 Weapon_CoordinateX - （X：$(0)）
 Weapon_CoordinateY - （Y：$(0)）
 Weapon_CoordinateZ - （Z：$(0)）
+MainMenu_Quest_BoxGacha - <pict ba_boxg><pict 4space>リワードボックス
+MainMenu_Quest_BoxGacha_Close - 現在利用可能なリワードボックスはありません。
+MainMenu_Quest_BoxGacha_Second_Guide - 対象タスクの達成により入手できるメダルを使用することで、アイテムを獲得できます。
 
 Group 1
 
@@ -1914,6 +1917,9 @@ StatusLabelSeasonPoint_18 - 『NGS』2周年記念シーズナルポイント
 StatusLabelSeasonPoint_20 - 『PSO2』11周年記念シーズナルポイント
 StatusLabelSeasonPoint_21 - オータム'23シーズナルポイント
 StatusLabelSeasonPoint_22 - ハロウィン'23シーズナルポイント
+StatusLabelSeasonPoint_23 - クリスマス'23シーズナルポイント
+StatusLabelSeasonPoint_24 - ニューイヤー'24シーズナルポイント
+StatusLabelSeasonPoint_25 - ウィンター'24シーズナルポイント
 StatusLabelSeasonPointValue - $(1) /$(0)
 StatusLabelN-Meseta - <pict reb_meseta>メセタ
 StatusLabelFun - FUN
@@ -2304,6 +2310,7 @@ PetTitle - ペット詳細
 NeedGauge - 消費ストック
 NeedGaugeValue - $(0) (ストック数上限 $(1))
 NotFoundGaugeValue - 現在装備している武器では<br>解式PAは使用できません。
+ActionCustomizeMedium_Title - テックアーツカスタマイズ
 
 Group 1
 
@@ -3828,7 +3835,7 @@ BraverKatanaPaComboExAttack - カタナPAコンボ<br>フィニッシュ
 BraverKatanaCounterExAttack - カタナガード<br>カウンタープラス
 BraverAnotherArtsPPSave - ボウアナザー<br>アーツPPセイブ
 BraverCompoundBowFallSlow - スローランディング<br>バレットボウ
-BouncerPhotonBladeParry - フォトンブレード<br>プロテクション
+BouncerPhotonBladeParry - ブレードアーツ<br>オルタネーション
 BouncerPhotonBladeGuardCounterShot - ブレードアーツパリィ<br>カウンターエッジ
 BouncerJetBootsBlinkSkipAttack - スラストドライブ<br>スキップアタック
 BouncerElementBurstRecastSave - シュツルムジーカー<br>ショートリキャスト
@@ -3944,7 +3951,7 @@ TechterWandTechSkipAttack - ウォンドテクニック<br>スキップビート
 TechterTalisTecBurstBloomFlourish - トリッキーキャパシタ<br>ブルームフラリッシュ
 BraverKatanaSkipArts - カタナSC<br>スキップアーツ
 BraverBowReinForce - バレットボウアタック<br>インパクト
-BouncerDBladeStepCounterExtend - ブレードSC<br>オルタネーション
+BouncerDBladeStepCounterExtend - ブレードカウンター<br>オルタネーション
 BouncerTecArtsSkipAttack - ブーツアーツ<br>スキップビート
 SummonerTwoPlatoonsMarmeloPlus - ファミリアユニゾン<br>マルメロプラス
 SlayerGearOverTimeAfterAmplify - ガンスラッシュギア<br>クイックリチャージ
@@ -4250,8 +4257,8 @@ BouncerDefeatPpGain - 自分の周囲でエネミーが<br>ダウンしたとき
 BouncerFrailPointUp - フィジカルディクラインと<br>エレメンタルディクラインの<br>ダウン値増加の段階が上がりやすくなる。<br><yellow>※メインクラス専用<c>
 BouncerPhysicFrail - PAを当てたエネミーを<br>物理ダウンしやすい状態にする。<br>さらにPAを当てることで、<br>最大３段階まで効果が上昇する。<br><yellow>※メインクラス／デュアルブレード専用<c>
 BouncerElementFrail - PAを当てたエネミーを<br>属性ダウンしやすい状態にする。<br>さらにPAを当てることで、<br>最大３段階まで効果が上昇する。<br><yellow>※メインクラス／ジェットブーツ専用<c>
-BouncerPhotonBladeFever - <yellow>【アクティブスキル】<c><br>一定時間、フォトンブレードの<br>威力が低下するかわりに、<br>発射頻度が増加する。<br><yellow>※デュアルブレード専用<c>
-BouncerPhotonBladeFeverUp - ファナティックブレード中に、<br>フォトンブレードの発射本数が増加する。<br><yellow>※デュアルブレード専用<c>
+BouncerPhotonBladeFever - <yellow>【アクティブスキル】<c><br>一定時間、フォトンブレードの<br>威力が低下するかわりに、<br>PA発動中の特定タイミングでも、<br>フォトンブレードが発射されるようになる。<br><yellow>※メインクラス／デュアルブレード専用<c>
+BouncerPhotonBladeFeverUp - ファナティックブレード中に、<br>フォトンブレードの発射本数が増加する。<br><yellow>※メインクラス／デュアルブレード専用<c>
 BouncerPhotonBladePpGain - フォトンブレードが刺さった状態の<br>エネミーに、通常攻撃を当てたときの<br>PP回復量が増加する。<br><yellow>※デュアルブレード専用<c>
 BouncerElementBurst - <yellow>【アクティブスキル】<c><br>攻撃や、武器アクションの回避により、<br>蓄積したゲージを消費することで、<br>強力な一撃を放つ。<br><yellow>※ジェットブーツ専用<c>
 BouncerJetBootsElementChange - エネミーにPAを当てたときに、<br>最後に使用したテクニックの<br>属性に応じた追加攻撃が<br>発生するようになる。<br><yellow>※ジェットブーツ専用<c>
@@ -4262,7 +4269,7 @@ BouncerJetBootsWeaponActionCounter - 武器アクションによる回避成功�
 BouncerJetBootsBlink - テクニック発動後に、特定のタイミングで、<br>通常攻撃ボタンを押すことで、<br>エネミーに突撃を行う。<br><yellow>※ジェットブーツ専用<c>
 BouncerBartaBlot - チャージしていない氷属性テクニックを、<br>エネミーに当てることで、その回数に応じて、<br>最大２段階まで強化される氷の紋章を刻む。<br>そこに、チャージした<br>同属性のテクニックを当てると、<br>紋章が起爆して、<br>強化段階に応じた追加ダメージを与える。
 BouncerZondeClad - チャージしていない雷属性テクニックを、<br>一定回数エネミーに当てることで、自身が<br>帯電状態になる。さらに、チャージした<br>同属性のテクニックを使用すると、帯電が<br>解除され、そのテクニックを強化する。
-BouncerPhotonBladeGuard - PA発動中に、<br>武器アクションボタンを押すことで、<br>エネミーからの攻撃を１度だけ無効化する。<br><yellow>※メインクラス／デュアルブレード専用<c>
+BouncerPhotonBladeGuard - PA発動中に、<br>武器アクションボタンを押すことで、<br>エネミーからの攻撃を１度だけ無効化する。<br>無効化に成功すると、<br>再度パリィが使用可能な状態になる。<br><yellow>※メインクラス／デュアルブレード専用<c>
 BouncerElementBurstPPSave - シュツルムジーカー発動後に、<br>一定時間、PP消費量が減少する。<br><yellow>※メインクラス／ジェットブーツ専用<c>
 TwinmachinegunGear - 攻撃を当てるとギアが溜まり、攻撃の威力が上昇する
 ShowTime - ツインマシンガン専用スキル　一定時間エネミーの自分に対するヘイト効果を上昇する代わりに、ギアの上昇率を大きく上げる
@@ -4839,7 +4846,7 @@ BraverKatanaPaComboExAttack - カタナPAの３段目を使用した後の<br>�
 BraverKatanaCounterExAttack - カタナガードカウンター発動時に、<br>通常攻撃を行うことで、<br>さらに追加でカウンターが発生する。<br><yellow>※カタナ専用<c>
 BraverAnotherArtsPPSave - 異なるPAを連続して発動したときの<br>PP消費量が減少する。<br><yellow>※バレットボウ専用<c>
 BraverCompoundBowFallSlow - 通常攻撃とPAのチャージ中、<br>落下速度が緩やかになる。<br><yellow>※バレットボウ専用<c>
-BouncerPhotonBladeParry - 武器アクション発動時に、<br>エネミーからの攻撃を無効化する。<br><yellow>※デュアルブレード専用<c>
+BouncerPhotonBladeParry - PA発動中の特定タイミングに、<br>異なるPAボタンを押すことで、<br>そのPAの派生攻撃に変化する。<br><yellow>※デュアルブレード専用<c>
 BouncerPhotonBladeGuardCounterShot - ブレードアーツパリィによる<br>攻撃の無効化成功時に、<br>同時にカウンターが発生する。<br><yellow>※メインクラス／デュアルブレード専用<c>
 BouncerJetBootsBlinkSkipAttack - スラストドライブを使用した後の<br>通常攻撃が４段目に変化する。<br><yellow>※ジェットブーツ専用<c>
 BouncerElementBurstRecastSave - 武器アクションによる回避成功時に、<br>シュツルムジーカーの<br>再使用が可能になるまでの時間を短縮する。<br><yellow>※メインクラス／ジェットブーツ専用<c>
@@ -4900,7 +4907,6 @@ FighterTDSpinCounter - 武器アクションによる<br>攻撃の無効化成�
 FighterDSDodgeWindCounter - 武器アクションによる<br>攻撃の無効化成功時に、<br>通常攻撃を行うことで、<br>カウンターが発生する。<br><yellow>※ダブルセイバー専用<c>
 FighterDSDodgeWindWACounter - 武器アクションによる<br>攻撃の無効化成功時に、<br>さらに武器アクションを行うことで、<br>特殊なカウンターが発生する。<br><yellow>※ダブルセイバー専用<c>
 ForceRodCounterTechnic - 武器アクションによる攻撃の無効化、<br>またはステップでの回避成功時に、<br>テクニックを使用すると、<br>無敵時間が発生する。<br><yellow>※ロッド専用<c>
-ForceReflectCounterShot - 武器アクションによる<br>攻撃の無効化成功後に、<br>最初に発動するテクニックに<br>同じ属性の法撃弾による攻撃を追加する。<br><yellow>※ロッド専用<c>
 TechterWandCounterReflection - 武器アクションなどによる<br>攻撃の無効化成功時に、<br>法撃爆発が発生する。<br><yellow>※ウォンド専用<c>
 TechterWandGuardCounter - 武器アクションによる<br>攻撃の無効化成功時に、<br>通常攻撃を行うことで、<br>カウンターが発生する。<br><yellow>※ウォンド専用<c>
 SlayerUnleashAction - <yellow>【アクティブスキル】<c><br>PAや、スラッシュパスートの攻撃により、<br>蓄積したゲージを消費することで、<br>強力な一撃を放つ。<br><yellow>※メインクラス／ガンスラッシュ専用<c>
@@ -4963,7 +4969,6 @@ SlayerBlink - チャージ状態の通常攻撃後に、<br>特定のタイミ�
 SummonerPetGearExtra - “フレドラン”と“ヴォルファー”の<br>タクトギアのストック数が<br>３に増加する。<br><yellow>※タクト専用<c>
 SummonerWeaponActionChargeGuard - 武器アクションボタンを長押ししている間、<br>受けるダメージを軽減し、<br>打ち上げや吹き飛ばしを防ぐ。<br>また、攻撃を受けた時に、<br>“マルメロ”のゲージが<br>蓄積するようになる。<br><yellow>※メインクラス／タクト専用<c>
 HunterSwordStepCounterExtend - ステップカウンターが、<br>素早くエネミーに突撃を行う<br>攻撃に変化する。<br><yellow>※ソード専用<c>
-HunterPartisanVolgraptorShortRecast - 武器アクションによる<br>攻撃の無効化成功時に、<br>ヴォルグラプターの<br>再使用が可能になるまでの時間を短縮する。<br>ただし、再使用が可能になるまでのあいだに<br>時間を短縮できる回数には上限がある。<br><yellow>※メインクラス／パルチザン専用<c>
 HunterWLanceSpecialAttack - <yellow>【アクティブスキル】<c><br>攻撃により蓄積した<br>ゲージを消費することで、<br>前方に強力な斬撃を放つ。<br><yellow>※ワイヤードランス専用<c>
 FighterTDAttackExtend - PAを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージを最大にすると、一定回数、<br>通常攻撃に追加で衝撃波が<br>発生するようになる。<br><yellow>※ツインダガー専用<c>
 FighterKnuckleStepCounterExtend - ステップカウンターが、<br>素早くエネミーに突撃を行う<br>攻撃に変化する。<br><yellow>※ナックル専用<c>
@@ -4977,7 +4982,7 @@ TechterWandTechSkipAttack - チャージテクニックを発動した後の<br>
 TechterTalisTecBurstBloomFlourish - PAによるタリスの展開中に、<br>展開状態に応じて<br>トリッキーキャパシタの攻撃が変化する。<br><yellow>※タリス専用<c>
 BraverKatanaSkipArts - ステップカウンター発動後に、<br>使用するPAが３段目に変化し、<br>威力が上昇する。<br><yellow>※メインクラス／カタナ専用<c>
 BraverBowReinForce - PAを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージを最大にすると、<br>次の通常攻撃が強力な攻撃に変化する。<br>その後、最初に使用する<br>チャージしたディメンショナルレイを除く<br>PAの威力が上昇する。<br><yellow>※バレットボウ専用<c>
-BouncerDBladeStepCounterExtend - ステップカウンターが<br>素早くエネミーに突撃を行う<br>攻撃に変化する。<br><yellow>※デュアルブレード専用<c>
+BouncerDBladeStepCounterExtend - 武器アクションによる<br>回避成功後の通常攻撃と<br>ステップカウンターが<br>素早くエネミーに突撃を行う<br>攻撃に変化する。<br><yellow>※デュアルブレード専用<c>
 BouncerTecArtsSkipAttack - 異なるPAを連続で使用した後の<br>通常攻撃が３段目扱いの<br>強力な攻撃に変化する。<br><yellow>※ジェットブーツ専用<c>
 SummonerTwoPlatoonsMarmeloPlus - ファミリアユニゾン発動時に、<br>“マルメロ”のゲージが<br>１段階以上の場合、ストックを１消費して<br>追加でマルメロが攻撃を行う。<br><yellow>※メインクラス／タクト専用<c>
 SlayerGearOverTimeAfterAmplify - ガンスラッシュギアオーバードライブの<br>効果終了時に、一定時間、<br>ガンスラッシュギアの<br>ゲージ蓄積量が増加する。<br><yellow>※メインクラス／ガンスラッシュ専用<c>
@@ -4986,6 +4991,8 @@ RangerNoTargetBossAtpUp - 自身を狙っていないボスエネミーに、<br
 GunnerNoTargetBossAtpUp - 自身を狙っていないボスエネミーに、<br>PAで与えるダメージが増加する。<br><yellow>※メインクラス／ガンナー武器専用<c>
 ForceNoTargetBossAtpUp - 自身を狙っていないボスエネミーに、<br>PAとテクニックで与えるダメージが<br>増加する。<br><yellow>※メインクラス／フォース武器専用<c>
 TechterNoTargetBossAtpUp - 自身を狙っていないボスエネミーに、<br>PAとテクニックで与えるダメージが<br>増加する。<br><yellow>※メインクラス／タリス専用<c>
+HunterPartisanVolgraptorShortRecast - 攻撃の無効化成功時に、<br>ヴォルグラプターの<br>再使用が可能になるまでの時間を短縮する。<br>ただし、再使用が可能になるまでのあいだに<br>時間を短縮できる回数には上限がある。<br><yellow>※メインクラス／パルチザン専用<c>
+ForceReflectCounterShot - 攻撃の無効化成功後に、<br>最初に発動するテクニックに<br>同じ属性の法撃弾による攻撃を追加する。<br><yellow>※ロッド専用<c>
 
 Group 1
 
@@ -5958,7 +5965,7 @@ Title_SkipFunction - ゲームプレイスキップ<pict 4space><pict Arcscash>
 Title_SkipFunction_TwoLineGuide - キャラクターを成長させるさまざまな<pict 4space><pict Arcscash>アイテムが購入できます。
 SkipFunction - ゲームプレイスキップ<pict 4space><pict Arcscash>
 SubTitle_SkipFunction - ゲームプレイスキップ
-LevelSkip_EP1 - クラスレベル75化&適正装備セット<pict 4space><pict Arcscash>
+LevelSkip_EP1 - クラスレベル80化&適正装備セット<pict 4space><pict Arcscash>
 SkillPointSkip_EP1 - 『NGS』Ver.1全トレイニア踏破<pict 4space><pict Arcscash>
 SubTitle_LevelSkip_ClassSelect - クラス選択
 SubTitle_LevelSkip_Description - 機能詳細
@@ -6265,6 +6272,8 @@ Bg_Chara5 - ラン
 Bg_Chara6 - リューリン
 Bg_Chara7 - ロッサ
 Bg_Chara8 - オランジェ
+Bg_Chara9 - ナーデレフ
+Bg_Chara10 - ハーディ
 Open_Title - 背景の使用条件
 Open_00 - 最初から使用可能
 Open_01 - 累計称号ポイント：$(0)pt
@@ -10424,6 +10433,15 @@ AreaName022040 - 6章：マノンの力
 AreaName022050 - 6章：オーバーブースト
 AreaName022060 - 6章：マノンの噂
 AreaName022070 - 6章：償いのため
+AreaName023060 - 6章：アイナの悩み
+AreaName023070 - 6章：ライサスの教え
+AreaName023080 - 6章：教官としての成長
+AreaName022090 - 6章：リミナルサイン
+AreaName022111 - 6章：リミナルサイン発見！
+AreaName022120 - 6章：大規模捜索
+AreaName022160 - 6章：回復の兆し
+AreaName022170 - 6章：マノンの想い
+AreaName022190 - 6章：マノンのお願い
 AreaName120010 - 6章：星滅の予兆
 
 Group 1
@@ -10449,6 +10467,7 @@ BlockMenu
 Group 0
 ReleaseGuild - ストーリーを進めることで使用可能になります。
 ReleaseMessege - $(0)の"$(1)"が解放されました。
+ReleaseMySpace - アーチェから依頼されるタスクを進めることで使用可能になります。
 
 Group 1
 
@@ -11447,7 +11466,7 @@ Crossing_Name11 - ？？？
 Crossing_Name12 - （未使用）
 Crossing_Name13 - トリニテス
 Crossing_Name14 - トレイニアアドバンス
-Crossing_Name15 - ディメンションフォルト
+Crossing_Name15 - 重要目標討伐任務
 Quest_Result0 - -
 Quest_Result1 - ★
 Quest_Result2 - ★★
@@ -11983,6 +12002,8 @@ MySpaceName_TeamSpace - チームスペース
 MySpaceToastText_GeneratePoint_Get - $(0)GPを獲得しました。
 MySpaceToastText_GeneratePoint_Get_LimitNotice - $(0)GPを獲得しました。(デイリー上限：$(1)/$(2)<pict 4space><pict myspace_point>)
 MySpaceShopText_BuyMessage - アイテムを$(1)$(0)GPで購入します。<br>よろしいですか？
+MySpaceShopText_BuyMessage_Confirm - （仮テキスト）<br>アイテムを$(1)$(0)GPで購入します。<br>よろしいですか？<br><br><yellow>※すでに登録済みか、所持しているビルドパーツが含まれています。<c>
+MySpaceShopText_BuyMessage_Reconfirmation - （仮テキスト）<br>すでに登録済みか、所持しているビルドパーツが含まれています。<br>本当に購入しますか？
 MySpaceShopText_NotPoint - ジェネシスポイントが不足しています。
 TimeoutTitle - メッセージ
 Timeout - サーバーとの通信がタイムアウトしました。<br>時間をおいて再度お試しください。
@@ -12000,8 +12021,9 @@ MySpaceInfoFormTitle - Ｃスペース情報
 TeamSpaceInfoFormTitle - Ｔスペース情報
 MySpace_RoomNumber - Ｃスペース番号
 TeamSpace_RoomNumber - Ｔスペース番号
+MySpace_CSpace_ShipDisplay - Ship
 TeamSpace_NTeamPointPossesion - 所持N-チームポイント
-MySpace_NumberFormat - $(0) $(1) $(2)
+MySpace_NumberFormat - $(0) $(1)
 MySpace_SpaceName - Ｃスペース名
 TeamSpace_SpaceName - Ｔスペース名
 TeamSpace_TeamName - チーム名
@@ -12237,6 +12259,100 @@ VitalDesign_Favorite_Add - お気に入りに登録しました。（$(0)/$(1)�
 VitalDesign_Favorite_Add_Error - 登録限界数に達しているため、登録できませんでした（$(0)/$(1)）
 VitalDesign_Favorite_Delete - お気に入りから外しました。（$(0)/$(1)）
 NoVitalDesignMessage - 変更可能なデザインがありません
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+ActionCustomizeMenu
+Group 0
+ActionCustomize - テックアーツカスタマイズ
+ActionCustomizeTitle - テックアーツカスタマイズ
+Explanation1 - テックアーツカスタマイズの実行とセットができます。
+Explanation2 - テックアーツカスタマイズのパターンを選択してください。<yellow>各フォトンアーツ/テクニックごとにカスタマイズ結果が保存されます。<c>
+Explanation3 - テックアーツカスタマイズのレベルを選択してください。
+Explanation4 - 選択した内容でテックアーツカスタマイズを実行します。
+Explanation5 - セットしたテックアーツカスタマイズを外したり、タイプの変更ができます。
+Menu_Label1 - テックアーツカスタマイズ実行
+Menu_Label2 - テックアーツカスタマイズセット
+Large_Title1 - 現在の設定
+Large_Title2 - テックアーツ選択
+Large_Title3 - カスタマイズ選択
+Large_Title4 - カスタマイズレベル選択
+Large_Title5 - カスタマイズ詳細
+Large_Title6 - テックアーツカスタマイズの実行
+Large_Title7 - 実行結果
+Small_Title1 - タイプ$(0)
+Small_Title2 - Lv.$(0)
+Small_Title3 - 現在のレベル
+Small_Title4 - カスタマイズレベル
+Small_Title5 - 対象のフォトンアーツ/テクニック
+Small_Title6 - カスタマイズ結果
+Small_Title7 - 未実行
+Button1 - 決定
+Button2 - 戻る
+Button3 - 外す
+Button4 - 戻る
+Message_Confirm1 - テックアーツカスタマイズを実行します。<br>よろしいですか？<br><yellow>※各フォトンアーツ/テクニックごとに<br>　カスタマイズ結果が保存されます。<br>※既にカスタマイズを実行済みの場合は上書きされます。<c>
+Message_Finish - テックアーツカスタマイズを実行しました。
+Message_ActionChange - テックアーツカスタマイズのタイプを変更しました。
+Message_ActionLift - セットされたテックアーツカスタマイズを外しました。
+Message_Error - 設定内容の変更ができませんでした。
+Message_Error1 - サーバーとの通信に失敗しました。<br>時間をおいて再度お試しください。
+Message_Error2 - システムエラーが発生しました。<br>ゲームを再起動してください。
+Message_Error3 - 選択したテックアーツカスタマイズのタイプは、最大レベルです。
+Message_Finish2 - アクションカスタマイズの生成が完了しました。<br>生成したカスタマイズ効果をセットしました。
+Label_NoActionCategory - 変更可能な項目がありません
+Job00 - <pict class_hunter><pict 4space>ハンター
+Job01 - <pict class_ranger><pict 4space>レンジャー
+Job02 - <pict class_force><pict 4space>フォース
+Job03 - <pict class_fighter><pict 4space>ファイター
+Job04 - <pict class_ganner><pict 4space>ガンナー
+Job05 - <pict class_tecter><pict 4space>テクター
+Job06 - <pict class_braver><pict 4space>ブレイバー
+Job07 - <pict class_bouncer><pict 4space>バウンサー
+Job09 - <pict class_summoner><pict 4space>ウェイカー
+Job11 - <pict class_slayer><pict 4space>スレイヤー
+Sword - <pict sw_icon><pict 4space>ソード
+WLance - <pict wl_icon><pict 4space>ワイヤードランス
+Partisan - <pict pz_icon><pict 4space>パルチザン
+TDagger - <pict td_icon><pict 4space>ツインダガー
+DSaber - <pict ds_icon><pict 4space>ダブルセイバー
+Knuckle - <pict kn_icon><pict 4space>ナックル
+GunSlash - <pict gs_icon><pict 4space>ガンスラッシュ
+Rifle - <pict rf_icon><pict 4space>アサルトライフル
+Launcher - <pict gl_icon><pict 4space>ランチャー
+TMachineGun - <pict ts_icon><pict 4space>ツインマシンガン
+Rod - <pict rd_icon><pict 4space>ロッド
+Talis - <pict tr_icon><pict 4space>タリス
+Wand - <pict wd_icon><pict 4space>ウォンド
+Katana - <pict bl_icon><pict 4space>カタナ
+CompoundBow - <pict co_icon><pict 4space>バレットボウ
+Takt - <pict tt_icon><pict 4space>タクト
+JBoots - <pict je_icon><pict 4space>ジェットブーツ
+DBlade - <pict du_icon><pict 4space>デュアルブレード
+OnMouseTechnicAttributeFire - <pict attr_fire><pict 4space>炎属性テクニック
+OnMouseTechnicAttributeIce - <pict attr_ice><pict 4space>氷属性テクニック
+OnMouseTechnicAttributeThunder - <pict attr_thunder><pict 4space>雷属性テクニック
+OnMouseTechnicAttributeWind - <pict attr_wind><pict 4space>風属性テクニック
+OnMouseTechnicAttributeLight - <pict attr_light><pict 4space>光属性テクニック
+OnMouseTechnicAttributeDark - <pict attr_dark><pict 4space>闇属性テクニック
+Yellow - <yellow>$(0)<c>
 
 Group 1
 

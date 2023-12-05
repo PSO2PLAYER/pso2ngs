@@ -1,5 +1,5 @@
-ui_item.text was created: 2023/11/22 17:06:40
-Filesize is: 831968 bytes
+ui_item.text was created: 2023/12/6 7:15:49
+Filesize is: 834784 bytes
 
 TicketMain
 Group 0
@@ -1938,6 +1938,9 @@ BuyTitle - アイテム購入
 BuyMessage1 - 「$(1)」を$(2)$(0)で購入します。<br>よろしいですか？
 BuyMessage2 - 「$(1)×$(2)」を$(3)$(0)で購入します。<br>よろしいですか？
 BuyMessage3 - アイテムを$(1)<pict 4space>$(0)で購入します。<br>よろしいですか？
+MySpaceShopText_BuyMessage_Confirm - アイテムを$(1)$(0)GPで購入します。<br>よろしいですか？<br><br><yellow>※既に登録済みか、<br> 所持しているビルドパーツが含まれています。<c>
+MySpaceShopText_BuyMessage_Confirm_SG - アイテムを$(1)$(0)で購入します。<br>よろしいですか？<br><br><yellow>※既に登録済みか、<br> 所持しているビルドパーツが含まれています。<c>
+MySpaceShopText_BuyMessage_Reconfirmation - 既に登録済みか、<br>所持しているビルドパーツが含まれています。<br>選択したビルドパーツを本当に購入しますか？
 Caption_ItemName - 商品名
 Caption_LimitedTime - 販売期限
 Caption_Cost - 必要金額
@@ -2127,6 +2130,10 @@ ManagementMeseta - 必要<pict 4space><pict reb_meseta><pict 4space>メセタ半
 ManagementMeseta_Series - <pict sd_icon><pict 4space><yellow>シリーズ限定<c><pict 4space>必要<pict 4space><pict reb_meseta><pict 4space>メセタ半減
 ManagementMeseta_02 - 必要<pict 4space><pict reb_meseta><pict 4space>メセタ-$(0)％
 ManagementMeseta_02_Series - <pict sd_icon><pict 4space><yellow>シリーズ限定<c><pict 4space>必要<pict 4space><pict reb_meseta><pict 4space>メセタ-$(0)％
+ManagementPresetUpgrade - 強化成功率＋$(0)％
+ManagementPresetUpgrade_Level - プリセット能力Lv.$(0)以下の強化成功率＋$(1)％
+ManagementPresetUpgrade_Series - <pict sd_icon><pict 4space><yellow>シリーズ限定<c><pict 4space>強化成功率＋$(0)％
+ManagementPresetUpgrade_Level_Series - <pict sd_icon><pict 4space><yellow>シリーズ限定<c>プリセット能力Lv.$(0)以下の強化成功率＋$(1)％
 ManagementBreak - $(0)<br>$(1)
 ManagementBreak_02 - $(0)<br>$(1)<br>$(2)
 LaboSeries_Balloontext - シリーズ限定ブーストの対象アイテムを表示
@@ -3350,6 +3357,11 @@ SubCategoryConsumeArksCardBackground - アークスカード背景
 SubCategoryVitalgauge - バイタルゲージデザイン
 Verschmelz Series - ファーシュメルシリーズ
 ItemNameDeleteButtonGuide - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>　　入力アイテム名の削除：<%NextTabDetails>
+Target Gathering Materials (Quartz) - 対象のギャザリング素材（鉱石）
+Basic capsule 3 - 対象の“Ⅲ”系カプセル
+Recycle Reward Box - 対象のリワードボックス品
+Recycle Reward Box Medal - 対象のリワードボックスメダル
+Target N-Class EX-Cubes - 対象のN-クラスエクスキューブ
 
 Group 1
 
@@ -3999,6 +4011,12 @@ item_AllBonus4_3 - 必閃の型 Lv.3
 item_AllBonus4_4 - 必閃の型 Lv.4
 item_AllBonus4_5 - 必閃の型 Lv.5
 item_AllBonus4_6 - 必閃の型 Lv.6
+item_AllBonus5_1 - 季遷の型 Lv.1
+item_AllBonus5_2 - 季遷の型 Lv.2
+item_AllBonus5_3 - 季遷の型 Lv.3
+item_AllBonus5_4 - 季遷の型 Lv.4
+item_AllBonus5_5 - 季遷の型 Lv.5
+item_AllBonus5_6 - 季遷の型 Lv.6
 item_Proximity_1 - 勇健の型 Lv.1
 item_Proximity_2 - 勇健の型 Lv.2
 item_Proximity_3 - 勇健の型 Lv.3
@@ -7919,6 +7937,12 @@ item_AllBonus4_3 - 威力－20%／<br>クリティカル発生率＋100%
 item_AllBonus4_4 - 威力－19%／<br>クリティカル発生率＋100%
 item_AllBonus4_5 - 威力－18%／<br>クリティカル発生率＋100%
 item_AllBonus4_6 - 威力－14%／<br>クリティカル発生率＋100%
+item_AllBonus5_1 - 威力＋17%／<br>ダメージ耐性＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋10%
+item_AllBonus5_2 - 威力＋19%／<br>ダメージ耐性＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋10%
+item_AllBonus5_3 - 威力＋21%／<br>ダメージ耐性＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋10%
+item_AllBonus5_4 - 威力＋23%／<br>ダメージ耐性＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋10%
+item_AllBonus5_5 - 威力＋24%／<br>ダメージ耐性＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋10%
+item_AllBonus5_6 - 威力＋29%／<br>ダメージ耐性＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋10%
 item_Proximity_1 - 威力+21%／<br>ダメージ耐性+10%／<br>レスタサインの<br>HP回復量+20%<br>装備から10秒後に効果発動
 item_Proximity_2 - 威力+23%／<br>ダメージ耐性+10%／<br>レスタサインの<br>HP回復量+20%<br>装備から10秒後に効果発動
 item_Proximity_3 - 威力+26%／<br>ダメージ耐性+10%／<br>レスタサインの<br>HP回復量+20%<br>装備から10秒後に効果発動

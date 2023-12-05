@@ -1,5 +1,5 @@
-actor_name.text was created: 2023/10/11 7:34:24
-Filesize is: 49136 bytes
+actor_name.text was created: 2023/12/6 7:15:49
+Filesize is: 56832 bytes
 
 Enemy
 Group 0
@@ -311,6 +311,8 @@ r05_rem_dhu_ba - ルイノ・ヒューナル
 r05_stl_leg_ba1 - ドゥランゲラド
 r05_stl_cas_el1 - ヴァルザッガ
 r05_stl_mzc_ba - ゼレヴィン
+r05_rem_bhu_ba - ルイノ・アンゲル
+r05_rem_ctl_ba - ルイノ・リンガーダ
 r05_stl_ktn_ba1 - ラセツ
 r05_stl_gia_ba1 - ヘルジーグ
 r05_stl_ins_ba1 - エリミネイダ
@@ -321,6 +323,10 @@ r05_stl_sip_ba1 - マクスヴァング
 r05_stl_pnr_rai - ハルヴァルディ・ヴェラ
 r01_unk_emp_ha - トリト・エンペラッピー
 r01_unk_emp_habi - トリト・グレトラッピー
+r03_nat_bea_icbi - ケーニヒスイエーデ・ジオ
+r01_unk_rap_wi2 - スノム・ラッピー
+r01_unk_emp_wi2 - スノム・エンペラッピー
+r01_unk_emp_wi2bi - スノム・グレトラッピー
 
 Group 1
 
@@ -359,6 +365,7 @@ EnemyTitleSeasonAnnivPSO21 - 星霜の
 EnemyTitleGrowUpFloorBoss - 奇侵の
 EnemyTitleGrowUpBuffEnemy - 変侵の
 EnemyTitleHighDread - 閃征の
+EnemyTitleStrongRaidEnemy - 深禍の
 
 Group 1
 
@@ -896,7 +903,7 @@ CompoundBowWeaponAction - “強弓（バレットボウ）”用の武器アク
 JBootsAttack - “魔装脚（ジェットブーツ）”用の通常攻撃。<br>素早い蹴りにより、最大３段の攻撃を行う。
 JetBootsWeaponAction - “魔装脚（ジェットブーツ）”用の武器アクション。<br>素早い動きで、敵の攻撃を回避する。
 DBladeAttack - “飛翔剣（デュアルブレード）”用の通常攻撃。<br>飛翔剣を振り、最大３段の攻撃を行う。
-DBladeWeaponAction - “飛翔剣（デュアルブレード）”用の武器アクション。<br>フォトンブレードを飛ばし、エネミーを攻撃する。<br>武器アクションボタンを長押しすることで、<br>フォトンブレードを飛ばし続ける。<br>移動中でも移動を中断せずに発動できる。
+DBladeWeaponAction - “飛翔剣（デュアルブレード）”用の武器アクション。<br>素早い動きで、敵の攻撃を回避しながら、<br>フォトンブレードを飛ばし、エネミーを攻撃する。
 TaktAttack - “奏具（タクト）”用の通常攻撃。<br>奏具を振り、フォトンを弾けさせ、<br>最大３段の攻撃を行う。<br>通常攻撃ボタンを長押しすることで、<br>攻撃の挙動が変化する。
 TaktWeaponAction - “奏具（タクト）”用の武器アクション。<br>ファミリア“マルメロ”を呼び出し、<br>周囲からの攻撃を弾く。
 GunSlashAttack - “銃剣（ガンスラッシュ）”用の通常攻撃。<br>フォトン弾を放ち、最大３段の攻撃を行う。<br>１段目で長押しすることで、２段階までチャージでき、<br>それぞれ攻撃の挙動が変化する。<br>チャージの１段階目は５連射攻撃を行い、<br>２段階目は強力なフォトン弾を放つ。
@@ -943,6 +950,71 @@ JobNGS_12 - ファントム
 JobNGS_13 - エトワール
 JobNGS_14 - スレイヤー
 AllNGS - 全クラス
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+ActionCustomize
+Group 0
+Common_RangeExtendPP - 攻撃範囲拡大<br>消費PP<yellow>$(0)<c>
+Common_LongChargeAtp - チャージ時威力<yellow>$(0)<c><br>チャージ時間<yellow>$(1)<c>
+Common_AtkSpeedAtp - 攻撃速度上昇<br>PA威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+Common_ParryingPaAtp - ハンターアーツアヴェンジ発動時威力<yellow>$(0)<c><br>ハンターアーツアヴェンジ非発動時威力<yellow>$(1)<c>
+Common_DownAtp - ダウン中のエネミーへの威力<yellow>$(0)<c><br>非ダウン中のエネミーへの威力<yellow>$(1)<c><br>消費PP<yellow>$(2)<c>
+Common_ArmorPP - PA発動中に打ち上げや吹き飛ばし無効<br>被ダメージ<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+Common_GearGuagePP - ギアゲージ蓄積量<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+Rifle_SpreadShotGuagePP - スプレッドショットのゲージ蓄積量<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+Machinegun_InfinityFireGuagePP - ヘイルオブバレッツのゲージ蓄積量<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+Katana_PAComboAtpPP - PA1段目威力<yellow>$(0)<c><br>PA2段目威力<yellow>$(1)<c><br>消費PP<yellow>$(2)<c>
+Wand_ElementPursuitGuagePP - ウォンドエレメントパスートの<br>ゲージ蓄積効果追加<br>消費PP<yellow>$(0)<c>
+Technic_DownRateMixTechPP - 属性ダウン値<yellow>$(0)<c><br>複合属性テクニックのゲージ蓄積量<yellow>$(1)<c><br>消費PP<yellow>$(2)<c>
+WlancePA03_Pattern2 - 攻撃範囲拡大<br>距離による威力上昇が常に最大<br>消費PP<yellow>$(0)<c>
+PartisanPA02_Pattern2 - フィニッシュ攻撃の威力上昇／攻撃範囲拡大<br>PA威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+PartisanPA02_Pattern3 - 一定時間PAボタン長押しで威力上昇／攻撃速度上昇<br>PA威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+TdaggerPA02_Pattern2 - PA前半部分の前進距離増加<br>PA後半部分の後退無効化／衝撃波の射程距離延長<br>消費PP<yellow>$(0)<c>
+TdaggerPA02_Pattern3 - 直後に発動する<br>アクセルドライブ威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+DsaberPA03_Pattern3 - 竜巻の攻撃持続時間延長<br>竜巻の1ヒット毎の威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+KatanaPA03_Pattern2 - ブレイブコンバット中の攻撃速度上昇／PA威力<yellow>$(0)<c><br>フィニッシュプライズのヒットカウント数<yellow>$(1)<c><br>消費PP<yellow>$(2)<c>
+RiflePA03_Pattern2 - PAボタン長押し中の威力上昇／弾丸がエネミーを追尾<br>PA威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+RiflePA03_Pattern3 - フィニッシュ攻撃の威力上昇／攻撃範囲拡大<br>PA威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+LauncherPA01_Pattern2 - 爆発弾の弾数増加<br>爆発弾の1ヒット毎の威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+LauncherPA01_Pattern3 - 爆発弾ヒット中のエネミーへのランチャーPA威力<yellow>$(0)<c><br>爆発弾の落下間隔延長<br>PA威力<yellow>$(1)<c>／消費PP<yellow>$(2)<c>
+CompoundBowPA03_Pattern1 - 非チャージ時の攻撃範囲拡大<br>消費PP<yellow>$(0)<c>
+CompoundBowPA03_Pattern2 - 非チャージ時の攻撃持続時間延長<br>非チャージ時の1ヒット毎の威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+CompoundBowPA03_Pattern3 - チャージ時の弓矢ストック数<yellow>$(0)<c><br>チャージ時の1ヒット毎の威力<yellow>$(1)<c><br>消費PP<yellow>$(2)<c>
+DbladePA02_Pattern1 - PA発動中に打ち上げや吹き飛ばし無効<br>ピニオンブレードのゲージ蓄積量<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+DbladePA02_Pattern3 - 派生前攻撃の速度上昇<br>派生前攻撃の威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+JetBootsPA03_Pattern2 - 衝撃波の攻撃持続時間延長<br>衝撃波の1ヒット毎の威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+JetBootsPA03_Pattern3 - PA発動後に通常攻撃ボタンを押すことで<br>スラストドライブ発動可能<br>消費PP<yellow>$(0)<c>
+TaktPA04_Pattern3 - 非派生攻撃時にトレブルクリフマーキングの<br>マーカー蓄積効果追加<br>消費PP<yellow>$(0)<c>
+GunslashPA04_Pattern2 - 方向入力時の攻撃範囲拡大／上昇距離増加<br>消費PP<yellow>$(0)<c>
+GunslashPA04_Pattern3 - 非方向入力時の衝撃波が持続攻撃に変化<br>非方向入力時の1ヒット毎の威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+TalisPA01_Pattern1 - タリス展開から<yellow>$(0)秒<c>経過後テクニック威力<yellow>$(1)<c><br>タリスの展開時間<yellow>$(2)<c><br>タリス展開中のテクニックの消費PP<yellow>$(3)<c>
+TalisPA01_Pattern2 - タリス展開中のテクニックがターゲット位置への攻撃に変化<br>タリス展開中のテクニックの属性ダウン値<yellow>$(0)<c><br>タリス展開中のテクニックの消費PP<yellow>$(1)<c>
+TalisPA01_Pattern3 - タリス展開中のトリッキーキャパシタのゲージ蓄積量<yellow>$(0)<c><br>タリス展開中のテクニックの消費PP<yellow>$(1)<c>
+WandPA01_Pattern2 - 衝撃波を飛ばす攻撃に変化／攻撃速度上昇<br>攻撃時の前進無効化<br>PA威力<yellow>$(0)<c>／消費PP<yellow>$(1)<c>
+Fire01_Pattern2 - 攻撃速度上昇<br>チャージ時間<yellow>$(0)<c><br>テクニック威力<yellow>$(1)<c>
+Fire01_Pattern3 - 属性ダウン値<yellow>$(0)<c><br>炎の刻印の蓄積量<yellow>$(1)<c><br>消費PP<yellow>$(2)<c>
+Wind01_Pattern1 - 風環の攻撃範囲拡大／ヒット数減少<br>消費PP<yellow>$(0)<c>
+Wind01_Pattern2 - チャージ時の攻撃範囲拡大／弾速上昇<br>消費PP<yellow>$(0)<c>
+Light01_Pattern1 - チャージ時の攻撃と光円環による追撃が各１ヒットに変化<br>チャージ時威力<yellow>$(0)<c><br>チャージ時間<yellow>$(1)<c>
+Light01_Pattern2 - 発動時にエネミーからの攻撃を無効化<br>消費PP<yellow>$(0)<c>
 
 Group 1
 

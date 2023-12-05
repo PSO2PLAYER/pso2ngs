@@ -1,5 +1,5 @@
-quest_common_reboot.text was created: 2023/8/7 22:13:28
-Filesize is: 59264 bytes
+quest_common_reboot.text was created: 2023/12/6 7:15:49
+Filesize is: 60320 bytes
 
 CocoonFail
 Group 0
@@ -176,6 +176,7 @@ BuffLineText_Target_2 - あなたに
 BuffLineText_ConditionBase - $(0) Lv.$(1)
 ScriptSequencer_Wait - 他のプレイヤーを待っています。
 BeginnerBlockWrongRegion - ビギナーブロックでは別リージョンのクエストは開始できません。
+SkipCountDown - 参加メンバーが集合したことにより、クエストを即時開始します。
 
 Group 1
 
@@ -704,6 +705,10 @@ Pyramid_EqualizingKillCountAddPp - イコライジングエネミー撃破数で
 DescPyramid_EqualizingKillCountAddPp - トリニテスで倒したイコライジングエネミー<br>の数に応じて最大PPが増加する。
 Pyramid_PbGuageBossKillIncrease - ボスエネミー撃破数でPB自然蓄積量増加
 DescPyramid_PbGuageBossKillIncrease - トリニテスで倒したボスエネミーの数に<br>応じてPBゲージの自然蓄積量が増加する。
+RecordSetA - クリア難度倍率最大化セット
+DescRecordSetA - クリア難度倍率が最大になる<br>チャレンジ項目をセットする。
+Category1_EnemyLevelToLevelCap - エネミーレベル最大化
+DescCategory1_EnemyLevelToLevelCap - 出現するエネミーのレベルが、<br>現在のプレイヤーのレベル上限と<br>同一になる。
 
 Group 1
 
@@ -1052,28 +1057,33 @@ GrowUpQuest_HpBonusBuff1 - HP75%以上で威力/ダメージ耐性上昇　Lv１
 GrowUpQuest_HpBonusBuff2 - HP75%以上で威力/ダメージ耐性上昇　Lv２
 GrowUpQuest_HpBonusBuff3 - HP75%以上で威力/ダメージ耐性上昇　Lv３
 GrowUpQuest_HpBonusBuff4 - HP75%以上で威力/ダメージ耐性上昇　Lv４
-GrowUpQuest_HitCountPpHealBuff - 攻撃命中30回ごとにPP回復
-GrowUpQuest_HitCountPpHealBuff1 - 攻撃命中30回ごとにPP回復　Lv１
-GrowUpQuest_HitCountPpHealBuff2 - 攻撃命中30回ごとにPP回復　Lv２
-GrowUpQuest_HitCountPpHealBuff3 - 攻撃命中30回ごとにPP回復　Lv３
-GrowUpQuest_HitCountPpHealBuff4 - 攻撃命中30回ごとにPP回復　Lv４
+GrowUpQuest_HitCountPpHealBuff - 攻撃命中20回ごとにPP回復
+GrowUpQuest_HitCountPpHealBuff1 - 攻撃命中20回ごとにPP回復　Lv１
+GrowUpQuest_HitCountPpHealBuff2 - 攻撃命中20回ごとにPP回復　Lv２
+GrowUpQuest_HitCountPpHealBuff3 - 攻撃命中20回ごとにPP回復　Lv３
+GrowUpQuest_HitCountPpHealBuff4 - 攻撃命中20回ごとにPP回復　Lv４
 GrowUpQuest_BadEase - 状態異常の効果時間短縮
 GrowUpQuest_BadEase1 - 状態異常の効果時間短縮　Lv１
 GrowUpQuest_BadEase2 - 状態異常の効果時間短縮　Lv２
 GrowUpQuest_BadEase3 - 状態異常の効果時間短縮　Lv３
 GrowUpQuest_BadEase4 - 状態異常の効果時間短縮　Lv４
+GrowUpQuest_DownDamageBuff - ダウン中のエネミーへの攻撃威力上昇
+GrowUpQuest_DownDamageBuff1 - ダウン中のエネミーへの攻撃威力上昇　Lv１
+GrowUpQuest_DownDamageBuff2 - ダウン中のエネミーへの攻撃威力上昇　Lv２
+GrowUpQuest_DownDamageBuff3 - ダウン中のエネミーへの攻撃威力上昇　Lv３
+GrowUpQuest_DownDamageBuff4 - ダウン中のエネミーへの攻撃威力上昇　Lv４
 GrowUpQuest_S_PhotonArtsBuff - <yellow>PA/テクニック命中時に追加ダメージ<c>
 GrowUpQuest_S_PhotonArtsBuff1 - PA/テクニック命中時に追加ダメージ
-GrowUpQuest_S_GlideAttackBuff - S：ダイブアタック強化
-GrowUpQuest_S_GlideAttackBuff1 - S：ダイブアタック強化
+GrowUpQuest_S_GlideAttackBuff - <yellow>ダイブアタック威力/ダウン値上昇<c>
+GrowUpQuest_S_GlideAttackBuff1 - ダイブアタック威力/ダウン値上昇
 GrowUpQuest_S_DamageShieldBuff - <yellow>リフレクトシールド発生<c>
 GrowUpQuest_S_DamageShieldBuff1 - リフレクトシールド発生
 GrowUpQuest_S_QuickAttackBuff - <yellow>攻撃速度上昇<c>
 GrowUpQuest_S_QuickAttackBuff1 - 攻撃速度上昇
 GrowUpQuest_S_NormalAttackBuff - <yellow>通常攻撃時に追加攻撃発生<c>
 GrowUpQuest_S_NormalAttackBuff1 - 通常攻撃時に追加攻撃発生
-GrowUpQuest_S_RangeDamageBuff - S：一定間隔で周囲攻撃発生
-GrowUpQuest_S_RangeDamageBuff1 - S：一定間隔で周囲攻撃発生
+GrowUpQuest_S_RangeDamageBuff - <yellow>一定間隔ごとに自動的に追加攻撃発生<c>
+GrowUpQuest_S_RangeDamageBuff1 - 一定間隔ごとに自動的に追加攻撃発生
 GrowUpQuest_S_OverRecoveryBuff - <yellow>レスタサイン使用後に10秒間能力上昇<c>
 GrowUpQuest_S_OverRecoveryBuff1 - レスタサイン使用後に10秒間能力上昇
 GrowUpQuest_S_AdditionalCriticalAttackBuff - <yellow>クリティカル発生時に追加ダメージ<c>
@@ -1159,10 +1169,10 @@ EnemyGrowUpQuest_Elementboost_L20 - 攻撃に<yellow>光属性追加<c>/パニ�
 EnemyGrowUpQuest_Elementboost_L40 - 攻撃に<yellow>光属性追加<c>/パニック蓄積量：中
 EnemyGrowUpQuest_Elementboost_L60 - 攻撃に<yellow>光属性追加<c>/パニック蓄積量：大
 EnemyGrowUpQuest_ActionPowerUp - 一部攻撃の性能変化
-EnemyGrowUpQuest_AngerToSummon - 憤怒：追加エネミー出現
 Common:DownBombBoost - <yellow>バムロードエネミー化<c>
 Common:TimerBuffBoost - <yellow>グローサードエネミー化<c>
 EnemyGrowUpQuest_HpToSummon - 支援：徐々に追加エネミー出現
+EnemyGrowUpQuest_AngerToSummon - HP減少時に<yellow>追加エネミー出現<c>
 EnemyGrowUpQuest_CalcDmageRate_NotWeak_10 - <yellow>弱点部位以外のダメージ耐性＋10%<c>
 EnemyGrowUpQuest_CalcDmageRate_NotWeak_15 - <yellow>弱点部位以外のダメージ耐性＋15%<c>
 EnemyGrowUpQuest_CalcDmageRate_NotWeak_20 - <yellow>弱点部位以外のダメージ耐性＋20%<c>
