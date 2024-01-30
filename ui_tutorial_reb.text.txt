@@ -1,5 +1,5 @@
-ui_tutorial_reb.text was created: 2023/12/6 7:16:25
-Filesize is: 17520 bytes
+ui_tutorial_reb.text was created: 2024/1/31 7:13:01
+Filesize is: 17728 bytes
 
 TitleName
 Group 0
@@ -325,6 +325,10 @@ tut_006651 - テックアーツカスタマイズ
 tut_006653 - アトラクティングソーサー
 tut_006658 - リワードボックス
 tut_006661 - 最近更新されたチームスペース
+tut_006663 - 赤色界
+tut_006664 - タイムエクステンションクエスト
+tut_006666 - グランドトーチスタンド／トーチスタンド
+tut_006673 - バーストチェンジ
 
 Group 1
 

@@ -1,5 +1,5 @@
-common.text was created: 2023/12/29 9:36:41
-Filesize is: 171280 bytes
+common.text was created: 2024/1/31 7:13:01
+Filesize is: 174672 bytes
 
 Block
 Group 0
@@ -1479,8 +1479,23 @@ LobbyAction_kimeposere - ポーズ９＋
 LobbyAction_2249jaanpose - 見せびらかす
 LobbyAction_7meridia - 『七つの大罪』：剣技
 LobbyAction_7erihor - 『七つの大罪』：ホークといっしょ
+LobbyAction_2283onehandpose - ブレイクダンスフリーズ
 LobbyAction_2295showhand - 手を見せる
 LobbyAction_2305vivapaella - パエリアを食べる
+LobbyAction_2267idorapause3 - イドラキャラポーズ３
+LobbyAction_2268idorapause4 - イドラキャラポーズ４
+LobbyAction_2307ppn - ムゲンのキセキ
+LobbyAction_2276roundpose - ボードを掲げる
+LobbyAction_2291haveflowers - 花を持つ
+LobbyAction_2298kimepose - アクションヒーローポーズ
+LobbyAction_katazun - 肩によりかかる
+LobbyAction_patting - 頭ポンポン
+LobbyAction_ichitaro_nekoposere - ネコポーズ＋
+LobbyAction_bodybuildre - ボディビル＋
+LobbyAction_kamae - 構える３
+LobbyAction_2280effbeam - 目からビーム
+LobbyAction_2342kimepose2 - アクションヒーローポーズ2
+LobbyAction_2343kimepose3 - アクションヒーローポーズ3
 LobbyAction_fgoo - グー
 LobbyAction_foyayubi - 親指
 LobbyAction_fhitosashi - 人差し指
@@ -1526,7 +1541,7 @@ LobbyAction_handhalfopen - ゆるくにぎる
 LobbyAction_2212nigiru - 握る２
 LobbyAction_2213airquotes - フィンガークオート
 LobbyAction_2214fopenclose - とじひらき５
-LobbyAction_2215bosatsu - ゆるくにぎる２
+LobbyAction_2215bosatsu - ゆるくにぎる2
 LobbyAction_girlpiece - ピース２
 LobbyAction_ufinger - Uの字2
 LobbyAction_fingercross - クロスフィンガー
@@ -1534,6 +1549,7 @@ LobbyAction_2241piece - ゆるピース
 LobbyAction_2242handopen - 手をひらく8
 LobbyAction_2258anomalyhand - 決めポーズ
 LobbyAction_2273handdown - 手をひらく9
+LobbyAction_2315halfopen - ゆるくにぎる3
 LobbyAction_Pchair_viri - フォトンチェア深緑
 LobbyAction_Pchair_green - フォトンチェア緑
 LobbyAction_Pchair_sky - フォトンチェア水
@@ -2769,6 +2785,13 @@ Guide_Scratch_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操�
 Guide_Shop_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>　　パックアイテム詳細を開く：<%NextTabDetails>
 Guide_Submenu_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　並び順の変更：<%MultiSelect>　　並び順の初期化：<%ChangeCtrlWindowForward>
 Guide_Vitaldesign_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　プレビュー：<%Function>　お気に入り登録/編集：<%NextTabDetails>
+Guide_AlwaysLockon_01 - ロックオン：
+Guide_AlwaysLockon_02 - <%LockOn>
+Guide_AlwaysLockon_03 - <%LockOn>長押し
+Guide_AlwaysStep_01 - 回避：
+Guide_AlwaysStep_02 - <%Avoid>
+Guide_AlwaysDash_01 - ダッシュ：
+Guide_AlwaysDash_02 - 移動中に<br><%Avoid>長押し
 
 Group 1
 
@@ -2900,16 +2923,29 @@ Substitute_Idle_136 - ゾンビEX
 Substitute_Idle_137 - キョンシー
 Substitute_Idle_138 - ぺたん座り
 Substitute_Idle_139 - ホロボールに乗る
+Substitute_Idle_140 - 直立浮遊
+Substitute_Idle_141 - 直立浮遊EX
 Substitute_Idle_142 - 火炎/B
 Substitute_Idle_143 - 膝立ち
 Substitute_Idle_144 - やっほー
 Substitute_Idle_145 - 手を振る
+Substitute_Idle_146 - 足を伸ばして座る
 Substitute_Idle_147 - マジェスティウィング
 Substitute_Idle_148 - マジェスティウィングEX
 Substitute_Idle_149 - サムライ
 Substitute_Idle_150 - サムライEX
 Substitute_Idle_151 - おすわり
 Substitute_Idle_152 - ホークに乗る
+Substitute_Idle_153 - 飛天御剣流
+Substitute_Idle_154 - リズムに乗る
+Substitute_Idle_155 - ジャイロランナー
+Substitute_Idle_156 - 決めポーズ3
+Substitute_Idle_157 - 気を高める
+Substitute_Idle_158 - スーパーヒーロー
+Substitute_Idle_159 - うさぴょん
+Substitute_Idle_160 - イースターエッグ
+Substitute_Idle_161 - キック
+Substitute_Idle_162 - キックEX
 Substitute_Jump_0 - 標準
 Substitute_Jump_1 - シンプル
 Substitute_Jump_2 - シンプル2
@@ -2932,6 +2968,9 @@ Substitute_Jump_18 - 腕を上げる2
 Substitute_Jump_19 - 腕組み浮遊
 Substitute_Jump_21 - おじさんの魔法
 Substitute_Jump_22 - キョンシー
+Substitute_Jump_24 - 直立浮遊
+Substitute_Jump_25 - ジャイロランナー
+Substitute_Jump_26 - スーパーヒーロー
 Substitute_Landing_0 - 標準
 Substitute_Landing_1 - シンプル
 Substitute_Landing_2 - シンプル2
@@ -2956,6 +2995,7 @@ Substitute_Landing_22 - あわわ
 Substitute_Landing_23 - 花びら
 Substitute_Landing_24 - つむじ風/B
 Substitute_Landing_31 - キョンシー
+Substitute_Landing_33 - ジャイロランナー
 Substitute_Move_0 - 標準
 Substitute_Move_1 - シンプル
 Substitute_Move_2 - シンプル2
@@ -2991,6 +3031,10 @@ Substitute_Move_33 - ゾンビEX
 Substitute_Move_34 - キョンシー
 Substitute_Move_35 - 獣2
 Substitute_Move_36 - 獣2EX
+Substitute_Move_37 - 直立浮遊
+Substitute_Move_38 - 飛天御剣流
+Substitute_Move_39 - ジャイロランナー
+Substitute_Move_40 - 電車ごっこ
 Substitute_Sprint_0 - 標準
 Substitute_Sprint_1 - シンプル
 Substitute_Sprint_2 - シンプル2
@@ -3113,6 +3157,18 @@ Substitute_Sprint_139 - サムライEX
 Substitute_Sprint_140 - 獣2
 Substitute_Sprint_141 - 獣2EX
 Substitute_Sprint_142 - ホークに乗る
+Substitute_Sprint_143 - 直立浮遊
+Substitute_Sprint_144 - 直立浮遊EX
+Substitute_Sprint_145 - 飛天御剣流
+Substitute_Sprint_146 - プロペラエンジン/B
+Substitute_Sprint_147 - ジャイロランナー
+Substitute_Sprint_148 - ジャイロランナーEX
+Substitute_Sprint_149 - 電車ごっこ
+Substitute_Sprint_150 - スーパーヒーロー
+Substitute_Sprint_151 - スーパーヒーローEX
+Substitute_Sprint_152 - ジェットパック/B
+Substitute_Sprint_153 - イースターエッグ
+Substitute_Sprint_154 - イースターエッグEX
 Substitute_Glide_0 - 標準
 Substitute_Glide_1 - ミニグライダー
 Substitute_Glide_2 - ジェットパック
@@ -3229,6 +3285,17 @@ Substitute_Glide_132 - マジェスティウィングEX
 Substitute_Glide_133 - サムライ
 Substitute_Glide_134 - ショートスキー/B
 Substitute_Glide_135 - ホークに乗る
+Substitute_Glide_136 - 直立浮遊
+Substitute_Glide_138 - プロペラエンジン/B
+Substitute_Glide_139 - ジャイロランナー
+Substitute_Glide_140 - ジャイロランナーEX
+Substitute_Glide_141 - スーパーヒーロー
+Substitute_Glide_142 - スーパーヒーローEX
+Substitute_Glide_143 - イースターエッグ
+Substitute_Glide_144 - イースターエッグEX
+Substitute_Glide_145 - ジェットパック/B
+Substitute_Glide_146 - キック
+Substitute_Glide_147 - キックEX
 Substitute_Swim_0 - 標準
 Substitute_Swim_2 - クロール
 Substitute_Swim_3 - 潜水
@@ -3240,6 +3307,7 @@ Substitute_Swim_8 - 氷上歩行
 Substitute_Swim_9 - シャークレイド
 Substitute_Swim_10 - バナナボート
 Substitute_Swim_11 - ペンギン
+Substitute_Swim_12 - イースターエッグ
 
 Group 1
 

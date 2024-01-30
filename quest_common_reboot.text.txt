@@ -1,4 +1,4 @@
-quest_common_reboot.text was created: 2023/12/6 7:15:49
+quest_common_reboot.text was created: 2024/1/31 7:10:21
 Filesize is: 60320 bytes
 
 CocoonFail
@@ -252,7 +252,7 @@ f1 - タイムオーバー！
 f2 - （仮）防衛失敗
 f3 - 戦闘不能回数上限！
 f4 - 落下回数上限！
-f5 - トライアル”$(0)”失敗
+f5 - トライアル“$(0)”失敗
 f6 - サイドミッションの失敗数オーバー！
 f7 - クエスト終了<br>全LPを消失！
 f8 - タイムオーバー！

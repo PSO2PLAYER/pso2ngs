@@ -1,5 +1,5 @@
-ui_item.text was created: 2023/12/6 7:15:49
-Filesize is: 834784 bytes
+ui_item.text was created: 2024/1/31 7:10:21
+Filesize is: 835232 bytes
 
 TicketMain
 Group 0
@@ -4250,6 +4250,12 @@ item_BombField2_3 - 爆領の型・弐式 Lv.3
 item_BombField2_4 - 爆領の型・弐式 Lv.4
 item_BombField2_5 - 爆領の型・弐式 Lv.5
 item_BombField2_6 - 爆領の型・弐式 Lv.6
+item_MultiBonus_1 - 渡気の式 Lv.1
+item_MultiBonus_2 - 渡気の式 Lv.2
+item_MultiBonus_3 - 渡気の式 Lv.3
+item_MultiBonus_4 - 渡気の式 Lv.4
+item_MultiBonus_5 - 渡気の式 Lv.5
+item_MultiBonus_6 - 渡気の式 Lv.6
 item_GuardStanceUp_1 - 守勢練陣 Lv.1
 item_GuardStanceUp_2 - 守勢練陣 Lv.2
 item_GuardStanceUp_3 - 守勢練陣 Lv.3
@@ -7931,12 +7937,12 @@ item_AllBonus3_3 - 威力＋14%／<br>クリティカル発生率＋10%／<br>�
 item_AllBonus3_4 - 威力＋16%／<br>クリティカル発生率＋10%／<br>ダメージ耐性＋10%
 item_AllBonus3_5 - 威力＋18%／<br>クリティカル発生率＋10%／<br>ダメージ耐性＋10%
 item_AllBonus3_6 - 威力＋26%／<br>クリティカル発生率＋10%／<br>ダメージ耐性＋10%
-item_AllBonus4_1 - 威力－25%／<br>クリティカル発生率＋100%
-item_AllBonus4_2 - 威力－22%／<br>クリティカル発生率＋100%
-item_AllBonus4_3 - 威力－20%／<br>クリティカル発生率＋100%
-item_AllBonus4_4 - 威力－19%／<br>クリティカル発生率＋100%
-item_AllBonus4_5 - 威力－18%／<br>クリティカル発生率＋100%
-item_AllBonus4_6 - 威力－14%／<br>クリティカル発生率＋100%
+item_AllBonus4_1 - 威力－28%／<br>クリティカル発生率＋100%
+item_AllBonus4_2 - 威力－25%／<br>クリティカル発生率＋100%
+item_AllBonus4_3 - 威力－23%／<br>クリティカル発生率＋100%
+item_AllBonus4_4 - 威力－22%／<br>クリティカル発生率＋100%
+item_AllBonus4_5 - 威力－21%／<br>クリティカル発生率＋100%
+item_AllBonus4_6 - 威力－17%／<br>クリティカル発生率＋100%
 item_AllBonus5_1 - 威力＋17%／<br>ダメージ耐性＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋10%
 item_AllBonus5_2 - 威力＋19%／<br>ダメージ耐性＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋10%
 item_AllBonus5_3 - 威力＋21%／<br>ダメージ耐性＋10%／<br>PP消費量軽減＋10%／<br>攻撃時にフォトンブラスト<br>ゲージ増加＋10%
@@ -8176,6 +8182,12 @@ item_BombField2_3 - 威力＋19%／<br>エネミーに攻撃命中時<br>範囲�
 item_BombField2_4 - 威力＋21%／<br>エネミーに攻撃命中時<br>範囲ダメージが発生<br>リキャスト時間10秒
 item_BombField2_5 - 威力＋22%／<br>エネミーに攻撃命中時<br>範囲ダメージが発生<br>リキャスト時間10秒
 item_BombField2_6 - 威力＋27%／<br>エネミーに攻撃命中時<br>範囲ダメージが発生<br>リキャスト時間10秒
+item_MultiBonus_1 - 威力＋21%／<br>PAとテクニック威力＋5%／<br>PP消費量増加＋10%
+item_MultiBonus_2 - 威力＋24%／<br>PAとテクニック威力＋5%／<br>PP消費量増加＋10%
+item_MultiBonus_3 - 威力＋27%／<br>PAとテクニック威力＋5%／<br>PP消費量増加＋10%
+item_MultiBonus_4 - 威力＋30%／<br>PAとテクニック威力＋5%／<br>PP消費量増加＋10%
+item_MultiBonus_5 - 威力＋31%／<br>PAとテクニック威力＋5%／<br>PP消費量増加＋10%
+item_MultiBonus_6 - 威力＋36%／<br>PAとテクニック威力＋5%／<br>PP消費量増加＋10%
 item_GuardStanceUp_1 - ガードスタンス時の<br>効果が1%上昇する。
 item_GuardStanceUp_2 - ガードスタンス時の<br>効果が2%上昇する。
 item_GuardStanceUp_3 - ガードスタンス時の<br>効果が3%上昇する。
@@ -14017,41 +14029,41 @@ Group 9
 
 PresetHelp
 Group 0
-Drop_DamageUp_1 - 威力＋2.0%
-Drop_DamageUp_2 - 威力＋3.0%
-Drop_DamageUp_3 - 威力＋4.0%
-Drop_DamageUp_4 - 威力＋4.5%
-Drop_DamageUp_5 - 威力＋5.0%
-Drop_DamageReduction_1 - ダメージ耐性＋1.0%
-Drop_DamageReduction_2 - ダメージ耐性＋2.0%
-Drop_DamageReduction_3 - ダメージ耐性＋3.0%
-Drop_DamageReduction_4 - ダメージ耐性＋3.5%
-Drop_DamageReduction_5 - ダメージ耐性＋4.0%
-Drop_Critical_1 - クリティカル発生率＋5.0%
-Drop_Critical_2 - クリティカル発生率＋8.0%
-Drop_Critical_3 - クリティカル発生率＋10%
-Drop_Critical_4 - クリティカル発生率＋12%
-Drop_Critical_5 - クリティカル発生率＋13%
-Drop_CriticalDamage_1 - クリティカル時の威力＋6.0%
-Drop_CriticalDamage_2 - クリティカル時の威力＋9.0%
-Drop_CriticalDamage_3 - クリティカル時の威力＋12%
-Drop_CriticalDamage_4 - クリティカル時の威力＋14%
-Drop_CriticalDamage_5 - クリティカル時の威力＋15%
-Drop_PpActionRate_1 - PP消費量軽減＋1.0％
-Drop_PpActionRate_2 - PP消費量軽減＋2.0％
-Drop_PpActionRate_3 - PP消費量軽減＋3.0％
-Drop_PpActionRate_4 - PP消費量軽減＋3.5％
-Drop_PpActionRate_5 - PP消費量軽減＋4.0％
-Drop_PPRestraint_1 - PP自然回復速度＋2.0%
-Drop_PPRestraint_2 - PP自然回復速度＋3.0%
-Drop_PPRestraint_3 - PP自然回復速度＋4.0%
-Drop_PPRestraint_4 - PP自然回復速度＋4.5%
-Drop_PPRestraint_5 - PP自然回復速度＋5.0%
-Drop_AttackPPRestraint_1 - 攻撃時PP回復量＋2.0%
-Drop_AttackPPRestraint_2 - 攻撃時PP回復量＋3.0%
-Drop_AttackPPRestraint_3 - 攻撃時PP回復量＋4.0%
-Drop_AttackPPRestraint_4 - 攻撃時PP回復量＋4.5%
-Drop_AttackPPRestraint_5 - 攻撃時PP回復量＋5.0%
+Drop_DamageUp_1 - 威力＋7%
+Drop_DamageUp_2 - 威力＋8%
+Drop_DamageUp_3 - 威力＋8.5%
+Drop_DamageUp_4 - 威力＋8.75%
+Drop_DamageUp_5 - 威力＋9%
+Drop_DamageReduction_1 - ダメージ耐性＋3%
+Drop_DamageReduction_2 - ダメージ耐性＋3.5%
+Drop_DamageReduction_3 - ダメージ耐性＋4%
+Drop_DamageReduction_4 - ダメージ耐性＋4.5%
+Drop_DamageReduction_5 - ダメージ耐性＋5%
+Drop_Critical_1 - クリティカル発生率＋14%
+Drop_Critical_2 - クリティカル発生率＋17%
+Drop_Critical_3 - クリティカル発生率＋19%
+Drop_Critical_4 - クリティカル発生率＋21%
+Drop_Critical_5 - クリティカル発生率＋22%
+Drop_CriticalDamage_1 - クリティカル時の威力＋16%
+Drop_CriticalDamage_2 - クリティカル時の威力＋19%
+Drop_CriticalDamage_3 - クリティカル時の威力＋22%
+Drop_CriticalDamage_4 - クリティカル時の威力＋24%
+Drop_CriticalDamage_5 - クリティカル時の威力＋25%
+Drop_PpActionRate_1 - PP消費量軽減＋3％
+Drop_PpActionRate_2 - PP消費量軽減＋3.5％
+Drop_PpActionRate_3 - PP消費量軽減＋4％
+Drop_PpActionRate_4 - PP消費量軽減＋4.5％
+Drop_PpActionRate_5 - PP消費量軽減＋5％
+Drop_PPRestraint_1 - PP自然回復速度＋5%
+Drop_PPRestraint_2 - PP自然回復速度＋5.5%
+Drop_PPRestraint_3 - PP自然回復速度＋6%
+Drop_PPRestraint_4 - PP自然回復速度＋6.5%
+Drop_PPRestraint_5 - PP自然回復速度＋7%
+Drop_AttackPPRestraint_1 - 攻撃時PP回復量＋4%
+Drop_AttackPPRestraint_2 - 攻撃時PP回復量＋4.5%
+Drop_AttackPPRestraint_3 - 攻撃時PP回復量＋5%
+Drop_AttackPPRestraint_4 - 攻撃時PP回復量＋5.5%
+Drop_AttackPPRestraint_5 - 攻撃時PP回復量＋6%
 Drop_DamageUp_6 - 威力＋5.25%
 Drop_DamageUp_7 - 威力＋5.5%
 Drop_DamageUp_8 - 威力＋5.75%
@@ -14087,36 +14099,36 @@ Drop_AttackPPRestraint_7 - 攻撃時PP回復量＋5.5%
 Drop_AttackPPRestraint_8 - 攻撃時PP回復量＋5.75%
 Drop_AttackPPRestraint_9 - 攻撃時PP回復量＋6.0%
 Drop_AttackPPRestraint_10 - 攻撃時PP回復量＋6.5%
-Drop_WeakDamageUp_1 - 威力＋2.0%／<br>弱点部位への威力＋2.0%
-Drop_WeakDamageUp_2 - 威力＋2.0%／<br>弱点部位への威力＋3.0%
-Drop_WeakDamageUp_3 - 威力＋2.0%／<br>弱点部位への威力＋4.0%
-Drop_WeakDamageUp_4 - 威力＋2.0%／<br>弱点部位への威力＋4.5%
-Drop_WeakDamageUp_5 - 威力＋2.0%／<br>弱点部位への威力＋5.0%
-Drop_NonWeakDamageUp_1 - 威力＋2.0%／<br>非弱点部位への威力＋5.0%
-Drop_NonWeakDamageUp_2 - 威力＋2.0%／<br>非弱点部位への威力＋8.0%
-Drop_NonWeakDamageUp_3 - 威力＋2.0%／<br>非弱点部位への威力＋11.0%
-Drop_NonWeakDamageUp_4 - 威力＋2.0%／<br>非弱点部位への威力＋13.0%
-Drop_NonWeakDamageUp_5 - 威力＋2.0%／<br>非弱点部位への威力＋15.0%
-Drop_PbDamageUp_1 - 威力＋1.75%／<br>PB威力＋6.0%
-Drop_PbDamageUp_2 - 威力＋2.75%／<br>PB威力＋9.0%
-Drop_PbDamageUp_3 - 威力＋3.75%／<br>PB威力＋12.0%
-Drop_PbDamageUp_4 - 威力＋4.25%／<br>PB威力＋13.5%
-Drop_PbDamageUp_5 - 威力＋4.75%／<br>PB威力＋15.0%
-Drop_ElementCountUp_1 - 威力＋2.0%／<br>特殊能力の種類数×0.125%<br>威力上昇最大＋2.5%
-Drop_ElementCountUp_2 - 威力＋2.0%／<br>特殊能力の種類数×0.25%<br>威力上昇最大＋5.0%
-Drop_ElementCountUp_3 - 威力＋2.0%／<br>特殊能力の種類数×0.375%<br>威力上昇最大＋7.5%
-Drop_ElementCountUp_4 - 威力＋2.0%／<br>特殊能力の種類数×0.45%<br>威力上昇最大＋9.0%
-Drop_ElementCountUp_5 - 威力＋2.0%／<br>特殊能力の種類数×0.5%<br>威力上昇最大＋10.0%
-Drop_AttackPbHeal_1 - 攻撃時にフォトンブラスト<br>ゲージ増加＋4.0%
-Drop_AttackPbHeal_2 - 攻撃時にフォトンブラスト<br>ゲージ増加＋6.0%
-Drop_AttackPbHeal_3 - 攻撃時にフォトンブラスト<br>ゲージ増加＋8.0%
-Drop_AttackPbHeal_4 - 攻撃時にフォトンブラスト<br>ゲージ増加＋9.0%
-Drop_AttackPbHeal_5 - 攻撃時にフォトンブラスト<br>ゲージ増加＋10.0%
-Drop_NaturalPbHeal_1 - フォトンブラストゲージ<br>自動蓄積量＋4.0%
-Drop_NaturalPbHeal_2 - フォトンブラストゲージ<br>自動蓄積量＋6.0%
-Drop_NaturalPbHeal_3 - フォトンブラストゲージ<br>自動蓄積量＋8.0%
-Drop_NaturalPbHeal_4 - フォトンブラストゲージ<br>自動蓄積量＋9.0%
-Drop_NaturalPbHeal_5 - フォトンブラストゲージ<br>自動蓄積量＋10.0%
+Drop_WeakDamageUp_1 - 威力＋2%／<br>弱点部位への威力＋6%
+Drop_WeakDamageUp_2 - 威力＋2%／<br>弱点部位への威力＋7%
+Drop_WeakDamageUp_3 - 威力＋2%／<br>弱点部位への威力＋8%
+Drop_WeakDamageUp_4 - 威力＋2%／<br>弱点部位への威力＋8.5%
+Drop_WeakDamageUp_5 - 威力＋2%／<br>弱点部位への威力＋9%
+Drop_NonWeakDamageUp_1 - 威力＋2%／<br>非弱点部位への威力＋5%
+Drop_NonWeakDamageUp_2 - 威力＋2%／<br>非弱点部位への威力＋8%
+Drop_NonWeakDamageUp_3 - 威力＋2%／<br>非弱点部位への威力＋11%
+Drop_NonWeakDamageUp_4 - 威力＋2%／<br>非弱点部位への威力＋13%
+Drop_NonWeakDamageUp_5 - 威力＋2%／<br>非弱点部位への威力＋15%
+Drop_PbDamageUp_1 - 威力＋6%／<br>PB威力＋3%
+Drop_PbDamageUp_2 - 威力＋7%／<br>PB威力＋6%
+Drop_PbDamageUp_3 - 威力＋7.5%／<br>PB威力＋9%
+Drop_PbDamageUp_4 - 威力＋7.75%／<br>PB威力＋11%
+Drop_PbDamageUp_5 - 威力＋8%／<br>PB威力＋12%
+Drop_ElementCountUp_1 - 威力＋2%／<br>特殊能力の種類数×0.125%<br>威力上昇最大＋2.5%
+Drop_ElementCountUp_2 - 威力＋2%／<br>特殊能力の種類数×0.25%<br>威力上昇最大＋5%
+Drop_ElementCountUp_3 - 威力＋2%／<br>特殊能力の種類数×0.375%<br>威力上昇最大＋7.5%
+Drop_ElementCountUp_4 - 威力＋2%／<br>特殊能力の種類数×0.45%<br>威力上昇最大＋9%
+Drop_ElementCountUp_5 - 威力＋2%／<br>特殊能力の種類数×0.5%<br>威力上昇最大＋10%
+Drop_AttackPbHeal_1 - 攻撃時にフォトンブラスト<br>ゲージ増加＋4%
+Drop_AttackPbHeal_2 - 攻撃時にフォトンブラスト<br>ゲージ増加＋6%
+Drop_AttackPbHeal_3 - 攻撃時にフォトンブラスト<br>ゲージ増加＋8%
+Drop_AttackPbHeal_4 - 攻撃時にフォトンブラスト<br>ゲージ増加＋9%
+Drop_AttackPbHeal_5 - 攻撃時にフォトンブラスト<br>ゲージ増加＋10%
+Drop_NaturalPbHeal_1 - フォトンブラストゲージ<br>自動蓄積量＋7%
+Drop_NaturalPbHeal_2 - フォトンブラストゲージ<br>自動蓄積量＋8%
+Drop_NaturalPbHeal_3 - フォトンブラストゲージ<br>自動蓄積量＋9%
+Drop_NaturalPbHeal_4 - フォトンブラストゲージ<br>自動蓄積量＋9.5%
+Drop_NaturalPbHeal_5 - フォトンブラストゲージ<br>自動蓄積量＋10%
 
 Group 1
 

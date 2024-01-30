@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2023/12/6 7:15:49
-Filesize is: 757456 bytes
+ui_mainmode.text was created: 2024/1/31 7:10:21
+Filesize is: 760176 bytes
 
 Common
 Group 0
@@ -1719,7 +1719,8 @@ CharaMenu_GroupChat - グループ
 CharaMenu_GroupChatChange - リーダーを交代する
 CharaMenu_GroupChatDelete - メンバーを除名する
 CharaMenu_Gamertag - -
-CharaMenu_TeamJoin - チームへの入団を承認
+CharaMenu_TeamJoin - チームへの入団申請の確認
+CharaMenu_Cspacelist - Ｃスペースの検索
 
 Group 1
 
@@ -1747,6 +1748,7 @@ PartyMenuText06 - $(0)から、集合の要請がありました。<br>$(1)秒�
 PartyConfigLabel25 - <pict icon_voice_chat><pict 4space>ボイスチャット推奨
 PartyConfigLabel26 - パーティー参加条件
 PartyConfigLabel27 - 現在のパーティー設定
+PartyConfigLabel28 - <pict auto_party><pict 4space>パーティー自動参加
 PartyMenuTitle - パーティー
 PartyParamTitle - パーティー情報
 PartyMenuLabel01 - パーティーに参加
@@ -1867,6 +1869,9 @@ Shootingroom_Command_Label_TimePreference - 時間設定
 Shootingroom_Command_Label_TimeCount - $(0):$(1)
 Shootingroom_Command_Label_TimeGuide - 1時間単位で変更：<%Decide>を押しながら<swguidetype T_ItemWarehouse>
 LeaderMenuLabel08 - パーティーメンバー募集
+PartyConfigLabel28_AccessTitle - 長押しで“<pict 4space><pict auto_party><pict 4space>パーティー自動参加”を有効化
+PartyConfigLabel28_AccessHint - パーティー参加で、ブースト<pict 4space><pict exp_icon><pict 4space><pict meseta_icon2><pict 4space><pict rare_drop_icon><pict 4space>発生
+PartyConfigLabel28_AccessToast - “<pict 4space><pict auto_party><pict 4space>パーティー自動参加”の機能を有効にしました。同じ設定のプレイヤーが見つかり次第パーティーが組まれます。
 
 Group 1
 
@@ -1920,6 +1925,7 @@ StatusLabelSeasonPoint_22 - ハロウィン'23シーズナルポイント
 StatusLabelSeasonPoint_23 - クリスマス'23シーズナルポイント
 StatusLabelSeasonPoint_24 - ニューイヤー'24シーズナルポイント
 StatusLabelSeasonPoint_25 - ウィンター'24シーズナルポイント
+StatusLabelSeasonPoint_26 - スプリング'24シーズナルポイント
 StatusLabelSeasonPointValue - $(1) /$(0)
 StatusLabelN-Meseta - <pict reb_meseta>メセタ
 StatusLabelFun - FUN
@@ -3960,6 +3966,8 @@ RangerNoTargetBossAtpUp - ロングレンジ<br>アドバンテージRa
 GunnerNoTargetBossAtpUp - ロングレンジ<br>アドバンテージGu
 ForceNoTargetBossAtpUp - ロングレンジ<br>アドバンテージFo
 TechterNoTargetBossAtpUp - ロングレンジ<br>アドバンテージTe
+RangerLauncherWeakBulletExtend - ランチャーWB<br>タイムエクステンド
+GunnerChainFinishPartyPPGain - チェインフィニッシュ<br>パーティーPPゲイン
 
 Group 1
 
@@ -4259,7 +4267,7 @@ BouncerPhysicFrail - PAを当てたエネミーを<br>物理ダウンしやす�
 BouncerElementFrail - PAを当てたエネミーを<br>属性ダウンしやすい状態にする。<br>さらにPAを当てることで、<br>最大３段階まで効果が上昇する。<br><yellow>※メインクラス／ジェットブーツ専用<c>
 BouncerPhotonBladeFever - <yellow>【アクティブスキル】<c><br>一定時間、フォトンブレードの<br>威力が低下するかわりに、<br>PA発動中の特定タイミングでも、<br>フォトンブレードが発射されるようになる。<br><yellow>※メインクラス／デュアルブレード専用<c>
 BouncerPhotonBladeFeverUp - ファナティックブレード中に、<br>フォトンブレードの発射本数が増加する。<br><yellow>※メインクラス／デュアルブレード専用<c>
-BouncerPhotonBladePpGain - フォトンブレードが刺さった状態の<br>エネミーに、通常攻撃を当てたときの<br>PP回復量が増加する。<br><yellow>※デュアルブレード専用<c>
+BouncerPhotonBladePpGain - フォトンブレードが刺さった状態の<br>エネミーに、攻撃を当てたときの<br>PP回復量が増加する。<br><yellow>※デュアルブレード専用<c>
 BouncerElementBurst - <yellow>【アクティブスキル】<c><br>攻撃や、武器アクションの回避により、<br>蓄積したゲージを消費することで、<br>強力な一撃を放つ。<br><yellow>※ジェットブーツ専用<c>
 BouncerJetBootsElementChange - エネミーにPAを当てたときに、<br>最後に使用したテクニックの<br>属性に応じた追加攻撃が<br>発生するようになる。<br><yellow>※ジェットブーツ専用<c>
 BouncerJetBootsAttackExtra - 通常攻撃段数が、最大４段階に増加する。<br><yellow>※ジェットブーツ専用<c>
@@ -4779,7 +4787,6 @@ Photonblast - 空間上のフォトンを、強力なエネルギーへと変換
 EasyControl - エネミーとの距離と装備している武器に応じて、<br>様々なアクションを自動的に行う。
 GunnerChainBoostDodgeAdvance - チェインブースト中、<br>武器アクションの無敵時間を延長する。<br>また、武器アクションによる回避成功時に、<br>チェインブーストの効果時間を延長する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
 GunnerEscapePPGain - ステップまたは<br>ツインマシンガンの武器アクションによる<br>回避成功時に、PPが回復する。
-GunnerTMGAccel - 武器アクション発動後に、<br>特定のタイミングで<br>通常攻撃ボタンを押すことで、<br>上昇しながら攻撃を行う。<br><yellow>※メインクラス／ツインマシンガン専用<c>
 GunnerCounterPABurstEscape - 武器アクションによる回避成功後に、<br>最初に使用するPAに無敵時間が発生する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
 ForceZanWindBall - チャージしていない風属性テクニックを、<br>エネミーに当てることで、<br>風環を付着する。そこに、チャージした<br>同属性のテクニックを当てると、<br>風環が展開して、追加の攻撃が発生する。<br>風環による攻撃は、<br>当てたテクニックによって変化する。
 ForceGrantzCharge - 光属性テクニックを、<br>複数回エネミーに当てることで、<br>一定時間、自身の周囲に光円環を展開する。<br>展開中、同属性のテクニックを使用すると、<br>テクニックに応じた追加の攻撃が発生する。<br>光円環の展開中に再度展開する場合、<br>効果は重複せず、代わりに展開中の<br>光円環の効果時間をリセットする。
@@ -4993,6 +5000,9 @@ ForceNoTargetBossAtpUp - 自身を狙っていないボスエネミーに、<br>
 TechterNoTargetBossAtpUp - 自身を狙っていないボスエネミーに、<br>PAとテクニックで与えるダメージが<br>増加する。<br><yellow>※メインクラス／タリス専用<c>
 HunterPartisanVolgraptorShortRecast - 攻撃の無効化成功時に、<br>ヴォルグラプターの<br>再使用が可能になるまでの時間を短縮する。<br>ただし、再使用が可能になるまでのあいだに<br>時間を短縮できる回数には上限がある。<br><yellow>※メインクラス／パルチザン専用<c>
 ForceReflectCounterShot - 攻撃の無効化成功後に、<br>最初に発動するテクニックに<br>同じ属性の法撃弾による攻撃を追加する。<br><yellow>※ロッド専用<c>
+RangerLauncherWeakBulletExtend - 武器アクションで付着させた<br>スティッキーボムの爆発、<br>フィアーイレイザー、<br>およびチャージしたディバインインパクトが<br>命中したときに、そのエネミーに<br>自分が当てたウィークバレットの<br>効果時間をリセットする。<br><yellow>※メインクラス／ランチャー専用<c>
+GunnerChainFinishPartyPPGain - チェインフィニッシュ発動時に、<br>チェイン数に応じて、<br>自分以外の同一パーティーの<br>キャラクターのPPを回復する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
+GunnerTMGAccel - 武器アクション発動後に、<br>特定のタイミングで<br>通常攻撃ボタンを押すことで、<br>２回まで上昇しながら攻撃を行う。<br><yellow>※メインクラス／ツインマシンガン専用<c>
 
 Group 1
 
@@ -5479,6 +5489,10 @@ KamaitachiRateDeadly - 蓄積率(デッドリー)
 TimeDeadly - 効果時間(デッドリー)
 KamaitachiRateEnhance - 蓄積率(スパイラル)
 TimeEnhance - 効果時間(スパイラル)
+ChainPPGain1 - 99チェイン以下時回復量
+ChainPPGain2 - 119チェイン以下時回復量
+ChainPPGain3 - 149チェイン以下時回復量
+ChainPPGain4 - 150チェイン時回復量
 
 Group 1
 
@@ -5958,6 +5972,7 @@ AdditionalSkillSlotInputTitle - スキルセットの名前変更
 AdditionalSkillSlotInputText - “ $(0)”の<br>名前を変更します。<br>変更後の名前を入力してください。
 AdditionalSkillMysetNodataText - マイセットが保存されていません。
 AdditionalSkillLimitText - クエスト受注中は、<br>この機能は使用できません。
+AdditionalSkillLimitText_Common - この機能は現在使用できません。
 AdditionalSkillClassIcon - <pict $(0)><pict 4space>$(1)
 AdditionalSkillExceptionDataWindowTitle - アドオンスキル登録
 AdditionalSkillExceptionDataWindowText - 未登録のアドオンスキルがあります。<br>アドオンスキルの登録を行ってください。
@@ -6274,6 +6289,11 @@ Bg_Chara7 - ロッサ
 Bg_Chara8 - オランジェ
 Bg_Chara9 - ナーデレフ
 Bg_Chara10 - ハーディ
+Bg_Chara11 - タイヴァス
+Bg_Chara12 - トゥーリ
+Bg_Chara13 - イルマ
+Bg_Chara14 - クッカ
+Bg_Chara15 - メリ
 Open_Title - 背景の使用条件
 Open_00 - 最初から使用可能
 Open_01 - 累計称号ポイント：$(0)pt
@@ -10443,6 +10463,13 @@ AreaName022160 - 6章：回復の兆し
 AreaName022170 - 6章：マノンの想い
 AreaName022190 - 6章：マノンのお願い
 AreaName120010 - 6章：星滅の予兆
+AreaName023090 - 6章：リクールとルカ
+AreaName023100 - 6章：訓練教官として
+AreaName023110 - 6章：リーダーとは
+AreaName023190 - 6章：偵察訓練を終えて
+AreaName023200 - 6章：ずっと一緒に
+AreaName024010 - 6章：いつまでも心はひとつ
+AreaName511040 - 6章：カヌイ④秘密のデータ
 
 Group 1
 
@@ -11497,6 +11524,7 @@ Quest_NG - <c 76d1ff>クエスト目標<c>：$(0)<br><gray>現在クエスト受
 BlockSectionMsg - 現在、このセクションには<br>アクセスできません。<br>詳しくは公式サイトを<br>ご確認ください。
 Fast_Travel_CautionMsg - <light_red>※別セクションに移動すると<br>マッチングが解除されます。<c>
 Fast_Travel_DangerSectionMsg - <yellow>※フィールド上で継続ダメージが発生<br>※“特殊環境耐性”を上げることで<br>　ダメージを軽減<c>
+Fast_Travel_EntryRequirementMsg - 受注条件：メインタスクの進行
 Fast_Travel_Level_Rank - 【Rank.$(0)】
 Fast_Travel_Level_BattlePower - 必要戦闘力:$(0)
 Fast_Travel_Level_EnemyLevel - エネミーLv.$(0)
@@ -12162,8 +12190,8 @@ MainMenu_MySpace_DefaultName - クリエイティブスペース
 MainMenu_MySpace_DefaultNamePremium - プレミアムＣスペース
 MainMenu_MySpace_DefaultNameRental01 - レンタルＣスペース01
 MainMenu_MySpace_DefaultNameRental02 - レンタルＣスペース02
-MainMenu_MySpace_DefaultNameRental03 - レンタルスペース３
-MainMenu_MySpace_DefaultNameRental04 - レンタルスペース４
+MainMenu_MySpace_DefaultNameRental03 - レンタルＣスペース03
+MainMenu_MySpace_DefaultNameRental04 - レンタルＣスペース04
 MainMenu_MySpace_HiddenSpace - 非表示のＣスペース
 MainMenu_MySpace_ExpirationDate - レンタル有効期限
 MainMenu_MySpace_IndexCategory - カテゴリー
@@ -12228,6 +12256,7 @@ MySpaceBgmText_NotPlay - 再生できないBGMが設定されています。<br>
 MySpaceCampaignBoost_Title - キャンペーンブースト
 MySpaceCampaignBoost_Tree - <pict myspace_point_b><pict 4space>GPツリーのジェネシスポイント獲得倍率
 MySpaceCampaignBoost_Percent - +$(0)%
+MySpace_WindowNameActiveCSpace - 検索結果
 
 Group 1
 
