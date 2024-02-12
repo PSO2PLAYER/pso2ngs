@@ -1,10 +1,10 @@
-﻿＊ソウル・オブ・ウォパル,* Soul of Vopar,item/weapon/it_wp_14_100.ice,e6\2968426e0fbeacef42dce1a3fd80d0
-カザミノタチ,Kazami-no-tachi,item/weapon/it_wp_14_169.ice,47\4f667b35575606c034f84122586f77
+﻿ソウル・オブ・ウォパル,Soul of Wopal,item/weapon/it_wp_14_100.ice,e6\2968426e0fbeacef42dce1a3fd80d0
+カザミノタチ,Kazami no Tachi,item/weapon/it_wp_14_169.ice,47\4f667b35575606c034f84122586f77
 サイカレボルシオ,Saika Revolsio,item/weapon/it_wp_14_210.ice,c1\453e96a2a1144cf93f054dbbb73d67
 サイカドミナシオ,Saika Dominacio,item/weapon/it_wp_14_211.ice,be\462556ae3f856e9136c1e2d7b0f70e
 サイカインクルシオ,Saika Inclusio,item/weapon/it_wp_14_212.ice,b2\27d1e712e29a881953f540cd38849a
 ＊レヴァティーン,* Laevateinn,item/weapon/it_wp_14_291.ice,06\3129783243e025004313ad3484d487
-,,item/weapon/it_wp_14_325.ice,3b\460eb4569bd22b6dcaff1715e2daf4
+＊シッドストリッド,* Sid Strid,item/weapon/it_wp_14_325.ice,3b\460eb4569bd22b6dcaff1715e2daf4
 プリムカタナ,Primm Katana,item/weapon/it_wp_14_501.ice,6f\c88300a328b78c32b136b62acc1917
 リサージュカタナ,Resurgir Katana,item/weapon/it_wp_14_502.ice,ad\1a1f9baed02f5030008a537e17702a
 ロクス・ラグフェンウォンド,Rokz Roughewn Katana,item/weapon/it_wp_14_504.ice,a7\c976a8312c4b6c8a21e6018a8674f3
@@ -57,5 +57,14 @@
 ,,item/weapon/it_wp_14_555.ice,06\3bc6586735acea390e911d2bb730ae
 ,,item/weapon/it_wp_14_556.ice,de\5467d4c7d1a2f16a4925cdda9afb00
 ,,item/weapon/it_wp_14_558.ice,d2\30a4b261f715b8df4c5b329448d671
+,,item/weapon/it_wp_14_559.ice,29\48d4ecf871517cf5ca7711db4c0f1d
 ,,item/weapon/it_wp_14_560.ice,fe\4a887e7caecebec092266a8881ecc6
 ,,item/weapon/it_wp_14_563.ice,20\16cf24051aaf89d651789564210da4
+,,item/weapon/it_wp_14_564.ice,0d\0082a375742aa22d19652ed9cf0866
+,,item/weapon/it_wp_14_565.ice,9e\e9fa4fab816b6d7b032e22df450ac3
+,,item/weapon/it_wp_14_567.ice,4a\8c8bbc94bbff60cf560e916325aff8
+,,item/weapon/it_wp_14_568.ice,28\46539ea18b67ebb91a632f39820fe2
+,,item/weapon/it_wp_14_571.ice,96\513c07466965851bdf2ad04e60c26a
+,,item/weapon/it_wp_14_572.ice,68\e5e8ec71179f1bde2a12119e57a2a1
+,,item/weapon/it_wp_14_573.ice,74\dda409dc0d810fa00bf3304ab2726e
+,,item/weapon/it_wp_14_574.ice,f5\58b614326c93aae9266e357a9ab2b1

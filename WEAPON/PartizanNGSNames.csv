@@ -1,11 +1,11 @@
 ﻿秋断,Akidachi,item/weapon/it_wp_03_052.ice,f3\fab6ad2ae0e03402f9eb39ff22ad8f
-＊零織・イザヨイ,* Zero-type Izayoi,item/weapon/it_wp_03_061.ice,fc\59e7d951913e4549271acc02a9fae5
-,,item/weapon/it_wp_03_159.ice,cd\cbe98214764e25f0479feabe82023e
+＊零織・イザヨイ,* Zero-Type Izayoi,item/weapon/it_wp_03_061.ice,fc\59e7d951913e4549271acc02a9fae5
+春閃,Shunsen,item/weapon/it_wp_03_159.ice,cd\cbe98214764e25f0479feabe82023e
 スピアレボルシオ,Spear Revolsio,item/weapon/it_wp_03_201.ice,8f\5dab31c97de3a631302171118ce581
 スピアドミナシオ,Spear Dominacio,item/weapon/it_wp_03_202.ice,84\cb2eb424759c2cb3be0ec9d85fe65a
 スピアインクルシオ,Spear Inclusio,item/weapon/it_wp_03_203.ice,b3\005cfa7a227a473dd00b86b3c45a06
 ＊レヴァティーン,* Laevateinn,item/weapon/it_wp_03_274.ice,fd\7c14c55b283f5a7fa33c7ceb913cad
-＊ロンギヌスの槍,* Longinus Lance,item/weapon/it_wp_03_335.ice,82\b81de5b2d4beed3b3f804e462e79cb
+＊ロンギヌスの槍,* Spear of Longinus,item/weapon/it_wp_03_335.ice,82\b81de5b2d4beed3b3f804e462e79cb
 プリムスピア,Primm Spear,item/weapon/it_wp_03_501.ice,fb\c95101a16d44ceb9f1f36a4518d3cf
 リサージュスピア,Resurgir Spear,item/weapon/it_wp_03_502.ice,d7\6326f9f49dc21f0a7e381b39f17b99
 テルセウススピア,Theseus Spear,item/weapon/it_wp_03_503.ice,1e\f2217dac43b3f731e863a1e09b436c
@@ -58,8 +58,20 @@
 ,,item/weapon/it_wp_03_556.ice,6f\2b0bd02c76c4fed6d87dbfb4499e7b
 ,,item/weapon/it_wp_03_560.ice,f1\4a96d1da42f782733014933b992e72
 ,,item/weapon/it_wp_03_562.ice,79\e0cf7347f3bf25d19fddaac777b39f
+,,item/weapon/it_wp_03_563.ice,47\e0ff833a9cc1b6f7e4292f90eb0a91
+,,item/weapon/it_wp_03_564.ice,d7\3b1f4cf5e0b22806a1535bacb08985
 ,,item/weapon/it_wp_03_565.ice,0f\a9e3c8d56739e5a129e847cd0f8474
 ,,item/weapon/it_wp_03_569.ice,0b\b419626ff0cbefd6cfd2153c710542
 ,,item/weapon/it_wp_03_570.ice,f2\1a2d49488be5e9d1870325ec17054e
 ,,item/weapon/it_wp_03_571.ice,54\bb9e50edc80a89f5e57c919fd09d72
 ,,item/weapon/it_wp_03_572.ice,29\47a0e52ebbe70f42c53eea26771353
+,,item/weapon/it_wp_03_573.ice,02\5273f41d56b5c44145516623c2aebd
+,,item/weapon/it_wp_03_575.ice,21\9fd9418fc57c478575ed5f3be28951
+,,item/weapon/it_wp_03_576.ice,17\2166e04bd14eb9661aca8c7f2d8bfc
+,,item/weapon/it_wp_03_579.ice,e3\26c5f572ae8d16d7bcf045f4c2b382
+,,item/weapon/it_wp_03_583.ice,b4\84aa12b3c2170d69933410491a34f8
+,,item/weapon/it_wp_03_584.ice,c5\e9651bd4233bab178373173e846881
+,,item/weapon/it_wp_03_585.ice,38\0af5a93e6789bc709c3c81a5a9f1fd
+,,item/weapon/it_wp_03_586.ice,88\7392c09bba2be4312047b7158a4bf0
+,,item/weapon/it_wp_03_587.ice,50\ba075628aa64c36cfbe34e6792b723
+,,item/weapon/it_wp_03_588.ice,84\48e88304420911d3dcf9f1fb249544

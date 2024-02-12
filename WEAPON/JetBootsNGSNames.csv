@@ -1,7 +1,7 @@
 ﻿＊キジカナルカミ,* Kizika Narukami,item/weapon/it_wp_16_125.ice,1f\35cd87a0f05d219c05a2212c39a08d
-ブレードレボルシオ,Shoes Revolsio,item/weapon/it_wp_16_181.ice,ea\9ea2174f38fb3769c2d11a3517c253
-ブレードドミナシオ,Shoes Dominacio,item/weapon/it_wp_16_182.ice,1a\65dab5c1854d67c931d2551e333afc
-ブレードインクルシオ,Shoes Inclusio,item/weapon/it_wp_16_183.ice,fb\44588e3468b3dbc5147fe42ede125c
+シューズレボルシオ,Shoes Revolsio,item/weapon/it_wp_16_181.ice,ea\9ea2174f38fb3769c2d11a3517c253
+シューズドミナシオ,Shoes Dominacio,item/weapon/it_wp_16_182.ice,1a\65dab5c1854d67c931d2551e333afc
+シューズインクルシオ,Shoes Inclusio,item/weapon/it_wp_16_183.ice,fb\44588e3468b3dbc5147fe42ede125c
 プリムブーツ,Primm Boots,item/weapon/it_wp_16_501.ice,85\736ec3652616afac879d623dfb97b5
 リサージュブーツ,Resurgir Boots,item/weapon/it_wp_16_502.ice,66\c3e1afe5efca6c364e72743c2b0382
 ナーデリアブーツ,Nadereh Boots,item/weapon/it_wp_16_503.ice,86\cb55805e8ce2e00d4622173622c92b
@@ -44,8 +44,17 @@
 ,,item/weapon/it_wp_16_542.ice,a1\de95f094b18e33fa4d5a48ea7bddd0
 ,,item/weapon/it_wp_16_543.ice,10\d1fdb12df76cd69dea6abdeea501a0
 ,,item/weapon/it_wp_16_544.ice,60\419f1544ccecc938c4727c863ca2a4
+,,item/weapon/it_wp_16_545.ice,dd\6661068adc12105d9ccc169e1af4bc
 ,,item/weapon/it_wp_16_546.ice,71\c52460f438151629bd78312509f00d
+,,item/weapon/it_wp_16_550.ice,ca\df324591f53681437b3f12773650ce
 ,,item/weapon/it_wp_16_551.ice,3d\824ecac476c04d9c08478e6fcde6ab
 ,,item/weapon/it_wp_16_553.ice,01\8f51946f4d9543df4abdb09c2d2379
+,,item/weapon/it_wp_16_554.ice,37\c18aebf5c2b53aeacc26c4f53302aa
 ,,item/weapon/it_wp_16_555.ice,6f\137f5122c47af323aa48c6c5d6759b
 ,,item/weapon/it_wp_16_558.ice,b7\60428ead4ec8db14b660fd353f7870
+,,item/weapon/it_wp_16_559.ice,3b\3e47106dccea89af835e5cbf2e9b69
+,,item/weapon/it_wp_16_560.ice,fb\ca00f54f1723c8f6c5f501ce6bef49
+,,item/weapon/it_wp_16_562.ice,9f\19f43807dbfdddce64690bbe7adc01
+,,item/weapon/it_wp_16_564.ice,e2\ca64ba6bf11f8d75e569f8d354b584
+,,item/weapon/it_wp_16_565.ice,41\7c57994410bc2ffa413360c0d162ea
+,,item/weapon/it_wp_16_566.ice,35\0651e6a1c3714830a1a0feb3b34759

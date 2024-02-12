@@ -1,11 +1,12 @@
-﻿タクトレボルシオ,Takt Revolsio,item/weapon/it_wp_18_017.ice,73\ef070d55024ea0cb0beddbec51e95c
-タクトインクルシオ,Takt Inclusio,item/weapon/it_wp_18_019.ice,e4\9898047b4f6dadc4f262780469ae26
-,,item/weapon/it_wp_18_087.ice,c7\caff1b422abd45f3c2c0e7f68ede8a
+﻿タクトレボルシオ,Harmonizer Revolsio,item/weapon/it_wp_18_017.ice,73\ef070d55024ea0cb0beddbec51e95c
+タクトインクルシオ,Harmonizer Inclusio,item/weapon/it_wp_18_019.ice,e4\9898047b4f6dadc4f262780469ae26
+＊ハトスケ,* Hatosuke,item/weapon/it_wp_18_087.ice,c7\caff1b422abd45f3c2c0e7f68ede8a
 プリムタクト,Primm Baton,item/weapon/it_wp_18_501.ice,d0\646e50cae912e38e9fc51e1bbb6c0a
 リサージュタクト,Resurgir Baton,item/weapon/it_wp_18_502.ice,e1\6c6ca0c80828ce1205097ded89b455
 ツヴィアタクト,Tzvia Baton,item/weapon/it_wp_18_503.ice,c9\b299cfeb8eab07d3b108b5482fda33
 ゴルドプリムタクト,Gold Primm Baton,item/weapon/it_wp_18_504.ice,40\7eff6d4a5e360d7bfcdfcc3a3443d5
 シルヴァプリムタクト,Silver Primm Baton,item/weapon/it_wp_18_505.ice,db\36208a7cc2c784414e39847d9f5a07
+,,item/weapon/it_wp_18_506.ice,ce\7e073fc29ccc1e5de6ca135bd79dc2
 ,,item/weapon/it_wp_18_507.ice,06\38466e874877c5e22c6c3a30bab970
 レリク・ノクスバティーラ,Relik Nox Bateira,item/weapon/it_wp_18_508.ice,0d\288276f42e8035084b4c32fac2f00c
 トロワーデタクト,Trois de Baton,item/weapon/it_wp_18_509.ice,cd\a53a43806adc113724eeaa90804f76
@@ -38,3 +39,8 @@
 ,,item/weapon/it_wp_18_548.ice,8b\1a36d7095cbaf59ae23e93412df9bf
 ,,item/weapon/it_wp_18_549.ice,65\1957416744280a7ef14ab2d7a91ce9
 ,,item/weapon/it_wp_18_552.ice,59\66500fdca42940e0891ddcccbf7ea4
+,,item/weapon/it_wp_18_553.ice,bd\ab66573bfea89b5c648458732b1f2a
+,,item/weapon/it_wp_18_554.ice,e8\0f1d6a402d9cf95eff3a9794c5a1b7
+,,item/weapon/it_wp_18_556.ice,41\de62f5661a08f2bc41e024988b9cd8
+,,item/weapon/it_wp_18_560.ice,29\631f2e829854844304669792a39275
+,,item/weapon/it_wp_18_561.ice,cc\c68bec058b3396a94a2f5179cd0865

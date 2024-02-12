@@ -2,7 +2,7 @@
 スラストドミナシオ,Thrust Dominacio,item/weapon/it_wp_04_218.ice,e5\c933247658506488e02d5dd475d30b
 スラストインクルシオ,Thrust Inclusio,item/weapon/it_wp_04_219.ice,8a\b0c4008050c657015c870c43f6f547
 ＊レヴァティーン,* Laevateinn,item/weapon/it_wp_04_278.ice,13\23f75fa7874d7ffce1aaee509d3364
-,,item/weapon/it_wp_04_313.ice,a2\cc5fd8c19e827722217a1df81ca863
+＊シッドストリッド,* Cydstrid,item/weapon/it_wp_04_313.ice,a2\cc5fd8c19e827722217a1df81ca863
 プリムダガー,Primm Daggers,item/weapon/it_wp_04_501.ice,ba\bfcdb1acc8c7108e4b9000ca7a372f
 リサージュダガー,Resurgir Daggers,item/weapon/it_wp_04_502.ice,1d\5ecfbd83a71e6e80d359a98672ec8f
 フォーシスダガー,Foursis Daggers,item/weapon/it_wp_04_503.ice,62\e95b9066ef9dbc372ed8156a84c1f5
@@ -57,6 +57,16 @@
 ,,item/weapon/it_wp_04_559.ice,16\0edf600b61f47c71e13cc98533e9cc
 ,,item/weapon/it_wp_04_560.ice,b9\ca6dbe2b384424d3f92168e6e11e63
 ,,item/weapon/it_wp_04_562.ice,9c\97b4d843066318a13e13485eac335f
+,,item/weapon/it_wp_04_563.ice,ca\f97a8120ce9582152c1434cea3c2d6
+,,item/weapon/it_wp_04_564.ice,ae\d5033c9260a2f0330dd4017501499a
 ,,item/weapon/it_wp_04_565.ice,d3\3e65d66f86906ce44d5a342e2451af
 ,,item/weapon/it_wp_04_568.ice,85\1e896e580e03cb96c0e582e7c494aa
 ,,item/weapon/it_wp_04_569.ice,bf\6be39cda6624ed69825edba29cbe75
+,,item/weapon/it_wp_04_570.ice,2e\a49c07a9506d5b90bd6d782f78e703
+,,item/weapon/it_wp_04_571.ice,c8\f3e7bd0e776bdc1558e577767937d4
+,,item/weapon/it_wp_04_573.ice,2a\72d65795f02ad30fda14a0b262b90a
+,,item/weapon/it_wp_04_574.ice,51\b36c1ab7478a30d9804005c89d6581
+,,item/weapon/it_wp_04_575.ice,ca\8f6ffc04de70e2f4a5bd93eecc0f8f
+,,item/weapon/it_wp_04_576.ice,63\f3a163727c902c7da2166c32430c12
+,,item/weapon/it_wp_04_581.ice,1e\2c999c11787477ef51fb9b372acbf0
+,,item/weapon/it_wp_04_582.ice,ef\541a7924bb6e7d142e98c138a094df

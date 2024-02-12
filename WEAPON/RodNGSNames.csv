@@ -1,13 +1,13 @@
-﻿フォールオンス,Fallounce,item/weapon/it_wp_11_010.ice,32\382613804aa127537b0d418f181167
-アルバフォールオンス,Alba Fallounce,item/weapon/it_wp_11_011.ice,c6\30c594a1558e9e5acf10db8851760e
-ヴィタフォールオンス,Vita Fallounce,item/weapon/it_wp_11_012.ice,cf\c2bf050576429359adffac529fd646
+﻿フォールオンス,Folones,item/weapon/it_wp_11_010.ice,32\382613804aa127537b0d418f181167
+アルバフォールオンス,Alba Folones,item/weapon/it_wp_11_011.ice,c6\30c594a1558e9e5acf10db8851760e
+ヴィタフォールオンス,Vita Folones,item/weapon/it_wp_11_012.ice,cf\c2bf050576429359adffac529fd646
 恋鳳凰,Koi Houou,item/weapon/it_wp_11_058.ice,ff\a405bbfe70fae04adbd3a7f7045a0c
-,,item/weapon/it_wp_11_204.ice,7e\9e9f17bd6a449ba1bc27c89f8d7905
+宵白鳳,Shiyou Hakuhou,item/weapon/it_wp_11_204.ice,7e\9e9f17bd6a449ba1bc27c89f8d7905
 シャフトレボルシオ,Shaft Revolsio,item/weapon/it_wp_11_259.ice,e5\f7385dc75f819ad71648c61191d543
 シャフトドミナシオ,Shaft Dominacio,item/weapon/it_wp_11_260.ice,5d\3a0a0afa3f81071eaae45563eee76e
 シャフトインクルシオ,Shaft Inclusio,item/weapon/it_wp_11_261.ice,4d\0532c68526b4084372cc99b655f3e3
-＊ヴィタフォールオンス,* Vita Fallounce,item/weapon/it_wp_11_323.ice,a1\c4609a5ce5ffe0e7356d4bd0f80e9e
-＊リバレイトアーマリー,* Rivalate Armory,item/weapon/it_wp_11_335.ice,a5\07cc08d5a8ed92514d0e06ed593f96
+＊ヴィタフォールオンス,* Vita Folones,item/weapon/it_wp_11_323.ice,a1\c4609a5ce5ffe0e7356d4bd0f80e9e
+リバレイトロッド,Rivalate Rod,item/weapon/it_wp_11_335.ice,a5\07cc08d5a8ed92514d0e06ed593f96
 ＊レヴァティーン,* Laevateinn,item/weapon/it_wp_11_352.ice,ad\52d9150b838d14da94f2868a9ec193
 プリムロッド,Primm Rod,item/weapon/it_wp_11_501.ice,8e\32477b9862b9c523401980ad21bdc5
 リサージュロッド,Resurgir Rod,item/weapon/it_wp_11_502.ice,32\3888223c6bfe16e738d425d32b5e0a
@@ -68,7 +68,21 @@
 ,,item/weapon/it_wp_11_561.ice,11\e2b99e16d02051ebf6191138884a55
 ,,item/weapon/it_wp_11_562.ice,1b\366599968d9404a7313cbfecf92771
 ,,item/weapon/it_wp_11_564.ice,5f\4e6be801308b98fed5e0b37ddb2c55
+,,item/weapon/it_wp_11_565.ice,5d\3e7d8b06cc6c968045704ef3dfdd7f
+,,item/weapon/it_wp_11_566.ice,c3\e85fc3ced7261169c169812ed2d1eb
 ,,item/weapon/it_wp_11_567.ice,29\7b5ef71d3e57b8bf125181bfc0e5d2
 ,,item/weapon/it_wp_11_570.ice,5d\3c748cb47c9558b1cc0d45c672df53
 ,,item/weapon/it_wp_11_571.ice,e0\f235073dd96ec7886b38705c5b68ad
 ,,item/weapon/it_wp_11_572.ice,9f\7583b680d838a2fa715b18bd3cdf22
+,,item/weapon/it_wp_11_573.ice,1f\76a316b099c7e9e601a23e61010db2
+,,item/weapon/it_wp_11_574.ice,de\d0dc4074056c31139fe600a3651ed8
+,,item/weapon/it_wp_11_576.ice,00\5096ed4a875c1291cba7c8999c1568
+,,item/weapon/it_wp_11_577.ice,40\3465788657f3a9d8ad6b10389fc0e2
+,,item/weapon/it_wp_11_578.ice,ae\7b9ee7529ddc39c99401a3849518b8
+,,item/weapon/it_wp_11_580.ice,ca\3034363fbe47c524c229c361d113b9
+,,item/weapon/it_wp_11_581.ice,46\730fa9021d997b13cb098d3b61c7e1
+,,item/weapon/it_wp_11_582.ice,7e\5a49f2159501d9efd5c476ad405ac2
+,,item/weapon/it_wp_11_583.ice,a9\e98ba04b473b7b8574f503c6c1fb59
+,,item/weapon/it_wp_11_584.ice,ff\a5dd51119cc82922df594b381d4e7a
+,,item/weapon/it_wp_11_585.ice,93\19f45b20e13cda360e202df9e777a8
+,,item/weapon/it_wp_11_586.ice,ed\d80d082f51f0067960c8a1d7d42d38
