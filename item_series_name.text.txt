@@ -1,5 +1,5 @@
-item_series_name.text was created: 2023/12/29 11:25:16
-Filesize is: 7520 bytes
+item_series_name.text was created: 2024/2/15 8:36:40
+Filesize is: 7808 bytes
 
 SERIES
 Group 0
@@ -63,6 +63,8 @@ Herite - ヘリテシリーズ
 Melek - メレクシリーズ
 Variocool - バリオクールシリーズ
 Argenti - ラジャンティエシリーズ
+Reyaar - ロウゼラムシリーズ
+Millenium Round - ミレニアムラウンドシリーズ
 Qual De - クアルデシリーズ
 Geant - ジオントシリーズ
 Greas - グライアスシリーズ
@@ -83,6 +85,7 @@ Ancien - アンシェンシリーズ
 Provo - プロヴォシリーズ
 Sest - セスティシリーズ
 Efitus - エフィタスシリーズ
+Einea - エイネアシリーズ
 Gun Blade - ￥ガンスラッシュシリーズ
 
 Group 1
@@ -146,6 +149,8 @@ Herite - Herite Series
 Melek - Melek Series
 Variocool - Variocool Series
 Argenti - Argenti Series
+Reyaar - Reyaar Series
+Millenium Round - Millenium Round Series
 Qual De - Qual De Series
 Geant - Geant Series
 Greas - Greas Series
@@ -166,6 +171,7 @@ Ancien - Ancien Series
 Provo - Provo Series
 Sest - Sest Series
 Efitus - Efitus Series
+Einea - Einea Series
 Gun Blade - \Gun Blade Series
 
 
