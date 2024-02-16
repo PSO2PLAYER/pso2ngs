@@ -1,0 +1,180 @@
+ui_ranking_reb.text was created: 2024/2/16 9:39:29
+Filesize is: 12064 bytes
+
+Common
+Group 0
+Window_Titletelop_WeeklyRanking - アトランダムイベントレコード
+Window_TwolineGuide_WeeklyRanking - 開催中のアークスレコードやその詳細を確認できます。
+Window_Title_Main - アークスレコード詳細
+Window_Title_RankingList - レコードリスト
+Window_Title_ClearInfo - クリア情報詳細
+Window_Title_RewardDetail - 報酬詳細
+RankingList_Headline_Open - 開催中
+RankingList_Headline_Notice - 開催予定
+RankingList_Headline_Archive - 開催終了
+RankingList_Headline_All - すべて表示
+RankingList_StartDate - $(0)開催<br>$(1)
+RankingList_StartDate_All - $(0)開催（$(1)）<br>$(2)
+RankingList_Open_Description - 表示できるレコードがありません。
+RankingList_Notice_Description - 表示できるレコードがありません。
+RankingList_Archive_Description - 表示できるレコードがありません。
+RankingList_Loading - レコードリスト取得中……
+Main_Headline_TitleName - レコード名
+Main_Headline_Category - 種別
+Main_Headline_Description - 詳細
+Main_Headline_Period_Open - 開催期間
+Main_Headline_Period_Notice - 開催予定
+Main_Headline_Period_Close - 開催日時
+Main_Headline_MyRank_Open - 現在のレコード（毎日$(0)に更新）
+Main_Headline_MyRank_Close - 最終レコード
+Main_Headline_Reward - 参加報酬
+Main_Headline_Reward_Description - 最終的な記録に応じて獲得できる報酬が変わります。
+Main_Headline_TopRank_Open - 現在の上位レコード（最大$(0)人まで表示）
+Main_Headline_TopRank_Close - 上位レコード（最大$(0)人まで表示）
+MyRank_Description - まだアークスレコードに参加していません。<br>対象のコンテンツをプレイすることで参加できます。
+TopRank_Description - 上位レコード情報はありません。<br>（開催初日以降、毎日$(0)に更新されます。）
+Reward_ControlGuide - <%Function>で上位レコードを確認する
+TopRank_ControlGuide - <%Function>で参加報酬を確認する
+TabButton_Class_All - クラス総合
+Ranking_Period_Open - $(1)から<br>$(0)まで
+Ranking_Period_Notice - あと$(0)後に開催されます。
+Ranking_Period_Notice_Soon - まもなく開催されます。
+Ranking_Period_Close - $(0)に終了
+Rank_Name_Tier1 - ゴールド
+Rank_Name_Tier2 - シルバー
+Rank_Name_Tier3 - ブロンズ
+RewardDetail_Headline1 - 報酬情報
+RewardDetail_Headline2 - 報酬
+Window_Titletelop_TeamtaskRanking - チームタスクレコード
+Window_TwolineGuide_TeamtaskRanking - 開催中のチームタスクレコードやその詳細を確認できます。
+Ranking_Reward_Nmeseta - $(0)<pict 4space><pict reb_meseta>
+Ranking_Reward_StarGem - $(0)<pict 4space><pict StarGem>
+Ranking_Reward_Item - $(0)
+Ranking_Reward_Item_Num - $(1) x $(0)
+Ranking_Reward_Other - $(0)　他
+ScoreCategory - $(0)/$(1)
+Main_Headline_MyRank_Best - 現在のベストレコード
+Main_Headline_MyRank_Update - <yellow>ベストレコードを更新<c>
+ScoreDisplay_Best - <yellow>$(0)<c>
+ScoreDisplay_Max - <pure_orange>$(0)<c>
+ScoreDisplay_Star - ★
+ScoreDisplay_TimeSS - $(0):$(1).$(2)
+Main_Headline_UpdateTime_Open - 集計日時：---
+Main_Headline_UpdateTime - 集計日時：$(0)
+Main_Headline_UpdateTime_Close - 最終集計日時：$(0)
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Ranking
+Group 0
+ScoreCategory_Score - スコア
+ScoreCategory_ClearTime - クリアタイム
+ScoreCategory_Score_and_ClearTime - スコア/クリアタイム
+ScoreCategory_Mission_Success_Level - 達成度
+ScoreCategory_ClearTime2 - クリアタイム
+ScoreCategory_Clear_Difficulty_Multiplier - 難度倍率
+ScoreCategory_Teamtask_Name - チーム名
+ScoreCategory_Teamtask_Score - スコア
+ScoreList_RecruitMembers - メンバー募集中
+WeeklyRanking_Category_Score - シップ別：クラス別スコアレコード
+WeeklyRanking_Category_ClearTime - シップ別：クラス別クリア時間レコード
+WeeklyRanking_Category_Score_AllClasses - シップ別：クラス総合スコアレコード
+WeeklyRanking_Category_ClearTime_AllClasses - シップ別：クラス総合クリア時間レコード
+WeeklyRanking_Category_Mission_AllClasses - シップ別：クラス総合ミッションレコード
+WeeklyRanking_Quest_Description - クエストにチャレンジし、<br>ランクを維持しよう！
+WeeklyRanking_Trial_Description - トライアルにチャレンジし、<br>ランクを維持しよう！
+WeeklyRanking_Description_Trinites_Solo - トレイニア・トリニテスの<br>対象クエストを１人でクリアする。
+WeeklyRanking_Description_Trinites_Party - トレイニア・トリニテスの<br>対象クエストを２人以上でクリアする。
+WeeklyRanking_Description_Trinites_R2_Solo - トレイニア・トリニテスの<br>対象クエストを１人でクリアする。
+WeeklyRanking_Description_Trinites_R2_Party - トレイニア・トリニテスの<br>対象クエストを２人以上でクリアする。
+WeeklyRanking_Description_Goalgetter_Solo - トレイニアアドバンス・バンカーType.1の<br>対象クエストを１人でクリアする。
+WeeklyRanking_Description_Goalgetter_Party - トレイニアアドバンス・バンカーType.1の<br>対象クエストを２人以上でクリアする。
+WeeklyRanking_Description_FieldRace - フィールドレースの対象レースを<br>１人でクリアする。
+WeeklyRanking_Description_Cocoon - トレイニア・コクーンの対象クエストを<br>ソロまたはパーティーでクリアする。
+WeeklyRanking_Description_Cocoon_Mission_Solo - トレイニア・コクーンの対象クエストを<br>１人でクリアする。
+WeeklyRanking_Teamtask_Description - チームでチームタスクをより多く達成する<br>ことで、より良い報酬を獲得できます。<br><yellow>※<pict party_request>があるチームへは入団申請ができます。<c>
+WeeklyRanking_Title_Trinites - ジオメトリックラビリンス：ソロ
+WeeklyRanking_Title_Minigame1 - 南エアリオ走破（Stage.1）：ソロ
+WeeklyRanking_Title_Goalgetter - キャノンボールストライク：ソロ
+WeeklyRanking_Title_Trinites_Solo - ジオメトリックラビリンス：<br>ソロ
+WeeklyRanking_Title_Trinites_Party - ジオメトリックラビリンス：<br>パーティー
+WeeklyRanking_Title_Goalgetter_Solo - キャノンボールストライク：<br>ソロ
+WeeklyRanking_Title_Goalgetter_Party - キャノンボールストライク：<br>パーティー
+WeeklyRanking_Title_FieldRace_AelioSouth - 南エアリオ走破（Stage.1）：<br>ソロ
+WeeklyRanking_Title_FieldRace_RetemWest - 西リテム走破（Stage.1）：<br>ソロ
+WeeklyRanking_Title_FieldRace_KvarisCenter - 中央クヴァリス走破（Stage.1）：<br>ソロ
+WeeklyRanking_Title_Teamtask - チームタスクレコード
+TabButton_Teamtask_All - すべて表示
+Reward_Description_Teamtask - <yellow>※報酬獲得条件：チームタスクを3つ以上達成し、<br>　最終集計時まで最初にタスクを達成したチームに所属している。<c>
+WeeklyRanking_Title_FieldRace_AelioCenter - 中央エアリオ板操（Stage.1）：<br>ソロ
+WeeklyRanking_Title_FieldRace_RetemCenter - 中央リテム板操（Stage.1）：<br>ソロ
+WeeklyRanking_Title_OrdinalTower_Solo - オーディナルタワー（Rank.7）：<br>ソロ
+WeeklyRanking_Title_OrdinalTower_Party - オーディナルタワー（Rank.7）：<br>パーティー
+WeeklyRanking_Description_OrdinalTower_Solo - トレイニアアドバンス・バンカーType.2の<br>対象クエストを１人でクリアする。
+WeeklyRanking_Description_OrdinalTower_Party - トレイニアアドバンス・バンカーType.2の<br>対象クエストを２人以上でクリアする。
+WeeklyRanking_Title_FieldRace_HotSpring - スティア外縁部走破（Stage.1）：<br>ソロ
+WeeklyRanking_Title_FieldRace_UndergroundFactory - ドライゼンプラント板操（Stage.1）：<br>ソロ
+WeeklyRanking_Title_FieldRace_AelioNorth_Board - 北エアリオ板操（Stage.1）：<br>ソロ
+WeeklyRanking_Title_FieldRace_RetemSouth_Run - 南リテム走破（Stage.1）：<br>ソロ
+WeeklyRanking_Title_FieldRace_KvarisSouth_Run - 南クヴァリス走破（Stage.1）：<br>ソロ
+WeeklyRanking_Title_FieldRace_AelioWest_Run - 西エアリオ走破（Stage.1）：<br>ソロ
+WeeklyRanking_Title_FieldRace_RetemNorth_Board - 北リテム板操（Stage.1）：<br>ソロ
+WeeklyRanking_Title_Trinites_R2_Solo - ジオメトリックラビリンス（Rank.2）：<br>ソロ
+WeeklyRanking_Title_Trinites_R2_Party - ジオメトリックラビリンス（Rank.2）：<br>パーティー
+WeeklyRanking_Title_Cocoon_HelicalLine - ヘリカルライン：<br>ソロ
+WeeklyRanking_Title_FieldRace_MediolaOuter_Board - メディオラ外郭第２区板操（Stage.1）：<br>ソロ
+WeeklyRanking_Title_Cocoon_Quarterstaff - クォータースタッフ：<br>ソロ
+WeeklyRanking_Title_Cocoon_FacetheDarkness - フェイスザダークネス：<br>ソロ
+WeeklyRanking_Title_Cocoon_BrokenWorld - ブロークンワールド：<br>ソロ
+WeeklyRanking_Title_Cocoon_FleetingFight - セツナノイッセン：<br>ソロ
+WeeklyRanking_Title_FieldRace_HalphiaLake_Boar - ハルフィリア湖板操（Stage.1）：<br>ソロ
+WeeklyRanking_Title_FieldRace_KvarisWest_Run - 西クヴァリス走破（Stage.1）：<br>ソロ
+WeeklyRanking_Title_Cocoon_VanishingPath2 - バニシングウェイⅡ：<br>ソロ
+WeeklyRanking_Title_Cocoon_SlopeStyle - スロープスタイル：<br>ソロ
+WeeklyRanking_Title_Standard_Continuousbattle1 - 陽炎の攻防戦：<br>パーティー
+WeeklyRanking_Title_Standard_Continuousbattle2 - 夜寒の攻防戦：<br>パーティー
+WeeklyRanking_Description_Standard_Party - <br>対象クエストを２人以上でクリアする。
+WeeklyRanking_Title_Cocoon_CrazyTail - クレイジーテイル：<br>ソロ
+WeeklyRanking_Title_Cocoon_Narrow Cage - ナローケージ：<br>ソロ
+WeeklyRanking_Title_Cocoon_Vanishing Path - バニシングウェイ：<br>ソロ
+WeeklyRanking_Title_Cocoon_Parkour Master - パルクールマスター：<br>ソロ
+WeeklyRanking_Title_Cocoon_Dyna Assault - ダイナアサルト：<br>ソロ
+WeeklyRanking_Title_Cocoon_Horrible Flapping - ホリブルフラッピング：<br>ソロ
+WeeklyRanking_Title_FieldRace_LimitedSeason1 - 南クヴァリス走破（スプリング'24）：<br>ソロ
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
