@@ -1,4 +1,4 @@
-ui_playnavi.text was created: 2023/12/29 9:51:49
+ui_playnavi.text was created: 2024/4/10 7:14:23
 Filesize is: 12144 bytes
 
 PlayNavi

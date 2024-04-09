@@ -1,5 +1,5 @@
-quest_common_reboot.text was created: 2024/1/31 7:10:21
-Filesize is: 60320 bytes
+quest_common_reboot.text was created: 2024/4/10 7:14:03
+Filesize is: 62368 bytes
 
 CocoonFail
 Group 0
@@ -71,10 +71,10 @@ Cocoon_Sub_Action - %(action)の$(0)使用%(num)回未満でクリア
 Cocoon_Sub_TargetVolumeLimit - エネミー討伐数$(0)%(num)体未満でクリア
 Cocoon_Sub_CocoonPoint - コクーンポイント$(0)%(num)ポイント以上でクリア
 Cocoon_Sub_DroneLevel - ドロームの追従レベルが$(0)Lv.3の状態を維持してクリア
-Cocoon_Sub_DiveAttack - ダイブアタックでエネミーに<br>%(num)以上ダメージを与えてクリア
-Cocoon_Sub_CoreHit - エネミーの弱点部位に%(num)回<br>攻撃を命中させてクリア
-Cocoon_Sub_FallDownEnemy - エネミーを%(num)体<br>落下させてクリア
-Cocoon_Sub_Dodged - エネミーの攻撃を%(num)回<br>ジャストガードか回避してクリア
+Cocoon_Sub_DiveAttack - ダイブアタックでエネミーに$(0)%(num)以上ダメージを与えてクリア
+Cocoon_Sub_CoreHit - エネミーの弱点部位に%(num)回$(0)攻撃を命中させてクリア
+Cocoon_Sub_FallDownEnemy - エネミーを%(num)体$(0)落下させてクリア
+Cocoon_Sub_Dodged - エネミーの攻撃を%(num)回$(0)ジャストガードか回避してクリア
 
 Group 1
 
@@ -370,7 +370,7 @@ Trinites - 最深部を目指す
 GoalGetter - エネミーを倒し目標を破壊する
 FinalAttacker - 対象エネミーの撃破
 Babel - 対象エネミーの撃破
-GrowUp - 最深部のエネミーを撃破せよ！
+GrowUp - 最深部のエネミーを倒す
 
 Group 1
 
@@ -548,45 +548,45 @@ Group 9
 ChallengeBuff
 Group 0
 UpdateToastMessage - 新しいチャレンジ設定が解放されました。
-CbEnemyHp01 - エネミー最大HP＋25％
+CbEnemyHp01 - エネミー最大HP＋10％
 DescCbEnemyHp01 - エネミー最大HPが増加する。
-CbEnemyHp02 - エネミー最大HP＋50％
+CbEnemyHp02 - エネミー最大HP＋20％
 DescCbEnemyHp02 - エネミー最大HPが増加する。
-CbEnemyHp03 - エネミー最大HP＋75％
+CbEnemyHp03 - エネミー最大HP＋30％
 DescCbEnemyHp03 - エネミー最大HPが増加する。
-CbEnemyHp04 - エネミー最大HP＋100％
+CbEnemyHp04 - エネミー最大HP＋40％
 DescCbEnemyHp04 - エネミー最大HPが増加する。
-CbEnemyHp05 - エネミー最大HP＋125％
+CbEnemyHp05 - エネミー最大HP＋50％
 DescCbEnemyHp05 - エネミー最大HPが増加する。
-CbEnemyHp06 - エネミー最大HP＋150％
+CbEnemyHp06 - エネミー最大HP＋60％
 DescCbEnemyHp06 - エネミー最大HPが増加する。
-CbEnemyHp07 - エネミー最大HP＋200％
+CbEnemyHp07 - エネミー最大HP＋75％
 DescCbEnemyHp07 - エネミー最大HPが増加する。
-CbEnemyHp08 - エネミー最大HP＋250％
+CbEnemyHp08 - エネミー最大HP＋100％
 DescCbEnemyHp08 - エネミー最大HPが増加する。
-CbEnemyHp09 - エネミー最大HP＋300％
+CbEnemyHp09 - エネミー最大HP＋125％
 DescCbEnemyHp09 - エネミー最大HPが増加する。
-CbEnemyHp10 - エネミー最大HP＋400％
+CbEnemyHp10 - エネミー最大HP＋150％
 DescCbEnemyHp10 - エネミー最大HPが増加する。
-CbEnemyAtkUp01 - エネミー攻撃力＋25％
+CbEnemyAtkUp01 - エネミー攻撃力＋10％
 DescCbEnemyAtkUp01 - エネミーの攻撃力が増加する。
-CbEnemyAtkUp02 - エネミー攻撃力＋50％
+CbEnemyAtkUp02 - エネミー攻撃力＋20％
 DescCbEnemyAtkUp02 - エネミーの攻撃力が増加する。
-CbEnemyAtkUp03 - エネミー攻撃力＋75％
+CbEnemyAtkUp03 - エネミー攻撃力＋30％
 DescCbEnemyAtkUp03 - エネミーの攻撃力が増加する。
-CbEnemyAtkUp04 - エネミー攻撃力＋100％
+CbEnemyAtkUp04 - エネミー攻撃力＋40％
 DescCbEnemyAtkUp04 - エネミーの攻撃力が増加する。
-CbEnemyAtkUp05 - エネミー攻撃力＋125％
+CbEnemyAtkUp05 - エネミー攻撃力＋50％
 DescCbEnemyAtkUp05 - エネミーの攻撃力が増加する。
-CbEnemyAtkUp06 - エネミー攻撃力＋150％
+CbEnemyAtkUp06 - エネミー攻撃力＋60％
 DescCbEnemyAtkUp06 - エネミーの攻撃力が増加する。
-CbEnemyAtkUp07 - エネミー攻撃力＋175％
+CbEnemyAtkUp07 - エネミー攻撃力＋70％
 DescCbEnemyAtkUp07 - エネミーの攻撃力が増加する。
-CbEnemyAtkUp08 - エネミー攻撃力＋200％
+CbEnemyAtkUp08 - エネミー攻撃力＋80％
 DescCbEnemyAtkUp08 - エネミーの攻撃力が増加する。
-CbEnemyAtkUp09 - エネミー攻撃力＋250％
+CbEnemyAtkUp09 - エネミー攻撃力＋90％
 DescCbEnemyAtkUp09 - エネミーの攻撃力が増加する。
-CbEnemyAtkUp10 - エネミー攻撃力＋300％
+CbEnemyAtkUp10 - エネミー攻撃力＋100％
 DescCbEnemyAtkUp10 - エネミーの攻撃力が増加する。
 FormidableEnemy - ランダムチャレンジC：ギガンティクス化
 DescFormidableEnemy - 一部のフロアでエネミーが<br>一定確率でギガンティクス化する。
@@ -596,6 +596,8 @@ HighRankEnemy_cocoon50 - エネミーメガロティクス化50%
 DescHighRankEnemy_cocoon50 - 出現するエネミーの50%が<br>メガロティクス化する。
 HighRankEnemy_cocoon75 - エネミーメガロティクス化75%
 DescHighRankEnemy_cocoon75 - 出現するエネミーの75%が<br>メガロティクス化する。
+HighRankEnemy_cocoon100 - エネミーメガロティクス化100%
+DescHighRankEnemy_cocoon100 - 出現するエネミーの100%が<br>メガロティクス化する。
 BoostController_cocoon - エネミーエンハンスドエネミー化
 DescBoostController_cocoon - 一部のエネミーが<br>エンハンスドエネミー化する。
 HighRankEnemy_cocoonBoss - 全ボスエネミーメガロティクス化
@@ -1090,6 +1092,20 @@ GrowUpQuest_S_AdditionalCriticalAttackBuff - <yellow>クリティカル発生時
 GrowUpQuest_S_AdditionalCriticalAttackBuff1 - クリティカル発生時に追加ダメージ
 GrowUpQuest_S_DodgeBombBuff - <yellow>ステップ回避成功時に追加攻撃発生<c>
 GrowUpQuest_S_DodgeBombBuff1 - ステップ回避成功時に追加攻撃発生
+GrowUpQuest_ThrowingSpeedUpBuff - 投擲アクション速度上昇
+GrowUpQuest_ThrowingSpeedUpBuff1 - 投擲アクション速度上昇　Lv１
+GrowUpQuest_ThrowingSpeedUpBuff2 - 投擲アクション速度上昇　Lv２
+GrowUpQuest_ThrowingSpeedUpBuff3 - 投擲アクション速度上昇　Lv３
+GrowUpQuest_ThrowingSpeedUpBuff4 - 投擲アクション速度上昇　Lv４
+GrowUpQuest_ThrowingBuff - 投擲アクション威力上昇
+GrowUpQuest_ThrowingBuff1 - 投擲アクション威力上昇　Lv１
+GrowUpQuest_ThrowingBuff2 - 投擲アクション威力上昇　Lv２
+GrowUpQuest_ThrowingBuff3 - 投擲アクション威力上昇　Lv３
+GrowUpQuest_ThrowingBuff4 - 投擲アクション威力上昇　Lv４
+GrowUpQuest_S_AdditionalThrowAttackBuff - 投擲アクション命中時に追加ダメージ
+GrowUpQuest_S_AdditionalThrowAttackBuff1 - 投擲アクション命中時に追加ダメージ
+GrowUpQuest_S_PbRecoveryBuff - PBを2回連続で発動可能/PB攻撃速度上昇
+GrowUpQuest_S_PbRecoveryBuff1 - PBを2回連続で発動可能/PB攻撃速度上昇
 EnemyGrowUpQuest_AttackUp50 - <yellow>威力＋50%<c>
 EnemyGrowUpQuest_AttackUp100 - <yellow>威力＋100%<c>
 EnemyGrowUpQuest_AttackUp150 - <yellow>威力＋150%<c>
@@ -1191,6 +1207,10 @@ EnemyGrowUpQuest_SendClient_NonCriticalAtpDownBuff1_60 - <yellow>クリティカ
 EnemyGrowUpQuest_SendClient_NonCriticalAtpDownBuff1_70 - <yellow>クリティカル以外のダメージ耐性＋70%<c>
 EnemyGrowUpQuest_SendClient_NonCriticalAtpDownBuff1_80 - <yellow>クリティカル以外のダメージ耐性＋80%<c>
 EnemyGrowUpQuest_IntervalShot15 - 一定間隔ごとに<yellow>自動的に追加攻撃発生<c>
+EnemyGrowUpQuest_IntervalShotFireBoss15 - 一定間隔ごとに<yellow>隕石が落下<c>
+EnemyGrowUpQuest_IntervalShotFireBoss5 - 一定間隔ごとに<yellow>隕石が落下<c>
+EnemyGrowUpQuest_IntervalShotFire15 - 一定間隔ごとに<yellow>隕石が落下<c>
+EnemyGrowUpQuest_IntervalShotFire5 - 一定間隔ごとに<yellow>隕石が落下<c>
 
 Group 1
 
@@ -1215,6 +1235,35 @@ QuestCommonBuff
 Group 0
 SonicQuest_MaxHpAdd - 最大HP上昇
 SonicQuest_AddCriticalAndDamage - クリティカル強化
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+JournalText
+Group 0
+QuizAnswerCount - %(personalwork0)
+QuizAnswerCount_Title - 正解数
+OngoingQuiz - 問題
+TFQuiz_1_1 - なし
+AnswerTimeLimit_Title - 残り時間
+AnswerTimeLimit_1 - 正解発表まで
+AnswerTimeLimit_2 - %(personalwork1) 秒
 
 Group 1
 

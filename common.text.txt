@@ -1,5 +1,5 @@
-common.text was created: 2024/1/31 7:13:01
-Filesize is: 174672 bytes
+common.text was created: 2024/4/10 7:14:03
+Filesize is: 181408 bytes
 
 Block
 Group 0
@@ -1296,8 +1296,8 @@ LobbyAction_953sonkei - 礼４
 LobbyAction_947sit - 座る８
 LobbyAction_954hurue - 迫りくる恐怖
 LobbyAction_icecreamre - アイスを食べる＋
-LobbyAction_2000ice - アイスを食べる２
-LobbyAction_2001ice - アイスを食べる３
+LobbyAction_2000ice - アイスを食べる2
+LobbyAction_2001ice - アイスを食べる3
 LobbyAction_2045dance - ダンス６１
 LobbyAction_parasolpose - パラソル
 LobbyAction_summeritempose - エンジョイサマー
@@ -1339,13 +1339,13 @@ LobbyAction_icehockey - アイスホッケー
 LobbyAction_bouncer - バウンサーポーズ
 LobbyAction_prologue - 『ＮＧＳ』ポーズ
 LobbyAction_fingerdance - ＮＯ　ＢＯＲＤＥＲ．
-LobbyAction_2132heartpose - ハートポーズ２
+LobbyAction_2132heartpose - ハートポーズ2
 LobbyAction_pourtea - お茶を注ぐ
 LobbyAction_2078service - ご奉仕／リラックス
 LobbyAction_skyama - 閃光のヤマダポーズ
 LobbyAction_2144dance - ダンス６６
 LobbyAction_aircombat - 空中戦
-LobbyAction_2133heartpose - ハートポーズ３
+LobbyAction_2133heartpose - ハートポーズ3
 LobbyAction_2145dance - ダンス６７
 LobbyAction_2079shooting - 横シューティング
 LobbyAction_2007bed - ベッド４
@@ -1393,7 +1393,6 @@ LobbyAction_mbbattle - メルティブラッド：戦闘開始
 LobbyAction_2202mbbattle - メルティブラッド：戦闘開始２
 LobbyAction_2198mbpanel - アルクェイド／シエル
 LobbyAction_2199mbpanel - 遠野志貴／遠野秋葉
-LobbyAction_957taoreru - 救急ごっこ
 LobbyAction_bartender - バーテンダー
 LobbyAction_2030shakeoff - 武器を構える
 LobbyAction_blind - ブラインド越し
@@ -1408,7 +1407,7 @@ LobbyAction_2189hug - ハグ２
 LobbyAction_nademof - ラッピーといっしょ
 LobbyAction_magicbookposere - 魔術書を構える＋
 LobbyAction_layinglap - 膝枕をしてもらう
-LobbyAction_2158aircombat - 空中戦２
+LobbyAction_2158aircombat - 空中戦2
 LobbyAction_money - 札束
 LobbyAction_2208preparation - 戦闘準備2
 LobbyAction_ridinganimal - どうぶつ乗り物
@@ -1422,7 +1421,7 @@ LobbyAction_2180sit - 足組み浮遊
 LobbyAction_2179nakayoshi - ツーショットポーズ
 LobbyAction_2226curry - １００時間カレー
 LobbyAction_2227violin - バイオリンを弾く
-LobbyAction_2159aircombat - 空中戦３
+LobbyAction_2159aircombat - 空中戦3
 LobbyAction_dokodemofuro - どこでもバスタイム
 LobbyAction_2090airchair - 宙に座る２
 LobbyAction_cafepose - コーヒーブレイク
@@ -1496,6 +1495,64 @@ LobbyAction_kamae - 構える３
 LobbyAction_2280effbeam - 目からビーム
 LobbyAction_2342kimepose2 - アクションヒーローポーズ2
 LobbyAction_2343kimepose3 - アクションヒーローポーズ3
+LobbyAction_2278umbrella2 - 番傘ポーズ
+LobbyAction_2288handinhand2 - 手を繋ぐ
+LobbyAction_2309sword - 武器反映ポーズ
+LobbyAction_2310rifle - 武器反映ポーズ2
+LobbyAction_2317dance - ダンス７１
+LobbyAction_2292handmagic - アメイジングマジック
+LobbyAction_eioure - エイエイオー！＋
+LobbyAction_ichitaro_kouhou4re - やったー＋
+LobbyAction_820pose - ポーズ２５
+LobbyAction_2319atelier - ライザの調合
+LobbyAction_2308nuigurumi - 大きなクマグルミ
+LobbyAction_2287balletpose - バレエポーズ
+LobbyAction_913catposerev - キツネポーズRev
+LobbyAction_aircombatrev - 空中戦Rev
+LobbyAction_watersideposer - ビーチチェアに座るRev
+LobbyAction_nakayoshirev - なかよしポーズRev
+LobbyAction_heartposerev - ハートポーズRev
+LobbyAction_summonerposerev - ウェイカーポーズRev
+LobbyAction_2179nakayoshirev - ツーショットポーズRev
+LobbyAction_944lookrev - 手のひらを見るRev
+LobbyAction_2158aircombatrev - 空中戦2Rev
+LobbyAction_thronerev - 玉座に座るRev
+LobbyAction_2132heartposerev - ハートポーズ2Rev
+LobbyAction_braverposerev - ブレイバーポーズRev
+LobbyAction_2159aircombatrev - 空中戦3Rev
+LobbyAction_rodposerev - ロッドポーズRev
+LobbyAction_2096yorikakarurev - よりかかる2Rev
+LobbyAction_2089airchairrev - 宙に座るRev
+LobbyAction_mdposeb2rev - やっほーRev
+LobbyAction_kashigerev - 首をかしげるRev
+LobbyAction_waiting5rev - 待機中５Rev
+LobbyAction_3019sitrev - 座る４Rev
+LobbyAction_liveperformancerev - ＶｏパフォーマンスRev
+LobbyAction_556posenetarev - ＰＲポーズ４Rev
+LobbyAction_1yubiposerev - 「１」ポーズRev
+LobbyAction_2yubiposerev - 「２」ポーズRev
+LobbyAction_threeposerev - 「３」ポーズRev
+LobbyAction_fourposerev - 「４」ポーズRev
+LobbyAction_fiveposerev - 「５」ポーズRev
+LobbyAction_730sitdownrev - 腰掛ける２Rev
+LobbyAction_muscleposerev - マッスルポーズRev
+LobbyAction_waiting6rev - 待機中６Rev
+LobbyAction_subjectcolor - 囚われの身/B
+LobbyAction_almaballmver - ホロボールに乗る
+LobbyAction_parasolposerev - パラソルRev
+LobbyAction_parasolposecolor - パラソル/B
+LobbyAction_parasolposecr - パラソルRev/B
+LobbyAction_shellbedcolor - 貝殻ベッド/B
+LobbyAction_moonstarsitcolor - 星に座る/B
+LobbyAction_2000icemver - アイスを食べる2/B
+LobbyAction_campmkcolor - キャンプ/B
+LobbyAction_teatimemver - どこでもお茶会/B
+LobbyAction_logoutcolor - ログアウト/B
+LobbyAction_tatamicolor - 畳/B
+LobbyAction_watersideposem - ビーチチェアに座る/B
+LobbyAction_watersideposemr - ビーチチェアに座るRev/B
+LobbyAction_polldancecolor - ポールダンス/B
+LobbyAction_ippukumvercolor - どこでもお茶屋/B
 LobbyAction_fgoo - グー
 LobbyAction_foyayubi - 親指
 LobbyAction_fhitosashi - 人差し指
@@ -1550,6 +1607,7 @@ LobbyAction_2242handopen - 手をひらく8
 LobbyAction_2258anomalyhand - 決めポーズ
 LobbyAction_2273handdown - 手をひらく9
 LobbyAction_2315halfopen - ゆるくにぎる3
+LobbyAction_2318foxfinger - ゆるくにぎる4
 LobbyAction_Pchair_viri - フォトンチェア深緑
 LobbyAction_Pchair_green - フォトンチェア緑
 LobbyAction_Pchair_sky - フォトンチェア水
@@ -1593,6 +1651,7 @@ LobbyActionCategory_23 - ロビアク：NPCポーズ1
 LobbyActionCategory_24 - ロビアク：NPCポーズ2
 LobbyActionCategory_25 - ロビアク：NPCポーズ3
 LobbyActionCategory_26 - ロビアク：NPCポーズ4
+LobbyActionCategory_40 - ロビアク：武器反映ポーズ1
 LobbyActionCategory_27 - ロビアク：パフォーマンス1
 LobbyActionCategory_28 - ロビアク：パフォーマンス2
 LobbyActionCategory_29 - ロビアク：パフォーマンス3
@@ -1635,6 +1694,7 @@ LobbyActionCategoryTab_23 - $(0).NPCポーズ1
 LobbyActionCategoryTab_24 - $(0).NPCポーズ2
 LobbyActionCategoryTab_25 - $(0).NPCポーズ3
 LobbyActionCategoryTab_26 - $(0).NPCポーズ4
+LobbyActionCategoryTab_40 - $(0).武器反映ポーズ1
 LobbyActionCategoryTab_27 - $(0).パフォーマンス1
 LobbyActionCategoryTab_28 - $(0).パフォーマンス2
 LobbyActionCategoryTab_29 - $(0).パフォーマンス3
@@ -2946,6 +3006,43 @@ Substitute_Idle_159 - うさぴょん
 Substitute_Idle_160 - イースターエッグ
 Substitute_Idle_161 - キック
 Substitute_Idle_162 - キックEX
+Substitute_Idle_163 - コーヒーブレイク
+Substitute_Idle_164 - 舞い桜
+Substitute_Idle_165 - 舞い桜EX
+Substitute_Idle_166 - シノビ
+Substitute_Idle_167 - よりかかる
+Substitute_Idle_168 - パラモーター
+Substitute_Idle_169 - 決めポーズ4
+Substitute_Idle_170 - ダークメイジ
+Substitute_Idle_171 - 箱に座る/B
+Substitute_Idle_172 - ラッピーぬいぐるみ/C
+Substitute_Idle_173 - ダークメイジEX
+Substitute_Idle_174 - 浮遊（水）
+Substitute_Idle_175 - 浮遊（火）
+Substitute_Idle_176 - 浮遊（風）
+Substitute_Idle_177 - 浮遊（闇）
+Substitute_Idle_178 - 浮遊（光）
+Substitute_Idle_179 - 傘をさす/C
+Substitute_Idle_180 - 傘をさす/D
+Substitute_Idle_181 - 傘をさす/E
+Substitute_Idle_182 - スマホ操作/B
+Substitute_Idle_183 - 炎拳
+Substitute_Idle_184 - Rマグミニモ
+Substitute_Idle_185 - 箒に乗るRev
+Substitute_Idle_186 - キュートRev
+Substitute_Idle_187 - ふわふわティータイムRev
+Substitute_Idle_188 - サイキックボールRev
+Substitute_Idle_189 - 構えRev
+Substitute_Idle_190 - 腰に手を当てるRev
+Substitute_Idle_191 - 決めポーズRev
+Substitute_Idle_192 - モデル立ちRev
+Substitute_Idle_193 - モデル立ち2Rev
+Substitute_Idle_194 - 浮遊Rev
+Substitute_Idle_195 - 腰に手を当てる3Rev
+Substitute_Idle_209 - たおやかRev
+Substitute_Idle_210 - 退屈Rev
+Substitute_Idle_211 - ぺたん座りRev
+Substitute_Idle_212 - 手を振るRev
 Substitute_Jump_0 - 標準
 Substitute_Jump_1 - シンプル
 Substitute_Jump_2 - シンプル2
@@ -2971,6 +3068,7 @@ Substitute_Jump_22 - キョンシー
 Substitute_Jump_24 - 直立浮遊
 Substitute_Jump_25 - ジャイロランナー
 Substitute_Jump_26 - スーパーヒーロー
+Substitute_Jump_27 - シノビ
 Substitute_Landing_0 - 標準
 Substitute_Landing_1 - シンプル
 Substitute_Landing_2 - シンプル2
@@ -2996,6 +3094,7 @@ Substitute_Landing_23 - 花びら
 Substitute_Landing_24 - つむじ風/B
 Substitute_Landing_31 - キョンシー
 Substitute_Landing_33 - ジャイロランナー
+Substitute_Landing_34 - 三点着地Rev
 Substitute_Move_0 - 標準
 Substitute_Move_1 - シンプル
 Substitute_Move_2 - シンプル2
@@ -3035,6 +3134,7 @@ Substitute_Move_37 - 直立浮遊
 Substitute_Move_38 - 飛天御剣流
 Substitute_Move_39 - ジャイロランナー
 Substitute_Move_40 - 電車ごっこ
+Substitute_Move_41 - 箒に乗るRev
 Substitute_Sprint_0 - 標準
 Substitute_Sprint_1 - シンプル
 Substitute_Sprint_2 - シンプル2
@@ -3169,6 +3269,15 @@ Substitute_Sprint_151 - スーパーヒーローEX
 Substitute_Sprint_152 - ジェットパック/B
 Substitute_Sprint_153 - イースターエッグ
 Substitute_Sprint_154 - イースターエッグEX
+Substitute_Sprint_155 - 舞い桜
+Substitute_Sprint_156 - シノビ
+Substitute_Sprint_157 - シノビEX
+Substitute_Sprint_158 - パラモーター
+Substitute_Sprint_159 - パラモーターEX
+Substitute_Sprint_160 - ふわふわ/C
+Substitute_Sprint_161 - ダークメイジ
+Substitute_Sprint_162 - 箒に乗るRev
+Substitute_Sprint_163 - エアボードRev
 Substitute_Glide_0 - 標準
 Substitute_Glide_1 - ミニグライダー
 Substitute_Glide_2 - ジェットパック
@@ -3296,6 +3405,18 @@ Substitute_Glide_144 - イースターエッグEX
 Substitute_Glide_145 - ジェットパック/B
 Substitute_Glide_146 - キック
 Substitute_Glide_147 - キックEX
+Substitute_Glide_148 - 舞い桜
+Substitute_Glide_149 - 舞い桜EX
+Substitute_Glide_150 - ふわふわ/C
+Substitute_Glide_151 - シノビ
+Substitute_Glide_152 - シノビEX
+Substitute_Glide_153 - パラモーター
+Substitute_Glide_154 - パラモーターEX
+Substitute_Glide_155 - ダークメイジ
+Substitute_Glide_156 - ダークメイジEX
+Substitute_Glide_157 - 箒に乗るRev
+Substitute_Glide_158 - エアボードRev
+Substitute_Glide_159 - スカイグラインドRev
 Substitute_Swim_0 - 標準
 Substitute_Swim_2 - クロール
 Substitute_Swim_3 - 潜水
@@ -3308,6 +3429,8 @@ Substitute_Swim_9 - シャークレイド
 Substitute_Swim_10 - バナナボート
 Substitute_Swim_11 - ペンギン
 Substitute_Swim_12 - イースターエッグ
+Substitute_Swim_13 - シノビ
+Substitute_Swim_14 - サーフィンRev
 
 Group 1
 

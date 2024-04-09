@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2024/1/31 7:10:21
-Filesize is: 760176 bytes
+ui_mainmode.text was created: 2024/4/10 7:14:03
+Filesize is: 761056 bytes
 
 Common
 Group 0
@@ -51,6 +51,8 @@ BlockType_02 - PSO2:NGSブロック
 Hyphen - -
 All - すべて
 FreeSgScratch - 本日分の無料SGスクラッチを行うことができます。<br>確認を行いますか？
+FreeFirsrtTimeACScratch - 現在、初回無料ACスクラッチを引くことができます。<br>内容を確認しますか？
+FreeFirsrtTimeMainMenuText - 1回無料<br>スクラッチ
 BlockMoveFailure - ブロック移動に失敗しました。
 BlockadeMsg_Title1 - インフォメーション
 BlockadeMsg_Text1 - 現在、このオブジェクトにはアクセスできません。<br>詳しくはプレイヤーズサイトをご確認ください。
@@ -77,6 +79,7 @@ MatchingRejectJikkyouForRejectUser - ただいま一部のルームへの参加�
 MatchingRejectJikkyouForJikkyou - 指定のルームに合流できないため、新規ルームを作成しました。
 CautionUnknown - 不明なエラーです。
 Loading - NOW LOADING
+Not_accessible_ToastMessage - 全シップマッチング中は選択できません。
 
 Group 1
 
@@ -735,6 +738,7 @@ Chat_Monomane_Error - 「$(0)」は覚えていないため、モノマネでき
 Chat_Premiere_Limit - 「プレミアムセット期間中」のみ有効なチャットコマンドです。
 Chat_Unavailable_Finger_LobbyAction - このコスチューム・パーツは、ロビーアクションの手のポーズには対応していません。
 Chat_Unavailable_Combine_Finger - このロビーアクションは、手のポーズに対応していません。
+Chat_Unavailable_AllShipMatching - 全シップマッチング中は選択できません。
 
 Group 1
 
@@ -1926,6 +1930,7 @@ StatusLabelSeasonPoint_23 - クリスマス'23シーズナルポイント
 StatusLabelSeasonPoint_24 - ニューイヤー'24シーズナルポイント
 StatusLabelSeasonPoint_25 - ウィンター'24シーズナルポイント
 StatusLabelSeasonPoint_26 - スプリング'24シーズナルポイント
+StatusLabelSeasonPoint_28 - 『NGS』3周年記念シーズナルポイント
 StatusLabelSeasonPointValue - $(1) /$(0)
 StatusLabelN-Meseta - <pict reb_meseta>メセタ
 StatusLabelFun - FUN
@@ -6294,6 +6299,8 @@ Bg_Chara12 - トゥーリ
 Bg_Chara13 - イルマ
 Bg_Chara14 - クッカ
 Bg_Chara15 - メリ
+Bg_Chara16 - グレン
+Bg_Chara17 - カヌイ
 Open_Title - 背景の使用条件
 Open_00 - 最初から使用可能
 Open_01 - 累計称号ポイント：$(0)pt
@@ -8126,6 +8133,7 @@ TabItemPlaceCraft - 6．クラフト
 TabItemFashionCat - 7．コーデカタログ
 TabItemPlaceRebMenu - 8．『PSO2：NGS』メニュー
 TabItemPlaceRebMyShop - 9．『PSO2：NGS』マイショップ
+TabItemPlaceRebMySpace - 10．クリエイティブスペース
 PlaceMenu - 『PSO2』メニュー
 PlaceShop - 『PSO2』マイショップ
 PlaceRoom - マイルーム
@@ -8135,6 +8143,7 @@ PlaceCraft - クラフト
 PlaceFashionCat - コーデカタログ
 PlaceRebMenu - 『PSO2：NGS』メニュー
 PlaceRebMyShop - 『PSO2：NGS』マイショップ
+PlaceRebMySpace - クリエイティブスペース
 Nice - <pict like_icon>いいね！
 Cute - <pict cute_icon>かわいいね！
 Cool - <pict cool_icon>かっこいいね！
@@ -11585,6 +11594,7 @@ Cursor_Guide_Key_Place - <%Function>：
 Cursor_Guide_Label_Place - パーソナルガイド設置
 Cursor_Guide_Key_Sector - <%NextWidget>：
 Cursor_Guide_Label_Sector - セクション情報
+Window_BattleTrigger_Title_CodeKey_w1_r1_4 - パープルポータル：エアリオEX
 
 Group 1
 
@@ -12067,6 +12077,7 @@ MySpace_CategoryLocation - シーナリー
 MySpace_CategoryAmusement - アミューズメント
 MySpace_CategoryCommunication - コミュニケーション
 MySpace_TotalDownload - 設計図の累計ダウンロード回数
+MySpace_TotalGJ - グッジョブされた回数
 MySpace_ConfigGude - <%MultiSelect>で更新情報を表示
 MySpace_UpdateInfo_Title - 更新情報
 MySpace_UpdateInfo_Label - 最後に地形を更新したプレイヤーIDネーム
@@ -12169,6 +12180,7 @@ MainMenu_MySpace_TabNew - 公開日時
 MainMenu_MySpace_TabVisitorsNumber - 累計訪問者数
 MainMenu_MySpace_TabPartsNumber - ビルドパーツ使用数
 MainMenu_MySpace_TabDLNumber - 累計ダウンロード回数
+MainMenu_MySpace_TabGJNumber - 累計グッジョブ回数
 MainMenu_MySpace_StatusOpen - <cyan>全体に公開<c>
 MainMenu_MySpace_StatusClose - 非公開
 MainMenu_MySpace_StatusFriend - <cyan>フレンドのみに公開<c>
@@ -12433,6 +12445,7 @@ Group 9
 Guide_Action
 Group 0
 Action_AttractingSaucer - 投擲方向の調整：<%NormalAttack>を押しながら<swguidetype T_Moveguide_l><br>肩越し視点で調整：<%ChangeView>を押して<swguidetype T_Moveguide_r>　　<br>滞空状態を維持：空中で<%NormalAttack>を長押し
+Action_Dntgun - <%NormalAttack>長押しで威力上昇
 
 Group 1
 
