@@ -1,5 +1,5 @@
-ui_ranking_reb.text was created: 2024/2/16 9:39:29
-Filesize is: 12064 bytes
+ui_ranking_reb.text was created: 2024/6/2 12:04:14
+Filesize is: 12160 bytes
 
 Common
 Group 0
@@ -158,6 +158,7 @@ WeeklyRanking_Title_Cocoon_Parkour Master - パルクールマスター：<br>�
 WeeklyRanking_Title_Cocoon_Dyna Assault - ダイナアサルト：<br>ソロ
 WeeklyRanking_Title_Cocoon_Horrible Flapping - ホリブルフラッピング：<br>ソロ
 WeeklyRanking_Title_FieldRace_LimitedSeason1 - 南クヴァリス走破（スプリング'24）：<br>ソロ
+WeeklyRanking_Title_Cocoon_Buddy Attack - バディアタック：<br>ソロ
 
 Group 1
 
