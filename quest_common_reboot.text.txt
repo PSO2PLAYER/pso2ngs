@@ -1,5 +1,5 @@
-quest_common_reboot.text was created: 2024/4/10 7:14:03
-Filesize is: 62368 bytes
+quest_common_reboot.text was created: 2024/6/5 7:16:19
+Filesize is: 62912 bytes
 
 CocoonFail
 Group 0
@@ -177,6 +177,7 @@ BuffLineText_ConditionBase - $(0) Lv.$(1)
 ScriptSequencer_Wait - 他のプレイヤーを待っています。
 BeginnerBlockWrongRegion - ビギナーブロックでは別リージョンのクエストは開始できません。
 SkipCountDown - 参加メンバーが集合したことにより、クエストを即時開始します。
+QuestPointMagnifiUpFromTime - /delay2 探索時間経過により<br>取得ポイント倍率が$(0)％アップ！（現在の倍率：$(1)％）
 
 Group 1
 
@@ -1235,6 +1236,7 @@ QuestCommonBuff
 Group 0
 SonicQuest_MaxHpAdd - 最大HP上昇
 SonicQuest_AddCriticalAndDamage - クリティカル強化
+CityQuest_DamageUpDebuff - 防御力ダウン
 
 Group 1
 
@@ -1264,6 +1266,29 @@ TFQuiz_1_1 - なし
 AnswerTimeLimit_Title - 残り時間
 AnswerTimeLimit_1 - 正解発表まで
 AnswerTimeLimit_2 - %(personalwork1) 秒
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+BuffLineText
+Group 0
+CityQuest_DamageUpDebuff - 探索ポイントの変動により、被ダメージ増加Lv.$(0)の効果が発生します。
 
 Group 1
 

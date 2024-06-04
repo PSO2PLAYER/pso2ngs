@@ -1,5 +1,5 @@
-common.text was created: 2024/4/10 7:14:03
-Filesize is: 181408 bytes
+common.text was created: 2024/6/5 7:16:19
+Filesize is: 183552 bytes
 
 Block
 Group 0
@@ -1553,6 +1553,16 @@ LobbyAction_watersideposem - ビーチチェアに座る/B
 LobbyAction_watersideposemr - ビーチチェアに座るRev/B
 LobbyAction_polldancecolor - ポールダンス/B
 LobbyAction_ippukumvercolor - どこでもお茶屋/B
+LobbyAction_2330knuckle - 武器反映ポーズ3
+LobbyAction_2329boots - 武器反映ポーズ4
+LobbyAction_2334shower - シャワーを浴びる
+LobbyAction_2336twoshot - ツーショットポーズ2
+LobbyAction_2321dark - コードギアス
+LobbyAction_2323floatring - プール遊び2
+LobbyAction_2332beachchair - ビーチチェアに座る2
+LobbyAction_attihoire - アッチ向いてホイ＋
+LobbyAction_rapperre - ラッパー＋
+LobbyAction_2297barrier - バリアを張る
 LobbyAction_fgoo - グー
 LobbyAction_foyayubi - 親指
 LobbyAction_fhitosashi - 人差し指
@@ -1608,6 +1618,7 @@ LobbyAction_2258anomalyhand - 決めポーズ
 LobbyAction_2273handdown - 手をひらく9
 LobbyAction_2315halfopen - ゆるくにぎる3
 LobbyAction_2318foxfinger - ゆるくにぎる4
+LobbyAction_2352handopen - 決めポーズ2
 LobbyAction_Pchair_viri - フォトンチェア深緑
 LobbyAction_Pchair_green - フォトンチェア緑
 LobbyAction_Pchair_sky - フォトンチェア水
@@ -2174,6 +2185,8 @@ Unavailable_ToastMessage2 - このプラットフォームでは表示できな�
 Unavailable_ToastMessage3 - このプラットフォームでは使用できないロビーアクションです。
 Unavailable_ToastMessage4 - このプラットフォームでは選択できないマグフォルムです。
 Unavailable_ToastMessage5 - このプラットフォームでは表示できないアイテムを展示しているため外見を一時的に変更しています。
+LineDuelBattleRequest - ラインストライクの対戦申請
+LineDuelBattleRequest_Toast - $(0)から、ラインストライクのフリーバトルを申し込まれました。
 
 Group 1
 
@@ -2844,7 +2857,7 @@ Guide_ItemPack_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操
 Guide_Scratch_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　プレビュー表示のリセット：<%MultiSelect>
 Guide_Shop_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>　　パックアイテム詳細を開く：<%NextTabDetails>
 Guide_Submenu_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　並び順の変更：<%MultiSelect>　　並び順の初期化：<%ChangeCtrlWindowForward>
-Guide_Vitaldesign_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　プレビュー：<%Function>　お気に入り登録/編集：<%NextTabDetails>
+Guide_Vitaldesign_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　プレビュー：<%Function>　お気に入り登録/編集：<%NextTabDetails>　　操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>
 Guide_AlwaysLockon_01 - ロックオン：
 Guide_AlwaysLockon_02 - <%LockOn>
 Guide_AlwaysLockon_03 - <%LockOn>長押し
@@ -3039,6 +3052,16 @@ Substitute_Idle_192 - モデル立ちRev
 Substitute_Idle_193 - モデル立ち2Rev
 Substitute_Idle_194 - 浮遊Rev
 Substitute_Idle_195 - 腰に手を当てる3Rev
+Substitute_Idle_196 - モデル立ち3
+Substitute_Idle_197 - サバイバルゲーム
+Substitute_Idle_198 - サバイバルゲームEX
+Substitute_Idle_199 - ブーケを持つ
+Substitute_Idle_200 - ブーケを持つEX
+Substitute_Idle_201 - くるりん
+Substitute_Idle_202 - ランスロット
+Substitute_Idle_203 - まっすぐ立つ
+Substitute_Idle_204 - ゴースト
+Substitute_Idle_205 - ゴーストEX
 Substitute_Idle_209 - たおやかRev
 Substitute_Idle_210 - 退屈Rev
 Substitute_Idle_211 - ぺたん座りRev
@@ -3135,6 +3158,11 @@ Substitute_Move_38 - 飛天御剣流
 Substitute_Move_39 - ジャイロランナー
 Substitute_Move_40 - 電車ごっこ
 Substitute_Move_41 - 箒に乗るRev
+Substitute_Move_42 - サバイバルゲーム
+Substitute_Move_43 - ブーケを持つ
+Substitute_Move_44 - ブーケを持つEX
+Substitute_Move_45 - くるりん
+Substitute_Move_46 - ランスロット
 Substitute_Sprint_0 - 標準
 Substitute_Sprint_1 - シンプル
 Substitute_Sprint_2 - シンプル2
@@ -3278,6 +3306,14 @@ Substitute_Sprint_160 - ふわふわ/C
 Substitute_Sprint_161 - ダークメイジ
 Substitute_Sprint_162 - 箒に乗るRev
 Substitute_Sprint_163 - エアボードRev
+Substitute_Sprint_164 - スライディング/B
+Substitute_Sprint_165 - サバイバルゲーム
+Substitute_Sprint_166 - サバイバルゲームEX
+Substitute_Sprint_167 - くるりん
+Substitute_Sprint_168 - ランスロット
+Substitute_Sprint_169 - 光翼/B
+Substitute_Sprint_170 - ゴースト
+Substitute_Sprint_171 - ゴーストEX
 Substitute_Glide_0 - 標準
 Substitute_Glide_1 - ミニグライダー
 Substitute_Glide_2 - ジェットパック
@@ -3417,6 +3453,10 @@ Substitute_Glide_156 - ダークメイジEX
 Substitute_Glide_157 - 箒に乗るRev
 Substitute_Glide_158 - エアボードRev
 Substitute_Glide_159 - スカイグラインドRev
+Substitute_Glide_160 - エアロダンス/B
+Substitute_Glide_161 - サバイバルゲーム
+Substitute_Glide_162 - ゴースト
+Substitute_Glide_163 - 光翼/B
 Substitute_Swim_0 - 標準
 Substitute_Swim_2 - クロール
 Substitute_Swim_3 - 潜水

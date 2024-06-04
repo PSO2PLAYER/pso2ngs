@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2024/4/10 7:14:03
-Filesize is: 761056 bytes
+ui_mainmode.text was created: 2024/6/5 7:16:19
+Filesize is: 766160 bytes
 
 Common
 Group 0
@@ -48,6 +48,7 @@ ErrorMackQuest - パーティーメンバーがクエスト内に揃っていな
 ErrorIgnoreQuest - このクエストは現在、受注できません。詳しくはプレイヤーズサイトをご確認ください。
 BlockType_01 - PSO2ブロック
 BlockType_02 - PSO2:NGSブロック
+BlockType_03 - 全シップマッチング中
 Hyphen - -
 All - すべて
 FreeSgScratch - 本日分の無料SGスクラッチを行うことができます。<br>確認を行いますか？
@@ -176,6 +177,7 @@ Popup_Equip_Subpalette - <pict ba_subp><pict 4space>サブパレット
 Popup_Equip_Fashion - <pict ba_cos><pict 4space>ファッション編集
 Popup_QuestMenue - クエストメニュー
 Popup_QuestCounter - <pict ba_questinfo><pict 4space>クエストカウンター
+Popup_LineDuel - <pict ba_ld><pict 4space>ラインストライク
 Operation_MenuCommon - メニュー配下のメニューガイドのコモン設定です。
 MenuEquipmentOpen - 選択中のアイテムを装備する
 MainMenu_Equip_WeaponPosition - <pict ba_positioning><pict 4space>武器納刀位置調整
@@ -1043,6 +1045,7 @@ MoveBlock_ErrorTitle - ブロック移動不可
 MoveBlock_ErrorMessage - 現在、特殊なエリアにいます。<br>このブロックには移動できません。
 BlockType_Different_01 - PSO2ブロックのため表示できません
 BlockType_Different_02 - PSO2:NGSブロックのため表示できません
+BlockType_Different_03 - 全シップマッチング中のため表示できません
 
 Group 1
 
@@ -1931,6 +1934,7 @@ StatusLabelSeasonPoint_24 - ニューイヤー'24シーズナルポイント
 StatusLabelSeasonPoint_25 - ウィンター'24シーズナルポイント
 StatusLabelSeasonPoint_26 - スプリング'24シーズナルポイント
 StatusLabelSeasonPoint_28 - 『NGS』3周年記念シーズナルポイント
+StatusLabelSeasonPoint_30 - 超・夢幻祭記念シーズナルポイント
 StatusLabelSeasonPointValue - $(1) /$(0)
 StatusLabelN-Meseta - <pict reb_meseta>メセタ
 StatusLabelFun - FUN
@@ -3973,6 +3977,7 @@ ForceNoTargetBossAtpUp - ロングレンジ<br>アドバンテージFo
 TechterNoTargetBossAtpUp - ロングレンジ<br>アドバンテージTe
 RangerLauncherWeakBulletExtend - ランチャーWB<br>タイムエクステンド
 GunnerChainFinishPartyPPGain - チェインフィニッシュ<br>パーティーPPゲイン
+FighterArtsImpact - ファイターアーツ<br>パスート
 
 Group 1
 
@@ -4956,7 +4961,6 @@ BraverRestaPPGain - レスタサイン使用時に、<br>PPが回復する。
 BraverKatanaAmbitionStrikeBack - フェアレスアティチュード発動後に、<br>最初に使用するPAの<br>PP消費量が減少する。<br><yellow>※カタナ専用<c>
 BraverCompoundbowSlideDodgeCounter - バレットボウイルードエクスパンドによる<br>回避成功時に、<br>通常攻撃を行うことで、<br>カウンターが発生する。<br><yellow>※バレットボウ専用<c>
 FighterLimitBreakFinishPPSave - リミットブレイクの効果終了時に、<br>一定時間、PP消費量が減少する。<br>リミットブレイクエンデュランスにより<br>終了した場合は発動しない。<br><yellow>※メインクラス／ファイター武器専用<c>
-FighterTDAltAccel - 通常攻撃の４段目やアクセルドライブ、<br>フォトンブラスト発動後の<br>特定タイミングで、<br>通常攻撃ボタンを押すことで、<br>高速移動をしながら攻撃を行う。<br><yellow>※ツインダガー専用<c>
 FighterDSWindExtra - カマイタチが、最大３段階に増加する。<br>３段階目のカマイタチをまとった状態で<br>デッドリーアーチャーを使用すると、<br>すべてのカマイタチが消費される。<br>また、スパイラルドライブを使用すると、<br>カマイタチが２段階目の状態になる。<br><yellow>※ダブルセイバー専用<c>
 FighterKnuckleAttackExtend - 方向入力を行わずに<br>通常攻撃の５段目を使用すると、<br>素早く叩きつけを行う攻撃に変化する。<br><yellow>※ナックル専用<c>
 HunterMassiveHunterAfterShield - マッシブハンターの効果終了時に、<br>シールドを付与する。<br>シールドはPA発動中のみ展開され、<br>受けるダメージを軽減し、<br>打ち上げや吹き飛ばしを防ぐ。<br>展開中に一定回数攻撃を受けると、<br>シールドは消滅する。
@@ -5008,6 +5012,8 @@ ForceReflectCounterShot - 攻撃の無効化成功後に、<br>最初に発動�
 RangerLauncherWeakBulletExtend - 武器アクションで付着させた<br>スティッキーボムの爆発、<br>フィアーイレイザー、<br>およびチャージしたディバインインパクトが<br>命中したときに、そのエネミーに<br>自分が当てたウィークバレットの<br>効果時間をリセットする。<br><yellow>※メインクラス／ランチャー専用<c>
 GunnerChainFinishPartyPPGain - チェインフィニッシュ発動時に、<br>チェイン数に応じて、<br>自分以外の同一パーティーの<br>キャラクターのPPを回復する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
 GunnerTMGAccel - 武器アクション発動後に、<br>特定のタイミングで<br>通常攻撃ボタンを押すことで、<br>２回まで上昇しながら攻撃を行う。<br><yellow>※メインクラス／ツインマシンガン専用<c>
+FighterArtsImpact - PAを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージが最大の状態でPAを当てたとき、<br>追加で攻撃が発生する。<br>一度のゲージ蓄積中、各PAの前半後半のうち<br>まだエネミーに当てていない攻撃の<br>ゲージ蓄積量が増加する。<br><yellow>※メインクラス／ファイター武器限定<c>
+FighterTDAltAccel - 通常攻撃の４段目や<br>アクセルドライブ、<br>ダガースピンカウンター、<br>フォトンブラスト発動後の<br>特定タイミングで、<br>通常攻撃ボタンを押すことで、<br>高速移動をしながら攻撃を行う。<br><yellow>※ツインダガー専用<c>
 
 Group 1
 
@@ -5498,6 +5504,11 @@ ChainPPGain1 - 99チェイン以下時回復量
 ChainPPGain2 - 119チェイン以下時回復量
 ChainPPGain3 - 149チェイン以下時回復量
 ChainPPGain4 - 150チェイン時回復量
+DownRateMain - ダウン時威力(メイン)
+DownRateSub - ダウン時威力(サブ)
+DownPPRateMain - ダウン時PP回復率(メイン)
+DownPPRateSub - ダウン時PP回復率(サブ)
+ChaseRecast - 追加攻撃のリキャスト
 
 Group 1
 
@@ -5985,21 +5996,22 @@ Title_SkipFunction - ゲームプレイスキップ<pict 4space><pict Arcscash>
 Title_SkipFunction_TwoLineGuide - キャラクターを成長させるさまざまな<pict 4space><pict Arcscash>アイテムが購入できます。
 SkipFunction - ゲームプレイスキップ<pict 4space><pict Arcscash>
 SubTitle_SkipFunction - ゲームプレイスキップ
-LevelSkip_EP1 - クラスレベル80化&適正装備セット<pict 4space><pict Arcscash>
+LevelSkip_EP1 - クラスレベルアップスキップ：Lv.80化<pict 4space><pict Arcscash>
 SkillPointSkip_EP1 - 『NGS』Ver.1全トレイニア踏破<pict 4space><pict Arcscash>
 SubTitle_LevelSkip_ClassSelect - クラス選択
 SubTitle_LevelSkip_Description - 機能詳細
 SubTitle_LevelSkip_ItemList - 入手アイテム
 Headline_Level - Lv.
-SubTitle_LevelSkip_EP1_Description_Text - 対象クラスのレベルが<yellow>Lv.$(0)<c>になり、<br>レベルに適した<yellow>装備アイテム<c>が入手できます。<br><br><yellow>※既にLv.$(0)以上の場合は変動しません。<c><br><br><yellow>※1キャラクターにつき、<br>　各クラス1回まで使用できます。<br>※使用後は、メインクラスが<br>　選択したクラスに変更されます。<br>※装備アイテムは、“運営倉庫”に送られます。<c>
+SubTitle_LevelSkip_EP1_Description_Text - 対象クラスのレベルが<yellow>Lv.$(0)<c>になります。<br><br><yellow>※既にLv.$(0)以上の場合は利用できません。<c><br><br><yellow>※1キャラクターにつき、<br>　各クラス1回まで使用できます。<br>※使用後は、メインクラスが<br>　選択したクラスに変更されます。<c><br>
 ItemName - $(0)
 ItemName_Stack - $(0) x $(1)
 ItemName_Grinded - $(0)＋$(1)
 Error_LevelSkip_Purchased - 購入済みのため、選択できません。
+Error_LevelSkip_LvOver - クラスレベルが、指定レベル以上のため選択できません。
 Error_Exception - 情報が取得できませんでした。<br>しばらくしてから、再度アクセスしてください。<br>その後も同様に発生する場合は<br>公式サイトのサポート窓口へお問い合わせください。
-LevelSkip_EP1_Path - <pict Arcscash><scarlet>AC消費コンテンツ<c><br>対象クラスのレベルが<yellow>Lv.$(0)<c>になり、<br>レベルに適した<yellow>装備アイテム<c>が入手できます。<br><br><yellow>※既にLv.$(0)以上の場合は変動しません。<c><br><br><yellow>“$(1)”<c>の<br>購入画面に進みますか？<br><br><yellow>※1キャラクターにつき、<br>　各クラス1回まで使用できます。<br>※使用後は、メインクラスが<br>　選択したクラスに変更されます。<br>※装備アイテムは、“運営倉庫”に送られます。<c>
+LevelSkip_EP1_Path - <pict Arcscash><scarlet>AC消費コンテンツ<c><br>対象クラスのレベルが<yellow>Lv.$(0)<c>になります。<br><br><yellow>“$(1)”<c>の<br>購入画面に進みますか？<br><br><yellow>※1キャラクターにつき、<br>　各クラス1回まで使用できます。<br>※使用後は、メインクラスが<br>　選択したクラスに変更されます。<c>
 Warning_LevelSkip_EP1_Path - $(0)はLv.$(1)以上のため、<br>これ以上レベルアップできません。<c><br>（現在のレベル：Lv.$(2)）<br><br><yellow>“$(3)”<c>の<br>購入画面に進んでもよろしいですか？
-Purchased_LevelSkip_EP1_Path - 選択したクラスがレベルアップしました。<br><br>$(0)　Lv.$(1)　⇒　Lv.$(2)<br><br>アイテムが、“運営倉庫”に送られました。<br><br><yellow>※“メインメニュー”の“アイテム”を選択し、<br>　ウインドウ上部の“アイテムパック”の表示を、<br>　“運営倉庫”に切り替えて確認してください。<c>
+Purchased_LevelSkip_EP1_Path - 選択したクラスがレベルアップしました。<br><br>$(0)　Lv.$(1)　⇒　Lv.$(2)
 Purchased_LevelSkip_EP1_Path_ItemOnly - 対象クラスに適したアイテムを、<br>“運営倉庫”に送りました。<br><br><yellow>※“メインメニュー”の“アイテム”を選択し、<br>　ウインドウ上部の“アイテムパック”の表示を、<br>　“運営倉庫”に切り替えて確認してください。<c>
 Error_SkillPointSkip_Purchased - 購入済みか、対象のスキルポイントを獲得済みのため選択できません。
 SkillPointSkip_EP1_Path - <pict Arcscash><scarlet>AC消費コンテンツ<c><br><yellow>“『NGS』Ver.1”<c>のあいだに配信された<br><yellow>“トレイニア（コクーン及びタワー）”<c>を<br>すべて攻略済みにして、<br><yellow>$(1)Pt<c>のスキルポイントを獲得します。<br><br><yellow>“$(0)”<c>の<br>購入画面に進みますか？<br><br><scarlet>※購入後に、自動的にログアウトします。<c><br><br><yellow>※攻略済みのトレイニアがある場合も、<br>　購入価格は変わりません。<br>※1アカウントにつき、1回まで使用できます。<br>※この機能の内容は、今後のアップデートにより、<br>　変更される場合があります。<c>
@@ -6301,6 +6313,8 @@ Bg_Chara14 - クッカ
 Bg_Chara15 - メリ
 Bg_Chara16 - グレン
 Bg_Chara17 - カヌイ
+Bg_Chara18 - ファリア
+Bg_Chara19 - ゼフェット
 Open_Title - 背景の使用条件
 Open_00 - 最初から使用可能
 Open_01 - 累計称号ポイント：$(0)pt
@@ -10254,6 +10268,7 @@ AreaName0000003 - バトルディア内部
 AreaName0000004 - トリニテス内部
 AreaName0000005 - トレイニアアドバンス内部
 AreaName0000006 - ルシエル
+AreaName0000007 - ネームレスシティ
 AreaName1110001 - エアリオタウン
 AreaName1110002 - セントラルシティ
 AreaName1110003 - マグナス山
@@ -10479,6 +10494,9 @@ AreaName023190 - 6章：偵察訓練を終えて
 AreaName023200 - 6章：ずっと一緒に
 AreaName024010 - 6章：いつまでも心はひとつ
 AreaName511040 - 6章：カヌイ④秘密のデータ
+AreaName023010 - 7章：知られざる領域
+AreaName027020 - 7章：ゼフェットからの依頼
+AreaName027170 - 7章：真のアークスたちへ
 
 Group 1
 
@@ -10504,6 +10522,7 @@ Group 0
 ReleaseGuild - ストーリーを進めることで使用可能になります。
 ReleaseMessege - $(0)の"$(1)"が解放されました。
 ReleaseMySpace - アーチェから依頼されるタスクを進めることで使用可能になります。
+ReleaseLineDuel - ヴィクトリアから依頼されるタスクを進めることで使用可能になります。
 
 Group 1
 
@@ -10688,6 +10707,8 @@ Contents_Babel_Start - QUEST START!!
 Contents_Babel_Clear - QUEST CLEAR!!
 Contents_GrowUp_Start - QUEST START!!
 Contents_GrowUp_Clear - QUEST CLEAR!!
+Contents_Cityship_Start - QUEST START!!
+Contents_Cityship_Clear - QUEST CLEAR!!
 
 Group 1
 
@@ -10800,6 +10821,7 @@ Group 0
 11411 - リージョン4-11411ダミーテキスト
 11412 - リージョン4-11412ダミーテキスト
 11413 - リージョン4-11413ダミーテキスト
+11420 - ネームレスシティ
 
 Group 1
 
@@ -11320,6 +11342,9 @@ Weather_Ash - 降灰
 Weather_Hot_blast - 熱暑
 Weather_Magma - 炎獄
 Weather_Phoenix - 火焔鳥
+City_Daytime - 晴れ（昼）
+City_Sunset - 晴れ（夕方）
+City_Trial - フォトン励起
 
 Group 1
 
@@ -11745,6 +11770,7 @@ Index_ValuableItems - 換金用アイテム
 Index_AutoSaleRarity - 自動売却するレアリティ
 Index_PresetSkills - プリセット能力あり
 Index_ColorVariant - カラーバリアント
+Index_Element - 特殊能力あり
 Setting_Valid - 使用する
 Setting_Invalid - 使用しない
 Setting_Involve - 自動売却する
@@ -11763,7 +11789,7 @@ Button_Change - 変更する
 Button_Cancel - キャンセル
 Button_Discard - 変更せず終了
 Explanation_AutoSale - ドロップしたアイテムを<br>自動で売却するかを設定します。<br><br>※設定はキャラクターごとに保存されます。<br><br>【自動売却の対象外となるアイテム】<br>・コンテナからドロップしたアイテム<br>・クエスト一時倉庫に送られたアイテム<br>・クエストクリア時の報酬アイテム<br>・トライアルの報酬アイテム
-Index_ExcludedItems - 自動売却の対象に含めるアイテム
+Index_ExcludedItems - レアリティ指定に関わらず自動売却するアイテム
 Toast_Update - 自動売却設定を更新しました。
 Explanation_Cancel - 自動売却設定に、変更された項目があります。<br>変更を反映せずに終了しますが、よろしいですか？
 DirectBuy_Premium - アイテム購入確認
@@ -11799,6 +11825,72 @@ Vitalgauge_Toast_PsnOn - バイタル表示を“PSN”のオンラインIDに�
 Vitalgauge_Toast_PsnOff - バイタル表示をキャラクター名に変更しました。
 Vitalgauge_PsnMode_NotPsn - <pict other_ps> $(0)
 Vitalgauge_PreviewLabel - プレビュー
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Casual
+Group 0
+LineDuel_RequestBattle - ラインストライクを申し込む
+LineDuelBattleRequestTitle - ラインストライクの対戦申請
+LineDuelBattleRequest_Confirm - $(0)に<br>ラインストライクの“フリーバトル”を<br>申し込みますか？<br><br>下記の欄に、<br>メッセージを書き込むことができます。
+LineDuelBattleRequest_DefaultMessage - ラインストライクで対戦しませんか？
+AnswerForm_Title - ラインストライクの対戦受付
+AnswerForm_Message - $(0)から<br>ラインストライクの“フリーバトル”を<br>申し込まれました。<br><br>対戦しますか？
+CharacterNameWithPSNID - $(0)($(1))
+AnswerForm_Accept - 対戦する
+AnswerForm_Reject - 対戦を断る
+Matching_Cancel - 長押しでマッチングをキャンセル
+LineDuel_Matching_Title_Text - マッチング中
+LineDuel_Matching_Type - マッチングカテゴリー
+LineDuel_Matching_Type_Casual - アンレートバトル
+LineDuel_Matching_Type_Rank - レートバトル
+LineDuel_Matching_State - マッチング状況
+LineDuel_Matching_Time - マッチング経過時間
+LineDuel_TimeNum - $(0):$(1)
+LineDuel_ItemDetail_Element - 属性
+LineDuel_ItemDetail_Cost - PP
+LineDuel_ItemDetail_Attack - 戦力値
+LineDuel_ItemDetail_Skill - スキル
+LineDuel_ItemDetailsStatus - 登録状況：$(0) / $(1)<br>$(2)
+LineDuel_ItemDetailsNoRegister - 　1回登録するとアカウント内のすべてのキャラクターで<br>　利用可能になります。（最大3枚まで）
+LineDuel_ItemDetailsRegistered - 　アカウント内のすべてのキャラクターで利用可能です。
+LineDuel_MessageTitle - メッセージ
+LineDuel_CardExplanationDummy - $(0)<br>$(1)<br>$(2)
+LineDuel_AccessoryExplanationDummy - $(0)<br>$(1)
+LineDuel_VoiceActor - CV：$(0)
+LineDuel_Illustrator - Art：$(0)
+LineDuel_CharaNameTitle - キャラクター名
+LineDuel_FreeBattleTitle - フリーバトルの受付確認
+LineDuel_FreeBattleWaitTitle - フリーバトルの返答待ち
+LineDuel_FreeBattleWaitMessage - 対戦相手の返答を待っています。<br><br><yellow>※ウィンドウを閉じると、申請をキャンセルします。<c>
+LineDuel_FreeBattleCancelToast - フリーバトルの申請をキャンセルしました。
+LineDuel_FreeBattleCanceledToast - フリーバトルの申請がキャンセルされました。
+LineDuel_InvitationEmptyText - フリーバトルの申請はありません。
+LineDuel_NotInPlayableArea - アークス拠点、またはクリエイティブスペースでのみ選択可能です。
+LineDuel_WatchingBattle - ラインストライクの観戦
+LineDuel_WatchingBattleTitle - ラインストライクの観戦
+LineDuel_WatchingBattle_Confirm - 進行中のバトルを観戦しますか？
+LineDuel_WatchingDisableReasonNoPlay - ラインストライクのバトルは行われていません。
+LineDuel_WatchingDisableReasonNpc - 対NPCバトルの観戦はできません。
+LineDuel_Invite_Error - 対戦台に座っているときは、反対側の席に座ったプレイヤーとのみバトルが行えます。
+LineDuel_Watching_Error - 選択したバトルは終了しているため観戦できません。
 
 Group 1
 
@@ -12300,6 +12392,10 @@ VitalDesign_Favorite_Add - お気に入りに登録しました。（$(0)/$(1)�
 VitalDesign_Favorite_Add_Error - 登録限界数に達しているため、登録できませんでした（$(0)/$(1)）
 VitalDesign_Favorite_Delete - お気に入りから外しました。（$(0)/$(1)）
 NoVitalDesignMessage - 変更可能なデザインがありません
+VitalDesignSetting_Title - バイタルゲージ設定
+VitalDesignSetting_Item1 - HP/PPゲージの表示
+VitalDesignSetting_GaugeOn - 表示する
+VitalDesignSetting_GaugeOff - 表示しない
 
 Group 1
 

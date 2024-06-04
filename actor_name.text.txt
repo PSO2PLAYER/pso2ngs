@@ -1,5 +1,5 @@
-actor_name.text was created: 2024/4/10 7:14:03
-Filesize is: 64480 bytes
+actor_name.text was created: 2024/6/5 7:16:19
+Filesize is: 64912 bytes
 
 Enemy
 Group 0
@@ -338,6 +338,15 @@ r05_rem_btl_ba - ルイノ・ビブラス
 r05_rem_des_ba - ルイノ・エクゼクル
 r01_unk_emp_1ng - アニバ・エンペラッピー
 r01_unk_emp_1ngbi - アニバ・グレトラッピー
+r05_stl_flo_ba - レヴィーデ
+r05_stl_gos_ba - ペイヴル
+r05_stl_hrp_ba1 - パヴォリム
+r05_stl_tig_ba1 - アグネド
+r05_stl_fan_ba1 - グラティガル
+r05_stl_ars_ax - ヴァルヴィラン・アクス
+r05_stl_ars_st - ヴァルヴィラン・ウォンド
+r05_stl_sls_ex - ダークファルス・ソウラス
+r05_rem_ggr_ba - ルイノ・グリフォン
 
 Group 1
 
