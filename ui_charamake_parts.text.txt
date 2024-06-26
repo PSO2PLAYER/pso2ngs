@@ -1,5 +1,5 @@
-ui_charamake_parts.text was created: 2024/6/5 7:16:19
-Filesize is: 1045456 bytes
+ui_charamake_parts.text was created: 2024/6/26 10:23:53
+Filesize is: 1045472 bytes
 
 arm
 Group 0
@@ -21736,7 +21736,7 @@ Group 0
 11_voice_cman925 - クロフォード/山口 勝平
 11_voice_cman926 - ゼフェット/楠 大典
 11_voice_cman927 - 長尾景/長尾 景
-11_voice_cman928 - ルルーシュ/福山 潤
+11_voice_cman928 - ルルーシュ・ランペルージ/福山 潤
 11_voice_cman929 - 枢木スザク/櫻井 孝宏
 11_voice_cman93 - 追加ボイス３２/柿原 徹也
 11_voice_cman94 - 追加ボイス３３/神谷 浩史
@@ -22596,7 +22596,7 @@ Group 0
 11_voice_man925 - クロフォード/山口 勝平
 11_voice_man926 - ゼフェット/楠 大典
 11_voice_man927 - 長尾景/長尾 景
-11_voice_man928 - ルルーシュ/福山 潤
+11_voice_man928 - ルルーシュ・ランペルージ/福山 潤
 11_voice_man929 - 枢木スザク/櫻井 孝宏
 11_voice_man93 - 追加ボイス３２/柿原 徹也
 11_voice_man94 - 追加ボイス３３/神谷 浩史
