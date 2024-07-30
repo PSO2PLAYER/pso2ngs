@@ -1,5 +1,5 @@
-actor_name.text was created: 2024/6/5 7:16:19
-Filesize is: 64912 bytes
+actor_name.text was created: 2024/7/31 7:11:52
+Filesize is: 69760 bytes
 
 Enemy
 Group 0
@@ -347,6 +347,9 @@ r05_stl_ars_ax - ヴァルヴィラン・アクス
 r05_stl_ars_st - ヴァルヴィラン・ウォンド
 r05_stl_sls_ex - ダークファルス・ソウラス
 r05_rem_ggr_ba - ルイノ・グリフォン
+r05_stl_dnt_ex - ダークファルス・ダリオン
+r05_rem_yor_ba - ルイノ・グンネガム
+r05_rem_ace_ba - ルイノ・アンジュール
 
 Group 1
 
@@ -1079,6 +1082,76 @@ Thunder01_Pattern3 - 帯電状態で発動する非チャージ時の落雷威�
 Dark01_Pattern1 - 非チャージ時の爆発の攻撃範囲拡大／弾速上昇<br>消費PP<yellow>$(0)<c>
 Dark01_Pattern2 - チャージ時の攻撃が1つのフォトン弾に集約／<br>低速で複数回ヒットする攻撃に変化<br>消費PP<yellow>$(0)<c>
 Dark01_Pattern3 - 暗黒珠のストック数が3つの状態での非チャージ時の<br>威力<yellow>$(0)<c>／複合属性テクニックのゲージ蓄積量<yellow>$(1)<c><br>消費PP<yellow>$(2)<c>
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+AM
+Group 0
+<ArsenalModule>Sword:NormalAttack - ガルム：通常攻撃
+<ArsenalModule>Sword:PA - アブソリュートシャター
+<ArsenalModule>Sword:WA - ガルム：武器アクション
+<ArsenalModule>Railgun:NormalAttack - ハイドラ：通常攻撃
+<ArsenalModule>Railgun:PA - ブレッシングナパーム
+<ArsenalModule>Railgun:WA - ハイドラ：武器アクション
+<ArsenalModule>Broom:NormalAttack - スカイラ：通常攻撃
+<ArsenalModule>Broom:PA - ミーティアライダー
+<ArsenalModule>Broom:WA - スカイラ：武器アクション
+<ArsenalModule>Scythe:NormalAttack - ニズヘッグ：通常攻撃
+<ArsenalModule>Scythe:PA - ワールウィンド
+<ArsenalModule>Scythe:WA - ニズヘッグ：武器アクション
+<ArsenalModule>Skill:Equip - M.A.R.S.
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+AMExplanation
+Group 0
+<ArsenalModule>Sword:NormalAttack - “VA-1SRM ガルム”用の通常攻撃。<br>大剣型の兵装を振り、最大４段の攻撃を行う。<br>攻撃をエネミーに当てることで、HPが回復する。
+<ArsenalModule>Sword:PA - “VA-1SRM ガルム”用のフォトンアーツ。<br>素早くエネミーに接近し、強力な攻撃を行う。<br>PAボタンを長押しすると、PPをすべて消費して、<br>高速移動後に周囲を薙ぎ払う攻撃を行う。<br>高速移動中は、エネミーの攻撃を無効化する。
+<ArsenalModule>Sword:WA - “VA-1SRM ガルム”用の武器アクション。<br>前方に斬撃を飛ばす。<br>攻撃が発生する瞬間に、エネミーの攻撃を無効化する。<br>武器アクションボタンを長押しすることで、<br>“ガルムデトネーション”を発動する。
+<ArsenalModule>Railgun:NormalAttack - “VA-3LRM ハイドラ”用の通常攻撃。<br>大砲型の兵装からフォトン弾を放ち、遠距離攻撃を行う。<br>通常攻撃ボタンを長押しすることで、<br>徐々に連射速度が上昇する。<br>連射速度が最大になると、強力な一撃を放つ。
+<ArsenalModule>Railgun:PA - “VA-3LRM ハイドラ”用のフォトンアーツ。<br>着弾地点で爆発し、<br>自分以外のキャラクターの<br>HPを回復するフィールドを展開する弾を放つ。<br>PAボタンを長押しすると、PPをすべて消費して、<br>自分以外のキャラクターの<br>PP消費量を軽減するフィールドを展開する弾を放つ。
+<ArsenalModule>Railgun:WA - “VA-3LRM ハイドラ”用の武器アクション。<br>フォトンを充填し、<br>次に放つハイドラの通常攻撃を、<br>連射速度が上昇した状態から開始する。<br>武器アクションボタンを長押しすることで、<br>“ハイドラターミネーション”を発動する。
+<ArsenalModule>Broom:NormalAttack - “VA-4XRM スカイラ”用の通常攻撃。<br>長杖型の兵装を振るうことで、<br>異空間からフォトンの光線を放ち、最大３段の攻撃を行う。<br>通常攻撃ボタンを長押しすることで、<br>兵装を変形させ、<br>高速移動しながらフォトンの光線を放つ。
+<ArsenalModule>Broom:PA - “VA-4XRM スカイラ”用のフォトンアーツ。<br>M.A.R.S.を変形させ、高速で移動しながら、<br>周囲のエネミーにフォトンの光線を浴びせかける。<br>PAボタンを長押しすることで、<br>PPが切れるまで変形状態を維持する。
+<ArsenalModule>Broom:WA - “VA-4XRM スカイラ”用の武器アクション。<br>前方にフォトンの爆発弾を放つ。<br>武器アクションボタンを長押しすることで、<br>“スカイラリタリエーション”を発動する。
+<ArsenalModule>Scythe:NormalAttack - “VA-2MRM ニズヘッグ”用の通常攻撃。<br>大鎌型の兵装を振り、最大５段の攻撃を行う。<br>通常攻撃ボタンを長押しすると、<br>連続して強力な攻撃を行う。<br>攻撃が発生する瞬間に、エネミーの攻撃を無効化する。
+<ArsenalModule>Scythe:PA - “VA-2MRM ニズヘッグ”用のフォトンアーツ。<br>横方向に高速回転し、周囲のエネミーを斬りつける。<br>PAボタンを長押しすると、PPをすべて消費して、<br>高速回転後にエネミーを切り裂く攻撃を行う。<br>最後の斬撃が命中すると、<br>一定時間ニズヘッグの能力が上昇する。<br>PA発動後も、ニズヘッグの通常攻撃の段数を維持する。<br>攻撃中に、エネミーの攻撃を無効化する。
+<ArsenalModule>Scythe:WA - “VA-2MRM ニズヘッグ”用の武器アクション。<br>前方に斬撃を連続で飛ばし、<br>最後にチップソー型のエネルギー弾を放つ。<br>武器アクションボタンを長押しすることで、<br>“ニズヘッグエクスキューション”を発動する。
+<ArsenalModule>Skill:Equip - 時間経過でバッテリーにエネルギーを蓄積し、<br>25%以上チャージすると、<br>M.A.R.S.を呼び出すことができる。<br>M.A.R.S.装備中に再度ボタンを押すと、<br>装備が解除される。
 
 Group 1
 

@@ -1,5 +1,5 @@
-common.text was created: 2024/6/5 7:16:19
-Filesize is: 183552 bytes
+common.text was created: 2024/7/31 7:11:52
+Filesize is: 186480 bytes
 
 Block
 Group 0
@@ -1563,6 +1563,20 @@ LobbyAction_2332beachchair - ビーチチェアに座る2
 LobbyAction_attihoire - アッチ向いてホイ＋
 LobbyAction_rapperre - ラッパー＋
 LobbyAction_2297barrier - バリアを張る
+LobbyAction_2322shadow - 陰の実力者になりたくて！
+LobbyAction_holdknees - 座る１１
+LobbyAction_victory - トロフィーを掲げる
+LobbyAction_duelrate - ラインストライク
+LobbyAction_2281deckbrush - デッキブラシ
+LobbyAction_2353sf - シャングリラ・フロンティア
+LobbyAction_2354sf - シャングリラ・フロンティア2
+LobbyAction_2355sf - シャングリラ・フロンティア3
+LobbyAction_2311machinegun - 武器反映ポーズ5
+LobbyAction_2328bow - 武器反映ポーズ6
+LobbyAction_washingback - 背中を洗う
+LobbyAction_2300help - 抱きかかえる
+LobbyAction_2337together - なかよしポーズ2
+LobbyAction_2331catpose - ネコポーズ2
 LobbyAction_fgoo - グー
 LobbyAction_foyayubi - 親指
 LobbyAction_fhitosashi - 人差し指
@@ -1653,6 +1667,7 @@ LobbyActionCategory_34 - ロビアク：追加16
 LobbyActionCategory_36 - ロビアク：追加17
 LobbyActionCategory_38 - ロビアク：追加18
 LobbyActionCategory_39 - ロビアク：追加19
+LobbyActionCategory_41 - ロビアク：追加20
 LobbyActionCategory_19 - ロビアク：ポーズ1
 LobbyActionCategory_20 - ロビアク：ポーズ2
 LobbyActionCategory_21 - ロビアク：ポーズ3
@@ -1671,6 +1686,7 @@ LobbyActionCategory_31 - ロビアク：コラボ1
 LobbyActionCategory_32 - ロビアク：コラボ2
 LobbyActionCategory_33 - ロビアク：コラボ3
 LobbyActionCategory_37 - ロビアク：コラボ4
+LobbyActionCategory_42 - ロビアク：コラボ5
 LobbyActionCategory_2 - ロビアク：人文字
 LobbyActionCategory_3 - フォトンチェア
 LobbyAction_MonomanePayAction - このロビーアクションの実行には、対応チケットが必要です。
@@ -1696,6 +1712,7 @@ LobbyActionCategoryTab_34 - $(0).追加16
 LobbyActionCategoryTab_36 - $(0).追加17
 LobbyActionCategoryTab_38 - $(0).追加18
 LobbyActionCategoryTab_39 - $(0).追加19
+LobbyActionCategoryTab_41 - $(0).追加20
 LobbyActionCategoryTab_19 - $(0).ポーズ1
 LobbyActionCategoryTab_20 - $(0).ポーズ2
 LobbyActionCategoryTab_21 - $(0).ポーズ3
@@ -1714,6 +1731,7 @@ LobbyActionCategoryTab_31 - $(0).コラボ1
 LobbyActionCategoryTab_32 - $(0).コラボ2
 LobbyActionCategoryTab_33 - $(0).コラボ3
 LobbyActionCategoryTab_37 - $(0).コラボ4
+LobbyActionCategoryTab_42 - $(0).コラボ5
 LobbyActionCategoryTab_2 - $(0).人文字
 LobbyActionCategoryTab_3 - $(0).フォトンチェア
 LobbyActionCategoryTab_Used - 最近使ったもの
@@ -3062,10 +3080,25 @@ Substitute_Idle_202 - ランスロット
 Substitute_Idle_203 - まっすぐ立つ
 Substitute_Idle_204 - ゴースト
 Substitute_Idle_205 - ゴーストEX
+Substitute_Idle_206 - クラウチングスタート
+Substitute_Idle_207 - ピアッシング
+Substitute_Idle_208 - シャドウ
 Substitute_Idle_209 - たおやかRev
 Substitute_Idle_210 - 退屈Rev
 Substitute_Idle_211 - ぺたん座りRev
 Substitute_Idle_212 - 手を振るRev
+Substitute_Idle_213 - 和装フォーム
+Substitute_Idle_214 - 無重力
+Substitute_Idle_215 - 立ちポーズ
+Substitute_Idle_216 - ガンスリンガー
+Substitute_Idle_217 - ガンスリンガーEX
+Substitute_Idle_218 - 立ちポーズ2
+Substitute_Idle_219 - 魔法詠唱
+Substitute_Idle_220 - 魔法詠唱EX
+Substitute_Idle_221 - 花びら/B
+Substitute_Idle_222 - 腰に手を当てる4
+Substitute_Idle_223 - ハンディープロペラ
+Substitute_Idle_224 - 無重力EX
 Substitute_Jump_0 - 標準
 Substitute_Jump_1 - シンプル
 Substitute_Jump_2 - シンプル2
@@ -3092,6 +3125,7 @@ Substitute_Jump_24 - 直立浮遊
 Substitute_Jump_25 - ジャイロランナー
 Substitute_Jump_26 - スーパーヒーロー
 Substitute_Jump_27 - シノビ
+Substitute_Jump_28 - シャドウ
 Substitute_Landing_0 - 標準
 Substitute_Landing_1 - シンプル
 Substitute_Landing_2 - シンプル2
@@ -3163,6 +3197,11 @@ Substitute_Move_43 - ブーケを持つ
 Substitute_Move_44 - ブーケを持つEX
 Substitute_Move_45 - くるりん
 Substitute_Move_46 - ランスロット
+Substitute_Move_47 - ピアッシング
+Substitute_Move_49 - 和装フォーム
+Substitute_Move_50 - ガンスリンガー
+Substitute_Move_51 - 魔法詠唱
+Substitute_Move_52 - ハンディープロペラ
 Substitute_Sprint_0 - 標準
 Substitute_Sprint_1 - シンプル
 Substitute_Sprint_2 - シンプル2
@@ -3314,6 +3353,16 @@ Substitute_Sprint_168 - ランスロット
 Substitute_Sprint_169 - 光翼/B
 Substitute_Sprint_170 - ゴースト
 Substitute_Sprint_171 - ゴーストEX
+Substitute_Sprint_172 - ピアッシング
+Substitute_Sprint_173 - ピアッシングEX
+Substitute_Sprint_174 - シャドウ
+Substitute_Sprint_175 - 無重力
+Substitute_Sprint_177 - ガンスリンガー
+Substitute_Sprint_178 - ガンスリンガーEX
+Substitute_Sprint_179 - 魔法詠唱
+Substitute_Sprint_180 - 魔法詠唱EX
+Substitute_Sprint_181 - ハンディープロペラ
+Substitute_Sprint_182 - ハンディープロペラEX
 Substitute_Glide_0 - 標準
 Substitute_Glide_1 - ミニグライダー
 Substitute_Glide_2 - ジェットパック
@@ -3457,6 +3506,15 @@ Substitute_Glide_160 - エアロダンス/B
 Substitute_Glide_161 - サバイバルゲーム
 Substitute_Glide_162 - ゴースト
 Substitute_Glide_163 - 光翼/B
+Substitute_Glide_164 - ピアッシング
+Substitute_Glide_165 - ピアッシングEX
+Substitute_Glide_166 - 無重力
+Substitute_Glide_167 - 無重力EX
+Substitute_Glide_168 - ガンスリンガー
+Substitute_Glide_169 - 魔法詠唱
+Substitute_Glide_170 - ハンディープロペラ
+Substitute_Glide_171 - ハンディープロペラEX
+Substitute_Glide_172 - シャドウ
 Substitute_Swim_0 - 標準
 Substitute_Swim_2 - クロール
 Substitute_Swim_3 - 潜水
@@ -3471,6 +3529,7 @@ Substitute_Swim_11 - ペンギン
 Substitute_Swim_12 - イースターエッグ
 Substitute_Swim_13 - シノビ
 Substitute_Swim_14 - サーフィンRev
+Substitute_Swim_16 - バナナボート/B
 
 Group 1
 

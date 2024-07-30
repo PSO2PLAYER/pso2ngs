@@ -1,5 +1,5 @@
-ui_tutorial_reb.text was created: 2024/6/5 7:16:19
-Filesize is: 18688 bytes
+ui_tutorial_reb.text was created: 2024/7/31 7:11:52
+Filesize is: 18832 bytes
 
 TitleName
 Group 0
@@ -345,6 +345,9 @@ tut_006684 - ネームレスシティ居住区画調査
 tut_006686 - ストーリー７章
 tut_006687 - 全特殊能力移植
 tut_006688 - EX特殊能力移植
+tut_006689 - プリセット能力の追加
+tut_006690 - プリセット能力の移植
+tut_006691 - M.A.R.S.
 
 Group 1
 

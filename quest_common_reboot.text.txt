@@ -1,5 +1,5 @@
-quest_common_reboot.text was created: 2024/6/5 7:16:19
-Filesize is: 62912 bytes
+quest_common_reboot.text was created: 2024/7/31 7:11:52
+Filesize is: 63968 bytes
 
 CocoonFail
 Group 0
@@ -1075,6 +1075,16 @@ GrowUpQuest_DownDamageBuff1 - ダウン中のエネミーへの攻撃威力上�
 GrowUpQuest_DownDamageBuff2 - ダウン中のエネミーへの攻撃威力上昇　Lv２
 GrowUpQuest_DownDamageBuff3 - ダウン中のエネミーへの攻撃威力上昇　Lv３
 GrowUpQuest_DownDamageBuff4 - ダウン中のエネミーへの攻撃威力上昇　Lv４
+GrowUpQuest_ArsenalModuleGaugeBuff - M.A.R.S.バッテリー自然回復量増加
+GrowUpQuest_ArsenalModuleGaugeBuff1 - M.A.R.S.バッテリー自然回復量増加　Lv１
+GrowUpQuest_ArsenalModuleGaugeBuff2 - M.A.R.S.バッテリー自然回復量増加　Lv２
+GrowUpQuest_ArsenalModuleGaugeBuff3 - M.A.R.S.バッテリー自然回復量増加　Lv３
+GrowUpQuest_ArsenalModuleGaugeBuff4 - M.A.R.S.バッテリー自然回復量増加　Lv４
+GrowUpQuest_ArsenalModuleDamageBuff - M.A.R.S.攻撃威力上昇
+GrowUpQuest_ArsenalModuleDamageBuff1 - M.A.R.S.攻撃威力上昇　Lv１
+GrowUpQuest_ArsenalModuleDamageBuff2 - M.A.R.S.攻撃威力上昇　Lv２
+GrowUpQuest_ArsenalModuleDamageBuff3 - M.A.R.S.攻撃威力上昇　Lv３
+GrowUpQuest_ArsenalModuleDamageBuff4 - M.A.R.S.攻撃威力上昇　Lv４
 GrowUpQuest_S_PhotonArtsBuff - <yellow>PA/テクニック命中時に追加ダメージ<c>
 GrowUpQuest_S_PhotonArtsBuff1 - PA/テクニック命中時に追加ダメージ
 GrowUpQuest_S_GlideAttackBuff - <yellow>ダイブアタック威力/ダウン値上昇<c>
@@ -1157,6 +1167,7 @@ EnemyGrowUpQuest_SendClient_PaTechniqueAtpDownBuff1_80 - <yellow>PA/テクニッ
 EnemyGrowUpQuest_HPUp50 - <yellow>最大HP＋50%<c>
 EnemyGrowUpQuest_HPUp100 - <yellow>最大HP＋100%<c>
 EnemyGrowUpQuest_HPUp150 - <yellow>最大HP＋150%<c>
+EnemyGrowUpQuest_HPUp180 - <yellow>最大HP＋180%<c>
 EnemyGrowUpQuest_HPUp200 - <yellow>最大HP＋200%<c>
 EnemyGrowUpQuest_HPUp250 - <yellow>最大HP＋250%<c>
 EnemyGrowUpQuest_HPUp300 - <yellow>最大HP＋300%<c>

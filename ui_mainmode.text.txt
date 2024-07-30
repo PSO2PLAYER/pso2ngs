@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2024/6/26 10:23:58
-Filesize is: 766160 bytes
+ui_mainmode.text was created: 2024/7/31 7:11:52
+Filesize is: 783824 bytes
 
 Common
 Group 0
@@ -178,6 +178,7 @@ Popup_Equip_Fashion - <pict ba_cos><pict 4space>ファッション編集
 Popup_QuestMenue - クエストメニュー
 Popup_QuestCounter - <pict ba_questinfo><pict 4space>クエストカウンター
 Popup_LineDuel - <pict ba_ld><pict 4space>ラインストライク
+Popup_SelfyMode - <pict ba_selfymode><pict 4space>かんたん撮影モード
 Operation_MenuCommon - メニュー配下のメニューガイドのコモン設定です。
 MenuEquipmentOpen - 選択中のアイテムを装備する
 MainMenu_Equip_WeaponPosition - <pict ba_positioning><pict 4space>武器納刀位置調整
@@ -352,6 +353,8 @@ Weapon_CoordinateZ - （Z：$(0)）
 MainMenu_Quest_BoxGacha - <pict ba_boxg><pict 4space>リワードボックス
 MainMenu_Quest_BoxGacha_Close - 現在利用可能なリワードボックスはありません。
 MainMenu_Quest_BoxGacha_Second_Guide - 対象タスクの達成により入手できるメダルを使用することで、アイテムを獲得できます。
+Category_ArsenalModuleCounter - M.A.R.S.パレット
+Category_ArsenalModulePalette - <pict ba_asemo><pict 4space>M.A.R.S.パレット
 
 Group 1
 
@@ -2424,9 +2427,9 @@ CostumeHint - コスチュームを装備できるスロットです。
 Parts1Hint - ボディパーツを装備できるスロットです。
 Parts2Hint - アームパーツを装備できるスロットです。
 Parts3Hint - レッグパーツを装備できるスロットです。
-Addon1Hint - 防具、またはリアユニットを装備できるスロットです
-Addon2Hint - 防具、またはアームユニットを装備できるスロットです
-Addon3Hint - 防具、またはレッグユニットを装備できるスロットです
+Addon1Hint - 防具を装備できるスロットです
+Addon2Hint - 防具を装備できるスロットです
+Addon3Hint - 防具装備できるスロットです
 Ring1Hint - Lリングを装備できるスロットです。
 Ring2Hint - Rリングを装備できるスロットです。
 FashionHint - コスチュームを装備できるスロットです。
@@ -2519,9 +2522,9 @@ Delete - 外す
 FailEquip - 装備不可
 MainConfigHint - 武器パレットのコピーや貼り付け
 SubConfigHint - サブパレットのコピーや貼り付け
-WeaponSlotHint - 武器を装備できるスロット<br>（武器パレットの$(0)スロット目）
-MainSlotHint - PA（フォトンアーツ）/テクニックを<br>セットすることができるスロットです。
-SubSlotHint - テクニック、クラススキル、消費アイテムなどを<br>セットするスロット
+WeaponSlotHint - 武器を装備できるスロットです<br>（武器パレットの$(0)スロット目）
+MainSlotHint - PA（フォトンアーツ）/テクニックを<br>セットすることができるスロットです
+SubSlotHint - テクニック、クラススキル、消費アイテムなどを<br>セットするスロットです
 IndicateTextMain - 武器パレットには、<yellow>武器<c>/<c 00ffff>PA（フォトンアーツ）<c>/<green>テクニック<c>を、<c ff007f>タブから選んで<c>セット（装備）できます。
 IndicateTextSub - サブパレットには、<yellow>消費アイテム<c>/<c 00ffff>クラススキル<c>/<green>PA・テクニック<c>を、<c ff007f>タブから選んで<c>セットできます。
 IndicateTextEquip - 防具パレットには、<yellow>ユニット<c>/<c 00ffff>コスチューム（パーツ）<c>/<green>リング<c>を、<c ff007f>タブから選んで<c>セット（装備）できます。
@@ -2591,6 +2594,27 @@ SideChangeHint - パレット表示の表裏を切り替える
 WeaponActionError - この武器は選択したアクションに対応していません
 GaugePAError - 後継クラスでは解式PAを使用できません。
 NoGaugePAError - この武器では解式PAを使用できません。
+Mars_main1 - Main1
+Mars_main2 - Main2
+Mars_sub - Sub
+Mars_Actionfront - Front
+Mars_ActionBack - Back
+Mars_Skilltree - M.A.R.S.スキルリスト設定
+Mars_Skilltree_btn - リストを選択
+Mars_Skilltree_title - スキルリスト選択
+Mars_Voice - サポートCOMボイス設定
+Mars_Voicelabel1 - COMボイス再生
+Mars_Voicelabel2 - COMボイス言語
+Mars_Voicelabel1_ON - 再生する
+Mars_Voicelabel1_OFF - 再生しない
+Mars_Voicelabel2_Custom1 - 英語
+Mars_Voicelabel2_Custom2 - 日本語
+Mars_Setlabel - $(0).セット<pict 4space>$(0)
+Mars_Balloon1 - すべて表示
+Mars_Balloon2 - M.A.R.S.メイン兵装1
+Mars_Balloon3 - M.A.R.S.メイン兵装2
+Mars_Inoperable_ToastMessage - この操作は、アークス拠点でのみ可能です。
+Mars_Balloon4 - M.A.R.S.のアクションを<br>セットすることができるスロットです
 
 Group 1
 
@@ -2935,6 +2959,8 @@ RebootText002 - スキルポイントの割り振りを行います。<br>よろ
 RebootText003 - スキルポイントが不足しています。
 RebootText004 - 変更を破棄します。<br>よろしいですか？
 ShowClassTutorial - ヘルプを表示
+Title_SkillAcquisition - スキルポイント
+Message_SkillAcquisitionLack - M.A.R.S.スキルポイントが不足しています。
 
 Group 1
 
@@ -5009,11 +5035,12 @@ ForceNoTargetBossAtpUp - 自身を狙っていないボスエネミーに、<br>
 TechterNoTargetBossAtpUp - 自身を狙っていないボスエネミーに、<br>PAとテクニックで与えるダメージが<br>増加する。<br><yellow>※メインクラス／タリス専用<c>
 HunterPartisanVolgraptorShortRecast - 攻撃の無効化成功時に、<br>ヴォルグラプターの<br>再使用が可能になるまでの時間を短縮する。<br>ただし、再使用が可能になるまでのあいだに<br>時間を短縮できる回数には上限がある。<br><yellow>※メインクラス／パルチザン専用<c>
 ForceReflectCounterShot - 攻撃の無効化成功後に、<br>最初に発動するテクニックに<br>同じ属性の法撃弾による攻撃を追加する。<br><yellow>※ロッド専用<c>
+ArsenalModule - 時間経過でバッテリーにエネルギーを蓄積し、<br>25%以上チャージすると、<br>M.A.R.S.を呼び出すことができる。<br>M.A.R.S.装備中に再度ボタンを押すと、<br>装備が解除される。
 RangerLauncherWeakBulletExtend - 武器アクションで付着させた<br>スティッキーボムの爆発、<br>フィアーイレイザー、<br>およびチャージしたディバインインパクトが<br>命中したときに、そのエネミーに<br>自分が当てたウィークバレットの<br>効果時間をリセットする。<br><yellow>※メインクラス／ランチャー専用<c>
 GunnerChainFinishPartyPPGain - チェインフィニッシュ発動時に、<br>チェイン数に応じて、<br>自分以外の同一パーティーの<br>キャラクターのPPを回復する。<br><yellow>※メインクラス／ツインマシンガン専用<c>
 GunnerTMGAccel - 武器アクション発動後に、<br>特定のタイミングで<br>通常攻撃ボタンを押すことで、<br>２回まで上昇しながら攻撃を行う。<br><yellow>※メインクラス／ツインマシンガン専用<c>
-FighterArtsImpact - PAを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージが最大の状態でPAを当てたとき、<br>追加で攻撃が発生する。<br>一度のゲージ蓄積中、各PAの前半後半のうち<br>まだエネミーに当てていない攻撃の<br>ゲージ蓄積量が増加する。<br><yellow>※メインクラス／ファイター武器限定<c>
 FighterTDAltAccel - 通常攻撃の４段目や<br>アクセルドライブ、<br>ダガースピンカウンター、<br>フォトンブラスト発動後の<br>特定タイミングで、<br>通常攻撃ボタンを押すことで、<br>高速移動をしながら攻撃を行う。<br><yellow>※ツインダガー専用<c>
+FighterArtsImpact - PAを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージが最大の状態でPAを当てたとき、<br>追加で攻撃が発生する。<br>一度のゲージ蓄積中、各PAの前半後半のうち<br>まだエネミーに当てていない攻撃の<br>ゲージ蓄積量が増加する。<br><yellow>※メインクラス／ファイター武器専用<c>
 
 Group 1
 
@@ -5509,6 +5536,20 @@ DownRateSub - ダウン時威力(サブ)
 DownPPRateMain - ダウン時PP回復率(メイン)
 DownPPRateSub - ダウン時PP回復率(サブ)
 ChaseRecast - 追加攻撃のリキャスト
+OverHeatAtpRate - 1段階毎の威力
+OverHeatRegainRate - 1段階毎のHP回復率
+ScytheMarkerDamageReduction - 1段階毎の被ダメージ率
+MARSGaugeAdd - M.A.R.S.稼働時間延長
+DispAtp15Rate - 威力
+DispAtp16Rate - 威力(一部エネミー時)
+MoveSpeedRate - 移動速度上昇率
+SupportAttackRecast - 支援攻撃間隔
+PowerTime - 強化必要時間
+MaxHpIncreaseRate - 最大HP上昇率
+MaxPpIncreaseRate - 最大PP上昇率
+ScytheMarkerDamageReductionLv1 - 被ダメージ率(1段階)
+ScytheMarkerDamageReductionLv2 - 被ダメージ率(2段階)
+MaxPpIncreaseValue - 最大PP上昇量
 
 Group 1
 
@@ -5646,7 +5687,7 @@ WinTitleExpression - 勝利演出表情設定
 WinButtonPose - ポーズを選択する
 WinButtonExpression - 表情を選択する
 MenuButtonWin - 勝利演出設定
-WinMessage - 特定エネミーの勝利演出で使用する<br>ポーズや表情を選択することができます。<br>※一時停止のタイミングで演出が終了します。
+WinMessage - 特定エネミーの勝利演出で使用する<br>ポーズや表情を選択することができます。<br><yellow>※一時停止のタイミングで演出が終了します。<br>※“ランダム”では、一部ポーズが選択されません。<c>
 WinLobbyActionNoneTitle - 勝利演出設定
 WinLobbyActionNoneMessege - 選択したロビーアクションは<br>未登録のため使用できません。
 NameChange - 名前変更
@@ -5684,6 +5725,8 @@ GroupChatDenyArticle - チェックすると、グループに誘われなくな
 GroupChatNotUseArea - このエリアでは、グループチャットをご利用いただけません。 
 AutoWordDetailTitle - 詳細情報
 AutoWordDetail - オートワードは、<br>初期状態では<yellow>“パーティー”<c>に向けて発信されます。<br><br>発信先のチャンネルを指定する<br>コマンドを入力することで、<br>パーティー以外にも発信することができます。<br><br>この<yellow>チャンネル指定コマンド<c>の詳細は、<br>オンラインマニュアルの<br><yellow>“チャット”<c>のページをご確認ください。
+AutoWordTypeArsenalon - M.A.R.S.呼び出し時
+AutoWordTypeArsenaloff - M.A.R.S.装備解除時
 
 Group 1
 
@@ -6315,6 +6358,7 @@ Bg_Chara16 - グレン
 Bg_Chara17 - カヌイ
 Bg_Chara18 - ファリア
 Bg_Chara19 - ゼフェット
+Bg_GoldStar - ノーブルゴールド
 Open_Title - 背景の使用条件
 Open_00 - 最初から使用可能
 Open_01 - 累計称号ポイント：$(0)pt
@@ -11273,6 +11317,7 @@ RegionName111 - エアリオ
 RegionName112 - リテム
 RegionName113 - クヴァリス
 RegionName114 - スティア
+RegionName115 - 全シップ
 
 Group 1
 
@@ -11858,9 +11903,11 @@ AnswerForm_Accept - 対戦する
 AnswerForm_Reject - 対戦を断る
 Matching_Cancel - 長押しでマッチングをキャンセル
 LineDuel_Matching_Title_Text - マッチング中
+LineDuel_Matching_Title_FreeMatchText - 再戦待機中
 LineDuel_Matching_Type - マッチングカテゴリー
 LineDuel_Matching_Type_Casual - アンレートバトル
 LineDuel_Matching_Type_Rank - レートバトル
+LineDuel_Matching_Type_Free - フリーバトル
 LineDuel_Matching_State - マッチング状況
 LineDuel_Matching_Time - マッチング経過時間
 LineDuel_TimeNum - $(0):$(1)
@@ -11868,7 +11915,7 @@ LineDuel_ItemDetail_Element - 属性
 LineDuel_ItemDetail_Cost - PP
 LineDuel_ItemDetail_Attack - 戦力値
 LineDuel_ItemDetail_Skill - スキル
-LineDuel_ItemDetailsStatus - 登録状況：$(0) / $(1)<br>$(2)
+LineDuel_ItemDetailsStatus - 登録状況：<yellow>$(0) / $(1)<c><br>$(2)
 LineDuel_ItemDetailsNoRegister - 　1回登録するとアカウント内のすべてのキャラクターで<br>　利用可能になります。（最大3枚まで）
 LineDuel_ItemDetailsRegistered - 　アカウント内のすべてのキャラクターで利用可能です。
 LineDuel_MessageTitle - メッセージ
@@ -12542,6 +12589,258 @@ Guide_Action
 Group 0
 Action_AttractingSaucer - 投擲方向の調整：<%NormalAttack>を押しながら<swguidetype T_Moveguide_l><br>肩越し視点で調整：<%ChangeView>を押して<swguidetype T_Moveguide_r>　　<br>滞空状態を維持：空中で<%NormalAttack>を長押し
 Action_Dntgun - <%NormalAttack>長押しで威力上昇
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+AMSkillExplanation
+Group 0
+ArsenalModule:Sword:Overheat - 攻撃を一定回数エネミーに当てることで、<br>最大２段階エネルギーを蓄える。<br>エネルギーの貯蔵量に応じて、威力が上昇し、<br>通常攻撃によるHP回復量が増加する。<br>ガルムデトネーションの発動時に、<br>エネルギーをすべて消費し、<br>貯蔵段階に応じてその攻撃が強化される。<br><yellow>※VA-1SRM ガルム専用<c>
+ArsenalModule:Sword:BoostArcane - フォワードスラストによる回避成功時に、<br>自動的に兵装がガルムに切り替わり、突撃を行う。<br>この効果は、メイン兵装のいずれかに、<br>ガルムをセットしていれば、<br>異なる兵装の使用中にも発動する。<br><yellow>※VA-1SRM ガルム専用<c>
+ArsenalModule:Sword:BoardControl - 自身の周囲でエネミーを撃破したときに、<br>HPとPPが回復する。<br><yellow>※VA-1SRM ガルム専用<c>
+ArsenalModule:Sword:BurnerLinkage - 通常攻撃ボタンを長押しすることで、<br>HPを消費して最大２段の攻撃を行う。<br>また、この攻撃後に続けて使用する<br>各兵装の通常攻撃が最終段に変化する。<br><yellow>※VA-1SRM ガルム専用<c>
+ArsenalModule:Sword:Quicksilver - ダウン中のエネミーに、<br>ガルムデトネーションを当てると、<br>ダウン時間を延長する。<br>一部の強力なエネミーに対しては、<br>この効果が適用されないかわりに<br>ガルムデトネーションの威力が上昇する。<br><yellow>※VA-1SRM ガルム専用<c>
+ArsenalModule:Scythe:LacerationMarker - 攻撃を一定回数エネミーに当てることで、<br>エネミーをマーキング状態にする。<br>マーカーは最大２段階あり、段階に応じて、<br>そのエネミーから受けるダメージを減少させる。<br>また、マーキング状態のエネミーに、<br>ニズヘッグエクスキューションを当てると、<br>マーカーが起爆し、段階に応じた威力の追加攻撃が発生する。<br><yellow>※VA-2MRM ニズヘッグ専用<c>
+ArsenalModule:Scythe:Vengeance - 攻撃の無効化成功時に、<br>追加で攻撃が発生するようになる。<br>この効果は、メイン兵装のいずれかに、<br>ニズヘッグをセットしていれば、<br>異なる兵装の使用中にも発動する。<br><yellow>※VA-2MRM ニズヘッグ専用<c>
+ArsenalModule:Scythe:Serenity - 通常攻撃時に、<br>次の攻撃をタイミングを遅らせて行うことで、<br>追加で攻撃が発生するようになる。<br>タイミングを遅らせるほど、追加攻撃の威力が上昇する。<br><yellow>※VA-2MRM ニズヘッグ専用<c>
+ArsenalModule:Scythe:Efficiency - 通常攻撃の５段目をエネミーに当てると、<br>M.A.R.S.の稼働時間を延長する。<br><yellow>※VA-2MRM ニズヘッグ専用<c>
+ArsenalModule:Scythe:FocusDebuff - ニズヘッグディスパワーマーカーの<br>爆発攻撃をエネミーに当てると、<br>一定時間、与えるダメージが増加する。<br>一部の強力なエネミーに対しては、<br>効果が低下する。<br><yellow>※VA-2MRM ニズヘッグ専用<c>
+ArsenalModule:Railgun:Spark - 攻撃を一定回数エネミーに当てることで、<br>ゲージを蓄積する。<br>そのゲージを最大にすると、<br>一定回数、通常攻撃が強力な攻撃に変化し、<br>この効果が持続しているあいだの<br>各兵装のPP自然回復量が増加する。<br><yellow>※VA-3LRM ハイドラ専用<c>
+ArsenalModule:Railgun:DodgeArcane - ロックオン中に、<br>エネミーの攻撃をステップか<br>スイフトアヴォイドで回避すると、<br>自動的にカウンターが発生する。<br>この効果は、メイン兵装のいずれかに、<br>ハイドラをセットしていれば、<br>異なる兵装の使用中にも発動する。<br><yellow>※VA-3LRM ハイドラ専用<c>
+ArsenalModule:Railgun:TacticalReload - 通常攻撃の最終段など、一部の攻撃の直後に、<br>武器アクションボタンを押すことで、<br>次に放つハイドラの通常攻撃を、<br>連射速度が上昇した状態から開始する。<br><yellow>※VA-3LRM ハイドラ専用<c>
+ArsenalModule:Railgun:Perpetual - PPが５以下のときに、<br>通常攻撃が強力な攻撃に変化する。<br><yellow>※VA-3LRM ハイドラ専用<c>
+ArsenalModule:Railgun:Payback - ハイドラターミネーションをエネミーに当てると、<br>M.A.R.S.の稼働時間を延長する。<br><yellow>※VA-3LRM ハイドラ専用<c>
+ArsenalModule:Broom:3DGraze - エネミーが一定範囲内にいる状態を維持するか、<br>攻撃を当てると、周囲に最大３層の星紋が発生する。<br>その状態で、武器アクション攻撃を行うと、<br>星紋の積層に応じて爆発弾が強化され、星紋は消滅する。<br>エネミーが範囲内にいない状態が続くか、攻撃を受けるか、<br>ステップを行うと星紋が１層消滅する。<br><yellow>※VA-4XRM スカイラ専用<c>
+ArsenalModule:Broom:BlinkCombo - 各兵装によるPA発動後に行うスカイラの通常攻撃が、<br>移動性能の高い最大３段の攻撃に変化する。<br><yellow>※VA-4XRM スカイラ専用<c>
+ArsenalModule:Broom:Euphoria - 星紋が３層の状態のときに、<br>武器アクションによる攻撃をエネミーに当てると、<br>一定時間、無敵状態になる。<br>無敵状態のあいだは、PPが自然回復しなくなるかわりに、<br>スカイラリタリエーションの威力が上昇する。<br><yellow>※VA-4XRM スカイラ専用<c>
+ArsenalModule:Broom:Retaliate - 一定時間ダメージを受けずに、<br>エネミーが範囲内にいる状態を維持すると、<br>自動的に攻撃が発生するようになる。<br><yellow>※VA-4XRM スカイラ専用<c>
+ArsenalModule:Broom:Annihilation - スカイラリタリエーションをエネミーに当てると、<br>一定時間、広範囲に断続的に攻撃を行うフィールドを、<br>自分の周囲に展開する。<br><yellow>※VA-4XRM スカイラ専用<c>
+ArsenalModule:BackPack01:Passive - 一定間隔で、自動的に支援攻撃を行う。<br>M.A.R.S.の装備状態から一定時間経過すると、<br>支援攻撃が強化される。<br>また、常に移動速度が上昇する。<br><yellow>※SA-1HMP フェンリル専用<c>
+ArsenalModule:BackPack01:StepCombo - ２回連続して、ステップができるようになる。<br><yellow>※SA-1HMP フェンリル専用<c>
+ArsenalModule:BackPack01:DodgeRicochet - 攻撃を回避したときに、<br>追加で攻撃が発生するようになる。<br><yellow>※SA-1HMP フェンリル専用<c>
+ArsenalModule:Backpack02:Passive - 一定間隔で、自動的に支援攻撃を行う。<br>M.A.R.S.の装備状態から一定時間経過すると、<br>支援攻撃が強化される。<br>また、HPが一定以下になると、<br>受けるダメージを軽減する。<br><yellow>※SA-2HDP ファブニル専用<c>
+ArsenalModule:Backpack02:DefenseBuffArea - 攻撃を当てた場所を中心に、<br>受けるダメージを軽減するフィールドを展開する。<br><yellow>※SA-2HDP ファブニル専用<c>
+ArsenalModule:Backpack02:GuardEmp - 攻撃の無効化に成功したときに、<br>追加で攻撃が発生するようになる。<br><yellow>※SA-2HDP ファブニル専用<c>
+ArsenalModule:Backpack03:Passive - 一定間隔で、自動的に支援攻撃を行う。<br>M.A.R.S.の装備状態から一定時間経過すると、<br>支援攻撃が強化される。<br>また、PPの自然回復量と攻撃時の回復量が増加する。<br><yellow>※SA-3HFP リントヴルム専用<c>
+ArsenalModule:Backpack03:EcmLockOn - 視界内のエネミーに妨害効果を与え、<br>そのエネミーから受けるダメージを低下させる。<br>一部の強力なエネミーに対しては、効果が適用されない。<br><yellow>※SA-3HFP リントヴルム専用<c>
+ArsenalModule:Backpack03:CountShot - 攻撃を一定回数当てたときに、<br>追加で攻撃が発生するようになる。<br><yellow>※SA-3HFP リントヴルム専用<c>
+ArsenalModule:Boost:Dodge - ロックオン中に、<br>左右もしくは後ろに方向入力しながらジャンプすると、<br>攻撃を回避しながら高速移動する挙動に変化する。
+ArsenalModule:Boost:Approach - ロックオン中に、<br>前方に方向入力しながらジャンプすると、<br>攻撃を回避しながら高速移動する挙動に変化する。
+ArsenalModule:Boost:Vertical - ロックオン中に、<br>方向入力を行わずにジャンプすると、<br>攻撃を回避しながらロックオン座標と同じ高さに<br>高速移動する挙動に変化する。
+ArsenalModule:Parameter:ArsenalModule - 時間経過でゲージを蓄積し、M.A.R.S.を展開する。<br>展開中に再度発動することで、M.A.R.S.を終了する。
+ArsenalModule:Parameter:DmgUp - M.A.R.S.兵装の<br>威力が上昇する。
+ArsenalModule:Parameter:CritUp - M.A.R.S.兵装の<br>クリティカル発生率が上昇する。
+ArsenalModule:Parameter:CritDmgUp - M.A.R.S.兵装の<br>クリティカル時の威力が上昇する。
+ArsenalModule:Parameter:HpUp - M.A.R.S.の<br>最大HPが増加する。
+ArsenalModule:Parameter:HpRecovery - M.A.R.S.の<br>HPが自然回復するようになる。
+ArsenalModule:Parameter:PpUp - M.A.R.S.の<br>最大PPが増加する。
+ArsenalModule:Parameter:AtkPpUp - M.A.R.S.兵装による<br>攻撃時のPP回復量が増加する。
+ArsenalModule:Parameter:ResistUp - 状態異常になりにくくなる。<br>さらに効果時間を短縮する。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+AMSkillName
+Group 0
+ArsenalModule:Sword:Overheat - ガルム<br>ヒートチャージ
+ArsenalModule:Sword:BoostArcane - ガルム<br>クイックアサルト
+ArsenalModule:Sword:BoardControl - ガルム<br>キリングプライズ
+ArsenalModule:Sword:BurnerLinkage - ガルム<br>リスキースタイル
+ArsenalModule:Sword:Quicksilver - ガルム<br>ビートアップ
+ArsenalModule:Scythe:LacerationMarker - ニズヘッグ<br>ディスパワーマーカー
+ArsenalModule:Scythe:Vengeance - ニズヘッグ<br>アドアタック
+ArsenalModule:Scythe:Serenity - ニズヘッグ<br>ディレイアクション
+ArsenalModule:Scythe:Efficiency - ニズヘッグ<br>エクステンドタイム
+ArsenalModule:Scythe:FocusDebuff - ニズヘッグ<br>ウィークネス
+ArsenalModule:Railgun:Spark - ハイドラ<br>オーバーチャージ
+ArsenalModule:Railgun:DodgeArcane - ハイドラ<br>アヴォイドカウンター
+ArsenalModule:Railgun:TacticalReload - ハイドラ<br>タクティカルリロード
+ArsenalModule:Railgun:Perpetual - ハイドラ<br>フォースフルアタック
+ArsenalModule:Railgun:Payback - ハイドラ<br>エクステンドタイム
+ArsenalModule:Broom:3DGraze - スカイラ<br>スターリンク
+ArsenalModule:Broom:BlinkCombo - スカイラ<br>ハイマニューバ
+ArsenalModule:Broom:Euphoria - スカイラ<br>インビンシブルモード
+ArsenalModule:Broom:Retaliate - スカイラ<br>アドアタック
+ArsenalModule:Broom:Annihilation - スカイラ<br>アナイアレーション
+ArsenalModule:BackPack01:Passive - フェンリル<br>サポートアクション
+ArsenalModule:BackPack01:StepCombo - フェンリル<br>ダブルステップ
+ArsenalModule:BackPack01:DodgeRicochet - フェンリル<br>アドアタック
+ArsenalModule:Backpack02:Passive - ファブニル<br>サポートアクション
+ArsenalModule:Backpack02:DefenseBuffArea - ファブニル<br>デバンドフィールド
+ArsenalModule:Backpack02:GuardEmp - ファブニル<br>アドアタック
+ArsenalModule:Backpack03:Passive - リントヴルム<br>サポートアクション
+ArsenalModule:Backpack03:EcmLockOn - リントヴルムジャマー
+ArsenalModule:Backpack03:CountShot - リントヴルム<br>アドアタック
+ArsenalModule:Boost:Dodge - スイフトアヴォイド
+ArsenalModule:Boost:Approach - フォワードスラスト
+ArsenalModule:Boost:Vertical - バーティカルスラスト
+ArsenalModule:Parameter:ArsenalModule - 共通<br>アセモアクティブスキル
+ArsenalModule:Parameter:DmgUp - 威力アップ
+ArsenalModule:Parameter:CritUp - クリティカル率アップ
+ArsenalModule:Parameter:CritDmgUp - クリティカル<br>威力アップ
+ArsenalModule:Parameter:HpUp - HPアップ
+ArsenalModule:Parameter:HpRecovery - HP自然回復
+ArsenalModule:Parameter:PpUp - PPアップ
+ArsenalModule:Parameter:AtkPpUp - 攻撃時<br>PP回復量アップ
+ArsenalModule:Parameter:ResistUp - 共通<br>状態異常耐性アップ
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+AMBackpackExplanation
+Group 0
+0 - <yellow>高機動型のサブ兵装<c><br>移動能力や回避性能を<br>向上させる特性をもつ。<br>自動で支援攻撃も行う。
+1 - <yellow>高耐久型のサブ兵装<c><br>ガード能力や耐久性能を<br>向上させる特性をもつ。<br>自動で支援攻撃も行う。
+2 - <yellow>支援型のサブ兵装<c><br>PP回復能力を向上させ、<br>前方のエネミーの攻撃力を<br>低下させる特性をもつ。<br>自動で支援攻撃も行う。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+AMBackpackName
+Group 0
+0 - SA-1HMP フェンリル
+1 - SA-2HDP ファブニル
+2 - SA-3HFP リントヴルム
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+AMWeaponExplanation
+Group 0
+0 - <yellow>近接戦闘向きのメイン兵装<c><br>大剣型の兵装で、<br>周囲のエネミーを殲滅する。<br>通常攻撃を当てることで、<br>HPが回復する特性をもつ。
+1 - <yellow>近接戦闘向きのメイン兵装<c><br>大鎌型の兵装で、<br>周囲のエネミーを薙ぎ払う。<br>大鎌を振るうあいだに、<br>エネミーからの攻撃を防ぐ特性をもつ。
+2 - <yellow>遠距離戦闘向きのメイン兵装<c><br>大砲型の兵装で、<br>遠距離のエネミーを撃ちぬく。<br>周囲の味方を回復する<br>支援弾を撃つこともできる。
+3 - <yellow>特殊戦闘向きのメイン兵装<c><br>長杖型の兵装で、<br>あらゆる距離のエネミーを攻撃する。<br>可変機構をもち、<br>高速移動しながら攻撃もできる。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+AMWeaponName
+Group 0
+0 - VA-1SRM ガルム
+1 - VA-2MRM ニズヘッグ
+2 - VA-3LRM ハイドラ
+3 - VA-4XRM スカイラ
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+ArsenalModule
+Group 0
+ClassCounterLabel - M.A.R.S.スキル
+ModuleError01 - 問題が発生したため実行できませんでした。
 
 Group 1
 
