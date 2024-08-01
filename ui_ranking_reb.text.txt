@@ -1,5 +1,5 @@
-ui_ranking_reb.text was created: 2024/6/2 12:04:14
-Filesize is: 12160 bytes
+ui_ranking_reb.text was created: 2024/8/1 22:30:52
+Filesize is: 12656 bytes
 
 Common
 Group 0
@@ -159,6 +159,11 @@ WeeklyRanking_Title_Cocoon_Dyna Assault - ダイナアサルト：<br>ソロ
 WeeklyRanking_Title_Cocoon_Horrible Flapping - ホリブルフラッピング：<br>ソロ
 WeeklyRanking_Title_FieldRace_LimitedSeason1 - 南クヴァリス走破（スプリング'24）：<br>ソロ
 WeeklyRanking_Title_Cocoon_Buddy Attack - バディアタック：<br>ソロ
+WeeklyRanking_Title_Finalattacker_RoadSprint - サンドロードスプリント：<br>ソロ
+WeeklyRanking_Description_Standard_Soro - 対象クエストを１人でクリアする。
+WeeklyRanking_Title_Cocoon_Wild Avalanche - ワイルドアバランチ：<br>ソロ
+WeeklyRanking_Title_OrdinalTower2_Solo - オーディナルタワー（Rank.8）：<br>ソロ
+WeeklyRanking_Title_OrdinalTower2_Party - オーディナルタワー（Rank.8）：<br>パーティー
 
 Group 1
 
