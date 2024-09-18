@@ -1,5 +1,5 @@
-common.text was created: 2024/7/31 7:11:52
-Filesize is: 186480 bytes
+common.text was created: 2024/9/18 10:11:14
+Filesize is: 186592 bytes
 
 Block
 Group 0
@@ -1575,6 +1575,8 @@ LobbyAction_2311machinegun - 武器反映ポーズ5
 LobbyAction_2328bow - 武器反映ポーズ6
 LobbyAction_washingback - 背中を洗う
 LobbyAction_2300help - 抱きかかえる
+LobbyAction_2366hachi - 怪獣８号ポーズ
+LobbyAction_2367hachi - 怪獣８号ポーズ2
 LobbyAction_2337together - なかよしポーズ2
 LobbyAction_2331catpose - ネコポーズ2
 LobbyAction_fgoo - グー
