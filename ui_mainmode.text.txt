@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2024/7/31 7:11:52
-Filesize is: 783824 bytes
+ui_mainmode.text was created: 2024/10/2 7:06:55
+Filesize is: 784896 bytes
 
 Common
 Group 0
@@ -1938,6 +1938,7 @@ StatusLabelSeasonPoint_25 - ウィンター'24シーズナルポイント
 StatusLabelSeasonPoint_26 - スプリング'24シーズナルポイント
 StatusLabelSeasonPoint_28 - 『NGS』3周年記念シーズナルポイント
 StatusLabelSeasonPoint_30 - 超・夢幻祭記念シーズナルポイント
+StatusLabelSeasonPoint_31 - ハロウィン'24シーズナルポイント
 StatusLabelSeasonPointValue - $(1) /$(0)
 StatusLabelN-Meseta - <pict reb_meseta>メセタ
 StatusLabelFun - FUN
@@ -4004,6 +4005,8 @@ TechterNoTargetBossAtpUp - ロングレンジ<br>アドバンテージTe
 RangerLauncherWeakBulletExtend - ランチャーWB<br>タイムエクステンド
 GunnerChainFinishPartyPPGain - チェインフィニッシュ<br>パーティーPPゲイン
 FighterArtsImpact - ファイターアーツ<br>パスート
+TechterEnhanceField - テクター<br>エクストラフィールド
+TechterQuickElementChange - ウォンドクイック<br>エレメントチェンジ
 
 Group 1
 
@@ -5020,7 +5023,6 @@ RangerRifleAttackExtend - PAを複数回エネミーに<br>当てることでゲ
 RangerLauncherClusterBombExtend - 武器アクションによる爆発の<br>攻撃範囲が拡大し、威力が上昇する。<br><yellow>※メインクラス／ランチャー専用<c>
 ForceRodAttackExtend - テクニックを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージを最大にすると、一定回数、<br>通常攻撃が強力な攻撃に変化する。<br>変化した攻撃は、最後に使用した<br>テクニックと同じ属性になる。<br><yellow>※ロッド専用<c>
 ForceTalisTecBurstBloomFlourish - PAによるタリスの展開中に、<br>展開状態に応じて<br>トリッキーキャパシタの攻撃が変化する。<br><yellow>※タリス専用<c>
-TechterWandTechSkipAttack - チャージテクニックを発動した後の<br>通常攻撃が３段目扱いの<br>強力な攻撃に変化する。<br><yellow>※ウォンド専用<c>
 TechterTalisTecBurstBloomFlourish - PAによるタリスの展開中に、<br>展開状態に応じて<br>トリッキーキャパシタの攻撃が変化する。<br><yellow>※タリス専用<c>
 BraverKatanaSkipArts - ステップカウンター発動後に、<br>使用するPAが３段目に変化し、<br>威力が上昇する。<br><yellow>※メインクラス／カタナ専用<c>
 BraverBowReinForce - PAを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージを最大にすると、<br>次の通常攻撃が強力な攻撃に変化する。<br>その後、最初に使用する<br>チャージしたディメンショナルレイを除く<br>PAの威力が上昇する。<br><yellow>※バレットボウ専用<c>
@@ -5041,6 +5043,9 @@ GunnerChainFinishPartyPPGain - チェインフィニッシュ発動時に、<br>
 GunnerTMGAccel - 武器アクション発動後に、<br>特定のタイミングで<br>通常攻撃ボタンを押すことで、<br>２回まで上昇しながら攻撃を行う。<br><yellow>※メインクラス／ツインマシンガン専用<c>
 FighterTDAltAccel - 通常攻撃の４段目や<br>アクセルドライブ、<br>ダガースピンカウンター、<br>フォトンブラスト発動後の<br>特定タイミングで、<br>通常攻撃ボタンを押すことで、<br>高速移動をしながら攻撃を行う。<br><yellow>※ツインダガー専用<c>
 FighterArtsImpact - PAを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージが最大の状態でPAを当てたとき、<br>追加で攻撃が発生する。<br>一度のゲージ蓄積中、各PAの前半後半のうち<br>まだエネミーに当てていない攻撃の<br>ゲージ蓄積量が増加する。<br><yellow>※メインクラス／ファイター武器専用<c>
+TechterEnhanceField - 特定のアクション時に、自分と周囲の<br>キャラクターに、補助効果を付与する。<br>ウォンドエレメントパスートの発動時に、<br>フォトンブラストゲージが増加する。<br>また、フォトンブラストの発動時に、<br>一定時間、攻撃を当てたときに、<br>追加で攻撃が発生する。<br><yellow>※メインクラス／テクター武器専用<c>
+TechterQuickElementChange - チャージしていない<br>テクニックの使用時も、<br>ウォンドエレメントチェンジによる<br>法撃爆発が同じ属性に<br>変化するようになる。<br><yellow>※ウォンド専用<c>
+TechterWandTechSkipAttack - テクニックを発動した後の<br>通常攻撃が３段目扱いの<br>強力な攻撃に変化する。<br><yellow>※ウォンド専用<c>
 
 Group 1
 
@@ -5550,6 +5555,10 @@ MaxPpIncreaseRate - 最大PP上昇率
 ScytheMarkerDamageReductionLv1 - 被ダメージ率(1段階)
 ScytheMarkerDamageReductionLv2 - 被ダメージ率(2段階)
 MaxPpIncreaseValue - 最大PP上昇量
+AddPBRate - PBゲージ増加量
+FollowAttackDuation - 追加攻撃効果の持続時間
+FollowAttackCount - 追加攻撃効果の持続回数
+FollowAttackMaxCount - 追加攻撃の持続回数上限
 
 Group 1
 
@@ -6359,6 +6368,7 @@ Bg_Chara17 - カヌイ
 Bg_Chara18 - ファリア
 Bg_Chara19 - ゼフェット
 Bg_GoldStar - ノーブルゴールド
+Bg_PlatinumStar - ノーブルプラチナ
 Open_Title - 背景の使用条件
 Open_00 - 最初から使用可能
 Open_01 - 累計称号ポイント：$(0)pt
@@ -12609,6 +12619,30 @@ Group 8
 Group 9
 
 
+ArsenalModule
+Group 0
+ClassCounterLabel - M.A.R.S.スキル
+ModuleError01 - 問題が発生したため実行できませんでした。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
 AMSkillExplanation
 Group 0
 ArsenalModule:Sword:Overheat - 攻撃を一定回数エネミーに当てることで、<br>最大２段階エネルギーを蓄える。<br>エネルギーの貯蔵量に応じて、威力が上昇し、<br>通常攻撃によるHP回復量が増加する。<br>ガルムデトネーションの発動時に、<br>エネルギーをすべて消費し、<br>貯蔵段階に応じてその攻撃が強化される。<br><yellow>※VA-1SRM ガルム専用<c>
@@ -12618,7 +12652,7 @@ ArsenalModule:Sword:BurnerLinkage - 通常攻撃ボタンを長押しするこ�
 ArsenalModule:Sword:Quicksilver - ダウン中のエネミーに、<br>ガルムデトネーションを当てると、<br>ダウン時間を延長する。<br>一部の強力なエネミーに対しては、<br>この効果が適用されないかわりに<br>ガルムデトネーションの威力が上昇する。<br><yellow>※VA-1SRM ガルム専用<c>
 ArsenalModule:Scythe:LacerationMarker - 攻撃を一定回数エネミーに当てることで、<br>エネミーをマーキング状態にする。<br>マーカーは最大２段階あり、段階に応じて、<br>そのエネミーから受けるダメージを減少させる。<br>また、マーキング状態のエネミーに、<br>ニズヘッグエクスキューションを当てると、<br>マーカーが起爆し、段階に応じた威力の追加攻撃が発生する。<br><yellow>※VA-2MRM ニズヘッグ専用<c>
 ArsenalModule:Scythe:Vengeance - 攻撃の無効化成功時に、<br>追加で攻撃が発生するようになる。<br>この効果は、メイン兵装のいずれかに、<br>ニズヘッグをセットしていれば、<br>異なる兵装の使用中にも発動する。<br><yellow>※VA-2MRM ニズヘッグ専用<c>
-ArsenalModule:Scythe:Serenity - 通常攻撃時に、<br>次の攻撃をタイミングを遅らせて行うことで、<br>追加で攻撃が発生するようになる。<br>タイミングを遅らせるほど、追加攻撃の威力が上昇する。<br><yellow>※VA-2MRM ニズヘッグ専用<c>
+ArsenalModule:Scythe:Serenity - 攻撃時に、次の攻撃をタイミングを遅らせて行うことで、<br>追加で攻撃が発生するようになる。<br>タイミングを遅らせるほど、追加攻撃の威力が上昇する。<br><yellow>※VA-2MRM ニズヘッグ専用<c>
 ArsenalModule:Scythe:Efficiency - 通常攻撃の５段目をエネミーに当てると、<br>M.A.R.S.の稼働時間を延長する。<br><yellow>※VA-2MRM ニズヘッグ専用<c>
 ArsenalModule:Scythe:FocusDebuff - ニズヘッグディスパワーマーカーの<br>爆発攻撃をエネミーに当てると、<br>一定時間、与えるダメージが増加する。<br>一部の強力なエネミーに対しては、<br>効果が低下する。<br><yellow>※VA-2MRM ニズヘッグ専用<c>
 ArsenalModule:Railgun:Spark - 攻撃を一定回数エネミーに当てることで、<br>ゲージを蓄積する。<br>そのゲージを最大にすると、<br>一定回数、通常攻撃が強力な攻撃に変化し、<br>この効果が持続しているあいだの<br>各兵装のPP自然回復量が増加する。<br><yellow>※VA-3LRM ハイドラ専用<c>
@@ -12817,30 +12851,6 @@ Group 0
 1 - VA-2MRM ニズヘッグ
 2 - VA-3LRM ハイドラ
 3 - VA-4XRM スカイラ
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-ArsenalModule
-Group 0
-ClassCounterLabel - M.A.R.S.スキル
-ModuleError01 - 問題が発生したため実行できませんでした。
 
 Group 1
 

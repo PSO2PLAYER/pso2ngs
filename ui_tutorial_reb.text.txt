@@ -1,5 +1,5 @@
-ui_tutorial_reb.text was created: 2024/7/31 7:11:52
-Filesize is: 18832 bytes
+ui_tutorial_reb.text was created: 2024/10/2 7:06:55
+Filesize is: 18944 bytes
 
 TitleName
 Group 0
@@ -348,6 +348,8 @@ tut_006688 - EX特殊能力移植
 tut_006689 - プリセット能力の追加
 tut_006690 - プリセット能力の移植
 tut_006691 - M.A.R.S.
+tut_006692 - メディオラ外郭第１区について
+tut_006693 - コンフォルトリリー
 
 Group 1
 

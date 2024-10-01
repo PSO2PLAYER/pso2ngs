@@ -1,5 +1,5 @@
-actor_name.text was created: 2024/7/31 7:11:52
-Filesize is: 69760 bytes
+actor_name.text was created: 2024/10/2 7:06:55
+Filesize is: 69856 bytes
 
 Enemy
 Group 0
@@ -350,6 +350,8 @@ r05_rem_ggr_ba - ルイノ・グリフォン
 r05_stl_dnt_ex - ダークファルス・ダリオン
 r05_rem_yor_ba - ルイノ・グンネガム
 r05_rem_ace_ba - ルイノ・アンジュール
+r05_stl_nyb_ba1 - ハヌマッド
+r05_stl_akm_ba1 - カオスザヴェル
 
 Group 1
 
