@@ -1,5 +1,5 @@
-item_series_name.text was created: 2024/6/2 10:46:04
-Filesize is: 4336 bytes
+item_series_name.text was created: 2024/10/2 8:33:22
+Filesize is: 4576 bytes
 
 SERIES
 Group 0
@@ -68,6 +68,10 @@ Millenium Round - ミレニアムラウンドシリーズ
 Wingard - ウィンガルドシリーズ
 Aeoni Dekelion - エオニ・ディケリオンシリーズ
 Xover - コルボシリーズ
+Flag - エレディムシリーズ
+Argenkul - ラディアクールシリーズ
+Liuxtra - リクスタルシリーズ
+Exelio - エクセリオシリーズ
 Qual De - クアルデシリーズ
 Geant - ジオントシリーズ
 Greas - グライアスシリーズ
@@ -89,6 +93,7 @@ Provo - プロヴォシリーズ
 Sest - セスティシリーズ
 Efitus - エフィタスシリーズ
 Einea - エイネアシリーズ
+Ektasis - エクタシスシリーズ
 Gun Blade - ￥ガンスラッシュシリーズ
 
 Group 1
