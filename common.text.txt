@@ -1,118 +1,9 @@
-common.text was created: 2024/10/2 11:30:55
-Filesize is: 188528 bytes
+common.text was created: 2024/12/4 7:06:36
+Filesize is: 128112 bytes
 
-Block
+Test
 Group 0
-BlockForm_Title - ブロック移動
-BlockForm_Title2 - ブロック説明
-BlockForm_MyRoom - 自分のマイルームへ移動
-BlockForm_GuildRoom - 所属のチームルームへ移動
-BlockForm_ClassicBlock - 『PSO2』ブロックへ移動
-BlackForm_Cancel - 戻る
-BlackForm_Explanation - 説明
-BlackForm_PremiumSpace - プレミアムスペース
-BlockForm_Move_Exp - ブロックを移動すると、<br>受注中のクエストが破棄されます。<br><br>また、クエストを受けている場合、<br>クエスト内で得られる効果も<br>消えてしまいます。
-BlockForm_Classic_Exp - ブロックを移動すると、参加している<br>パーティーから自動的に脱退し、<br>受注中のクエストも破棄されます。<br><br>また、クエスト内で得られる効果も<br>消えてしまいます。
-BlockFormTitle_Streamer_Classic_Exp - ストリーマーモード
-BlockForm_Streamer_Classic_Exp - ストリーマーモード中です。<br><br>ストリーマーモードは<br>『PSO2：NGS』ブロックでのみ有効です。<br>『PSO2』ブロックに移動すると、<br>ストリーマーモードが一時的に解除されます。<br><br>『PSO2』ブロックに移動しますか？
-BlockForm_MyRoom_Exp - マイルームへ移動しますか？
-BlockForm_GuildRoom_Exp - チームルームへ移動しますか？
-BlockForm_Move_Que - $(0)に移動しますか？
-BlockForm_Classic_Que - 『PSO2』ブロックに移動しますか？
-BlockForm_BlockName - 対象ブロック
-BlockForm_Error_Full - 選択したブロックは混雑のため<br>入ることができません。
-BlockForm_Error_NotFound - 選択したブロックが見つかりませんでした。<br><br>[No.1000］
-BlockForm_Error_Unknown - 選択したブロックは、エラーのため<br>入ることができません。<br><br>[No.1001］
-BlockForm_Error_Default - 選択したブロックは、既定外エラーのため<br>入ることができません。<br><br>[No.1002］
-BlockForm_Error_Premium - プレミアムセット有効期間中にのみ<br>移動が可能なブロックです。<br>利用券をお持ちでないか、<br>利用期限が切れているため、<br>移動することができません。<br><br>[No.1003］
-BlockForm_Error_Platform - ご使用のプラットフォームでは<br>移動することができないブロックです。<br><br>[No.1004］
-BlockForm_PublicShip - 共通シップへ移動
-BlockForm_PublicShip_Poka - 共通シップのバトルロビーへ移動
-BlockForm_PublicShip_Challenge - 共通シップのチャレンジロビーへ移動
-BlockForm_PokaLobby - バトルロビーへ移動
-BlockForm_ChallengeLobby - チャレンジロビーへ移動
-BlockForm_MyShip - 所属シップへ移動
-BlockForm_PublicShip_Exp - 共通シップへ移動すると、参加している<br>パーティーから自動的に脱退し、<br>受注中のクエストも破棄されます。<br><br>また、クエストを受けている場合、<br>クエスト内で得られる効果も<br>消えてしまいます。<br><br>共通シップに移動しますか？
-BlockForm_PublicShip_Exp_TriggerQuest - <yellow>トリガークエストを受注中です！<c><br><br>共通シップへ移動すると、パーティーから<br>自動的に脱退し、マルチパーティーも含め<br><yellow>クエスト参加者全員がクエスト破棄となります。<c><br>※トリガークエストの再受注可能時間<br>　または回数が残っている場合に限ります。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br><red>クエストを開始するために消費した<br>メセタやアイテムは返却されませんので、<br>トラブルの原因になる可能性があります。<br>ご注意ください。<c><br><br>共通シップに移動しますか？
-BlockForm_MyShip_Exp - 所属シップへ移動すると、参加している<br>パーティーから自動的に脱退し、<br>受注中のクエストも破棄されます。<br><br>また、クエストを受けている場合、<br>クエスト内で得られる効果も<br>消えてしまいます。<br><br>所属シップに移動しますか？
-BlockForm_MyShip_Exp_TriggerQuest - <yellow>トリガークエストを受注中です！<c><br><br>所属シップへ移動すると、パーティーから<br>自動的に脱退し、マルチパーティーも含め<br><yellow>クエスト参加者全員がクエスト破棄となります。<c><br>※トリガークエストの再受注可能時間<br>　または回数が残っている場合に限ります。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br><red>クエストを開始するために消費した<br>メセタやアイテムは返却されませんので、<br>トラブルの原因になる可能性があります。<br>ご注意ください。<c><br><br>所属シップに移動しますか？
-BlockForm_Move_Exp_TriggerQuest - <yellow>トリガークエストを受注中です！<c><br><br>ブロックを移動すると、パーティーから<br>自動的に脱退し、マルチパーティーも含め<br><yellow>クエスト参加者全員がクエスト破棄となります。<c><br>※トリガークエストの再受注可能時間<br>　または回数が残っている場合に限ります。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br><red>クエストを開始するために消費した<br>メセタやアイテムは返却されませんので、<br>トラブルの原因になる可能性があります。<br>ご注意ください。<c>
-BlockForm_ToMyShip_Exp - 所属シップへ移動すると、<br>マッチングがキャンセルされます。<br><br>所属シップに移動しますか？
-BlockForm_ToChallengeLobby_Exp - チャレンジロビーへ移動すると、<br>マッチングがキャンセルされます。<br><br>チャレンジロビーに移動しますか？
-BlockForm_ToBattleLobby_Exp - バトルロビーへ移動すると、参加している<br>パーティーから自動的に脱退し、<br>受注中のクエストも破棄されます。<br><br>また、クエストを受けている場合、<br>クエスト内で得られる効果も<br>消えてしまいます。<br><red>※すべてのバトルブロックが撮影可能です。<br>　生放送などに自分のキャラが映ることがあります。<c><br><br>バトルロビーに移動しますか？
-BlockForm_BattleLobbyToBattleLobby_Exp - バトルブロックの移動をすると、<br>マッチングがキャンセルされます。<br><br>ブロック移動を行いますか？
-BlockForm_BattleLobbyToBattleLobby_Exp_NoMatching - 別のバトルブロックに移動します。<br>よろしいですか？<br><br><c c0c0c0>※バトルアリーナのマッチングは<br>　すべてのブロックを対象に行われるため、<br>　人の多いブロックに移動する必要はありません。<c>
-AreaForm_BridgeArea_Exp - 艦橋へ移動しますか？
-AreaForm_CafeArea_Exp - フランカ’s カフェへ移動しますか？
-Bond_message - $(0)<br><br>$(1)
-InPublicShipToast - 一時的に共通シップ専用の状態に切り替わりました。
-InChallengeShipToast - 一時的にチャレンジシップ専用の状態に切り替わりました。
-InPokaShipToast - 一時的にバトルアリーナ専用の状態に切り替わりました。
-BlockForm_Move_Exp_HighLevelQuest - <red>受注中のクエストは<br>「破棄ペナルティー」対象です！<c><br><br>破棄すると他のプレイヤーに迷惑がかかるため、<br>発生中の緊急クエストを再受注できなくなります。<br>また、強制的に別ブロックへの移動が行われます。<br><br>ブロックを移動すると、パーティーから<br>自動的に脱退して、受注中のクエストが破棄されます。
-BlockForm_PublicShip_Exp_HighLevelQuest - <red>受注中のクエストは<br>「破棄ペナルティー」対象です！<c><br><br>破棄すると他のプレイヤーに迷惑がかかるため、<br>発生中の緊急クエストを再受注できなくなります。<br>また、強制的に別ブロックへの移動が行われます。<br><br>共通シップに移動すると、パーティーから<br>自動的に脱退して、受注中のクエストが破棄されます。<br><br>「破棄ペナルティー」を受け、共通シップに移動します。<br>よろしいですか？
-BlockForm_MyShip_Exp_HighLevelQuest - <red>受注中のクエストは<br>「破棄ペナルティー」対象です！<c><br><br>破棄すると他のプレイヤーに迷惑がかかるため、<br>発生中の緊急クエストを再受注できなくなります。<br>また、強制的に別ブロックへの移動が行われます。<br><br>所属シップに移動すると、パーティーから<br>自動的に脱退して、受注中のクエストが破棄されます。<br><br>「破棄ペナルティー」を受け、所属シップに移動します。<br>よろしいですか？
-BlockForm_Complete_Toast - $(0)に移動しました。
-BlockForm_GuideText - 他のブロックやPSO2への移動を行えます。
-BlockForm_TutrialStart - 『PSO2』ブロックでは<br>序章からのプレイになります。<br><br>よろしいですか？
-BlockForm_RegionMove_Title - リージョン移動
-BlockForm_RegionMove_Exp - $(0)に移動します。<br>よろしいですか？
-BlockForm_NotOnlyBlock_Exp_PS4 - "PS4"専用ブロックから移動します。<br><br>専用ブロックから移動をすると<br>他のプラットフォームのプレイヤーとも<br>パーティーを組むなどコミュニケーションが<br>可能になります。<br><br>移動してもよろしいですか？
-BlockForm_Error_IllegalMember - 選択したブロックに移動できないパーティーメンバーが<br>いるため、移動できませんでした。
-MeetForm_Title - 相手のいる場所に移動
-MeetForm_Explanation - $(0)のいる場所に移動しますか？<br><br><yellow>※探索・戦闘セクションならリューカーデバイスに、<br>　アークス拠点なら入口に移動します。<br>※移動すると、受注中のクエストが破棄され、<br>　クエスト進行中に得た効果も失われます。<br>※自分だけがルームキーワードを<br>　指定している場合は、<br>　そのキーワード設定が解除されます。<c>
-MeetForm_BlockMoveOnly - 相手がいる場所に移動できなかったため、ブロック移動のみを行いました。
-MeetForm_Error_Terminal - 移動しようとしているアークス拠点の<br>リューカーデバイスが未開放のため、<br>移動できませんでした。
-MeetForm_Error_SamePlace - 相手が同じ場所にいるため、<br>移動できませんでした。
-MeetForm_Error_ClassicBlock - 相手が『PSO2』ブロックにいるため、<br>移動できませんでした。
-MeetForm_Error_Logout - 相手がログアウトしているため、<br>移動できませんでした。
-MeetForm_Error_CreativeSpace - この機能では、<br>クリエイティブスペースには移動できません。
-Current_Block_Label - 現在のブロック
-Current_Block_BlockName - $(0)
-Current_Section_Label - 現在の場所
-Current_Section_SectionName - $(0)
-Current_Section_Rank - 【 Rank.$(0) 】
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-Class
-Group 0
-Class - クラス
-Main - メインクラス
-Sub - サブクラス
-None - なし
-Job00 - ハンター
-Job01 - レンジャー
-Job02 - フォース
-Job03 - ファイター
-Job04 - ガンナー
-Job05 - テクター
-Job06 - ブレイバー
-Job07 - バウンサー
-Job08 - チャレンジャー
-Job09 - ウェイカー
-Job10 - バトルウォリアー
-Job11 - スレイヤー
-Job12 - ファントム
-Job13 - エトワール
-Job14 - スレイヤー
-All - 全クラス
+TEST - テストです。
 
 Group 1
 
@@ -338,60 +229,6 @@ Code659_Message - 通信エラーが発生したため、チームルームに<b
 Code660_Title - チームルーム選択
 Code660_Code - チームルームに移動できませんでした。
 Code660_Message - チームの管理権限を持っていないため、<br>チームルームに移動することができません。
-Code670_Title - メッセージ
-Code670_Code - 選択したクリエイティブスペースに移動できませんでした。
-Code670_Message - エラーが発生したため、<br>選択したクリエイティブスペースに移動できませんでした。
-Code671_Title - メッセージ
-Code671_Code - 選択したクリエイティブスペースに移動できませんでした。
-Code671_Message - 選択したクリエイティブスペースが見つかりませんでした。
-Code672_Title - メッセージ
-Code672_Code - 選択したクリエイティブスペースに移動できませんでした。
-Code672_Message - 対象のブロックが定員オーバーのため、<br>移動できませんでした。
-Code673_Title - メッセージ
-Code673_Code - 選択したクリエイティブスペースに移動できませんでした。
-Code673_Message - 選択したクリエイティブスペースは、<br>定員オーバーのため、移動できませんでした。
-Code674_Title - メッセージ
-Code674_Code - 選択したクリエイティブスペースに移動できませんでした。
-Code674_Message - 現在、選択したクリエイティブスペースには<br>移動できません。
-Code675_Title - メッセージ
-Code675_Code - 選択したクリエイティブスペースに移動できませんでした。
-Code675_Message - このクリエイティブスペースは、現在使用が停止されています。
-Code676_Title - メッセージ
-Code676_Code - 選択したクリエイティブスペースに移動できませんでした。
-Code676_Message - エラーが発生したため、<br>選択したクリエイティブスペースに移動できませんでした。
-Code677_Title - メッセージ
-Code677_Code - 選択したクリエイティブスペースに移動できませんでした。
-Code677_Message - レンタルの有効期限切れのため、<br>移動できませんでした。
-Code678_Title - メッセージ
-Code678_Code - 選択したクリエイティブスペースに移動できませんでした。
-Code678_Message - 選択したスペースは有効期限切れのため、<br>移動できませんでした。
-Code679_Title - メッセージ
-Code679_Code - 選択したクリエイティブスペースに移動できませんでした。
-Code679_Message - 現在、選択した機能に問題が発生しており<br>調査のため使用を制限しています。<br>詳しくはプレイヤーズサイトをご確認ください。
-Code680_Title - メッセージ
-Code680_Code - 選択したクリエイティブスペースに移動できませんでした。
-Code680_Message - 移動先のクリエイティブスペースの設定により、<br>移動できません。
-Code681_Title - メッセージ
-Code681_Code - 選択したクリエイティブスペースに移動できませんでした。
-Code681_Message - 移動先のクリエイティブスペースの制限により、<br>移動できません。
-Code682_Title - メッセージ
-Code682_Code - 選択したクリエイティブスペースに移動できませんでした。
-Code682_Message - 選択したクリエイティブスペースに移動済みです。
-Code683_Title - メッセージ
-Code683_Code - 選択したクリエイティブスペースが初期化できませんでした。
-Code683_Message - クリエイティブスペースが初期化できませんでした。
-Code684_Title - メッセージ
-Code684_Code - 選択したクリエイティブスペースの設定が変更できませんでした。
-Code684_Message - クリエイティブスペースのクロスプレイ設定を<br>有効化できませんでした。
-Code685_Title - メッセージ
-Code685_Code - 選択したクリエイティブスペースを初期化しました。
-Code685_Message - 選択したクリエイティブスペースを初期化し、<br>クロスプレイ設定を無効化しました。
-Code686_Title - メッセージ
-Code686_Code - 選択したクリエイティブスペースの設定を変更しました。
-Code686_Message - クリエイティブスペースのクロスプレイ設定を<br>有効化しました。
-Code687_Title - メッセージ
-Code687_Code - 選択したクリエイティブスペースが初期化できませんでした。
-Code687_Message - クリエイティブスペースが初期化できませんでした。
 Code700_Title - ブロック移動
 Code700_Code - 選択したブロックに移動できませんでした。
 Code700_Message - プレミアムセット有効期間中にのみ<br>移動が可能なブロックです。<br>利用券をお持ちでないか、<br>利用期限が切れているため、<br>移動することができません。
@@ -476,24 +313,32 @@ Group 8
 Group 9
 
 
-DebugShipName
+SystemMessage
 Group 0
-Self01_01 - Self01_01
-Self01_02 - Self01_02
-Self02_01 - Self02_01
-Self02_02 - Self02_02
-Ship01_01 - Ship01
-Ship01_02 - Ship02
-Ship01 - Ship01
-Ship02 - Ship02
-Ship03 - Ship03
-Ship04 - Ship04
-Ship05 - Ship05
-Ship06 - Ship06
-Ship07 - Ship07
-Ship08 - Ship08
-Ship09 - Ship09
-Ship10 - Ship10
+SystemMesSegaID - ID の認証を行っています。
+SystemMesSegaID_v - SEGA ID の認証を行っています。
+SystemMesAtherID - ID の認証を行っています。
+SystemMesLobbyWait - ロビーサーバーからの応答を待っています。
+SystemMesServerWait - サーバーからの応答を待っています。
+SystemMesGameDataWait - ゲーム情報を取得しています。
+SystemMesCharaDataWait - キャラクター情報を取得しています。
+SystemMesGameShut - サーバーとの接続を終了しました。
+SystemMesServerShut - サーバーから接続の中断を要求されたためサーバーとの接続を終了しました。
+SystemMesNetWorkShut - サーバーとの接続が切れました。ネットワーク機器の接続や設定を確認してください。
+SystemMesBusy - 通信中…
+SystemGmAlertFormMessage - このメッセージの内容を了承する
+SystemGmAlertFormMessageTitle - 運営からの警告
+SystemGmMessageFormMessageTitle - 運営からのお知らせ
+EmergencyStopMessage - 現在、選択した機能に問題が発生しており<br>調査のため使用を制限しています。<br>詳しくはプレイヤーズサイトをご確認ください。
+EmergencyStopMessageTitle - 使用制限
+EmergencyStopItemMessage - 現在、選択したアイテムに問題が発生しており<br>調査のため取引を制限しています。<br>詳しくはプレイヤーズサイトをご確認ください。
+EmergencyStopItemMessageTitle - 特定アイテムの取引制限
+Toast_StoryQuestAnnounce - ストーリークエストの「EPISODE1」から「シオンとの出会い」を受注してください。
+RestrictionTitle - 機能制限
+RestrictionMessageInfo - この機能のご利用には、SEGA IDとの連携が必要です。<br><br>SEGA IDと連携すると<br>　・他のプラットフォームでのゲームプレイ<br>　・ワンタイムパスワードの利用<br>ほか、便利なサービスをご利用頂けます。<br><br>ログインメニューの「SEGA IDと連携する」から<br>SEGA IDの取得と連携ができます。
+PSONLY_NotSupported - “クロスプレイ設定”が“無効”のため、<br>現在、この機能はご利用いただけません。<br><br>ログインメニューで<br>“クロスプレイ設定”を“有効”にすることで、<br>ご利用いただけるようになります。
+PSONLY_NotSupported_Title - クロスプレイ無効
+SegaAccount_LinkFix - SEGA Account連携が完了しました。
 
 Group 1
 
@@ -514,13 +359,500 @@ Group 8
 Group 9
 
 
-GuildRole
+Window
 Group 0
-Master - チームマスター
-Manager - マネージャー
-Common - コモンメンバー
-Visitor - ビジター
-Unknown - 未所属
+Yes - はい
+No - いいえ
+Decide - 決定
+Cancel - キャンセル
+Next - 次へ
+Prev - 前へ
+Close - 閉じる
+Return - 戻る
+CloseHint - 閉じる
+HelpHint - ヘルプ
+Level - Lv.
+Colon - :
+Slash - /
+Hyphen - -
+Asterisk - *
+Plus - +
+Greater - >
+Less - <
+WaveDash - ～
+Cross - ×
+MultiSelecting - 複数選択中…
+MultiDrop -  - ($(0))
+DropText - $(0)
+MultiDropText - $(1) - ($(0))
+SubmenuType_StyleChange - 表示形式変更
+SubmenuType_Help - ヘルプ
+Title - メッセージ
+CaptureMessage - スクリーンショットを保存しました。
+CaptureMessage2 - スクリーンショットを保存しました。
+CaptureMessage3 - スクリーンショットを保存しました。
+CaptureErrorMessage01 - 空き容量不足のため、スクリーンショットを保存できませんでした。
+MovieStartMessage - 動画撮影を開始しました。撮影中は権利表記が表示されます。
+MovieEndMessage - 動画撮影を終了しました。
+MovieErrorMessage01 - 空き容量不足のため、動画を撮影できませんでした。
+MovieErrorMessage02 - 空き容量不足のため、動画撮影を中断しました。
+Bubble_Chatter1 - ・・・
+Bubble_Chatter2 - ・・・
+Bubble_Chatter3 - ・・・
+Bubble_Chatter4 - ・・・
+Bubble_Chatter5 - ・・・
+Bubble_Chatter6 - ・・・
+Bubble_Chatter7 - ・・・
+Bubble_Chatter8 - ・・・
+Bubble_Chatter9 - ・・・
+Bubble_Chatter10 - ・・・
+CheckTextOpen - 以降、このウィンドウを開かない
+ClosableMessageTitle - メッセージ
+ClosableMessageButton - 閉じる
+PlayerIDName - プレイヤーIDネーム
+PlayerID - プレイヤーID
+CharaName - キャラクター名
+LevelNum - Lv.$(0)
+SubmenuType_Edit - カスタマイズ
+SubmenuType_SearchMode - 検索モード変更
+BeginLookAtCamera - カメラ目線を開始します
+EndLookAtCamera - カメラ目線を終了しました
+NoName - なし
+Percent - ％
+PercentNum - $(0)％
+ScratchNote_Title - 景品に関する注意事項
+ScratchNote - アイテムごとに個別に表示している提供割合は表示上、<br>小数点第6位を四捨五入した後、小数点第5位以下を<br>切り捨てています。<br>全て合算しても100％にならない場合があります。<br>表示はアイテム投入全数時における<br>提供割合となります。<br>そのため提供割合1%のアイテムが100回中1回、<br>必ず排出される仕組みではありません。<br><br>スクラッチ景品は今後ほかのスクラッチや<br>コンテンツでも提供する可能性があります。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Race
+Group 0
+Title - 種族
+Human - ヒューマン
+Newman - ニューマン
+Cast - キャスト
+Dewman - デューマン
+All - 全種族
+NoHuman - ヒューマン以外
+NoNewman - ニューマン以外
+NoCast - キャスト以外
+NoDewman - デューマン以外
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Sex
+Group 0
+Title - タイプ
+Male - タイプ1
+Female - タイプ2
+All - すべて
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Class
+Group 0
+Class - クラス
+Main - メインクラス
+Sub - サブクラス
+None - なし
+Job00 - ハンター
+Job01 - レンジャー
+Job02 - フォース
+Job03 - ファイター
+Job04 - ガンナー
+Job05 - テクター
+Job06 - ブレイバー
+Job07 - バウンサー
+Job08 - チャレンジャー
+Job09 - サモナー
+Job10 - バトルウォリアー
+Job11 - ヒーロー
+Job12 - ファントム
+Job13 - エトワール
+Job14 - ラスター
+All - 全クラス
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Login
+Group 0
+SaveAccount - アカウントを保存
+SavePassword - パスワードを保存
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Logout
+Group 0
+Logout_Title - ゲーム終了
+Logout_Message - ゲームを終了してよろしいですか？
+Logout_Wait_Message - ログアウト処理中です
+AutoLogoutWarning_Title - 注意
+AutoLogoutWarning_Message - 一定時間チャレンジクエストの開始が<br>確認されませんでした。<br><br><yellow>$(0)<c>以内にこのウィンドウを閉じないと、<br>自動でログアウトが行われます。<br>このウィンドウを閉じれば、自動ログアウトを中断します。<br><br><yellow>※共通シップでは、一定時間チャレンジクエストを<br>開始しないでいると、自動でログアウトが行われます。<c>
+AutoLogoutDone_Title - お知らせ
+AutoLogoutDone_Message - 一定時間チャレンジクエストの開始が<br>確認されませんでしたので、ログアウトしました。<br><br>共通シップでは、一定時間チャレンジクエストを<br>開始しないでいると、自動でログアウトを行います。<br><br>タイトル画面に戻ります。
+AutoLogoutWarning_Message_InChallengeShip - 一定時間チャレンジクエストの開始が<br>確認されませんでした。<br><br><yellow>$(0)<c>以内にこのウィンドウを閉じないと、<br>自動でログアウトが行われます。<br>このウィンドウを閉じれば、自動ログアウトを中断します。<br><br><yellow>※共通シップでは、一定時間チャレンジクエストを<br>開始しないでいると、自動でログアウトが行われます。<c>
+AutoLogoutDone_Message_InChallengeShip - 一定時間チャレンジクエストの開始が<br>確認されませんでしたので、ログアウトしました。<br><br>共通シップでは、一定時間チャレンジクエストを<br>開始しないでいると、自動でログアウトを行います。<br><br>タイトル画面に戻ります。
+AutoLogoutWarning_Message_InPokaShip - <c ff9c70>■自動ログアウト警告■<c><br>バトルアリーナでは、マッチングを開始しないまま<br>一定時間が経過すると、自動ログアウトします。<c><br><br><yellow>$(0)<c>以内にこのウィンドウを閉じることで<br>自動ログアウトを中断し、ゲームを継続できます。
+AutoLogoutDone_Message_InPokaShip - <yellow>マッチングを開始しないまま<br>一定時間が経過したため、自動ログアウトしました。<c><br><br>※バトルアリーナでは、マッチングを開始しないまま<br>　一定時間が経過すると、自動ログアウトします。<br><br>タイトル画面に戻ります。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+LogWindow
+Group 0
+LogKind_All - ログ：すべて
+LogKind_Custom - ログ：すべて表示
+LogKind_Public - ログ：周囲
+LogKind_Party - ログ：パーティー
+LogKind_Guild - ログ：チーム
+LogKind_System - ログ：システム
+LogKind_NPC - ログ：キャラクター
+LogKind_Whisper - ログ：ウィスパー
+LogKind_Channel - -
+LogBalloon_All - 0.すべて表示
+LogBalloon_Custom - 0.すべて表示
+LogBalloon_Public - 1.周囲
+LogBalloon_Party - <pict Party>2.パーティー
+LogBalloon_Guild - <pict Guild>3.チーム
+LogBalloon_System - 7.システム
+LogBalloon_NPC - 6.キャラクター
+LogBalloon_Whisper - <pict Whisper>4.ウィスパー
+LogRange_Public - 1.周囲に発言
+LogRange_Party - <pict Party>2.パーティーに発言
+LogRange_Guild - <pict Guild>3.チームに発言
+LogRange_Whisper - <pict Whisper>4.ウィスパーで発言
+LogRangeTab_Public - 1.周囲
+LogRangeTab_Party - <pict Party>2.パーティー
+LogRangeTab_Guild - <pict Guild>3.チーム
+LogRangeTab_Whisp - <pict Whisper>4.ウィスパー
+WhisperSendTo - $(0) に発言
+LogName_System - System
+LogButton_Send - 発言
+LogButton_Input - <%ChatStart>でチャット開始
+LogButton_Input_ooo - -
+LogButton_DirectChat - ダイレクトチャットモード
+LogButton_Range_Vita - 発言先
+LogButton_Log_Vita - ログ
+LogButton_Reset_Vita - 全削除
+LogToast_ShortLog - ショートログ表示開始。自分をタッチすると非表示になります。
+LogShortCutEdit - 編集完了
+LogButton_Balloon - フキダシ
+LogButton_Manpu - 漫符
+LogButton_Cutin - カットイン
+LogButton_SE - -
+LogButton_Voice - -
+LogButton_Color - -
+LogButton_Emoji - -
+LogButton_Twitter - -
+LogButton_LobbyAction - ロビーアクション
+LogButton_Symbol - シンボルアート
+LogButton_ContinuousInput - 連続入力
+DirectChatBegin - ダイレクトチャットを ON にしました。
+DirectChatEnd - ダイレクトチャットを OFF にしました。
+DirectChatEndTmp - 一時的にダイレクトチャットを OFF にします。
+DirectChatBlacklist - 対象者をブロックリストに登録しているためメッセージを送信できません。
+Log_Toast_Whisper_Name_Fail - 相手が周囲にいないため、ウィスパーチャットができませんでした。
+Log_Toast_Unknown_Whisper - ウィスパーチャットの相手を「…」ボタンから選択してください。
+Log_Toast_Disable_Whisper_SymbolArt - ウィスパーチャットでスタンプ、シンボルアート発言はできません。
+Log_Toast_Disable_TeamChat - チーム未所属のため、チームに発言できません。発言先をご確認ください。
+Log_Welcome - ようこそ、<lt>$(0)<rt>へ！
+Log_KeyHelp - ようこそ、<br>『ファンタシースターオンライン2』へ！
+Log_ItemGet - $(0)を取得しました。
+Log_CapsuleGet - 仮想アイテム：$(0)を拾得しました。エクストリーム端末で確認可能です。
+LogSymbolArt - シンボルアートを表示しました。
+LogWhisperEmpty - ウィスパー送受信履歴がありません
+LogGroupChatEmpty - このエリアでは利用できません
+LogWhisperButtonText - …
+Tab - タブ$(0)
+TabChange_Title - チャンネルタブ変更
+Bubble_Normal - 通常
+Bubble_Surprise - 強調
+Bubble_Question - もわもわ
+ManpuCategory_01 - ポジティブ
+ManpuCategory_02 - ネガティブ
+ManpuCategory_03 - ポジティブ組合せ
+ManpuCategory_04 - ネガティブ組合せ
+Manpu_None - なし
+Manpu_1 - 汗1
+Manpu_2 - 汗2
+Manpu_3 - 血管
+Manpu_4 - エクトプラズム
+Manpu_5 - たれ線
+Manpu_6 - テレ線
+Manpu_7 - 昇天
+Manpu_8 - がいこつ
+Manpu_9 - ひらめき
+Manpu_10 - 呆け
+Manpu_11 - ため息
+Manpu_12 - ぷんぷん
+Manpu_13 - 不満
+Manpu_15 - 笑い線
+Manpu_16 - ハート
+Manpu_17 - 音符
+Manpu_18 - 感嘆符
+Manpu_19 - 疑問符
+Manpu_20 - 感嘆疑問符
+Manpu_21 - 眠い
+Manpu_22 - 驚き
+Manpu_23 - たれ線 + 汗1
+Manpu_24 - 汗2 + テレ線
+Manpu_25 - 不満 + 血管
+Manpu_26 - 血管 + 感嘆符
+Manpu_27 - たれ線 + ため息
+Manpu_28 - 呆け + テレ線
+Manpu_29 - テレ線 + ぷんぷん
+Manpu_30 - エクトプラズム + がいこつ
+Manpu_31 - ひらめき + 感嘆疑問符
+Manpu_32 - 呆け + ハート
+Manpu_33 - ぷんぷん + ため息
+Manpu_34 - 不満 + 感嘆符
+Manpu_35 - 不満 + 感嘆疑問符
+Manpu_36 - 驚き + 感嘆符
+Manpu_37 - 笑い線 + ハート
+Manpu_38 - 笑い線 + 音符
+Manpu_39 - ぷんぷん + 疑問符
+Cutin_Face_None - なし
+Cutin_Face_Normal - 通常
+Cutin_Face_Smile - 笑顔
+Cutin_Face_Anger - 怒り
+Cutin_Face_Sad - 悲しみ
+Cutin_Face_Dubious - 不信感
+Cutin_Face_Close - 目閉じ
+Cutin_Face_Smile2 - 笑顔2
+Cutin_Face_Wink - ウィンク
+Cutin_Camera_Front - 正面から
+Cutin_Camera_SideFront - 斜め横から
+Cutin_Camera_SideFrontUp - 斜め上から
+Cutin_Camera_SideFrontDown - 斜め下から
+Cutin_Camera_Side - 横から
+LogKind_Group - ログ：グループ
+LogTitleLobbyAction - ロビーアクション選択
+LogBalloon_Group - <pict Group>5.グループ
+LogRange_Public_Challenge - 1.全エリアに発言
+LogRange_Public_Poka - 1.ユニオンに発言
+LogRange_Group - <pict Group>5.グループで発言
+LogAnnounce_Show - 変更
+LogAnnounce_Speak - 変更
+LogAnnounce_Plus - +
+LogAnnounce_Delete - <%Function>1文字削除
+LogRangeTab_Public_Challenge - 1.全エリア
+LogRangeTab_Public_Poka - 1.ユニオン
+LogRangeTab_Group - <pict Group>5.グループ
+LogButton_ChatNG - チャット入力不可
+LogButton_Shortcut - <%ChatStart>ショートカット一覧
+LogButton_Input_Party - <pict Party><%ChatStart>でチャット開始
+LogButton_Input_Guild - <pict Guild><%ChatStart>でチャット開始
+LogButton_Input_Whisper - <pict Whisper><%ChatStart>でチャット開始
+LogButton_ShortcutPad - <%ChatStartPad>でチャット開始
+LogButton_ShortcutPad_ooo - <pict na_view_hold>でチャット開始
+LogButton_InputPad - <%ChatStartPad>でチャット開始
+LogButton_InputPad_ooo - <pict na_view_hold>でチャット開始
+LogButton_Input_PartyPad - <pict Party><%ChatStartPad>でチャット開始
+LogButton_Input_GuildPad - <pict Guild><%ChatStartPad>でチャット開始
+LogButton_Input_WhisperPad - <pict Whisper><%ChatStartPad>でチャット開始
+LogButton_DirectChat_Party - <pict Party>ダイレクトチャットモード
+LogButton_DirectChat_Guild - <pict Guild>ダイレクトチャットモード
+LogButton_DirectChat_Whisper - <pict Whisper>ダイレクトチャットモード
+LogButton_ShortcutCloud - <%MainMenu>長押しでチャット開始
+LogButton_InputCloud - <%MainMenu>長押しでチャット開始
+Log_Toast_Disable_TeamChat_ChallengeShip - 共通シップではチームチャットはご利用いただけません。
+Log_Toast_Disable_TeamChat_Poka - 現在、チームチャットはご利用いただけません。
+Log_Toast_Nouse_Poka_Whisper - 対戦中のためウィスパーチャットはご利用いただけません。
+Log_Toast_Disable_GroupChat - グループチャットへの発言は、参加メンバーが２名以上必要です。
+Log_Toast_Disable_GroupChat_NotActive - 表示しているグループがありません。
+Log_Toast_Disable_GroupChat_NotUseArea - 登録しているグループがありません。
+LogBoostEventInfo - イベント情報
+ArksRanking_JoinText - アークスリーグに参加しました。<br>詳しくは開催中イベントのアークスリーグをご覧ください。
+ArksRanking_RewardText - <pict New>未受取のアークスリーグ報酬があります。<br>アークスリーグ管理官から受け取ってください。
+GuildAddContentsPointOwn - $(0)TPを獲得しました。
+GuildAddContentsPointMix - 共通シップでのプレイにより、$(0)TPを獲得しました。
+LogButton_Stamp - スタンプ
+Log_ItemName - $(1)$(0)
+LogText_Stamp - スタンプが表示されました。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+LogChannelList
+Group 0
+OpenChannelTab - -
+ChannelPopupItem1 - -
+ChannelPopupItem2 - -
+ChannelPopupItem3 - -
+TabHeader1 - -
+TabHeader2 - -
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+LogTabEdit
+Group 0
+PopupItem1 - -
+PopupItem2 - -
+PopupItem3 - -
+PopupItem4 - -
+PopupItem5 - -
+PopupItem6 - -
+PopupItem7 - -
+PopupItem8 - -
+PopupItem9 - -
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+LogChannelEdit
+Group 0
+Title_ViewMode - -
+Title_NewChannel - -
 
 Group 1
 
@@ -1282,22 +1614,23 @@ LobbyAction_threepose - 「３」ポーズ
 LobbyAction_heropose2 - ヒーローポーズ＋
 LobbyAction_phantom2 - ファントムポーズ＋
 LobbyAction_966dance - Ｖｏパフォーマンス１１
+LobbyAction_972performance - Ｖｏパフォーマンス１２
+LobbyAction_hinadan - 観覧席
 LobbyAction_fourpose - 「４」ポーズ
 LobbyAction_943cheerup - 励ます
 LobbyAction_950aisatsu - おじぎ
 LobbyAction_hello2re - 挨拶２+
 LobbyAction_rabbitdance - うさぴょん
 LobbyAction_944look - 手のひらを見る
-LobbyAction_972performance - Ｖｏパフォーマンス１２
-LobbyAction_hinadan - 観覧席
 LobbyAction_fivepose - 「５」ポーズ
 LobbyAction_graffiti - らくがき
 LobbyAction_953sonkei - 礼４
 LobbyAction_947sit - 座る８
 LobbyAction_954hurue - 迫りくる恐怖
+LobbyAction_pccollabo - Intel
 LobbyAction_icecreamre - アイスを食べる＋
-LobbyAction_2000ice - アイスを食べる2
-LobbyAction_2001ice - アイスを食べる3
+LobbyAction_2000ice - アイスを食べる２
+LobbyAction_2001ice - アイスを食べる３
 LobbyAction_2045dance - ダンス６１
 LobbyAction_parasolpose - パラソル
 LobbyAction_summeritempose - エンジョイサマー
@@ -1312,19 +1645,15 @@ LobbyAction_955cook - 料理する２
 LobbyAction_465kobushi - 頑張るゾ
 LobbyAction_2017hang - 吊るされる２
 LobbyAction_920yubipose - この指とまれ
-LobbyAction_subject - 囚われの身
 LobbyAction_2006syagamu - しゃがむ４
 LobbyAction_yakiimo - 焼き芋
 LobbyAction_oteage - 手に負えない
 LobbyAction_2105dance - ダンス６３
 LobbyAction_967sonictails - ソニック／テイルス３
-LobbyAction_pccollabo - Intel
 LobbyAction_956tyouhatsu - 挑発２
 LobbyAction_redyarn - 赤い糸
 LobbyAction_2097redyarn - 赤い糸２
 LobbyAction_positioning - ポジショニング
-LobbyAction_2123dance - ダンス６４
-LobbyAction_2051cold - 寒がる２
 LobbyAction_2052yukiasobi - 雪遊び３
 LobbyAction_948sit - 座る１０
 LobbyAction_ozouni - お雑煮を食べる
@@ -1334,18 +1663,16 @@ LobbyAction_tyabudai - ちゃぶ台
 LobbyAction_tatami - 畳
 LobbyAction_commemorative - 記念撮影
 LobbyAction_2130dance - ダンス６５
-LobbyAction_braverpose - ブレイバーポーズ
 LobbyAction_icehockey - アイスホッケー
-LobbyAction_bouncer - バウンサーポーズ
 LobbyAction_prologue - 『ＮＧＳ』ポーズ
 LobbyAction_fingerdance - ＮＯ　ＢＯＲＤＥＲ．
-LobbyAction_2132heartpose - ハートポーズ2
+LobbyAction_2123dance - ダンス６４
+LobbyAction_2132heartpose - ハートポーズ２
 LobbyAction_pourtea - お茶を注ぐ
 LobbyAction_2078service - ご奉仕／リラックス
 LobbyAction_skyama - 閃光のヤマダポーズ
 LobbyAction_2144dance - ダンス６６
-LobbyAction_aircombat - 空中戦
-LobbyAction_2133heartpose - ハートポーズ3
+LobbyAction_2133heartpose - ハートポーズ３
 LobbyAction_2145dance - ダンス６７
 LobbyAction_2079shooting - 横シューティング
 LobbyAction_2007bed - ベッド４
@@ -1360,13 +1687,7 @@ LobbyAction_2089airchair - 宙に座る
 LobbyAction_2151dance - ダンス６８
 LobbyAction_2080hiding - 隠れる
 LobbyAction_2152dance - ダンス６９
-LobbyAction_hitugiposere - ヒツギポーズ＋
-LobbyAction_2142nldance - ナーデレフライブ
-LobbyAction_2143nldance - ナーデレフライブ２
-LobbyAction_2153nldance - ナーデレフライブ３
 LobbyAction_2154prpose - ＰＲポーズ７
-LobbyAction_gunactionre - 銃を構える＋
-LobbyAction_spearposere - 槍を構える＋
 LobbyAction_boxingre - ボクシング＋
 LobbyAction_remakeup - メイクアップ
 LobbyAction_souvenirphoto - トリックフォトポーズ
@@ -1374,279 +1695,20 @@ LobbyAction_himedakko - 抱っこ
 LobbyAction_2135korpokkur - 葉っぱ傘
 LobbyAction_2136korpokkur - 葉っぱ傘２
 LobbyAction_moonstarsit - 星に座る
-LobbyAction_katanacare - 武器の手入れ
 LobbyAction_muscletraining - 筋トレ
 LobbyAction_abdominal - 腹筋
-LobbyAction_greatswordposere - 大剣を構える＋
 LobbyAction_jankenre - じゃんけん＋
 LobbyAction_fanservicere - ファンサ＋
-LobbyAction_lnpose - Lenovo
 LobbyAction_2169lc - ロールケーキを食べる
 LobbyAction_watersidepose - ビーチチェアに座る
 LobbyAction_dive - 飛び込み
 LobbyAction_2058makefire - 火起こし
-LobbyAction_summonerpose - ウェイカーポーズ
-LobbyAction_hotaru - 蛍の観察
 LobbyAction_2181dance - Ｖｏパフォーマンス１３
-LobbyAction_sktpose - 東京スカイツリー×NGS
-LobbyAction_mbbattle - メルティブラッド：戦闘開始
-LobbyAction_2202mbbattle - メルティブラッド：戦闘開始２
-LobbyAction_2198mbpanel - アルクェイド／シエル
-LobbyAction_2199mbpanel - 遠野志貴／遠野秋葉
+LobbyAction_957taoreru - 救急ごっこ
 LobbyAction_bartender - バーテンダー
-LobbyAction_2030shakeoff - 武器を構える
 LobbyAction_blind - ブラインド越し
-LobbyAction_2160preparation - 戦闘準備
 LobbyAction_selfmainte - セルフメンテナンス
-LobbyAction_ovl - オーバーロード
-LobbyAction_2155silhouette - シルエットポーズ
-LobbyAction_2205phone - スマートフォン
-LobbyAction_posing - 高速ポージング
-LobbyAction_logout - ログアウト
-LobbyAction_2189hug - ハグ２
-LobbyAction_nademof - ラッピーといっしょ
-LobbyAction_magicbookposere - 魔術書を構える＋
-LobbyAction_layinglap - 膝枕をしてもらう
-LobbyAction_2158aircombat - 空中戦2
-LobbyAction_money - 札束
-LobbyAction_2208preparation - 戦闘準備2
-LobbyAction_ridinganimal - どうぶつ乗り物
-LobbyAction_2064meal - 食事
-LobbyAction_2209preparation - 戦闘準備3
-LobbyAction_throne - 玉座に座る
-LobbyAction_guncare - 武器の手入れ２
-LobbyAction_2166spotlight - スポットライト
-LobbyAction_stonestatue - アートポーズ
-LobbyAction_2180sit - 足組み浮遊
-LobbyAction_2179nakayoshi - ツーショットポーズ
-LobbyAction_2226curry - １００時間カレー
-LobbyAction_2227violin - バイオリンを弾く
-LobbyAction_2159aircombat - 空中戦3
-LobbyAction_dokodemofuro - どこでもバスタイム
-LobbyAction_2090airchair - 宙に座る２
-LobbyAction_cafepose - コーヒーブレイク
-LobbyAction_cat - ネコになる
-LobbyAction_hat - 帽子を持つ
-LobbyAction_sandplay - 砂遊び
-LobbyAction_commander - 指示を出す
-LobbyAction_2229slayer - スレイヤーポーズ
-LobbyAction_2228prpose - ＰＲポーズ８
-LobbyAction_plushdoll - ラッピーぬいぐるみ
-LobbyAction_pikohan - ピコットハンマー
-LobbyAction_shellbed - 貝殻ベッド
-LobbyAction_greatjoy - 大喜び2
-LobbyAction_2235prpose - ＰＲポーズ９
-LobbyAction_pose22re - ポーズ２２＋
-LobbyAction_knucklere - ナックルポーズ＋
-LobbyAction_aiaigasa - 相合傘
-LobbyAction_handkissing - 手の甲にキス
-LobbyAction_1885hitsugire - ヒツギポーズ２＋
-LobbyAction_2096yorikakaru - よりかかる2
-LobbyAction_aogusit - 座って扇ぐ
-LobbyAction_1015winnerposere - 勝利ポーズ４＋
-LobbyAction_2028prpose - ＰＲポーズ１０
-LobbyAction_2246ospose - アイの決めポーズ
-LobbyAction_866etph - 戦闘準備4
-LobbyAction_peekaboore - いないいないばぁ＋
-LobbyAction_2264dnkpose - ドンキ×NGSタオル
-LobbyAction_2262iseojpose3 - 異世界おじさん：剣技
-LobbyAction_2263iseojdance - 異世界おじさん：OP
-LobbyAction_2259dance - ダンス７０
-LobbyAction_2167spotlight - スポットライト2
-LobbyAction_anemia - 倒れ込む
-LobbyAction_2233spg - スプリガン
-LobbyAction_warposere - 勝利ポーズ１＋
-LobbyAction_winnerpose2re - 勝利ポーズ２＋
-LobbyAction_realgorilla - ゴリラタイム
-LobbyAction_2031shakeoff - 武器を構える2
-LobbyAction_2244fagpose - フライングベース３
-LobbyAction_2245fagpose - フライングベース４
-LobbyAction_2265tachikoma - タチコマ
-LobbyAction_2270signb1 - サインはB
-LobbyAction_lawsonre - ローソン看板＋
-LobbyAction_2272dance - Ｖｏパフォーマンス１４
-LobbyAction_2271fujikyupose - 富士急×NGS
-LobbyAction_2293reading - 本を読む
-LobbyAction_2294centralgirl - せんとらるっ！
-LobbyAction_2274present - ギフトボックス
-LobbyAction_2275chimneypose - 煙突
-LobbyAction_2277kimonopose - 和服待機2
-LobbyAction_2279wahukudow - 和服挨拶
-LobbyAction_2286jumppose - ジャンプポーズ2
-LobbyAction_tapdancere - ダンス１３＋
-LobbyAction_kimeposere - ポーズ９＋
-LobbyAction_2249jaanpose - 見せびらかす
-LobbyAction_7meridia - 『七つの大罪』：剣技
-LobbyAction_7erihor - 『七つの大罪』：ホークといっしょ
-LobbyAction_2283onehandpose - ブレイクダンスフリーズ
 LobbyAction_2295showhand - 手を見せる
-LobbyAction_2305vivapaella - パエリアを食べる
-LobbyAction_2267idorapause3 - イドラキャラポーズ３
-LobbyAction_2268idorapause4 - イドラキャラポーズ４
-LobbyAction_2307ppn - ムゲンのキセキ
-LobbyAction_2276roundpose - ボードを掲げる
-LobbyAction_2291haveflowers - 花を持つ
-LobbyAction_2298kimepose - アクションヒーローポーズ
-LobbyAction_katazun - 肩によりかかる
-LobbyAction_patting - 頭ポンポン
-LobbyAction_ichitaro_nekoposere - ネコポーズ＋
-LobbyAction_bodybuildre - ボディビル＋
-LobbyAction_kamae - 構える３
-LobbyAction_2280effbeam - 目からビーム
-LobbyAction_2342kimepose2 - アクションヒーローポーズ2
-LobbyAction_2343kimepose3 - アクションヒーローポーズ3
-LobbyAction_2278umbrella2 - 番傘ポーズ
-LobbyAction_2288handinhand2 - 手を繋ぐ
-LobbyAction_2309sword - 武器反映ポーズ
-LobbyAction_2310rifle - 武器反映ポーズ2
-LobbyAction_2317dance - ダンス７１
-LobbyAction_2292handmagic - アメイジングマジック
-LobbyAction_eioure - エイエイオー！＋
-LobbyAction_ichitaro_kouhou4re - やったー＋
-LobbyAction_820pose - ポーズ２５
-LobbyAction_2319atelier - ライザの調合
-LobbyAction_2308nuigurumi - 大きなクマグルミ
-LobbyAction_2287balletpose - バレエポーズ
-LobbyAction_913catposerev - キツネポーズRev
-LobbyAction_aircombatrev - 空中戦Rev
-LobbyAction_watersideposer - ビーチチェアに座るRev
-LobbyAction_nakayoshirev - なかよしポーズRev
-LobbyAction_heartposerev - ハートポーズRev
-LobbyAction_summonerposerev - ウェイカーポーズRev
-LobbyAction_2179nakayoshirev - ツーショットポーズRev
-LobbyAction_944lookrev - 手のひらを見るRev
-LobbyAction_2158aircombatrev - 空中戦2Rev
-LobbyAction_thronerev - 玉座に座るRev
-LobbyAction_2132heartposerev - ハートポーズ2Rev
-LobbyAction_braverposerev - ブレイバーポーズRev
-LobbyAction_2159aircombatrev - 空中戦3Rev
-LobbyAction_rodposerev - ロッドポーズRev
-LobbyAction_2096yorikakarurev - よりかかる2Rev
-LobbyAction_2089airchairrev - 宙に座るRev
-LobbyAction_mdposeb2rev - やっほーRev
-LobbyAction_kashigerev - 首をかしげるRev
-LobbyAction_waiting5rev - 待機中５Rev
-LobbyAction_3019sitrev - 座る４Rev
-LobbyAction_liveperformancerev - ＶｏパフォーマンスRev
-LobbyAction_556posenetarev - ＰＲポーズ４Rev
-LobbyAction_1yubiposerev - 「１」ポーズRev
-LobbyAction_2yubiposerev - 「２」ポーズRev
-LobbyAction_threeposerev - 「３」ポーズRev
-LobbyAction_fourposerev - 「４」ポーズRev
-LobbyAction_fiveposerev - 「５」ポーズRev
-LobbyAction_730sitdownrev - 腰掛ける２Rev
-LobbyAction_muscleposerev - マッスルポーズRev
-LobbyAction_waiting6rev - 待機中６Rev
-LobbyAction_subjectcolor - 囚われの身/B
-LobbyAction_almaballmver - ホロボールに乗る
-LobbyAction_parasolposerev - パラソルRev
-LobbyAction_parasolposecolor - パラソル/B
-LobbyAction_parasolposecr - パラソルRev/B
-LobbyAction_shellbedcolor - 貝殻ベッド/B
-LobbyAction_moonstarsitcolor - 星に座る/B
-LobbyAction_2000icemver - アイスを食べる2/B
-LobbyAction_campmkcolor - キャンプ/B
-LobbyAction_teatimemver - どこでもお茶会/B
-LobbyAction_logoutcolor - ログアウト/B
-LobbyAction_tatamicolor - 畳/B
-LobbyAction_watersideposem - ビーチチェアに座る/B
-LobbyAction_watersideposemr - ビーチチェアに座るRev/B
-LobbyAction_polldancecolor - ポールダンス/B
-LobbyAction_ippukumvercolor - どこでもお茶屋/B
-LobbyAction_2330knuckle - 武器反映ポーズ3
-LobbyAction_2329boots - 武器反映ポーズ4
-LobbyAction_2334shower - シャワーを浴びる
-LobbyAction_2336twoshot - ツーショットポーズ2
-LobbyAction_2321dark - コードギアス
-LobbyAction_2323floatring - プール遊び2
-LobbyAction_2332beachchair - ビーチチェアに座る2
-LobbyAction_attihoire - アッチ向いてホイ＋
-LobbyAction_rapperre - ラッパー＋
-LobbyAction_2297barrier - バリアを張る
-LobbyAction_2322shadow - 陰の実力者になりたくて！
-LobbyAction_holdknees - 座る１１
-LobbyAction_victory - トロフィーを掲げる
-LobbyAction_duelrate - ラインストライク
-LobbyAction_2281deckbrush - デッキブラシ
-LobbyAction_2353sf - シャングリラ・フロンティア
-LobbyAction_2354sf - シャングリラ・フロンティア2
-LobbyAction_2355sf - シャングリラ・フロンティア3
-LobbyAction_2311machinegun - 武器反映ポーズ5
-LobbyAction_2328bow - 武器反映ポーズ6
-LobbyAction_washingback - 背中を洗う
-LobbyAction_2300help - 抱きかかえる
-LobbyAction_furadancere - ダンス５３＋
-LobbyAction_dadakonere - ダダをこねる＋
-LobbyAction_2366hachi - 怪獣８号ポーズ
-LobbyAction_2367hachi - 怪獣８号ポーズ2
-LobbyAction_2337together - なかよしポーズ2
-LobbyAction_2331catpose - ネコポーズ2
-LobbyAction_2289defoliation - 落ち葉あそび
-LobbyAction_sansannana - 三三七拍子
-LobbyAction_2269cheerleader - チアリーダー
-LobbyAction_2350launcher - 武器反映ポーズ7
-LobbyAction_2314blade - 武器反映ポーズ8
-LobbyAction_2379fagpose - フライングベース５
-LobbyAction_2345pairspose - なかよしポーズ3
-LobbyAction_2378dance - ダンス７２
-LobbyAction_2380idr - イドラキャラポーズ５
-LobbyAction_fgoo - グー
-LobbyAction_foyayubi - 親指
-LobbyAction_fhitosashi - 人差し指
-LobbyAction_fkoyubi - 小指
-LobbyAction_fhitooyastand - Ｌの字
-LobbyAction_fhitonakakagi - かぎ爪
-LobbyAction_fhitonakaopen - ピース
-LobbyAction_fhitonakastand - Ｕの字
-LobbyAction_fhitooyaawase - つまむ
-LobbyAction_fhinakuopen - Ｗの字
-LobbyAction_fhinakustand - 三本指
-LobbyAction_fnahiostand - 三本指２
-LobbyAction_fkitsune - キツネ
-LobbyAction_foyakoyustand - アロハ
-LobbyAction_fhitokostand - ロックユー
-LobbyAction_fhitooyacross - フィンガーハート
-LobbyAction_fkagitsume - かぎ爪２
-LobbyAction_2119goo - グー２
-LobbyAction_2120handopen - 手をひらく
-LobbyAction_2121handopen - 手をひらく2
-LobbyAction_2122oyayubi - 親指２
-LobbyAction_2124goo - グー３
-LobbyAction_2125handopen - 手をひらく3
-LobbyAction_2126handopen - 手をひらく4
-LobbyAction_2127koyubi - 小指２
-LobbyAction_nekohand - 猫の手
-LobbyAction_2147goo - グー４
-LobbyAction_2148handopen - 手をひらく5
-LobbyAction_2149handopen - 手をひらく6
-LobbyAction_2150koyubi - 小指３
-LobbyAction_wakiwaki - とじひらき
-LobbyAction_2184fopenclose - とじひらき２
-LobbyAction_2185yubifurifb - 人差し指をふる
-LobbyAction_2186yubifurilr - 人差し指をふる２
-LobbyAction_2193fopenclose - とじひらき３
-LobbyAction_2194handkuikui - とじひらき４
-LobbyAction_2195koyubi - 小指４
-LobbyAction_2196nigiru - 握る
-LobbyAction_kanihand - チョキチョキ
-LobbyAction_ftalkfox - キツネ２
-LobbyAction_2201handopen - 手をひらく7
-LobbyAction_handhalfopen - ゆるくにぎる
-LobbyAction_2212nigiru - 握る２
-LobbyAction_2213airquotes - フィンガークオート
-LobbyAction_2214fopenclose - とじひらき５
-LobbyAction_2215bosatsu - ゆるくにぎる2
-LobbyAction_girlpiece - ピース２
-LobbyAction_ufinger - Uの字2
-LobbyAction_fingercross - クロスフィンガー
-LobbyAction_2241piece - ゆるピース
-LobbyAction_2242handopen - 手をひらく8
-LobbyAction_2258anomalyhand - 決めポーズ
-LobbyAction_2273handdown - 手をひらく9
-LobbyAction_2315halfopen - ゆるくにぎる3
-LobbyAction_2318foxfinger - ゆるくにぎる4
-LobbyAction_2352handopen - 決めポーズ2
-LobbyAction_2370lshape - Lの字2
 LobbyAction_Pchair_viri - フォトンチェア深緑
 LobbyAction_Pchair_green - フォトンチェア緑
 LobbyAction_Pchair_sky - フォトンチェア水
@@ -1679,9 +1741,6 @@ LobbyActionCategory_17 - ロビアク：追加14
 LobbyActionCategory_18 - ロビアク：追加15
 LobbyActionCategory_34 - ロビアク：追加16
 LobbyActionCategory_36 - ロビアク：追加17
-LobbyActionCategory_38 - ロビアク：追加18
-LobbyActionCategory_39 - ロビアク：追加19
-LobbyActionCategory_41 - ロビアク：追加20
 LobbyActionCategory_19 - ロビアク：ポーズ1
 LobbyActionCategory_20 - ロビアク：ポーズ2
 LobbyActionCategory_21 - ロビアク：ポーズ3
@@ -1691,7 +1750,6 @@ LobbyActionCategory_23 - ロビアク：NPCポーズ1
 LobbyActionCategory_24 - ロビアク：NPCポーズ2
 LobbyActionCategory_25 - ロビアク：NPCポーズ3
 LobbyActionCategory_26 - ロビアク：NPCポーズ4
-LobbyActionCategory_40 - ロビアク：武器反映ポーズ1
 LobbyActionCategory_27 - ロビアク：パフォーマンス1
 LobbyActionCategory_28 - ロビアク：パフォーマンス2
 LobbyActionCategory_29 - ロビアク：パフォーマンス3
@@ -1700,7 +1758,6 @@ LobbyActionCategory_31 - ロビアク：コラボ1
 LobbyActionCategory_32 - ロビアク：コラボ2
 LobbyActionCategory_33 - ロビアク：コラボ3
 LobbyActionCategory_37 - ロビアク：コラボ4
-LobbyActionCategory_42 - ロビアク：コラボ5
 LobbyActionCategory_2 - ロビアク：人文字
 LobbyActionCategory_3 - フォトンチェア
 LobbyAction_MonomanePayAction - このロビーアクションの実行には、対応チケットが必要です。
@@ -1724,9 +1781,6 @@ LobbyActionCategoryTab_17 - $(0).追加14
 LobbyActionCategoryTab_18 - $(0).追加15
 LobbyActionCategoryTab_34 - $(0).追加16
 LobbyActionCategoryTab_36 - $(0).追加17
-LobbyActionCategoryTab_38 - $(0).追加18
-LobbyActionCategoryTab_39 - $(0).追加19
-LobbyActionCategoryTab_41 - $(0).追加20
 LobbyActionCategoryTab_19 - $(0).ポーズ1
 LobbyActionCategoryTab_20 - $(0).ポーズ2
 LobbyActionCategoryTab_21 - $(0).ポーズ3
@@ -1736,7 +1790,6 @@ LobbyActionCategoryTab_23 - $(0).NPCポーズ1
 LobbyActionCategoryTab_24 - $(0).NPCポーズ2
 LobbyActionCategoryTab_25 - $(0).NPCポーズ3
 LobbyActionCategoryTab_26 - $(0).NPCポーズ4
-LobbyActionCategoryTab_40 - $(0).武器反映ポーズ1
 LobbyActionCategoryTab_27 - $(0).パフォーマンス1
 LobbyActionCategoryTab_28 - $(0).パフォーマンス2
 LobbyActionCategoryTab_29 - $(0).パフォーマンス3
@@ -1745,7 +1798,6 @@ LobbyActionCategoryTab_31 - $(0).コラボ1
 LobbyActionCategoryTab_32 - $(0).コラボ2
 LobbyActionCategoryTab_33 - $(0).コラボ3
 LobbyActionCategoryTab_37 - $(0).コラボ4
-LobbyActionCategoryTab_42 - $(0).コラボ5
 LobbyActionCategoryTab_2 - $(0).人文字
 LobbyActionCategoryTab_3 - $(0).フォトンチェア
 LobbyActionCategoryTab_Used - 最近使ったもの
@@ -1763,23 +1815,17 @@ LobbyAction_Favorite_Bottom - リストの一番下に移動
 LobbyAction_Favorite_Add_Msg - ロビーアクション「$(0)」をお気に入り登録しました（$(1)/$(2)）
 LobbyAction_Favorite_Add_ErrorMsg - 登録限界数に達しているため、登録できませんでした（$(0)/$(1)）
 LobbyAction_Favorite_Delete_Msg - ロビーアクション「$(0)」をお気に入り解除しました（$(1)/$(2)）
-LobbyActionText - <%NextTabDetails><pict 4space><yellow>お気に入り登録/編集<c>
+LobbyActionText - <%NextTabDetails><yellow>お気に入り登録/編集<c>
 VITA_LobbyActionText - <pict Sign_select><yellow>お気に入り登録/編集<c>
 VITA_FavoritesSwitching - <pict Sign_select>すべて/お気に入り 切替
-LobbyAction_TypeA - <%MultiSelect><pict 4space>+<pict 4space><%Decide><yellow>別タイプアクション<c>
-LobbyActionLogWindow_TypeA - <%MultiSelect><pict 4space>+<pict 4space><%Decide><yellow>別タイプアクション<c>
-LobbyAction_TypeB - <%MultiSelect><pict 4space>+<pict 4space><%Decide><yellow>別タイプアクション<c>
-LobbyActionLogWindow_TypeB - <%MultiSelect><pict 4space>+<pict 4space><%Decide><yellow>別タイプアクション<c>
+LobbyAction_TypeA - <%MultiSelect>+<%Decide><yellow>別タイプアクション<c>
+LobbyActionLogWindow_TypeA - <%MultiSelect>+<%Decide><yellow>別タイプアクション<c>
+LobbyAction_TypeB - <%MultiSelect>+<%Decide><yellow>別タイプアクション<c>
+LobbyActionLogWindow_TypeB - <%MultiSelect>+<%Decide><yellow>別タイプアクション<c>
 LobbyAction_TypeC - <pict Sign_TRIANGLE>+<pict Sign_CIRCLE><yellow>異性アクションの実行<c>
 LobbyActionLogWindow_TypeC - <pict Sign_TRIANGLE>+<pict Sign_CIRCLE><yellow>異性アクション<c>
-ChangeCtrWindow - <%ChangeCtrlWindowForward><pict 4space><yellow>操作ウィンドウ切り替え<c>
+ChangeCtrWindow - <%ChangeCtrlWindowForward><yellow>操作ウィンドウ切り替え<c>
 LobbyAction_Disable_Toast - このロビーアクションは、エステ内では使用できません。
-LobbyAction_FingerSelect - <%Function><pict 4space><yellow>手のポーズ<c>
-LobbyAction_FingerSelect_gray - <%Function><pict 4space><gray>手のポーズ<c>
-LobbyAction_Finger_default - 標準
-LobbyAction_FingerSelect_BothHands - 両手
-LobbyAction_FingerSelect_RightHand - 右手
-LobbyAction_FingerSelect_LeftHand - 左手
 LobbyAction_EmotionType_Display - $(0)（$(1)）
 LobbyAction_Unsupported_Toast - 実行したロビーアクションは『PSO2』ブロック非対応です。
 
@@ -1802,10 +1848,14 @@ Group 8
 Group 9
 
 
-LogChannelEdit
+Term
 Group 0
-Title_ViewMode - -
-Title_NewChannel - -
+Term_Area - $(0)/$(1)
+Term_Positon - ($(0),$(1),$(2))
+Term_Hp - $(0)/$(1)
+Term_Pp - $(0)/$(1)
+Term_ClassSub - $(0) Lv.$(2)/$(1) Lv. $(3)
+Term_Class - $(0) Lv.$(1)
 
 Group 1
 
@@ -1826,14 +1876,56 @@ Group 8
 Group 9
 
 
-LogChannelList
+Block
 Group 0
-OpenChannelTab - -
-ChannelPopupItem1 - -
-ChannelPopupItem2 - -
-ChannelPopupItem3 - -
-TabHeader1 - -
-TabHeader2 - -
+BlockForm_Title - ブロック移動
+BlockForm_Title2 - ブロック説明
+BlockForm_MyRoom - 自分のマイルームへ移動
+BlockForm_GuildRoom - 所属のチームルームへ移動
+BlackForm_Cancel - 戻る
+BlackForm_Explanation - 説明
+BlackForm_PremiumSpace - プレミアムスペース
+BlockForm_Move_Exp - ブロックを移動すると、参加している<br>パーティーから自動的に脱退し、<br>受注中のクエストも破棄されます。<br><br>また、クエストを受けている場合、<br>クエスト内で得られる効果も<br>消えてしまいます。
+BlockForm_MyRoom_Exp - マイルームへ移動しますか？
+BlockForm_GuildRoom_Exp - チームルームへ移動しますか？
+BlockForm_Move_Que - $(0)に移動しますか？
+BlockForm_BlockName - 対象ブロック
+BlockForm_Error_Full - 選択したブロックは混雑のため<br>入ることができません。
+BlockForm_Error_NotFound - 選択したブロックが見つかりませんでした。<br><br>[No.1000］
+BlockForm_Error_Unknown - 選択したブロックは、エラーのため<br>入ることができません。<br><br>[No.1001］
+BlockForm_Error_Default - 選択したブロックは、既定外エラーのため<br>入ることができません。<br><br>[No.1002］
+BlockForm_Error_Premium - プレミアムセット有効期間中にのみ<br>移動が可能なブロックです。<br>利用券をお持ちでないか、<br>利用期限が切れているため、<br>移動することができません。<br><br>[No.1003］
+BlockForm_Error_Platform - ご使用のプラットフォームでは<br>移動することができないブロックです。<br><br>[No.1004］
+BlockForm_PublicShip - 共通シップへ移動
+BlockForm_PublicShip_Poka - 共通シップのバトルロビーへ移動
+BlockForm_PublicShip_Challenge - 共通シップのチャレンジロビーへ移動
+BlockForm_PokaLobby - バトルロビーへ移動
+BlockForm_ChallengeLobby - チャレンジロビーへ移動
+BlockForm_MyShip - 所属シップへ移動
+BlockForm_PublicShip_Exp - 共通シップへ移動すると、参加している<br>パーティーから自動的に脱退し、<br>受注中のクエストも破棄されます。<br><br>また、クエストを受けている場合、<br>クエスト内で得られる効果も<br>消えてしまいます。<br><br>共通シップに移動しますか？
+BlockForm_PublicShip_Exp_TriggerQuest - <yellow>トリガークエストを受注中です！<c><br><br>共通シップへ移動すると、パーティーから<br>自動的に脱退し、マルチパーティーも含め<br><yellow>クエスト参加者全員がクエスト破棄となります。<c><br>※トリガークエストの再受注可能時間<br>　または回数が残っている場合に限ります。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br><red>クエストを開始するために消費した<br>メセタやアイテムは返却されませんので、<br>トラブルの原因になる可能性があります。<br>ご注意ください。<c><br><br>共通シップに移動しますか？
+BlockForm_MyShip_Exp - 所属シップへ移動すると、参加している<br>パーティーから自動的に脱退し、<br>受注中のクエストも破棄されます。<br><br>また、クエストを受けている場合、<br>クエスト内で得られる効果も<br>消えてしまいます。<br><br>所属シップに移動しますか？
+BlockForm_MyShip_Exp_TriggerQuest - <yellow>トリガークエストを受注中です！<c><br><br>所属シップへ移動すると、パーティーから<br>自動的に脱退し、マルチパーティーも含め<br><yellow>クエスト参加者全員がクエスト破棄となります。<c><br>※トリガークエストの再受注可能時間<br>　または回数が残っている場合に限ります。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br><red>クエストを開始するために消費した<br>メセタやアイテムは返却されませんので、<br>トラブルの原因になる可能性があります。<br>ご注意ください。<c><br><br>所属シップに移動しますか？
+BlockForm_Move_Exp_TriggerQuest - <yellow>トリガークエストを受注中です！<c><br><br>ブロックを移動すると、パーティーから<br>自動的に脱退し、マルチパーティーも含め<br><yellow>クエスト参加者全員がクエスト破棄となります。<c><br>※トリガークエストの再受注可能時間<br>　または回数が残っている場合に限ります。<br><br>また、クエスト内で得られる効果も<br>すべて消えてしまいます。<br><br><red>クエストを開始するために消費した<br>メセタやアイテムは返却されませんので、<br>トラブルの原因になる可能性があります。<br>ご注意ください。<c>
+BlockForm_ToMyShip_Exp - 所属シップへ移動すると、<br>マッチングがキャンセルされます。<br><br>所属シップに移動しますか？
+BlockForm_ToChallengeLobby_Exp - チャレンジロビーへ移動すると、<br>マッチングがキャンセルされます。<br><br>チャレンジロビーに移動しますか？
+BlockForm_ToBattleLobby_Exp - バトルロビーへ移動すると、参加している<br>パーティーから自動的に脱退し、<br>受注中のクエストも破棄されます。<br><br>また、クエストを受けている場合、<br>クエスト内で得られる効果も<br>消えてしまいます。<br><red>※すべてのバトルブロックが撮影可能です。<br>　生放送などに自分のキャラが映ることがあります。<c><br><br>バトルロビーに移動しますか？
+BlockForm_BattleLobbyToBattleLobby_Exp - バトルブロックの移動をすると、<br>マッチングがキャンセルされます。<br><br>ブロック移動を行いますか？
+BlockForm_BattleLobbyToBattleLobby_Exp_NoMatching - 別のバトルブロックに移動します。<br>よろしいですか？<br><br><c c0c0c0>※バトルアリーナのマッチングは<br>　すべてのブロックを対象に行われるため、<br>　人の多いブロックに移動する必要はありません。<c>
+AreaForm_BridgeArea_Exp - 艦橋へ移動しますか？
+AreaForm_CafeArea_Exp - フランカ’s カフェへ移動しますか？
+Bond_message - $(0)<br><br>$(1)
+InPublicShipToast - 一時的に共通シップ専用の状態に切り替わりました。
+InChallengeShipToast - 一時的にチャレンジシップ専用の状態に切り替わりました。
+InPokaShipToast - 一時的にバトルアリーナ専用の状態に切り替わりました。
+BlockForm_Move_Exp_HighLevelQuest - <red>受注中のクエストは<br>「破棄ペナルティー」対象です！<c><br><br>破棄すると他のプレイヤーに迷惑がかかるため、<br>発生中の緊急クエストを再受注できなくなります。<br>また、強制的に別ブロックへの移動が行われます。<br><br>ブロックを移動すると、パーティーから<br>自動的に脱退して、受注中のクエストが破棄されます。
+BlockForm_PublicShip_Exp_HighLevelQuest - <red>受注中のクエストは<br>「破棄ペナルティー」対象です！<c><br><br>破棄すると他のプレイヤーに迷惑がかかるため、<br>発生中の緊急クエストを再受注できなくなります。<br>また、強制的に別ブロックへの移動が行われます。<br><br>共通シップに移動すると、パーティーから<br>自動的に脱退して、受注中のクエストが破棄されます。<br><br>「破棄ペナルティー」を受け、共通シップに移動します。<br>よろしいですか？
+BlockForm_MyShip_Exp_HighLevelQuest - <red>受注中のクエストは<br>「破棄ペナルティー」対象です！<c><br><br>破棄すると他のプレイヤーに迷惑がかかるため、<br>発生中の緊急クエストを再受注できなくなります。<br>また、強制的に別ブロックへの移動が行われます。<br><br>所属シップに移動すると、パーティーから<br>自動的に脱退して、受注中のクエストが破棄されます。<br><br>「破棄ペナルティー」を受け、所属シップに移動します。<br>よろしいですか？
+BlockForm_RebootBlock - 『PSO2：NGS』ブロックへ移動
+BlockForm_Reboot_Exp - ブロックを移動すると、参加している<br>パーティーから自動的に脱退し、<br>受注中のクエストも破棄されます。<br><br>また、クエストを受けている場合、<br>クエスト内で得られる効果も<br>消えてしまいます。
+BlockForm_Reboot_Que - 『PSO2：NGS』ブロックに移動しますか？
+BlockForm_NotOnlyBlock_Exp_PS4 - "PS4"専用ブロックから移動します。<br><br>専用ブロックから移動をすると<br>他のプラットフォームのプレイヤーとも<br>パーティーを組むなどコミュニケーションが<br>可能になります。<br><br>移動してもよろしいですか？
+BlockForm_Error_IllegalMember - 選択したブロックに移動できないパーティーメンバーが<br>いるため、移動できませんでした。
 
 Group 1
 
@@ -1854,10 +1946,115 @@ Group 8
 Group 9
 
 
-Login
+GuildRole
 Group 0
-SaveAccount - アカウントを保存
-SavePassword - パスワードを保存
+Master - チームマスター
+Manager - マネージャー
+Common - コモンメンバー
+Visitor - ビジター
+Unknown - 未所属
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Notice
+Group 0
+NewMail - 新着メール
+NewFriendLIst - 新着フレンド登録
+NewParty - 新着パーティー招待
+NewTeam - 新着チームスカウト
+NewTrade - 新着トレード申し込み
+NewExpMail - メールが届きました。
+NewExpTrade - トレードの申し込みがありました。
+NewExpFriendLIst - フレンド登録を申し込まれました。
+NewExpParty - パーティーに招待されました。
+NewExpTeam - チームにスカウトされました。
+NewTitleParty - パーティー招待への返答
+NewTitleFriend - フレンド登録への返答
+NewTitleTeam - チームスカウトへの返答
+NewTitleTrade - トレードへの返答
+NewCheckMail - 未定
+NewCheckFriendList - $(0)から<br>フレンド登録を申し込まれました。<br>返答ウィンドウを開きますか？<br><br>※「いいえ」を選び、あとでメインメニューの<br>　「フレンドリスト」から返答することもできます。
+NewCheckParty - $(0)から<br>パーティーに招待されました。<br>返答ウィンドウを開きますか？<br><br>※「いいえ」を選び、あとでメインメニューの<br>　「パーティーコマンド」から返答することもできます。
+NewCheckTrade - $(0)から<br>トレードを申し込まれました。<br>返答ウィンドウを開きますか？
+NewCheckTeam - $(0)から<br>チームへのスカウトを申し込まれました。<br>返答ウィンドウを開きますか？<br><br>※「いいえ」を選び、あとでメインメニューの<br>　「チームコマンド」から返答することもできます。
+PremiumEnd - プレミアム有効期間の終了が迫っています。
+NewQuest - クエスト受注確認
+NewExpQuest - クエストに招待されました。
+Unavailable_ToastMessage1 - このプラットフォームでは使用できないアイテムです。
+Unavailable_ToastMessage2 - このプラットフォームでは表示できないアイテムの外見を一時的に変更します。
+Unavailable_ToastMessage3 - このプラットフォームでは使用できないロビーアクションです。
+Unavailable_ToastMessage4 - このプラットフォームでは選択できないマグフォルムです。
+Unavailable_ToastMessage5 - このプラットフォームでは表示できないアイテムを展示しているため外見を一時的に変更しています。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Web
+Group 0
+AccessConfirm_Vita - Webページへ移動します。<br>ログアウトしてゲームを終了しますが<br>よろしいですか？
+AccessConfirmTitle_Vita - ブラウザー起動確認
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+Save
+Group 0
+Broken_Vita - ロードに失敗しました。<br>$(0)データが破損していた為<br>新しいセーブデータを上書きしました。
+Type_1 - オプション
+Type_2 - システム
+Type_3 - クリエイト
+Type_4 - ポートレート
+Initialize - セーブデータ作成中...$(0)％
+Type_5 - ウィンドウ設定
 
 Group 1
 
@@ -1906,537 +2103,6 @@ Wednesday - 水
 Thursday - 木
 Friday - 金
 Saturday - 土
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-Logout
-Group 0
-Logout_Title - ゲーム終了
-Logout_Message - ゲームを終了してよろしいですか？
-Logout_Wait_Message - ログアウト処理中です
-AutoLogoutWarning_Title - 注意
-AutoLogoutWarning_Message - 一定時間チャレンジクエストの開始が<br>確認されませんでした。<br><br><yellow>$(0)<c>以内にこのウィンドウを閉じないと、<br>自動でログアウトが行われます。<br>このウィンドウを閉じれば、自動ログアウトを中断します。<br><br><yellow>※共通シップでは、一定時間チャレンジクエストを<br>開始しないでいると、自動でログアウトが行われます。<c>
-AutoLogoutDone_Title - お知らせ
-AutoLogoutDone_Message - 一定時間チャレンジクエストの開始が<br>確認されませんでしたので、ログアウトしました。<br><br>共通シップでは、一定時間チャレンジクエストを<br>開始しないでいると、自動でログアウトを行います。<br><br>タイトル画面に戻ります。
-AutoLogoutWarning_Message_InChallengeShip - 一定時間チャレンジクエストの開始が<br>確認されませんでした。<br><br><yellow>$(0)<c>以内にこのウィンドウを閉じないと、<br>自動でログアウトが行われます。<br>このウィンドウを閉じれば、自動ログアウトを中断します。<br><br><yellow>※共通シップでは、一定時間チャレンジクエストを<br>開始しないでいると、自動でログアウトが行われます。<c>
-AutoLogoutDone_Message_InChallengeShip - 一定時間チャレンジクエストの開始が<br>確認されませんでしたので、ログアウトしました。<br><br>共通シップでは、一定時間チャレンジクエストを<br>開始しないでいると、自動でログアウトを行います。<br><br>タイトル画面に戻ります。
-AutoLogoutWarning_Message_InPokaShip - <c ff9c70>■自動ログアウト警告■<c><br>バトルアリーナでは、マッチングを開始しないまま<br>一定時間が経過すると、自動ログアウトします。<c><br><br><yellow>$(0)<c>以内にこのウィンドウを閉じることで<br>自動ログアウトを中断し、ゲームを継続できます。
-AutoLogoutDone_Message_InPokaShip - <yellow>マッチングを開始しないまま<br>一定時間が経過したため、自動ログアウトしました。<c><br><br>※バトルアリーナでは、マッチングを開始しないまま<br>　一定時間が経過すると、自動ログアウトします。<br><br>タイトル画面に戻ります。
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-LogTabEdit
-Group 0
-PopupItem1 - -
-PopupItem2 - -
-PopupItem3 - -
-PopupItem4 - -
-PopupItem5 - -
-PopupItem6 - -
-PopupItem7 - -
-PopupItem8 - -
-PopupItem9 - -
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-LogWindow
-Group 0
-LogKind_All - ログ：すべて
-LogKind_Custom - ログ：すべて表示
-LogKind_Public - ログ：周囲
-LogKind_Party - ログ：パーティー
-LogKind_Guild - ログ：チーム
-LogKind_System - ログ：システム
-LogKind_NPC - ログ：キャラクター
-LogKind_Whisper - ログ：ウィスパー
-LogKind_Channel - -
-LogBalloon_All - 0.すべて表示
-LogBalloon_Custom - 0.すべて表示
-LogBalloon_Public - 1.周囲
-LogBalloon_Party - <pict Party><pict 4space>2.パーティー
-LogBalloon_Guild - <pict Guild><pict 4space>3.チーム
-LogBalloon_System - 7.システム
-LogBalloon_NPC - 6.キャラクター
-LogBalloon_Whisper - <pict Whisper><pict 4space>4.ウィスパー
-LogRange_Public - 1.周囲に発言
-LogRange_Party - <pict Party><pict 4space>2.パーティーに発言
-LogRange_Guild - <pict Guild><pict 4space>3.チームに発言
-LogRange_Whisper - <pict Whisper><pict 4space>4.ウィスパーで発言
-LogRangeTab_Public - 1.周囲
-LogRangeTab_Party - <pict Party><pict 4space>2.パーティー
-LogRangeTab_Guild - <pict Guild><pict 4space>3.チーム
-LogRangeTab_Whisp - <pict Whisper><pict 4space>4.ウィスパー
-WhisperSendTo - $(0) に発言
-LogName_System - System
-LogButton_Send - 発言
-LogButton_Input - <%ChatStart><pict 4space>でチャット開始
-LogButton_Input_ooo - <%ChatStart>でチャット開始
-LogButton_DirectChat - <pict 4space>ダイレクトチャットモード
-LogButton_Range_Vita - 発言先
-LogButton_Log_Vita - ログ
-LogButton_Reset_Vita - 全削除
-LogToast_ShortLog - ショートログ表示開始。自分をタッチすると非表示になります。
-LogShortCutEdit - 編集完了
-LogButton_Balloon - フキダシ
-LogButton_Manpu - 漫符
-LogButton_Cutin - カットイン
-LogButton_SE - -
-LogButton_Voice - -
-LogButton_Color - -
-LogButton_Emoji - -
-LogButton_Twitter - -
-LogButton_LobbyAction - ロビーアクション
-LogButton_Symbol - シンボルアート
-LogButton_Stamp - スタンプ
-LogButton_ContinuousInput - 連続入力
-DirectChatBegin - ダイレクトチャットを ON にしました。
-DirectChatEnd - ダイレクトチャットを OFF にしました。
-DirectChatEndTmp - 一時的にダイレクトチャットを OFF にします。
-DirectChatBlacklist - 対象者をブロックリストに登録しているためメッセージを送信できません。
-Log_Toast_Whisper_Name_Fail - 相手が周囲にいないため、ウィスパーチャットができませんでした。
-Log_Toast_Unknown_Whisper - ウィスパーチャットの相手を「…」ボタンから選択してください。
-Log_Toast_Disable_Whisper_SymbolArt - ウィスパーチャットでスタンプ、シンボルアート発言はできません。
-Log_Toast_Disable_TeamChat - チーム未所属のため、チームに発言できません。発言先をご確認ください。
-Log_Welcome - ようこそ、<lt>$(0)<rt>へ！
-Log_KeyHelp - ようこそ、<br>『ファンタシースターオンライン2<br>ニュージェネシス』へ！
-Log_ItemGet - $(0)を取得しました。
-Log_ItemGetAuto - 自動売却：$(0)を取得しました。
-Log_CapsuleGet - 仮想アイテム：$(0)を拾得しました。エクストリーム端末で確認可能です。
-LogSymbolArt - シンボルアートを表示しました。
-LogWhisperEmpty - ウィスパー送受信履歴がありません
-LogGroupChatEmpty - このエリアでは利用できません
-LogWhisperButtonText - …
-Tab - タブ$(0)
-TabChange_Title - チャンネルタブ変更
-Bubble_Normal - 通常
-Bubble_Surprise - 強調
-Bubble_Question - もわもわ
-ManpuCategory_01 - ポジティブ
-ManpuCategory_02 - ネガティブ
-ManpuCategory_03 - ポジティブ組合せ
-ManpuCategory_04 - ネガティブ組合せ
-Manpu_None - なし
-Manpu_1 - 汗1
-Manpu_2 - 汗2
-Manpu_3 - 血管
-Manpu_4 - エクトプラズム
-Manpu_5 - たれ線
-Manpu_6 - テレ線
-Manpu_7 - 昇天
-Manpu_8 - がいこつ
-Manpu_9 - ひらめき
-Manpu_10 - 呆け
-Manpu_11 - ため息
-Manpu_12 - ぷんぷん
-Manpu_13 - 不満
-Manpu_15 - 笑い線
-Manpu_16 - ハート
-Manpu_17 - 音符
-Manpu_18 - 感嘆符
-Manpu_19 - 疑問符
-Manpu_20 - 感嘆疑問符
-Manpu_21 - 眠い
-Manpu_22 - 驚き
-Manpu_23 - たれ線 + 汗1
-Manpu_24 - 汗2 + テレ線
-Manpu_25 - 不満 + 血管
-Manpu_26 - 血管 + 感嘆符
-Manpu_27 - たれ線 + ため息
-Manpu_28 - 呆け + テレ線
-Manpu_29 - テレ線 + ぷんぷん
-Manpu_30 - エクトプラズム + がいこつ
-Manpu_31 - ひらめき + 感嘆疑問符
-Manpu_32 - 呆け + ハート
-Manpu_33 - ぷんぷん + ため息
-Manpu_34 - 不満 + 感嘆符
-Manpu_35 - 不満 + 感嘆疑問符
-Manpu_36 - 驚き + 感嘆符
-Manpu_37 - 笑い線 + ハート
-Manpu_38 - 笑い線 + 音符
-Manpu_39 - ぷんぷん + 疑問符
-Cutin_Face_None - なし
-Cutin_Face_Normal - 通常
-Cutin_Face_Smile - 笑顔
-Cutin_Face_Anger - 怒り
-Cutin_Face_Sad - 悲しみ
-Cutin_Face_Dubious - 不信感
-Cutin_Face_Close - 目閉じ
-Cutin_Face_Smile2 - 笑顔2
-Cutin_Face_Wink - ウィンク
-Cutin_Camera_Front - 正面から
-Cutin_Camera_SideFront - 斜め横から
-Cutin_Camera_SideFrontUp - 斜め上から
-Cutin_Camera_SideFrontDown - 斜め下から
-Cutin_Camera_Side - 横から
-LogKind_Group - ログ：グループ
-LogTitleLobbyAction - ロビーアクション選択
-LogBalloon_Group - <pict Group><pict 4space>5.グループ
-LogRange_Public_Challenge - 1.全エリアに発言
-LogRange_Public_Poka - 1.ユニオンに発言
-LogRange_Group - <pict Group><pict 4space>5.グループで発言
-LogAnnounce_Show - 変更
-LogAnnounce_Speak - 変更
-LogAnnounce_Plus - +
-LogAnnounce_Delete - <%Function>1文字削除
-LogRangeTab_Public_Challenge - 1.全エリア
-LogRangeTab_Public_Poka - 1.ユニオン
-LogRangeTab_Group - <pict Group><pict 4space>5.グループ
-LogButton_ChatNG - チャット入力不可
-LogButton_Shortcut - <%ChatStart>ショートカット一覧
-LogButton_Input_Party - <pict Party><%ChatStart><pict 4space>でチャット開始
-LogButton_Input_Guild - <pict Guild><%ChatStart><pict 4space>でチャット開始
-LogButton_Input_Whisper - <pict Whisper><%ChatStart><pict 4space>でチャット開始
-LogButton_ShortcutPad - <%ChatStartPad><pict 4space>でチャット開始
-LogButton_ShortcutPad_ooo - <pict na_view_hold>でチャット開始
-LogButton_InputPad - <%ChatStartPad><pict 4space>でチャット開始
-LogButton_InputPad_ooo - <pict na_view_hold>でチャット開始
-LogButton_Input_PartyPad - <pict Party><%ChatStartPad><pict 4space>でチャット開始
-LogButton_Input_GuildPad - <pict Guild><%ChatStartPad><pict 4space>でチャット開始
-LogButton_Input_WhisperPad - <pict Whisper><%ChatStartPad>でチャット開始
-LogButton_DirectChat_Party - <pict Party><pict 4space>ダイレクトチャットモード
-LogButton_DirectChat_Guild - <pict Guild><pict 4space>ダイレクトチャットモード
-LogButton_DirectChat_Whisper - <pict Whisper><pict 4space>ダイレクトチャットモード
-LogButton_ShortcutCloud - <%MainMenu>長押しでチャット開始
-LogButton_InputCloud - <%MainMenu>長押しでチャット開始
-Log_Toast_Disable_TeamChat_ChallengeShip - 共通シップではチームチャットはご利用いただけません。
-Log_Toast_Disable_TeamChat_Poka - 現在、チームチャットはご利用いただけません。
-Log_Toast_Nouse_Poka_Whisper - 対戦中のためウィスパーチャットはご利用いただけません。
-Log_Toast_Disable_GroupChat - グループチャットへの発言は、参加メンバーが２名以上必要です。
-Log_Toast_Disable_GroupChat_NotActive - 表示しているグループがありません。
-Log_Toast_Disable_GroupChat_NotUseArea - 登録しているグループがありません。
-LogBoostEventInfo - イベント情報
-ArksRanking_JoinText - アークスリーグに参加しました。<br>詳しくは開催中イベントのアークスリーグをご覧ください。
-ArksRanking_RewardText - <pict New>未受取のアークスリーグ報酬があります。<br>アークスリーグ管理官から受け取ってください。
-GuildAddContentsPointOwn - $(0)TPを獲得しました。
-GuildAddContentsPointMix - 共通シップでのプレイにより、$(0)TPを獲得しました。
-LogTitleLobbyAction_FingerSelect - 手のポーズ
-Log_ItemName - $(1)$(0)
-LogText_Stamp - スタンプを表示しました。
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-Notice
-Group 0
-NewMail - 新着メール
-NewFriendLIst - 新着フレンド登録
-NewParty - 新着パーティー招待
-NewTeam - 新着チームスカウト
-NewTrade - 新着トレード申し込み
-NewPartySet - 新着パーティーメンバー集合
-NewPartySet_Count - (あと$(0)秒)
-NewExpMail - メールが届きました。
-NewExpTrade - トレードの申し込みがありました。
-NewExpFriendLIst - フレンド登録を申し込まれました。
-NewExpParty - パーティーに招待されました。
-NewExpTeam - チームにスカウトされました。
-NewTitleParty - パーティー招待への返答
-NewTitleFriend - フレンド登録への返答
-NewTitleTeam - チームスカウトへの返答
-NewTitleTrade - トレードへの返答
-NewCheckMail - 未定
-NewCheckFriendList - $(0)から<br>フレンド登録を申し込まれました。<br>返答ウィンドウを開きますか？<br><br>※「いいえ」を選び、あとでメインメニューの<br>　「フレンドリスト」から返答することもできます。
-NewCheckParty - $(0)から<br>パーティーに招待されました。<br>返答ウィンドウを開きますか？<br><br>※「いいえ」を選び、あとでメインメニューの<br>　「パーティーコマンド」から返答することもできます。
-NewCheckTrade - $(0)から<br>トレードを申し込まれました。<br>返答ウィンドウを開きますか？
-NewCheckTeam - チーム“$(1)”の<br>“$(0)”から<br>同チームにスカウトされました。<br>返答ウィンドウを開きますか？<br><br><yellow>※“いいえ”を選び、あとでメインメニューの<br>　“チームコマンド”から返答することもできます。<c>
-PremiumEnd - プレミアム有効期間の終了が迫っています。
-NewQuest - クエスト受注確認
-NewExpQuest - クエストに招待されました。
-PremiumEnd_Inventry - オプションで「入手アイテムの格納先」に設定された<br>プレミアム倉庫の有効期限が切れています。
-NewWarehouseQuest_Receive - クエスト一時倉庫の報酬受け取り
-NewWarehouseQuest_Receive_message - クエスト一時倉庫にアイテムが残っています。クエストを開始するには、アイテムを別の倉庫に移すか、売却してください。
-Unavailable_ToastMessage1 - このプラットフォームでは使用できないアイテムです。
-Unavailable_ToastMessage2 - このプラットフォームでは表示できないアイテムの外見を一時的に変更します。
-Unavailable_ToastMessage3 - このプラットフォームでは使用できないロビーアクションです。
-Unavailable_ToastMessage4 - このプラットフォームでは選択できないマグフォルムです。
-Unavailable_ToastMessage5 - このプラットフォームでは表示できないアイテムを展示しているため外見を一時的に変更しています。
-LineDuelBattleRequest - ラインストライクの対戦申請
-LineDuelBattleRequest_Toast - $(0)から、ラインストライクのフリーバトルを申し込まれました。
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-PetKind
-Group 0
-PetKind00001 - ワンダ
-PetKind00002 - トリム
-PetKind00003 - サリィ
-PetKind00004 - マロン
-PetKind00005 - メロン
-PetKind00006 - ヴィオラ
-PetKind00007 - ラッピー
-PetKind00008 - シンクロウ
-PetKind00009 - ジンガ
-PetKind00010 - エアロ
-PetKind00011 - ポップル
-PetKind00012 - レドラン
-PetKind00013 - グラス
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-PlayGo
-Group 0
-download_progress - インストール中：$(0)％
-PlayGo_AreaMove_Message - 移動先のエリアのインストールが完了していません。<br>インストールが完了してから、<br>アクセスし直してください。<br><br>インストール中：$(0)％
-PlayGo_Confirm_Message - 移動先のエリアのデータがありません。<br>追加データをダウンロードしますか？<br><br><yellow>空き容量が不足している場合、<br>ダウンロードできません。<br>データのダウンロードには、<br>長時間かかる場合があります。
-PlayGo_Confirm_Message_FirstTime - 『ファンタシースターオンライン２　ニュージェネシス』<br>がサービス開始される以前に配信されていた<br>『ファンタシースターオンライン２』をプレイする場合は<br>追加データのダウンロードが必要です。<br><br>『ファンタシースターオンライン２』を<br>すぐにプレイしない場合は「いいえ」を選んでください。<br><br>※「いいえ」を選んだ場合でも<br>　あとからダウンロード可能です。<br><br><yellow>ダウンロードには、長時間かかる場合があります。<c><br><br>追加データをダウンロードしますか？
-PlayGo_Confirm_Message_FirstTime_Epic - 『ファンタシースターオンライン２　ニュージェネシス』<br>がサービス開始される以前に配信されていた<br>『ファンタシースターオンライン２』をプレイする場合は<br>追加データのダウンロードが必要です。 <br><br>『ファンタシースターオンライン２』を<br>すぐにプレイしない場合は「いいえ」を選んでください。<br><br>※「いいえ」を選んだ場合でも<br>　あとからダウンロード可能です。<br><br><yellow>ダウンロードには、長時間かかる場合があります。<br>追加データをダウンロードする場合は、<br>ゲームを一度終了する必要があります。<c><br><br>追加データをダウンロードしますか？
-PlayGo_DL_ Notice_Message - エリアデータのダウンロード中に<br>エラーが発生しました。<br><br>ゲームを再起動して追加データの<br>ダウンロードをやり直してください。
-PlayGo_IS_ Notice_Message - エリアデータのインストール中に<br>エラーが発生しました。<br><br>追加データのダウンロードを<br>やり直してください。
-PlayGo_CharaSelect_Title - メッセージ
-PlayGo_CharaSelect_Message - <yellow>現在データをインストール中です。<c><br><br>インストールが完了するまで<br>キャラクター選択や、特定エリアへの移動など<br>一部機能がご利用できません。<br><br>インストールが完了した後、<br>改めて選択してください。
-PlayGo_IS_Uncompleted_Message - 移動先のエリアのインストールが完了していません。<br>インストールが完了してから、<br>アクセスし直してください。
-PlayGo_DLC_Confirm_Message - 移動先のエリアのデータがインストールされていないか、<br>ダウンロードが完了していないため移動できません。<br><br>追加データをダウンロードしますか？<br>“はい”を選択すると、追加データのストアページを開きます。<br><br><yellow>※空き容量が不足している場合はダウンロードできません。<br>　データのダウンロードには、時間がかかる場合があります。<c>
-PlayGo_DLC_Confirm_Message_Epic - 移動先のエリアのデータがインストールされていないか、<br>ダウンロードが完了していないため移動できません。<br><br>追加データをダウンロードしますか？<br>“はい”を選択すると、追加データのストアページを開きます。<br><br><yellow>※空き容量が不足している場合はダウンロードできません。<br>　データのダウンロードには、時間がかかる場合があります。<br>※追加データをダウンロードする場合は、<br>　ゲームを一度終了する必要があります。<c>
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-QuickCharge
-Group 0
-AcQuickChargeCoin - $(0)<pict Arcscash>
-AcQuickChargePrice - $(0)円(税込)
-AcQuickChargeTitle - ACクイックチャージ確認
-AcQuickChargeMessage - お支払用クレジットカードで<br>以下のACチャージ額を購入します。<br>よろしいですか？<br><br>ACチャージ額：$(0)<br>価格：$(1)
-AcQuickChargeCompTitle - ACクイックチャージ
-AcQuickChargeComp - <pict Arcscash>ACクイックチャージが完了しました。
-AcChargeComp - <pict Arcscash>$(0)AC のチャージが完了しました。
-AcQuickChargeErrorTitle - ACチャージエラー
-AcQuickChargeError - ACクイックチャージに失敗しました。
-MenuCharge - ACクイックチャージ
-MenuButtonChargeGo - ACクイックチャージする
-MenuButtonChancel - キャンセル
-MenuButtonWebGo - Webページからチャージする
-MenuButtonPsStoreGo - PlayStation®StoreからACチャージする
-MenuButtonLawConfirm - 特定商取引に関する法律に基づく表示
-Acnum - ACチャージ額
-ACPrice - 価格
-Quick_Guide - 購入するACチャージ額を選択し<br>「ACクイックチャージする」を選択してください。<br><br>「Webページからチャージする」を選ぶと<br>Webで登録情報変更やACチャージができます。
-Quick_Guide_PS4 - 購入するACチャージ額を選択し<br>「ACクイックチャージする」を選択してください。<br><br>「PlayStation®StoreからACチャージする」を<br>選ぶこともできます。
-ACChargeSelect_Title - ACチャージ方法の選択
-ACChargeSelect_Message - ACのチャージ方法を選択してください。<br><br><scarlet>※こちらからチャージされたACは、<br>　“PS4”版ではご利用いただけません。<br>　詳細はプレイヤーズサイトをご確認ください。<c>
-ACChargeSelect_Button_Quick - ACクイックチャージ
-ACChargeSelect_Button_Web - SEGA IDでチャージ
-ACChargeSelect_Button_LinePay - <pict linepay_icon>でチャージ
-ACChargeSelect_Button_MerPay - <pict merpay_icon>でチャージ
-ACChargeSelect_Button_NeShop - ニンテンドーeショップでチャージ
-ACChargeSelect_Desc_Quick - 「ACクイックチャージ」設定済のため、<br>ゲーム内でACをチャージできます。
-ACChargeSelect_Desc_Web - 「アークスキャッシュ（AC）購入ページ」を<br>ブラウザーで開きます。<br><br>※SEGA IDが必要となります。<br>※「ACクイックチャージ」設定を行うと、<br>　以後はゲーム内でACチャージが可能です。
-ACChargeSelect_Desc_LinePay - LINE PayでACをチャージします。<br><br>二次元コードを読み取るために、<br>スマートフォンやタブレットなどの端末上に<br>アプリケーション「LINE」が必要です。<br><br>また、<yellow>未成年の方のご利用には<br>保護者の同意が必要<c>となります。
-ACChargeSelect_Desc_MerPay - メルペイでACをチャージします。<br><br>二次元コードを読み取るために、<br>スマートフォンやタブレットなどの端末上に<br>アプリケーション「メルカリ」が必要です。<br><br>また、<yellow>未成年の方のご利用には<br>保護者の同意が必要<c>となります。
-ACChargeSelect_Desc_NeShop - ニンテンドーeショップでACをチャージします。
-PayCharge_MenuTitle - LINE Payでチャージ
-PayCharge_MenuTitle_MerPay - メルペイでチャージ
-PayCharge_MenuQRButton - 次へ
-PayCharge_MenuReturnButton - 戻る
-PayCharge_MenuExplain - 購入するACチャージ額を選択し<br>「次へ」を押してください。
-PayCharge_MenuDetails - LINE PayでACをチャージします。<br><br>選択した価格分の金額がLINE Payの<br>残高から引かれます。<br><br>LINE Payを利用するには<br>スマートフォンやタブレットなどの端末上に<br>アプリケーション「LINE」が必要です。<br><br><yellow>【LINEのインストールはこちら】<c>
-PayCharge_MenuDetails_Merpay - メルペイでACをチャージします。<br><br>選択した価格分の金額が<br>メルペイで支払われます。<br><br>メルペイを利用するには<br>スマートフォンやタブレットなどの端末上に<br>アプリケーション「メルカリ」が必要です。<br><br><yellow>【メルカリのインストールはこちら】<c>
-PayCharge_QRTitle - LINE Payでチャージ
-PayCharge_QRTitle_MerPay - メルペイでチャージ
-PayCharge_QRExplainUp - 購入するACチャージ額と価格を確認し<br>右記の手順で二次元コードを読み取ってください。
-PayCharge_QRExplainDown - コード番号：$(0)
-PayCharge_QRDetails - アプリケーション「LINE」を起動して<br>表示されている二次元コードを<br>読み取ってください。<br><br><yellow>【読み取り方】<c><br>スマートフォンやタブレットの端末上で<br>LINEを起動し、「ウォレット」タブ内の<br>「コードリーダー」を選択して二次元コードを<br>読み取ってください。<br><br><yellow>【二次元コードが読み取れない時は】<c><br>「コードリーダー」の画面下部にある<br>「コード番号を入力」をタップして<br>二次元コード下にあるコード番号を<br>入力してください。
-PayCharge_QRDetails_MerPay - アプリケーション「メルカリ」を起動して<br>表示されている二次元コードを<br>読み取ってください。<br><br><yellow>【読み取り方】<c><br>スマートフォンやタブレットの端末上で<br>メルカリを起動し、「メルペイ」タブ内の<br>「読み取り」を選択して二次元コードを<br>読み取ってください。
-PayCharge_RedrawTitle - 二次元コード更新確認
-PayCharge_RedrawMessage - 二次元コードの表示期限が過ぎました。<br>「更新」を押して、再度表示してください。
-PayCharge_RedrawYes - 更新
-PayCharge_RedrawNo - キャンセル
-PayCharge_TimeOut - <space>
-PayCharge_AgeCheckTitle - ご利用上の注意
-PayCharge_AgeCheckMessage - 未成年（20歳未満）の方は、<br>ACをチャージする時に<br>保護者の許可が必要です。<br><br>保護者の許可をもらった方、<br>または未成年ではない方は、<br>「承諾して次へ」を押してください。
-PayCharge_AgeCheckYes - 承諾して次へ
-PayCharge_AgeCheckNo - 戻る
-PayCharge_ChargeErrorTitle - ACチャージ確認
-PayCharge_ChargeErrorMessage - 通信に問題があったため<br>チャージを完了できませんでした。<br>再度チャージをお試しください。
-PayCharge_AutoPayment_Confirm_Title - LINE Pay支払い確認
-PayCharge_AutoPayment_Confirm_Message - 前回使用したLINE Payの残高から、以下のACチャージ額を購入します。<br>よろしいですか？<br><br>ACチャージ額：$(0)<br>価格：$(1)<br><br>※LINE Payの<yellow>クーポンをご利用になる場合<c>は<br>　　「コード支払いへ」を選択してください。
-PayCharge_AutoPayment_Confirm_QR_Button - コード支払いへ
-PayCharge_AutoPayment_Complete_Title - ACチャージ
-PayCharge_AutoPayment_Complete_Message - ACのチャージが完了しました。
-PayCharge_AutoPayment_Error_Title - ACチャージエラー
-PayCharge_AutoPayment_Error_Message - LINE Payの支払いに失敗しました。<br>残高が不足していないかご確認ください。
-PayCharge_AutoPayment_CheckBox_Unregistered - 次回以降の支払い時、コード読み取りを不要にする
-PayCharge_AutoPayment_CheckBox_Registered - 前回使用したLINE Payの残高から支払う
-AcStopTitle - ACチャージ
-AcStopMessage - この機能は現在利用できません。
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-Race
-Group 0
-Title - 種族
-Human - ヒューマン
-Newman - ニューマン
-Cast - キャスト
-Dewman - デューマン
-All - 全種族
-NoHuman - ヒューマン以外
-NoNewman - ニューマン以外
-NoCast - キャスト以外
-NoDewman - デューマン以外
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-Save
-Group 0
-Broken_Vita - ロードに失敗しました。<br>$(0)データが破損していた為<br>新しいセーブデータを上書きしました。
-Type_1 - オプション
-Type_2 - システム
-Type_3 - クリエイト
-Type_4 - ポートレート
-Initialize - セーブデータ作成中...$(0)％
-Type_5 - ウィンドウ設定
 
 Group 1
 
@@ -2556,14 +2222,9 @@ Group 8
 Group 9
 
 
-Sex
+TimeSale
 Group 0
-Title - タイプ
-Male - タイプ1
-Female - タイプ2
-All - すべて
-TypeA - タイプ1
-TypeB - タイプ2
+TimeSaleMessage - 現在、$(2)を実施中です！<br><br>$(0)<br><br>$(1)まで
 
 Group 1
 
@@ -2621,6 +2282,42 @@ Group 8
 Group 9
 
 
+PetKind
+Group 0
+PetKind00001 - ワンダ
+PetKind00002 - トリム
+PetKind00003 - サリィ
+PetKind00004 - マロン
+PetKind00005 - メロン
+PetKind00006 - ヴィオラ
+PetKind00007 - ラッピー
+PetKind00008 - シンクロウ
+PetKind00009 - ジンガ
+PetKind00010 - エアロ
+PetKind00011 - ポップル
+PetKind00012 - レドラン
+PetKind00013 - グラス
+PetKind00014 - バルカン
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
 ShipName
 Group 0
 Ship01 - Ship01:フェオ
@@ -2653,31 +2350,24 @@ Group 8
 Group 9
 
 
-SystemMessage
+DebugShipName
 Group 0
-SystemMesSegaID - ID の認証を行っています。
-SystemMesSegaID_v - SEGA ID の認証を行っています。
-SystemMesAtherID - ID の認証を行っています。
-SystemMesLobbyWait - ロビーサーバーからの応答を待っています。
-SystemMesServerWait - サーバーからの応答を待っています。
-SystemMesGameDataWait - ゲーム情報を取得しています。
-SystemMesCharaDataWait - キャラクター情報を取得しています。
-SystemMesGameShut - サーバーとの接続を終了しました。
-SystemMesServerShut - サーバーから接続の中断を要求されたためサーバーとの接続を終了しました。
-SystemMesNetWorkShut - サーバーとの接続が切れました。ネットワーク機器の接続や設定を確認してください。
-SystemMesBusy - 通信中…
-SystemGmAlertFormMessage - このメッセージの内容を了承する
-SystemGmAlertFormMessageTitle - 運営からの警告
-SystemGmMessageFormMessageTitle - 運営からのお知らせ
-EmergencyStopMessage - 現在、選択した機能に問題が発生しており<br>調査のため使用を制限しています。<br>詳しくはプレイヤーズサイトをご確認ください。
-EmergencyStopMessageTitle - 使用制限
-EmergencyStopItemMessage - 現在、選択したアイテムに問題が発生しており<br>調査のため取引を制限しています。<br>詳しくはプレイヤーズサイトをご確認ください。
-EmergencyStopItemMessageTitle - 特定アイテムの取引制限
-Toast_StoryQuestAnnounce - ストーリークエストの「EPISODE1」から「シオンとの出会い」を受注してください。
-RestrictionTitle - 機能制限
-RestrictionMessageInfo - この機能のご利用には、SEGA IDとの連携が必要です。<br><br>SEGA IDと連携すると<br>　・他のプラットフォームでのゲームプレイ<br>　・ワンタイムパスワードの利用<br>ほか、便利なサービスをご利用頂けます。<br><br>ログインメニューの「SEGA IDと連携する」から<br>SEGA IDの取得と連携ができます。
-PSONLY_NotSupported - “クロスプレイ設定”が“無効”のため、<br>現在、この機能はご利用いただけません。<br><br>ログインメニューで<br>“クロスプレイ設定”を“有効”にすることで、<br>ご利用いただけるようになります。
-PSONLY_NotSupported_Title - クロスプレイ無効
+Self01_01 - Self01_01
+Self01_02 - Self01_02
+Self02_01 - Self02_01
+Self02_02 - Self02_02
+Ship01_01 - Ship01
+Ship01_02 - Ship02
+Ship01 - Ship01
+Ship02 - Ship02
+Ship03 - Ship03
+Ship04 - Ship04
+Ship05 - Ship05
+Ship06 - Ship06
+Ship07 - Ship07
+Ship08 - Ship08
+Ship09 - Ship09
+Ship10 - Ship10
 
 Group 1
 
@@ -2698,14 +2388,72 @@ Group 8
 Group 9
 
 
-Term
+QuickCharge
 Group 0
-Term_Area - $(0)/$(1)
-Term_Positon - ($(0),$(1),$(2))
-Term_Hp - $(0)/$(1)
-Term_Pp - $(0)/$(1)
-Term_ClassSub - $(0) Lv.$(2)/$(1) Lv. $(3)
-Term_Class - $(0) Lv.$(1)
+AcQuickChargeCoin - $(0)<pict Arcscash>
+AcQuickChargePrice - $(0)円(税込)
+AcQuickChargeTitle - ACクイックチャージ確認
+AcQuickChargeMessage - お支払用クレジットカードで<br>以下のACチャージ額を購入します。<br>よろしいですか？<br><br>ACチャージ額：$(0)<br>価格：$(1)
+AcQuickChargeCompTitle - ACクイックチャージ
+AcQuickChargeComp - <pict Arcscash>ACクイックチャージが完了しました。
+AcChargeComp - <pict Arcscash>$(0)AC のチャージが完了しました。
+AcQuickChargeErrorTitle - ACチャージエラー
+AcQuickChargeError - ACクイックチャージに失敗しました。
+MenuCharge - ACクイックチャージ
+MenuButtonChargeGo - ACクイックチャージする
+MenuButtonChancel - キャンセル
+MenuButtonWebGo - Webページからチャージする
+MenuButtonPsStoreGo - PlayStation®StoreからACチャージする
+MenuButtonLawConfirm - 特定商取引に関する法律に基づく表示
+Acnum - ACチャージ額
+ACPrice - 価格
+Quick_Guide - 購入するACチャージ額を選択し<br>「ACクイックチャージする」を選択してください。<br><br>「Webページからチャージする」を選ぶと<br>Webで登録情報変更やACチャージができます。
+Quick_Guide_PS4 - 購入するACチャージ額を選択し<br>「ACクイックチャージする」を選択してください。<br><br>「PlayStation®StoreからACチャージする」を<br>選ぶこともできます。
+ACChargeSelect_Title - ACチャージ方法の選択
+ACChargeSelect_Message - ACのチャージ方法を選択してください。<br><br><c ff4f3f>※こちらからチャージされたACは、<br>　“PS4”版ではご利用いただけません。<br>　詳細はプレイヤーズサイトをご確認ください。<c>
+ACChargeSelect_Button_Quick - ACクイックチャージ
+ACChargeSelect_Button_Web - SEGA IDでチャージ
+ACChargeSelect_Button_LinePay - <pict linepay_icon>でチャージ
+ACChargeSelect_Button_MerPay - <pict merpay_icon>でチャージ
+ACChargeSelect_Button_NeShop - ニンテンドーeショップでチャージ
+ACChargeSelect_Desc_Quick - 「ACクイックチャージ」設定済のため、<br>ゲーム内でACをチャージできます。
+ACChargeSelect_Desc_Web - 「アークスキャッシュ（AC）購入ページ」を<br>ブラウザーで開きます。<br><br>※SEGA IDが必要となります。<br>※「ACクイックチャージ」設定を行うと、<br>　以後はゲーム内でACチャージが可能です。
+ACChargeSelect_Desc_LinePay - LINE PayでACをチャージします。<br><br>二次元コードを読み取るために、<br>スマートフォンやタブレットなどの端末上に<br>アプリケーション「LINE」が必要です。<br><br>また、<yellow>未成年の方のご利用には<br>保護者の同意が必要<c>となります。
+ACChargeSelect_Desc_MerPay - メルペイでACをチャージします。<br><br>二次元コードを読み取るために、<br>スマートフォンやタブレットなどの端末上に<br>アプリケーション「メルカリ」が必要です。<br><br>また、<yellow>未成年の方のご利用には<br>保護者の同意が必要<c>となります。
+ACChargeSelect_Desc_NeShop - ニンテンドーeショップでACをチャージします。
+PayCharge_MenuTitle - LINE Payでチャージ
+PayCharge_MenuTitle_MerPay - メルペイでチャージ
+PayCharge_MenuQRButton - 次へ
+PayCharge_MenuReturnButton - 戻る
+PayCharge_MenuExplain - 購入するACチャージ額を選択し<br>「次へ」を押してください。
+PayCharge_MenuDetails - LINE PayでACをチャージします。<br><br>選択した価格分の金額がLINE Payの<br>残高から引かれます。<br><br>LINE Payを利用するには<br>スマートフォンやタブレットなどの端末上に<br>アプリケーション「LINE」が必要です。<br><br><yellow>【LINEのインストールはこちら】<c>
+PayCharge_MenuDetails_Merpay - メルペイでACをチャージします。<br><br>選択した価格分の金額が<br>メルペイで支払われます。<br><br>メルペイを利用するには<br>スマートフォンやタブレットなどの端末上に<br>アプリケーション「メルカリ」が必要です。<br><br><yellow>【メルカリのインストールはこちら】<c>
+PayCharge_QRTitle - LINE Payでチャージ
+PayCharge_QRTitle_MerPay - メルペイでチャージ
+PayCharge_QRExplainUp - 購入するACチャージ額と価格を確認し<br>右記の手順で二次元コードを読み取ってください。
+PayCharge_QRExplainDown - コード番号：$(0)
+PayCharge_QRDetails - アプリケーション「LINE」を起動して<br>表示されている二次元コードを<br>読み取ってください。<br><br><yellow>【読み取り方】<c><br>スマートフォンやタブレットの端末上で<br>LINEを起動し、「ウォレット」タブ内の<br>「コードリーダー」を選択して二次元コードを<br>読み取ってください。<br><br><yellow>【二次元コードが読み取れない時は】<c><br>「コードリーダー」の画面下部にある<br>「コード番号を入力」をタップして<br>二次元コード下にあるコード番号を<br>入力してください。
+PayCharge_QRDetails_MerPay - アプリケーション「メルカリ」を起動して<br>表示されている二次元コードを<br>読み取ってください。<br><br><yellow>【読み取り方】<c><br>スマートフォンやタブレットの端末上で<br>メルカリを起動し、「メルペイ」タブ内の<br>「読み取り」を選択して二次元コードを<br>読み取ってください。
+PayCharge_RedrawTitle - 二次元コード更新確認
+PayCharge_RedrawMessage - 二次元コードの表示期限が過ぎました。<br>「更新」を押して、再度表示してください。
+PayCharge_RedrawYes - 更新
+PayCharge_RedrawNo - キャンセル
+PayCharge_TimeOut - <space>
+PayCharge_AgeCheckTitle - ご利用上の注意
+PayCharge_AgeCheckMessage - 未成年（20歳未満）の方は、<br>ACをチャージする時に<br>保護者の許可が必要です。<br><br>保護者の許可をもらった方、<br>または未成年ではない方は、<br>「承諾して次へ」を押してください。
+PayCharge_AgeCheckYes - 承諾して次へ
+PayCharge_AgeCheckNo - 戻る
+PayCharge_ChargeErrorTitle - ACチャージ確認
+PayCharge_ChargeErrorMessage - 通信に問題があったため<br>チャージを完了できませんでした。<br>再度チャージをお試しください。
+PayCharge_AutoPayment_Confirm_Title - LINE Pay支払い確認
+PayCharge_AutoPayment_Confirm_Message - 前回使用したLINE Payの残高から、以下のACチャージ額を購入します。<br>よろしいですか？<br><br>ACチャージ額：$(0)<br>価格：$(1)<br><br>※LINE Payの<yellow>クーポンをご利用になる場合<c>は<br>　　「コード支払いへ」を選択してください。
+PayCharge_AutoPayment_Confirm_QR_Button - コード支払いへ
+PayCharge_AutoPayment_Complete_Title - ACチャージ
+PayCharge_AutoPayment_Complete_Message - ACのチャージが完了しました。
+PayCharge_AutoPayment_Error_Title - ACチャージエラー
+PayCharge_AutoPayment_Error_Message - LINE Payの支払いに失敗しました。<br>残高が不足していないかご確認ください。
+PayCharge_AutoPayment_CheckBox_Unregistered - 次回以降の支払い時、コード読み取りを不要にする
+PayCharge_AutoPayment_CheckBox_Registered - 前回使用したLINE Payの残高から支払う
 
 Group 1
 
@@ -2726,876 +2474,10 @@ Group 8
 Group 9
 
 
-Test
+PlayGo
 Group 0
-TEST - テストです。
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-TimeSale
-Group 0
-TimeSaleMessage - 現在、$(2)を実施中です！<br><br>$(0)<br><br>$(1)まで
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-Web
-Group 0
-AccessConfirm_Vita - Webページへ移動します。<br>ログアウトしてゲームを終了しますが<br>よろしいですか？
-AccessConfirmTitle_Vita - ブラウザー起動確認
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-Window
-Group 0
-Yes - はい
-No - いいえ
-Decide - 決定
-Cancel - キャンセル
-Next - 次へ
-Prev - 前へ
-Close - 閉じる
-Return - 戻る
-CloseHint - 閉じる
-HelpHint - ヘルプ
-Level - Lv.
-Colon - :
-Slash - /
-Hyphen - -
-Asterisk - *
-Plus - +
-Greater - >
-Less - <
-WaveDash - ～
-Cross - ×
-MultiSelecting - 複数選択中…
-MultiDrop -  - ($(0))
-DropText - $(0)
-MultiDropText - $(1) - ($(0))
-SubmenuType_StyleChange - 表示形式変更
-SubmenuType_Help - ヘルプ
-Title - メッセージ
-CaptureMessage - スクリーンショットを保存しました。
-CaptureMessage2 - スクリーンショットを保存しました。
-CaptureMessage3 - スクリーンショットを保存しました。
-CaptureErrorMessage01 - 空き容量不足のため、スクリーンショットを保存できませんでした。
-MovieStartMessage - 動画撮影を開始しました。撮影中は権利表記が表示されます。
-MovieEndMessage - 動画撮影を終了しました。
-MovieErrorMessage01 - 空き容量不足のため、動画を撮影できませんでした。
-MovieErrorMessage02 - 空き容量不足のため、動画撮影を中断しました。
-Bubble_Chatter1 - ・・・
-Bubble_Chatter2 - ・・・
-Bubble_Chatter3 - ・・・
-Bubble_Chatter4 - ・・・
-Bubble_Chatter5 - ・・・
-Bubble_Chatter6 - ・・・
-Bubble_Chatter7 - ・・・
-Bubble_Chatter8 - ・・・
-Bubble_Chatter9 - ・・・
-Bubble_Chatter10 - ・・・
-CheckTextOpen - 以降、このウィンドウを開かない
-ClosableMessageTitle - メッセージ
-ClosableMessageButton - 閉じる
-PlayerIDName - プレイヤーIDネーム
-PlayerID - プレイヤーID
-CharaName - キャラクター名
-LevelNum - Lv.$(0)
-SubmenuType_Edit - カスタマイズ
-SubmenuType_SearchMode - 検索モード変更
-BeginLookAtCamera - カメラ目線を開始します
-EndLookAtCamera - カメラ目線を終了しました
-NoName - なし
-Percent - ％
-PercentNum - $(0)％
-ScratchNote_Title - 景品に関する注意事項
-ScratchNote - アイテムごとに個別に表示している提供割合は表示上、<br>小数点第6位を四捨五入した後、小数点第5位以下を<br>切り捨てています。<br>全て合算しても100％にならない場合があります。<br>表示はアイテム投入全数時における<br>提供割合となります。<br>そのため提供割合1%のアイテムが100回中1回、<br>必ず排出される仕組みではありません。<br>スクラッチ景品は今後ほかのスクラッチや<br>コンテンツでも提供する可能性があります。<br>※トゥーン表示に非対応のアイテムがあります。<br>機能の詳細はFAQをご確認ください。
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-FullSizeGuide
-Group 0
-Guide_Common_01 - 決定：<%Decide>　　キャンセル：<%Cancel>
-Guide_Common_02 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>
-Guide_Common_03 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>
-Guide_Common_04 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>
-Guide_ItemPack_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　複数選択：<%MultiSelect>　　操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>
-Guide_Scratch_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　プレビュー表示のリセット：<%MultiSelect>
-Guide_Shop_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>　　パックアイテム詳細を開く：<%NextTabDetails>
-Guide_Submenu_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　並び順の変更：<%MultiSelect>　　並び順の初期化：<%ChangeCtrlWindowForward>
-Guide_Vitaldesign_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　プレビュー：<%Function>　お気に入り登録/編集：<%NextTabDetails>　　操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>
-Guide_AlwaysLockon_01 - ロックオン：
-Guide_AlwaysLockon_02 - <%LockOn>
-Guide_AlwaysLockon_03 - <%LockOn>長押し
-Guide_AlwaysStep_01 - 回避：
-Guide_AlwaysStep_02 - <%Avoid>
-Guide_AlwaysDash_01 - ダッシュ：
-Guide_AlwaysDash_02 - 移動中に<br><%Avoid>長押し
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-Substitute
-Group 0
-Substitute_Idle_0 - 標準
-Substitute_Idle_1 - シンプル
-Substitute_Idle_2 - シンプル2
-Substitute_Idle_3 - 決めポーズ
-Substitute_Idle_4 - 直立不動
-Substitute_Idle_5 - 腰に手を当てる
-Substitute_Idle_6 - 腕を組む
-Substitute_Idle_7 - 仁王立ち
-Substitute_Idle_9 - 優美
-Substitute_Idle_10 - 浮遊
-Substitute_Idle_11 - やいやい
-Substitute_Idle_12 - やれやれ
-Substitute_Idle_13 - カンフー
-Substitute_Idle_14 - ふんわり
-Substitute_Idle_16 - あおぐ
-Substitute_Idle_17 - 無邪気
-Substitute_Idle_18 - 思案
-Substitute_Idle_19 - 構え
-Substitute_Idle_20 - 髪を整える
-Substitute_Idle_21 - 情報確認
-Substitute_Idle_22 - ストレッチ
-Substitute_Idle_23 - ボクサーステップ
-Substitute_Idle_24 - 仁王立ち2
-Substitute_Idle_25 - 汗をぬぐう
-Substitute_Idle_26 - 執事
-Substitute_Idle_27 - いじいじ
-Substitute_Idle_28 - スリープモード
-Substitute_Idle_30 - 腰を曲げる
-Substitute_Idle_31 - 腰に手を当てる2
-Substitute_Idle_32 - エステ
-Substitute_Idle_33 - エステ2
-Substitute_Idle_36 - イライラ
-Substitute_Idle_37 - 後ろ手
-Substitute_Idle_38 - ラッピー
-Substitute_Idle_39 - アイスを食べる
-Substitute_Idle_40 - 胸を張る
-Substitute_Idle_41 - 決めポーズ2
-Substitute_Idle_43 - キュート
-Substitute_Idle_44 - 仁王立ち3
-Substitute_Idle_46 - かがむ
-Substitute_Idle_47 - 印を結ぶ
-Substitute_Idle_49 - 片足バランス
-Substitute_Idle_50 - 眠い
-Substitute_Idle_51 - ラッピーぬいぐるみ
-Substitute_Idle_52 - みたらしポーズ
-Substitute_Idle_53 - §イチカ§ポーズ
-Substitute_Idle_54 - 読書
-Substitute_Idle_55 - ウォームアップ
-Substitute_Idle_57 - いか踊り
-Substitute_Idle_58 - 腕を組む2
-Substitute_Idle_59 - 傘をさす
-Substitute_Idle_60 - モデル立ち
-Substitute_Idle_61 - モデル立ち2
-Substitute_Idle_62 - 後ろ手2
-Substitute_Idle_63 - 『せんとらるっ！』
-Substitute_Idle_64 - アイスを食べる2
-Substitute_Idle_65 - 箱に座る
-Substitute_Idle_66 - 腰に手を当てる3
-Substitute_Idle_67 - ハトスケ
-Substitute_Idle_68 - 腕組み浮遊
-Substitute_Idle_69 - 火炎
-Substitute_Idle_70 - アイスを食べる3
-Substitute_Idle_71 - ファレグポーズ
-Substitute_Idle_73 - 『PSO2』10周年
-Substitute_Idle_74 - 遠野志貴
-Substitute_Idle_75 - アルクェイド
-Substitute_Idle_76 - シエル
-Substitute_Idle_77 - 遠野秋葉
-Substitute_Idle_78 - 箒に乗る
-Substitute_Idle_79 - 蝶と戯れる
-Substitute_Idle_80 - 浮遊読書
-Substitute_Idle_81 - 闇魂
-Substitute_Idle_82 - プロペラエンジン
-Substitute_Idle_83 - 情報確認/B
-Substitute_Idle_84 - 構図決め
-Substitute_Idle_86 - フレドラン
-Substitute_Idle_87 - ヴォルファー
-Substitute_Idle_88 - マルメロ
-Substitute_Idle_89 - ふわふわティータイム
-Substitute_Idle_90 - ちょっと一息
-Substitute_Idle_91 - ラッピーぬいぐるみ/B
-Substitute_Idle_101 - たおやか
-Substitute_Idle_102 - スマホ操作
-Substitute_Idle_103 - 光翼
-Substitute_Idle_104 - 髪を整える2
-Substitute_Idle_106 - タチコマ2
-Substitute_Idle_109 - 退屈
-Substitute_Idle_110 - 傘をさす/B
-Substitute_Idle_111 - 星に乗る
-Substitute_Idle_112 - 伸びをする
-Substitute_Idle_114 - ラブリー
-Substitute_Idle_121 - ペンギンポーズ
-Substitute_Idle_122 - 動物と戯れる
-Substitute_Idle_123 - 扇であおぐ
-Substitute_Idle_124 - 花びら
-Substitute_Idle_125 - サイキックボール
-Substitute_Idle_127 - ディスプレイ
-Substitute_Idle_128 - タチコマ
-Substitute_Idle_129 - 浮遊2
-Substitute_Idle_130 - ファルファッラ
-Substitute_Idle_131 - ファルファッラEX
-Substitute_Idle_132 - おじさんの魔法
-Substitute_Idle_133 - ファンサービス
-Substitute_Idle_134 - ファンサービスEX
-Substitute_Idle_135 - ゾンビ
-Substitute_Idle_136 - ゾンビEX
-Substitute_Idle_137 - キョンシー
-Substitute_Idle_138 - ぺたん座り
-Substitute_Idle_139 - ホロボールに乗る
-Substitute_Idle_140 - 直立浮遊
-Substitute_Idle_141 - 直立浮遊EX
-Substitute_Idle_142 - 火炎/B
-Substitute_Idle_143 - 膝立ち
-Substitute_Idle_144 - やっほー
-Substitute_Idle_145 - 手を振る
-Substitute_Idle_146 - 足を伸ばして座る
-Substitute_Idle_147 - マジェスティウィング
-Substitute_Idle_148 - マジェスティウィングEX
-Substitute_Idle_149 - サムライ
-Substitute_Idle_150 - サムライEX
-Substitute_Idle_151 - おすわり
-Substitute_Idle_152 - ホークに乗る
-Substitute_Idle_153 - 飛天御剣流
-Substitute_Idle_154 - リズムに乗る
-Substitute_Idle_155 - ジャイロランナー
-Substitute_Idle_156 - 決めポーズ3
-Substitute_Idle_157 - 気を高める
-Substitute_Idle_158 - スーパーヒーロー
-Substitute_Idle_159 - うさぴょん
-Substitute_Idle_160 - イースターエッグ
-Substitute_Idle_161 - キック
-Substitute_Idle_162 - キックEX
-Substitute_Idle_163 - コーヒーブレイク
-Substitute_Idle_164 - 舞い桜
-Substitute_Idle_165 - 舞い桜EX
-Substitute_Idle_166 - シノビ
-Substitute_Idle_167 - よりかかる
-Substitute_Idle_168 - パラモーター
-Substitute_Idle_169 - 決めポーズ4
-Substitute_Idle_170 - ダークメイジ
-Substitute_Idle_171 - 箱に座る/B
-Substitute_Idle_172 - ラッピーぬいぐるみ/C
-Substitute_Idle_173 - ダークメイジEX
-Substitute_Idle_174 - 浮遊（水）
-Substitute_Idle_175 - 浮遊（火）
-Substitute_Idle_176 - 浮遊（風）
-Substitute_Idle_177 - 浮遊（闇）
-Substitute_Idle_178 - 浮遊（光）
-Substitute_Idle_179 - 傘をさす/C
-Substitute_Idle_180 - 傘をさす/D
-Substitute_Idle_181 - 傘をさす/E
-Substitute_Idle_182 - スマホ操作/B
-Substitute_Idle_183 - 炎拳
-Substitute_Idle_184 - Rマグミニモ
-Substitute_Idle_185 - 箒に乗るRev
-Substitute_Idle_186 - キュートRev
-Substitute_Idle_187 - ふわふわティータイムRev
-Substitute_Idle_188 - サイキックボールRev
-Substitute_Idle_189 - 構えRev
-Substitute_Idle_190 - 腰に手を当てるRev
-Substitute_Idle_191 - 決めポーズRev
-Substitute_Idle_192 - モデル立ちRev
-Substitute_Idle_193 - モデル立ち2Rev
-Substitute_Idle_194 - 浮遊Rev
-Substitute_Idle_195 - 腰に手を当てる3Rev
-Substitute_Idle_196 - モデル立ち3
-Substitute_Idle_197 - サバイバルゲーム
-Substitute_Idle_198 - サバイバルゲームEX
-Substitute_Idle_199 - ブーケを持つ
-Substitute_Idle_200 - ブーケを持つEX
-Substitute_Idle_201 - くるりん
-Substitute_Idle_202 - ランスロット
-Substitute_Idle_203 - まっすぐ立つ
-Substitute_Idle_204 - ゴースト
-Substitute_Idle_205 - ゴーストEX
-Substitute_Idle_206 - クラウチングスタート
-Substitute_Idle_207 - ピアッシング
-Substitute_Idle_208 - シャドウ
-Substitute_Idle_209 - たおやかRev
-Substitute_Idle_210 - 退屈Rev
-Substitute_Idle_211 - ぺたん座りRev
-Substitute_Idle_212 - 手を振るRev
-Substitute_Idle_213 - 和装フォーム
-Substitute_Idle_214 - 無重力
-Substitute_Idle_215 - 立ちポーズ
-Substitute_Idle_216 - ガンスリンガー
-Substitute_Idle_217 - ガンスリンガーEX
-Substitute_Idle_218 - 立ちポーズ2
-Substitute_Idle_219 - 魔法詠唱
-Substitute_Idle_220 - 魔法詠唱EX
-Substitute_Idle_221 - 花びら/B
-Substitute_Idle_222 - 腰に手を当てる4
-Substitute_Idle_223 - ハンディープロペラ
-Substitute_Idle_224 - 無重力EX
-Substitute_Idle_225 - まっすぐ立つ2
-Substitute_Idle_226 - ランサー
-Substitute_Idle_227 - ランサーEX
-Substitute_Idle_228 - かぼちゃに座る
-Substitute_Idle_229 - 巨人
-Substitute_Idle_230 - ホバー
-Substitute_Idle_231 - エアドライブ
-Substitute_Idle_232 - 情報確認/C
-Substitute_Idle_242 - リンジー
-Substitute_Idle_243 - オデット
-Substitute_Jump_0 - 標準
-Substitute_Jump_1 - シンプル
-Substitute_Jump_2 - シンプル2
-Substitute_Jump_3 - 空中前転
-Substitute_Jump_4 - 上体を反らす
-Substitute_Jump_5 - 両手を広げる
-Substitute_Jump_6 - 重量級
-Substitute_Jump_7 - 宙を蹴る
-Substitute_Jump_8 - 内股
-Substitute_Jump_9 - コミカル
-Substitute_Jump_10 - Yの字
-Substitute_Jump_11 - 高速スピン
-Substitute_Jump_12 - スタイリッシュ
-Substitute_Jump_13 - 腕を上げる
-Substitute_Jump_14 - きゃぴーん
-Substitute_Jump_15 - 跳びかかる
-Substitute_Jump_16 - 体をひねる
-Substitute_Jump_17 - 軽やか
-Substitute_Jump_18 - 腕を上げる2
-Substitute_Jump_19 - 腕組み浮遊
-Substitute_Jump_21 - おじさんの魔法
-Substitute_Jump_22 - キョンシー
-Substitute_Jump_24 - 直立浮遊
-Substitute_Jump_25 - ジャイロランナー
-Substitute_Jump_26 - スーパーヒーロー
-Substitute_Jump_27 - シノビ
-Substitute_Jump_28 - シャドウ
-Substitute_Jump_29 - エアドライブ
-Substitute_Landing_0 - 標準
-Substitute_Landing_1 - シンプル
-Substitute_Landing_2 - シンプル2
-Substitute_Landing_3 - 三点着地
-Substitute_Landing_4 - 両手で支える
-Substitute_Landing_5 - ふんわり
-Substitute_Landing_6 - 重量級2
-Substitute_Landing_8 - 器械体操
-Substitute_Landing_9 - 重量級
-Substitute_Landing_10 - おっとっと
-Substitute_Landing_11 - 内股
-Substitute_Landing_13 - スタイリッシュ
-Substitute_Landing_14 - フローズン
-Substitute_Landing_15 - つむじ風
-Substitute_Landing_16 - 腕組み浮遊
-Substitute_Landing_17 - 火炎
-Substitute_Landing_18 - フローズン/B
-Substitute_Landing_19 - 闇魂
-Substitute_Landing_20 - 魔法陣
-Substitute_Landing_21 - 失敗
-Substitute_Landing_22 - あわわ
-Substitute_Landing_23 - 花びら
-Substitute_Landing_24 - つむじ風/B
-Substitute_Landing_31 - キョンシー
-Substitute_Landing_33 - ジャイロランナー
-Substitute_Landing_34 - 三点着地Rev
-Substitute_Move_0 - 標準
-Substitute_Move_1 - シンプル
-Substitute_Move_2 - シンプル2
-Substitute_Move_3 - ホバー
-Substitute_Move_4 - るんるん
-Substitute_Move_5 - ニンジャ2
-Substitute_Move_6 - スケート
-Substitute_Move_7 - 獣
-Substitute_Move_8 - 両手を広げる
-Substitute_Move_9 - 無邪気
-Substitute_Move_10 - 重量級
-Substitute_Move_11 - ホバー2
-Substitute_Move_12 - スキップ
-Substitute_Move_13 - ニンジャ
-Substitute_Move_14 - うきうき
-Substitute_Move_15 - ジョギング
-Substitute_Move_16 - 軽やか
-Substitute_Move_17 - 傘をさす
-Substitute_Move_18 - 腕組み浮遊
-Substitute_Move_19 - 箒に乗る
-Substitute_Move_20 - キビキビ
-Substitute_Move_22 - 光翼
-Substitute_Move_23 - ドローンに乗る
-Substitute_Move_24 - エレガント
-Substitute_Move_25 - ￥タチコマ
-Substitute_Move_26 - レッグホイール
-Substitute_Move_27 - ￥星に乗る
-Substitute_Move_29 - ファルファッラ
-Substitute_Move_30 - ファンサービス
-Substitute_Move_31 - ファンサービスEX
-Substitute_Move_32 - ゾンビ
-Substitute_Move_33 - ゾンビEX
-Substitute_Move_34 - キョンシー
-Substitute_Move_35 - 獣2
-Substitute_Move_36 - 獣2EX
-Substitute_Move_37 - 直立浮遊
-Substitute_Move_38 - 飛天御剣流
-Substitute_Move_39 - ジャイロランナー
-Substitute_Move_40 - 電車ごっこ
-Substitute_Move_41 - 箒に乗るRev
-Substitute_Move_42 - サバイバルゲーム
-Substitute_Move_43 - ブーケを持つ
-Substitute_Move_44 - ブーケを持つEX
-Substitute_Move_45 - くるりん
-Substitute_Move_46 - ランスロット
-Substitute_Move_47 - ピアッシング
-Substitute_Move_49 - 和装フォーム
-Substitute_Move_50 - ガンスリンガー
-Substitute_Move_51 - 魔法詠唱
-Substitute_Move_52 - ハンディープロペラ
-Substitute_Move_53 - ホバー2/B
-Substitute_Move_54 - ランサー
-Substitute_Move_55 - 巨人
-Substitute_Move_56 - 巨人EX
-Substitute_Move_57 - エアドライブ
-Substitute_Sprint_0 - 標準
-Substitute_Sprint_1 - シンプル
-Substitute_Sprint_2 - シンプル2
-Substitute_Sprint_3 - ホバー
-Substitute_Sprint_5 - ニンジャ
-Substitute_Sprint_6 - スケート
-Substitute_Sprint_7 - 獣
-Substitute_Sprint_10 - 宙を泳ぐ
-Substitute_Sprint_11 - 風を切る
-Substitute_Sprint_13 - フェアリー
-Substitute_Sprint_14 - ホバー2
-Substitute_Sprint_15 - スキップ
-Substitute_Sprint_16 - エアボード
-Substitute_Sprint_17 - ソニック
-Substitute_Sprint_19 - 雪煙
-Substitute_Sprint_20 - 火炎
-Substitute_Sprint_21 - 雪そり
-Substitute_Sprint_27 - 腕組み
-Substitute_Sprint_28 - お尻をおさえる
-Substitute_Sprint_29 - 翼を広げる
-Substitute_Sprint_35 - 帯電
-Substitute_Sprint_37 - ふわふわ
-Substitute_Sprint_38 - 軽やか
-Substitute_Sprint_39 - エアースライド
-Substitute_Sprint_40 - 標準/B
-Substitute_Sprint_41 - フェアリー/B
-Substitute_Sprint_42 - ショートスキー
-Substitute_Sprint_43 - 傘をさす
-Substitute_Sprint_44 - ワーキングロボット
-Substitute_Sprint_45 - ロングストライド
-Substitute_Sprint_46 - 標準/C
-Substitute_Sprint_47 - ホバー/C
-Substitute_Sprint_48 - ホバー/B
-Substitute_Sprint_49 - チョッパー
-Substitute_Sprint_50 - 雲に乗る
-Substitute_Sprint_51 - ニンジャ/B
-Substitute_Sprint_52 - フェアリー/Ｃ
-Substitute_Sprint_54 - セイバーデストラクション
-Substitute_Sprint_55 - 腕組み浮遊
-Substitute_Sprint_56 - カジキライダー
-Substitute_Sprint_57 - ニンジャ/C
-Substitute_Sprint_58 - スキップ/B
-Substitute_Sprint_59 - 箒に乗る
-Substitute_Sprint_60 - アルクェイド
-Substitute_Sprint_62 - 標準2
-Substitute_Sprint_63 - 雪そり/B
-Substitute_Sprint_64 - 獣/B
-Substitute_Sprint_65 - 闇魂
-Substitute_Sprint_66 - プロペラエンジン
-Substitute_Sprint_67 - ホイール
-Substitute_Sprint_68 - 翼を広げる/B
-Substitute_Sprint_69 - スケート/B
-Substitute_Sprint_70 - カジキライダーEX
-Substitute_Sprint_71 - 腕組み浮遊EX
-Substitute_Sprint_72 - 火炎EX
-Substitute_Sprint_73 - フロートスケート
-Substitute_Sprint_74 - 影泳
-Substitute_Sprint_75 - 側転
-Substitute_Sprint_76 - フロートスケートEX
-Substitute_Sprint_77 - お尻をおさえるEX
-Substitute_Sprint_78 - 影泳EX
-Substitute_Sprint_79 - スキップ/C
-Substitute_Sprint_80 - スケート/C
-Substitute_Sprint_81 - 箒に乗るEX
-Substitute_Sprint_82 - プロペラエンジンEX
-Substitute_Sprint_83 - ホイールEX
-Substitute_Sprint_84 - ジェットパック
-Substitute_Sprint_85 - 側転EX
-Substitute_Sprint_86 - ジェットフレイム
-Substitute_Sprint_87 - エアファイター
-Substitute_Sprint_88 - 魔法の絨毯
-Substitute_Sprint_89 - コウモリ
-Substitute_Sprint_90 - スライディング
-Substitute_Sprint_91 - エアボード/B
-Substitute_Sprint_92 - 翼を広げる/Ｃ
-Substitute_Sprint_93 - エアファイターEX
-Substitute_Sprint_94 - 魔法の絨毯EX
-Substitute_Sprint_95 - コウモリEX
-Substitute_Sprint_96 - スライディングEX
-Substitute_Sprint_97 - ふわふわ/B
-Substitute_Sprint_98 - 側転Rev
-Substitute_Sprint_99 - 側転EX-Rev
-Substitute_Sprint_100 - ドローンに乗る
-Substitute_Sprint_101 - ショートスキー/B
-Substitute_Sprint_102 - 光翼
-Substitute_Sprint_103 - スライドダッシュ
-Substitute_Sprint_104 - 風を切る/B
-Substitute_Sprint_105 - 宙を泳ぐEX
-Substitute_Sprint_106 - 光翼EX
-Substitute_Sprint_107 - ドローンに乗るEX
-Substitute_Sprint_108 - スライドダッシュEX
-Substitute_Sprint_109 - 闇魂EX
-Substitute_Sprint_111 - タチコマ
-Substitute_Sprint_112 - レッグホイール
-Substitute_Sprint_113 - ゆらゆら
-Substitute_Sprint_115 - レッグホイールEX
-Substitute_Sprint_116 - ゆらゆらEX
-Substitute_Sprint_117 - 星に乗る
-Substitute_Sprint_118 - 星に乗るEX
-Substitute_Sprint_119 - エアースライド/B
-Substitute_Sprint_120 - ペンギン
-Substitute_Sprint_121 - ペンギンEX
-Substitute_Sprint_122 - 紙飛行機
-Substitute_Sprint_123 - 紙飛行機EX
-Substitute_Sprint_124 - サイキックボール
-Substitute_Sprint_125 - サイキックボールEX
-Substitute_Sprint_126 - 雲に乗る/B
-Substitute_Sprint_127 - 帯電/B
-Substitute_Sprint_129 - FAガールエアバイク
-Substitute_Sprint_130 - ラブリー
-Substitute_Sprint_131 - ラブリーEX
-Substitute_Sprint_132 - ファルファッラ
-Substitute_Sprint_133 - おじさんの魔法
-Substitute_Sprint_134 - ゾンビ
-Substitute_Sprint_135 - ワーキングロボット/B
-Substitute_Sprint_136 - チョッパー/B
-Substitute_Sprint_137 - マジェスティウィング
-Substitute_Sprint_138 - サムライ
-Substitute_Sprint_139 - サムライEX
-Substitute_Sprint_140 - 獣2
-Substitute_Sprint_141 - 獣2EX
-Substitute_Sprint_142 - ホークに乗る
-Substitute_Sprint_143 - 直立浮遊
-Substitute_Sprint_144 - 直立浮遊EX
-Substitute_Sprint_145 - 飛天御剣流
-Substitute_Sprint_146 - プロペラエンジン/B
-Substitute_Sprint_147 - ジャイロランナー
-Substitute_Sprint_148 - ジャイロランナーEX
-Substitute_Sprint_149 - 電車ごっこ
-Substitute_Sprint_150 - スーパーヒーロー
-Substitute_Sprint_151 - スーパーヒーローEX
-Substitute_Sprint_152 - ジェットパック/B
-Substitute_Sprint_153 - イースターエッグ
-Substitute_Sprint_154 - イースターエッグEX
-Substitute_Sprint_155 - 舞い桜
-Substitute_Sprint_156 - シノビ
-Substitute_Sprint_157 - シノビEX
-Substitute_Sprint_158 - パラモーター
-Substitute_Sprint_159 - パラモーターEX
-Substitute_Sprint_160 - ふわふわ/C
-Substitute_Sprint_161 - ダークメイジ
-Substitute_Sprint_162 - 箒に乗るRev
-Substitute_Sprint_163 - エアボードRev
-Substitute_Sprint_164 - スライディング/B
-Substitute_Sprint_165 - サバイバルゲーム
-Substitute_Sprint_166 - サバイバルゲームEX
-Substitute_Sprint_167 - くるりん
-Substitute_Sprint_168 - ランスロット
-Substitute_Sprint_169 - 光翼/B
-Substitute_Sprint_170 - ゴースト
-Substitute_Sprint_171 - ゴーストEX
-Substitute_Sprint_172 - ピアッシング
-Substitute_Sprint_173 - ピアッシングEX
-Substitute_Sprint_174 - シャドウ
-Substitute_Sprint_175 - 無重力
-Substitute_Sprint_177 - ガンスリンガー
-Substitute_Sprint_178 - ガンスリンガーEX
-Substitute_Sprint_179 - 魔法詠唱
-Substitute_Sprint_180 - 魔法詠唱EX
-Substitute_Sprint_181 - ハンディープロペラ
-Substitute_Sprint_182 - ハンディープロペラEX
-Substitute_Sprint_183 - ホバー2/B
-Substitute_Sprint_185 - ランサー
-Substitute_Sprint_186 - ランサーEX
-Substitute_Sprint_187 - 巨人
-Substitute_Sprint_188 - 巨人EX
-Substitute_Sprint_189 - 側転/B
-Substitute_Sprint_190 - エアドライブ
-Substitute_Sprint_191 - エアドライブEX
-Substitute_Glide_0 - 標準
-Substitute_Glide_1 - ミニグライダー
-Substitute_Glide_2 - ジェットパック
-Substitute_Glide_3 - ジェットフレイム
-Substitute_Glide_9 - 光翼
-Substitute_Glide_11 - 優雅
-Substitute_Glide_14 - ヘリコプター
-Substitute_Glide_15 - エアロダンス
-Substitute_Glide_16 - ダイブ
-Substitute_Glide_17 - 飛び蹴り
-Substitute_Glide_18 - 防御姿勢
-Substitute_Glide_19 - 内股
-Substitute_Glide_21 - エアボード
-Substitute_Glide_22 - ラッピー
-Substitute_Glide_23 - テイルス
-Substitute_Glide_26 - 空中歩行
-Substitute_Glide_27 - ミニグライダー2
-Substitute_Glide_28 - 雪煙
-Substitute_Glide_29 - 火炎
-Substitute_Glide_30 - Rマグミニモ
-Substitute_Glide_32 - ダイブ/B
-Substitute_Glide_33 - エアファイター
-Substitute_Glide_34 - 雲に乗る
-Substitute_Glide_35 - パワフル
-Substitute_Glide_36 - 翼を広げる
-Substitute_Glide_38 - カイト
-Substitute_Glide_40 - 帯電
-Substitute_Glide_41 - ふわふわ
-Substitute_Glide_42 - チョッパー
-Substitute_Glide_43 - 標準/B
-Substitute_Glide_44 - ショートスキー
-Substitute_Glide_45 - 傘をさす
-Substitute_Glide_46 - ワーキングロボット
-Substitute_Glide_47 - 標準/C
-Substitute_Glide_48 - ヘリコプター/B
-Substitute_Glide_49 - ダイブ/C
-Substitute_Glide_50 - ラッピー/B
-Substitute_Glide_51 - ジェットフレイム/B
-Substitute_Glide_53 - ハトスケ
-Substitute_Glide_54 - 腕組み浮遊
-Substitute_Glide_55 - カジキライダー
-Substitute_Glide_56 - ジェットフレイム/C
-Substitute_Glide_57 - パワフル/B
-Substitute_Glide_58 - 箒に乗る
-Substitute_Glide_59 - スカイグラインド
-Substitute_Glide_60 - カジキライダーEX
-Substitute_Glide_61 - パワフル/C
-Substitute_Glide_62 - 内股/B
-Substitute_Glide_63 - 闇魂
-Substitute_Glide_64 - プロペラエンジン
-Substitute_Glide_65 - 翼を広げる/B
-Substitute_Glide_66 - 腕組み浮遊EX
-Substitute_Glide_67 - 火炎EX
-Substitute_Glide_68 - ミニグライダー2EX
-Substitute_Glide_69 - 優雅EX
-Substitute_Glide_70 - 彗星
-Substitute_Glide_71 - 彗星EX
-Substitute_Glide_72 - ラッピー/C
-Substitute_Glide_73 - ヘリコプター/C
-Substitute_Glide_74 - ミニグライダー/B
-Substitute_Glide_75 - 防御姿勢/B
-Substitute_Glide_76 - 箒に乗るEX
-Substitute_Glide_77 - プロペラエンジンEX
-Substitute_Glide_78 - スカイグラインドEX
-Substitute_Glide_80 - ラッピーバルーン
-Substitute_Glide_81 - コウモリ
-Substitute_Glide_82 - Rマグミニモ/B
-Substitute_Glide_83 - 翼を広げる/Ｃ
-Substitute_Glide_84 - エアボード/B
-Substitute_Glide_85 - ラッピーバルーンEX
-Substitute_Glide_86 - コウモリEX
-Substitute_Glide_87 - エアロダンスEX
-Substitute_Glide_89 - ふわふわ/B
-Substitute_Glide_90 - エアファイター
-Substitute_Glide_91 - 魔法の絨毯
-Substitute_Glide_92 - エアファイターEX
-Substitute_Glide_93 - 魔法の絨毯EX
-Substitute_Glide_94 - 宙を泳ぐ
-Substitute_Glide_95 - ドローンに乗る
-Substitute_Glide_96 - スライドダッシュ
-Substitute_Glide_97 - 防御姿勢/C
-Substitute_Glide_98 - 宙を泳ぐEX
-Substitute_Glide_99 - 光翼EX
-Substitute_Glide_100 - ドローンに乗るEX
-Substitute_Glide_101 - スライドダッシュEX
-Substitute_Glide_102 - 闇魂EX
-Substitute_Glide_104 - レッグホイール
-Substitute_Glide_105 - ゆらゆら
-Substitute_Glide_107 - レッグホイールEX
-Substitute_Glide_108 - ゆらゆらEX
-Substitute_Glide_109 - 傘をさす/B
-Substitute_Glide_110 - 星に乗る
-Substitute_Glide_111 - 星に乗るEX
-Substitute_Glide_112 - ペンギン
-Substitute_Glide_113 - ペンギンEX
-Substitute_Glide_114 - 紙飛行機
-Substitute_Glide_115 - 紙飛行機EX
-Substitute_Glide_116 - サイキックボール
-Substitute_Glide_117 - サイキックボールEX
-Substitute_Glide_118 - 雲に乗る/B
-Substitute_Glide_119 - 帯電/B
-Substitute_Glide_120 - ラブリー
-Substitute_Glide_121 - ラブリーEX
-Substitute_Glide_123 - ファルファッラ
-Substitute_Glide_124 - ファルファッラEX
-Substitute_Glide_125 - おじさんの魔法
-Substitute_Glide_126 - ファンサービス
-Substitute_Glide_127 - ワーキングロボット/B
-Substitute_Glide_128 - チョッパー/B
-Substitute_Glide_129 - FAガールエアバイク
-Substitute_Glide_130 - 火炎/B
-Substitute_Glide_131 - マジェスティウィング
-Substitute_Glide_132 - マジェスティウィングEX
-Substitute_Glide_133 - サムライ
-Substitute_Glide_134 - ショートスキー/B
-Substitute_Glide_135 - ホークに乗る
-Substitute_Glide_136 - 直立浮遊
-Substitute_Glide_138 - プロペラエンジン/B
-Substitute_Glide_139 - ジャイロランナー
-Substitute_Glide_140 - ジャイロランナーEX
-Substitute_Glide_141 - スーパーヒーロー
-Substitute_Glide_142 - スーパーヒーローEX
-Substitute_Glide_143 - イースターエッグ
-Substitute_Glide_144 - イースターエッグEX
-Substitute_Glide_145 - ジェットパック/B
-Substitute_Glide_146 - キック
-Substitute_Glide_147 - キックEX
-Substitute_Glide_148 - 舞い桜
-Substitute_Glide_149 - 舞い桜EX
-Substitute_Glide_150 - ふわふわ/C
-Substitute_Glide_151 - シノビ
-Substitute_Glide_152 - シノビEX
-Substitute_Glide_153 - パラモーター
-Substitute_Glide_154 - パラモーターEX
-Substitute_Glide_155 - ダークメイジ
-Substitute_Glide_156 - ダークメイジEX
-Substitute_Glide_157 - 箒に乗るRev
-Substitute_Glide_158 - エアボードRev
-Substitute_Glide_159 - スカイグラインドRev
-Substitute_Glide_160 - エアロダンス/B
-Substitute_Glide_161 - サバイバルゲーム
-Substitute_Glide_162 - ゴースト
-Substitute_Glide_163 - 光翼/B
-Substitute_Glide_164 - ピアッシング
-Substitute_Glide_165 - ピアッシングEX
-Substitute_Glide_166 - 無重力
-Substitute_Glide_167 - 無重力EX
-Substitute_Glide_168 - ガンスリンガー
-Substitute_Glide_169 - 魔法詠唱
-Substitute_Glide_170 - ハンディープロペラ
-Substitute_Glide_171 - ハンディープロペラEX
-Substitute_Glide_172 - シャドウ
-Substitute_Glide_173 - ランサー
-Substitute_Glide_174 - 巨人
-Substitute_Glide_175 - エアドライブ
-Substitute_Glide_176 - エアドライブEX
-Substitute_Swim_0 - 標準
-Substitute_Swim_2 - クロール
-Substitute_Swim_3 - 潜水
-Substitute_Swim_4 - バタフライ
-Substitute_Swim_5 - サーフィン
-Substitute_Swim_6 - 腕組み浮遊
-Substitute_Swim_7 - カジキライダー
-Substitute_Swim_8 - 氷上歩行
-Substitute_Swim_9 - シャークレイド
-Substitute_Swim_10 - バナナボート
-Substitute_Swim_11 - ペンギン
-Substitute_Swim_12 - イースターエッグ
-Substitute_Swim_13 - シノビ
-Substitute_Swim_14 - サーフィンRev
-Substitute_Swim_16 - バナナボート/B
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
-Button
-Group 0
-ButtonAssign -  アサインなし 
-ButtonAssign_151_Text - $(0)以上
+download_progress - インストール中：$(0)％
+PlayGo_AreaMove_Message - 移動先のエリアのインストールが完了していません。<br>インストールが完了してから、<br>アクセスし直してください。<br><br>インストール中：$(0)％
 
 Group 1
 

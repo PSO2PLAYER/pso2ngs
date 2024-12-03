@@ -1,5 +1,5 @@
-quest_common_reboot.text was created: 2024/10/2 7:06:55
-Filesize is: 63968 bytes
+quest_common_reboot.text was created: 2024/12/4 7:06:36
+Filesize is: 74784 bytes
 
 CocoonFail
 Group 0
@@ -299,7 +299,7 @@ TrigerActiveRetiredNotice - バトルトリガーの使用者がクエストを<
 TrigerJoinDiscardNotice - バトルトリガーの使用者がクエストを<br>破棄したことにより、フィールドに戻ります。
 FailureLimitRemaining - サイドミッションを<br>あと$(0)つ失敗するとクエスト失敗
 FailureLimitRemaining_Dead - あと$(0)回戦闘不能でクエスト失敗
-NextQuestLevel - $(0)のRank$(1)が解放されました。
+NextQuestLevel - $(0)のRank.$(1)が解放されました。
 AreaLimitRemineTimeSec - 制限時間まであと$(0)秒！
 AreaLimitRemineTimeMin - 制限時間まであと$(0)分！
 AreaLimitRemineTimeMinSec - 制限時間まであと$(0)分$(1)秒！
@@ -1248,6 +1248,55 @@ Group 0
 SonicQuest_MaxHpAdd - 最大HP上昇
 SonicQuest_AddCriticalAndDamage - クリティカル強化
 CityQuest_DamageUpDebuff - 防御力ダウン
+NewDuel_PpRecoveryDecrease1 - PP回復量－５%
+NewDuel_PpRecoveryDecrease2 - PP回復量－10%
+NewDuel_PpRecoveryDecrease3 - PP回復量－15%
+NewDuel_PpRecoveryDecrease4 - PP回復量－20%
+NewDuel_PpRecoveryDecrease5 - PP回復量－25%
+NewDuel_PbGuageDecrease1 - フォトンブラストゲージ蓄積量－５%
+NewDuel_PbGuageDecrease2 - フォトンブラストゲージ蓄積量－10%
+NewDuel_PbGuageDecrease3 - フォトンブラストゲージ蓄積量－15%
+NewDuel_PbGuageDecrease4 - フォトンブラストゲージ蓄積量－20%
+NewDuel_PbGuageDecrease5 - フォトンブラストゲージ蓄積量－25%
+NewDuel_MarsRecoveryDecrease1 - M.A.R.S.バッテリー自然回復量－10%
+NewDuel_MarsRecoveryDecrease2 - M.A.R.S.バッテリー自然回復量－20%
+NewDuel_MarsRecoveryDecrease3 - M.A.R.S.バッテリー自然回復量－30%
+NewDuel_MarsRecoveryDecrease4 - M.A.R.S.バッテリー自然回復量－40%
+NewDuel_MarsRecoveryDecrease5 - M.A.R.S.バッテリー自然回復量－50%
+NewDuel_StatusEffectTimeExtend1 - 状態異常効果時間増加：小
+NewDuel_StatusEffectTimeExtend2 - 状態異常効果時間増加：中
+NewDuel_StatusEffectTimeExtend3 - 状態異常効果時間増加：大
+NewDuel_StatusEffectTimeExtend4 - 状態異常効果時間増加：特大
+NewDuel_RestasignLimitChange1 - レスタサイン最大所持数－１
+NewDuel_RestasignLimitChange2 - レスタサイン最大所持数－２
+NewDuel_RestasignLimitChange3 - レスタサイン最大所持数－３
+NewDuel_RestasignLimitChange4 - レスタサイン最大所持数－４
+NewDuel_RestasignLimitChange5 - レスタサイン最大所持数－５
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_5 - 弱点部位以外のダメージ耐性＋5%
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_10 - 弱点部位以外のダメージ耐性＋10%
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_15 - 弱点部位以外のダメージ耐性＋15%
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_20 - 弱点部位以外のダメージ耐性＋20%
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_30 - 弱点部位以外のダメージ耐性＋30%
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_40 - 弱点部位以外のダメージ耐性＋40%
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_50 - 弱点部位以外のダメージ耐性＋50%
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_60 - 弱点部位以外のダメージ耐性＋60%
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_70 - 弱点部位以外のダメージ耐性＋70%
+EnemyGrowUpQuest_CalcDmageRate_NotWeak_80 - 弱点部位以外のダメージ耐性＋80%
+r05_rem_akk_ba:AddSkillOnHit_PlayerDmgDownSPerL - 攻撃命中時低確率で<br>プレイヤー威力低下：小
+r05_rem_akk_ba:AddSkillOnHit_PlayerDmgDownMPerL - 攻撃命中時低確率で<br>プレイヤー威力低下：中
+r05_rem_akk_ba:AddSkillOnHit_PlayerDmgDownLPerL - 攻撃命中時低確率で<br>プレイヤー威力低下：大
+r05_rem_akk_ba:AddSkillOnHit_PlayerDmgDownXLPerL - 攻撃命中時低確率で<br>プレイヤー威力低下：特大
+r05_rem_akk_ba:AddSkillOnHit_PlayerDmgDownSPerH - 攻撃命中時高確率で<br>プレイヤー威力低下：小
+r05_rem_akk_ba:AddSkillOnHit_PlayerDmgDownMPerH - 攻撃命中時高確率で<br>プレイヤー威力低下：中
+r05_rem_akk_ba:AddSkillOnHit_PlayerDmgDownLPerH - 攻撃命中時高確率で<br>プレイヤー威力低下：大
+r05_rem_akk_ba:AddSkillOnHit_PlayerDmgDownXLPerH - 攻撃命中時高確率で<br>プレイヤー威力低下：特大
+EnemyGrowUpQuest_Elementboost_D10 - 攻撃に闇属性追加/ポイズン蓄積量：小
+EnemyGrowUpQuest_Elementboost_D20 - 攻撃に闇属性追加/ポイズン蓄積量：中
+EnemyGrowUpQuest_Elementboost_D40 - 攻撃に闇属性追加/ポイズン蓄積量：大
+EnemyGrowUpQuest_Elementboost_D60 - 攻撃に闇属性追加/ポイズン蓄積量：特大
+r05_rem_akk_ba:ModeProvokeShadow1 - 挑発行動時に分身体出現：１体
+r05_rem_akk_ba:ModeProvokeShadow2 - 挑発行動時に分身体出現：２体
+r05_rem_akk_ba:ModeProvokeShadow3 - 挑発行動時に分身体出現：３体
 
 Group 1
 
@@ -1300,6 +1349,172 @@ Group 9
 BuffLineText
 Group 0
 CityQuest_DamageUpDebuff - 探索ポイントの変動により、被ダメージ増加Lv.$(0)の効果が発生します。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+GroomBuff
+Group 0
+Groom_DamageBuff - 威力上昇
+Groom_MaxPpBuff - 最大PP増加
+Groom_NormalAtkDamageBuff - 通常攻撃威力上昇
+Groom_NormalAtkDrainBuff - 通常攻撃命中時にHP回復
+Groom_PaTechniqueBuff - PA/テクニック威力上昇
+Groom_PbDamageBuff - フォトンブラスト威力上昇
+Groom_PpHealRateBuff - PP回復量増加
+Groom_StateResistanceBuff - 状態異常耐性上昇
+Groom_DamageCutBuff - ダメージ耐性上昇
+Groom_AutoRecoveryBuff - HP自動回復
+Groom_DownValueBuff - エネミーに与えるダウン値上昇
+Groom_PbGaugeBuff - フォトンブラストゲージ蓄積量増加
+Groom_CounterAtkBuff - ステップカウンター威力上昇
+Groom_HealRateBuff - HP回復量増加
+Groom_NodeDamageBuff - 破壊可能部位への攻撃威力上昇
+Groom_WeakPointDamageBuff - 弱点部位への攻撃威力上昇
+Groom_ActiveSkillCooltimeBuff - アクティブスキル再使用可能時間短縮
+Groom_IronWillBuff - 戦闘不能回避（一定時間で効果再発生）
+Groom_DodgeRecoveryBuff - ステップ回避成功時にHP回復
+Groom_RecoveryGaugeIncrease - レスタサイン最大所持数増加
+Groom_AutoRecoveryAddBuff - 一定間隔でレスタサイン自動補充
+Groom_HpBonusBuff - HP75%以上で威力/ダメージ耐性上昇
+Groom_HitCountPpHealBuff - 攻撃命中20回ごとにPP回復
+Groom_BadEase - 状態異常の効果時間短縮
+Groom_DownDamageBuff - ダウン中のエネミーへの攻撃威力上昇
+Groom_ArsenalModuleGaugeBuff - M.A.R.S.バッテリー自然回復量増加
+Groom_ArsenalModuleDamageBuff - M.A.R.S.攻撃威力上昇
+Groom_S_PhotonArtsBuff - <yellow>PA/テクニック命中時に追加ダメージ<c>
+Groom_S_GlideAttackBuff - <yellow>ダイブアタック威力/ダウン値上昇<c>
+Groom_S_DamageShieldBuff - <yellow>リフレクトシールド発生<c>
+Groom_S_QuickAttackBuff - <yellow>攻撃速度上昇<c>
+Groom_S_NormalAttackBuff - <yellow>通常攻撃時に追加攻撃発生<c>
+Groom_S_RangeDamageBuff - <yellow>一定間隔ごとに自動的に追加攻撃発生<c>
+Groom_S_OverRecoveryBuff - <yellow>レスタサイン使用後に10秒間能力上昇<c>
+Groom_S_AdditionalCriticalAttackBuff - <yellow>クリティカル発生時に追加ダメージ<c>
+Groom_S_DodgeBombBuff - <yellow>ステップ回避成功時に追加攻撃発生<c>
+Groom_ThrowingSpeedUpBuff - 投擲アクション速度上昇
+Groom_ThrowingBuff - 投擲アクション威力上昇
+Groom_S_AdditionalThrowAttackBuff - 投擲アクション命中時に追加ダメージ
+Groom_S_PbRecoveryBuff - PBを2回連続で発動可能/PB攻撃速度上昇
+EnemyGroom_AttackUp50 - <yellow>威力＋50%<c>
+EnemyGroom_AttackUp100 - <yellow>威力＋100%<c>
+EnemyGroom_AttackUp150 - <yellow>威力＋150%<c>
+EnemyGroom_AttackUp200 - <yellow>威力＋200%<c>
+EnemyGroom_AttackUp250 - <yellow>威力＋250%<c>
+EnemyGroom_AttackUp300 - <yellow>威力＋300%<c>
+EnemyGroom_AttackUp350 - <yellow>威力＋350%<c>
+EnemyGroom_AttackUp400 - <yellow>威力＋400%<c>
+EnemyGroom_AttackUp500 - <yellow>威力＋500%<c>
+EnemyGroom_AttackUp600 - <yellow>威力＋600%<c>
+EnemyGroom_AttackUp700 - <yellow>威力＋700%<c>
+EnemyGroom_AttackUp800 - <yellow>威力＋800%<c>
+EnemyGroom_AttackUp900 - <yellow>威力＋900%<c>
+EnemyGroom_ElementUp50 - <yellow>状態異常蓄積値＋50%<c>
+EnemyGroom_ElementUp100 - <yellow>状態異常蓄積値＋100%<c>
+EnemyGroom_ElementUp150 - <yellow>状態異常蓄積値＋150%<c>
+EnemyGroom_ElementUp200 - <yellow>状態異常蓄積値＋200%<c>
+EnemyGroom_ElementUp250 - <yellow>状態異常蓄積値＋250%<c>
+EnemyGroom_ElementUp300 - <yellow>状態異常蓄積値＋300%<c>
+EnemyGroom_ElementUp350 - <yellow>状態異常蓄積値＋350%<c>
+EnemyGroom_ElementUp400 - <yellow>状態異常蓄積値＋400%<c>
+EnemyGroom_DamageResist5 - <yellow>ダメージ耐性＋5%<c>
+EnemyGroom_DamageResist10 - <yellow>ダメージ耐性＋10%<c>
+EnemyGroom_DamageResist15 - <yellow>ダメージ耐性＋15%<c>
+EnemyGroom_DamageResist20 - <yellow>ダメージ耐性＋20%<c>
+EnemyGroom_DamageResist25 - <yellow>ダメージ耐性＋25%<c>
+EnemyGroom_DamageResist30 - <yellow>ダメージ耐性＋30%<c>
+EnemyGroom_DamageResist35 - <yellow>ダメージ耐性＋35%<c>
+EnemyGroom_DamageResist40 - <yellow>ダメージ耐性＋40%<c>
+EnemyGroom_DamageResist45 - <yellow>ダメージ耐性＋45%<c>
+EnemyGroom_DamageResist50 - <yellow>ダメージ耐性＋50%<c>
+EnemyGroom_SendClient_NormalAtkAtpDownBuff1_10 - <yellow>通常攻撃ダメージ耐性＋10%<c>
+EnemyGroom_SendClient_NormalAtkAtpDownBuff1_20 - <yellow>通常攻撃ダメージ耐性＋20%<c>
+EnemyGroom_SendClient_NormalAtkAtpDownBuff1_30 - <yellow>通常攻撃ダメージ耐性＋30%<c>
+EnemyGroom_SendClient_NormalAtkAtpDownBuff1_40 - <yellow>通常攻撃ダメージ耐性＋40%<c>
+EnemyGroom_SendClient_NormalAtkAtpDownBuff1_50 - <yellow>通常攻撃ダメージ耐性＋50%<c>
+EnemyGroom_SendClient_NormalAtkAtpDownBuff1_60 - <yellow>通常攻撃ダメージ耐性＋60%<c>
+EnemyGroom_SendClient_NormalAtkAtpDownBuff1_70 - <yellow>通常攻撃ダメージ耐性＋70%<c>
+EnemyGroom_SendClient_NormalAtkAtpDownBuff1_80 - <yellow>通常攻撃ダメージ耐性＋80%<c>
+EnemyGroom_SendClient_PaTechniqueAtpDownBuff1_10 - <yellow>PA/テクニックダメージ耐性＋10%<c>
+EnemyGroom_SendClient_PaTechniqueAtpDownBuff1_20 - <yellow>PA/テクニックダメージ耐性＋20%<c>
+EnemyGroom_SendClient_PaTechniqueAtpDownBuff1_30 - <yellow>PA/テクニックダメージ耐性＋30%<c>
+EnemyGroom_SendClient_PaTechniqueAtpDownBuff1_40 - <yellow>PA/テクニックダメージ耐性＋40%<c>
+EnemyGroom_SendClient_PaTechniqueAtpDownBuff1_50 - <yellow>PA/テクニックダメージ耐性＋50%<c>
+EnemyGroom_SendClient_PaTechniqueAtpDownBuff1_60 - <yellow>PA/テクニックダメージ耐性＋60%<c>
+EnemyGroom_SendClient_PaTechniqueAtpDownBuff1_70 - <yellow>PA/テクニックダメージ耐性＋70%<c>
+EnemyGroom_SendClient_PaTechniqueAtpDownBuff1_80 - <yellow>PA/テクニックダメージ耐性＋80%<c>
+EnemyGroom_HPUp50 - <yellow>最大HP＋50%<c>
+EnemyGroom_HPUp100 - <yellow>最大HP＋100%<c>
+EnemyGroom_HPUp150 - <yellow>最大HP＋150%<c>
+EnemyGroom_HPUp180 - <yellow>最大HP＋180%<c>
+EnemyGroom_HPUp200 - <yellow>最大HP＋200%<c>
+EnemyGroom_HPUp250 - <yellow>最大HP＋250%<c>
+EnemyGroom_HPUp300 - <yellow>最大HP＋300%<c>
+EnemyGroom_HPUp350 - <yellow>最大HP＋350%<c>
+EnemyGroom_HPUp400 - <yellow>最大HP＋400%<c>
+EnemyGroom_AngerToDamage - HP減少時に<yellow>プレイヤーHPに継続ダメージ<c>
+EnemyGroom_AngerToPPDamage - HP減少時に<yellow>プレイヤーPPに継続ダメージ<c>
+EnemyGroom_AngerToHpDown50 - HP減少時に<yellow>プレイヤー最大HP－50%<c>
+EnemyGroom_AngerToHpDown75 - HP減少時に<yellow>プレイヤー最大HP－75%<c>
+EnemyGroomAdditionalSkillOnHit_DamageDebuff5 - 攻撃命中時に<yellow>プレイヤー威力/耐性低下<c>
+EnemyGroom_Elementboost_F20 - 攻撃に<yellow>炎属性追加<c>/バーン蓄積量：小
+EnemyGroom_Elementboost_F40 - 攻撃に<yellow>炎属性追加<c>/バーン蓄積量：中
+EnemyGroom_Elementboost_F60 - 攻撃に<yellow>炎属性追加<c>/バーン蓄積量：大
+EnemyGroom_Elementboost_I20 - 攻撃に<yellow>氷属性追加<c>/フリーズ蓄積量：小
+EnemyGroom_Elementboost_I40 - 攻撃に<yellow>氷属性追加<c>/フリーズ蓄積量：中
+EnemyGroom_Elementboost_I60 - 攻撃に<yellow>氷属性追加<c>/フリーズ蓄積量：大
+EnemyGroom_Elementboost_T20 - 攻撃に<yellow>雷属性追加<c>/ショック蓄積量：小
+EnemyGroom_Elementboost_T40 - 攻撃に<yellow>雷属性追加<c>/ショック蓄積量：中
+EnemyGroom_Elementboost_T60 - 攻撃に<yellow>雷属性追加<c>/ショック蓄積量：大
+EnemyGroom_Elementboost_W20 - 攻撃に<yellow>風属性追加<c>/ミラージュ蓄積量：小
+EnemyGroom_Elementboost_W40 - 攻撃に<yellow>風属性追加<c>/ミラージュ蓄積量：中
+EnemyGroom_Elementboost_W60 - 攻撃に<yellow>風属性追加<c>/ミラージュ蓄積量：大
+EnemyGroom_Elementboost_D20 - 攻撃に<yellow>闇属性追加<c>/ポイズン蓄積量：小
+EnemyGroom_Elementboost_D40 - 攻撃に<yellow>闇属性追加<c>/ポイズン蓄積量：中
+EnemyGroom_Elementboost_D60 - 攻撃に<yellow>闇属性追加<c>/ポイズン蓄積量：大
+EnemyGroom_Elementboost_L20 - 攻撃に<yellow>光属性追加<c>/パニック蓄積量：小
+EnemyGroom_Elementboost_L40 - 攻撃に<yellow>光属性追加<c>/パニック蓄積量：中
+EnemyGroom_Elementboost_L60 - 攻撃に<yellow>光属性追加<c>/パニック蓄積量：大
+Common:DownBombBoost - <yellow>バムロードエネミー化<c>
+Common:TimerBuffBoost - <yellow>グローサードエネミー化<c>
+EnemyGroom_AngerToSummon - HP減少時に<yellow>追加エネミー出現<c>
+EnemyGroom_CalcDmageRate_NotWeak_10 - <yellow>弱点部位以外のダメージ耐性＋10%<c>
+EnemyGroom_CalcDmageRate_NotWeak_15 - <yellow>弱点部位以外のダメージ耐性＋15%<c>
+EnemyGroom_CalcDmageRate_NotWeak_20 - <yellow>弱点部位以外のダメージ耐性＋20%<c>
+EnemyGroom_CalcDmageRate_NotWeak_30 - <yellow>弱点部位以外のダメージ耐性＋30%<c>
+EnemyGroom_CalcDmageRate_NotWeak_40 - <yellow>弱点部位以外のダメージ耐性＋40%<c>
+EnemyGroom_CalcDmageRate_NotWeak_50 - <yellow>弱点部位以外のダメージ耐性＋50%<c>
+EnemyGroom_CalcDmageRate_NotWeak_60 - <yellow>弱点部位以外のダメージ耐性＋60%<c>
+EnemyGroom_CalcDmageRate_NotWeak_70 - <yellow>弱点部位以外のダメージ耐性＋70%<c>
+EnemyGroom_CalcDmageRate_NotWeak_80 - <yellow>弱点部位以外のダメージ耐性＋80%<c>
+EnemyGroom_SendClient_NonCriticalAtpDownBuff1_10 - <yellow>クリティカル以外のダメージ耐性＋10%<c>
+EnemyGroom_SendClient_NonCriticalAtpDownBuff1_20 - <yellow>クリティカル以外のダメージ耐性＋20%<c>
+EnemyGroom_SendClient_NonCriticalAtpDownBuff1_30 - <yellow>クリティカル以外のダメージ耐性＋30%<c>
+EnemyGroom_SendClient_NonCriticalAtpDownBuff1_40 - <yellow>クリティカル以外のダメージ耐性＋40%<c>
+EnemyGroom_SendClient_NonCriticalAtpDownBuff1_50 - <yellow>クリティカル以外のダメージ耐性＋50%<c>
+EnemyGroom_SendClient_NonCriticalAtpDownBuff1_60 - <yellow>クリティカル以外のダメージ耐性＋60%<c>
+EnemyGroom_SendClient_NonCriticalAtpDownBuff1_70 - <yellow>クリティカル以外のダメージ耐性＋70%<c>
+EnemyGroom_SendClient_NonCriticalAtpDownBuff1_80 - <yellow>クリティカル以外のダメージ耐性＋80%<c>
+EnemyGroom_IntervalShot15 - 一定間隔ごとに<yellow>自動的に追加攻撃発生<c>
+EnemyGroom_IntervalShotFireBoss15 - 一定間隔ごとに<yellow>隕石が落下<c>
+EnemyGroom_IntervalShotFireBoss5 - 一定間隔ごとに<yellow>隕石が落下<c>
+EnemyGroom_IntervalShotFire15 - 一定間隔ごとに<yellow>隕石が落下<c>
+EnemyGroom_IntervalShotFire5 - 一定間隔ごとに<yellow>隕石が落下<c>
 
 Group 1
 

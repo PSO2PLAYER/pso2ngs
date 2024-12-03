@@ -1,0 +1,205 @@
+ui_na_mainmode.text was created: 2024/12/4 7:06:36
+Filesize is: 10304 bytes
+
+EveryMP
+Group 0
+DetailsFormTitle - ミッションパス
+GoToArksMission - <%MultiSelect><pict 4space>でタスク一覧を開く
+GoToArksMission_Key - <%MultiSelect><pict 4space>でタスク一覧を開く
+GoToReward - <%Function>で報酬詳細へ
+GoToReward_Key - [Ctrl]＋[Tab]で報酬詳細へ
+EndDateAndTime - 有効期限：<utcymdt>$(0)</utcymdt>
+Receipt_periodAndTime - 受取期限：<utcymdt>$(0)</utcymdt>
+StarGaugeNum - $(0) / $(1)
+TierButtonLabel - ティア購入
+TierTitle - ティア
+AndMoreLabel - and more
+TierPurchaseFormTitle - ティア購入確認
+ConfirmText - 購入するティア数を選択してください。<br>1ティア： $(0) <pict StarGem>
+NeedAcText - 必要SG
+HaveAcText - 所持SG
+DecidedText - 決定
+CancelText - キャンセル
+YesText - はい
+NoText - いいえ
+RewardAcceptanceFormTitle - ティア報酬の受け取り
+RewardAcceptanceFormMessage - 以下から受け取る報酬を１つだけ選択してください。<br><br><yellow>※選択するアイテムが装備可能かご確認ください。<c>
+RewardConfirmationFormTitle - 報酬詳細画面
+RewardReceiptFormAcceptanceTitle - 受け取り確認
+RewardReceiptFormAcceptanceMessage - 以下のアイテムを受け取ります。<br>よろしいですか？<br><br><yellow>※アイテムには、使用条件や装備条件が<br>ある場合があります。<br>※受け取りは１アカウントにつき１回限りです。<c>
+RewardReceiptFormPurchaseTitle - 購入確認
+RewardReceiptFormPurchaseMessage - 以下のアイテムを$(2)$(0)で購入します。<br>よろしいですか？<br><br>（所持SG：$(1)）
+RewardReceiptFormTierPurchaseMessage - ティアを$(2)$(0)で購入します。<br>よろしいですか？<br><br>（所持SG：$(1)）<br><br>購入前ティア：$(3)　→　購入後ティア：$(4)
+LimitedTimeMessage - $(0)<br>　<br>販売期限：<utcymdt>$(1)</utcymdt>
+RewardUpTicketFormTitle - アイテム購入確認
+RewardUpTicketFormMessage - <pict StarGem><c 1dedd7>SG消費コンテンツ<c><br>選択した機能の利用権をお持ちでないか、<br>利用期限が切れています。<br><br><yellow>“N-ミッションゴールドパス”<c>を購入し、<br>この機能を有効にしますか？<br><br><red>※個別にアイテムを購入する場合は、<br>　“メインメニュー”からショップを選択し、<br>　“AC・SGショップ”でお買い求めください。<c>
+RewardGetEffectTitle - 報酬を受け取りました
+ExtraModeStratLineMessage - ティアが最終段階を達成しました。オーバーランモードを開放します。
+TierUpToastMessage - ミッションパスのティアが進行しました。メインメニューの“タスク / クエスト”から“ミッションパス”を開き、報酬を受け取ってください。
+ShopTitle - ミッションバッヂリサイクルショップ
+PurchaseTierItemName - ティア×$(0)
+PurchaseGoldPassItemName - N-ミッションゴールドパス×$(0)
+RewardItemName - $(0)×$(1)
+TierBuyToastMessage - ティアを購入しました。
+GoldPassBuyToastMessage - ミッションパスゴールド券を購入しました
+DefaultSeasonTitle - シーズンタイトル
+GoldPassInfoMessage - ゴールド報酬は、“プレミアムセット”を有効にするか、“N-ミッションゴールドパス”を使用することで入手できます。
+GoldPassInfoMessage2 - ゴールド報酬は、通常報酬と同様にタスクを達成し、<pict 4space><pict mp_star_icon><pict 4space>を集めてティアを進めることで入手できます。
+ErrorMessageTitle - メッセージ
+ErrorMessageTitle2 - ミッションパス
+ErrorMessageTierBuy - ティアの購入に失敗しました。
+ErrorMessageGoldPassBuy - N-ミッションパスゴールド券の購入に失敗しました。
+ErrorMessageAlreadyGoldPassTerm - すでにゴールド報酬を開放済みです。
+ErrorMessageTierLvMax - すでにティアが上限に達しているため、使用できません。
+ErrorMessageGeneral - 予期せぬエラーが発生したため、<br>受け取りをキャンセルします。
+ErrorMessage_NotPlay - 予期せぬエラーが発生しました。<br>ミッションパス画面を閉じます。
+ErrorMessage_Received - すでに報酬を受け取り済みです。
+MPDetailSwitching - <%Function>でアイテム詳細を表示
+MPDetailSwitching_Key - <%MultiSelect>でアイテム詳細を表示
+MPRewardDetailSwitching - <%Function>でプレビューを表示
+MPRewardDetailSwitching_Key - <%MultiSelect>でプレビューを表示
+RewardAcceptanceForm_other - ･･･他$(0)個
+ErrorMessageGeneral2 - 予期せぬエラーが発生しました。
+MP_Error_Inventorylimit - アイテムパックの空き容量不足<br>または所持数の限界を超えているため<br>受け取れませんでした。
+RewardDetailsFormMessage - 受け取る報酬を選択してください。<br><yellow>※報酬はひとつのグループだけ選択できます。<c><br><yellow>※アイテムには、使用条件や装備条件がある場合があります。<c>
+RewardReceivingFormMessage1 - このティアで受け取る報酬を選択してください。<br><yellow>※報酬はひとつのグループだけ選択できます。<c><br><yellow>※アイテムには、使用条件や装備条件がある場合があります。<c>
+RewardReceivingFormMessage2 - このティアの報酬を受け取りますか？
+TakeText - 受け取る
+MP_PopupMessage - 選択式の報酬があります。
+MP_Group1 - グループ1
+MP_Group2 - グループ2
+MP_Group3 - グループ3
+MP_Group4 - グループ4
+MP_Group5 - グループ5
+MP_Group6 - グループ6
+MP_Group7 - グループ7
+MP_Group8 - グループ8
+MP_Group9 - グループ9
+MP_Group10 - グループ10
+MP_Group11 - グループ11
+MP_Group12 - グループ12
+AnnounceIcon1 - <%TabBack>
+AnnounceIcon2 - <%TabForward>
+MP_ControlGuide - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　
+MP_RewardList_Header - 報酬一覧
+MP_RewardList_Issue - 以下の報酬を受け取りました。
+MP_RewardList_Close - 閉じる
+Title - アイテム詳細
+Bulk_receipt_Title - ティア報酬をすべて獲得
+Bulk_receipt_Message - ティア報酬をすべて獲得します。<br>よろしいですか？<br><br><yellow>※選択式のティア報酬は対象外です。<c><br><br><yellow>※“N-ミッションゴールドパス"利用時、<br>　または“プレミアムセット”が有効の場合は<br>　ゴールド報酬も獲得できます。<c><br>　<br>※１アカウントにつき１回限り獲得可能です。
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+MainMenu
+Group 0
+MainMenu_EveryMP - ミッションパス
+StatusLabel_EveryMp_Title - 簡易ミッションパス情報
+MissionPassOpen - <%Exception>でミッションパスへ
+MissionPassOpen_Key - [Ctrl]＋[Tab]でミッションパスへ
+StatusLabel_EveryMp_Season - シーズン
+StatusLabel_EveryMp_Goldpass1 - ゴールド券
+StatusLabel_EveryMp_Goldpass2 - 有効
+StatusLabel_EveryMp_Goldpass3 - 無効
+StatusLabel_EveryMp_tea1 - ティア
+StatusLabel_EveryMp_tea2 - 次のティアまでスター
+StatusLabel_EveryMp_teamission - 達成ティアミッション
+StatusLabel_EveryMp_NotPlaySeason - 未開催
+MenuEquipmentOpen - 装備画面を開く
+MenuCustomOpen - カスタム画面を開く
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+MissionBoard
+Group 0
+MissionList_GotoMissionPass - <%Function>でミッションパスへ
+MissionList_GotoMissionPass_Key - <%MultiSelect>でミッションパスへ
+MissionDaily - デイリーミッション
+MissionDailyLimit - 毎日<utc>15:00</utc>
+MissionWeekly - ウィークリーミッション
+MissionWeeklyLimit - <utcdow>水曜日4:00</utcdow>
+MissionTier - ティアミッション
+MissionTierLimit - <utc>$(0)</utc>
+MissionLimitTime - <utcymdt>$(0)</utcymdt>
+MissionPassOpen - <%Exception>でミッションパスへ
+MissionPassOpen_Key - [Ctrl]＋[Tab]でミッションパスへ
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+MovieWindow
+Group 0
+WelcomeMovie_Title - PSO2へようこそ！
+WelcomeMovie_CancelTitle - 終了確認
+WelcomeMovie_CancelMessage - ムービーを終了します。<br>よろしいですか？
+WelcomeMovie_CancelYes - はい
+WelcomeMovie_CancelNo - いいえ
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+

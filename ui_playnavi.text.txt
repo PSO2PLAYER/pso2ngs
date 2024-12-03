@@ -1,4 +1,4 @@
-ui_playnavi.text was created: 2024/10/2 7:06:55
+ui_playnavi.text was created: 2024/12/4 7:06:36
 Filesize is: 12144 bytes
 
 PlayNavi
@@ -108,7 +108,7 @@ PlayNav_Unit18_Index1 - ・サイドタスクを達成する<br>・以下の戦�
 PlayNav_Unit18_Item2 - 装備を強化する
 PlayNav_Unit18_Index2 - ・レアリティ★８の武器と★７の防具を入手する<br><yellow>※エネミーからのドロップ、もしくはマイショップを利用<c><br>・強化素材交換で特殊能力カプセルを入手する<br>・レアリティ★８の武器と★７の防具を強化値＋50にする<br>・それぞれの装備に“Ⅲ”以上の特殊能力を５つ追加する<br>・レアリティ★８の武器の潜在能力Lv.4の解放を行う
 PlayNav_Unit18_Item3 - 特殊能力カプセルを入手する
-PlayNav_Unit18_Index3 - ・以下のセクションで特殊能力カプセルを入手する<br>　クラス共通：デクストベース<br>　打撃クラス：マグナス山（Rank.4）<br>　射撃クラス：マクアド下層（Rank.4）<br>　法撃クラス：リテム・エルノザ（Rank.4）
+PlayNav_Unit18_Index3 - ・以下のセクションで特殊能力カプセルを入手する<br>　クラス共通：デクストベース<br>　打撃クラス：マグナス山（Rank.4）<br>　射撃クラス：マクアド下層（Rank.4）<br>　法撃クラス：リテム・エルノザ（Ra
 
 Group 1
 

@@ -1,5 +1,5 @@
-actor_name.text was created: 2024/10/2 7:06:55
-Filesize is: 69856 bytes
+actor_name.text was created: 2024/12/4 7:06:36
+Filesize is: 75776 bytes
 
 Enemy
 Group 0
@@ -48,6 +48,7 @@ r01_alt_cli_ba - チアキュリオ
 r01_alt_wlf_ba - ワウロン
 r01_alt_flg_ba - ビグフロッガ
 r01_alt_tis_ba - エルディサイズ
+r01_alt_tis_tra - エルディサイズ
 r01_ani_rbt_w - サニィ
 r01_ani_rbt_b - ムーニィ
 r01_ani_sli_a - オタリカ
@@ -352,6 +353,7 @@ r05_rem_yor_ba - ルイノ・グンネガム
 r05_rem_ace_ba - ルイノ・アンジュール
 r05_stl_nyb_ba1 - ハヌマッド
 r05_stl_akm_ba1 - カオスザヴェル
+r05_rem_akk_ba - ルイノ・マスカレーダ
 
 Group 1
 
@@ -391,6 +393,8 @@ EnemyTitleGrowUpFloorBoss - 奇侵の
 EnemyTitleGrowUpBuffEnemy - 変侵の
 EnemyTitleHighDread - 閃征の
 EnemyTitleStrongRaidEnemy - 深禍の
+EnemyTitleMutualResurrect - 双律の
+EnemyTitleAkkFinal - 災怨の
 
 Group 1
 
@@ -1084,6 +1088,46 @@ Thunder01_Pattern3 - 帯電状態で発動する非チャージ時の落雷威�
 Dark01_Pattern1 - 非チャージ時の爆発の攻撃範囲拡大／弾速上昇<br>消費PP<yellow>$(0)<c>
 Dark01_Pattern2 - チャージ時の攻撃が1つのフォトン弾に集約／<br>低速で複数回ヒットする攻撃に変化<br>消費PP<yellow>$(0)<c>
 Dark01_Pattern3 - 暗黒珠のストック数が3つの状態での非チャージ時の<br>威力<yellow>$(0)<c>／複合属性テクニックのゲージ蓄積量<yellow>$(1)<c><br>消費PP<yellow>$(2)<c>
+SwordPA02_Pattern2 - 非チャージ時の攻撃速度上昇／移動距離増加／PA威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+Common_RangeExtendDistPP - 攻撃範囲拡大<br>距離による威力上昇が常に最大<br>消費PP<yellow>$(0)<c>
+WlancePA01_Pattern3 - ハンターアーツアヴェンジ発動時<br>次に発動するこのPA以外のワイヤードランスPA威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+PartisanPA04_Pattern2 - 斬り上げと刺突が衝撃波を飛ばす挙動に変化<br>前進距離増加<br>消費PP<yellow>$(0)<c>
+PartisanPA04_Pattern3 - 薙ぎ払い後の特定タイミングでPP<yellow>＋$(0)<c><br>消費PP<yellow>$(1)<c>
+TdaggerPA03_Pattern1 - PA前半部分の前進距離増加／上下方向への追尾性能追加<br>消費PP<yellow>$(0)<c>
+TdaggerPA03_Pattern2 - PA後半部分の斬撃の射程距離延長／攻撃範囲拡大<br>消費PP<yellow>$(0)<c>
+Common_PasuitGaugeReducttion - ファイターアーツパスートの2回目のゲージ蓄積量増加<br>消費PP<yellow>$(0)<c>
+DsaberPA02_Pattern2 - PA前半部分でのガード成功時に後半部分の威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+KnucklePA04_Pattern1 - PA前半から発動したときに<br>後半部分が衝撃波を飛ばす挙動に変化／前進無効化<br>消費PP<yellow>$(0)<c>
+KnucklePA04_Pattern2 - PA前半部分でのガード成功時<br>次の通常攻撃にナックルアタックスイッチが発動<br>消費PP<yellow>$(0)<c>
+KnucklePA04_Pattern3 - PA前半部分でのガード非成功時に後半部分の威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+KatanaPA04_Pattern2 - 攻撃時エネミーの前で停止する挙動に変化<br>前進距離増加<br>消費PP<yellow>$(0)<c>
+DbladePA01_Pattern2 - 派生後の攻撃速度上昇／2回目の攻撃時の下降無効化<br>派生後攻撃の威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+DbladePA01_Pattern3 - 非派生時の攻撃後に持続攻撃が追加<br>非派生時攻撃の威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+RiflePA02_Pattern1 - 弾速上昇<br>距離による威力上昇が常に最大<br>消費PP<yellow>$(0)<c>
+RiflePA02_Pattern2 - ターゲットをロックせず周囲を攻撃する挙動に変化<br>PA威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+RiflePA02_Pattern3 - ターゲットをロックせず単体に低速弾を複数発射／<br>近距離では弾丸がヒットしない挙動に変化<br>消費PP<yellow>$(0)<c>
+LauncherPA03_Pattern2 - 攻撃速度上昇／PA中の移動速度上昇<br>PA威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+LauncherPA03_Pattern3 - 連射攻撃の威力<yellow>$(0)<c>／フィニッシュ攻撃の威力<yellow>$(1)<c><br>爆発弾の発射回数が減少<br>消費PP<yellow>$(2)<c>
+MachinegunPA04_Pattern2 - 異なるツインマシンガンPAの発動直後に<br>使用した非チャージ時の攻撃のヒット数増加<br>消費PP<yellow>$(0)<c>
+CompoundBowPA02_Pattern1 - チャージ時の攻撃が前方3方向に矢を放つ挙動に変化<br>消費PP<yellow>$(0)<c>
+CompoundBowPA02_Pattern2 - チャージ時のPA威力<yellow>$(0)<c>／発動時攻撃を無効化<br>チャージ時の左右の攻撃範囲縮小<br>消費PP<yellow>$(1)<c>
+CompoundBowPA02_Pattern3 - 直後に発動するイルードエクスパンド威力<yellow>$(0)<c><br>その攻撃にバレットボウアタックインパクトの蓄積効果追加<br>消費PP<yellow>$(1)<c>
+JetBootsPA01_Pattern1 - 衝撃波を飛ばす挙動に変化<br>攻撃時の前進距離増加<br>消費PP<yellow>$(0)<c>
+JetBootsPA01_Pattern2 - 派生後攻撃の威力<yellow>$(0)<c><br>派生後攻撃の速度低下<br>消費PP<yellow>$(1)<c>
+JetBootsPA01_Pattern3 - PA発動後に通常攻撃ボタンを押すことで<br>スラストドライブ発動可能<br>消費PP<yellow>$(0)<c>
+GunslashPA01_Pattern1 - 直後に発動するスラッグショット威力<yellow>$(0)<c><br>その攻撃にアンリーシュレイジの蓄積効果追加<br>消費PP<yellow>$(1)<c>
+GunslashPA01_Pattern2 - 方向入力時の攻撃速度上昇／PA威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+GunslashPA01_Pattern3 - 非方向入力時の射程距離延長<br>非方向入力時の左右の攻撃範囲縮小<br>消費PP<yellow>$(0)<c>
+TaktPA01_Pattern1 - 同一エネミーに複数回ヒットし<br>貫通するブレスを1発放つ挙動に変化<br>消費PP<yellow>$(0)<c>
+TaktPA01_Pattern2 - 派生時の攻撃にトレブルクリフマーキングの<br>マーカー起爆効果追加<br>消費PP<yellow>$(0)<c>
+TaktPA01_Pattern3 - 非派生攻撃時にトレブルクリフマーキングの<br>マーカー蓄積効果追加<br>消費PP<yellow>$(0)<c>
+Fire02_Pattern2 - 攻撃速度上昇／チャージ時間<yellow>$(0)<c><br>チャージ時威力<yellow>$(1)<c>／非チャージ時威力<yellow>$(2)<c>
+Fire02_Pattern3 - 炎の刻印の蓄積量<yellow>$(0)<c><br>複合属性テクニックのゲージ蓄積量<yellow>$(1)<c><br>消費PP<yellow>$(2)<c>
+Ice02_Pattern1 - 前方3方向に氷弾を放つ攻撃に変化<br>消費PP<yellow>$(0)<c>
+Ice02_Pattern2 - 2段階目の氷の紋章起爆時に1段階目の氷の紋章を刻む<br>2段階目の氷の紋章の起爆威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
+Ice02_Pattern3 - 氷の紋章が刻まれていないエネミーへの紋章蓄積が2倍<br>消費PP<yellow>$(0)<c>
+Light02_Pattern2 - 発動時にエネミーからの攻撃を無効化<br>消費PP<yellow>$(0)<c>
+Light02_Pattern3 - 非チャージ時の攻撃が持続攻撃に変化<br>消費PP<yellow>$(0)<c>
 
 Group 1
 
