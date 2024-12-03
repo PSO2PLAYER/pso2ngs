@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2024/10/2 7:06:55
-Filesize is: 784896 bytes
+ui_mainmode.text was created: 2024/12/4 7:06:36
+Filesize is: 787008 bytes
 
 Common
 Group 0
@@ -81,6 +81,8 @@ MatchingRejectJikkyouForJikkyou - 指定のルームに合流できないため�
 CautionUnknown - 不明なエラーです。
 Loading - NOW LOADING
 Not_accessible_ToastMessage - 全シップマッチング中は選択できません。
+Message_NewIconViewed - “$(0)”で表示中の<br>“<pict New><pict 4space>新着アイコン”をすべて消去します。<br><br>よろしいですか？
+ToastText_NewIconViewed - “$(0)”の新着アイコンをすべて消去しました。
 
 Group 1
 
@@ -1939,6 +1941,8 @@ StatusLabelSeasonPoint_26 - スプリング'24シーズナルポイント
 StatusLabelSeasonPoint_28 - 『NGS』3周年記念シーズナルポイント
 StatusLabelSeasonPoint_30 - 超・夢幻祭記念シーズナルポイント
 StatusLabelSeasonPoint_31 - ハロウィン'24シーズナルポイント
+StatusLabelSeasonPoint_32 - 超・創世祭'24（前半）シーズナルポイント
+StatusLabelSeasonPoint_33 - 超・創世祭'24（後半）シーズナルポイント
 StatusLabelSeasonPointValue - $(1) /$(0)
 StatusLabelN-Meseta - <pict reb_meseta>メセタ
 StatusLabelFun - FUN
@@ -2893,6 +2897,10 @@ TrinitesQuestRetireLeaderMessage - クエストをリタイアしますか？<br
 TrinitesQuestRetireMemberMessage - クエストをリタイアしますか？<br><br>クエストをリタイアすると、<br><yellow>“自分だけ”<c>が<br>フィールドに戻ります。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。
 ContinueMessage1 - 全滅から一定時間経過でクエスト終了
 ContinueMessage2 - 復活可能時間：残り$(0)秒
+NextQuest - 次の難度を受注する
+NextQuestSelect - クエスト受注の確認
+NextQuestMessage - 次の難度のクエストを受注しますか？<br><br>クエストを受注すると、<br><yellow>“同じパーティーのメンバー”<c>も<br>同時に移動します。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果はすべて失われます。
+NextQuestErrorMessage - 次の難度のクエスト受注に失敗しました。<br>“帰還する”を選択し、アークス拠点に戻ってください。
 
 Group 1
 
@@ -3035,7 +3043,6 @@ ForceChargePpRevival - テクニックチャージ<br>PPウェルアップ
 ForceChargeEscape - ロッドテクニック<br>キープ
 ForceHeal - レスタフィールドFo
 ForceOverFlow - オーバーフロー
-ForcePhotonFlareTecShortCharge - フォトンフレア<br>ショートチャージ
 ForcePhotonFlareAfterBurst - フォトンフレア<br>アフターバースト
 ForcePhotonFlareBoost - フォトンフレア<br>ブースト
 ForceRodCounterTechnic - ロッドリアクト<br>アドバンス
@@ -4007,6 +4014,9 @@ GunnerChainFinishPartyPPGain - チェインフィニッシュ<br>パーティー
 FighterArtsImpact - ファイターアーツ<br>パスート
 TechterEnhanceField - テクター<br>エクストラフィールド
 TechterQuickElementChange - ウォンドクイック<br>エレメントチェンジ
+ForceRodTechniqueBonus - ロッドテクニック<br>アンプリファイ
+ForcePhotonFlareExtension - フォトンフレア<br>エクステンション
+ForcePhotonFlareTecShortCharge - フォーステクニック<br>ショートチャージ
 
 Group 1
 
@@ -4062,7 +4072,6 @@ RangerLauncherChargeConvergence - チャージ状態で通常攻撃を行うと�
 RangerConditionBadGuard - 状態異常になりにくくなる。
 RangerConditionBadEase - 状態異常の効果時間を短縮する。
 ForceOverFlow - 仮テキスト
-ForcePhotonFlareTecShortCharge - フォトンフレアの発動中に、<br>テクニックの威力が低下するかわりに、<br>チャージ時間を短縮する。<br><yellow>※メインクラス／フォース武器専用<c>
 ForcePhotonFlareAfterBurst - 仮テキスト
 ForcePhotonFlareBoost - 仮テキスト
 ForcePhotonFlarePpRefrain - フォトンフレア終了時に、<br>フォトンフレア中のPP消費量に応じて<br>PPが回復する。<br><yellow>※メインクラス専用<c>
@@ -5000,11 +5009,9 @@ SummonerTwoPlatoonsExtend - ファミリアユニゾンを当てたエネミー�
 TechterShiftaDebandBoost - <yellow>【アクティブスキル】<c><br>シフタ・デバンドを前方で発動させる。<br>再使用が可能になるまでの時間は、<br>通常のシフタ・デバンドと共有される。<br><yellow>※メインクラス専用<c>
 TechterMixTechGaugeBonus - 弱点属性のテクニックや、<br>法撃爆発でエネミーを攻撃したときに、<br>複合属性テクニックの<br>ゲージ蓄積量が増加する。<br><yellow>※フォース、テクター武器専用<c>
 TechterWandDiscardPurge - 一定回数、法撃爆発をエネミーに当てた後、<br>ウォンドエレメントリヴォークを<br>発動することで、<br>追加で攻撃が発生するようになる。<br>このスキルが発動できない状態のときは、<br>ウォンドエレメントリヴォークも<br>使用できなくなる。<br><yellow>※ウォンド専用<c>
-TechterTalisShotMarking - 通常攻撃や武器アクションを<br>複数回エネミーに当てることで、<br>エネミーをマーキング状態にする。<br>マーキング状態のエネミーは、<br>タリス展開中のテクニックで、<br>与えるダメージが増加する。<br><yellow>※タリス専用<c>
 ForceMixTechExecutePP - 複合属性テクニック発動中に、<br>PPが自然回復するようになる。<br><yellow>※メインクラス／フォース、テクター武器専用<c>
 ForceMixTechGaugeBonus - 弱点属性のテクニックや、<br>法撃爆発でエネミーを攻撃したときに、<br>複合属性テクニックの<br>ゲージ蓄積量が増加する。<br><yellow>※フォース、テクター武器専用<c>
 ForceRodChargeTechQuickMove - テクニックチャージ中の<br>移動速度が上昇する。<br><yellow>※ロッド専用<c>
-ForceTalisShotMarking - 通常攻撃や武器アクションを<br>複数回エネミーに当てることで、<br>エネミーをマーキング状態にする。<br>マーキング状態のエネミーは、<br>タリス展開中のテクニックで、<br>与えるダメージが増加する。<br><yellow>※タリス専用<c>
 SlayerWeaponActionStayCounterCritical - スラッシュカウンターの<br>クリティカル発生率が上昇する。<br><yellow>※メインクラス／ガンスラッシュ専用<c>
 ForceTalisTecBurst - <yellow>【アクティブスキル】<c><br>攻撃により蓄積した<br>ゲージを消費することで、<br>特殊な遠距離攻撃を行う。<br><yellow>※タリス専用<c>
 TechterTalisTecBurst - <yellow>【アクティブスキル】<c><br>攻撃により蓄積した<br>ゲージを消費することで、<br>特殊な遠距離攻撃を行う。<br><yellow>※タリス専用<c>
@@ -5046,6 +5053,11 @@ FighterArtsImpact - PAを複数回エネミーに<br>当てることでゲージ
 TechterEnhanceField - 特定のアクション時に、自分と周囲の<br>キャラクターに、補助効果を付与する。<br>ウォンドエレメントパスートの発動時に、<br>フォトンブラストゲージが増加する。<br>また、フォトンブラストの発動時に、<br>一定時間、攻撃を当てたときに、<br>追加で攻撃が発生する。<br><yellow>※メインクラス／テクター武器専用<c>
 TechterQuickElementChange - チャージしていない<br>テクニックの使用時も、<br>ウォンドエレメントチェンジによる<br>法撃爆発が同じ属性に<br>変化するようになる。<br><yellow>※ウォンド専用<c>
 TechterWandTechSkipAttack - テクニックを発動した後の<br>通常攻撃が３段目扱いの<br>強力な攻撃に変化する。<br><yellow>※ウォンド専用<c>
+ForceRodTechniqueBonus - テクニックで<br>与えるダメージと属性ダウン値が増加する。<br><yellow>※ロッド専用<c>
+ForcePhotonFlareExtension - 複合属性テクニック<br>またはフォトンブラスト発動時に、<br>発動中のフォトンフレアの効果時間を延長する。<br>フォトンフレア発動中でない場合、<br>効果が最大３回まで蓄積され、<br>次にフォトンフレアを発動した時に適用される。<br><yellow>※メインクラス専用<c>
+ForcePhotonFlareTecShortCharge - フォトンフレアまたはPPコンバートの発動中<br>テクニックのチャージ時間を短縮する。<br><yellow>※メインクラス／フォース武器専用<c>
+ForceTalisShotMarking - 通常攻撃や武器アクション、<br>またはスプレッドフェザーの２段目によって<br>展開したタリスのテクニックを<br>複数回エネミーに当てることで、<br>エネミーをマーキング状態にする。<br>マーキング状態のエネミーは、タリス展開中の<br>テクニックで与えるダメージが増加する。<br><yellow>※タリス専用<c>
+TechterTalisShotMarking - 通常攻撃や武器アクション、<br>またはスプレッドフェザーの２段目によって<br>展開したタリスのテクニックを<br>複数回エネミーに当てることで、<br>エネミーをマーキング状態にする。<br>マーキング状態のエネミーは、タリス展開中の<br>テクニックで与えるダメージが増加する。<br><yellow>※タリス専用<c>
 
 Group 1
 
@@ -5558,7 +5570,11 @@ MaxPpIncreaseValue - 最大PP上昇量
 AddPBRate - PBゲージ増加量
 FollowAttackDuation - 追加攻撃効果の持続時間
 FollowAttackCount - 追加攻撃効果の持続回数
+AtpRateCharge - チャージ時威力
 FollowAttackMaxCount - 追加攻撃の持続回数上限
+NoWeakAtpRate - 威力(非弱点属性時)
+IncreaceRateMain - ゲージ蓄積率(メイン)
+IncreaceRateSub - ゲージ蓄積率(サブ)
 
 Group 1
 
@@ -10763,6 +10779,9 @@ Contents_GrowUp_Start - QUEST START!!
 Contents_GrowUp_Clear - QUEST CLEAR!!
 Contents_Cityship_Start - QUEST START!!
 Contents_Cityship_Clear - QUEST CLEAR!!
+Contents_dancehall_Start - QUEST START!!
+Contents_dancehall_Clear - QUEST CLEAR!!
+Contents_dancehall_ContentsName - $(0) Lv.$(1)
 
 Group 1
 
@@ -11400,6 +11419,8 @@ Weather_Phoenix - 火焔鳥
 City_Daytime - 晴れ（昼）
 City_Sunset - 晴れ（夕方）
 City_Trial - フォトン励起
+City_Trial_Winter - フォトン励起（夜）
+City_Season_Winter - オーロラ（夜）
 
 Group 1
 
