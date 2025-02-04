@@ -1,5 +1,5 @@
-quest_common_reboot.text was created: 2024/12/4 7:06:36
-Filesize is: 74784 bytes
+quest_common_reboot.text was created: 2025/2/5 7:11:15
+Filesize is: 76304 bytes
 
 CocoonFail
 Group 0
@@ -178,6 +178,11 @@ ScriptSequencer_Wait - 他のプレイヤーを待っています。
 BeginnerBlockWrongRegion - ビギナーブロックでは別リージョンのクエストは開始できません。
 SkipCountDown - 参加メンバーが集合したことにより、クエストを即時開始します。
 QuestPointMagnifiUpFromTime - /delay2 探索時間経過により<br>取得ポイント倍率が$(0)％アップ！（現在の倍率：$(1)％）
+PartyClearRanking - あなたのパーティーの順位：$(0)位
+3452_25 - 30000ポイント到達！（現在の進捗率：25%）
+3452_50 - 60000ポイント到達！（現在の進捗率：50%）
+3452_70 - 84000ポイント到達！（現在の進捗率：70%）
+3452_90 - 108000ポイント到達！（現在の進捗率：90%）
 
 Group 1
 
@@ -1164,6 +1169,7 @@ EnemyGrowUpQuest_SendClient_PaTechniqueAtpDownBuff1_50 - <yellow>PA/テクニッ
 EnemyGrowUpQuest_SendClient_PaTechniqueAtpDownBuff1_60 - <yellow>PA/テクニックダメージ耐性＋60%<c>
 EnemyGrowUpQuest_SendClient_PaTechniqueAtpDownBuff1_70 - <yellow>PA/テクニックダメージ耐性＋70%<c>
 EnemyGrowUpQuest_SendClient_PaTechniqueAtpDownBuff1_80 - <yellow>PA/テクニックダメージ耐性＋80%<c>
+EnemyGrowUpQuest_HPUp20 - <yellow>最大HP＋20%<c>
 EnemyGrowUpQuest_HPUp50 - <yellow>最大HP＋50%<c>
 EnemyGrowUpQuest_HPUp100 - <yellow>最大HP＋100%<c>
 EnemyGrowUpQuest_HPUp150 - <yellow>最大HP＋150%<c>
@@ -1223,6 +1229,15 @@ EnemyGrowUpQuest_IntervalShotFireBoss15 - 一定間隔ごとに<yellow>隕石が
 EnemyGrowUpQuest_IntervalShotFireBoss5 - 一定間隔ごとに<yellow>隕石が落下<c>
 EnemyGrowUpQuest_IntervalShotFire15 - 一定間隔ごとに<yellow>隕石が落下<c>
 EnemyGrowUpQuest_IntervalShotFire5 - 一定間隔ごとに<yellow>隕石が落下<c>
+EnemyGrowUpQuest_IfDownReactionFinishAttackUp - ダウン状態から復帰後<yellow>一定時間威力強化<c>
+EnemyGrowUpQuest_RangeAttackStunS - 一定範囲内に<yellow>スタン攻撃が追加発生<c>
+EnemyGrowUpQuest_RangeAttackStunM - 一定範囲内に<yellow>スタン攻撃が追加発生<c>
+EnemyGrowUpQuest_RangeAttackStunL - 一定範囲内に<yellow>スタン攻撃が追加発生<c>
+EnemyGrowUpQuestAdditionalSkillOnHit_PDamageDownDebuff5 - 攻撃命中時に<yellow>プレイヤー威力低下<c>
+EnemyGrowUpQuestAdditionalSkillOnHit_DRateUpDebuff5 - 攻撃命中時に<yellow>プレイヤー耐性低下<c>
+EnemyGrowUpQuestBuff_AttackDownUp1 - 攻撃に<yellow>スタン効果追加<c>/効果蓄積量：小
+EnemyGrowUpQuestBuff_AttackDownUp2 - 攻撃に<yellow>スタン効果追加<c>/効果蓄積量：中
+EnemyGrowUpQuestBuff_AttackDownUp3 - 攻撃に<yellow>スタン効果追加<c>/効果蓄積量：大
 
 Group 1
 
@@ -1297,6 +1312,7 @@ EnemyGrowUpQuest_Elementboost_D60 - 攻撃に闇属性追加/ポイズン蓄積�
 r05_rem_akk_ba:ModeProvokeShadow1 - 挑発行動時に分身体出現：１体
 r05_rem_akk_ba:ModeProvokeShadow2 - 挑発行動時に分身体出現：２体
 r05_rem_akk_ba:ModeProvokeShadow3 - 挑発行動時に分身体出現：３体
+r05_rem_akk_ba:Level100BuffDisplayCondition - ？？？
 
 Group 1
 
@@ -1326,6 +1342,7 @@ TFQuiz_1_1 - なし
 AnswerTimeLimit_Title - 残り時間
 AnswerTimeLimit_1 - 正解発表まで
 AnswerTimeLimit_2 - %(personalwork1) 秒
+QuestPointAndTargetPoint - $(0)pt / $(1)pt
 
 Group 1
 

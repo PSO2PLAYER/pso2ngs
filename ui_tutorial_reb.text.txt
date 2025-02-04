@@ -1,5 +1,5 @@
-ui_tutorial_reb.text was created: 2024/12/4 7:06:36
-Filesize is: 19040 bytes
+ui_tutorial_reb.text was created: 2025/2/5 7:11:15
+Filesize is: 19120 bytes
 
 TitleName
 Group 0
@@ -352,6 +352,7 @@ tut_006692 - メディオラ外郭第１区について
 tut_006693 - コンフォルトリリー
 tut_006695 - ハーモナイズドエネミー
 tut_006696 - 虚構の光芒
+tut_006698 - 『PSO2es』と『NGS』の連動について
 
 Group 1
 

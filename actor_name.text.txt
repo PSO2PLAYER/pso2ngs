@@ -1,5 +1,5 @@
-actor_name.text was created: 2024/12/4 7:06:36
-Filesize is: 75776 bytes
+actor_name.text was created: 2025/2/5 7:11:15
+Filesize is: 75856 bytes
 
 Enemy
 Group 0
@@ -354,6 +354,7 @@ r05_rem_ace_ba - ルイノ・アンジュール
 r05_stl_nyb_ba1 - ハヌマッド
 r05_stl_akm_ba1 - カオスザヴェル
 r05_rem_akk_ba - ルイノ・マスカレーダ
+r05_stl_bel_ba - ダークファルス・ヴァエル
 
 Group 1
 
@@ -905,7 +906,6 @@ Group 9
 ActionExplanation
 Group 0
 SwordAttack - “大剣（ソード）”用の通常攻撃。<br>大剣を振り、最大３段の攻撃を行う。
-SwordWeaponAction - “大剣（ソード）”用の武器アクション。<br>大剣を構え、前方からの攻撃を防ぐ。<br>武器アクションボタンを長押しすることで継続し、<br>攻撃を受けると、PPを消費してダメージを軽減する。<br>攻撃を受ける直前に行うことで、<br>ジャストガードになり、<br>PPを消費せず、攻撃を無効化する。
 PartisanAttack - “長槍（パルチザン）”用の通常攻撃。<br>長槍を振り、最大３段の攻撃を行う。
 PartisanWeaponAction - “長槍（パルチザン）”用の武器アクション。<br>長槍を構え、周囲からの攻撃を弾く。
 WLanceAttack - “自在槍（ワイヤードランス）”用の通常攻撃。<br>自在槍を振り、最大３段の攻撃を行う。
@@ -929,7 +929,6 @@ WandWeaponAction - “短杖（ウォンド）”用の武器アクション。<
 RodAttack - “長杖（ロッド）”用の通常攻撃。<br>フォトン弾を飛ばし、最大３段の攻撃を行う。
 RodWeaponAction - “長杖（ロッド）”用の武器アクション。<br>バリアを展開し、周囲からの攻撃を弾く。<br>ガード成功時、PPが回復する。
 KatanaAttack - “抜剣（カタナ）”用の通常攻撃。<br>抜剣を振り、最大３段の攻撃を行う。
-KatanaWeaponAction - “抜剣（カタナ）”用の武器アクション。<br>抜剣を構え、前方からの攻撃を防ぐ。<br>武器アクションボタンを長押しすることで、<br>PPを消費してダメージを軽減する。<br>攻撃を受ける直前に行うことで、<br>ジャストガードになり、<br>PPを消費せず、攻撃を無効化する。
 CompoundBowAttack - “強弓（バレットボウ）”用の通常攻撃。<br>矢を放ち、攻撃を行う。<br>チャージすることで、<br>炸裂する矢を放ち、広範囲を攻撃する。
 CompoundBowWeaponAction - “強弓（バレットボウ）”用の武器アクション。<br>素早い動きで、敵の攻撃を回避する。
 JBootsAttack - “魔装脚（ジェットブーツ）”用の通常攻撃。<br>素早い蹴りにより、最大３段の攻撃を行う。
@@ -940,6 +939,8 @@ TaktAttack - “奏具（タクト）”用の通常攻撃。<br>奏具を振り
 TaktWeaponAction - “奏具（タクト）”用の武器アクション。<br>ファミリア“マルメロ”を呼び出し、<br>周囲からの攻撃を弾く。
 GunSlashAttack - “銃剣（ガンスラッシュ）”用の通常攻撃。<br>フォトン弾を放ち、最大３段の攻撃を行う。<br>１段目で長押しすることで、２段階までチャージでき、<br>それぞれ攻撃の挙動が変化する。<br>チャージの１段階目は５連射攻撃を行い、<br>２段階目は強力なフォトン弾を放つ。
 GunSlashWeaponAction - “銃剣（ガンスラッシュ）”用の武器アクション。<br>銃剣を振りながら、最大３段の斬撃を行う。<br>攻撃を受ける直前に行うことで、<br>周囲からの攻撃を弾く。
+SwordWeaponAction - “大剣（ソード）”用の武器アクション。<br>大剣を構え、周囲からの攻撃を防ぐ。<br>武器アクションボタンを長押しすることで継続し、<br>攻撃を受けると、PPを消費してダメージを軽減する。<br>攻撃を受ける直前に行うことで、<br>ジャストガードになり、<br>PPを消費せず、攻撃を無効化する。
+KatanaWeaponAction - “抜剣（カタナ）”用の武器アクション。<br>抜剣を構え、周囲からの攻撃を防ぐ。<br>武器アクションボタンを長押しすることで、<br>PPを消費してダメージを軽減する。<br>攻撃を受ける直前に行うことで、<br>ジャストガードになり、<br>PPを消費せず、攻撃を無効化する。
 
 Group 1
 
@@ -1092,7 +1093,7 @@ SwordPA02_Pattern2 - 非チャージ時の攻撃速度上昇／移動距離増�
 Common_RangeExtendDistPP - 攻撃範囲拡大<br>距離による威力上昇が常に最大<br>消費PP<yellow>$(0)<c>
 WlancePA01_Pattern3 - ハンターアーツアヴェンジ発動時<br>次に発動するこのPA以外のワイヤードランスPA威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
 PartisanPA04_Pattern2 - 斬り上げと刺突が衝撃波を飛ばす挙動に変化<br>前進距離増加<br>消費PP<yellow>$(0)<c>
-PartisanPA04_Pattern3 - 薙ぎ払い後の特定タイミングでPP<yellow>＋$(0)<c><br>消費PP<yellow>$(1)<c>
+PartisanPA04_Pattern3 - 薙ぎ払い後の特定タイミングでPP<yellow>$(0)<c>回復<br>消費PP<yellow>$(1)<c>
 TdaggerPA03_Pattern1 - PA前半部分の前進距離増加／上下方向への追尾性能追加<br>消費PP<yellow>$(0)<c>
 TdaggerPA03_Pattern2 - PA後半部分の斬撃の射程距離延長／攻撃範囲拡大<br>消費PP<yellow>$(0)<c>
 Common_PasuitGaugeReducttion - ファイターアーツパスートの2回目のゲージ蓄積量増加<br>消費PP<yellow>$(0)<c>

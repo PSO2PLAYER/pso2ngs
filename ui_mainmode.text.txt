@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2024/12/4 7:06:36
-Filesize is: 787008 bytes
+ui_mainmode.text was created: 2025/2/5 7:11:15
+Filesize is: 787872 bytes
 
 Common
 Group 0
@@ -357,6 +357,8 @@ MainMenu_Quest_BoxGacha_Close - 現在利用可能なリワードボックスは
 MainMenu_Quest_BoxGacha_Second_Guide - 対象タスクの達成により入手できるメダルを使用することで、アイテムを獲得できます。
 Category_ArsenalModuleCounter - M.A.R.S.パレット
 Category_ArsenalModulePalette - <pict ba_asemo><pict 4space>M.A.R.S.パレット
+RecommendedContent_TltleText1 - おすすめコンテンツ
+RecommendedContent_Guide1 - <%Exception2><pict 4space>で参加
 
 Group 1
 
@@ -1943,6 +1945,7 @@ StatusLabelSeasonPoint_30 - 超・夢幻祭記念シーズナルポイント
 StatusLabelSeasonPoint_31 - ハロウィン'24シーズナルポイント
 StatusLabelSeasonPoint_32 - 超・創世祭'24（前半）シーズナルポイント
 StatusLabelSeasonPoint_33 - 超・創世祭'24（後半）シーズナルポイント
+StatusLabelSeasonPoint_34 - スプリング'25シーズナルポイント
 StatusLabelSeasonPointValue - $(1) /$(0)
 StatusLabelN-Meseta - <pict reb_meseta>メセタ
 StatusLabelFun - FUN
@@ -3007,7 +3010,6 @@ HunterCounterBoost - カウンター<br>ブースト
 HunterJustGuardDownBoost - ジャストガード<br>リアクションブースト
 HunterSwordGuardCounter - ソードガード<br>カウンター
 HunterFlashGuard - フラッシュガード
-HunterAllGuard - オールガード
 HunterParryingPPHeal - ハンターアーツ<br>アヴェンジPPゲイン
 HunterParryingPaJustGuard - ハンターアーツ<br>ジャストパリング
 HunterSlowFallCharge - スローランディング<br>チャージHu
@@ -4017,6 +4019,8 @@ TechterQuickElementChange - ウォンドクイック<br>エレメントチェン
 ForceRodTechniqueBonus - ロッドテクニック<br>アンプリファイ
 ForcePhotonFlareExtension - フォトンフレア<br>エクステンション
 ForcePhotonFlareTecShortCharge - フォーステクニック<br>ショートチャージ
+HunterAllGuard - ジャストガード<br>PPゲイン
+HunterReflectFort - ハンター<br>リフレクトフォート
 
 Group 1
 
@@ -4049,7 +4053,6 @@ HunterCounterBoost - 仮テキスト
 HunterJustGuardDownBoost - 仮テキスト
 HunterSwordGuardCounter - 武器アクションによる<br>ジャストガード成功時に、<br>自動的にカウンターが発生する。<br><yellow>※ソード専用<c>
 HunterFlashGuard - 受けるダメージを軽減する。
-HunterAllGuard - 武器アクションによる<br>ガードが全方向に対応する。<br><yellow>※ハンター武器専用<c>
 HunterParryingPPHeal - ハンターアーツアヴェンジ発動時に、<br>PPが回復する。
 HunterParryingPaJustGuard - PA発動時に、<br>エネミーからの攻撃を無効化する。<br><yellow>※ハンター武器専用<c>
 HunterSlowFallCharge - PAチャージ中、落下速度が緩やかになる。<br><yellow>※ハンター武器専用<c>
@@ -4862,7 +4865,6 @@ GunnerCounterPABurst - 武器アクションによる回避成功後に、<br>�
 HunterWarCry - <yellow>【アクティブスキル】<c><br>一定時間、周囲のエネミーの注意を<br>引きつける。さらに、攻撃を当てた<br>エネミーから狙われやすくなる。<br><yellow>※メインクラス専用<c>
 HunterIronWill - 残りHP以上のダメージを受けたときに<br>HPが１残る。<br>発動時に無敵時間が発生する。<br><yellow>※メインクラス専用<c>
 HunterMassiveHunter - <yellow>【アクティブスキル】<c><br>一定時間、受けるダメージを軽減し、<br>エネミーの攻撃による<br>打ち上げや吹き飛ばしを防ぐ。
-HunterParryingPa - PA発動から、<br>一定時間以内にエネミーの攻撃を受けると、<br>そのPAの威力が上昇する。<br><yellow>※ハンター武器専用<c>
 HunterSwordGuardCounterPlus - ソードガードカウンター発動時に、<br>通常攻撃を行うことで、<br>さらに追加でカウンターが発生する。
 RangerWeakBullet - <yellow>【アクティブスキル】<c><br>命中した部位に与えるダメージが<br>増加する弾丸を発射する。<br><yellow>※メインクラス／アサルトライフル専用<c>
 RangerWeakBulletParse - ウィークバレットが命中した部位に、<br>攻撃を一定回数当てることで、<br>与えるダメージが増加し、<br>スキルの効果時間が延長される。<br><yellow>※メインクラス専用<c>
@@ -5058,6 +5060,9 @@ ForcePhotonFlareExtension - 複合属性テクニック<br>またはフォトン
 ForcePhotonFlareTecShortCharge - フォトンフレアまたはPPコンバートの発動中<br>テクニックのチャージ時間を短縮する。<br><yellow>※メインクラス／フォース武器専用<c>
 ForceTalisShotMarking - 通常攻撃や武器アクション、<br>またはスプレッドフェザーの２段目によって<br>展開したタリスのテクニックを<br>複数回エネミーに当てることで、<br>エネミーをマーキング状態にする。<br>マーキング状態のエネミーは、タリス展開中の<br>テクニックで与えるダメージが増加する。<br><yellow>※タリス専用<c>
 TechterTalisShotMarking - 通常攻撃や武器アクション、<br>またはスプレッドフェザーの２段目によって<br>展開したタリスのテクニックを<br>複数回エネミーに当てることで、<br>エネミーをマーキング状態にする。<br>マーキング状態のエネミーは、タリス展開中の<br>テクニックで与えるダメージが増加する。<br><yellow>※タリス専用<c>
+HunterParryingPa - PA発動から、<br>一定時間以内にエネミーの攻撃を受けると、<br>そのPAで与えるダメージとダウン値が増加する。<br><yellow>※ハンター武器専用<c>
+HunterAllGuard - 武器アクションによる攻撃の無効化成功時に<br>PPが回復する。<br><yellow>※ハンター武器専用<c>
+HunterReflectFort - 近くにエネミーがいる状態で、<br>武器アクションによる攻撃の無効化成功時、<br>ハンターアーツアヴェンジ発動時、<br>またはマッシブハンターおよび<br>マッシブハンターエクストラシールド中に<br>攻撃を受けた時、衝撃波で反撃し、一定時間自分と<br>周囲のキャラクターの受けるダメージを軽減する。<br><yellow>※メインクラス／ハンター武器専用<c>
 
 Group 1
 
@@ -10567,6 +10572,8 @@ AreaName511040 - 6章：カヌイ④秘密のデータ
 AreaName023010 - 7章：知られざる領域
 AreaName027020 - 7章：ゼフェットからの依頼
 AreaName027170 - 7章：真のアークスたちへ
+AreaName031050 - 7章：必ず生きて――
+AreaName031070 - 7章：戦いは続く
 
 Group 1
 
