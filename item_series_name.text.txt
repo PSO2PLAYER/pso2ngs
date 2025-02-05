@@ -1,5 +1,5 @@
-item_series_name.text was created: 2024/10/2 8:33:22
-Filesize is: 4576 bytes
+item_series_name.text was created: 2/4/2025 9:24:12 PM
+Filesize is: 7328 bytes
 
 SERIES
 Group 0
@@ -59,19 +59,6 @@ Verschmelz - ファーシュメルシリーズ
 Flugelgard - フリューガルドシリーズ
 Alcinq - アルクエイムシリーズ
 Brawnaga - ブロナーガシリーズ
-Herite - ヘリテシリーズ
-Melek - メレクシリーズ
-Variocool - バリオクールシリーズ
-Argenti - ラジャンティエシリーズ
-Reyaar - ロウゼラムシリーズ
-Millenium Round - ミレニアムラウンドシリーズ
-Wingard - ウィンガルドシリーズ
-Aeoni Dekelion - エオニ・ディケリオンシリーズ
-Xover - コルボシリーズ
-Flag - エレディムシリーズ
-Argenkul - ラディアクールシリーズ
-Liuxtra - リクスタルシリーズ
-Exelio - エクセリオシリーズ
 Qual De - クアルデシリーズ
 Geant - ジオントシリーズ
 Greas - グライアスシリーズ
@@ -94,24 +81,4 @@ Sest - セスティシリーズ
 Efitus - エフィタスシリーズ
 Einea - エイネアシリーズ
 Ektasis - エクタシスシリーズ
-Gun Blade - ￥ガンスラッシュシリーズ
-
-Group 1
-
-Group 2
-
-Group 3
-
-Group 4
-
-Group 5
-
-Group 6
-
-Group 7
-
-Group 8
-
-Group 9
-
-
+Gun Blade - ￥ガンスラッシュシリ
