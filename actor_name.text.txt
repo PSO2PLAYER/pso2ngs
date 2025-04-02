@@ -1,5 +1,5 @@
-actor_name.text was created: 2025/2/5 7:11:15
-Filesize is: 75856 bytes
+actor_name.text was created: 2025/4/2 9:06:10
+Filesize is: 75936 bytes
 
 Enemy
 Group 0
@@ -355,6 +355,8 @@ r05_stl_nyb_ba1 - ハヌマッド
 r05_stl_akm_ba1 - カオスザヴェル
 r05_rem_akk_ba - ルイノ・マスカレーダ
 r05_stl_bel_ba - ダークファルス・ヴァエル
+r05_rem_abh_ba - でぃーお・ひゅーなる
+r05_rem_akk_mlt - ルイノ・マスカレーダ
 
 Group 1
 

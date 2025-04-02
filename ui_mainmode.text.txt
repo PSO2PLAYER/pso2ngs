@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2025/2/5 7:11:15
-Filesize is: 787872 bytes
+ui_mainmode.text was created: 2025/4/2 9:06:10
+Filesize is: 789120 bytes
 
 Common
 Group 0
@@ -1946,6 +1946,7 @@ StatusLabelSeasonPoint_31 - ハロウィン'24シーズナルポイント
 StatusLabelSeasonPoint_32 - 超・創世祭'24（前半）シーズナルポイント
 StatusLabelSeasonPoint_33 - 超・創世祭'24（後半）シーズナルポイント
 StatusLabelSeasonPoint_34 - スプリング'25シーズナルポイント
+StatusLabelSeasonPoint_35 - 超・星譚祭'25シーズナルポイント
 StatusLabelSeasonPointValue - $(1) /$(0)
 StatusLabelN-Meseta - <pict reb_meseta>メセタ
 StatusLabelFun - FUN
@@ -2904,6 +2905,10 @@ NextQuest - 次の難度を受注する
 NextQuestSelect - クエスト受注の確認
 NextQuestMessage - 次の難度のクエストを受注しますか？<br><br>クエストを受注すると、<br><yellow>“同じパーティーのメンバー”<c>も<br>同時に移動します。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果はすべて失われます。
 NextQuestErrorMessage - 次の難度のクエスト受注に失敗しました。<br>“帰還する”を選択し、アークス拠点に戻ってください。
+Emergency_Revival_ErrorToast - 復活処理に失敗しました。
+PointUse_Message - エナジーポイントを$(0)<pict buffcon_point><pict 4space>消費して復活します。<br>よろしいですか？
+Emergency_Revival_Point - $(0)<pict buffcon_point><pict 4space>消費（現在$(1)<pict buffcon_point>）
+Label_Revival_RankDecrease - 自動復活まであと<pict 4space>$(0)秒（リザルトに影響します）
 
 Group 1
 
@@ -4021,6 +4026,7 @@ ForcePhotonFlareExtension - フォトンフレア<br>エクステンション
 ForcePhotonFlareTecShortCharge - フォーステクニック<br>ショートチャージ
 HunterAllGuard - ジャストガード<br>PPゲイン
 HunterReflectFort - ハンター<br>リフレクトフォート
+BraverCombatAfterPaExtension - コンバットアフター<br>PAエクステンション
 
 Group 1
 
@@ -5034,7 +5040,7 @@ ForceRodAttackExtend - テクニックを複数回エネミーに<br>当てる�
 ForceTalisTecBurstBloomFlourish - PAによるタリスの展開中に、<br>展開状態に応じて<br>トリッキーキャパシタの攻撃が変化する。<br><yellow>※タリス専用<c>
 TechterTalisTecBurstBloomFlourish - PAによるタリスの展開中に、<br>展開状態に応じて<br>トリッキーキャパシタの攻撃が変化する。<br><yellow>※タリス専用<c>
 BraverKatanaSkipArts - ステップカウンター発動後に、<br>使用するPAが３段目に変化し、<br>威力が上昇する。<br><yellow>※メインクラス／カタナ専用<c>
-BraverBowReinForce - PAを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージを最大にすると、<br>次の通常攻撃が強力な攻撃に変化する。<br>その後、最初に使用する<br>チャージしたディメンショナルレイを除く<br>PAの威力が上昇する。<br><yellow>※バレットボウ専用<c>
+BraverBowReinForce - PAを複数回エネミーに<br>当てることでゲージを蓄積する。<br>そのゲージを最大にすると、<br>次の通常攻撃が強力な攻撃に変化する。<br>その後、最初に使用する<br>チャージしたディメンショナルレイを除く<br>PAの威力が上昇し打ち上げや吹き飛ばしを防ぐ。<br><yellow>※バレットボウ専用<c>
 BouncerDBladeStepCounterExtend - 武器アクションによる<br>回避成功後の通常攻撃と<br>ステップカウンターが<br>素早くエネミーに突撃を行う<br>攻撃に変化する。<br><yellow>※デュアルブレード専用<c>
 BouncerTecArtsSkipAttack - 異なるPAを連続で使用した後の<br>通常攻撃が３段目扱いの<br>強力な攻撃に変化する。<br><yellow>※ジェットブーツ専用<c>
 SummonerTwoPlatoonsMarmeloPlus - ファミリアユニゾン発動時に、<br>“マルメロ”のゲージが<br>１段階以上の場合、ストックを１消費して<br>追加でマルメロが攻撃を行う。<br><yellow>※メインクラス／タクト専用<c>
@@ -5063,6 +5069,7 @@ TechterTalisShotMarking - 通常攻撃や武器アクション、<br>または�
 HunterParryingPa - PA発動から、<br>一定時間以内にエネミーの攻撃を受けると、<br>そのPAで与えるダメージとダウン値が増加する。<br><yellow>※ハンター武器専用<c>
 HunterAllGuard - 武器アクションによる攻撃の無効化成功時に<br>PPが回復する。<br><yellow>※ハンター武器専用<c>
 HunterReflectFort - 近くにエネミーがいる状態で、<br>武器アクションによる攻撃の無効化成功時、<br>ハンターアーツアヴェンジ発動時、<br>またはマッシブハンターおよび<br>マッシブハンターエクストラシールド中に<br>攻撃を受けた時、衝撃波で反撃し、一定時間自分と<br>周囲のキャラクターの受けるダメージを軽減する。<br><yellow>※メインクラス／ハンター武器専用<c>
+BraverCombatAfterPaExtension - ブレイブコンバット終了時、<br>ブレイブコンバットフィニッシュプライズの<br>ヒット回数が一定以上の場合、強化効果を得る。<br>一定回数、発動したカタナPAが３段目に変化し、<br>チャージしたディメンショナルレイを除く<br>バレットボウPAのバレットボウ<br>アタックインパクトゲージの蓄積量が増加する。<br><yellow>※メインクラス／ブレイバー武器専用<c>
 
 Group 1
 
@@ -5580,6 +5587,8 @@ FollowAttackMaxCount - 追加攻撃の持続回数上限
 NoWeakAtpRate - 威力(非弱点属性時)
 IncreaceRateMain - ゲージ蓄積率(メイン)
 IncreaceRateSub - ゲージ蓄積率(サブ)
+KatanaStockNum - カタナ強化効果回数
+BulletBowStockNum - バレットボウ強化効果回数
 
 Group 1
 

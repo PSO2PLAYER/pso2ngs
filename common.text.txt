@@ -1,5 +1,5 @@
-common.text was created: 2025/2/5 7:11:15
-Filesize is: 193248 bytes
+common.text was created: 2025/4/2 9:06:10
+Filesize is: 195536 bytes
 
 Block
 Group 0
@@ -1614,6 +1614,19 @@ LobbyAction_takaraduka01 - エレガントポーズ
 LobbyAction_2234prpose - ＰＲポーズ１１
 LobbyAction_2400central - せんとらるっ！2
 LobbyAction_2391sgpose - SEGAロゴ
+LobbyAction_trafficclear - 交通整理2
+LobbyAction_bikou - 尾行
+LobbyAction_kumitere - 組手＋
+LobbyAction_bbqre - バーベキュー＋
+LobbyAction_2363rolling - 転がる
+LobbyAction_hideshot - 隠れ撃ち
+LobbyAction_standmic - スタンドマイク
+LobbyAction_2382takt - 武器反映ポーズ11
+LobbyAction_2377partisan - 武器反映ポーズ12
+LobbyAction_2402slime - 転生したらスライムだった件
+LobbyAction_2403slime - 転生したらスライムだった件2
+LobbyAction_2404slime - 転生したらスライムだった件3
+LobbyAction_2435sgpose - SEGAロゴ2
 LobbyAction_fgoo - グー
 LobbyAction_foyayubi - 親指
 LobbyAction_fhitosashi - 人差し指
@@ -3171,6 +3184,17 @@ Substitute_Idle_253 - クッション
 Substitute_Idle_254 - 立ちポーズ3
 Substitute_Idle_255 - 美麗
 Substitute_Idle_256 - 美麗EX
+Substitute_Idle_257 - 浮遊読書/B
+Substitute_Idle_258 - 敬礼
+Substitute_Idle_259 - ガード
+Substitute_Idle_260 - ガードEX
+Substitute_Idle_261 - 片腕をつかむ
+Substitute_Idle_262 - トロッコ
+Substitute_Idle_263 - まっすぐ立つ4
+Substitute_Idle_264 - リフェルの長杖
+Substitute_Idle_265 - リフェルの長杖EX
+Substitute_Idle_266 - リムルを抱える
+Substitute_Idle_267 - ラッピーオムライス
 Substitute_Jump_0 - 標準
 Substitute_Jump_1 - シンプル
 Substitute_Jump_2 - シンプル2
@@ -3200,6 +3224,8 @@ Substitute_Jump_27 - シノビ
 Substitute_Jump_28 - シャドウ
 Substitute_Jump_29 - エアドライブ
 Substitute_Jump_30 - 美麗
+Substitute_Jump_31 - ガード
+Substitute_Jump_32 - トロッコ
 Substitute_Landing_0 - 標準
 Substitute_Landing_1 - シンプル
 Substitute_Landing_2 - シンプル2
@@ -3226,7 +3252,9 @@ Substitute_Landing_24 - つむじ風/B
 Substitute_Landing_31 - キョンシー
 Substitute_Landing_33 - ジャイロランナー
 Substitute_Landing_34 - 三点着地Rev
+Substitute_Landing_35 - 花びら/B
 Substitute_Landing_36 - フローズン/C
+Substitute_Landing_37 - 火炎/B
 Substitute_Move_0 - 標準
 Substitute_Move_1 - シンプル
 Substitute_Move_2 - シンプル2
@@ -3290,6 +3318,9 @@ Substitute_Move_62 - スノーチューブ
 Substitute_Move_63 - メカウィング
 Substitute_Move_64 - クッション
 Substitute_Move_65 - 美麗
+Substitute_Move_66 - ガード
+Substitute_Move_67 - トロッコ
+Substitute_Move_68 - リフェルの長杖
 Substitute_Sprint_0 - 標準
 Substitute_Sprint_1 - シンプル
 Substitute_Sprint_2 - シンプル2
@@ -3475,6 +3506,11 @@ Substitute_Sprint_204 - メカウィングEX
 Substitute_Sprint_205 - クッション
 Substitute_Sprint_206 - クッションEX
 Substitute_Sprint_207 - 美麗
+Substitute_Sprint_208 - ガード
+Substitute_Sprint_209 - トロッコ
+Substitute_Sprint_210 - トロッコEX
+Substitute_Sprint_211 - リフェルの長杖
+Substitute_Sprint_212 - リムル=テンペストの翼
 Substitute_Glide_0 - 標準
 Substitute_Glide_1 - ミニグライダー
 Substitute_Glide_2 - ジェットパック
@@ -3647,6 +3683,15 @@ Substitute_Glide_189 - クッション
 Substitute_Glide_190 - クッションEX
 Substitute_Glide_191 - 美麗
 Substitute_Glide_192 - 美麗EX
+Substitute_Glide_193 - ラッピーバルーン/B
+Substitute_Glide_194 - 彗星/B
+Substitute_Glide_195 - ガード
+Substitute_Glide_196 - ガードEX
+Substitute_Glide_197 - トロッコ
+Substitute_Glide_198 - トロッコEX
+Substitute_Glide_199 - リフェルの長杖
+Substitute_Glide_200 - リフェルの長杖EX
+Substitute_Glide_201 - リムル=テンペストの翼
 Substitute_Swim_0 - 標準
 Substitute_Swim_2 - クロール
 Substitute_Swim_3 - 潜水
@@ -3661,7 +3706,9 @@ Substitute_Swim_11 - ペンギン
 Substitute_Swim_12 - イースターエッグ
 Substitute_Swim_13 - シノビ
 Substitute_Swim_14 - サーフィンRev
+Substitute_Swim_15 - サーフィン/B
 Substitute_Swim_16 - バナナボート/B
+Substitute_Swim_17 - トロッコ
 
 Group 1
 

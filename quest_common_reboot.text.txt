@@ -1,5 +1,5 @@
-quest_common_reboot.text was created: 2025/2/5 7:11:15
-Filesize is: 76304 bytes
+quest_common_reboot.text was created: 2025/4/2 9:06:10
+Filesize is: 79760 bytes
 
 CocoonFail
 Group 0
@@ -377,6 +377,7 @@ GoalGetter - エネミーを倒し目標を破壊する
 FinalAttacker - 対象エネミーの撃破
 Babel - 対象エネミーの撃破
 GrowUp - 最深部のエネミーを倒す
+Groom - 最深部のエネミーを倒す
 
 Group 1
 
@@ -1204,7 +1205,11 @@ EnemyGrowUpQuest_Elementboost_L40 - 攻撃に<yellow>光属性追加<c>/パニ�
 EnemyGrowUpQuest_Elementboost_L60 - 攻撃に<yellow>光属性追加<c>/パニック蓄積量：大
 EnemyGrowUpQuest_ActionPowerUp - 一部攻撃の性能変化
 Common:DownBombBoost - <yellow>バムロードエネミー化<c>
+Common:DownBombBoost1 - <yellow>バムロードエネミー化<c>
+Common:DownBombBoost2 - <yellow>バムロードエネミー化<c>
 Common:TimerBuffBoost - <yellow>グローサードエネミー化<c>
+Common:TimerBuffBoost1 - <yellow>グローサードエネミー化<c>
+Common:TimerBuffBoost2 - <yellow>グローサードエネミー化<c>
 EnemyGrowUpQuest_HpToSummon - 支援：徐々に追加エネミー出現
 EnemyGrowUpQuest_AngerToSummon - HP減少時に<yellow>追加エネミー出現<c>
 EnemyGrowUpQuest_CalcDmageRate_NotWeak_10 - <yellow>弱点部位以外のダメージ耐性＋10%<c>
@@ -1238,6 +1243,11 @@ EnemyGrowUpQuestAdditionalSkillOnHit_DRateUpDebuff5 - 攻撃命中時に<yellow>
 EnemyGrowUpQuestBuff_AttackDownUp1 - 攻撃に<yellow>スタン効果追加<c>/効果蓄積量：小
 EnemyGrowUpQuestBuff_AttackDownUp2 - 攻撃に<yellow>スタン効果追加<c>/効果蓄積量：中
 EnemyGrowUpQuestBuff_AttackDownUp3 - 攻撃に<yellow>スタン効果追加<c>/効果蓄積量：大
+EnemyGroom_AngerToDamage - 最終区画で<yellow>プレイヤーHPに継続ダメージ<c>
+EnemyGroom_AngerToPPDamage - 最終区画で<yellow>プレイヤーPPに継続ダメージ<c>
+EnemyGroom_AngerToHpDown50 - 最終区画で<yellow>プレイヤー最大HP－50%<c>
+EnemyGroom_AngerToHpDown75 - 最終区画で<yellow>プレイヤー最大HP－75%<c>
+EnemyGroom_AngerToSummon - 最終区画で<yellow>追加エネミー出現<c>
 
 Group 1
 
@@ -1386,8 +1396,53 @@ Group 8
 Group 9
 
 
+GroomCommon
+Group 0
+ChooseBuff - <yellow>$(0) Lv.$(1)<c>を獲得しました。
+Toast_All_LevelUp - 獲得している能力強化のLvが上昇しました。
+Toast_ComboBuff_Get - 全体強化<yellow>$(0)$(1)<c>を獲得しました。
+TimeOver - 制限時間の経過
+ChipInfoHeader - 能力強化条件：$(0)
+ChipInfoBattle - 出現したエネミーを倒す
+ChipInfoItemContainer - シェアードコンテナを全て壊す
+ChipInfoSearch - ポールスイッチを３つ押す
+ChipInfoNone - なし
+ChipInfoCleared - 獲得済み
+GetBuffList - プレイヤー能力強化
+GetBuffLv - Lv.$(0)
+Benefit_None - なし
+AreaWait_QuestDetailsGuide - この情報は、クエスト進行中に<yellow>メインメニューを開いた際に表示される<br>"簡易クエスト情報"<c>でも確認できます。
+AreaWait_QuestDetailsTitle - エネミー情報
+BuffGet_WaitTime - 他のプレイヤーのバフ取得を待っています。
+GroomDebuff_Start - \永続お邪魔効果発動！
+GroomDebuff_End - \永続お邪魔効果が解除された！
+Groom_PersistentJournalTitle - ￥発動中の妨害効果
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
 GroomBuff
 Group 0
+Groom_HpUp - 最大HP増加
+Groom_Critical - クリティカル率上昇
+Groom_CriticalDmg - クリティカル威力上昇
+Groom_MoveSpeed - 移動速度上昇
 Groom_DamageBuff - 威力上昇
 Groom_MaxPpBuff - 最大PP増加
 Groom_NormalAtkDamageBuff - 通常攻撃威力上昇
@@ -1424,10 +1479,10 @@ Groom_S_RangeDamageBuff - <yellow>一定間隔ごとに自動的に追加攻撃�
 Groom_S_OverRecoveryBuff - <yellow>レスタサイン使用後に10秒間能力上昇<c>
 Groom_S_AdditionalCriticalAttackBuff - <yellow>クリティカル発生時に追加ダメージ<c>
 Groom_S_DodgeBombBuff - <yellow>ステップ回避成功時に追加攻撃発生<c>
-Groom_ThrowingSpeedUpBuff - 投擲アクション速度上昇
-Groom_ThrowingBuff - 投擲アクション威力上昇
-Groom_S_AdditionalThrowAttackBuff - 投擲アクション命中時に追加ダメージ
-Groom_S_PbRecoveryBuff - PBを2回連続で発動可能/PB攻撃速度上昇
+Groom_ThrowingSpeedUpBuff - <yellow>投擲アクション速度上昇<c>
+Groom_ThrowingBuff - <yellow>投擲アクション威力上昇<c>
+Groom_S_AdditionalThrowAttackBuff - <yellow>投擲アクション命中時に追加ダメージ<c>
+Groom_S_PbRecoveryBuff - <yellow>PBを2回連続で発動可能/PB攻撃速度上昇<c>
 EnemyGroom_AttackUp50 - <yellow>威力＋50%<c>
 EnemyGroom_AttackUp100 - <yellow>威力＋100%<c>
 EnemyGroom_AttackUp150 - <yellow>威力＋150%<c>
@@ -1532,6 +1587,26 @@ EnemyGroom_IntervalShotFireBoss15 - 一定間隔ごとに<yellow>隕石が落下
 EnemyGroom_IntervalShotFireBoss5 - 一定間隔ごとに<yellow>隕石が落下<c>
 EnemyGroom_IntervalShotFire15 - 一定間隔ごとに<yellow>隕石が落下<c>
 EnemyGroom_IntervalShotFire5 - 一定間隔ごとに<yellow>隕石が落下<c>
+Groom_S_AdditionalFireElementBuff - 炎属性追加攻撃発生
+Groom_S_AdditionalIceElementBuff - 氷属性追加攻撃発生
+Groom_S_AdditionalThunderElementBuff - 雷属性追加攻撃発生
+Groom_S_AdditionalWindElementBuff - 風属性追加攻撃発生
+Groom_S_AdditionalLightElementBuff - 光属性追加攻撃発生
+Groom_S_AdditionalDarkElementBuff - 闇属性追加攻撃発生
+Groom_S_DashFieldBuff - ダッシュフィールド展開バフ
+Groom_S_DashDropBombBuff - ダッシュ爆弾ドロップバフ
+Groom_S_GlideDropBombBuff - グライド爆弾
+Groom_S_All_LevelUp - 獲得済の全能力強化Lv+1
+Groom_Combo_NormalAtkBuff - <pict icon_buffcon1>通常攻撃威力上昇
+Groom_Combo_AutoRecoveryPPBuff - <pict icon_buffcon1>一定間隔でPP回復
+Groom_Combo_DamageReductionBuff - <pict icon_buffcon2>ダメージ耐性上昇
+Groom_Combo_PATecBuff - <pict icon_buffcon3>PA/テクニック威力上昇
+Groom_Persistent_HPDamageOverTimeDebuff - HP継続ダメージ
+Groom_Persistent_PPDamageOverTimeDebuff - PP継続現象
+Groom_Persistent_NormalAtkDebuff - 通常攻撃威力減少
+Groom_Persistent_PATecDebuff - PA/テクニック威力減少
+Groom_Persistent_VulnerabilityDebuff - 被ダメージ上昇
+Groom_Persistent_BadCondDebuff - 状態異常耐性低下
 
 Group 1
 
