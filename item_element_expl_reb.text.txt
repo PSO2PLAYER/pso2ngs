@@ -1,5 +1,5 @@
-item_element_expl_reb.text was created: 2025/4/2 9:06:10
-Filesize is: 113504 bytes
+item_element_expl_reb.text was created: 2025/6/4 7:07:34
+Filesize is: 113792 bytes
 
 BOOSTER
 Group 0
@@ -723,6 +723,11 @@ Group 0
 721 - 威力＋1.0%
 722 - PP＋4<br>威力＋4.75%
 723 - HP＋70<br>威力＋3.25%<br>威力下限補正＋6.0%<br>ダメージ耐性＋1.0%
+724 - 威力＋1.0%
+725 - HP＋30 PP＋6<br>威力＋4.25%<br>威力下限補正＋3.0%
+726 - HP＋30 PP＋6<br>威力＋4.25%<br>威力下限補正＋3.0%
+727 - 威力＋3.0%<br>威力下限補正＋3.0%<br>ダメージ耐性＋3.0%
+728 - 威力＋4.0%
 
 Group 1
 

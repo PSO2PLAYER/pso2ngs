@@ -1,5 +1,5 @@
-actor_name.text was created: 2025/4/2 9:06:10
-Filesize is: 75936 bytes
+actor_name.text was created: 2025/6/4 7:07:34
+Filesize is: 76256 bytes
 
 Enemy
 Group 0
@@ -355,8 +355,14 @@ r05_stl_nyb_ba1 - ハヌマッド
 r05_stl_akm_ba1 - カオスザヴェル
 r05_rem_akk_ba - ルイノ・マスカレーダ
 r05_stl_bel_ba - ダークファルス・ヴァエル
-r05_rem_abh_ba - でぃーお・ひゅーなる
 r05_rem_akk_mlt - ルイノ・マスカレーダ
+r05_stl_bel_ex - ダークファルス・ヴァエル
+r05_stl_box_ba1h - ハイ・ラヴィード
+r05_stl_mrt_ba1h - ハイ・バルブレッダ
+r05_stl_solsw_ba1h - ハイ・バロウグ・ソード
+r05_stl_solri_ba1h - ハイ・バロウグ・ガン
+r02_gd_sna_raih - ハイ・レヌス
+r05_stl_ins_ba1h - ハイ・エリミネイダ
 
 Group 1
 

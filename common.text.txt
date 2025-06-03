@@ -1,5 +1,5 @@
-common.text was created: 2025/4/2 9:06:10
-Filesize is: 195536 bytes
+common.text was created: 2025/6/4 7:07:34
+Filesize is: 197664 bytes
 
 Block
 Group 0
@@ -1626,6 +1626,16 @@ LobbyAction_2377partisan - 武器反映ポーズ12
 LobbyAction_2402slime - 転生したらスライムだった件
 LobbyAction_2403slime - 転生したらスライムだった件2
 LobbyAction_2404slime - 転生したらスライムだった件3
+LobbyAction_swordstop - 白刃取り
+LobbyAction_2383daggers - 武器反映ポーズ13
+LobbyAction_2407cheers - 乾杯2
+LobbyAction_2422dance - ダンス７４
+LobbyAction_2423akn - アルカナディア
+LobbyAction_2424akn - アルカナディア2
+LobbyAction_2425akn - アルカナディア3
+LobbyAction_2426akn - アルカナディア4
+LobbyAction_2392handpose - フォトポーズ
+LobbyAction_2409model - モデル３
 LobbyAction_2435sgpose - SEGAロゴ2
 LobbyAction_fgoo - グー
 LobbyAction_foyayubi - 親指
@@ -2936,6 +2946,7 @@ Guide_AlwaysStep_01 - 回避：
 Guide_AlwaysStep_02 - <%Avoid>
 Guide_AlwaysDash_01 - ダッシュ：
 Guide_AlwaysDash_02 - 移動中に<br><%Avoid>長押し
+Guide_ItemRecycle_02 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>
 
 Group 1
 
@@ -3195,6 +3206,15 @@ Substitute_Idle_264 - リフェルの長杖
 Substitute_Idle_265 - リフェルの長杖EX
 Substitute_Idle_266 - リムルを抱える
 Substitute_Idle_267 - ラッピーオムライス
+Substitute_Idle_269 - ソニック
+Substitute_Idle_270 - ドゥームウィング
+Substitute_Idle_271 - 思案2
+Substitute_Idle_272 - シノビ2
+Substitute_Idle_273 - シノビ2EX
+Substitute_Idle_274 - 手を振る2
+Substitute_Idle_275 - 直線飛行
+Substitute_Idle_276 - サーフィン
+Substitute_Idle_277 - ラッピーうきわに乗る
 Substitute_Jump_0 - 標準
 Substitute_Jump_1 - シンプル
 Substitute_Jump_2 - シンプル2
@@ -3226,6 +3246,9 @@ Substitute_Jump_29 - エアドライブ
 Substitute_Jump_30 - 美麗
 Substitute_Jump_31 - ガード
 Substitute_Jump_32 - トロッコ
+Substitute_Jump_33 - ドゥームウィング
+Substitute_Jump_34 - シノビ2
+Substitute_Jump_35 - ラッピーうきわに乗る
 Substitute_Landing_0 - 標準
 Substitute_Landing_1 - シンプル
 Substitute_Landing_2 - シンプル2
@@ -3255,6 +3278,7 @@ Substitute_Landing_34 - 三点着地Rev
 Substitute_Landing_35 - 花びら/B
 Substitute_Landing_36 - フローズン/C
 Substitute_Landing_37 - 火炎/B
+Substitute_Landing_38 - ドゥームウィング
 Substitute_Move_0 - 標準
 Substitute_Move_1 - シンプル
 Substitute_Move_2 - シンプル2
@@ -3321,6 +3345,10 @@ Substitute_Move_65 - 美麗
 Substitute_Move_66 - ガード
 Substitute_Move_67 - トロッコ
 Substitute_Move_68 - リフェルの長杖
+Substitute_Move_69 - ドゥームウィング
+Substitute_Move_70 - シノビ2
+Substitute_Move_71 - 直線飛行
+Substitute_Move_72 - ラッピーうきわに乗る
 Substitute_Sprint_0 - 標準
 Substitute_Sprint_1 - シンプル
 Substitute_Sprint_2 - シンプル2
@@ -3511,6 +3539,14 @@ Substitute_Sprint_209 - トロッコ
 Substitute_Sprint_210 - トロッコEX
 Substitute_Sprint_211 - リフェルの長杖
 Substitute_Sprint_212 - リムル=テンペストの翼
+Substitute_Sprint_214 - ドローンに乗る/B
+Substitute_Sprint_215 - ドゥームウィング
+Substitute_Sprint_216 - シノビ2
+Substitute_Sprint_217 - シノビ2EX
+Substitute_Sprint_218 - 直線飛行
+Substitute_Sprint_219 - 直線飛行EX
+Substitute_Sprint_220 - ラッピーうきわに乗る
+Substitute_Sprint_221 - ラッピーうきわに乗るEX
 Substitute_Glide_0 - 標準
 Substitute_Glide_1 - ミニグライダー
 Substitute_Glide_2 - ジェットパック
@@ -3692,6 +3728,14 @@ Substitute_Glide_198 - トロッコEX
 Substitute_Glide_199 - リフェルの長杖
 Substitute_Glide_200 - リフェルの長杖EX
 Substitute_Glide_201 - リムル=テンペストの翼
+Substitute_Glide_203 - ドローンに乗る/B
+Substitute_Glide_204 - ￥Glide_204
+Substitute_Glide_205 - ドゥームウィング
+Substitute_Glide_206 - シノビ2
+Substitute_Glide_207 - 直線飛行
+Substitute_Glide_208 - 直線飛行EX
+Substitute_Glide_209 - ラッピーうきわに乗る
+Substitute_Glide_210 - ラッピーうきわに乗るEX
 Substitute_Swim_0 - 標準
 Substitute_Swim_2 - クロール
 Substitute_Swim_3 - 潜水
@@ -3709,6 +3753,9 @@ Substitute_Swim_14 - サーフィンRev
 Substitute_Swim_15 - サーフィン/B
 Substitute_Swim_16 - バナナボート/B
 Substitute_Swim_17 - トロッコ
+Substitute_Swim_18 - ドゥームウィング
+Substitute_Swim_19 - 直線飛行
+Substitute_Swim_20 - ラッピーうきわに乗る
 
 Group 1
 

@@ -1,5 +1,5 @@
-ui_tutorial_reb.text was created: 2025/4/2 9:06:10
-Filesize is: 19168 bytes
+ui_tutorial_reb.text was created: 2025/6/4 7:07:34
+Filesize is: 19312 bytes
 
 TitleName
 Group 0
@@ -353,7 +353,9 @@ tut_006693 - コンフォルトリリー
 tut_006695 - ハーモナイズドエネミー
 tut_006696 - 虚構の光芒
 tut_006698 - 『PSO2es』と『NGS』の連動について
+tut_006702 - 迎撃セクション
 tut_006700 - ルシエル戦闘解析区画調査について
+tut_006703 - ハイエネミー
 
 Group 1
 
@@ -416,6 +418,7 @@ useful_features - 便利な機能
 task - タスク／ミッションパス／称号
 line_duel - ラインストライク
 urban_area - ネームレスシティ
+alter_realm - オルタレルム探索
 
 Group 1
 

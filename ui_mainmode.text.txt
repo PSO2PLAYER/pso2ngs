@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2025/4/2 9:06:10
-Filesize is: 789120 bytes
+ui_mainmode.text was created: 2025/6/4 7:07:34
+Filesize is: 789968 bytes
 
 Common
 Group 0
@@ -181,6 +181,7 @@ Popup_QuestMenue - クエストメニュー
 Popup_QuestCounter - <pict ba_questinfo><pict 4space>クエストカウンター
 Popup_LineDuel - <pict ba_ld><pict 4space>ラインストライク
 Popup_SelfyMode - <pict ba_selfymode><pict 4space>かんたん撮影モード
+Popup_WishList - <pict ba_pin><pict 4space>ほしい物リスト
 Operation_MenuCommon - メニュー配下のメニューガイドのコモン設定です。
 MenuEquipmentOpen - 選択中のアイテムを装備する
 MainMenu_Equip_WeaponPosition - <pict ba_positioning><pict 4space>武器納刀位置調整
@@ -1886,6 +1887,9 @@ LeaderMenuLabel08 - パーティーメンバー募集
 PartyConfigLabel28_AccessTitle - 長押しで“<pict 4space><pict auto_party><pict 4space>パーティー自動参加”を有効化
 PartyConfigLabel28_AccessHint - パーティー参加で、ブースト<pict 4space><pict exp_icon><pict 4space><pict meseta_icon2><pict 4space><pict rare_drop_icon><pict 4space>発生
 PartyConfigLabel28_AccessToast - “<pict 4space><pict auto_party><pict 4space>パーティー自動参加”の機能を有効にしました。同じ設定のプレイヤーが見つかり次第パーティーが組まれます。
+ToHalphaMenuLabel - クエストの破棄
+ToHalphaMenuText01 - クエストを破棄しますか？<br><br>クエストを破棄すると、<br><yellow>“同じパーティーのメンバー”<c>がいる場合は<br>同時に帰還します。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。
+ToHalphaMenuText02 - クエストを破棄しますか？<br><br>クエストを破棄すると、<br><yellow>“自分だけ”<c>が帰還します。<br><br>また、クエスト進行中に得た<br>能力上昇などの効果もすべて失われます。
 
 Group 1
 
@@ -10390,6 +10394,7 @@ AreaName1120015 - サガーン山道：西
 AreaName1120016 - サガーン山道：東
 AreaName1120017 - ガルネール海岸：西
 AreaName1120018 - ガルネール海岸：東
+AreaName1120033 - オルタレルム：砂漠中央部
 AreaName1130001 - クヴァリスキャンプ
 AreaName1130002 - 北クヴァリス
 AreaName1130003 - 西クヴァリス
@@ -10583,6 +10588,8 @@ AreaName027020 - 7章：ゼフェットからの依頼
 AreaName027170 - 7章：真のアークスたちへ
 AreaName031050 - 7章：必ず生きて――
 AreaName031070 - 7章：戦いは続く
+AreaName501140 - 7章：ガロアへの誓い
+AreaName504070 - 7章：今後の使命
 
 Group 1
 
@@ -10882,6 +10889,7 @@ Group 0
 11211 - リージョン2-11211ダミーテキスト
 11212 - リージョン2-11212ダミーテキスト
 11213 - リージョン2-11213ダミーテキスト
+11233 - オルタレルム：砂漠エリア中央部
 11300 - クヴァリスキャンプ
 11301 - 北クヴァリス
 11302 - 西クヴァリス
@@ -11253,6 +11261,7 @@ Group 9
 NoticeMessage
 Group 0
 Notice_BattleTrigger01 - 付近の台座が他のアークスにより起動された！
+Notice_AddSigne - レスタサインとリバーサーサインの所持数が変更されました。
 
 Group 1
 
@@ -11437,6 +11446,7 @@ City_Sunset - 晴れ（夕方）
 City_Trial - フォトン励起
 City_Trial_Winter - フォトン励起（夜）
 City_Season_Winter - オーロラ（夜）
+White_Default_R - 通常
 
 Group 1
 
@@ -11877,6 +11887,11 @@ Setting_Rarity7 - ★7
 Setting_Rarity8 - ★8
 Setting_Rarity9 - ★9
 Setting_Rarity10 - ★10
+Setting_Rarity11 - ★11
+Setting_Rarity12 - ★12
+Setting_Rarity13 - ★13
+Setting_Rarity14 - ★14
+Setting_Rarity15 - ★15
 Button_Change - 変更する
 Button_Cancel - キャンセル
 Button_Discard - 変更せず終了
@@ -12636,6 +12651,7 @@ Guide_Action
 Group 0
 Action_AttractingSaucer - 投擲方向の調整：<%NormalAttack>を押しながら<swguidetype T_Moveguide_l><br>肩越し視点で調整：<%ChangeView>を押して<swguidetype T_Moveguide_r>　　<br>滞空状態を維持：空中で<%NormalAttack>を長押し
 Action_Dntgun - <%NormalAttack>長押しで威力上昇
+Action_JumppadAlta - 再ジャンプ：<%Jump>
 
 Group 1
 

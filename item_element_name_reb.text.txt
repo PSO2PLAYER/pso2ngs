@@ -1,5 +1,5 @@
-item_element_name_reb.text was created: 2025/4/2 9:06:10
-Filesize is: 57536 bytes
+item_element_name_reb.text was created: 2025/6/4 7:07:34
+Filesize is: 57744 bytes
 
 ABNORMAL
 Group 0
@@ -754,6 +754,11 @@ Group 0
 721 - ストラセプター
 722 - マシスギガス・マエスティS
 723 - マシスドレド・キーパⅡS
+724 - ジョアンデーター
+725 - ウルティア・ドミナ
+726 - ウルティア・ドミナS
+727 - アビリティG
+728 - トリアブルG
 
 Group 1
 
