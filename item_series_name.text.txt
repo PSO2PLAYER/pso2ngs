@@ -1,5 +1,5 @@
-item_series_name.text was created: 2/4/2025 9:24:12 PM
-Filesize is: 7328 bytes
+item_series_name.text was created: 2026/3/31 12:04:22
+Filesize is: 6080 bytes
 
 SERIES
 Group 0
@@ -59,6 +59,42 @@ Verschmelz - ファーシュメルシリーズ
 Flugelgard - フリューガルドシリーズ
 Alcinq - アルクエイムシリーズ
 Brawnaga - ブロナーガシリーズ
+Melek - メレクシリーズ
+Variocool - バリオクールシリーズ
+Argenti - ラジャンティエシリーズ
+Reyaar - ロウゼラムシリーズ
+Millenium Round - ミレニアムラウンドシリーズ
+Wingard - ウィンガルドシリーズ
+Aeoni Dekelion - エオニ・ディケリオンシリーズ
+Xover - コルボシリーズ
+Flag - エレディムシリーズ
+Argenkul - ラディアクールシリーズ
+Liuxtra - リクスタルシリーズ
+Exelio - エクセリオシリーズ
+Twaalv - トワルシリーズ
+Multi-weapon Substitute - マルチウェポン代用シリーズ
+Epith Eirini - エピス・イリニオンシリーズ
+Flag2 - クローディムシリーズ
+Legend1 - レジェスシリーズ
+Duo Selio - デュオセリオシリーズ
+Tri Selio - トライセリオシリーズ
+Akroselio - アクロセリオシリーズ
+13df - クレスシリーズ
+Jewel - ユヴェールシリーズ
+Epith Eirini2 - エピス・イリニオンⅡシリーズ
+13df2 - ゼネスリーズ
+13dfim - クレスATシリーズ
+Jewel2 - ヴォルヘールシリーズ
+Jewel3 - アインデールシリーズ
+Legend2 - レイティーシリーズ
+dfloser - アルセシリーズ
+TwaalvAT - トワルATシリーズ
+Twaalv2 - トワルⅡシリーズ
+Legendios2 - レジェスⅡシリーズ
+Leyend2 - レイティーⅡシリーズ
+Epith Eirini3 - エピス・イリニオンⅢシリーズ
+leaves - スプラディオシリーズ
+leaves2 - リフラディオシリーズ
 Qual De - クアルデシリーズ
 Geant - ジオントシリーズ
 Greas - グライアスシリーズ
@@ -81,4 +117,32 @@ Sest - セスティシリーズ
 Efitus - エフィタスシリーズ
 Einea - エイネアシリーズ
 Ektasis - エクタシスシリーズ
-Gun Blade - ￥ガンスラッシュシリ
+Dostasis - ドースタシスシリーズ
+Trestasis - トレスタシスシリーズ
+Akrotasis - アコルタシスシリーズ
+12addon - プラグルシリーズ
+12addon2 - エスクルシリーズ
+Octo - オクトスシリーズ
+13addon - フォルタスシリーズ
+14addon - ベルフェスシリーズ
+Gun Blade - ￥ガンスラッシュ
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+

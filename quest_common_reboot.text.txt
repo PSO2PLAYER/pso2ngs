@@ -1,5 +1,5 @@
-quest_common_reboot.text was created: 2025/4/2 9:06:10
-Filesize is: 79760 bytes
+quest_common_reboot.text was created: 2026/3/31 12:04:22
+Filesize is: 82096 bytes
 
 CocoonFail
 Group 0
@@ -1091,6 +1091,11 @@ GrowUpQuest_ArsenalModuleDamageBuff1 - M.A.R.S.攻撃威力上昇　Lv１
 GrowUpQuest_ArsenalModuleDamageBuff2 - M.A.R.S.攻撃威力上昇　Lv２
 GrowUpQuest_ArsenalModuleDamageBuff3 - M.A.R.S.攻撃威力上昇　Lv３
 GrowUpQuest_ArsenalModuleDamageBuff4 - M.A.R.S.攻撃威力上昇　Lv４
+GrowUpQuest_DodgeAtpBuff - ステップ回避成功時に一定時間威力上昇
+GrowUpQuest_DodgeAtpBuff1 - ステップ回避成功時に一定時間威力上昇　Lv１
+GrowUpQuest_DodgeAtpBuff2 - ステップ回避成功時に一定時間威力上昇　Lv2
+GrowUpQuest_DodgeAtpBuff3 - ステップ回避成功時に一定時間威力上昇　Lv3
+GrowUpQuest_DodgeAtpBuff4 - ステップ回避成功時に一定時間威力上昇　Lv4
 GrowUpQuest_S_PhotonArtsBuff - <yellow>PA/テクニック命中時に追加ダメージ<c>
 GrowUpQuest_S_PhotonArtsBuff1 - PA/テクニック命中時に追加ダメージ
 GrowUpQuest_S_GlideAttackBuff - <yellow>ダイブアタック威力/ダウン値上昇<c>
@@ -1119,10 +1124,14 @@ GrowUpQuest_ThrowingBuff1 - 投擲アクション威力上昇　Lv１
 GrowUpQuest_ThrowingBuff2 - 投擲アクション威力上昇　Lv２
 GrowUpQuest_ThrowingBuff3 - 投擲アクション威力上昇　Lv３
 GrowUpQuest_ThrowingBuff4 - 投擲アクション威力上昇　Lv４
-GrowUpQuest_S_AdditionalThrowAttackBuff - 投擲アクション命中時に追加ダメージ
+GrowUpQuest_S_AdditionalThrowAttackBuff - <yellow>投擲アクション命中時に追加ダメージ<c>
 GrowUpQuest_S_AdditionalThrowAttackBuff1 - 投擲アクション命中時に追加ダメージ
-GrowUpQuest_S_PbRecoveryBuff - PBを2回連続で発動可能/PB攻撃速度上昇
+GrowUpQuest_S_PbRecoveryBuff - <yellow>PBを2回連続で発動可能/PB攻撃速度上昇<c>
 GrowUpQuest_S_PbRecoveryBuff1 - PBを2回連続で発動可能/PB攻撃速度上昇
+GrowUpQuest_S_PBMultiMissileBuff - <yellow>PB発動がモバイルキャノンALRを装備に変更<c>
+GrowUpQuest_S_PBMultiMissileBuff1 - PB発動がモバイルキャノンALRを装備に変更
+GrowUpQuest_S_HPTradeTechArtsBuff - <yellow>HP75%以下時PA/TEC威力上昇/使用時HP減<c>
+GrowUpQuest_S_HPTradeTechArtsBuff1 - HP75%以下時PA/TEC威力上昇/使用時HP減
 EnemyGrowUpQuest_AttackUp50 - <yellow>威力＋50%<c>
 EnemyGrowUpQuest_AttackUp100 - <yellow>威力＋100%<c>
 EnemyGrowUpQuest_AttackUp150 - <yellow>威力＋150%<c>
@@ -1240,9 +1249,16 @@ EnemyGrowUpQuest_RangeAttackStunM - 一定範囲内に<yellow>スタン攻撃が
 EnemyGrowUpQuest_RangeAttackStunL - 一定範囲内に<yellow>スタン攻撃が追加発生<c>
 EnemyGrowUpQuestAdditionalSkillOnHit_PDamageDownDebuff5 - 攻撃命中時に<yellow>プレイヤー威力低下<c>
 EnemyGrowUpQuestAdditionalSkillOnHit_DRateUpDebuff5 - 攻撃命中時に<yellow>プレイヤー耐性低下<c>
+EnemyGrowUpQuestAdditionalSkillOnHit_DRateUpDebuff20 - 攻撃命中時に<yellow>プレイヤー耐性低下<c>
+EnemyGrowUpQuestAdditionalSkillOnHit_DRateUpDebuff25 - 攻撃命中時に<yellow>プレイヤー耐性低下<c>
+EnemyGrowUpQuestAdditionalSkillOnHit_DRateUpDebuff40 - 攻撃命中時に<yellow>プレイヤー耐性低下<c>
 EnemyGrowUpQuestBuff_AttackDownUp1 - 攻撃に<yellow>スタン効果追加<c>/効果蓄積量：小
 EnemyGrowUpQuestBuff_AttackDownUp2 - 攻撃に<yellow>スタン効果追加<c>/効果蓄積量：中
 EnemyGrowUpQuestBuff_AttackDownUp3 - 攻撃に<yellow>スタン効果追加<c>/効果蓄積量：大
+EnemyGrowUpQuest_IntervalShotGod3SibaBoss5 - 一定間隔ごとに<yellow>レーザー攻撃発生<c>
+EnemyGrowUpQuest_IntervalShotGod3SibaBoss10 - 一定間隔ごとに<yellow>レーザー攻撃発生<c>
+EnemyGrowUpQuest_IntervalShotGod3SibaBoss15 - 一定間隔ごとに<yellow>レーザー攻撃発生<c>
+EnemyGrowUpQuest_IntervalShotGod3SibaBoss20 - 一定間隔ごとに<yellow>レーザー攻撃発生<c>
 EnemyGroom_AngerToDamage - 最終区画で<yellow>プレイヤーHPに継続ダメージ<c>
 EnemyGroom_AngerToPPDamage - 最終区画で<yellow>プレイヤーPPに継続ダメージ<c>
 EnemyGroom_AngerToHpDown50 - 最終区画で<yellow>プレイヤー最大HP－50%<c>
@@ -1323,6 +1339,15 @@ r05_rem_akk_ba:ModeProvokeShadow1 - 挑発行動時に分身体出現：１体
 r05_rem_akk_ba:ModeProvokeShadow2 - 挑発行動時に分身体出現：２体
 r05_rem_akk_ba:ModeProvokeShadow3 - 挑発行動時に分身体出現：３体
 r05_rem_akk_ba:Level100BuffDisplayCondition - ？？？
+EnemyHpUp_025 - 最大HP＋25%
+EnemyHpUp_075 - 最大HP＋75%
+EnemyHpUp_100 - 最大HP＋100%
+HighRankEnemy - エネミーメガロティクス化
+EnemyGrowUpQuest_Elementboost_F60 - 攻撃に炎属性追加/バーン蓄積量：特大
+EnemyGrowUpQuest_Elementboost_T40 - 攻撃に雷属性追加/ショック蓄積量：大
+InjuryBoost<2> - 攻撃にインジュリー追加
+CommonCustomizeAction1 - エネミーアクション強化
+CommonCustomizeAction2 - エネミーアクション強化
 
 Group 1
 
@@ -1470,6 +1495,7 @@ Groom_BadEase - 状態異常の効果時間短縮
 Groom_DownDamageBuff - ダウン中のエネミーへの攻撃威力上昇
 Groom_ArsenalModuleGaugeBuff - M.A.R.S.バッテリー自然回復量増加
 Groom_ArsenalModuleDamageBuff - M.A.R.S.攻撃威力上昇
+Groom_DodgeAtpBuff - ステップ回避成功時に一定時間威力上昇
 Groom_S_PhotonArtsBuff - <yellow>PA/テクニック命中時に追加ダメージ<c>
 Groom_S_GlideAttackBuff - <yellow>ダイブアタック威力/ダウン値上昇<c>
 Groom_S_DamageShieldBuff - <yellow>リフレクトシールド発生<c>
@@ -1483,6 +1509,8 @@ Groom_ThrowingSpeedUpBuff - <yellow>投擲アクション速度上昇<c>
 Groom_ThrowingBuff - <yellow>投擲アクション威力上昇<c>
 Groom_S_AdditionalThrowAttackBuff - <yellow>投擲アクション命中時に追加ダメージ<c>
 Groom_S_PbRecoveryBuff - <yellow>PBを2回連続で発動可能/PB攻撃速度上昇<c>
+Groom_S_PBMultiMissileBuff - <yellow>PB発動がモバイルキャノンALRを装備に変更<c>
+Groom_S_HPTradeTechArtsBuff - <yellow>HP75%以下時PA/TEC威力上昇/使用時HP減<c>
 EnemyGroom_AttackUp50 - <yellow>威力＋50%<c>
 EnemyGroom_AttackUp100 - <yellow>威力＋100%<c>
 EnemyGroom_AttackUp150 - <yellow>威力＋150%<c>
@@ -1607,6 +1635,29 @@ Groom_Persistent_NormalAtkDebuff - 通常攻撃威力減少
 Groom_Persistent_PATecDebuff - PA/テクニック威力減少
 Groom_Persistent_VulnerabilityDebuff - 被ダメージ上昇
 Groom_Persistent_BadCondDebuff - 状態異常耐性低下
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
+
+NeonCityText
+Group 0
+NeonCity_RewardZone_timer - あと$(0)秒でルームから退出します
 
 Group 1
 

@@ -1,5 +1,5 @@
-ui_ranking_reb.text was created: 2/4/2025 9:25:23 PM
-Filesize is: 23472 bytes
+ui_ranking_reb.text was created: 2026/3/31 12:04:22
+Filesize is: 13488 bytes
 
 Common
 Group 0
@@ -64,65 +64,22 @@ Main_Headline_UpdateTime - 集計日時：$(0)
 Main_Headline_UpdateTime_Close - 最終集計日時：$(0)
 
 Group 1
-Window_Titletelop_WeeklyRanking - Random Challenge Records
-Window_TwolineGuide_WeeklyRanking - You can view ARKS Records and details.
-Window_Title_Main - ARKS Records Details
-Window_Title_RankingList - Records List
-Window_Title_ClearInfo - Completion Details
-Window_Title_RewardDetail - Reward Details
-RankingList_Headline_Open - Ongoing Events
-RankingList_Headline_Notice - Upcoming Events
-RankingList_Headline_Archive - Past Events
-RankingList_Headline_All - Show All
-RankingList_StartDate - Starting on $(0)<br>$(1)
-RankingList_StartDate_All - Starting on $(0) ($(1))<br>$(2)
-RankingList_Open_Description - There are no records that can be displayed.
-RankingList_Notice_Description - There are no records that can be displayed.
-RankingList_Archive_Description - There are no records that can be displayed.
-RankingList_Loading - Loading records...
-Main_Headline_TitleName - Record Name
-Main_Headline_Category - Type
-Main_Headline_Description - Details
-Main_Headline_Period_Open - Event Duration
-Main_Headline_Period_Notice - Upcoming Events
-Main_Headline_Period_Close - Event Dates
-Main_Headline_MyRank_Open - Current Records (Update daily at $(0))
-Main_Headline_MyRank_Close - Final Record
-Main_Headline_Reward - Participation Reward
-Main_Headline_Reward_Description - The reward will change depending on the final record.
-Main_Headline_TopRank_Open - Current Top Records (Show up to $(0) players)
-Main_Headline_TopRank_Close - Top Records (Show up to $(0) players)
-MyRank_Description - You haven't participated in ARKS Records yet. <br>You can participate by playing the designated contents.
-TopRank_Description - There is no Top Records information.<br>(Update daily at $(0) once the event has started.)
-Reward_ControlGuide - Press <%Function> to check Top Records
-TopRank_ControlGuide - Press <%Function> to check Participation Rewards 
-TabButton_Class_All - All Classes
-Ranking_Period_Open - From $(1) until $(0)
-Ranking_Period_Notice - Begin in $(0).
-Ranking_Period_Notice_Soon - Will begin soon.
-Ranking_Period_Close - Ended on $(0)
-Rank_Name_Tier1 - Gold
-Rank_Name_Tier2 - Silver
-Rank_Name_Tier3 - Bronze
-RewardDetail_Headline1 - Reward Details
-RewardDetail_Headline2 - Rewards
-Window_Titletelop_TeamtaskRanking - Alliance Task Records
-Window_TwolineGuide_TeamtaskRanking - You can view current Alliance Task Records and details.
-Ranking_Reward_Nmeseta - $(0)<pict 4space><pict reb_meseta>
-Ranking_Reward_StarGem - $(0)<pict 4space><pict StarGem>
-Ranking_Reward_Item - $(0)
-Ranking_Reward_Item_Num - $(1) x $(0)
-Ranking_Reward_Other - $(0) etc.
-ScoreCategory - $(0)/$(1)
-Main_Headline_MyRank_Best - Current Best Record
-Main_Headline_MyRank_Update - <yellow>Refresh Best Record<c>
-ScoreDisplay_Best - <yellow>$(0)<c>
-ScoreDisplay_Max - <pure_orange>$(0)<c>
-ScoreDisplay_Star - ★
-ScoreDisplay_TimeSS - $(0):$(1).$(2)
-Main_Headline_UpdateTime_Open - Ranking Date: ---
-Main_Headline_UpdateTime - Ranking Date: $(0)
-Main_Headline_UpdateTime_Close - Final Ranking Date: $(0)
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
 
 
 Ranking
@@ -214,4 +171,25 @@ WeeklyRanking_Standard_Yedi_Hunt_Solo - 想定演習：極寒の追走劇：<br>
 WeeklyRanking_Title_Cocoon_Dolls Burrow - ドールズバロウ：<br>ソロ
 WeeklyRanking_Title_Cocoon_Clockwork Prison - クロックワークジェイル：<br>ソロ
 WeeklyRanking_Title_Cocoon_Deepwell - ディープウェル：<br>ソロ
+WeeklyRanking_Standard_surfing_Solo - 想定演習：烈夏の疾駆戦：<br>ソロ
+WeeklyRanking_Standard_DragonX_Solo - 想定演習：ルイノ・エクス戦：<br>ソロ
+
+Group 1
+
+Group 2
+
+Group 3
+
+Group 4
+
+Group 5
+
+Group 6
+
+Group 7
+
+Group 8
+
+Group 9
+
 
