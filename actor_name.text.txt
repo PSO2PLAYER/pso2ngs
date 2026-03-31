@@ -1,5 +1,5 @@
-actor_name.text was created: 2025/6/4 7:07:34
-Filesize is: 76256 bytes
+actor_name.text was created: 2026/3/31 11:31:55
+Filesize is: 77504 bytes
 
 Enemy
 Group 0
@@ -355,14 +355,36 @@ r05_stl_nyb_ba1 - ハヌマッド
 r05_stl_akm_ba1 - カオスザヴェル
 r05_rem_akk_ba - ルイノ・マスカレーダ
 r05_stl_bel_ba - ダークファルス・ヴァエル
+r05_rem_abh_ba - ルイノ・Ｄ・ヒューナル
 r05_rem_akk_mlt - ルイノ・マスカレーダ
 r05_stl_bel_ex - ダークファルス・ヴァエル
+r02_nat_gma_bobi - ヒート・スパルザイル
 r05_stl_box_ba1h - ハイ・ラヴィード
+r05_stl_ktn_ba1h - ハイ・ラセツ
+r05_stl_cas_el1h - ハイ・ヴァルザッガ
 r05_stl_mrt_ba1h - ハイ・バルブレッダ
 r05_stl_solsw_ba1h - ハイ・バロウグ・ソード
 r05_stl_solri_ba1h - ハイ・バロウグ・ガン
 r02_gd_sna_raih - ハイ・レヌス
 r05_stl_ins_ba1h - ハイ・エリミネイダ
+r05_rem_ztg_ba - ルイノ・グランゾ
+r05_stl_bkt_ba1h - ハイ・グラッジボーン
+r05_stl_sip_ba1h - ハイ・マクスヴァング
+r05_stl_pan_ba1h - ハイ・ギルゼイヴァ
+r05_stl_akm_ba1h - ハイ・カオスザヴェル
+r05_stl_hum_ba - アグニ
+r05_stl_mzc_bah - ハイ・ゼレヴィン
+r05_stl_wic_ba1h - ハイ・プルティネーデ
+r05_rem_dpb_ba - ルイノ・ルーサー
+r05_stl_kic_ba1h - ハイ・リングウェッジ
+r05_stl_nyb_ba1h - ハイ・ハヌマッド
+r03_gd_tur_raih - ハイ・クロコダラス
+r03_gd_hum_raih - ハイ・アムス
+r05_gd_gor_baldh - ハイ・ゴロロロクス
+r01_unk_nav_ba - ラグオ・ラッピー
+r01_unk_nav_babi - ラグオ・グレトラッピー
+r05_stl_hum_bah - ハイ・アグニ
+r05_rem_gla_ba - ルイノ・エクス
 
 Group 1
 
@@ -671,6 +693,7 @@ Type4_3 - ユリウス・ニフタ
 Type5_1 - イリオス・プロイ
 Type5_2 - イリオス・イメラ
 Type5_3 - イリオス・ニフタ
+QuickBlast - アフターブラスト
 
 Group 1
 
@@ -1128,7 +1151,7 @@ GunslashPA01_Pattern1 - 直後に発動するスラッグショット威力<yell
 GunslashPA01_Pattern2 - 方向入力時の攻撃速度上昇／PA威力<yellow>$(0)<c><br>消費PP<yellow>$(1)<c>
 GunslashPA01_Pattern3 - 非方向入力時の射程距離延長<br>非方向入力時の左右の攻撃範囲縮小<br>消費PP<yellow>$(0)<c>
 TaktPA01_Pattern1 - 同一エネミーに複数回ヒットし<br>貫通するブレスを1発放つ挙動に変化<br>消費PP<yellow>$(0)<c>
-TaktPA01_Pattern2 - 派生時の攻撃にトレブルクリフマーキングの<br>マーカー起爆効果追加<br>消費PP<yellow>$(0)<c>
+TaktPA01_Pattern2 - 派生時の攻撃にトレブルクリフマーキングと<br>マルメロアシストのマーカー起爆効果追加<br>消費PP<yellow>$(0)<c>
 TaktPA01_Pattern3 - 非派生攻撃時にトレブルクリフマーキングの<br>マーカー蓄積効果追加<br>消費PP<yellow>$(0)<c>
 Fire02_Pattern2 - 攻撃速度上昇／チャージ時間<yellow>$(0)<c><br>チャージ時威力<yellow>$(1)<c>／非チャージ時威力<yellow>$(2)<c>
 Fire02_Pattern3 - 炎の刻印の蓄積量<yellow>$(0)<c><br>複合属性テクニックのゲージ蓄積量<yellow>$(1)<c><br>消費PP<yellow>$(2)<c>
