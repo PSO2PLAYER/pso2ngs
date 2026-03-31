@@ -1,5 +1,5 @@
-actor_name.text was created: 2026/3/31 11:31:55
-Filesize is: 77504 bytes
+actor_name.text was created: 2026/4/1 7:09:00
+Filesize is: 78048 bytes
 
 Enemy
 Group 0
@@ -365,6 +365,7 @@ r05_stl_cas_el1h - ハイ・ヴァルザッガ
 r05_stl_mrt_ba1h - ハイ・バルブレッダ
 r05_stl_solsw_ba1h - ハイ・バロウグ・ソード
 r05_stl_solri_ba1h - ハイ・バロウグ・ガン
+r01_unk_rap_id - イド・ラッピー
 r02_gd_sna_raih - ハイ・レヌス
 r05_stl_ins_ba1h - ハイ・エリミネイダ
 r05_rem_ztg_ba - ルイノ・グランゾ
@@ -385,6 +386,13 @@ r01_unk_nav_ba - ラグオ・ラッピー
 r01_unk_nav_babi - ラグオ・グレトラッピー
 r05_stl_hum_bah - ハイ・アグニ
 r05_rem_gla_ba - ルイノ・エクス
+r05_non_cml1_mob - 調査隊員[長槍]
+r05_non_cml2_mob - 調査隊員[長杖]
+r05_non_cml3_mob - 調査隊員[大剣]
+r02_nat_trf_bah - ハイ・グランマイザー
+r02_alt_wlf_bah - ハイ・ワウロン
+r05_rem_dpb_ex - ルイノ・ルーサー
+r05_nat_zmr_rsh - ハイ・ギルナッチ
 
 Group 1
 
@@ -805,6 +813,9 @@ Npc_7025 - ゼフェット
 Npc_7026 - ファリア
 Npc_7027 - リクール
 Npc_7028 - ルカ
+Npc_7033 - ？？？
+Npc_7034 - ルーシア
+Npc_7036 - オルタ・クロフォード
 
 Group 1
 

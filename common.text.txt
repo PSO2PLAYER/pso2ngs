@@ -1,5 +1,5 @@
-common.text was created: 2026/3/31 11:40:57
-Filesize is: 212768 bytes
+common.text was created: 2026/4/1 7:09:00
+Filesize is: 216304 bytes
 
 Block
 Group 0
@@ -1724,6 +1724,23 @@ LobbyAction_2406wlances - 武器反映ポーズ18
 LobbyAction_2394handinhand - 手をつなぐ3
 LobbyAction_2475umbrella - 番傘ポーズ2
 LobbyAction_2505central - せんとらるっ！3
+LobbyAction_suwaritaikire - 座る５＋
+LobbyAction_flagre - 掲げる＋
+LobbyAction_2417muscle - 筋トレ2
+LobbyAction_2431sit - 椅子に座る
+LobbyAction_2503danceset - ダンスセット2
+LobbyAction_2504weaponoid - ウェポノイドポーズ１１
+LobbyAction_weaponoid03re - ウェポノイドポーズ３＋
+LobbyAction_weaponoid04re - ウェポノイドポーズ４＋
+LobbyAction_mechanic - 整備
+LobbyAction_sidehold - 小脇に抱える
+LobbyAction_2470weaponact - 武器回し
+LobbyAction_2443sit - 座る１３
+LobbyAction_2483idola - イドラキャラポーズ６
+LobbyAction_2484idola - イドラキャラポーズ７
+LobbyAction_2506idoladance - スターライトディーヴァ
+LobbyAction_2507idoladance - ツインスターディーヴァ
+LobbyAction_2508idoladance - コズミックディーヴァ
 LobbyAction_fgoo - グー
 LobbyAction_foyayubi - 親指
 LobbyAction_fhitosashi - 人差し指
@@ -1783,6 +1800,7 @@ LobbyAction_2352handopen - 決めポーズ2
 LobbyAction_2370lshape - Lの字2
 LobbyAction_2427threemage - 三本指3
 LobbyAction_2467tsumamu - つまむ2
+LobbyAction_2502indexfinger - 人差し指2
 LobbyAction_Pchair_viri - フォトンチェア深緑
 LobbyAction_Pchair_green - フォトンチェア緑
 LobbyAction_Pchair_sky - フォトンチェア水
@@ -2824,6 +2842,13 @@ RestrictionMessageInfo - この機能のご利用には、SEGA IDとの連携が
 PSONLY_NotSupported - “クロスプレイ設定”が“無効”のため、<br>現在、この機能はご利用いただけません。<br><br>ログインメニューで<br>“クロスプレイ設定”を“有効”にすることで、<br>ご利用いただけるようになります。
 PSONLY_NotSupported_Title - クロスプレイ無効
 SegaAccount_LinkFix - SEGA Account連携が完了しました。
+PrivacyPolicyCheck_Title - プライバシーポリシー確認
+PrivacyPolicy_Message - ゲームを開始するには、プライバシーポリシーに<br>同意する必要があります。<br>以下の「プライバシーポリシー」から、<br>お客様の個人情報の取り扱いについて<br>記載されたプライバシーポリシーをご確認ください。
+PrivacyPolicy_MessageCancel - 同意いただけない場合はゲームを<br>プレイすることができません。<br><br>タイトル画面に戻ります。<br>よろしいですか？
+PrivacyPolicyCheck_LinkButton - プライバシーポリシーを確認する
+PrivacyPolicyCheck_CheckBox - プライバシーポリシーに同意する
+PrivacyPolicyCheck_Agree - 同意する
+PrivacyPolicyCheck_NotAgree - 同意しない
 
 Group 1
 
@@ -3048,6 +3073,7 @@ Guide_ItemRecycle_02 - 決定：<%Decide>　　キャンセル：<%Cancel>　　
 Guide_MySpace_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　 お気に入り登録/編集：<%NextTabDetails>
 Guide_Event_01 - カメラ操作：<swguidetype EventCamera>
 Guide_CoordCatalog_01 - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>　　サブメニュー：<%Function>
+Guid_LaboItemDetail - 決定：<%Decide>　　キャンセル：<%Cancel>　　操作項目の移動：<%NextWidget>　　操作ウィンドウ切り替え：<%ChangeCtrlWindowForward>　　詳細ウィンドウタブ順送り：<%NextTabDetails>
 
 Group 1
 
@@ -3409,6 +3435,28 @@ Substitute_Idle_371 - ぺたん座り2EX
 Substitute_Idle_372 - 優雅な佇まい
 Substitute_Idle_373 - 優雅な佇まいEX
 Substitute_Idle_374 - 箱に座る2
+Substitute_Idle_375 - ブーケを持つ/B
+Substitute_Idle_376 - ステラC・歌姫
+Substitute_Idle_377 - ウィンディスC・歌姫
+Substitute_Idle_378 - クーナC・歌姫
+Substitute_Idle_379 - 目元ピース
+Substitute_Idle_380 - ラッピーズ
+Substitute_Idle_382 - 思案3
+Substitute_Idle_383 - モデル立ち7
+Substitute_Idle_384 - ハートポーズ2
+Substitute_Idle_385 - 顎をなでる
+Substitute_Idle_386 - 抜剣
+Substitute_Idle_387 - 口元に手を当てる
+Substitute_Idle_388 - 抜剣EX
+Substitute_Idle_389 - にゃんたしーすたー
+Substitute_Idle_390 - にゃんたしーすたー2
+Substitute_Idle_391 - かわいくジャンプ
+Substitute_Idle_392 - 扇子
+Substitute_Idle_393 - おねだり2
+Substitute_Idle_394 - 高飛車
+Substitute_Idle_395 - スターライトディーヴァ
+Substitute_Idle_396 - ツインスターディーヴァ
+Substitute_Idle_397 - コズミックディーヴァ
 Substitute_Jump_0 - 標準
 Substitute_Jump_1 - シンプル
 Substitute_Jump_2 - シンプル2
@@ -3569,6 +3617,9 @@ Substitute_Move_88 - ホールスタッフ
 Substitute_Move_89 - モノホイール
 Substitute_Move_90 - 長杖
 Substitute_Move_91 - 優雅な佇まい
+Substitute_Move_92 - 抜剣
+Substitute_Move_93 - ブーケを持つ/B
+Substitute_Move_94 - 高飛車
 Substitute_Sprint_0 - 標準
 Substitute_Sprint_1 - シンプル
 Substitute_Sprint_2 - シンプル2
@@ -3800,6 +3851,9 @@ Substitute_Sprint_250 - モノホイール
 Substitute_Sprint_251 - モノホイールEX
 Substitute_Sprint_252 - 長杖
 Substitute_Sprint_253 - 優雅な佇まい
+Substitute_Sprint_254 - 抜剣
+Substitute_Sprint_255 - ハンディープロペラ/B
+Substitute_Sprint_256 - 高飛車
 Substitute_Glide_0 - 標準
 Substitute_Glide_1 - ミニグライダー
 Substitute_Glide_2 - ジェットパック
@@ -4020,6 +4074,9 @@ Substitute_Glide_237 - モノホイールEX
 Substitute_Glide_238 - 長杖
 Substitute_Glide_239 - 優雅な佇まい
 Substitute_Glide_240 - 優雅な佇まいEX
+Substitute_Glide_241 - 抜剣
+Substitute_Glide_242 - ハンディープロペラ/B
+Substitute_Glide_243 - 高飛車
 Substitute_Swim_0 - 標準
 Substitute_Swim_2 - クロール
 Substitute_Swim_3 - 潜水

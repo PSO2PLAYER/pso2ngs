@@ -1,5 +1,5 @@
-quest_common_reboot.text was created: 2026/3/31 12:04:22
-Filesize is: 82096 bytes
+quest_common_reboot.text was created: 2026/4/1 7:09:00
+Filesize is: 82192 bytes
 
 CocoonFail
 Group 0
@@ -183,6 +183,7 @@ PartyClearRanking - あなたのパーティーの順位：$(0)位
 3452_50 - 60000ポイント到達！（現在の進捗率：50%）
 3452_70 - 84000ポイント到達！（現在の進捗率：70%）
 3452_90 - 108000ポイント到達！（現在の進捗率：90%）
+MessageOnSomeoneQuestDrop - クエストの参加者が$(0)人になりました。
 
 Group 1
 
