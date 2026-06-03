@@ -1,5 +1,5 @@
-ui_mainmode.text was created: 2026/4/1 7:09:00
-Filesize is: 807120 bytes
+ui_mainmode.text was created: 2026/6/3 9:47:33
+Filesize is: 809680 bytes
 
 Common
 Group 0
@@ -1971,6 +1971,7 @@ StatusLabelSeasonPoint_40 - 超・創世祭'25（後半）シーズナルポイ�
 StatusLabelSeasonPoint_41 - スプリング'26シーズナルポイント
 StatusLabelSeasonPoint_42 - イドラコラボ'26シーズナルポイント
 StatusLabelSeasonPoint_43 - 超・星譚祭'26シーズナルポイント
+StatusLabelSeasonPoint_44 - 真・超星譚祭'26シーズナルポイント
 StatusLabelSeasonPointValue - $(1) /$(0)
 StatusLabelN-Meseta - <pict reb_meseta>メセタ
 StatusLabelFun - FUN
@@ -2268,6 +2269,30 @@ EnemyDebuff_DfDamageUp - ダメージ耐性－$(0)%
 EnemyDebuff_AtDownDown - エネミーに与えるダウン値－$(0)%
 EnemyDebuff_DfDownUp - 状態異常耐性－$(0)%
 ArcsRecord_MainAtkUp - 攻撃威力+20%　<yellow>※メインクラス装備可能武器のみ適用<c>
+SubTitle_QuestBuff - クエスト支援効果
+RuinBuff_MoveSpeedUp - 移動速度上昇
+RuinBuff_MoveSpeedUpEnd - クエスト支援効果<yellow>移動速度上昇<c>の効果が切れました。
+RuinBuff_PpRecoveryUp - PP回復量増加
+RuinBuff_PpRecoveryUpEnd - クエスト支援効果<yellow>PP回復量増加<c>の効果が切れました。
+RuinBuff_PbBoost - フォトンブラストゲージ蓄積量増加
+RuinBuff_PbBoostEnd - クエスト支援効果<yellow>フォトンブラストゲージ蓄積量増加<c>の効果が切れました。
+RuinBuff_MarsRecoveryUp - M.A.R.S.バッテリー自然回復量増加
+RuinBuff_MarsRecoveryUpEnd - クエスト支援効果<yellow>M.A.R.S.バッテリー自然回復量増加<c>の効果が切れました。
+RuinBuff_RemnantsBuster - ルーイナス攻撃時追加ダメージ
+RuinBuff_RemnantsBusterEnd - クエスト支援効果<yellow>ルーイナス攻撃時追加ダメージ<c>の効果が切れました。
+RuinBuff_DreadBuster - (遺跡バフ：ドレッドエネミー特攻)
+RuinBuff_DreadBusterEnd - (遺跡バフ：ドレッドエネミー特攻終了)
+RuinBuff_GiganticsBuster - (遺跡バフ：ギガンティクスエネミー特攻)
+RuinBuff_GiganticsBusterEnd - (遺跡バフ：ギガンティクスエネミー特攻終了)
+RuinBuff_StarlessBuster - スターレス攻撃時追加ダメージ
+RuinBuff_StarlessBusterEnd - クエスト支援効果<yellow>スターレス攻撃時追加ダメージ<c>の効果が切れました。
+RuinBuff_AlterBuster - アルターズに攻撃時追加ダメージ
+RuinBuff_AlterBusterEnd - クエスト支援効果<yellow>アルターズ攻撃時追加ダメージ<c>の効果が切れました。
+RuinBuff_GodBuster - ドールズ攻撃時追加ダメージ
+RuinBuff_GodBusterEnd - クエスト支援効果<yellow>ドールズ攻撃時追加ダメージ<c>の効果が切れました。
+Obj:MonolithPlayerBuff - 威力+10%／ダメージ耐性アップ+75%
+RuinBuff_DropRareUp - レアドロップ倍率＋25%
+RuinBuff_DropRareUpEnd - クエスト支援効果<yellow>レアドロップ倍率＋25%<c>の効果が切れました。
 
 Group 1
 
@@ -10432,6 +10457,7 @@ AreaName0000005 - トレイニアアドバンス内部
 AreaName0000006 - ルシエル
 AreaName0000007 - ネームレスシティ
 AreaName0000008 - ネオンシティ
+AreaName0000009 - 遺跡
 AreaName1110001 - エアリオタウン
 AreaName1110002 - セントラルシティ
 AreaName1110003 - マグナス山
@@ -11015,6 +11041,7 @@ Group 0
 11413 - リージョン4-11413ダミーテキスト
 11420 - ネームレスシティ
 11421 - ネオンシティ
+11240 - 遺跡
 
 Group 1
 
@@ -11559,6 +11586,10 @@ White_Default_K - 通常
 White_Default_K2 - 通常
 City_Neon - 通常
 City_Trial_Neon - フォトン励起（夜）
+Ruin_Default - 通常
+Ruin_Boss - 豪雨
+Ruin_Gold - 光雨
+Ruin_Monolith - 瘴気
 
 Group 1
 
@@ -11834,6 +11865,7 @@ Cursor_Guide_Label_Place - パーソナルガイド設置
 Cursor_Guide_Key_Sector - <%NextWidget>：
 Cursor_Guide_Label_Sector - セクション情報
 Window_BattleTrigger_Title_CodeKey_w1_r1_4 - パープルポータル：エアリオEX
+FeaturedExElement - \注目のEx特殊能力
 
 Group 1
 

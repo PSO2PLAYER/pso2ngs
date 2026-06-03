@@ -1,5 +1,5 @@
-ui_tips_reb.text was created: 2026/4/1 7:09:00
-Filesize is: 42736 bytes
+ui_tips_reb.text was created: 2026/6/3 9:47:33
+Filesize is: 43280 bytes
 
 Tips
 Group 0
@@ -347,6 +347,10 @@ Dead_r02_nat_trf_bah_001 - ハイ・グランマイザーが紫色に発光す�
 Dead_r02_nat_trf_bah_002 - ハイ・グランマイザーは、特定の攻撃後にコアを露出する。
 Dead_r02_alt_wlf_bah_001 - ハイ・ワウロンが紫色に発光すると、<br>強力な広範囲攻撃をしてくる。
 Dead_r02_alt_wlf_bah_002 - ハイ・ワウロンは、<br>顔をそらしたあとに強力なレーザー攻撃をしてくる。
+Dead_r05_rem_zsh_ba_001 - 足を破壊し、よろけているルイノ・シュレイダΛを攻撃すると、<br>転んで弱点のコアが露出する。
+Dead_r05_rem_zsh_ba_002 - ルイノ・シュレイダΛが甲羅に潜っているときに頭を攻撃すると、<br>ダウンさせることができる。
+Dead_r05_stl_sls_exh_001 - ソラス・クリプトがフィールド上に配置する部位は、<br>すべて破壊することで弱点が露出する。
+Dead_r05_stl_sls_exh_002 - ソラス・クリプトの強力な広範囲攻撃は、<br>範囲外に移動することで安全に回避できる。
 
 Group 1
 

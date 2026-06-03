@@ -1,5 +1,5 @@
-ui_tutorial_reb.text was created: 2026/3/31 12:04:22
-Filesize is: 19952 bytes
+ui_tutorial_reb.text was created: 2026/6/3 9:47:33
+Filesize is: 20192 bytes
 
 TitleName
 Group 0
@@ -368,6 +368,10 @@ tut_006715 - ラッピーティンクル
 tut_006716 - ネームレスシティ遊興区画調査
 tut_006717 - ￥仮：ルーレット
 tut_006718 - リプレイススイッチ
+tut_006719 - 界域調査
+tut_006721 - グリムモノリス浄化トライアル
+tut_006722 - レアエネミー大発生トライアル
+tut_006723 - ハントラリートライアル
 
 Group 1
 
@@ -431,6 +435,7 @@ task - タスク／ミッションパス／称号
 line_duel - ラインストライク
 urban_area - ネームレスシティ
 alter_realm - オルタレルム探索
+classic_area - 分岐界域探索
 
 Group 1
 
